@@ -1,0 +1,69 @@
+project:
+  type: website
+
+website:
+  title: "Seth&Nut"
+  site-url: "fralfaro.github.io/blog/"
+  favicon: 'images/logo_sn.png'
+  image: 'images/logo_sn.png'
+  page-footer:
+    left: "Website creado con [Quarto](https://quarto.org/) por Francisco Alfaro. Licencia: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    right:
+      - icon: github
+        href: https://github.com/Seth-Nut
+      - icon: linkedin
+        href: https://www.linkedin.com/company/Seth-Nut/
+      - icon: globe
+        href: https://seth-nut.github.io/website/
+
+  navbar:
+    logo: /images/doberman.png
+    right:
+      - icon: github
+        href: https://github.com/Seth-Nut
+      - icon: linkedin
+        href: https://www.linkedin.com/company/Seth-Nut/
+      - icon: globe
+        href: https://seth-nut.github.io/website/
+
+navbar:
+  title: "Presentaciones"
+  right:
+    - text: "Inicio"
+      href: index.html
+    - text: "Presentación 1"
+      href: presentacion1.html
+    - text: "Presentación 2"
+      href: presentacion2.html
+    - text: "Presentación 3"
+      href: presentacion3.html
+
+
+lang: es
+
+format:
+  html:
+    smooth-scroll: true
+    theme:
+      - pulse
+      - custom.scss
+    link-external-icon: false
+    link-external-newwindow: true
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
+    code-link: true
+
+
+editor: visual
+
+comments:
+  giscus:
+    repo: beatrizmilz/blog-en
+
+execute:
+  freeze: true
+
+filters:
+  - webr
+  - pyodide

@@ -1,0 +1,15 @@
+---
+title: "🎉 Presentaciones"
+output: html_document
+---
+
+# Lista de Presentaciones
+
+¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con [Quarto](https://quarto.org/), una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.
+
+
+¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!
+
+- 🎤 [**Uso de Quarto para crear clases interactivas**](latinr_2024/presentacion.html) - Quarto permite crear contenidos interactivos en R y Python, facilitando la enseñanza y ejecución de código en el navegador.
+
+¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊
