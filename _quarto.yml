@@ -59,7 +59,7 @@ editor: visual
 
 comments:
   giscus:
-    repo: beatrizmilz/blog-en
+    repo: Seth-Nut/talks
 
 execute:
   freeze: true

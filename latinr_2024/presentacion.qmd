@@ -9,7 +9,7 @@ format:
       data-background-image: images/background.jpg
     slide-attributes:
       data-background-image: images/background.jpg
-    logo: latinr_logo.png
+    logo: images/latinr_logo.png
 ---
 
 

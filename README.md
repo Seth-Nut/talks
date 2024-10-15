@@ -1,7 +1,7 @@
 
 # ¡Bienvenido a Seth&Nut!
 
-[![example workflow](https://github.com/Seth-Nut/talks/actions/workflows/documentation.yml/badge.svg)](https://github.com/Seth-Nut/talks/actions)
+[![example workflow](https://github.com/Seth-Nut/website/actions/workflows/documentation.yml/badge.svg)](https://github.com/Seth-Nut/talks/actions)
 [![documentation](https://img.shields.io/badge/🌐-website-blue)](https://seth-nut.github.io/talks/)
 
 
