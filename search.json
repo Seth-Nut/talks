@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "🎉 Presentaciones",
+    "section": "",
+    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto permite crear contenidos interactivos en R y Python, facilitando la enseñanza y ejecución de código en el navegador.\n\n¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊"
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#introducción",
+    "href": "latinr_2024/presentacion.html#introducción",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🚀 Introducción",
+    "text": "🚀 Introducción\n\n\n\n\nQuarto permite crear contenidos interactivos y combinar varios lenguajes en un solo entorno educativo."
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
+    "href": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🌐 Quarto WebR y Quarto Pyodide",
+    "text": "🌐 Quarto WebR y Quarto Pyodide\n\nWebR: Ejecuta código R en el navegador, sin instalaciones.\n# Para instalar WebR en tu entorno\nremotes::install_github(\"attiyap/WebR\")\nPyodide : Idem pero para Python.\n# Para instalar Pyodide\npip install pyodide"
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#ejemplo-r",
+    "href": "latinr_2024/presentacion.html#ejemplo-r",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "📊 Ejemplo R",
+    "text": "📊 Ejemplo R\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#ejemplo-python",
+    "href": "latinr_2024/presentacion.html#ejemplo-python",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "📊 Ejemplo Python",
+    "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
+    "href": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🎓 Quarto y la Enseñanza",
+    "text": "🎓 Quarto y la Enseñanza"
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#implementación",
+    "href": "latinr_2024/presentacion.html#implementación",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🛠️ Implementación",
+    "text": "🛠️ Implementación"
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#talleres",
+    "href": "latinr_2024/presentacion.html#talleres",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🎓 Talleres",
+    "text": "🎓 Talleres\n\n\n\n\n🐍 PySchool Chile\n\n\n🔢 Olimpiadas USM 2024"
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#resultados",
+    "href": "latinr_2024/presentacion.html#resultados",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "📊 Resultados",
+    "text": "📊 Resultados\nEncuestas sobre el taller:\n\nSatisfacción general alta, con un promedio cercano a 9.\nDestacaron el uso de las herramientas interactivas."
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#recursos-adicionales",
+    "href": "latinr_2024/presentacion.html#recursos-adicionales",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "📚 Recursos Adicionales",
+    "text": "📚 Recursos Adicionales\n\n\n🌐 Remasterización del libro: “R for Data Science”"
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#gracias-por-participar",
+    "href": "latinr_2024/presentacion.html#gracias-por-participar",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar LatinR 2024!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+  }
+]
