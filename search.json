@@ -4,7 +4,231 @@
     "href": "index.html",
     "title": "🎉 Presentaciones",
     "section": "",
-    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto permite crear contenidos interactivos en R y Python, facilitando la enseñanza y ejecución de código en el navegador.\n\n¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊"
+    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto permite crear contenidos interactivos en R y Python, facilitando la enseñanza y ejecución de código en el navegador.\n🎤 Data Storytelling usando Streamlit & A.I. - Esta presentación explora la potencia de las herramientas de inteligencia artificial para crear presentaciones interactivas, utilizando Python y Streamlit.\n\n¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#agenda",
+    "href": "visualization_2024/presentacion.html#agenda",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n \nNo\nNope\nJamás"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#section",
+    "href": "visualization_2024/presentacion.html#section",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "",
+    "text": "Regla de Storytelling #1\n\n\nNunca reveles el final antes de tiempo.\nSiempre eleva la tensión y el dramatismo"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#agenda-v2",
+    "href": "visualization_2024/presentacion.html#agenda-v2",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes.\nTu primera versión será horrible.\nMuestra, no cuentes."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#section-1",
+    "href": "visualization_2024/presentacion.html#section-1",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "",
+    "text": "Data Storytelling\n¿Por qué Data Storytelling?"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#qué-es-el-storytelling",
+    "href": "visualization_2024/presentacion.html#qué-es-el-storytelling",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "¿Qué es el Storytelling?",
+    "text": "¿Qué es el Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#esos-cerebros-tan-hackables",
+    "href": "visualization_2024/presentacion.html#esos-cerebros-tan-hackables",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Esos cerebros tan hackables…",
+    "text": "Esos cerebros tan hackables…\n\n\n\nRegla del máximo y final (Peak-End Rule)\n\n\nRating de Game of Thrones, por Kelvin Neo"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#narrativa",
+    "href": "visualization_2024/presentacion.html#narrativa",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Narrativa",
+    "text": "Narrativa\n\n\n Usar trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n🎭 Las emociones generan acciones"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#el-mejor-ejemplo",
+    "href": "visualization_2024/presentacion.html#el-mejor-ejemplo",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "El mejor ejemplo",
+    "text": "El mejor ejemplo\n\n\n\n\n\n\n\n\n  ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#section-2",
+    "href": "visualization_2024/presentacion.html#section-2",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "",
+    "text": "Regla de Storytelling #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#ejemplos",
+    "href": "visualization_2024/presentacion.html#ejemplos",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#section-3",
+    "href": "visualization_2024/presentacion.html#section-3",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "",
+    "text": "Regla de Storytelling #3\n\n\nTu primera versión siempre será horrible."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#ejemplos-1",
+    "href": "visualization_2024/presentacion.html#ejemplos-1",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🥱 1° versión \\(&lt;\\) … \\(&lt;\\) 😊 última versión"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#usar-chatbots-de-ia-para",
+    "href": "visualization_2024/presentacion.html#usar-chatbots-de-ia-para",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nAnalogías y ejemplos\nMejores traducciones\nPrompts para crear imágenes\nNo busques imágenes, créalas!"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#section-4",
+    "href": "visualization_2024/presentacion.html#section-4",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "",
+    "text": "Regla de Storytelling #4\n\n\nExplicar menos y mostrar más"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#explicar-menos-y-mostrar-más",
+    "href": "visualization_2024/presentacion.html#explicar-menos-y-mostrar-más",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Explicar menos y mostrar más",
+    "text": "Explicar menos y mostrar más"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#agenda-v2-1",
+    "href": "visualization_2024/presentacion.html#agenda-v2-1",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nMuestra, no cuentes\n\n\n\nOpción 2: Una agenda misteriosa."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#section-5",
+    "href": "visualization_2024/presentacion.html#section-5",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "",
+    "text": "Visualización\n¿Qué es la Visualización?"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#qué-es-la-visualización",
+    "href": "visualization_2024/presentacion.html#qué-es-la-visualización",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Qué es la Visualización?",
+    "text": "Qué es la Visualización?\n\n\n La visualización de datos transforma información en gráficos para facilitar su comprensión."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#ejemplos-2",
+    "href": "visualization_2024/presentacion.html#ejemplos-2",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n❌ Mal Gráfico\n\n\n\n\n\n\n✅ Buen Gráfico"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#cuarteto-de-anscombe",
+    "href": "visualization_2024/presentacion.html#cuarteto-de-anscombe",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Cuarteto de ANSCOMBE",
+    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n📋 Tablas vs 📊 Gráficos"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#teoría-de-visualización",
+    "href": "visualization_2024/presentacion.html#teoría-de-visualización",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Teoría de visualización",
+    "text": "Teoría de visualización"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#pilares-visualización---noah-iliinsky",
+    "href": "visualization_2024/presentacion.html#pilares-visualización---noah-iliinsky",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "4 Pilares Visualización - Noah Iliinsky",
+    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#section-6",
+    "href": "visualization_2024/presentacion.html#section-6",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "",
+    "text": "Herramientas\nHerramientas de Visualización en Python"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#exploración-de-datos",
+    "href": "visualization_2024/presentacion.html#exploración-de-datos",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Exploración de Datos",
+    "text": "Exploración de Datos\n\n\n\n\n\n\n\n\n\n\n¡Demasiadas opciones!  El usuario no puede ser responsable de encontrar lo valioso."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#tipos-de-gráficos-esenciales",
+    "href": "visualization_2024/presentacion.html#tipos-de-gráficos-esenciales",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Tipos de Gráficos Esenciales",
+    "text": "Tipos de Gráficos Esenciales\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#librerías-para-graficar",
+    "href": "visualization_2024/presentacion.html#librerías-para-graficar",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Librerías para Graficar",
+    "text": "Librerías para Graficar\n\n\n¡Explora estas poderosas librerías de visualización en Python!\n\nVieja confiable: Matplotlib\nPopulares: Seaborn, Plotly, Altair\nOtras: plotnine, pygal, Bokeh\n\n\n\n\n\n\n\n\n\n\n📊 Elige una y domínala!"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#ejemplos-3",
+    "href": "visualization_2024/presentacion.html#ejemplos-3",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "📊 Ejemplos",
+    "text": "📊 Ejemplos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#ejemplos-4",
+    "href": "visualization_2024/presentacion.html#ejemplos-4",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "📊 Ejemplos",
+    "text": "📊 Ejemplos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#ejemplos-5",
+    "href": "visualization_2024/presentacion.html#ejemplos-5",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "📊 Ejemplos",
+    "text": "📊 Ejemplos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#dashboards-en-python",
+    "href": "visualization_2024/presentacion.html#dashboards-en-python",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Dashboards en Python",
+    "text": "Dashboards en Python\n https://github.com/sebastiandres/streamlit_slides"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#dashboards-en-python-1",
+    "href": "visualization_2024/presentacion.html#dashboards-en-python-1",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "Dashboards en Python",
+    "text": "Dashboards en Python\n\n\n \nStreamlit-Slides\nTu presentación es una página web"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#gracias-por-participar",
+    "href": "visualization_2024/presentacion.html#gracias-por-participar",
+    "title": "Data Storytelling usando Streamlit & A.I.",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
     "objectID": "latinr_2024/presentacion.html#introducción",
