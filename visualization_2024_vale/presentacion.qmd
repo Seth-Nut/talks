@@ -2,7 +2,7 @@
 title: "Data Storytelling usando Streamlit & A.I."
 author: 
   - Valeska Canales
-date: 16 Nov 2024
+date: 15 Nov 2024
 format: 
   revealjs:
   
