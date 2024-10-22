@@ -12,4 +12,7 @@ output: html_document
 
 - 🎤 [Uso de Quarto para crear clases interactivas](latinr_2024/presentacion.html) - Quarto permite crear contenidos interactivos en R y Python, facilitando la enseñanza y ejecución de código en el navegador.
 
+- 🎤 [Data Storytelling usando Streamlit & A.I.](visualization_2024/presentacion.html) - Esta presentación explora la potencia de las herramientas de inteligencia artificial para crear presentaciones interactivas, utilizando Python y Streamlit.
+
 ¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊
+

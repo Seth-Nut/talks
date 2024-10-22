@@ -15,7 +15,7 @@ format:
 
 
 
-## 🚀 Introducción {background-image=images/background.jpg}
+## 🚀 Introducción {background-image="images/background.jpg" background-opacity="0.25"}
 
 
 ::: {.columns}
@@ -29,7 +29,7 @@ format:
 
 ---
 
-## 🌐 Quarto WebR y Quarto Pyodide {background-image=images/background.jpg}
+## 🌐 Quarto WebR y Quarto Pyodide {background-image="images/background.jpg" background-opacity="0.25"}
 
 
 1.  [WebR](https://docs.r-wasm.org/webr/latest/): Ejecuta código R en el navegador, sin instalaciones. 
@@ -52,7 +52,7 @@ format:
 
 
 
-## 📊 Ejemplo R {background-image=images/background.jpg}
+## 📊 Ejemplo R  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{webr-r}
 x <- c(1, 2, 3, 4, 5)
@@ -63,7 +63,7 @@ title(main="Gráfico Sencillo en R")
 
 ---
 
-## 📊 Ejemplo Python {background-image=images/background.jpg}
+## 📊 Ejemplo Python  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{pyodide-python}
 import matplotlib.pyplot as plt
@@ -77,7 +77,7 @@ plt.show()
 
 ---
 
-## 🎓 Quarto y la Enseñanza {background-image=images/background.jpg}
+## 🎓 Quarto y la Enseñanza  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ![](images/n01.png)
 
@@ -85,7 +85,7 @@ plt.show()
 
 
 
-## 🛠️ Implementación  {background-image=images/background.jpg}
+## 🛠️ Implementación   {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
@@ -93,7 +93,7 @@ plt.show()
 ---
 
 
-## 🎓 Talleres {background-image=images/background.jpg}
+## 🎓 Talleres  {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
@@ -111,7 +111,7 @@ plt.show()
 ---
 
 
-## 📊 Resultados {background-image=images/background.jpg}
+## 📊 Resultados  {background-image="images/background.jpg" background-opacity="0.25"}
 
 Encuestas sobre el taller:
 
@@ -123,7 +123,7 @@ Encuestas sobre el taller:
 ---
 
 
-## 📚 Recursos Adicionales {background-image=images/background.jpg}
+## 📚 Recursos Adicionales {background-image="images/background.jpg" background-opacity="0.25"}
 
 
 
@@ -134,7 +134,7 @@ Encuestas sobre el taller:
 
 ---
 
-## 🎉 ¡Gracias por Participar! {background-image=images/background.jpg}
+## 🎉 ¡Gracias por Participar!  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.columns}
 :::: {.column width=50%}

@@ -77,3 +77,4 @@ docs
 __more__
 _others_
 _freeze
+*.ipynb
