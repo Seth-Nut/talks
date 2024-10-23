@@ -1,17 +1,12 @@
 ---
-title: "Data Storytelling usando Streamlit & A.I."
+title: "Crea, Innova y Presenta  Data Storytelling + A.I."
 author: 
   - Francisco Alfaro
   - Valeska Canales
 date: 16 Nov 2024
 format: 
   revealjs:
-  
     transition: slide
-    title-slide-attributes: 
-      data-background-image: images/background.jpg
-    slide-attributes:
-      data-background-image: images/background.jpg
     logo: images/logo_sn.png
 ---
 
@@ -214,6 +209,24 @@ Tu primera versión **siempre** será horrible.
 
 ## Usar chatbots de IA para: {background-image="images/background.jpg" background-opacity="0.25"}
 ::: columns
+::: {.column width="65%"}
+<br>
+
+* Plantillas personalizadas a medida
+* Automatizar estructura del contenido
+* Ahorro de tiempo en diseño
+* Adaptación al estilo y preferencias
+
+:::
+::: {.column width="35%" .fragment}
+![](images/ai/template.png){fig-align="center"}
+:::
+:::
+
+---
+
+## Usar chatbots de IA para: {background-image="images/background.jpg" background-opacity="0.25"}
+::: columns
 ::: {.column width="60%"}
 <br>
 
@@ -284,12 +297,13 @@ Opción 2: Una agenda misteriosa.
 
 ---
 
-## Qué es la Visualización? {background-image="images/background.jpg" background-opacity="0.25"}
+## Visualización... {background-image="images/background.jpg" background-opacity="0.25"}
 
 
 ::: columns
 ::: {.column width="60%"}
 <br>
+
 La visualización de datos transforma información en gráficos para facilitar su comprensión. 
 
 :::
@@ -334,9 +348,15 @@ La visualización de datos transforma información en gráficos para facilitar s
 
 ---
 
+### Datasaurus {background-image="images/background.jpg" background-size="cover" background-opacity="0.5"}
+
+![](./images/viz/anscombe.gif){width=80%}
+
+---
+
 ## Teoría de visualización {background-image="images/background.jpg" background-opacity="0.25"}
 
-![](images/viz/teoria_vis.png){fig-align="center" width="90%"}
+<img src="images/viz/teoria_vis.png" alt="teoria visualización" style="display: block; margin: 0 auto; width: 20%;">
 
 ---
 
@@ -362,152 +382,184 @@ La visualización de datos transforma información en gráficos para facilitar s
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
 [Herramientas]{style="font-size: 1em"}
 
-[Herramientas de Visualización en Python]{style="font-size: 2em"}
+[Herramientas de Visualización]{style="font-size: 2em"}
 </div>
 
 
----
-
-## Exploración de Datos {background-image="images/background.jpg" background-opacity="0.25"}
-
-. . .
-
-![](images/viz/looker.png){width=400 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
-
-. . .
-
-![](images/viz/tableau.png){.absolute top=125 left=25 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
-
-. . .
-
-![](images/viz/pbi.png){.absolute top=150 left=50 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
-
-. . .
-
-[¡Demasiadas opciones! <br> El usuario no puede ser responsable de encontrar lo valioso.]{ style="background-color: #fff" }
-
----
-
-## Tipos de Gráficos Esenciales {background-image="images/background.jpg" background-opacity="0.25"}
-
-
-
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-
-<img src="images/viz/chart_01.png" style="width: 75%; height: auto;"/> 
-<img src="images/viz/chart_04.png" style="width: 75%; height: auto;"/>
-
-<img src="images/viz/chart_03.png" style="width: 75%; height: auto;"/>
-<img src="images/viz/chart_05.png" style="width: 70%; height: auto;"/>
-
-<img src="images/viz/chart_02.png" style="width: 75%; height: auto;"/>
-<img src="images/viz/chart_07.png" style="width: 85%; height: auto;"/>
-
-</div>
-
-. . .
-
-[(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
-
-
----
-
-## Librerías para Graficar  {background-image="images/background.jpg" background-opacity="0.25"}
+## Herramientas para presentación  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%" .fragment .incremental}
-¡Explora estas poderosas librerías de visualización en Python!
+::: {.column width="60%" }
+* **Clásica**: PowerPoint
+* **"Show don't tell"**: 
+  * quarto
+  * jupyter + RISE
+  * html & webapps
+* **Otros**: canvas, revealjs, prezi
 
-* **Vieja confiable**: [Matplotlib](https://matplotlib.org/)
-* **Populares**: [Seaborn](https://seaborn.pydata.org/), [Plotly](https://plotly.com/python/), [Altair](https://altair-viz.github.io/)
-* **Otras**: [plotnine](https://plotnine.readthedocs.io/), [pygal](http://www.pygal.org/), [Bokeh](https://docs.bokeh.org/en/latest/)
 :::
-::: {.column width="40%" .fragment}
-![](images/viz/python.png){fig-align="center"}
+::: {.column width="40%" }
+![](images/tools.png){fig-align="center"}
 :::
-:::
-
-. . .
-
-::: {style="text-align:center"}
-📊 Elige una y domínala!
 :::
 
----
-
-## 📊 Ejemplos  {background-image="images/background.jpg" background-opacity="0.25"}
-
-```{pyodide-python}
-import matplotlib.pyplot as plt
-x = ['A', 'B', 'C', 'D', 'E']
-y = [5, 7, 3, 8, 4]
-plt.figure(figsize=(6, 3))  
-plt.bar(x, y, color='blue') 
-plt.title("Gráfico de Barras")
-plt.show()
-```
 
 ---
 
-## 📊 Ejemplos  {background-image="images/background.jpg" background-opacity="0.25"}
-
-```{pyodide-python}
-import matplotlib.pyplot as plt
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 6, 8, 10]
-plt.figure(figsize=(6, 3)) 
-plt.plot(x, y, marker='o', color='blue')
-plt.title("Gráfico de Puntos")
-plt.show()
-```
-
----
-
-## 📊 Ejemplos  {background-image="images/background.jpg" background-opacity="0.25"}
-
-```{pyodide-python}
-import matplotlib.pyplot as plt
-import numpy as np
-data = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
-plt.figure(figsize=(6, 3))  # Tamaño del gráfico
-plt.imshow(data, cmap='Blues', interpolation='nearest')
-plt.colorbar()
-plt.title("Gráfico Heatmap")
-plt.show()
-```
-
----
-
-## Dashboards en Python {background-image="images/background.jpg" background-opacity="0.25"}
-
-
-<img style="width:65%;" src="./images/streamlit/streamlit.gif"><br>
-[https://github.com/sebastiandres/streamlit_slides]{style="font-size: 0.5em; color: gray"}
-
----
-
-
-
-
-
----
-
-## Dashboards en Python {background-image="images/background.jpg" background-opacity="0.25"}
+## Quarto  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="60%"}
+&#32;<br>
+Un sistema abierto para publicaciones científicas y técnicas, centrado en markdown, documentos dinámicos e interactivos con código (Python/R/Julia).
+:::
+::: {.column width="40%"}
+![](images/quarto/quarto2.png)
+:::
+:::
+
+
+---
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+[Código: example.qmd]{style="font-size: 0.5em; color: gray"}
+
+```
+---
+title: "Habits"
+author: "John Doe"
+format:
+  revealjs:
+    transition: fade
+    theme: black
+    toc: true
+    center: true
+---
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+---
+
+## Going to sleep 
+::: { .incremental }
+
+- Get in bed
+- Count sheep
+
+:::
+```
+:::
+
+::: {.column width="60%"}
+[Slides: example.html]{style="font-size: 0.5em; color: gray"}
+
+```{=html}
+<iframe width=600 height=400 src="images/quarto/quarto_min.html"></iframe>
+```
+:::
+:::
+
+
+---
+
+## Jupyter + RISE {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
 &#32;<br><br>
 
-[Streamlit-Slides]{style="font-size: 1em; color: gray"}
+Extensión de Jupyter notebook/lab para transformar un notebooks en slides de revealjs.
 
-Tu presentación es una página web
 :::
-::: {.column width="40%" .fragment}
+::: {.column width="60%"}
+<br>
+![](images/rise/rise.png)
+:::
+:::
+
+
+---
+
+### Jupyter + RISE 
+
+
+<img style="width:80%;" src="./images/rise/basic_usage.gif">
+
+---
+
+## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="60%"}
+<br><br>
+Streamlit es una herramienta de código abierto que permite crear aplicaciones web interactivas usando solo Python.
+:::
+::: {.column width="40%"}
+<br>
 ![](./images/streamlit/streamlit.png)
 :::
 :::
 
 ---
+
+### Streamlit
+
+<img style="width:50%;" src="./images/streamlit/Streamlit-Prophet.gif">
+
+
+---
+
+## HTML & webapps {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+
+::: columns
+::: {.column width="50%" .fragment}
+🛠️ Elige una herramienta
+:::
+::: {.column width="50%".fragment }
+💡 La innovación destaca
+:::
+:::
+
+
+
+![](images/tools2.webp){fig-align="center" }
+
+---
+
+## Flujo de decisión {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: { .incremental }
+
+* **PowerPoint**: Presentación sin código de un solo uso
+* **Quarto**: Charlas a partir de documentos relacionados (libros, artículos)
+* **Jupyter + RISE**: Talleres o clases. Ejecutar código es importante
+* **Streamlit**: Presentaciones personalizadas/experimentales
+:::
+
+---
+
+## Conclusión {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+<br>
+
+::: { .incremental }
+
+* **📖 Storytelling**: Narrativas que cautivan a través de datos.  
+* **📊 Visualización**: Gráficos claros y atractivos.  
+* **🛠️ Herramientas**: Streamlit, Quarto, y Python para presentaciones interactivas.
+:::
+
+
+---
+
 
 ## 🎉 ¡Gracias por Participar!  {background-image="images/background.jpg" background-opacity="0.25"}
 
