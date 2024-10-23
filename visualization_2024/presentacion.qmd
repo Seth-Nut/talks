@@ -7,7 +7,10 @@ date: 16 Nov 2024
 format: 
   revealjs:
     transition: slide
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
     logo: images/logo_sn.png
+    
 ---
 
 
@@ -304,7 +307,8 @@ Opción 2: Una agenda misteriosa.
 ::: {.column width="60%"}
 <br>
 
-La visualización de datos transforma información en gráficos para facilitar su comprensión. 
+- Convierte datos en gráficos para facilitar su comprensión.
+- Destaca patrones y tendencias de forma clara.
 
 :::
 ::: {.column width="40%" .fragment}
@@ -354,9 +358,9 @@ La visualización de datos transforma información en gráficos para facilitar s
 
 ---
 
-## Teoría de visualización {background-image="images/background.jpg" background-opacity="0.25"}
+## Teoría de Visualización {background-image="images/background.jpg" background-opacity="0.25"}
 
-<img src="images/viz/teoria_vis.png" alt="teoria visualización" style="display: block; margin: 0 auto; width: 20%;">
+![](images/viz/teoria_vis2.webp){fig-align="center" width="50%"}
 
 ---
 
@@ -377,6 +381,37 @@ La visualización de datos transforma información en gráficos para facilitar s
 :::
 :::
 
+. . .
+
+[(C) Noah Iliinsky: "Four Pillars of Visualization" - Youtube.]{style="font-size: 0.75em; color: gray"}
+
+
+---
+
+## Qué Gráficos son buenos? {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+
+<img src="images/viz/chart_01.png" style="width: 75%; height: auto;"/> 
+<img src="images/viz/chart_04.png" style="width: 75%; height: auto;"/>
+
+<img src="images/viz/chart_03.png" style="width: 75%; height: auto;"/>
+<img src="images/viz/chart_05.png" style="width: 70%; height: auto;"/>
+
+<img src="images/viz/chart_02.png" style="width: 75%; height: auto;"/>
+<img src="images/viz/chart_07.png" style="width: 85%; height: auto;"/>
+
+</div>
+
+. . .
+
+[(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
+
+
+---
+
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
@@ -394,7 +429,7 @@ La visualización de datos transforma información en gráficos para facilitar s
 * **"Show don't tell"**: 
   * quarto
   * jupyter + RISE
-  * html & webapps
+  * Streamlit
 * **Otros**: canvas, revealjs, prezi
 
 :::
@@ -534,7 +569,7 @@ Streamlit es una herramienta de código abierto que permite crear aplicaciones w
 
 ---
 
-## Flujo de decisión {background-image="images/background_slides3.png" background-opacity="0.3"}
+## Flujo de decisión {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: { .incremental }
 
@@ -546,7 +581,7 @@ Streamlit es una herramienta de código abierto que permite crear aplicaciones w
 
 ---
 
-## Conclusión {background-image="images/background_slides3.png" background-opacity="0.3"}
+## Conclusión {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
