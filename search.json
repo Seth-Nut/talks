@@ -137,7 +137,7 @@
     "href": "visualization_2024/presentacion.html#visualización",
     "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
     "section": "Visualización…",
-    "text": "Visualización…\n\n\n\nLa visualización de datos transforma información en gráficos para facilitar su comprensión."
+    "text": "Visualización…\n\n\n\n\nConvierte datos en gráficos para facilitar su comprensión.\nDestaca patrones y tendencias de forma clara."
   },
   {
     "objectID": "visualization_2024/presentacion.html#ejemplos-2",
@@ -157,15 +157,22 @@
     "objectID": "visualization_2024/presentacion.html#teoría-de-visualización",
     "href": "visualization_2024/presentacion.html#teoría-de-visualización",
     "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Teoría de visualización",
-    "text": "Teoría de visualización"
+    "section": "Teoría de Visualización",
+    "text": "Teoría de Visualización"
   },
   {
     "objectID": "visualization_2024/presentacion.html#pilares-visualización---noah-iliinsky",
     "href": "visualization_2024/presentacion.html#pilares-visualización---noah-iliinsky",
     "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
     "section": "4 Pilares Visualización - Noah Iliinsky",
-    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado."
+    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado.\n\n\n\n\n\n\n\n\n\n(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube."
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#qué-gráficos-son-buenos",
+    "href": "visualization_2024/presentacion.html#qué-gráficos-son-buenos",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Qué Gráficos son buenos?",
+    "text": "Qué Gráficos son buenos?\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
   },
   {
     "objectID": "visualization_2024/presentacion.html#section-6",
@@ -179,7 +186,7 @@
     "href": "visualization_2024/presentacion.html#herramientas-para-presentación",
     "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
     "section": "Herramientas para presentación",
-    "text": "Herramientas para presentación\n\n\n\nClásica: PowerPoint\n“Show don’t tell”:\n\nquarto\njupyter + RISE\nhtml & webapps\n\nOtros: canvas, revealjs, prezi"
+    "text": "Herramientas para presentación\n\n\n\nClásica: PowerPoint\n“Show don’t tell”:\n\nquarto\njupyter + RISE\nStreamlit\n\nOtros: canvas, revealjs, prezi"
   },
   {
     "objectID": "visualization_2024/presentacion.html#quarto",
