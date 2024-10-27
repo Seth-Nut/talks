@@ -4,7 +4,308 @@
     "href": "index.html",
     "title": "🎉 Presentaciones",
     "section": "",
-    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.\n🎤 Crea, Innova y Presenta: Data Storytelling con A.I. - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.\n\n¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊"
+    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.\n🎤 Crea, Innova y Presenta: Data Storytelling con A.I. - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.\n🎤 Más allá del Infinito - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.\n\n¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊"
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#introducción",
+    "href": "latinr_2024/presentacion.html#introducción",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🚀 Introducción",
+    "text": "🚀 Introducción\n\n\n\n\nQuarto permite crear contenidos interactivos y combinar varios lenguajes en un solo entorno educativo."
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
+    "href": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🌐 Quarto WebR y Quarto Pyodide",
+    "text": "🌐 Quarto WebR y Quarto Pyodide\n\nWebR: Ejecuta código R en el navegador, sin instalaciones.\n# Para instalar WebR en tu entorno\nremotes::install_github(\"attiyap/WebR\")\nPyodide : Idem pero para Python.\n# Para instalar Pyodide\npip install pyodide"
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#ejemplo-r",
+    "href": "latinr_2024/presentacion.html#ejemplo-r",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "📊 Ejemplo R",
+    "text": "📊 Ejemplo R\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#ejemplo-python",
+    "href": "latinr_2024/presentacion.html#ejemplo-python",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "📊 Ejemplo Python",
+    "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
+    "href": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🎓 Quarto y la Enseñanza",
+    "text": "🎓 Quarto y la Enseñanza"
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#implementación",
+    "href": "latinr_2024/presentacion.html#implementación",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🛠️ Implementación",
+    "text": "🛠️ Implementación"
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#talleres",
+    "href": "latinr_2024/presentacion.html#talleres",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🎓 Talleres",
+    "text": "🎓 Talleres\n\n\n\n\n🐍 PySchool Chile\n\n\n🔢 Olimpiadas USM 2024"
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#resultados",
+    "href": "latinr_2024/presentacion.html#resultados",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "📊 Resultados",
+    "text": "📊 Resultados\nEncuestas sobre el taller:\n\nSatisfacción general alta, con un promedio cercano a 9.\nDestacaron el uso de las herramientas interactivas."
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#recursos-adicionales",
+    "href": "latinr_2024/presentacion.html#recursos-adicionales",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "📚 Recursos Adicionales",
+    "text": "📚 Recursos Adicionales\n\n\n🌐 Remasterización del libro: “R for Data Science”"
+  },
+  {
+    "objectID": "latinr_2024/presentacion.html#gracias-por-participar",
+    "href": "latinr_2024/presentacion.html#gracias-por-participar",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar LatinR 2024!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#agenda",
+    "href": "visualization_2024/demo.html#agenda",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n \nNo\nNope\nJamás"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#section",
+    "href": "visualization_2024/demo.html#section",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "",
+    "text": "Regla de Storytelling #1\n\n\nNunca reveles el final antes de tiempo.\nSiempre eleva la tensión y el dramatismo"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#agenda-v2",
+    "href": "visualization_2024/demo.html#agenda-v2",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes.\nTu primera versión será horrible.\nMuestra, no cuentes."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#section-1",
+    "href": "visualization_2024/demo.html#section-1",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "",
+    "text": "Data Storytelling\n¿Por qué Data Storytelling?"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#qué-es-el-storytelling",
+    "href": "visualization_2024/demo.html#qué-es-el-storytelling",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "¿Qué es el Storytelling?",
+    "text": "¿Qué es el Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#esos-cerebros-tan-hackables",
+    "href": "visualization_2024/demo.html#esos-cerebros-tan-hackables",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Esos cerebros tan hackables…",
+    "text": "Esos cerebros tan hackables…\n\n\n\nRegla del máximo y final (Peak-End Rule)\n\n\nRating de Game of Thrones, por Kelvin Neo"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#narrativa",
+    "href": "visualization_2024/demo.html#narrativa",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Narrativa",
+    "text": "Narrativa\n\n\n Usar trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n🎭 Las emociones generan acciones"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#el-mejor-ejemplo",
+    "href": "visualization_2024/demo.html#el-mejor-ejemplo",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "El mejor ejemplo",
+    "text": "El mejor ejemplo\n\n\n\n\n\n\n\n\n  ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#section-2",
+    "href": "visualization_2024/demo.html#section-2",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "",
+    "text": "Regla de Storytelling #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#ejemplos",
+    "href": "visualization_2024/demo.html#ejemplos",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#section-3",
+    "href": "visualization_2024/demo.html#section-3",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "",
+    "text": "Regla de Storytelling #3\n\n\nTu primera versión siempre será horrible."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#ejemplos-1",
+    "href": "visualization_2024/demo.html#ejemplos-1",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🥱 1° versión \\(&lt;\\) … \\(&lt;\\) 😊 última versión"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#usar-chatbots-de-ia-para",
+    "href": "visualization_2024/demo.html#usar-chatbots-de-ia-para",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nPlantillas personalizadas a medida\nAutomatizar estructura del contenido\nAhorro de tiempo en diseño\nAdaptación al estilo y preferencias"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#usar-chatbots-de-ia-para-1",
+    "href": "visualization_2024/demo.html#usar-chatbots-de-ia-para-1",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nAnalogías y ejemplos\nMejores traducciones\nPrompts para crear imágenes\nNo busques imágenes, créalas!"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#section-4",
+    "href": "visualization_2024/demo.html#section-4",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "",
+    "text": "Regla de Storytelling #4\n\n\nExplicar menos y mostrar más"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#explicar-menos-y-mostrar-más",
+    "href": "visualization_2024/demo.html#explicar-menos-y-mostrar-más",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Explicar menos y mostrar más",
+    "text": "Explicar menos y mostrar más"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#agenda-v2-1",
+    "href": "visualization_2024/demo.html#agenda-v2-1",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nMuestra, no cuentes\n\n\n\nOpción 2: Una agenda misteriosa."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#section-5",
+    "href": "visualization_2024/demo.html#section-5",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "",
+    "text": "Visualización\n¿Qué es la Visualización?"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#visualización",
+    "href": "visualization_2024/demo.html#visualización",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Visualización…",
+    "text": "Visualización…\n\n\n\nLa visualización de datos transforma información en gráficos para facilitar su comprensión."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#ejemplos-2",
+    "href": "visualization_2024/demo.html#ejemplos-2",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n❌ Mal Gráfico\n\n\n\n\n\n\n✅ Buen Gráfico"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#cuarteto-de-anscombe",
+    "href": "visualization_2024/demo.html#cuarteto-de-anscombe",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Cuarteto de ANSCOMBE",
+    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n📋 Tablas vs 📊 Gráficos"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#teoría-de-visualización",
+    "href": "visualization_2024/demo.html#teoría-de-visualización",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Teoría de visualización",
+    "text": "Teoría de visualización"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#pilares-visualización---noah-iliinsky",
+    "href": "visualization_2024/demo.html#pilares-visualización---noah-iliinsky",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "4 Pilares Visualización - Noah Iliinsky",
+    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#section-6",
+    "href": "visualization_2024/demo.html#section-6",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "",
+    "text": "Herramientas\nHerramientas de Visualización en Python"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#exploración-de-datos",
+    "href": "visualization_2024/demo.html#exploración-de-datos",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Exploración de Datos",
+    "text": "Exploración de Datos\n\n\n\n\n\n\n\n\n\n\n¡Demasiadas opciones!  El usuario no puede ser responsable de encontrar lo valioso."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#tipos-de-gráficos-esenciales",
+    "href": "visualization_2024/demo.html#tipos-de-gráficos-esenciales",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Tipos de Gráficos Esenciales",
+    "text": "Tipos de Gráficos Esenciales\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#librerías-para-graficar",
+    "href": "visualization_2024/demo.html#librerías-para-graficar",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Librerías para Graficar",
+    "text": "Librerías para Graficar\n\n\n¡Explora estas poderosas librerías de visualización en Python!\n\nVieja confiable: Matplotlib\nPopulares: Seaborn, Plotly, Altair\nOtras: plotnine, pygal, Bokeh\n\n\n\n\n\n\n\n\n\n\n📊 Elige una y domínala!"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#ejemplos-3",
+    "href": "visualization_2024/demo.html#ejemplos-3",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "📊 Ejemplos",
+    "text": "📊 Ejemplos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#ejemplos-4",
+    "href": "visualization_2024/demo.html#ejemplos-4",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "📊 Ejemplos",
+    "text": "📊 Ejemplos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#ejemplos-5",
+    "href": "visualization_2024/demo.html#ejemplos-5",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "📊 Ejemplos",
+    "text": "📊 Ejemplos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "visualization_2024/demo.html#dashboards-en-python",
+    "href": "visualization_2024/demo.html#dashboards-en-python",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Dashboards en Python",
+    "text": "Dashboards en Python\n https://github.com/sebastiandres/streamlit_slides"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#dashboards-en-python-1",
+    "href": "visualization_2024/demo.html#dashboards-en-python-1",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Dashboards en Python",
+    "text": "Dashboards en Python\n\n\n \nStreamlit-Slides\nTu presentación es una página web"
+  },
+  {
+    "objectID": "visualization_2024/demo.html#gracias-por-participar",
+    "href": "visualization_2024/demo.html#gracias-por-participar",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
     "objectID": "visualization_2024/presentacion.html#agenda",
@@ -245,304 +546,178 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
-    "objectID": "visualization_2024/demo.html#agenda",
-    "href": "visualization_2024/demo.html#agenda",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Agenda",
-    "text": "Agenda\n\n\n\n \nNo\nNope\nJamás"
+    "objectID": "infinity_2024/presentacion.html#conjuntos-de-números",
+    "href": "infinity_2024/presentacion.html#conjuntos-de-números",
+    "title": "Más allá del Infinito",
+    "section": "Conjuntos de Números",
+    "text": "Conjuntos de Números\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEn cantidad de elementos: ¿| \\(\\mathbb{N}| &lt; |\\mathbb{Z}| &lt; |\\mathbb{Q}|&lt; |\\mathbb{R}|&lt;|\\mathbb{C}|\\) ?"
   },
   {
-    "objectID": "visualization_2024/demo.html#section",
-    "href": "visualization_2024/demo.html#section",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "objectID": "infinity_2024/presentacion.html#qué-es-el-infinito",
+    "href": "infinity_2024/presentacion.html#qué-es-el-infinito",
+    "title": "Más allá del Infinito",
+    "section": "¿Qué es el infinito?",
+    "text": "¿Qué es el infinito?\n\n\n\n\nEl infinito es algo sin fin.\nNo es un número, sino una idea de continuidad ilimitada."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#historia",
+    "href": "infinity_2024/presentacion.html#historia",
+    "title": "Más allá del Infinito",
+    "section": "Historia",
+    "text": "Historia"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#gráficos",
+    "href": "infinity_2024/presentacion.html#gráficos",
+    "title": "Más allá del Infinito",
+    "section": "Gráficos",
+    "text": "Gráficos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#section",
+    "href": "infinity_2024/presentacion.html#section",
+    "title": "Más allá del Infinito",
     "section": "",
-    "text": "Regla de Storytelling #1\n\n\nNunca reveles el final antes de tiempo.\nSiempre eleva la tensión y el dramatismo"
+    "text": "Infinito\n¿Qué es contar?"
   },
   {
-    "objectID": "visualization_2024/demo.html#agenda-v2",
-    "href": "visualization_2024/demo.html#agenda-v2",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Agenda (v2)",
-    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes.\nTu primera versión será horrible.\nMuestra, no cuentes."
+    "objectID": "infinity_2024/presentacion.html#contar-es",
+    "href": "infinity_2024/presentacion.html#contar-es",
+    "title": "Más allá del Infinito",
+    "section": "Contar es …",
+    "text": "Contar es …\n\n\n N° elementos en un conjunto.\n\nContar personas en una sala.\nContar números del 1 al 10.\nContar objetos en una canasta."
   },
   {
-    "objectID": "visualization_2024/demo.html#section-1",
-    "href": "visualization_2024/demo.html#section-1",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "objectID": "infinity_2024/presentacion.html#fundamento-en-los-axiomas-de-peano",
+    "href": "infinity_2024/presentacion.html#fundamento-en-los-axiomas-de-peano",
+    "title": "Más allá del Infinito",
+    "section": "Fundamento en los Axiomas de Peano",
+    "text": "Fundamento en los Axiomas de Peano\n\n\n\nPrimer Número: \\(0\\) o \\(1\\).\nSucesor: \\(1-&gt;2-&gt;3-&gt;...\\)\nUnicidad: Cada número es único.\nInducción: Si un conjunto tiene 0 y sus sucesores, contiene a \\(\\mathbb{N}\\)."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto",
+    "href": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto",
+    "title": "Más allá del Infinito",
+    "section": "Cardinalidad de un Conjunto",
+    "text": "Cardinalidad de un Conjunto"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto-1",
+    "href": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto-1",
+    "title": "Más allá del Infinito",
+    "section": "Cardinalidad de un Conjunto",
+    "text": "Cardinalidad de un Conjunto\n\n\\(|A|\\): Contar todos los elementos de \\(A\\) exactamente una vez."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-naturales",
+    "href": "infinity_2024/presentacion.html#números-naturales",
+    "title": "Más allá del Infinito",
+    "section": "Números Naturales",
+    "text": "Números Naturales\n\n\n\n\n\\(\\mathbb{N} = \\{0,1,2,3,...\\}\\) son infinitos.\nTambién son infinitos:\n\nPares = \\(\\{2,4,6,...\\}\\).\nImpares = \\(\\{1,3,5,...\\}\\).\nPrimos = \\(\\{2,3,5,7,...\\}\\).\n\n\n\n\n\n\n\n\n\n\n(C) Números Primos son infinitos, Demostración de Euclides."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-enteros",
+    "href": "infinity_2024/presentacion.html#números-enteros",
+    "title": "Más allá del Infinito",
+    "section": "Números Enteros",
+    "text": "Números Enteros\n\n\n\n\n\\(\\mathbb{N} = \\{0,1,2,3,...\\}\\)\n\\(\\mathbb{Z} = \\{0,-1,1,-2,2,-3,...\\}\\)\n\\(\\mathbb{N} \\subsetneq  \\mathbb{Z}\\) … ¿ \\(|\\mathbb{N}| &lt; |\\mathbb{Z}|\\) ?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#contemos-los-números-enteros",
+    "href": "infinity_2024/presentacion.html#contemos-los-números-enteros",
+    "title": "Más allá del Infinito",
+    "section": "Contemos los números enteros",
+    "text": "Contemos los números enteros\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| = |\\mathbb{Z}|  }}\\)"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-racionales",
+    "href": "infinity_2024/presentacion.html#números-racionales",
+    "title": "Más allá del Infinito",
+    "section": "Números Racionales",
+    "text": "Números Racionales\n\n\n\n\n\\(\\mathbb{Q} = \\{ \\dfrac{p}{q} | p,q \\in \\mathbb{Z}, q \\neq 0 \\}\\)\n\\(\\mathbb{N} \\subsetneq  \\mathbb{Z} \\subsetneq  \\mathbb{Q}\\) … ¿ \\(|\\mathbb{N}| &lt; |\\mathbb{Q}|\\) ?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#contemos-los-números-racionales",
+    "href": "infinity_2024/presentacion.html#contemos-los-números-racionales",
+    "title": "Más allá del Infinito",
+    "section": "Contemos los números racionales",
+    "text": "Contemos los números racionales\n\n\n\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| \\leq |\\mathbb{Q_{+}}| \\leq |\\mathbb{N}| }}\\)\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| }}\\)"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-reales",
+    "href": "infinity_2024/presentacion.html#números-reales",
+    "title": "Más allá del Infinito",
+    "section": "Números Reales",
+    "text": "Números Reales\n\n\n\n\n\\(\\mathbb{R} = \\{ \\sqrt{2}, \\pi, \\mathrm{e}, ...  \\}\\)\n¿ \\(|\\mathbb{N}| &lt; |\\mathbb{R}|\\) ?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-reales-1",
+    "href": "infinity_2024/presentacion.html#números-reales-1",
+    "title": "Más allá del Infinito",
+    "section": "Números Reales",
+    "text": "Números Reales\n\n\n\n\n\n\n\n\n\nEn 1891, Cantor probó que es imposible enumerar todos los números reales en \\((0,1)\\).\n\n\\(\\color{black}{\\boxed{\\aleph_1 = |\\mathbb{R}| &gt; |\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| = \\aleph_0}}\\)"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#section-1",
+    "href": "infinity_2024/presentacion.html#section-1",
+    "title": "Más allá del Infinito",
     "section": "",
-    "text": "Data Storytelling\n¿Por qué Data Storytelling?"
+    "text": "Infinito\nHotel de Hilbert"
   },
   {
-    "objectID": "visualization_2024/demo.html#qué-es-el-storytelling",
-    "href": "visualization_2024/demo.html#qué-es-el-storytelling",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "¿Qué es el Storytelling?",
-    "text": "¿Qué es el Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana"
+    "objectID": "infinity_2024/presentacion.html#el-hotel-de-hilbert",
+    "href": "infinity_2024/presentacion.html#el-hotel-de-hilbert",
+    "title": "Más allá del Infinito",
+    "section": "El Hotel de Hilbert",
+    "text": "El Hotel de Hilbert\n\n\n\n\nHotel infinito: Siempre hay espacio para más.\nTruco: Mueve cada huésped adelante.\nLección: El infinito desafía la intuición."
   },
   {
-    "objectID": "visualization_2024/demo.html#esos-cerebros-tan-hackables",
-    "href": "visualization_2024/demo.html#esos-cerebros-tan-hackables",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Esos cerebros tan hackables…",
-    "text": "Esos cerebros tan hackables…\n\n\n\nRegla del máximo y final (Peak-End Rule)\n\n\nRating de Game of Thrones, por Kelvin Neo"
+    "objectID": "infinity_2024/presentacion.html#bienvenidos-al-hotel-de-vale",
+    "href": "infinity_2024/presentacion.html#bienvenidos-al-hotel-de-vale",
+    "title": "Más allá del Infinito",
+    "section": "🐶 Bienvenidos al Hotel de Vale",
+    "text": "🐶 Bienvenidos al Hotel de Vale\n\n\n\n\n\n\n\n\n Un lugar mágico con infinitas habitaciones para perritos, donde cada uno tiene su espacio y siempre son bienvenidos.\n\n\n\n✨ !Siempre hay espacio para uno más!"
   },
   {
-    "objectID": "visualization_2024/demo.html#narrativa",
-    "href": "visualization_2024/demo.html#narrativa",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Narrativa",
-    "text": "Narrativa\n\n\n Usar trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n🎭 Las emociones generan acciones"
+    "objectID": "infinity_2024/presentacion.html#caso-1-llega-un-nuevo-perrito",
+    "href": "infinity_2024/presentacion.html#caso-1-llega-un-nuevo-perrito",
+    "title": "Más allá del Infinito",
+    "section": "Caso 1: Llega un Nuevo Perrito",
+    "text": "Caso 1: Llega un Nuevo Perrito\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlega un Nuevo Perrito … ¿Qué hacemos?"
   },
   {
-    "objectID": "visualization_2024/demo.html#el-mejor-ejemplo",
-    "href": "visualization_2024/demo.html#el-mejor-ejemplo",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "El mejor ejemplo",
-    "text": "El mejor ejemplo\n\n\n\n\n\n\n\n\n  ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?"
+    "objectID": "infinity_2024/presentacion.html#caso-2-infinitos-perritos",
+    "href": "infinity_2024/presentacion.html#caso-2-infinitos-perritos",
+    "title": "Más allá del Infinito",
+    "section": "Caso 2: Infinitos Perritos",
+    "text": "Caso 2: Infinitos Perritos\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlega un bus con infinitos perritos … ¿Qué hacemos?"
   },
   {
-    "objectID": "visualization_2024/demo.html#section-2",
-    "href": "visualization_2024/demo.html#section-2",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "",
-    "text": "Regla de Storytelling #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes."
+    "objectID": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos",
+    "href": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos",
+    "title": "Más allá del Infinito",
+    "section": "Caso 3: Infinitos Buses y Perritos",
+    "text": "Caso 3: Infinitos Buses y Perritos\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlegan inifinitos buses con infinitos perritos … ¿Qué hacemos?"
   },
   {
-    "objectID": "visualization_2024/demo.html#ejemplos",
-    "href": "visualization_2024/demo.html#ejemplos",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Ejemplos",
-    "text": "Ejemplos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
+    "objectID": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos-1",
+    "href": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos-1",
+    "title": "Más allá del Infinito",
+    "section": "Caso 3: Infinitos Buses y Perritos",
+    "text": "Caso 3: Infinitos Buses y Perritos"
   },
   {
-    "objectID": "visualization_2024/demo.html#section-3",
-    "href": "visualization_2024/demo.html#section-3",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "",
-    "text": "Regla de Storytelling #3\n\n\nTu primera versión siempre será horrible."
+    "objectID": "infinity_2024/presentacion.html#conclusiones",
+    "href": "infinity_2024/presentacion.html#conclusiones",
+    "title": "Más allá del Infinito",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\n\n\n🌌 El \\(\\infty\\): Conceptos que desafían la intuición.\n📏 Cardinalidad: Diferentes tamaños de infinito.\n🐶 Hotel de Perritos: Infinito de forma entretenida."
   },
   {
-    "objectID": "visualization_2024/demo.html#ejemplos-1",
-    "href": "visualization_2024/demo.html#ejemplos-1",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Ejemplos",
-    "text": "Ejemplos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🥱 1° versión \\(&lt;\\) … \\(&lt;\\) 😊 última versión"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#usar-chatbots-de-ia-para",
-    "href": "visualization_2024/demo.html#usar-chatbots-de-ia-para",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Usar chatbots de IA para:",
-    "text": "Usar chatbots de IA para:\n\n\n\n\nPlantillas personalizadas a medida\nAutomatizar estructura del contenido\nAhorro de tiempo en diseño\nAdaptación al estilo y preferencias"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#usar-chatbots-de-ia-para-1",
-    "href": "visualization_2024/demo.html#usar-chatbots-de-ia-para-1",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Usar chatbots de IA para:",
-    "text": "Usar chatbots de IA para:\n\n\n\n\nAnalogías y ejemplos\nMejores traducciones\nPrompts para crear imágenes\nNo busques imágenes, créalas!"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#section-4",
-    "href": "visualization_2024/demo.html#section-4",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "",
-    "text": "Regla de Storytelling #4\n\n\nExplicar menos y mostrar más"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#explicar-menos-y-mostrar-más",
-    "href": "visualization_2024/demo.html#explicar-menos-y-mostrar-más",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Explicar menos y mostrar más",
-    "text": "Explicar menos y mostrar más"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#agenda-v2-1",
-    "href": "visualization_2024/demo.html#agenda-v2-1",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Agenda (v2)",
-    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nMuestra, no cuentes\n\n\n\nOpción 2: Una agenda misteriosa."
-  },
-  {
-    "objectID": "visualization_2024/demo.html#section-5",
-    "href": "visualization_2024/demo.html#section-5",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "",
-    "text": "Visualización\n¿Qué es la Visualización?"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#visualización",
-    "href": "visualization_2024/demo.html#visualización",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Visualización…",
-    "text": "Visualización…\n\n\n\nLa visualización de datos transforma información en gráficos para facilitar su comprensión."
-  },
-  {
-    "objectID": "visualization_2024/demo.html#ejemplos-2",
-    "href": "visualization_2024/demo.html#ejemplos-2",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Ejemplos",
-    "text": "Ejemplos\n\n\n\n\n\n\n\n❌ Mal Gráfico\n\n\n\n\n\n\n✅ Buen Gráfico"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#cuarteto-de-anscombe",
-    "href": "visualization_2024/demo.html#cuarteto-de-anscombe",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Cuarteto de ANSCOMBE",
-    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n📋 Tablas vs 📊 Gráficos"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#teoría-de-visualización",
-    "href": "visualization_2024/demo.html#teoría-de-visualización",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Teoría de visualización",
-    "text": "Teoría de visualización"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#pilares-visualización---noah-iliinsky",
-    "href": "visualization_2024/demo.html#pilares-visualización---noah-iliinsky",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "4 Pilares Visualización - Noah Iliinsky",
-    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado."
-  },
-  {
-    "objectID": "visualization_2024/demo.html#section-6",
-    "href": "visualization_2024/demo.html#section-6",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "",
-    "text": "Herramientas\nHerramientas de Visualización en Python"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#exploración-de-datos",
-    "href": "visualization_2024/demo.html#exploración-de-datos",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Exploración de Datos",
-    "text": "Exploración de Datos\n\n\n\n\n\n\n\n\n\n\n¡Demasiadas opciones!  El usuario no puede ser responsable de encontrar lo valioso."
-  },
-  {
-    "objectID": "visualization_2024/demo.html#tipos-de-gráficos-esenciales",
-    "href": "visualization_2024/demo.html#tipos-de-gráficos-esenciales",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Tipos de Gráficos Esenciales",
-    "text": "Tipos de Gráficos Esenciales\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
-  },
-  {
-    "objectID": "visualization_2024/demo.html#librerías-para-graficar",
-    "href": "visualization_2024/demo.html#librerías-para-graficar",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Librerías para Graficar",
-    "text": "Librerías para Graficar\n\n\n¡Explora estas poderosas librerías de visualización en Python!\n\nVieja confiable: Matplotlib\nPopulares: Seaborn, Plotly, Altair\nOtras: plotnine, pygal, Bokeh\n\n\n\n\n\n\n\n\n\n\n📊 Elige una y domínala!"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#ejemplos-3",
-    "href": "visualization_2024/demo.html#ejemplos-3",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "📊 Ejemplos",
-    "text": "📊 Ejemplos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "visualization_2024/demo.html#ejemplos-4",
-    "href": "visualization_2024/demo.html#ejemplos-4",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "📊 Ejemplos",
-    "text": "📊 Ejemplos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "visualization_2024/demo.html#ejemplos-5",
-    "href": "visualization_2024/demo.html#ejemplos-5",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "📊 Ejemplos",
-    "text": "📊 Ejemplos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "visualization_2024/demo.html#dashboards-en-python",
-    "href": "visualization_2024/demo.html#dashboards-en-python",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Dashboards en Python",
-    "text": "Dashboards en Python\n https://github.com/sebastiandres/streamlit_slides"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#dashboards-en-python-1",
-    "href": "visualization_2024/demo.html#dashboards-en-python-1",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Dashboards en Python",
-    "text": "Dashboards en Python\n\n\n \nStreamlit-Slides\nTu presentación es una página web"
-  },
-  {
-    "objectID": "visualization_2024/demo.html#gracias-por-participar",
-    "href": "visualization_2024/demo.html#gracias-por-participar",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "objectID": "infinity_2024/presentacion.html#gracias-por-participar",
+    "href": "infinity_2024/presentacion.html#gracias-por-participar",
+    "title": "Más allá del Infinito",
     "section": "🎉 ¡Gracias por Participar!",
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
-  },
-  {
-    "objectID": "latinr_2024/presentacion.html#introducción",
-    "href": "latinr_2024/presentacion.html#introducción",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🚀 Introducción",
-    "text": "🚀 Introducción\n\n\n\n\nQuarto permite crear contenidos interactivos y combinar varios lenguajes en un solo entorno educativo."
-  },
-  {
-    "objectID": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
-    "href": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🌐 Quarto WebR y Quarto Pyodide",
-    "text": "🌐 Quarto WebR y Quarto Pyodide\n\nWebR: Ejecuta código R en el navegador, sin instalaciones.\n# Para instalar WebR en tu entorno\nremotes::install_github(\"attiyap/WebR\")\nPyodide : Idem pero para Python.\n# Para instalar Pyodide\npip install pyodide"
-  },
-  {
-    "objectID": "latinr_2024/presentacion.html#ejemplo-r",
-    "href": "latinr_2024/presentacion.html#ejemplo-r",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "📊 Ejemplo R",
-    "text": "📊 Ejemplo R\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "latinr_2024/presentacion.html#ejemplo-python",
-    "href": "latinr_2024/presentacion.html#ejemplo-python",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "📊 Ejemplo Python",
-    "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
-    "href": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🎓 Quarto y la Enseñanza",
-    "text": "🎓 Quarto y la Enseñanza"
-  },
-  {
-    "objectID": "latinr_2024/presentacion.html#implementación",
-    "href": "latinr_2024/presentacion.html#implementación",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🛠️ Implementación",
-    "text": "🛠️ Implementación"
-  },
-  {
-    "objectID": "latinr_2024/presentacion.html#talleres",
-    "href": "latinr_2024/presentacion.html#talleres",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🎓 Talleres",
-    "text": "🎓 Talleres\n\n\n\n\n🐍 PySchool Chile\n\n\n🔢 Olimpiadas USM 2024"
-  },
-  {
-    "objectID": "latinr_2024/presentacion.html#resultados",
-    "href": "latinr_2024/presentacion.html#resultados",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "📊 Resultados",
-    "text": "📊 Resultados\nEncuestas sobre el taller:\n\nSatisfacción general alta, con un promedio cercano a 9.\nDestacaron el uso de las herramientas interactivas."
-  },
-  {
-    "objectID": "latinr_2024/presentacion.html#recursos-adicionales",
-    "href": "latinr_2024/presentacion.html#recursos-adicionales",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "📚 Recursos Adicionales",
-    "text": "📚 Recursos Adicionales\n\n\n🌐 Remasterización del libro: “R for Data Science”"
-  },
-  {
-    "objectID": "latinr_2024/presentacion.html#gracias-por-participar",
-    "href": "latinr_2024/presentacion.html#gracias-por-participar",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar LatinR 2024!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   }
 ]

@@ -13,8 +13,8 @@
 
   <meta name="author" content="Francisco Alfaro">
   <meta name="author" content="Valeska Canales">
-  <meta name="dcterms.date" content="2024-11-16">
-  <title>Seth&amp;Nut – Crea, Innova y Presenta Data Storytelling + A.I.</title>
+  <meta name="dcterms.date" content="2024-12-13">
+  <title>Seth&amp;Nut – Más allá del Infinito</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -508,7 +508,7 @@
   }
 
   // Store cell data
-  globalThis.qpyodideCellDetails = [{"id":1,"code":"import matplotlib.pyplot as plt\nx = ['A', 'B', 'C', 'D', 'E']\ny = [5, 7, 3, 8, 4]\nplt.figure(figsize=(6, 3))  \nplt.bar(x, y, color='blue') \nplt.title(\"Gráfico de Barras\")\nplt.show()","options":{"output":"true","message":"true","out-width":"700px","fig-cap":"","out-height":"","read-only":"false","fig-width":7,"dpi":72,"label":"","classes":"","results":"markup","context":"interactive","autorun":"","comment":"","fig-height":5,"warning":"true"}},{"id":2,"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 6, 8, 10]\nplt.figure(figsize=(6, 3)) \nplt.plot(x, y, marker='o', color='blue')\nplt.title(\"Gráfico de Puntos\")\nplt.show()","options":{"output":"true","message":"true","out-width":"700px","fig-cap":"","out-height":"","read-only":"false","fig-width":7,"dpi":72,"label":"","classes":"","results":"markup","context":"interactive","autorun":"","comment":"","fig-height":5,"warning":"true"}},{"id":3,"code":"import matplotlib.pyplot as plt\nimport numpy as np\ndata = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])\nplt.figure(figsize=(6, 3))  # Tamaño del gráfico\nplt.imshow(data, cmap='Blues', interpolation='nearest')\nplt.colorbar()\nplt.title(\"Gráfico Heatmap\")\nplt.show()","options":{"output":"true","message":"true","out-width":"700px","fig-cap":"","out-height":"","read-only":"false","fig-width":7,"dpi":72,"label":"","classes":"","results":"markup","context":"interactive","autorun":"","comment":"","fig-height":5,"warning":"true"}}];
+  globalThis.qpyodideCellDetails = [{"code":"import numpy as np\nimport matplotlib.pyplot as plt\nt = np.linspace(0, 2 * np.pi, 1000)\nx = (np.cos(t) / (1 + (np.sin(t) ** 2)))\ny = (np.sin(t) * np.cos(t) / (1 + (np.sin(t) ** 2))) * 1.5  \nplt.figure(figsize=(6, 3))\nplt.plot(x, y, color='purple', lw=2, linestyle='-', label='Símbolo de Infinito Achato')\nplt.title(\"Gráfico del Símbolo de Infinito Achato\")\nplt.grid(True, linestyle='--', alpha=0.6)\nplt.show()","id":1,"options":{"classes":"","output":"true","out-width":"700px","fig-width":7,"read-only":"false","comment":"","label":"","autorun":"","context":"interactive","dpi":72,"message":"true","results":"markup","fig-cap":"","out-height":"","fig-height":5,"warning":"true"}}];
 
 
   </script>
@@ -714,7 +714,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="images/background.jpg" class="quarto-title-block center">
-  <h1 class="title">Crea, Innova y Presenta Data Storytelling + A.I.</h1>
+  <h1 class="title">Más allá del Infinito</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -729,464 +729,352 @@ Valeska Canales
 </div>
 </div>
 
-  <p class="date">2024-11-16</p>
+  <p class="date">2024-12-13</p>
 </section>
-<section id="agenda" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Agenda</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li class="fragment"> </li>
-<li class="fragment">No</li>
-<li class="fragment">Nope</li>
-<li class="fragment">Jamás</li>
-</ul>
-</div><div class="column fragment" style="width:70%;">
-<p><img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"></p>
-</div></div>
-</section>
-<section id="section" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Regla de Storytelling #1</strong></p>
-</div>
-<div class="callout-content">
-<p>Nunca reveles el final antes de tiempo.<br>
-<span class="fragment">Siempre eleva la tensión y el dramatismo</span></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="agenda-v2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Agenda (v2)</h2>
-<div class=".incremental">
-<ol type="1">
-<li>Nunca reveles el <span style="background-color:black;">final</span></li>
-<li>Los detalles son importantes, pero <span style="background-color:black;">no <strong>todos</strong> los detalles son importantes.</span></li>
-<li>Tu primera versión será <span style="background-color:black;">horrible.</span></li>
-<li>Muestra, no <span style="background-color:black;">cuentes.</span></li>
-</ol>
-</div>
-</section>
-<section id="section-1" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Data Storytelling</span></p>
-<p><span style="font-size: 1.5em">¿Por qué Data Storytelling?</span></p>
-</div>
-</section>
-<section id="qué-es-el-storytelling" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>¿Qué es el Storytelling?</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/cave.jpg" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/fire.jpg" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-</div></div>
+<section id="conjuntos-de-números" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Conjuntos de Números</h2>
+<p><img data-src="images/pa/num_01.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" width="300"></p>
 <div class="fragment">
-<div style="text-align: center; ">
-<p>🔥 Las <strong>historias</strong> son la primera tecnología humana</p>
+<p><img data-src="images/pa/num_02.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 125px; left: 25px; width: 500px; "></p>
 </div>
-</div>
-</section>
-<section id="esos-cerebros-tan-hackables" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Esos cerebros tan hackables…</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/storytelling/sketplanation.png" class="quarto-figure quarto-figure-center" style="width:90.0%"><br>
-<em>Regla del máximo y final (Peak-End Rule)</em></p>
-</div><div class="column fragment" style="width:50%;">
-<p><img data-src="images/storytelling/got.jpg" class="quarto-figure quarto-figure-center" style="width:100.0%"><br>
-<em>Rating de Game of Thrones, por Kelvin Neo</em></p>
-</div></div>
-</section>
-<section id="narrativa" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Narrativa</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><br><br> Usar <strong>trucos</strong> de Storytelling (narrativa) para crear presentaciones que serán <strong>recordadas</strong> y que causarán <strong>impacto</strong></p>
-</div><div class="column fragment" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/emotions.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
 <div class="fragment">
-<div style="text-align: center;">
-<p>🎭 Las <strong>emociones</strong> generan acciones</p>
+<p><img data-src="images/pa/num_03.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 180px; left: 50px; width: 700px; "></p>
 </div>
-</div>
-</section>
-<section id="el-mejor-ejemplo" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>El mejor ejemplo</h2>
-<div class="columns">
-<div class="column fragment" data-fragment-index="1" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/storytelling/spotify1.jpeg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div><div class="column center" style="width:40%;">
-<p> <br><br> ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?</p>
-</div><div class="column fragment" data-fragment-index="1" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/storytelling/spotify2.jpeg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="section-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Regla de Storytelling #2</strong></p>
-</div>
-<div class="callout-content">
-<p>Los detalles son importantes, <span class="fragment">pero no <strong>todos</strong> los detalles son importantes.</span></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="ejemplos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Ejemplos</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/dst_before.png" class="quarto-figure quarto-figure-center"> <em>🔢 No compartas números</em></p>
-</div><div class="column fragment" style="width:50%;">
-<p><img data-src="images/dst_after.png" class="quarto-figure quarto-figure-center"> <em>🪶Comparte una historia</em></p>
-</div></div>
 <div class="fragment">
-<p><br><br> <span style="font-size: 0.75em; color: gray">(C) Storytelling with Data, por Cole Nussbaumer Knaflic.</span></p>
+<p><img data-src="images/pa/num_04.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 220px; left: 75px; width: 800px; "></p>
 </div>
-</section>
-<section id="section-3" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Regla de Storytelling #3</strong></p>
-</div>
-<div class="callout-content">
-<p>Tu primera versión <strong>siempre</strong> será horrible.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="ejemplos-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Ejemplos</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/gh_before.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/gh_after.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
 <div class="fragment">
-<div style="text-align: center;">
-<p>🥱 1° versión <span class="math inline">\(&lt;\)</span> … <span class="math inline">\(&lt;\)</span> 😊 última versión</p>
+<p><img data-src="images/pa/num_05.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 250px; left: 95px; width: 900px; "></p>
 </div>
+<div class="fragment">
+<p><br><br><br><br><br><br><br></p>
+<p>En <strong>cantidad</strong> de elementos: ¿| <span class="math inline">\(\mathbb{N}| &lt; |\mathbb{Z}| &lt; |\mathbb{Q}|&lt; |\mathbb{R}|&lt;|\mathbb{C}|\)</span> ?</p>
 </div>
 </section>
-<section id="usar-chatbots-de-ia-para" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Usar chatbots de IA para:</h2>
+<section id="qué-es-el-infinito" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>¿Qué es el infinito?</h2>
 <div class="columns">
-<div class="column" style="width:65%;">
+<div class="column fragment" style="width:65%;">
 <p><br></p>
 <ul>
-<li>Plantillas personalizadas a medida</li>
-<li>Automatizar estructura del contenido</li>
-<li>Ahorro de tiempo en diseño</li>
-<li>Adaptación al estilo y preferencias</li>
+<li>El infinito es algo sin fin.</li>
+<li>No es un número, sino una idea de continuidad ilimitada.</li>
 </ul>
 </div><div class="column fragment" style="width:35%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/ai/template.png" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="images/infinito3.png" class="quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 </div></div>
 </section>
-<section id="usar-chatbots-de-ia-para-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Usar chatbots de IA para:</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
+<section id="historia" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Historia</h2>
 <p><br></p>
-<ul>
-<li>Analogías y ejemplos</li>
-<li>Mejores traducciones</li>
-<li>Prompts para crear imágenes</li>
-<li>No busques imágenes, créalas!</li>
-</ul>
-</div><div class="column fragment" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/ai/choice.jpeg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="section-4" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Regla de Storytelling #4</strong></p>
-</div>
-<div class="callout-content">
-<p><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="explicar-menos-y-mostrar-más" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><br> <img data-src="images/less.png" class="quarto-figure quarto-figure-center"></p>
-</div><div class="column fragment" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/more.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="agenda-v2-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Agenda (v2)</h2>
-<div class=".incremental">
-<ol type="1">
-<li>Nunca reveles el <span class="fragment" style="color:grey;"><strong>final</strong></span></li>
-<li>Los detalles son importantes, pero <span class="fragment" style="color:grey;">no <strong>todos</strong> los detalles son importantes</span></li>
-<li>Tu primera versión será <span class="fragment" style="color:grey;"><strong>horrible</strong></span></li>
-<li>Muestra, no <span class="fragment" style="color:grey;"><strong>cuentes</strong></span></li>
-</ol>
-</div>
-<aside class="notes">
-<p>Opción 2: Una agenda misteriosa.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="section-5" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Visualización</span></p>
-<p><span style="font-size: 2em">¿Qué es la Visualización?</span></p>
-</div>
-</section>
-<section id="visualización" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Visualización…</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><br></p>
-<p>La visualización de datos transforma información en gráficos para facilitar su comprensión.</p>
-</div><div class="column fragment" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/ojo.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="ejemplos-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Ejemplos</h2>
-<div class="columns">
-<div class="column" style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/vis_01.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-<p><em>❌ Mal Gráfico</em></p>
-</div><div class="column fragment" style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/vis_02.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
-</figure>
-</div>
-<p><em>✅ Buen Gráfico</em></p>
-</div></div>
-</section>
-<section id="cuarteto-de-anscombe" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Cuarteto de ANSCOMBE</h2>
-<div class="columns">
-<div class="column" style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/canscombe_01.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="text-align: center;">
-<p><br> <img data-src="images/viz/canscombe_02.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</div></div>
-<div class="fragment" style="text-align:center">
-<p>📋 Tablas vs 📊 Gráficos</p>
-</div>
-</section>
-<section class="slide level2">
 
-<h3 data-background-image="images/background.jpg" data-background-size="cover" data-background-opacity="0.5" id="datasaurus">Datasaurus</h3>
-
-<img data-src="./images/viz/anscombe.gif" style="width:80.0%" class="r-stretch"></section>
-<section id="teoría-de-visualización" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Teoría de visualización</h2>
-
-<img data-src="images/viz/teoria_vis.png" class="quarto-figure quarto-figure-center r-stretch" style="width:90.0%"></section>
-<section id="pilares-visualización---noah-iliinsky" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>4 Pilares Visualización - Noah Iliinsky</h2>
-<div class="columns">
-<div class="column fragment" style="width:60%;">
-<p><br></p>
-<ol type="1">
-<li><strong>Propósito</strong>: Define la meta.</li>
-<li><strong>Contenido</strong>: Datos relevantes.</li>
-<li><strong>Estructura</strong>: Organización clara.</li>
-<li><strong>Formato</strong>: Gráfico adecuado.</li>
-</ol>
-</div><div class="column" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/pilar2.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="section-6" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Herramientas</span></p>
-<p><span style="font-size: 2em">Herramientas de Visualización en Python</span></p>
-</div>
-</section>
-<section id="exploración-de-datos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Exploración de Datos</h2>
-<div class="fragment">
-<p><img data-src="images/viz/looker.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" width="400"></p>
-</div>
-<div class="fragment">
-<p><img data-src="images/viz/tableau.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 125px; left: 25px; width: 800px; "></p>
-</div>
-<div class="fragment">
-<p><img data-src="images/viz/pbi.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 150px; left: 50px; width: 800px; "></p>
-</div>
-<div class="fragment">
-<p><span style="background-color: #fff">¡Demasiadas opciones! <br> El usuario no puede ser responsable de encontrar lo valioso.</span></p>
-</div>
-</section>
-<section id="tipos-de-gráficos-esenciales" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Tipos de Gráficos Esenciales</h2>
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-<p><img src="images/viz/chart_01.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_04.png" style="width: 75%; height: auto;"></p>
-<p><img src="images/viz/chart_03.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_05.png" style="width: 70%; height: auto;"></p>
-<p><img src="images/viz/chart_02.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_07.png" style="width: 85%; height: auto;"></p>
-</div>
-<div class="fragment">
-<p><span style="font-size: 0.75em; color: gray">(C) Essential chart types for data visualization, por Atlassian.</span></p>
-</div>
-</section>
-<section id="librerías-para-graficar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Librerías para Graficar</h2>
-<div class="columns">
-<div class="column fragment" style="width:60%;">
-<p>¡Explora estas poderosas librerías de visualización en Python!</p>
-<ul>
-<li class="fragment"><strong>Vieja confiable</strong>: <a href="https://matplotlib.org/">Matplotlib</a></li>
-<li class="fragment"><strong>Populares</strong>: <a href="https://seaborn.pydata.org/">Seaborn</a>, <a href="https://plotly.com/python/">Plotly</a>, <a href="https://altair-viz.github.io/">Altair</a></li>
-<li class="fragment"><strong>Otras</strong>: <a href="https://plotnine.readthedocs.io/">plotnine</a>, <a href="http://www.pygal.org/">pygal</a>, <a href="https://docs.bokeh.org/en/latest/">Bokeh</a></li>
-</ul>
-</div><div class="column fragment" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/python.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-<div class="fragment">
-<div style="text-align:center">
-<p>📊 Elige una y domínala!</p>
-</div>
-</div>
-</section>
-<section id="ejemplos-3" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>📊 Ejemplos</h2>
+<img data-src="images/np_01.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="gráficos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Gráficos</h2>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="ejemplos-4" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>📊 Ejemplos</h2>
-<div id="qpyodide-insertion-location-2"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<section id="section" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">Infinito</span></p>
+<p><span style="font-size: 2em">¿Qué es contar?</span></p>
+</div>
 </section>
-<section id="ejemplos-5" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>📊 Ejemplos</h2>
-<div id="qpyodide-insertion-location-3"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="dashboards-en-python" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Dashboards en Python</h2>
-<p><img style="width:65%;" src="./images/streamlit/streamlit.gif"><br> <span style="font-size: 0.5em; color: gray">https://github.com/sebastiandres/streamlit_slides</span></p>
-</section>
-<section class="slide level2">
-
-</section>
-<section id="dashboards-en-python-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Dashboards en Python</h2>
+<section id="contar-es" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Contar es …</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p> <br><br></p>
-<p><span style="font-size: 1em; color: gray">Streamlit-Slides</span></p>
-<p>Tu presentación es una página web</p>
+<p><br> N° elementos en un conjunto.</p>
+<ul>
+<li>Contar personas en una sala.</li>
+<li>Contar números del 1 al 10.</li>
+<li>Contar objetos en una canasta.</li>
+</ul>
 </div><div class="column fragment" style="width:40%;">
-<p><img data-src="./images/streamlit/streamlit.png"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/contar2.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
 </div></div>
+</section>
+<section id="fundamento-en-los-axiomas-de-peano" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Fundamento en los Axiomas de Peano</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ol type="1">
+<li><strong>Primer Número</strong>: <span class="math inline">\(0\)</span> o <span class="math inline">\(1\)</span>.</li>
+<li><strong>Sucesor</strong>: <span class="math inline">\(1-&gt;2-&gt;3-&gt;...\)</span></li>
+<li><strong>Unicidad</strong>: Cada número es único.</li>
+<li><strong>Inducción</strong>: Si un conjunto tiene 0 y sus sucesores, contiene a <span class="math inline">\(\mathbb{N}\)</span>.</li>
+</ol>
+</div><div class="column fragment" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/contar.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="cardinalidad-de-un-conjunto" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Cardinalidad de un Conjunto</h2>
+<p><img data-src="images/pa/img_01.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" width="700"></p>
+<div class="fragment">
+<p><img data-src="images/pa/img_02.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 125px; left: 25px; width: 700px; "></p>
+</div>
+<div class="fragment">
+<p><img data-src="images/pa/img_03.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 180px; left: 50px; width: 800px; "></p>
+</div>
+<div class="fragment">
+<p><img data-src="images/pa/img_04.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 250px; left: 75px; width: 800px; "></p>
+</div>
+</section>
+<section id="cardinalidad-de-un-conjunto-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Cardinalidad de un Conjunto</h2>
+
+<img data-src="images/pa/img_05.png" class="quarto-figure quarto-figure-center r-stretch"><p><span class="math inline">\(|A|\)</span>: Contar <strong>todos</strong> los elementos de <span class="math inline">\(A\)</span> exactamente una vez.</p>
+</section>
+<section id="números-naturales" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Números Naturales</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment"><span class="math inline">\(\mathbb{N} = \{0,1,2,3,...\}\)</span> son infinitos.</li>
+<li class="fragment">También son infinitos:
+<ul>
+<li class="fragment">Pares = <span class="math inline">\(\{2,4,6,...\}\)</span>.</li>
+<li class="fragment">Impares = <span class="math inline">\(\{1,3,5,...\}\)</span>.</li>
+<li class="fragment">Primos = <span class="math inline">\(\{2,3,5,7,...\}\)</span>.</li>
+</ul></li>
+</ul>
+</div><div class="column fragment" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/pa/even.jpg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+<div class="fragment">
+<p><span style="font-size: 0.75em; color: gray">(C) Números Primos son infinitos, Demostración de Euclides.</span></p>
+</div>
+</section>
+<section id="números-enteros" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Números Enteros</h2>
+<div class="columns">
+<div class="column fragment" style="width:60%;">
+<p><br></p>
+<ul>
+<li><span class="math inline">\(\mathbb{N} = \{0,1,2,3,...\}\)</span></li>
+<li><span class="math inline">\(\mathbb{Z} = \{0,-1,1,-2,2,-3,...\}\)</span></li>
+<li><span class="math inline">\(\mathbb{N} \subsetneq  \mathbb{Z}\)</span> … ¿ <span class="math inline">\(|\mathbb{N}| &lt; |\mathbb{Z}|\)</span> ?</li>
+</ul>
+</div><div class="column fragment" style="width:40%;">
+<p><br> <img data-src="images/pa/num_02.png" class="quarto-figure quarto-figure-center"></p>
+</div></div>
+</section>
+<section id="contemos-los-números-enteros" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Contemos los números enteros</h2>
+<div class="center">
+<p><img data-src="images/pa/img_z1.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" width="500"></p>
+</div>
+<div class="fragment">
+<div class="center">
+<p><img data-src="images/pa/img_z2.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 125px; left: 25px; width: 500px; "></p>
+</div>
+</div>
+<div class="fragment">
+<div class="center">
+<p><img data-src="images/pa/img_z3.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 175px; left: 50px; width: 500px; "></p>
+</div>
+</div>
+<div class="fragment">
+<div class="center">
+<p><img data-src="images/pa/img_z4.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 200px; left: 75px; width: 500px; "></p>
+</div>
+</div>
+<div class="fragment">
+<div style="position: absolute; top: 70%; left: 90%; transform: translate(-50%, -50%);">
+<p><span class="math inline">\(\color{black}{\boxed{ |\mathbb{N}| = |\mathbb{Z}|  }}\)</span></p>
+</div>
+</div>
+</section>
+<section id="números-racionales" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Números Racionales</h2>
+<div class="columns">
+<div class="column fragment" style="width:60%;">
+<p><br></p>
+<ul>
+<li><span class="math inline">\(\mathbb{Q} = \{ \dfrac{p}{q} | p,q \in \mathbb{Z}, q \neq 0 \}\)</span></li>
+<li><span class="math inline">\(\mathbb{N} \subsetneq  \mathbb{Z} \subsetneq  \mathbb{Q}\)</span> … ¿ <span class="math inline">\(|\mathbb{N}| &lt; |\mathbb{Q}|\)</span> ?</li>
+</ul>
+</div><div class="column fragment" style="width:40%;">
+<p><br> <img data-src="images/pa/num_03.png" class="quarto-figure quarto-figure-center"></p>
+</div></div>
+</section>
+<section id="contemos-los-números-racionales" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Contemos los números racionales</h2>
+<p><img data-src="images/pa/racional_01.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" width="600"></p>
+<div class="fragment">
+<p><img data-src="images/pa/racional_02.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 125px; left: 25px; width: 600px; "></p>
+</div>
+<div class="fragment">
+<p><img data-src="images/pa/racional_03.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 175px; left: 50px; width: 600px; "></p>
+<div style="position: absolute; top: 70%; left: 90%; transform: translate(-50%, -50%);">
+<p><span class="math inline">\(\color{black}{\boxed{ |\mathbb{N}| \leq |\mathbb{Q_{+}}| \leq |\mathbb{N}| }}\)</span></p>
+</div>
+</div>
+<div class="fragment">
+<div style="padding-left: 800px;">
+<p><span class="math inline">\(\color{black}{\boxed{ |\mathbb{N}| = |\mathbb{Z}| = |\mathbb{Q}| }}\)</span></p>
+</div>
+</div>
+</section>
+<section id="números-reales" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Números Reales</h2>
+<div class="columns">
+<div class="column fragment" style="width:55%;">
+<p><br></p>
+<ul>
+<li><span class="math inline">\(\mathbb{R} = \{ \sqrt{2}, \pi, \mathrm{e}, ...  \}\)</span></li>
+<li>¿ <span class="math inline">\(|\mathbb{N}| &lt; |\mathbb{R}|\)</span> ?</li>
+</ul>
+</div><div class="column fragment" style="width:45%;">
+<p><br> <img data-src="images/pa/num_04.png" class="quarto-figure quarto-figure-center"></p>
+</div></div>
+</section>
+<section id="números-reales-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Números Reales</h2>
+<div class="columns">
+<div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/cantor.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
+</figure>
+</div>
+</div><div class="column fragment" style="width:50%;">
+<p><br></p>
+<p>En 1891, Cantor probó que es imposible enumerar todos los números reales en <span class="math inline">\((0,1)\)</span>.</p>
+<p><br></p>
+<p><span class="math inline">\(\color{black}{\boxed{\aleph_1 = |\mathbb{R}| &gt; |\mathbb{N}| = |\mathbb{Z}| = |\mathbb{Q}| = \aleph_0}}\)</span></p>
+</div></div>
+</section>
+<section id="section-1" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">Infinito</span></p>
+<p><span style="font-size: 2em">Hotel de Hilbert</span></p>
+</div>
+</section>
+<section id="el-hotel-de-hilbert" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>El Hotel de Hilbert</h2>
+<div class="columns">
+<div class="column fragment" style="width:50%;">
+<p><br></p>
+<ol type="1">
+<li><strong>Hotel infinito</strong>: Siempre hay espacio para más.</li>
+<li><strong>Truco</strong>: Mueve cada huésped adelante.</li>
+<li><strong>Lección</strong>: El infinito desafía la intuición.</li>
+</ol>
+</div><div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/hotel/hilbert_03.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="bienvenidos-al-hotel-de-vale" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🐶 Bienvenidos al Hotel de Vale</h2>
+<div class="columns">
+<div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/hotel/hotel2.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div><div class="column fragment" style="width:50%;">
+<p><br> Un lugar mágico con <strong>infinitas habitaciones</strong> para perritos, donde cada uno tiene su espacio y siempre son bienvenidos.</p>
+</div></div>
+<div class="fragment">
+<blockquote>
+<p>✨ !Siempre hay espacio para uno más!</p>
+</blockquote>
+</div>
+</section>
+<section id="caso-1-llega-un-nuevo-perrito" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Caso 1: Llega un Nuevo Perrito</h2>
+<div>
+<ul>
+<li class="fragment">El hotel está completo, cada habitación tiene un perrito.</li>
+<li class="fragment">Llega un Nuevo Perrito … ¿Qué hacemos?</li>
+</ul>
+</div>
+<div class="center fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/hotel/caso_01.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="caso-2-infinitos-perritos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Caso 2: Infinitos Perritos</h2>
+<div>
+<ul>
+<li class="fragment">El hotel está completo, cada habitación tiene un perrito.</li>
+<li class="fragment">Llega un bus con infinitos perritos … ¿Qué hacemos?</li>
+</ul>
+</div>
+<div class="center fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/hotel/caso_02.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="caso-3-infinitos-buses-y-perritos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Caso 3: Infinitos Buses y Perritos</h2>
+<div>
+<ul>
+<li class="fragment">El hotel está completo, cada habitación tiene un perrito.</li>
+<li class="fragment">Llegan inifinitos buses con infinitos perritos … ¿Qué hacemos?</li>
+</ul>
+</div>
+<div class="center fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/hotel/caso_03.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="caso-3-infinitos-buses-y-perritos-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Caso 3: Infinitos Buses y Perritos</h2>
+<p><img data-src="images/hotel/caso_031.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" width="350"></p>
+<div class="fragment">
+<p><img data-src="images/hotel/caso_032.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 125px; left: 25px; width: 350px; "></p>
+</div>
+<div class="fragment">
+<p><img data-src="images/hotel/caso_033.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 175px; left: 50px; width: 390px; "></p>
+</div>
+</section>
+<section id="conclusiones" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Conclusiones</h2>
+<p><br></p>
+<div>
+<ul>
+<li class="fragment"><strong>🌌 El <span class="math inline">\(\infty\)</span></strong>: Conceptos que desafían la intuición.</li>
+<li class="fragment"><strong>📏 Cardinalidad</strong>: Diferentes tamaños de infinito.</li>
+<li class="fragment"><strong>🐶 Hotel de Perritos</strong>: Infinito de forma entretenida.</li>
+</ul>
+</div>
 </section>
 <section id="gracias-por-participar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>🎉 ¡Gracias por Participar!</h2>
