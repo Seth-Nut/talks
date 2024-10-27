@@ -263,13 +263,60 @@ Tu primera versión **siempre** será horrible.
 
 ::: columns
 ::: {.column width="50%"}
-<br>
-![](images/less.png){fig-align="center"}
+```python
+import matplotlib.pyplot as plt
+
+# Datos de ejemplo
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 3, 5, 7]
+
+# Generamos el gráfico
+plt.figure(figsize=(6, 4))
+plt.plot(x, y, marker='o')
+plt.title("Gráfico de Ejemplo")
+plt.xlabel("Eje X")
+plt.ylabel("Eje Y")
+plt.grid(True)
+plt.show()
+```
+
 :::
 ::: {.column width="50%" .fragment}
-![](images/more.png){fig-align="center"}
+```{python}
+import matplotlib.pyplot as plt
+
+# Datos de ejemplo
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 3, 5, 7]
+
+# Generamos el gráfico
+plt.figure(figsize=(6, 4))
+plt.plot(x, y, marker='o')
+plt.title("Gráfico de Ejemplo")
+plt.xlabel("Eje X")
+plt.ylabel("Eje Y")
+plt.grid(True)
+plt.show()
+```
 :::
 :::
+
+---
+
+## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"}  {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+
+```{pyodide-python}
+import matplotlib.pyplot as plt
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 3, 5, 7]
+plt.figure(figsize=(5, 3))
+plt.plot(x, y, marker='o')
+plt.title("Gráfico de Ejemplo")
+plt.grid(True)
+plt.show()
+```
 
 
 ---
