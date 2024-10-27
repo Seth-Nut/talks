@@ -592,7 +592,7 @@
     "href": "infinity_2024/presentacion.html#fundamento-en-los-axiomas-de-peano",
     "title": "Más allá del Infinito",
     "section": "Fundamento en los Axiomas de Peano",
-    "text": "Fundamento en los Axiomas de Peano\n\n\n\nPrimer Número: \\(0\\) o \\(1\\).\nSucesor: \\(1-&gt;2-&gt;3-&gt;...\\)\nUnicidad: Cada número es único.\nInducción: Si un conjunto tiene 0 y sus sucesores, contiene a \\(\\mathbb{N}\\)."
+    "text": "Fundamento en los Axiomas de Peano\n\n\n\nPrimer Número: \\(0\\) o \\(1\\).\nSucesor: \\(1 \\rightarrow 2 \\rightarrow 3 \\rightarrow...\\)\nUnicidad: Cada número es único.\nInducción: Si un conjunto tiene 0 y sus sucesores, contiene a \\(\\mathbb{N}\\)."
   },
   {
     "objectID": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto",
