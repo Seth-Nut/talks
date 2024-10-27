@@ -126,7 +126,7 @@ N° elementos en un conjunto.
 ::: {.column width="60%"}
 
 1. **Primer Número**:  $0$ o $1$.
-2. **Sucesor**: $1->2->3->...$
+2. **Sucesor**: $1 \rightarrow 2 \rightarrow 3 \rightarrow...$
 3. **Unicidad**: Cada número es único.
 4. **Inducción**:  Si un conjunto tiene 0 y sus sucesores, contiene a $\mathbb{N}$.
 
