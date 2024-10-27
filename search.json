@@ -417,7 +417,14 @@
     "href": "visualization_2024/presentacion.html#explicar-menos-y-mostrar-más",
     "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
     "section": "Explicar menos y mostrar más",
-    "text": "Explicar menos y mostrar más"
+    "text": "Explicar menos y mostrar más\n\n\nimport matplotlib.pyplot as plt\n\n# Datos de ejemplo\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\n\n# Generamos el gráfico\nplt.figure(figsize=(6, 4))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.xlabel(\"Eje X\")\nplt.ylabel(\"Eje Y\")\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "visualization_2024/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "href": "visualization_2024/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
+    "section": "Explicar menos y mostrar más",
+    "text": "Explicar menos y mostrar más\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
     "objectID": "visualization_2024/presentacion.html#agenda-v2-1",
