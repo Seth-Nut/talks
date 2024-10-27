@@ -3,7 +3,7 @@ title: "Crea, Innova y Presenta  Data Storytelling + A.I."
 author: 
   - Francisco Alfaro
   - Valeska Canales
-date: 16 Nov 2024
+date: 15 Nov 2024
 format: 
   revealjs:
     transition: slide
