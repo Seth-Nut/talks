@@ -26,18 +26,6 @@ website:
       - icon: globe
         href: https://seth-nut.github.io/website/
 
-navbar:
-  title: "Presentaciones"
-  right:
-    - text: "Inicio"
-      href: index.html
-    - text: "Presentación 1"
-      href: presentacion1.html
-    - text: "Presentación 2"
-      href: presentacion2.html
-    - text: "Presentación 3"
-      href: presentacion3.html
-
 
 lang: es
 

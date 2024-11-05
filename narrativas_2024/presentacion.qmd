@@ -1,0 +1,264 @@
+---
+title: "De los Números a la Narrativa"
+author: 
+  - Francisco Alfaro 
+  - Valeska Canales
+date: 15 Nov 2024
+format: 
+  revealjs:
+  
+    transition: slide
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    slide-attributes:
+      data-background-image: images/background.jpg
+    logo: images/logo_sn.png
+---
+
+## 🎯 Objetivos del Taller {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.incremental}
+* Aprender sobre visualización de datos.
+* Aprender a crear visualizaciones con Matplotlib y Seaborn.
+* Entender cómo construir una app interactiva con Streamlit.
+* Integrar visualizaciones en una aplicación web simple.
+:::
+---
+
+## 🤔 ¿Qué es la Visualización de Datos? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="60%"}
+<br>
+La visualización de datos transforma información en gráficos para facilitar su comprensión. 
+:::
+
+::: {.column width="40%" .fragment}
+![](images/eye.jpeg){fig-align="center"}
+:::
+:::
+---
+
+## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%" style="text-align: center;"}
+![](images/viz/vis_01.png){fig-align="center" width="100%"}
+
+*❌ Mal Gráfico*
+:::
+::: {.column width="50%" .fragment style="text-align: center;"}
+![](images/viz/vis_02.png){fig-align="center" width="80%"}
+
+*✅ Buen Gráfico*
+:::
+:::
+
+## Cuarteto de ANSCOMBE {background-image="images/background.jpg" background-opacity="0.25"}
+::: columns
+::: {.column width="50%" style="text-align: center;" }
+![](images/viz/canscombe_01.png){fig-align="center" width="80%"}
+:::
+::: {.column width="50%" .fragment style="text-align: center;" }
+<br>
+![](images/viz/canscombe_02.png){fig-align="center" width="100%"}
+:::
+:::
+
+::: {style="text-align:center" .fragment}
+📋 Tablas vs 📊 Gráficos
+:::
+---
+
+## Teoría de visualización {background-image="images/background.jpg" background-opacity="0.25"}
+
+![](images/viz/teoria_vis.png){fig-align="center" width="90%"}
+
+---
+
+## 4 Pilares Visualización -  Noah Iliinsky {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="60%" .fragment}
+<br>
+
+1. **Propósito**: Define la meta.
+2. **Contenido**: Datos relevantes.
+3. **Estructura**: Organización clara.
+4. **Formato**: Gráfico adecuado.
+
+:::
+
+::: {.column width="40%" }
+![](images/viz/pilar2.png){fig-align="center"}
+:::
+:::
+
+## Herramientas de Visualización en Python {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+![](images/matplotlib.jpg.webp){style="margin-top: 20px; width: 400px; height: 200px;" .fragment}
+![](images/seaborn.png){style="margin-top: 20px; width: 400px; height: 200px;" .fragment}
+---
+
+## Exploración de Datos {background-image="images/background.jpg" background-opacity="0.25"}
+
+. . .
+
+![](images/viz/looker.png){width=400 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
+
+. . .
+
+![](images/viz/tableau.png){.absolute top=125 left=25 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+
+. . .
+
+![](images/viz/pbi.png){.absolute top=150 left=50 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+
+. . .
+
+[¡Demasiadas opciones! <br> El usuario no puede ser responsable de encontrar lo valioso.]{ style="background-color: #fff" }
+
+---
+
+## Tipos de Gráficos Esenciales {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+
+<img src="images/viz/chart_01.png" style="width: 75%; height: auto;"/> 
+<img src="images/viz/chart_04.png" style="width: 75%; height: auto;"/>
+
+<img src="images/viz/chart_03.png" style="width: 75%; height: auto;"/>
+<img src="images/viz/chart_05.png" style="width: 70%; height: auto;"/>
+
+<img src="images/viz/chart_02.png" style="width: 75%; height: auto;"/>
+<img src="images/viz/chart_07.png" style="width: 85%; height: auto;"/>
+
+</div>
+
+. . .
+
+[(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
+
+---
+
+## 〽️ Matplotlib: Visualización Básica {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.incremental}
+* Matplotlib es una biblioteca para crear gráficos estáticos.
+* Tipos de gráficos más comunes:
+    * Líneas, Barras, Dispersión, Histograma.
+:::
+---
+
+## 〽️ Ejemplo básico con Matplotlib {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+
+```{pyodide-python}
+import matplotlib.pyplot as plt
+x = [1, 2, 3, 4]
+y = [10, 20, 25, 30]
+plt.plot(x, y)
+#plt.title("Título", fontsize=16)
+#plt.xlabel("Eje X", fontsize=14)
+#plt.ylabel("Eje Y", fontsize=14)
+#plt.grid(True)
+plt.show()
+```
+
+## 〽️ Ejemplo con Matplotlib {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+
+```{pyodide-python}
+import matplotlib.pyplot as plt
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+y = [10, 12, 14, 16, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30]
+plt.figure(figsize=(8, 6))
+plt.plot(x, y, color='salmon')
+#plt.bar(x, y, color='salmon')
+#plt.barh(x, y, color='salmon')
+#plt.scatter(x, y, color='salmon')
+plt.title("Gráfico de líneas", fontsize=16)
+plt.xlabel("Eje X", fontsize=14)
+plt.ylabel("Eje Y", fontsize=14)
+plt.grid(True)
+plt.show()
+```
+
+## 📊 Seaborn: Visualización Avanzada {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.incremental}
+* Seaborn extiende Matplotlib con gráficos más estilizados.
+* Especialmente útil para:
+    * Gráficos estadísticos.
+    * Análisis exploratorio de datos.
+:::
+---
+
+## 📊 Ejemplo con Seaborn {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+tips = sns.load_dataset("tips")
+plt.figure(figsize=(8, 6))
+sns.scatterplot(
+  x="total_bill", 
+  y="tip", 
+  data=tips, 
+  color='salmon', 
+  s=100, 
+  edgecolor='gray')
+plt.title("Relación entre total de cuenta y propina", fontsize=16)
+plt.grid(True)
+plt.show()
+```
+. . .
+
+```{python}
+import seaborn as sns
+import matplotlib.pyplot as plt
+tips = sns.load_dataset("tips")
+plt.figure(figsize=(8, 6))
+sns.scatterplot(x="total_bill", y="tip", data=tips, color='salmon', s=100, edgecolor='gray')
+plt.title("Relación entre total de cuenta y propina", fontsize=16)
+plt.grid(True)
+plt.show()
+```
+---
+
+## 🧑🏻‍💻 Aplicaciones Web Interactivas {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.incremental}
+* Streamlit permite crear aplicaciones web rápidamente.
+* Puedes integrar gráficos creados con Matplotlib y Seaborn.
+* Ideal para compartir resultados de análisis de datos.
+:::
+---
+
+## Ejemplo de Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
+
+<img style="width:65%;" src="./images/streamlit/streamlit.gif"><br>
+[https://github.com/sebastiandres/streamlit_slides]{style="font-size: 0.5em; color: gray"}
+---
+
+## {auto-animate=true}
+
+::: {style="margin-top: 100px;"}
+¡Ahora te toca a ti!🫵
+:::
+
+## {auto-animate=true}
+
+::: {style="margin-top: 200px; font-size: 3em; color: red;"}
+¡Ahora te toca a ti!🫵
+:::
+
+
+## 🎓 Conclusión {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.incremental}
+* Matplotlib para gráficos básicos.
+* Seaborn para gráficos avanzados.
+* Streamlit para aplicaciones interactivas.
+:::
+---

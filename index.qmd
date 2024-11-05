@@ -16,5 +16,9 @@ output: html_document
 
 - 🎤 [Más allá del Infinito](infinity_2024/presentacion.html) - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.
 
+- 🎤 [De los Números a la Narrativa](narrativas_2024/presentacion.html) - Este taller profundiza en cómo transformar datos en visualizaciones impactantes, utilizando Python y herramientas de visualización para contar historias claras y persuasivas.
+
+- 🎤 [Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero](computacion_2024/presentacion.html) - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.
+
 ¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊
 
