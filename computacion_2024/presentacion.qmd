@@ -33,6 +33,12 @@ format:
 :::
 ---
 
+## Computador
+
+![](images/computador.jpg){fig-align="center"}
+
+---
+
 ## 🤔 ¿Qué es un computador? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.incremental}
@@ -44,8 +50,15 @@ format:
   * Conectarse con amigos y familiares 👥
 * Funciona con programas o aplicaciones, que son como herramientas en una caja de herramientas 🧰  
 :::
+---
 
-## 🤔 ¿Qué es un notebook y en qué se diferencia de un computador de escritorio? {background-image="images/background.jpg" background-opacity="0.25"}
+### Notebook
+
+![](images/ntbk.jpg){fig-align="center" width="500px"}
+
+---
+
+## 🤔 ¿Qué es un notebook? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.incremental}
 * 💻 Un notebook es un computador pequeño y liviano que se puede llevar a cualquier lugar.
@@ -54,6 +67,13 @@ format:
   * Funciona con batería🔋
 * Es ideal para usar en diferentes lugares, dentro y fuera de casa 👩🏻‍💻🧑🏻‍💻
 :::
+---
+
+### Celular Inteligente 
+
+![](images/celu.jpg){fig-align="center" width="450px"}
+
+---
 
 ## 🤔 ¿Qué es un Celular Inteligente? {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -62,24 +82,6 @@ format:
 * Permite hacer llamadas, enviar mensajes, y conectarse a internet 📞
 * Se pueden instalar aplicaciones para diversas tareas: desde redes sociales hasta banca en línea ⬇️
 * Es ideal para mantenerse en contacto y acceder a información en cualquier momento y lugar ⌚
-:::
-
-## 🦾 Computador, Notebook y Celular Inteligente {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {.panel-tabset}
-
-### Computador
-
-![](images/computador.jpg){fig-align="center"}
-
-### Notebook
-
-![](images/ntbk.jpg){fig-align="center" width="500px"}
-
-### Celular Inteligente 
-
-![](images/celu.jpg){fig-align="center" width="450px"}
-
 :::
 
 ## 🖥️ Conocer las Partes del Computador {background-image="images/background.jpg" background-opacity="0.25"}
@@ -111,19 +113,13 @@ Encender el notebook
 ## 🔍 Identificar el Escritorio {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.incremental}
-:::: {.columns}
-::: {.column width="60%"}
-* El “escritorio” es el espacio principal donde se ven íconos y accesos directos.
-* Mostrar los elementos principales:
-    * Barra de tareas: suele estar en la parte inferior, donde se ven aplicaciones y el botón de inicio.
-    * Iconos: pequeñas imágenes en el escritorio para abrir programas o archivos.
+![](images/escritorio.jpg){fig-align="center" width="50%"}
+
+* Elementos principales:
+    * Barra de tareas
+    * Iconos
 :::
 
-::: {.column width="40%"}
-![](images/escritorio.jpg)
-:::
-:::
-::::
 ---
 
 ## 🖱️⌨️ Usar el Mouse y el Teclado {background-image="images/background.jpg" background-opacity="0.25"}

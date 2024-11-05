@@ -15,13 +15,24 @@ format:
     logo: images/logo_sn.png
 ---
 
+## 🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.r-stack}
+![](images/Honestidad2.png){.fragment .fade-in-then-out width="60%"}
+
+![](images/male_height.jpg){.fragment .fade-in-then-out width="200%"}
+
+![](images/nba.png){.fragment width="600%"}
+
+:::
+
 ## 🎯 Objetivos del Taller {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.incremental}
-* Aprender sobre visualización de datos.
-* Aprender a crear visualizaciones con Matplotlib y Seaborn.
-* Entender cómo construir una app interactiva con Streamlit.
-* Integrar visualizaciones en una aplicación web simple.
+* 📊 Aprender sobre visualización de datos.
+* 🧑‍🎨 Aprender a crear visualizaciones con Matplotlib y Seaborn.
+* 🌐 Entender cómo construir una app interactiva con Streamlit.
+* 💻 Integrar visualizaciones en una aplicación web simple.
 :::
 ---
 
@@ -79,7 +90,7 @@ La visualización de datos transforma información en gráficos para facilitar s
 ## 4 Pilares Visualización -  Noah Iliinsky {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%" .fragment}
+::: {.column width="60%" .fragment .incremental}
 <br>
 
 1. **Propósito**: Define la meta.
@@ -96,9 +107,7 @@ La visualización de datos transforma información en gráficos para facilitar s
 
 ## Herramientas de Visualización en Python {background-image="images/background_slides3.png" background-opacity="0.3"}
 
-![](images/matplotlib.jpg.webp){style="margin-top: 20px; width: 400px; height: 200px;" .fragment}
-![](images/seaborn.png){style="margin-top: 20px; width: 400px; height: 200px;" .fragment}
----
+![](images/plotly.jpg){fig-align="center"}
 
 ## Exploración de Datos {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -150,6 +159,9 @@ La visualización de datos transforma información en gráficos para facilitar s
 * Tipos de gráficos más comunes:
     * Líneas, Barras, Dispersión, Histograma.
 :::
+. . .
+
+[Página de Matplotlib](https://matplotlib.org/)
 ---
 
 ## 〽️ Ejemplo básico con Matplotlib {background-image="images/background.jpg" background-opacity="0.25".scrollable}
@@ -158,14 +170,12 @@ La visualización de datos transforma información en gráficos para facilitar s
 import matplotlib.pyplot as plt
 x = [1, 2, 3, 4]
 y = [10, 20, 25, 30]
+plt.figure(figsize=(8, 6))
 plt.plot(x, y)
-#plt.title("Título", fontsize=16)
-#plt.xlabel("Eje X", fontsize=14)
-#plt.ylabel("Eje Y", fontsize=14)
-#plt.grid(True)
 plt.show()
 ```
 
+---
 ## 〽️ Ejemplo con Matplotlib {background-image="images/background.jpg" background-opacity="0.25".scrollable}
 
 ```{pyodide-python}
@@ -192,6 +202,9 @@ plt.show()
     * Gráficos estadísticos.
     * Análisis exploratorio de datos.
 :::
+. . .
+
+[Página de Seaborn](https://seaborn.pydata.org/)
 ---
 
 ## 📊 Ejemplo con Seaborn {background-image="images/background.jpg" background-opacity="0.25".scrollable}
@@ -237,8 +250,8 @@ plt.show()
 
 ## Ejemplo de Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
 
-<img style="width:65%;" src="./images/streamlit/streamlit.gif"><br>
-[https://github.com/sebastiandres/streamlit_slides]{style="font-size: 0.5em; color: gray"}
+<img style="width:90%;" src="./images/streamlit/streamlit.gif"><br>
+
 ---
 
 ## {auto-animate=true}
