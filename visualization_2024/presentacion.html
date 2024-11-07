@@ -573,7 +573,7 @@
   }
 
   // Store cell data
-  globalThis.qpyodideCellDetails = [{"options":{"read-only":"false","label":"","classes":"","fig-height":5,"output":"true","results":"markup","autorun":"","dpi":72,"warning":"true","context":"interactive","fig-width":7,"out-width":"700px","out-height":"","fig-cap":"","message":"true","comment":""},"id":1,"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\nplt.figure(figsize=(5, 3))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.grid(True)\nplt.show()"}];
+  globalThis.qpyodideCellDetails = [{"options":{"read-only":"false","warning":"true","autorun":"","results":"markup","fig-height":5,"comment":"","out-height":"","context":"interactive","output":"true","fig-cap":"","dpi":72,"out-width":"700px","label":"","fig-width":7,"classes":"","message":"true"},"id":1,"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\nplt.figure(figsize=(5, 3))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.grid(True)\nplt.show()"}];
 
 
   </script>
@@ -1062,7 +1062,7 @@ Valeska Canales
 <span id="cb1-13"><a></a>plt.grid(<span class="va">True</span>)</span>
 <span id="cb1-14"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column fragment" style="width:50%;">
-<div id="b2c05cfb" class="cell" data-execution_count="1">
+<div id="55edfa17" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -1300,9 +1300,49 @@ format:
 <p><br> <img data-src="./images/streamlit/streamlit.png"></p>
 </div></div>
 </section>
+<section id="streamlit-ejemplo" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Streamlit: Ejemplo</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb3-2"><a></a></span>
+<span id="cb3-3"><a></a><span class="co"># Título principal de la aplicación</span></span>
+<span id="cb3-4"><a></a>st.title(<span class="st">"Hola Streamlit"</span>)</span>
+<span id="cb3-5"><a></a></span>
+<span id="cb3-6"><a></a><span class="co"># Mensaje principal con nombres y emoticón fijos</span></span>
+<span id="cb3-7"><a></a>mensaje <span class="op">=</span> <span class="st">"Darwin y Patricia son mejores amigos 😊"</span></span>
+<span id="cb3-8"><a></a>st.write(mensaje)</span>
+<span id="cb3-9"><a></a></span>
+<span id="cb3-10"><a></a><span class="co"># Imagen decorativa</span></span>
+<span id="cb3-11"><a></a>st.image(</span>
+<span id="cb3-12"><a></a>    <span class="st">"https://www.svgrepo.com/show/397758/people-hugging.svg"</span>,</span>
+<span id="cb3-13"><a></a>    caption<span class="op">=</span><span class="st">"Amigos"</span>,</span>
+<span id="cb3-14"><a></a>    width<span class="op">=</span><span class="dv">200</span>  <span class="co"># Ajuste del tamaño de la imagen</span></span>
+<span id="cb3-15"><a></a>)</span>
+<span id="cb3-16"><a></a></span>
+<span id="cb3-17"><a></a><span class="co"># Footer</span></span>
+<span id="cb3-18"><a></a>st.markdown(</span>
+<span id="cb3-19"><a></a>    <span class="st">"""</span></span>
+<span id="cb3-20"><a></a><span class="st">    ---</span></span>
+<span id="cb3-21"><a></a><span class="st">    Gracias por usar esta aplicación interactiva 🎈</span></span>
+<span id="cb3-22"><a></a><span class="st">    """</span></span>
+<span id="cb3-23"><a></a>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/streamlit_example.png" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+</figure>
+</div>
+</div></div>
+<div class="fragment">
+<div style="text-align: center; margin-top: -30px;">
+<p><a href="https://streamlit.io/playground?example=geospatial&amp;code=H4sIAAAAAAAAA4VTPY8TMRDt91eMTJOTLsldEDpASnECHTR8SKFDKJo4cxsHr23Z3ts7TunRCfHR0aA0dIgCISH6_BP-APkJjHc3JCcKtpnZGb_n52ePKpz1EUL0hIVWETDwT5bdgGerr7HUFpxXRiqHGqYEGgGdVhKlWn03WYi9qKKmjnhouTXasIi9xDBSU5qgB2kNY4P0ytUwuADLmTUUEie3T1Ve-i1naIAb7iftYmbdaVZeRW7e26CBNBRkAs5pR_NFKlNho5JM3muEbQiBTGq3jOCQWRz5YA1q9YorW8rM2GLi6RCGsCuQzuNYGVfGjnhcL4BDsQ_iPvpKGd6sQQ3-ixok1FOMXkmFjGsUs2_XgIE0yTix5x0xSmk6BUJptgdkmudivfx4lfh-ffr8--e7lK2XH7408c2yie9_iBe1F4_-sYxNqa_ZZRs7h3AqLlsDFmxpmw8WwFaxQ3Pr2UwsVG4DXG60L0S6ruaaWqZ6x-PcU87mlqxdFZhTeh3SeozqDBOkLnYy4E_MYnThbr9fVVUvnDHS2Z60RT_MbNW_eefo6NbtviPrNHVnZZ4rk6dlYr9GS3SRLRqK41paWy0DjaXVZWHGlZrG2fAEdaCm1xQGBwcALHRehkgsTkPEAlffbDsCjeqsPs2JtZF8kl2gfzm1lWmVC1HHbrdbxwfpffNw8bixgvS2Qrw2TKAME6FMLsB6-fb1X5q97A_oi2bFpgMAAA" style="font-size: 0.75em; color: gray">(C) Ejemplo en Streamlit - Playground.</a></p>
+</div>
+</div>
+</section>
 <section class="slide level2">
 
-<h3 id="streamlit-1">Streamlit</h3>
+<h3 id="streamlit-ejemplo-1">Streamlit: Ejemplo</h3>
 
 <img style="width:50%;" src="./images/streamlit/Streamlit-Prophet.gif" class="r-stretch"></section>
 <section id="html-webapps" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
@@ -1345,10 +1385,10 @@ format:
 <div class="column" style="width:50%;">
 <p><br></p>
 <p>❓¿Preguntas?</p>
-<p>👏 Responder <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvkmAfsYiiuVhJdjyWSgH3cr-8jZwWYMHWGsVBPG6NcvBd-A/viewform?usp=sf_link">encuesta</a></p>
+<p>👏 Responder <a href="https://docs.google.com/forms/d/e/1FAIpQLScdkSSY40VsN_uEXsNK5LYP-qngUVvaO-c8qItr163zzvpzZA/viewform?usp=sf_link">encuesta</a></p>
 <p>🥳 Gracias de Nuevo</p>
 </div><div class="column" data-align="center" style="width:50%;">
-<p><img data-src="images/survey/QR_code_english.png" width="400"></p>
+<p><img data-src="images/qr_visualizacion.png" width="400"></p>
 </div></div>
 <blockquote>
 <p>🔗 Nuestro Sitio Web: <a href="https://seth-nut.github.io/resources/">seth-nut.github.io/resources</a>.</p>
