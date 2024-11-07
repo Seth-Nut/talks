@@ -13,27 +13,31 @@ format:
     slide-attributes:
       data-background-image: images/background.jpg
     logo: images/logo_sn.png
+    
 ---
 
 ## 🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.r-stack}
-![](images/Honestidad2.png){.fragment .fade-in-then-out width="60%"}
+![](images/male_height.jpg){.fragment .fade-in-then-out width="400%" fig-align="left"}
 
-![](images/male_height.jpg){.fragment .fade-in-then-out width="200%"}
+![](images/Honestidad2.png){.fragment .fade-in-then-out width="60%" fig-align="center"}
 
-![](images/nba.png){.fragment width="600%"}
+![](images/buengrafico.png){.fragment width="600%" fig-align="right"}
 
 :::
+
+---
 
 ## 🎯 Objetivos del Taller {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.incremental}
 * 📊 Aprender sobre visualización de datos.
-* 🧑‍🎨 Aprender a crear visualizaciones con Matplotlib y Seaborn.
-* 🌐 Entender cómo construir una app interactiva con Streamlit.
+* 🧑‍🎨 Aprender a crear visualizaciones.
+* 🌐 Entender cómo construir una app interactiva.
 * 💻 Integrar visualizaciones en una aplicación web simple.
 :::
+
 ---
 
 ## 🤔 ¿Qué es la Visualización de Datos? {background-image="images/background.jpg" background-opacity="0.25"}
@@ -48,22 +52,8 @@ La visualización de datos transforma información en gráficos para facilitar s
 ![](images/eye.jpeg){fig-align="center"}
 :::
 :::
+
 ---
-
-## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="50%" style="text-align: center;"}
-![](images/viz/vis_01.png){fig-align="center" width="100%"}
-
-*❌ Mal Gráfico*
-:::
-::: {.column width="50%" .fragment style="text-align: center;"}
-![](images/viz/vis_02.png){fig-align="center" width="80%"}
-
-*✅ Buen Gráfico*
-:::
-:::
 
 ## Cuarteto de ANSCOMBE {background-image="images/background.jpg" background-opacity="0.25"}
 ::: columns
@@ -79,6 +69,7 @@ La visualización de datos transforma información en gráficos para facilitar s
 ::: {style="text-align:center" .fragment}
 📋 Tablas vs 📊 Gráficos
 :::
+
 ---
 
 ## Teoría de visualización {background-image="images/background.jpg" background-opacity="0.25"}
@@ -105,9 +96,13 @@ La visualización de datos transforma información en gráficos para facilitar s
 :::
 :::
 
+---
+
 ## Herramientas de Visualización en Python {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ![](images/plotly.jpg){fig-align="center"}
+
+---
 
 ## Exploración de Datos {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -152,77 +147,124 @@ La visualización de datos transforma información en gráficos para facilitar s
 
 ---
 
-## 〽️ Matplotlib: Visualización Básica {background-image="images/background.jpg" background-opacity="0.25"}
+## ![](images/matplolib.webp "width:80%"){fig-align="center"} {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.incremental}
-* Matplotlib es una biblioteca para crear gráficos estáticos.
+* [Matplotlib](https://matplotlib.org/) es una biblioteca para crear gráficos estáticos.
 * Tipos de gráficos más comunes:
     * Líneas, Barras, Dispersión, Histograma.
-:::
-. . .
 
-[Página de Matplotlib](https://matplotlib.org/)
+:::
+
 ---
 
-## 〽️ Ejemplo básico con Matplotlib {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+## 〽️ Ejemplo: líneas {background-image="images/background.jpg" background-opacity="0.25".scrollable}
 
 ```{pyodide-python}
 import matplotlib.pyplot as plt
 x = [1, 2, 3, 4]
 y = [10, 20, 25, 30]
-plt.figure(figsize=(8, 6))
+plt.figure(figsize=(4, 3))
 plt.plot(x, y)
 plt.show()
 ```
 
 ---
-## 〽️ Ejemplo con Matplotlib {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+
+## 〽️ Ejemplo: dispersión {background-image="images/background.jpg" background-opacity="0.25".scrollable}
 
 ```{pyodide-python}
 import matplotlib.pyplot as plt
-x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-y = [10, 12, 14, 16, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30]
-plt.figure(figsize=(8, 6))
-plt.plot(x, y, color='salmon')
-#plt.bar(x, y, color='salmon')
-#plt.barh(x, y, color='salmon')
-#plt.scatter(x, y, color='salmon')
-plt.title("Gráfico de líneas", fontsize=16)
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+y = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55]
+plt.figure(figsize=(4, 3))
+plt.scatter(x, y)
+plt.show()
+```
+
+---
+
+## 〽️ Ejemplo: barras {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+
+```{pyodide-python}
+import matplotlib.pyplot as plt
+x = [1, 2, 3, 4]
+y = [10, 20, 25, 30]
+plt.figure(figsize=(4, 3))
+plt.bar(x, y)
+plt.show()
+```
+
+---
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+![](images/Anatomy_1.png){fig-align="center"}
+
+---
+
+## 〽️ Ejemplo: barras horizontales {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+
+```{pyodide-python}
+import matplotlib.pyplot as plt
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+y = [10, 12, 14, 16, 19, 20, 21, 22, 24, 25, 26, 27, 28]
+plt.figure(figsize=(6, 3))
+plt.barh(x, y, color='salmon')
+plt.title("Gráfico de barras horizontales", fontsize=16)
 plt.xlabel("Eje X", fontsize=14)
 plt.ylabel("Eje Y", fontsize=14)
 plt.grid(True)
 plt.show()
 ```
 
-## 📊 Seaborn: Visualización Avanzada {background-image="images/background.jpg" background-opacity="0.25"}
+---
+
+## ![](images/seaborn.png){fig-align="center"} {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.incremental}
-* Seaborn extiende Matplotlib con gráficos más estilizados.
+
+* [Seaborn](https://seaborn.pydata.org/)
+ extiende Matplotlib con gráficos más estilizados.
 * Especialmente útil para:
     * Gráficos estadísticos.
     * Análisis exploratorio de datos.
+  
 :::
-. . .
 
-[Página de Seaborn](https://seaborn.pydata.org/)
 ---
 
-## 📊 Ejemplo con Seaborn {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+## 📊 Ejemplo: penguins {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+
+```{python}
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Cargar el conjunto de datos Iris desde seaborn
+penguins = sns.load_dataset("penguins")
+
+# Borrar nulos
+penguins = penguins.dropna()
+
+# Mostrar las primeras filas para entender el conjunto de datos
+penguins.head()
+
+```
+
+---
+
+## 📊 Ejemplo: dispersión {background-image="images/background.jpg" background-opacity="0.25".scrollable}
 
 ```python
 import seaborn as sns
 import matplotlib.pyplot as plt
-tips = sns.load_dataset("tips")
-plt.figure(figsize=(8, 6))
-sns.scatterplot(
-  x="total_bill", 
-  y="tip", 
-  data=tips, 
-  color='salmon', 
-  s=100, 
-  edgecolor='gray')
-plt.title("Relación entre total de cuenta y propina", fontsize=16)
-plt.grid(True)
+
+# Crear un gráfico de dispersión con seaborn
+plt.figure(figsize=(6, 3))
+sns.scatterplot(x='bill_length_mm', y='bill_depth_mm', data=penguins, 
+                color='salmon')
+
+# Mostrar el gráfico
 plt.show()
 ```
 . . .
@@ -230,13 +272,103 @@ plt.show()
 ```{python}
 import seaborn as sns
 import matplotlib.pyplot as plt
-tips = sns.load_dataset("tips")
-plt.figure(figsize=(8, 6))
-sns.scatterplot(x="total_bill", y="tip", data=tips, color='salmon', s=100, edgecolor='gray')
-plt.title("Relación entre total de cuenta y propina", fontsize=16)
-plt.grid(True)
+
+# Crear un gráfico de dispersión con seaborn
+plt.figure(figsize=(6, 3))
+sns.scatterplot(x='bill_length_mm', y='bill_depth_mm', data=penguins, 
+                color='salmon')
+
+# Mostrar el gráfico
 plt.show()
 ```
+---
+
+## 📊 Ejemplo: dispersión {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Crear un gráfico de dispersión con seaborn
+plt.figure(figsize=(6, 3))
+sns.scatterplot(x='flipper_length_mm', y='body_mass_g', data=penguins, 
+                color='salmon', hue= "sex")
+
+# Mostrar el gráfico
+plt.show()
+```
+. . .
+
+```{python}
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Crear un gráfico de dispersión con seaborn
+plt.figure(figsize=(6, 3))
+sns.scatterplot(x='flipper_length_mm', y='body_mass_g', data=penguins, 
+                color='salmon', hue='sex')
+
+# Mostrar el gráfico
+plt.show()
+```
+---
+
+## 📊 Matplotlib vs Seaborn {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+
+```python
+import matplotlib.pyplot as plt
+
+# Contar la cantidad de Pingüinos por tipo
+penguins_type = penguins["species"].value_counts()
+
+# Crear un gráfico de barras
+plt.figure(figsize=(6, 3))
+penguins_type.plot(kind="bar", color="salmon")
+
+# Mostrar gráfico
+plt.show()
+```
+
+```{python}
+import matplotlib.pyplot as plt
+
+# Contar la cantidad de Pingüinos por tipo
+penguins_type = penguins["species"].value_counts()
+
+# Crear un gráfico de barras
+plt.figure(figsize=(6, 3))
+penguins_type.plot(kind="bar", color="salmon")
+
+# Mostrar gráfico
+plt.show()
+
+```
+
+## 📊 Matplotlib vs Seaborn {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Crear el gráfico de barras con seaborn
+plt.figure(figsize=(6, 3))
+sns.countplot(data=penguins, x="species", color="salmon")
+
+# Mostrar el gráfico
+plt.show()
+```
+```{python}
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Crear el gráfico de barras con seaborn
+plt.figure(figsize=(6, 3))
+sns.countplot(data=penguins, x="species", color="salmon")
+
+# Mostrar el gráfico
+plt.show()
+```
+
 ---
 
 ## 🧑🏻‍💻 Aplicaciones Web Interactivas {background-image="images/background.jpg" background-opacity="0.25"}
@@ -246,6 +378,7 @@ plt.show()
 * Puedes integrar gráficos creados con Matplotlib y Seaborn.
 * Ideal para compartir resultados de análisis de datos.
 :::
+
 ---
 
 ## Ejemplo de Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
@@ -266,6 +399,7 @@ plt.show()
 ¡Ahora te toca a ti!🫵
 :::
 
+---
 
 ## 🎓 Conclusión {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -274,4 +408,3 @@ plt.show()
 * Seaborn para gráficos avanzados.
 * Streamlit para aplicaciones interactivas.
 :::
----
