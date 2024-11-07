@@ -588,9 +588,54 @@ Streamlit es una herramienta de código abierto que permite crear aplicaciones w
 :::
 :::
 
+
 ---
 
-### Streamlit
+## Streamlit: Ejemplo  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%" }
+```python
+import streamlit as st
+
+# Título principal de la aplicación
+st.title("Hola Streamlit")
+
+# Mensaje principal con nombres y emoticón fijos
+mensaje = "Darwin y Patricia son mejores amigos 😊"
+st.write(mensaje)
+
+# Imagen decorativa
+st.image(
+    "https://www.svgrepo.com/show/397758/people-hugging.svg",
+    caption="Amigos",
+    width=200  # Ajuste del tamaño de la imagen
+)
+
+# Footer
+st.markdown(
+    """
+    ---
+    Gracias por usar esta aplicación interactiva 🎈
+    """
+)
+```
+
+:::
+::: {.column width="50%" }
+![](images/streamlit_example.png){fig-align="center" width="85%"}
+:::
+:::
+
+. . .
+
+::: {style="text-align: center; margin-top: -30px;"}
+[(C) Ejemplo en Streamlit - Playground.](https://streamlit.io/playground?example=geospatial&code=H4sIAAAAAAAAA4VTPY8TMRDt91eMTJOTLsldEDpASnECHTR8SKFDKJo4cxsHr23Z3ts7TunRCfHR0aA0dIgCISH6_BP-APkJjHc3JCcKtpnZGb_n52ePKpz1EUL0hIVWETDwT5bdgGerr7HUFpxXRiqHGqYEGgGdVhKlWn03WYi9qKKmjnhouTXasIi9xDBSU5qgB2kNY4P0ytUwuADLmTUUEie3T1Ve-i1naIAb7iftYmbdaVZeRW7e26CBNBRkAs5pR_NFKlNho5JM3muEbQiBTGq3jOCQWRz5YA1q9YorW8rM2GLi6RCGsCuQzuNYGVfGjnhcL4BDsQ_iPvpKGd6sQQ3-ixok1FOMXkmFjGsUs2_XgIE0yTix5x0xSmk6BUJptgdkmudivfx4lfh-ffr8--e7lK2XH7408c2yie9_iBe1F4_-sYxNqa_ZZRs7h3AqLlsDFmxpmw8WwFaxQ3Pr2UwsVG4DXG60L0S6ruaaWqZ6x-PcU87mlqxdFZhTeh3SeozqDBOkLnYy4E_MYnThbr9fVVUvnDHS2Z60RT_MbNW_eefo6NbtviPrNHVnZZ4rk6dlYr9GS3SRLRqK41paWy0DjaXVZWHGlZrG2fAEdaCm1xQGBwcALHRehkgsTkPEAlffbDsCjeqsPs2JtZF8kl2gfzm1lWmVC1HHbrdbxwfpffNw8bixgvS2Qrw2TKAME6FMLsB6-fb1X5q97A_oi2bFpgMAAA){style="font-size: 0.75em; color: gray"}
+:::
+
+---
+
+### Streamlit: Ejemplo
 
 <img style="width:50%;" src="./images/streamlit/Streamlit-Prophet.gif">
 
@@ -651,14 +696,14 @@ Streamlit es una herramienta de código abierto que permite crear aplicaciones w
 
 ❓¿Preguntas?
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSdvkmAfsYiiuVhJdjyWSgH3cr-8jZwWYMHWGsVBPG6NcvBd-A/viewform?usp=sf_link)
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLScdkSSY40VsN_uEXsNK5LYP-qngUVvaO-c8qItr163zzvpzZA/viewform?usp=sf_link)
 
 
 🥳 Gracias de Nuevo 
   
 ::::
 :::: {.column width=50% align="center"}
-![](images/survey/QR_code_english.png){width=400}
+![](images/qr_visualizacion.png){width=400}
 ::::
 :::
 

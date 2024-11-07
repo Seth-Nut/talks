@@ -15,15 +15,21 @@ format:
 
 
 
-## 🚀 Introducción {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+## 💡 Innovar en la Enseñanza {background-image="images/background.jpg" background-opacity="0.25"}
 
 
 ::: {.columns}
 :::: {.column width=40%}
 ![](images/logo-quarto.png){width=300}
 ::::
-:::: {.column width=50%}
-<br>**Quarto** permite crear contenidos interactivos y combinar varios lenguajes en un solo entorno educativo.
+:::: {.column width=50% .incremental}
+<br>
+
+* Captar atención activa.
+* Adaptarse al mundo digital.
+* [Quarto](https://quarto.org/) permite crear contenidos interactivos.
 ::::
 :::
 
@@ -79,7 +85,7 @@ plt.show()
 
 ## 🎓 Quarto y la Enseñanza  {background-image="images/background.jpg" background-opacity="0.25"}
 
-![](images/n01.png)
+![](images/n05.png)
 
 ---
 
