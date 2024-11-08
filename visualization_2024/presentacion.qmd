@@ -622,7 +622,7 @@ st.markdown(
 ```
 
 :::
-::: {.column width="50%" }
+::: {.column width="50%" .fragment}
 ![](images/streamlit_example.png){fig-align="center" width="85%"}
 :::
 :::
