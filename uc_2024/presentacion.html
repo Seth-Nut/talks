@@ -12,9 +12,8 @@
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Francisco Alfaro">
-  <meta name="author" content="Valeska Canales">
-  <meta name="dcterms.date" content="2024-11-15">
-  <title>Seth&amp;Nut – De los Números a la Narrativa</title>
+  <meta name="dcterms.date" content="2024-11-29">
+  <title>Seth&amp;Nut – Innovación en MAT281: Colab y Evaluaciones Dinámicas</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -32,71 +31,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -573,7 +507,7 @@
   }
 
   // Store cell data
-  globalThis.qpyodideCellDetails = [{"options":{"autorun":"","out-height":"","label":"","comment":"","fig-width":7,"output":"true","results":"markup","dpi":72,"out-width":"700px","fig-cap":"","warning":"true","context":"interactive","message":"true","read-only":"false","classes":"","fig-height":5},"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4]\ny = [10, 20, 25, 30]\nplt.plot(x, y)\n#plt.title(\"Título\", fontsize=16)\n#plt.xlabel(\"Eje X\", fontsize=14)\n#plt.ylabel(\"Eje Y\", fontsize=14)\n#plt.grid(True)\nplt.show()","id":1},{"options":{"autorun":"","out-height":"","label":"","comment":"","fig-width":7,"output":"true","results":"markup","dpi":72,"out-width":"700px","fig-cap":"","warning":"true","context":"interactive","message":"true","read-only":"false","classes":"","fig-height":5},"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]\ny = [10, 12, 14, 16, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30]\nplt.figure(figsize=(8, 6))\nplt.plot(x, y, color='salmon')\n#plt.bar(x, y, color='salmon')\n#plt.barh(x, y, color='salmon')\n#plt.scatter(x, y, color='salmon')\nplt.title(\"Gráfico de líneas\", fontsize=16)\nplt.xlabel(\"Eje X\", fontsize=14)\nplt.ylabel(\"Eje Y\", fontsize=14)\nplt.grid(True)\nplt.show()","id":2}];
+  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 6, 8, 10]\nplt.figure(figsize=(6, 3)) \nplt.plot(x, y, marker='o', color='blue')\nplt.title(\"Gráfico Sencillo en Python\")\nplt.show()","id":1,"options":{"read-only":"false","output":"true","fig-cap":"","context":"interactive","message":"true","comment":"","out-height":"","fig-width":7,"warning":"true","dpi":72,"fig-height":5,"results":"markup","label":"","autorun":"","out-width":"700px","classes":""}}];
 
 
   </script>
@@ -779,7 +713,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="images/background.jpg" class="quarto-title-block center">
-  <h1 class="title">De los Números a la Narrativa</h1>
+  <h1 class="title">Innovación en MAT281: Colab y Evaluaciones Dinámicas</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -787,231 +721,303 @@
 Francisco Alfaro 
 </div>
 </div>
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Valeska Canales 
-</div>
-</div>
 </div>
 
-  <p class="date">2024-11-15</p>
+  <p class="date">2024-11-29</p>
 </section>
-<section id="objetivos-del-taller" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🎯 Objetivos del Taller</h2>
-<div>
-<ul>
-<li class="fragment">Aprender sobre visualización de datos.</li>
-<li class="fragment">Aprender a crear visualizaciones con Matplotlib y Seaborn.</li>
-<li class="fragment">Entender cómo construir una app interactiva con Streamlit.</li>
-<li class="fragment">Integrar visualizaciones en una aplicación web simple.</li>
-</ul>
-</div>
-</section>
-<section id="qué-es-la-visualización-de-datos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🤔 ¿Qué es la Visualización de Datos?</h2>
+<section id="aprender-adaptar-innovar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🔄 Aprender, Adaptar, Innovar</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p><br> La visualización de datos transforma información en gráficos para facilitar su comprensión.</p>
-</div><div class="column fragment" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/eye.jpeg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="ejemplos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Ejemplos</h2>
-<div class="columns">
-<div class="column" style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/vis_01.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-<p><em>❌ Mal Gráfico</em></p>
-</div><div class="column fragment" style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/vis_02.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
-</figure>
-</div>
-<p><em>✅ Buen Gráfico</em></p>
-</div></div>
-</section>
-<section id="cuarteto-de-anscombe" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Cuarteto de ANSCOMBE</h2>
-<div class="columns">
-<div class="column" style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/canscombe_01.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="text-align: center;">
-<p><br> <img data-src="images/viz/canscombe_02.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</div></div>
-<div class="fragment" style="text-align:center">
-<p>📋 Tablas vs 📊 Gráficos</p>
-</div>
-</section>
-<section id="teoría-de-visualización" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Teoría de visualización</h2>
-
-<img data-src="images/viz/teoria_vis.png" class="quarto-figure quarto-figure-center r-stretch" style="width:90.0%"></section>
-<section id="pilares-visualización---noah-iliinsky" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>4 Pilares Visualización - Noah Iliinsky</h2>
-<div class="columns">
-<div class="column fragment" style="width:60%;">
 <p><br></p>
-<ol type="1">
-<li><strong>Propósito</strong>: Define la meta.</li>
-<li><strong>Contenido</strong>: Datos relevantes.</li>
-<li><strong>Estructura</strong>: Organización clara.</li>
-<li><strong>Formato</strong>: Gráfico adecuado.</li>
-</ol>
+<ul>
+<li class="fragment">Pandemia y educación digital.</li>
+<li class="fragment">Uso de nuevas tecnologías.</li>
+<li class="fragment">Participación activa.</li>
+</ul>
 </div><div class="column" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/pilar2.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
+<p><img src="images/students.png" alt="Tachado" style="width: 100%; align: center;"></p>
 </div></div>
 </section>
-<section id="herramientas-de-visualización-en-python" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2>Herramientas de Visualización en Python</h2>
-<p><img data-src="images/matplotlib.jpg.webp" class="fragment" style="margin-top: 20px; width: 400px; height: 200px;"> <img data-src="images/seaborn.png" class="fragment" style="margin-top: 20px; width: 400px; height: 200px;"></p>
-</section>
-<section id="exploración-de-datos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Exploración de Datos</h2>
-<div class="fragment">
-<p><img data-src="images/viz/looker.png" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" width="400"></p>
-</div>
-<div class="fragment">
-<p><img data-src="images/viz/tableau.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 125px; left: 25px; width: 800px; "></p>
-</div>
-<div class="fragment">
-<p><img data-src="images/viz/pbi.png" class="absolute" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);top: 150px; left: 50px; width: 800px; "></p>
-</div>
-<div class="fragment">
-<p><span style="background-color: #fff">¡Demasiadas opciones! <br> El usuario no puede ser responsable de encontrar lo valioso.</span></p>
+<section id="section" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">Curso MAT281</span></p>
+<p><span style="font-size: 2em">Aplicaciones de la matemática en la ingeniería</span></p>
 </div>
 </section>
-<section id="tipos-de-gráficos-esenciales" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Tipos de Gráficos Esenciales</h2>
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-<p><img src="images/viz/chart_01.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_04.png" style="width: 75%; height: auto;"></p>
-<p><img src="images/viz/chart_03.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_05.png" style="width: 70%; height: auto;"></p>
-<p><img src="images/viz/chart_02.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_07.png" style="width: 85%; height: auto;"></p>
-</div>
-<div class="fragment">
-<p><span style="font-size: 0.75em; color: gray">(C) Essential chart types for data visualization, por Atlassian.</span></p>
-</div>
-</section>
-<section id="matplotlib-visualización-básica" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>〽️ Matplotlib: Visualización Básica</h2>
-<div>
+<section id="malla-curricular---icmat" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Malla Curricular - ICMAT</h2>
+
+<img src="images/malla_01.png" class="r-stretch"></section>
+<section id="historia-del-curso" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>📅 Historia del curso</h2>
+
+<img src="images/historia3.png" style="margin-left: 120px;" class="r-stretch"></section>
+<section id="mat281---matemáticas-aplicadas" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
+<h2>MAT281 - Matemáticas Aplicadas</h2>
+<div class="columns">
+<div class="column fade-in-then-semi-out" style="width:60%;">
 <ul>
-<li class="fragment">Matplotlib es una biblioteca para crear gráficos estáticos.</li>
-<li class="fragment">Tipos de gráficos más comunes:
-<ul>
-<li class="fragment">Líneas, Barras, Dispersión, Histograma.</li>
-</ul></li>
+<li class="fragment">🎯 <strong>Objetivo</strong>: Desarrollar competencias como Data Scientist</li>
+<li class="fragment">📚 <strong>Requisitos</strong> : Python y cursos básicos de matemáticas</li>
+<li class="fragment">📝 <strong>Contenidos</strong>: Toolkit, Data Manipulation, Machine Learning</li>
+<li class="fragment">📊 <strong>Evalauciones</strong>: Laboratorios, Tareas, Proyecto</li>
 </ul>
+</div><div class="column" style="width:40%;">
+<p><img src="images/paper2.png" alt="Tachado" style="width: 100%; align: center;"></p>
+</div></div>
+</section>
+<section id="más-sobre-mat281" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Más sobre MAT281</h2>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/CDgt15OnCusbGH?hostedIn=slideshare&amp;page=upload" width="900" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen="">
+</iframe>
+<div class="fragment">
+<p><a href="https://github.com/fralfaro/MAT281_2024" style="font-size: 0.75em; color: gray align: center;">🌐 Repositorio Oficial del curso en GitHub</a></p>
 </div>
 </section>
-<section id="ejemplo-básico-con-matplotlib" class="slide level2 scrollable" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>〽️ Ejemplo básico con Matplotlib</h2>
+<section id="section-1" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">Conceptos Claves</span></p>
+<p><span style="font-size: 2em">Tecnologías y Aprendizajes</span></p>
+</div>
+</section>
+<section id="google-colab" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Google Colab</h2>
+<div class="columns">
+<div class="column" style="width:65%;">
+<p><br></p>
+<ul>
+<li class="fragment">🖥️ Entorno en la nube (Python)</li>
+<li class="fragment">📊 Ejecución de código interactivo</li>
+<li class="fragment">🌐 Acceso desde internet</li>
+</ul>
+</div><div class="column" style="width:35%;">
+<p><img src="images/colab.png" alt="Tachado" style="width: 100%; align: center;"></p>
+</div></div>
+</section>
+<section id="google-colab-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Google Colab</h2>
+<p><br></p>
+
+<img src="images/colab2.png" class="r-stretch"><div class="fragment">
+<p><a href="https://colab.research.google.com" style="font-size: 0.75em; color: gray; align: center;">🌐 Accede a sitio oficial de Google Colab</a></p>
+</div>
+</section>
+<section id="ejemplo-python" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>📊 Ejemplo Python</h2>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </section>
-<section id="ejemplo-con-matplotlib" class="slide level2 scrollable" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>〽️ Ejemplo con Matplotlib</h2>
-<div id="qpyodide-insertion-location-2"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="seaborn-visualización-avanzada" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>📊 Seaborn: Visualización Avanzada</h2>
-<div>
-<ul>
-<li class="fragment">Seaborn extiende Matplotlib con gráficos más estilizados.</li>
-<li class="fragment">Especialmente útil para:
-<ul>
-<li class="fragment">Gráficos estadísticos.</li>
-<li class="fragment">Análisis exploratorio de datos.</li>
-</ul></li>
-</ul>
-</div>
-</section>
-<section id="ejemplo-con-seaborn" class="slide level2 scrollable" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>📊 Ejemplo con Seaborn</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
-<span id="cb1-2"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-3"><a></a>tips <span class="op">=</span> sns.load_dataset(<span class="st">"tips"</span>)</span>
-<span id="cb1-4"><a></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
-<span id="cb1-5"><a></a>sns.scatterplot(</span>
-<span id="cb1-6"><a></a>  x<span class="op">=</span><span class="st">"total_bill"</span>, </span>
-<span id="cb1-7"><a></a>  y<span class="op">=</span><span class="st">"tip"</span>, </span>
-<span id="cb1-8"><a></a>  data<span class="op">=</span>tips, </span>
-<span id="cb1-9"><a></a>  color<span class="op">=</span><span class="st">'salmon'</span>, </span>
-<span id="cb1-10"><a></a>  s<span class="op">=</span><span class="dv">100</span>, </span>
-<span id="cb1-11"><a></a>  edgecolor<span class="op">=</span><span class="st">'gray'</span>)</span>
-<span id="cb1-12"><a></a>plt.title(<span class="st">"Relación entre total de cuenta y propina"</span>, fontsize<span class="op">=</span><span class="dv">16</span>)</span>
-<span id="cb1-13"><a></a>plt.grid(<span class="va">True</span>)</span>
-<span id="cb1-14"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="más-herramientas" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🎓 Más Herramientas</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/github.png" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
+<em>Github versionar código</em></p>
+</div><div class="column fragment" style="width:50%;">
+<p><img data-src="images/mkdocks.png" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
+<em>Mkdocs publicar sitios</em></p>
+</div></div>
 <div class="fragment">
-<div id="6bc48668" class="cell" data-execution_count="1">
-<div class="cell-output cell-output-display">
-<div>
-<figure>
-<p><img data-src="presentacion_files/figure-revealjs/cell-2-output-1.png" width="659" height="529"></p>
-</figure>
-</div>
-</div>
-</div>
+<p><a href="https://www.youtube.com/watch?v=1a-3qqlMcQA" style="font-size: 0.75em; color: gray align: center;">🌐 PyLatam 2022: Clases Interactivas con Google Colab, Mkdocs y Github Actions</a></p>
 </div>
 </section>
-<section id="aplicaciones-web-interactivas" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🧑🏻‍💻 Aplicaciones Web Interactivas</h2>
-<div>
+<section id="aprendizajes-claves" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
+<h2>Aprendizajes Claves</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img src="images/learning.png" alt="Tachado" style="width: 100%; align: center;"></p>
+</div><div class="column fade-in-then-semi-out" style="width:60%;">
+<p><br><br></p>
 <ul>
-<li class="fragment">Streamlit permite crear aplicaciones web rápidamente.</li>
-<li class="fragment">Puedes integrar gráficos creados con Matplotlib y Seaborn.</li>
-<li class="fragment">Ideal para compartir resultados de análisis de datos.</li>
+<li class="fragment"><strong>Activo</strong>: Involucra a los estudiantes.</li>
+<li class="fragment"><strong>Proyectos</strong>: Problemas reales.</li>
+<li class="fragment"><strong>Constructivismo</strong>: Experiencia.</li>
+<li class="fragment"><strong>Experiencial</strong>: Aprender haciendo.</li>
 </ul>
+</div></div>
+<div class="fragment">
+<p><a href="https://firstliteracy.org/wp-content/uploads/2015/07/How-Learning-Works.pdf" style="font-size: 0.75em; color: gray align: center;">📄 (C) How Learning Works (Ambrose, 2010)</a></p>
 </div>
 </section>
-<section id="ejemplo-de-streamlit" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Ejemplo de Streamlit</h2>
-<p><img style="width:65%;" src="./images/streamlit/streamlit.gif"><br> <span style="font-size: 0.5em; color: gray">https://github.com/sebastiandres/streamlit_slides</span></p>
-</section>
-<section id="section" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title"></h2>
-<div style="margin-top: 100px;">
-<p>¡Ahora te toca a ti!🫵</p>
+<section id="section-2" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">Innovación Educativa</span></p>
+<p><span style="font-size: 2em">Innovación en la Enseñanza y Evaluación en MAT281</span></p>
 </div>
 </section>
-<section id="section-1" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title"></h2>
-<div style="margin-top: 200px; font-size: 3em; color: red;">
-<p>¡Ahora te toca a ti!🫵</p>
-</div>
-</section>
-<section id="conclusión" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🎓 Conclusión</h2>
-<div>
+<section id="p1-google-colab" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
+<h2>P1: Google Colab</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><br></p>
+<p><img src="images/p1.png" alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;"></p>
+</div><div class="column fade-in-then-semi-out" style="width:60%;">
+<p><br></p>
 <ul>
-<li class="fragment">Matplotlib para gráficos básicos.</li>
-<li class="fragment">Seaborn para gráficos avanzados.</li>
-<li class="fragment">Streamlit para aplicaciones interactivas.</li>
+<li class="fragment">Acceso sin instalación</li>
+<li class="fragment">Interactivo y colaborativo</li>
+<li class="fragment">Aprendizaje activo</li>
 </ul>
+</div></div>
+</section>
+<section id="p2-github" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
+<h2>P2: Github</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><br></p>
+<p><img src="images/p22.jpg" alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;"></p>
+</div><div class="column fade-in-then-semi-out" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment">Control de versiones</li>
+<li class="fragment">Primer portafolio</li>
+<li class="fragment">Facilita Seguimiento</li>
+<li class="fragment">Plantilla inicial</li>
+</ul>
+</div></div>
+</section>
+<section id="p3evaluación-externa" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
+<h2>P3:Evaluación Externa</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img src="images/p3.png" alt="Tachado" style="width: 100%; align: center;"></p>
+</div><div class="column fade-in-then-semi-out" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment">Feedback por pares</li>
+<li class="fragment">Evaluación de proyectos</li>
+<li class="fragment">Desarrolla habilidades blandas</li>
+</ul>
+</div></div>
+</section>
+<section id="p4-evaluaciones-innovadoras" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
+<h2>P4: Evaluaciones Innovadoras</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img src="images/p4.png" alt="Tachado" style="width: 100%; align: center;"></p>
+</div><div class="column fade-in-then-semi-out" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment">Evaluaciones prácticas</li>
+<li class="fragment">Enfoque en colaboración</li>
+<li class="fragment">Preparación mercado laboral</li>
+</ul>
+</div></div>
+</section>
+<section id="section-3" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">Retroalimentación</span></p>
+<p><span style="font-size: 2em">Perspectiva de los Estudiantes del Curso MAT281</span></p>
 </div>
 </section>
-<section class="slide level2">
+<section id="comentarios-negativos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>👎 Comentarios Negativos</h2>
+<p><br></p>
+<ul>
+<li>🔄 Sin retroalimentación ni respuestas</li>
+<li>❗ Cambios y criterios confusos</li>
+<li>📉 Desorganización e instrucciones ambiguas</li>
+</ul>
+</section>
+<section id="comentarios-positivos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>👍 Comentarios Positivos</h2>
+<p><br></p>
+<ul>
+<li>📚 Excelente dominio y motivación</li>
+<li>🗂️ Clases claras y útiles</li>
+<li>🤝 Buen ambiente y confianza</li>
+<li>🛠️ Enfoque práctico (Python, GitHub)</li>
+<li>💡 Profesor comprometido</li>
+</ul>
+</section>
+<section id="encuesta-docentes" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Encuesta Docentes</h2>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/BlCIuPtGXPBUiQ?hostedIn=slideshare&amp;page=upload" width="900" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen="">
+</iframe>
+<div class="fragment">
+<p><a href="https://siga.usm.cl/" style="font-size: 0.75em; color: gray align: center;">🌐 Sistema de Información y Gestión Académica (SIGA) - USM</a></p>
+</div>
+</section>
+<section id="section-4" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">Conclusiones</span></p>
+<p><span style="font-size: 2em">Resultados y Reflexiones del Curso MAT281</span></p>
+</div>
+</section>
+<section id="conclusiones" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🔍 Conclusiones</h2>
+<p><br></p>
+<ul>
+<li>📊 Google Colab tiene un impacto positivo.</li>
+<li>💻 Aumenta motivación y participación.</li>
+<li>📈 Mejora la comprensión práctica.</li>
+<li>🔄 Flexibilidad en la enseñanza y aprendizaje remoto.</li>
+</ul>
+</section>
+<section id="trabajos-futuros" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🚀 Trabajos Futuros</h2>
+<p><br></p>
+<ul>
+<li>🌐 Integrar tecnologías nuevas (IA).</li>
+<li>📚 Crear material en línea accesible.</li>
+<li>🤝 Fomentar proyectos con la industria.</li>
+<li>🎯 Expandir la metodología a otros cursos y disciplinas.</li>
+</ul>
+</section>
+<section id="agradecimientos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🎉 Agradecimientos</h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><img data-src="images/seba_flores.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
+<strong>Sebastián Flores</strong></p>
+</div><div class="column" style="width:33%;">
+<p><img data-src="images/alonso_ogueda.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
+<strong>Alonso Ogueda</strong></p>
+</div><div class="column" style="width:33%;">
+<p><img data-src="images/alberto_rubio.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
+<strong>Alberto Rubio</strong></p>
+</div></div>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><img data-src="images/eric_zepeda.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
+<strong>Eric Zepeda</strong></p>
+</div><div class="column" style="width:33%;">
+<p><img data-src="images/sebastian_torres.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
+<strong>Sebastián Torres</strong></p>
+</div><div class="column" style="width:33%;">
+<p><img data-src="images/rodrigo_lecaros.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
+<strong>Rodrigo Lecaros</strong></p>
+</div></div>
+</section>
+<section id="agradecimientos-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🎉 Agradecimientos</h2>
+<p><br></p>
 
+<img data-src="images/dmat.jpg" class="quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section>
+<section id="gracias-por-participar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🎉 ¡Gracias por Participar!</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><br></p>
+<p>❓¿Preguntas?</p>
+<p>👏 Responder <a href="https://docs.google.com/forms/d/e/1FAIpQLScdkSSY40VsN_uEXsNK5LYP-qngUVvaO-c8qItr163zzvpzZA/viewform?usp=sf_link">encuesta</a></p>
+<p>🥳 Gracias de Nuevo</p>
+</div><div class="column" data-align="center" style="width:50%;">
+<p><img data-src="images/qr_visualizacion.png" width="400"></p>
+</div></div>
+<blockquote>
+<p>🔗 Nuestro Sitio Web: <a href="https://seth-nut.github.io/resources/">seth-nut.github.io/resources</a>.</p>
+</blockquote>
 
 <div class="quarto-auto-generated-content">
-<p><img src="images/logo_sn.png" class="slide-logo"></p>
+<p><img src="images/uc.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>
