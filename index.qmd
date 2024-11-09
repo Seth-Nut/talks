@@ -20,5 +20,8 @@ output: html_document
 
 - 🎤 [Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero](computacion_2024/presentacion.html) - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.
 
+- 🎤 [Innovación en MAT281: Colab y Evaluaciones Dinámicas](uc_2024/presentacion.html) - Descubre cómo Google Colab y nuevas evaluaciones transformaron el curso MAT281, mejorando el acceso y la motivación de los estudiantes a través de un enfoque dinámico y colaborativo.
+
+
 ¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊
 

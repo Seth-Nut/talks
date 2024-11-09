@@ -1,0 +1,435 @@
+---
+title: "Innovación en MAT281: Colab y Evaluaciones Dinámicas"
+author: 
+  - Francisco Alfaro
+date: 29 Nov 2024
+format: 
+  revealjs:
+    transition: slide
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    logo: images/uc.png
+    
+---
+
+
+## 🔄 Aprender, Adaptar, Innovar {background-image="images/background.jpg" background-opacity="0.25"}
+::: columns
+::: {.column width="60%" .incremental}
+
+<br>
+
+- Pandemia y educación digital.
+- Uso de nuevas tecnologías. 
+- Participación activa.
+
+:::
+::: {.column width="40%" }
+ <img src="images/students.png" alt="Tachado" style="width: 100%; align: center;">
+:::
+:::
+
+---
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Curso MAT281]{style="font-size: 1em"}
+
+[Aplicaciones de la matemática en la ingeniería]{style="font-size: 2em"}
+:::
+
+---
+
+## Malla Curricular - ICMAT {background-image="images/background.jpg" background-opacity="0.25"}
+
+ <img src="images/malla_01.png" >
+
+---
+
+## 📅 Historia del curso {background-image="images/background.jpg" background-opacity="0.25"}
+
+<img src="images/historia3.png" style="margin-left: 120px;">
+
+---
+
+
+## MAT281 - Matemáticas Aplicadas {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+::: columns
+::: {.column width="60%" .incremental .fade-in-then-semi-out}
+
+- 🎯 **Objetivo**: Desarrollar competencias como Data Scientist
+- 📚 **Requisitos** : Python y cursos básicos de matemáticas
+- 📝 **Contenidos**: Toolkit, Data Manipulation, Machine Learning
+- 📊 **Evalauciones**: Laboratorios, Tareas, Proyecto
+
+:::
+::: {.column width="40%" }
+ <img src="images/paper2.png" alt="Tachado" style="width: 100%; align: center;">
+:::
+:::
+
+---
+
+
+## Más sobre MAT281 {background-image="images/background.jpg" background-opacity="0.25"}
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/CDgt15OnCusbGH?hostedIn=slideshare&page=upload" width="900" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+. . . 
+
+[🌐 Repositorio Oficial del curso en GitHub](https://github.com/fralfaro/MAT281_2024){style="font-size: 0.75em; color: gray align: center;"}
+
+
+---
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Conceptos Claves]{style="font-size: 1em"}
+
+[Tecnologías y Aprendizajes]{style="font-size: 2em"}
+:::
+
+---
+
+
+## Google Colab {background-image="images/background.jpg" background-opacity="0.25"} 
+
+::: columns
+::: {.column width="65%" .incremental}
+
+<br>
+
+- 🖥️ Entorno en la nube (Python)
+- 📊 Ejecución de código interactivo
+- 🌐 Acceso desde internet
+
+:::
+::: {.column width="35%" }
+ <img src="images/colab.png" alt="Tachado" style="width: 100%; align: center;">
+:::
+:::
+
+---
+
+## Google Colab {background-image="images/background.jpg" background-opacity="0.25"} 
+
+<br>
+
+ <img src="images/colab2.png" >
+
+. . . 
+
+[🌐 Accede a sitio oficial de Google Colab](https://colab.research.google.com){style="font-size: 0.75em; color: gray; align: center;"}
+
+---
+
+## 📊 Ejemplo Python {background-image="images/background.jpg" background-opacity="0.25"}
+
+```{pyodide-python}
+import matplotlib.pyplot as plt
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+plt.figure(figsize=(6, 3)) 
+plt.plot(x, y, marker='o', color='blue')
+plt.title("Gráfico Sencillo en Python")
+plt.show()
+```
+
+---
+
+## 🎓 Más Herramientas {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/github.png){fig-align="center" width="60%"}\
+*Github versionar código*
+:::
+
+::: {.column .fragment width="50%"}
+![](images/mkdocks.png){fig-align="center" width="60%"}\
+*Mkdocs publicar sitios*
+:::
+:::
+
+. . .
+
+[🌐 PyLatam 2022: Clases Interactivas con Google Colab, Mkdocs y Github Actions](https://www.youtube.com/watch?v=1a-3qqlMcQA){style="font-size: 0.75em; color: gray align: center;"}
+
+---
+
+## Aprendizajes Claves {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+::: columns
+
+::: {.column width="40%" }
+ <img src="images/learning.png" alt="Tachado" style="width: 100%; align: center;">
+:::
+
+::: {.column width="60%" .incremental .fade-in-then-semi-out}
+
+<br><br>
+
+- **Activo**: Involucra a los estudiantes.
+- **Proyectos**: Problemas reales. 
+- **Constructivismo**: Experiencia.
+- **Experiencial**: Aprender haciendo.
+
+:::
+
+:::
+
+. . .
+
+[📄 (C) How Learning Works  (Ambrose, 2010)](https://firstliteracy.org/wp-content/uploads/2015/07/How-Learning-Works.pdf){style="font-size: 0.75em; color: gray align: center;"}
+
+
+
+---
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Innovación Educativa]{style="font-size: 1em"}
+
+[Innovación en la Enseñanza y Evaluación en MAT281]{style="font-size: 2em"}
+:::
+
+---
+
+
+## P1: Google Colab {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+::: columns
+::: {.column width="40%" }
+<br>
+
+ <img src="images/p1.png"  alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;">
+:::
+
+::: {.column width="60%" .incremental .fade-in-then-semi-out}
+
+<br>
+
+- Acceso sin instalación
+- Interactivo y colaborativo
+- Aprendizaje activo
+:::
+:::
+
+---
+
+## P2: Github {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+::: columns
+::: {.column width="40%" }
+<br>
+
+<img src="images/p22.jpg" alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;">
+:::
+
+::: {.column width="60%" .incremental .fade-in-then-semi-out}
+
+<br>
+
+- Control de versiones
+- Primer portafolio
+- Facilita Seguimiento
+- Plantilla inicial 
+:::
+:::
+
+---
+
+## P3:Evaluación Externa  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+::: columns
+::: {.column width="40%" }
+ <img src="images/p3.png" alt="Tachado" style="width: 100%; align: center;">
+:::
+
+::: {.column width="60%" .incremental .fade-in-then-semi-out}
+
+<br>
+
+- Feedback por pares
+- Evaluación de proyectos
+- Desarrolla habilidades blandas
+
+:::
+:::
+
+---
+
+## P4: Evaluaciones Innovadoras  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+::: columns
+::: {.column width="40%" }
+ <img src="images/p4.png" alt="Tachado" style="width: 100%; align: center;">
+:::
+
+::: {.column width="60%" .incremental .fade-in-then-semi-out}
+
+<br>
+
+- Evaluaciones prácticas
+- Enfoque en colaboración
+- Preparación mercado laboral
+
+:::
+:::
+
+---
+
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Retroalimentación]{style="font-size: 1em"}
+
+[Perspectiva de los Estudiantes del Curso MAT281]{style="font-size: 2em"}
+:::
+
+---
+
+## 👎 Comentarios Negativos {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+- 🔄 Sin retroalimentación ni respuestas
+- ❗ Cambios y criterios confusos
+- 📉 Desorganización e instrucciones ambiguas
+
+---
+
+## 👍 Comentarios Positivos {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+- 📚 Excelente dominio y motivación
+- 🗂️ Clases claras y útiles
+- 🤝 Buen ambiente y confianza
+- 🛠️ Enfoque práctico (Python, GitHub)
+- 💡 Profesor comprometido
+
+---
+
+
+## Encuesta Docentes {background-image="images/background.jpg" background-opacity="0.25"}
+
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/BlCIuPtGXPBUiQ?hostedIn=slideshare&page=upload" width="900" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+. . . 
+
+[🌐 Sistema de Información y Gestión Académica (SIGA) - USM](https://siga.usm.cl/){style="font-size: 0.75em; color: gray align: center;"}
+
+
+---
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Conclusiones]{style="font-size: 1em"}
+
+[Resultados y Reflexiones del Curso MAT281]{style="font-size: 2em"}
+:::
+
+---
+
+
+## 🔍 Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+- 📊 Google Colab tiene un impacto positivo.
+- 💻 Aumenta motivación y participación.
+- 📈 Mejora la comprensión práctica.
+- 🔄 Flexibilidad en la enseñanza y aprendizaje remoto.
+
+---
+
+## 🚀 Trabajos Futuros {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+- 🌐 Integrar tecnologías nuevas (IA).
+- 📚 Crear material en línea accesible.
+- 🤝 Fomentar proyectos con la industria.
+- 🎯 Expandir la metodología a otros cursos y disciplinas.
+
+---
+
+
+## 🎉 Agradecimientos {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+:::: columns
+::: {.column width="33%"}
+![](images/seba_flores.jpg){fig-align="center" width="60%"}\
+**Sebastián Flores**
+:::
+
+::: {.column width="33%"}
+![](images/alonso_ogueda.jpg){fig-align="center" width="60%"}\
+**Alonso Ogueda**
+:::
+
+::: {.column width="33%"}
+![](images/alberto_rubio.jpg){fig-align="center" width="60%"}\
+**Alberto Rubio**
+:::
+:::
+
+::: columns
+::: {.column width="33%"}
+![](images/eric_zepeda.jpg){fig-align="center" width="60%"}\
+**Eric Zepeda**
+:::
+
+::: {.column width="33%"}
+![](images/sebastian_torres.jpg){fig-align="center" width="60%"}\
+**Sebastián Torres**
+:::
+
+::: {.column width="33%"}
+![](images/rodrigo_lecaros.jpg){fig-align="center" width="60%"}\
+**Rodrigo Lecaros**
+:::
+:::
+
+---
+
+## 🎉 Agradecimientos {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+![](images/dmat.jpg){fig-align="center" width="100%"}
+
+
+--- 
+
+
+## 🎉 ¡Gracias por Participar!  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.columns}
+:::: {.column width=50%}
+<br>
+
+❓¿Preguntas?
+
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLScdkSSY40VsN_uEXsNK5LYP-qngUVvaO-c8qItr163zzvpzZA/viewform?usp=sf_link)
+
+
+🥳 Gracias de Nuevo 
+  
+::::
+:::: {.column width=50% align="center"}
+![](images/qr_visualizacion.png){width=400}
+::::
+:::
+
+> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).

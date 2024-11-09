@@ -12,53 +12,45 @@ format:
     logo: images/latinr_logo.png
 ---
 
-
-
-
-
-
 ## 💡 Innovar en la Enseñanza {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-::: {.columns}
-:::: {.column width=40%}
-![](images/logo-quarto.png){width=300}
-::::
-:::: {.column width=50% .incremental}
-<br>
-
-* Captar atención activa.
-* Adaptarse al mundo digital.
-* [Quarto](https://quarto.org/) permite crear contenidos interactivos.
-::::
+::: columns
+::: {.column width="40%"}
+![](images/logo-quarto.png){width="300"}
 :::
 
----
+::: {.column .incremental width="50%"}
+<br>
+
+-   Captar atención activa.
+-   Adaptarse al mundo digital.
+-   [Quarto](https://quarto.org/) permite crear contenidos interactivos.
+:::
+:::
+
+------------------------------------------------------------------------
 
 ## 🌐 Quarto WebR y Quarto Pyodide {background-image="images/background.jpg" background-opacity="0.25"}
 
+1.  [WebR](https://docs.r-wasm.org/webr/latest/): Ejecuta código R en el navegador, sin instalaciones.
 
-1.  [WebR](https://docs.r-wasm.org/webr/latest/): Ejecuta código R en el navegador, sin instalaciones. 
+    ``` bash
+    # Para instalar WebR en tu entorno
+    remotes::install_github("attiyap/WebR")
+    ```
 
-     ```bash
-     # Para instalar WebR en tu entorno
-     remotes::install_github("attiyap/WebR")
-     ```
+2.  [Pyodide](https://quarto.thecoatlessprofessor.com/pyodide/) : Idem pero para Python.
 
-2. [Pyodide](https://quarto.thecoatlessprofessor.com/pyodide/) : Idem pero para Python.
+    ``` bash
+    # Para instalar Pyodide
+    pip install pyodide
+    ```
 
-     ```bash
-     # Para instalar Pyodide
-     pip install pyodide
-     ```
+![](images/botones.png){width="100"}
 
-![](images/botones.png){width=100}
+------------------------------------------------------------------------
 
----
-
-
-
-## 📊 Ejemplo R  {background-image="images/background.jpg" background-opacity="0.25"}
+## 📊 Ejemplo R {background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{webr-r}
 x <- c(1, 2, 3, 4, 5)
@@ -67,9 +59,9 @@ plot(x, y, type="o", col="blue", lty=1, xlab="", ylab="")
 title(main="Gráfico Sencillo en R")
 ```
 
----
+------------------------------------------------------------------------
 
-## 📊 Ejemplo Python  {background-image="images/background.jpg" background-opacity="0.25"}
+## 📊 Ejemplo Python {background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{pyodide-python}
 import matplotlib.pyplot as plt
@@ -81,82 +73,73 @@ plt.title("Gráfico Sencillo en Python")
 plt.show()
 ```
 
----
+------------------------------------------------------------------------
 
-## 🎓 Quarto y la Enseñanza  {background-image="images/background.jpg" background-opacity="0.25"}
+## 🎓 Quarto y la Enseñanza {background-image="images/background.jpg" background-opacity="0.25"}
 
 ![](images/n05.png)
 
----
+------------------------------------------------------------------------
 
-
-
-## 🛠️ Implementación   {background-image="images/background.jpg" background-opacity="0.25"}
+## 🛠️ Implementación {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-![](images/n04.png)
----
+## ![](images/n04.png)
 
-
-## 🎓 Talleres  {background-image="images/background.jpg" background-opacity="0.25"}
+## 🎓 Talleres {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-::: {.columns}
-:::: {.column width=50% align="center"}
-![](images/pyschool.png){width=250}  
+::: columns
+::: {.column width="50%" align="center"}
+![](images/pyschool.png){width="250"}\
 [🐍 PySchool Chile](https://fralfaro.github.io/pyschool_content)
-::::
-:::: {.column width=50% align="center"}
-![](images/dmat.jpg){width=350}  
-[🔢 Olimpiadas USM 2024](https://fralfaro.github.io/DMAT-SJ-Olimpiadas)
-::::
 :::
 
----
+::: {.column width="50%" align="center"}
+![](images/dmat.jpg){width="350"}\
+[🔢 Olimpiadas USM 2024](https://fralfaro.github.io/DMAT-SJ-Olimpiadas)
+:::
+:::
 
+------------------------------------------------------------------------
 
-## 📊 Resultados  {background-image="images/background.jpg" background-opacity="0.25"}
+## 📊 Resultados {background-image="images/background.jpg" background-opacity="0.25"}
 
 Encuestas sobre el taller:
 
-- **Satisfacción general alta**, con un promedio cercano a `9`.
-- **Destacaron** el uso de las herramientas interactivas.
+-   **Satisfacción general alta**, con un promedio cercano a `9`.
+-   **Destacaron** el uso de las herramientas interactivas.
 
-![](images/stats.png){width=300 align="center"}
+![](images/stats.png){width="300" align="center"}
 
----
-
+------------------------------------------------------------------------
 
 ## 📚 Recursos Adicionales {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-
-![](images/cover.jpg){width=300 style="display: block; margin-left: auto; margin-right: auto;"}
- 
+![](images/cover.jpg){width="300" style="display: block; margin-left: auto; margin-right: auto;"}
 
 > 🌐 [Remasterización del libro: **"R for Data Science"**](https://fralfaro.github.io/r4ds)
 
----
+------------------------------------------------------------------------
 
-## 🎉 ¡Gracias por Participar!  {background-image="images/background.jpg" background-opacity="0.25"}
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.columns}
-:::: {.column width=50%}
+::: columns
+::: {.column width="50%"}
 <br>
 
 ❓¿Preguntas?
 
 👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSdvkmAfsYiiuVhJdjyWSgH3cr-8jZwWYMHWGsVBPG6NcvBd-A/viewform?usp=sf_link)
 
+🥳 Difrutar LatinR 2024!
+:::
 
-🥳 Difrutar LatinR 2024!   
-  
-::::
-:::: {.column width=50% align="center"}
-![](images/qr.png){width=400}
-::::
+::: {.column width="50%" align="center"}
+![](images/qr.png){width="400"}
+:::
 :::
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).

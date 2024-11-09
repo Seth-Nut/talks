@@ -10,70 +10,71 @@ format:
     title-slide-attributes: 
       data-background-image: images/background.jpg
     logo: images/logo_sn.png
-    
 ---
-
 
 ## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
+
 ::: columns
-::: {.column width="30%" .incremental}
-* &#32;
-* No
-* Nope
-* Jamás
+::: {.column .incremental width="30%"}
+-   
+
+-   No
+
+-   Nope
+
+-   Jamás
 :::
-::: {.column width="70%" .fragment}
- <img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;">
+
+::: {.column .fragment width="70%"}
+<img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"/>
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-::: {.callout-note}
-## Regla de Storytelling #1 
-Nunca reveles el final antes de tiempo.  
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Regla de Storytelling #1
+
+Nunca reveles el final antes de tiempo.\
 [Siempre eleva la tensión y el dramatismo]{.fragment}
 :::
-</div>
-
-
-
----
-
-## Agenda (v2)  {background-image="images/background.jpg" background-opacity="0.25"}
-::: .incremental
-1. Nunca reveles el [final]{style="background-color:black;"}
-2. Los detalles son importantes, pero [no **todos** los detalles son importantes.]{style="background-color:black;"}
-3. Tu primera versión será [horrible.]{style="background-color:black;"}
-4. Muestra, no [cuentes.]{style="background-color:black;"}
 :::
 
+------------------------------------------------------------------------
 
----
+## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: incremental
+1.  Nunca reveles el [final]{style="background-color:black;"}
+2.  Los detalles son importantes, pero [no **todos** los detalles son importantes.]{style="background-color:black;"}
+3.  Tu primera versión será [horrible.]{style="background-color:black;"}
+4.  Muestra, no [cuentes.]{style="background-color:black;"}
+:::
+
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-  [Data Storytelling]{style="font-size: 1em"}
-  
-  [¿Por qué Data Storytelling?]{style="font-size: 1.5em"}
-</div>
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
 
----
+[¿Por qué Data Storytelling?]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
 
 ## ¿Qué es el Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
 ::: {.column width="50%"}
-![](images/cave.jpg){fig-align="center" width="90%"}  
+![](images/cave.jpg){fig-align="center" width="90%"}
 :::
 
-::: {.column width="50%" .fragment}
-![](images/fire.jpg){fig-align="center" width="100%"}  
+::: {.column .fragment width="50%"}
+![](images/fire.jpg){fig-align="center" width="100%"}
 :::
 :::
 
@@ -83,36 +84,32 @@ Nunca reveles el final antes de tiempo.
 🔥 Las **historias** son la primera tecnología humana
 :::
 
-
-
----
+------------------------------------------------------------------------
 
 ## Esos cerebros tan hackables... {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
 ::: {.column width="50%"}
-![](images/storytelling/sketplanation.png){fig-align="center" width="90%"}  
+![](images/storytelling/sketplanation.png){fig-align="center" width="90%"}\
 *Regla del máximo y final (Peak-End Rule)*
 :::
 
-::: {.column width="50%" .fragment}
-![](images/storytelling/got.jpg){fig-align="center" width="100%"}  
-*Rating de Game of Thrones, por Kelvin Neo* 
+::: {.column .fragment width="50%"}
+![](images/storytelling/got.jpg){fig-align="center" width="100%"}\
+*Rating de Game of Thrones, por Kelvin Neo*
+:::
 :::
 
-:::
-
----
+------------------------------------------------------------------------
 
 ## Narrativa {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="60%"}
-<br><br>
-Usar **trucos** de Storytelling (narrativa) para crear presentaciones que serán **recordadas** y que causarán **impacto**
+<br><br> Usar **trucos** de Storytelling (narrativa) para crear presentaciones que serán **recordadas** y que causarán **impacto**
 :::
-::: {.column width="40%" .fragment}
+
+::: {.column .fragment width="40%"}
 ![](images/emotions.png){fig-align="center"}
 :::
 :::
@@ -123,147 +120,143 @@ Usar **trucos** de Storytelling (narrativa) para crear presentaciones que serán
 🎭 Las **emociones** generan acciones
 :::
 
----
+------------------------------------------------------------------------
 
 ## El mejor ejemplo {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="30%" .fragment fragment-index=1}
+::: {.column .fragment width="30%" fragment-index="1"}
 ![](images/storytelling/spotify1.jpeg){fig-align="center"}
 :::
-::: {.column width="40%" .center}
-&#32;<br><br>
-¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?
+
+::: {.column .center width="40%"}
+<br><br> ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?
 :::
-::: {.column width="30%" .fragment fragment-index=1}
+
+::: {.column .fragment width="30%" fragment-index="1"}
 ![](images/storytelling/spotify2.jpeg){fig-align="center"}
 :::
 :::
 
-
---- 
+------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-::: {.callout-note}
-## Regla de Storytelling #2 
-Los detalles son importantes, 
-[pero no **todos** los detalles son importantes.]{.fragment}
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Regla de Storytelling #2
+
+Los detalles son importantes, [pero no **todos** los detalles son importantes.]{.fragment}
 :::
-</div>
+:::
 
-
----
+------------------------------------------------------------------------
 
 ## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
+
 ::: columns
 ::: {.column width="50%"}
-![](images/dst_before.png){fig-align="center"}
-*🔢 No compartas números*
+![](images/dst_before.png){fig-align="center"} *🔢 No compartas números*
 :::
-::: {.column width="50%" .fragment}
-![](images/dst_after.png){fig-align="center"}
-*🪶Comparte una historia*
+
+::: {.column .fragment width="50%"}
+![](images/dst_after.png){fig-align="center"} *🪶Comparte una historia*
 :::
 :::
 
 . . .
 
+<br><br> [(C) Storytelling with Data, por Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
 
-<br><br>
-[(C) Storytelling with Data, por Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
-
-
----
-
-
+------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-::: {.callout-note}
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
 ## Regla de Storytelling #3
+
 Tu primera versión **siempre** será horrible.
 :::
-</div>
+:::
 
----
+------------------------------------------------------------------------
 
 ## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
+
 ::: columns
 ::: {.column width="50%"}
 ![](images/gh_before.png){fig-align="center"}
 :::
-::: {.column width="50%" .fragment}
+
+::: {.column .fragment width="50%"}
 ![](images/gh_after.png){fig-align="center"}
 :::
 :::
 
 . . .
 
-
 ::: {style="text-align: center;"}
-🥱  1° versión $<$ ... $<$ 😊 última versión
+🥱 1° versión $<$ ... $<$ 😊 última versión
 :::
 
-
----
+------------------------------------------------------------------------
 
 ## Usar chatbots de IA para: {background-image="images/background.jpg" background-opacity="0.25"}
+
 ::: columns
 ::: {.column width="65%"}
 <br>
 
-* Plantillas personalizadas a medida
-* Automatizar estructura del contenido
-* Ahorro de tiempo en diseño
-* Adaptación al estilo y preferencias
-
+-   Plantillas personalizadas a medida
+-   Automatizar estructura del contenido
+-   Ahorro de tiempo en diseño
+-   Adaptación al estilo y preferencias
 :::
-::: {.column width="35%" .fragment}
+
+::: {.column .fragment width="35%"}
 ![](images/ai/template.png){fig-align="center"}
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ## Usar chatbots de IA para: {background-image="images/background.jpg" background-opacity="0.25"}
+
 ::: columns
 ::: {.column width="60%"}
 <br>
 
-* Analogías y ejemplos
-* Mejores traducciones
-* Prompts para crear imágenes
-* No busques imágenes, créalas!
-
+-   Analogías y ejemplos
+-   Mejores traducciones
+-   Prompts para crear imágenes
+-   No busques imágenes, créalas!
 :::
-::: {.column width="40%" .fragment}
+
+::: {.column .fragment width="40%"}
 ![](images/ai/choice.jpeg){fig-align="center"}
 :::
 :::
 
----
-
+------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-::: {.callout-note}
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
 ## Regla de Storytelling #4
+
 [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"}
 :::
-</div>
+:::
 
+------------------------------------------------------------------------
 
----
-
-## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"}  {background-image="images/background.jpg" background-opacity="0.25"}
+## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"} {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="50%"}
-```python
+``` python
 import matplotlib.pyplot as plt
 
 # Datos de ejemplo
@@ -279,9 +272,9 @@ plt.ylabel("Eje Y")
 plt.grid(True)
 plt.show()
 ```
-
 :::
-::: {.column width="50%" .fragment}
+
+::: {.column .fragment width="50%"}
 ```{python}
 import matplotlib.pyplot as plt
 
@@ -301,11 +294,9 @@ plt.show()
 :::
 :::
 
----
+------------------------------------------------------------------------
 
-## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"}  {background-image="images/background.jpg" background-opacity="0.25"}
-
-
+## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"} {background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{pyodide-python}
 import matplotlib.pyplot as plt
@@ -318,54 +309,49 @@ plt.grid(True)
 plt.show()
 ```
 
+------------------------------------------------------------------------
 
----
+## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
 
-## Agenda (v2)  {background-image="images/background.jpg" background-opacity="0.25"}
-::: .incremental
-1. Nunca reveles el [**final**]{.fragment style="color:grey;"}
-2. Los detalles son importantes, pero [no **todos** los detalles son importantes]{.fragment style="color:grey;"}
-3. Tu primera versión será [**horrible**]{.fragment style="color:grey;"}
-4. Muestra, no [**cuentes**]{.fragment style="color:grey;"}
+::: incremental
+1.  Nunca reveles el [**final**]{.fragment style="color:grey;"}
+2.  Los detalles son importantes, pero [no **todos** los detalles son importantes]{.fragment style="color:grey;"}
+3.  Tu primera versión será [**horrible**]{.fragment style="color:grey;"}
+4.  Muestra, no [**cuentes**]{.fragment style="color:grey;"}
 :::
 
-::: {.notes}
+::: notes
 Opción 2: Una agenda misteriosa.
 :::
 
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [Visualización]{style="font-size: 1em"}
 
 [¿Qué es la Visualización?]{style="font-size: 2em"}
-</div>
+:::
 
-
-
----
+------------------------------------------------------------------------
 
 ## Visualización... {background-image="images/background.jpg" background-opacity="0.25"}
-
 
 ::: columns
 ::: {.column width="60%"}
 <br>
 
-- Convierte datos en gráficos para facilitar su comprensión.
-- Destaca patrones y tendencias de forma clara.
-
+-   Convierte datos en gráficos para facilitar su comprensión.
+-   Destaca patrones y tendencias de forma clara.
 :::
-::: {.column width="40%" .fragment}
+
+::: {.column .fragment width="40%"}
 ![](images/viz/ojo.png){fig-align="center"}
 :::
 :::
 
----
-
-
+------------------------------------------------------------------------
 
 ## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -375,7 +361,8 @@ Opción 2: Una agenda misteriosa.
 
 *❌ Mal Gráfico*
 :::
-::: {.column width="50%" .fragment style="text-align: center;"}
+
+::: {.column .fragment width="50%" style="text-align: center;"}
 ![](images/viz/vis_02.png){fig-align="center" width="80%"}
 
 *✅ Buen Gráfico*
@@ -383,47 +370,48 @@ Opción 2: Una agenda misteriosa.
 :::
 
 ## Cuarteto de ANSCOMBE {background-image="images/background.jpg" background-opacity="0.25"}
+
 ::: columns
-::: {.column width="50%" style="text-align: center;" }
+::: {.column width="50%" style="text-align: center;"}
 ![](images/viz/canscombe_01.png){fig-align="center" width="80%"}
 :::
-::: {.column width="50%" .fragment style="text-align: center;" }
-<br>
-![](images/viz/canscombe_02.png){fig-align="center" width="100%"}
+
+::: {.column .fragment width="50%" style="text-align: center;"}
+<br> ![](images/viz/canscombe_02.png){fig-align="center" width="100%"}
 :::
 :::
 
-::: {style="text-align:center" .fragment}
+::: {.fragment style="text-align:center"}
 📋 Tablas vs 📊 Gráficos
 :::
 
----
+------------------------------------------------------------------------
 
 ### Datasaurus {background-image="images/background.jpg" background-size="cover" background-opacity="0.5"}
 
-![](./images/viz/anscombe.gif){width=80%}
+![](./images/viz/anscombe.gif){width="80%"}
 
----
+------------------------------------------------------------------------
 
 ## Teoría de Visualización {background-image="images/background.jpg" background-opacity="0.25"}
 
 ![](images/viz/teoria_vis2.webp){fig-align="center" width="50%"}
 
----
+------------------------------------------------------------------------
 
-## 4 Pilares Visualización -  Noah Iliinsky {background-image="images/background.jpg" background-opacity="0.25"}
+## 4 Pilares Visualización - Noah Iliinsky {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%" .fragment}
+::: {.column .fragment width="60%"}
 <br>
 
-1. **Propósito**: Define la meta.
-2. **Contenido**: Datos relevantes.
-3. **Estructura**: Organización clara.
-4. **Formato**: Gráfico adecuado.
-
+1.  **Propósito**: Define la meta.
+2.  **Contenido**: Datos relevantes.
+3.  **Estructura**: Organización clara.
+4.  **Formato**: Gráfico adecuado.
 :::
-::: {.column width="40%" }
+
+::: {.column width="40%"}
 ![](images/viz/pilar2.png){fig-align="center"}
 :::
 :::
@@ -432,76 +420,64 @@ Opción 2: Una agenda misteriosa.
 
 [(C) Noah Iliinsky: "Four Pillars of Visualization" - Youtube.]{style="font-size: 0.75em; color: gray"}
 
-
----
+------------------------------------------------------------------------
 
 ## Qué Gráficos son buenos? {background-image="images/background.jpg" background-opacity="0.25"}
 
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;"}
+<img src="images/viz/chart_01.png" style="width: 75%; height: auto;"/> <img src="images/viz/chart_04.png" style="width: 75%; height: auto;"/>
 
+<img src="images/viz/chart_03.png" style="width: 75%; height: auto;"/> <img src="images/viz/chart_05.png" style="width: 70%; height: auto;"/>
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-
-<img src="images/viz/chart_01.png" style="width: 75%; height: auto;"/> 
-<img src="images/viz/chart_04.png" style="width: 75%; height: auto;"/>
-
-<img src="images/viz/chart_03.png" style="width: 75%; height: auto;"/>
-<img src="images/viz/chart_05.png" style="width: 70%; height: auto;"/>
-
-<img src="images/viz/chart_02.png" style="width: 75%; height: auto;"/>
-<img src="images/viz/chart_07.png" style="width: 85%; height: auto;"/>
-
-</div>
+<img src="images/viz/chart_02.png" style="width: 75%; height: auto;"/> <img src="images/viz/chart_07.png" style="width: 85%; height: auto;"/>
+:::
 
 . . .
 
 [(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
 
-
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [Herramientas]{style="font-size: 1em"}
 
 [Herramientas de Visualización]{style="font-size: 2em"}
-</div>
+:::
 
-
-## Herramientas para presentación  {background-image="images/background.jpg" background-opacity="0.25"}
+## Herramientas para presentación {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%" }
-* **Clásica**: PowerPoint
-* **"Show don't tell"**: 
-  * quarto
-  * jupyter + RISE
-  * Streamlit
-* **Otros**: canvas, revealjs, prezi
-
+::: {.column width="60%"}
+-   **Clásica**: PowerPoint
+-   **"Show don't tell"**:
+    -   quarto
+    -   jupyter + RISE
+    -   Streamlit
+-   **Otros**: canvas, revealjs, prezi
 :::
-::: {.column width="40%" }
+
+::: {.column width="40%"}
 ![](images/tools.png){fig-align="center"}
 :::
 :::
 
+------------------------------------------------------------------------
 
----
-
-## Quarto  {background-image="images/background.jpg" background-opacity="0.25"}
+## Quarto {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="60%"}
-&#32;<br>
-Un sistema abierto para publicaciones científicas y técnicas, centrado en markdown, documentos dinámicos e interactivos con código (Python/R/Julia).
+<br> Un sistema abierto para publicaciones científicas y técnicas, centrado en markdown, documentos dinámicos e interactivos con código (Python/R/Julia).
 :::
+
 ::: {.column width="40%"}
 ![](images/quarto/quarto2.png)
 :::
 :::
 
-
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -509,7 +485,7 @@ Un sistema abierto para publicaciones científicas y técnicas, centrado en mark
 ::: {.column width="40%"}
 [Código: example.qmd]{style="font-size: 0.5em; color: gray"}
 
-```
+```         
 ---
 title: "Habits"
 author: "John Doe"
@@ -547,55 +523,49 @@ format:
 :::
 :::
 
-
----
+------------------------------------------------------------------------
 
 ## Jupyter + RISE {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="40%"}
-&#32;<br><br>
+<br><br>
 
 Extensión de Jupyter notebook/lab para transformar un notebooks en slides de revealjs.
-
 :::
+
 ::: {.column width="60%"}
-<br>
-![](images/rise/rise.png)
+<br> ![](images/rise/rise.png)
 :::
 :::
 
+------------------------------------------------------------------------
 
----
+### Jupyter + RISE
 
-### Jupyter + RISE 
+<img src="./images/rise/basic_usage.gif" style="width:80%;"/>
 
-
-<img style="width:80%;" src="./images/rise/basic_usage.gif">
-
----
+------------------------------------------------------------------------
 
 ## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="60%"}
-<br><br>
-Streamlit es una herramienta de código abierto que permite crear aplicaciones web interactivas usando solo Python.
+<br><br> Streamlit es una herramienta de código abierto que permite crear aplicaciones web interactivas usando solo Python.
 :::
+
 ::: {.column width="40%"}
-<br>
-![](./images/streamlit/streamlit.png)
+<br> ![](./images/streamlit/streamlit.png)
 :::
 :::
 
+------------------------------------------------------------------------
 
----
-
-## Streamlit: Ejemplo  {background-image="images/background.jpg" background-opacity="0.25"}
+## Streamlit: Ejemplo {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="50%" }
-```python
+::: {.column width="50%"}
+``` python
 import streamlit as st
 
 # Título principal de la aplicación
@@ -620,9 +590,9 @@ st.markdown(
     """
 )
 ```
-
 :::
-::: {.column width="50%" .fragment}
+
+::: {.column .fragment width="50%"}
 ![](images/streamlit_example.png){fig-align="center" width="85%"}
 :::
 :::
@@ -633,78 +603,69 @@ st.markdown(
 [(C) Ejemplo en Streamlit - Playground.](https://streamlit.io/playground?example=geospatial&code=H4sIAAAAAAAAA4VTPY8TMRDt91eMTJOTLsldEDpASnECHTR8SKFDKJo4cxsHr23Z3ts7TunRCfHR0aA0dIgCISH6_BP-APkJjHc3JCcKtpnZGb_n52ePKpz1EUL0hIVWETDwT5bdgGerr7HUFpxXRiqHGqYEGgGdVhKlWn03WYi9qKKmjnhouTXasIi9xDBSU5qgB2kNY4P0ytUwuADLmTUUEie3T1Ve-i1naIAb7iftYmbdaVZeRW7e26CBNBRkAs5pR_NFKlNho5JM3muEbQiBTGq3jOCQWRz5YA1q9YorW8rM2GLi6RCGsCuQzuNYGVfGjnhcL4BDsQ_iPvpKGd6sQQ3-ixok1FOMXkmFjGsUs2_XgIE0yTix5x0xSmk6BUJptgdkmudivfx4lfh-ffr8--e7lK2XH7408c2yie9_iBe1F4_-sYxNqa_ZZRs7h3AqLlsDFmxpmw8WwFaxQ3Pr2UwsVG4DXG60L0S6ruaaWqZ6x-PcU87mlqxdFZhTeh3SeozqDBOkLnYy4E_MYnThbr9fVVUvnDHS2Z60RT_MbNW_eefo6NbtviPrNHVnZZ4rk6dlYr9GS3SRLRqK41paWy0DjaXVZWHGlZrG2fAEdaCm1xQGBwcALHRehkgsTkPEAlffbDsCjeqsPs2JtZF8kl2gfzm1lWmVC1HHbrdbxwfpffNw8bixgvS2Qrw2TKAME6FMLsB6-fb1X5q97A_oi2bFpgMAAA){style="font-size: 0.75em; color: gray"}
 :::
 
----
+------------------------------------------------------------------------
 
 ### Streamlit: Ejemplo
 
-<img style="width:50%;" src="./images/streamlit/Streamlit-Prophet.gif">
+<img src="./images/streamlit/Streamlit-Prophet.gif" style="width:50%;"/>
 
-
----
+------------------------------------------------------------------------
 
 ## HTML & webapps {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-
 ::: columns
-::: {.column width="50%" .fragment}
+::: {.column .fragment width="50%"}
 🛠️ Elige una herramienta
 :::
-::: {.column width="50%".fragment }
+
+::: {.column .fragment width="50%"}
 💡 La innovación destaca
 :::
 :::
 
+![](images/tools2.webp){fig-align="center"}
 
-
-![](images/tools2.webp){fig-align="center" }
-
----
+------------------------------------------------------------------------
 
 ## Flujo de decisión {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: { .incremental }
-
-* **PowerPoint**: Presentación sin código de un solo uso
-* **Quarto**: Charlas a partir de documentos relacionados (libros, artículos)
-* **Jupyter + RISE**: Talleres o clases. Ejecutar código es importante
-* **Streamlit**: Presentaciones personalizadas/experimentales
+::: incremental
+-   **PowerPoint**: Presentación sin código de un solo uso
+-   **Quarto**: Charlas a partir de documentos relacionados (libros, artículos)
+-   **Jupyter + RISE**: Talleres o clases. Ejecutar código es importante
+-   **Streamlit**: Presentaciones personalizadas/experimentales
 :::
 
----
+------------------------------------------------------------------------
 
 ## Conclusión {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-::: { .incremental }
-
-* **📖 Storytelling**: Narrativas que cautivan a través de datos.  
-* **📊 Visualización**: Gráficos claros y atractivos.  
-* **🛠️ Herramientas**: Streamlit, Quarto, y Python para presentaciones interactivas.
+::: incremental
+-   **📖 Storytelling**: Narrativas que cautivan a través de datos.\
+-   **📊 Visualización**: Gráficos claros y atractivos.\
+-   **🛠️ Herramientas**: Streamlit, Quarto, y Python para presentaciones interactivas.
 :::
 
+------------------------------------------------------------------------
 
----
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-## 🎉 ¡Gracias por Participar!  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {.columns}
-:::: {.column width=50%}
+::: columns
+::: {.column width="50%"}
 <br>
 
 ❓¿Preguntas?
 
 👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLScdkSSY40VsN_uEXsNK5LYP-qngUVvaO-c8qItr163zzvpzZA/viewform?usp=sf_link)
 
+🥳 Gracias de Nuevo
+:::
 
-🥳 Gracias de Nuevo 
-  
-::::
-:::: {.column width=50% align="center"}
-![](images/qr_visualizacion.png){width=400}
-::::
+::: {.column width="50%" align="center"}
+![](images/qr_visualizacion.png){width="400"}
+:::
 :::
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
