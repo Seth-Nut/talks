@@ -14,19 +14,16 @@ format:
 
 
 ## 🔄 Aprender, Adaptar, Innovar {background-image="images/background.jpg" background-opacity="0.25"}
-::: columns
-::: {.column width="60%" .incremental}
 
+::: {.r-stack}
 <br>
 
-- Pandemia y educación digital.
-- Uso de nuevas tecnologías. 
-- Participación activa.
+![](images/online.jpg){.fragment .fade-in-then-out  fig-align="left"}
 
-:::
-::: {.column width="40%" }
- <img src="images/students.png" alt="Tachado" style="width: 100%; align: center;">
-:::
+![](images/techs.png){.fragment .fade-in-then-out  fig-align="center"}
+
+![](images/activa2.jpg){.fragment  fig-align="right"}
+
 :::
 
 ---
@@ -43,7 +40,20 @@ format:
 
 ## Malla Curricular - ICMAT {background-image="images/background.jpg" background-opacity="0.25"}
 
- <img src="images/malla_01.png" >
+
+::: {.r-stack}
+![](images/malla_01.png){.fragment .fade-in-then-out width="100%" fig-align="left"}
+
+![](images/mat281_2.png){.fragment .fade-in-then-out  fig-align="center"}
+
+![](images/mat281_4.png){.fragment  fig-align="right"}
+
+<div class="fragment" style="text-align: right; font-size: 0.8em; color: gray; margin-top: 30px;">
+  [🌐 Más detalles del curso MAT281](https://github.com/fralfaro/portfolio/blob/main/docs/files/teaching/mat281.pdf)
+</div>
+
+:::
+
 
 ---
 
@@ -57,30 +67,25 @@ format:
 ## MAT281 - Matemáticas Aplicadas {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
 
 ::: columns
-::: {.column width="60%" .incremental .fade-in-then-semi-out}
 
+::: {.column width="40%"}
+<div style="text-align: center;">
+  <img src="images/paper2.png" alt="Tachado" style="width: 100%; border-radius: 10px;">
+</div>
+:::
+
+::: {.column width="60%" .incremental}
 - 🎯 **Objetivo**: Desarrollar competencias como Data Scientist
-- 📚 **Requisitos** : Python y cursos básicos de matemáticas
+- 📚 **Requisitos**: Python y cursos básicos de matemáticas
 - 📝 **Contenidos**: Toolkit, Data Manipulation, Machine Learning
-- 📊 **Evalauciones**: Laboratorios, Tareas, Proyecto
-
-:::
-::: {.column width="40%" }
- <img src="images/paper2.png" alt="Tachado" style="width: 100%; align: center;">
-:::
+- 📊 **Evaluaciones**: Laboratorios, Tareas, Proyecto
 :::
 
----
-
-
-## Más sobre MAT281 {background-image="images/background.jpg" background-opacity="0.25"}
-
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/CDgt15OnCusbGH?hostedIn=slideshare&page=upload" width="900" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+:::
 
 . . . 
 
 [🌐 Repositorio Oficial del curso en GitHub](https://github.com/fralfaro/MAT281_2024){style="font-size: 0.75em; color: gray align: center;"}
-
 
 ---
 
@@ -129,12 +134,26 @@ format:
 ## 📊 Ejemplo Python {background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{pyodide-python}
+evento = "Segundo Encuentro de Docencia e Innovación en Matemática Universitaria"
+mensaje = f"""
+📚 Bienvenidos al...
+
+🚀 !{evento}! 
+"""
+print(mensaje)
+```
+
+---
+
+## 📊 Ejemplo Python {background-image="images/background.jpg" background-opacity="0.25"}
+
+```{pyodide-python}
 import matplotlib.pyplot as plt
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 6, 8, 10]
-plt.figure(figsize=(6, 3)) 
-plt.plot(x, y, marker='o', color='blue')
-plt.title("Gráfico Sencillo en Python")
+categorias = ['Sí', 'No']
+valores = [20, 10]
+plt.figure(figsize=(5, 3))
+plt.bar(categorias, valores, color=['lightblue', 'salmon'])
+plt.title('😊 ¿Te gusta la presentación hasta ahora? 😊')
 plt.show()
 ```
 
@@ -223,6 +242,21 @@ plt.show()
 
 ---
 
+## P1: Google Colab {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+
+::: {.r-stack}
+
+![](images/colab_012.png){.fragment .fade-in-then-out  fig-align="left"}
+
+![](images/colab_011.png){.fragment .fade-in-then-out  fig-align="center"}
+
+![](images/colab_01.png){.fragment width="80%" fig-align="right"}
+
+:::
+
+---
+
 ## P2: Github {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
 
 ::: columns
@@ -245,6 +279,26 @@ plt.show()
 
 ---
 
+## P2: Github {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+
+
+::: columns
+::: {.column width="50%"}
+![](images/repos_02.png){fig-align="center" width="90%"}\
+[Repositorio del Curso](https://github.com/fralfaro/MAT281_2024)
+:::
+
+::: {.column .fragment width="50%"}
+![](images/repos_03.png){fig-align="center" width="80%"}\
+[Portafolio Estudiantes](https://github.com/fralfaro/MAT281-Portfolio)
+:::
+:::
+
+
+
+---
+
 ## P3:Evaluación Externa  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
 
 ::: columns
@@ -261,6 +315,18 @@ plt.show()
 - Desarrolla habilidades blandas
 
 :::
+:::
+
+---
+
+## P3:Evaluación Externa {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+
+::: {.r-stack}
+![](images/proyectos_01.png){.fragment .fade-in-then-out  width="100%" fig-align="center"}
+
+![](images/proyectos_02.png){.fragment width="100%" fig-align="center"}
+
 :::
 
 ---
@@ -285,6 +351,18 @@ plt.show()
 
 ---
 
+## P4: Evaluaciones Innovadoras {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+
+::: {.r-stack}
+![](images/evaluacion_01.png){.fragment .fade-in-then-out  width="100%" fig-align="center"}
+
+![](images/repos_01.png){.fragment width="100%" fig-align="center"}
+
+:::
+
+---
+
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -298,35 +376,58 @@ plt.show()
 
 ## 👎 Comentarios Negativos {background-image="images/background.jpg" background-opacity="0.25"}
 
-<br>
 
-- 🔄 Sin retroalimentación ni respuestas
-- ❗ Cambios y criterios confusos
-- 📉 Desorganización e instrucciones ambiguas
+- ❌ "El profesor jamás respondió los correos cuando se le hacían dudas, lo que considero una enorme falta de respeto hacia los estudiantes."
+- 📉 "Nunca se entregaron calificaciones ni retroalimentación, así que nunca supe si estaba haciendo bien las cosas o no."
+- ❓ "El curso fue confuso en la manera de evaluar, me costó entender qué había que hacer en las evaluaciones y cuáles iban a ser las pruebas o tareas."
+
+
 
 ---
 
 ## 👍 Comentarios Positivos {background-image="images/background.jpg" background-opacity="0.25"}
 
-<br>
 
-- 📚 Excelente dominio y motivación
-- 🗂️ Clases claras y útiles
-- 🤝 Buen ambiente y confianza
-- 🛠️ Enfoque práctico (Python, GitHub)
-- 💡 Profesor comprometido
+- ✅ "Buen profesor, con buena disposición para consultas. Es ordenado, presenta bien el contenido y llega bien al alumno."
+- 🌟 "El profesor explica muy bien, de una forma clara. Tiene muy buena disposición y transmite confianza."
+- 📚 "Es un curso muy bueno, ayuda a aprender mucho sobre el área de Data Science, las aplicaciones que tiene y las diferentes herramientas disponibles en Python."
+
 
 ---
 
 
 ## Encuesta Docentes {background-image="images/background.jpg" background-opacity="0.25"}
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/BlCIuPtGXPBUiQ?hostedIn=slideshare&page=upload" width="900" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+```{python}
+import matplotlib.pyplot as plt
 
+# Datos de las evaluaciones por año
+años = [ 2020, 2021, 2022, 2023]
+profesor = [ 3.4, 3.6, 3.4, 3.8]
+departamento = [3.7, 3.7, 3.6, 3.6]
+campus = [ 3.7, 3.7, 3.7, 3.7]
+
+# Crear el gráfico
+plt.figure(figsize=(10, 5))
+plt.plot(años, profesor, marker='o', label='Profesor', linestyle='-', linewidth=2)
+plt.plot(años, departamento, marker='o', label='Departamento', linestyle='--', linewidth=2)
+plt.plot(años, campus, marker='o', label='Campus', linestyle='-.', linewidth=2)
+
+# Agregar etiquetas y título
+plt.xlabel('Año')
+plt.ylabel('Evaluación')
+plt.title('Evaluación Global: Profesor vs Departamento vs Campus')
+plt.xticks(años)
+plt.ylim(3.0, 4.5)
+plt.grid(True)
+plt.legend()
+
+# Mostrar el gráfico
+plt.show()
+```
 . . . 
 
-[🌐 Sistema de Información y Gestión Académica (SIGA) - USM](https://siga.usm.cl/){style="font-size: 0.75em; color: gray align: center;"}
-
+[(C)  La evaluó: contenidos, cercanía, y fomarlidades del curso.]{style="font-size: 0.7em; color: gray"} 
 
 ---
 
