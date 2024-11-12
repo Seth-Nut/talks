@@ -508,7 +508,7 @@
     "href": "uc_2024/presentacion.html#aprender-adaptar-innovar",
     "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
     "section": "🔄 Aprender, Adaptar, Innovar",
-    "text": "🔄 Aprender, Adaptar, Innovar\n\n\n\n\nPandemia y educación digital.\nUso de nuevas tecnologías.\nParticipación activa."
+    "text": "🔄 Aprender, Adaptar, Innovar"
   },
   {
     "objectID": "uc_2024/presentacion.html#section",
@@ -522,7 +522,7 @@
     "href": "uc_2024/presentacion.html#malla-curricular---icmat",
     "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
     "section": "Malla Curricular - ICMAT",
-    "text": "Malla Curricular - ICMAT"
+    "text": "Malla Curricular - ICMAT\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🌐 Más detalles del curso MAT281"
   },
   {
     "objectID": "uc_2024/presentacion.html#historia-del-curso",
@@ -536,14 +536,7 @@
     "href": "uc_2024/presentacion.html#mat281---matemáticas-aplicadas",
     "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
     "section": "MAT281 - Matemáticas Aplicadas",
-    "text": "MAT281 - Matemáticas Aplicadas\n\n\n\n🎯 Objetivo: Desarrollar competencias como Data Scientist\n📚 Requisitos : Python y cursos básicos de matemáticas\n📝 Contenidos: Toolkit, Data Manipulation, Machine Learning\n📊 Evalauciones: Laboratorios, Tareas, Proyecto"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#más-sobre-mat281",
-    "href": "uc_2024/presentacion.html#más-sobre-mat281",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "Más sobre MAT281",
-    "text": "Más sobre MAT281\n\n\n\n🌐 Repositorio Oficial del curso en GitHub"
+    "text": "MAT281 - Matemáticas Aplicadas\n\n\n\n\n\n\n\n🎯 Objetivo: Desarrollar competencias como Data Scientist\n📚 Requisitos: Python y cursos básicos de matemáticas\n📝 Contenidos: Toolkit, Data Manipulation, Machine Learning\n📊 Evaluaciones: Laboratorios, Tareas, Proyecto\n\n\n\n🌐 Repositorio Oficial del curso en GitHub"
   },
   {
     "objectID": "uc_2024/presentacion.html#section-1",
@@ -569,6 +562,13 @@
   {
     "objectID": "uc_2024/presentacion.html#ejemplo-python",
     "href": "uc_2024/presentacion.html#ejemplo-python",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "📊 Ejemplo Python",
+    "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#ejemplo-python-1",
+    "href": "uc_2024/presentacion.html#ejemplo-python-1",
     "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
     "section": "📊 Ejemplo Python",
     "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
@@ -602,11 +602,25 @@
     "text": "P1: Google Colab\n\n\n\n\n\n\n\nAcceso sin instalación\nInteractivo y colaborativo\nAprendizaje activo"
   },
   {
+    "objectID": "uc_2024/presentacion.html#p1-google-colab-1",
+    "href": "uc_2024/presentacion.html#p1-google-colab-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P1: Google Colab",
+    "text": "P1: Google Colab"
+  },
+  {
     "objectID": "uc_2024/presentacion.html#p2-github",
     "href": "uc_2024/presentacion.html#p2-github",
     "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
     "section": "P2: Github",
     "text": "P2: Github\n\n\n\n\n\n\n\nControl de versiones\nPrimer portafolio\nFacilita Seguimiento\nPlantilla inicial"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p2-github-1",
+    "href": "uc_2024/presentacion.html#p2-github-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P2: Github",
+    "text": "P2: Github\n\n\n\nRepositorio del Curso\n\n\nPortafolio Estudiantes"
   },
   {
     "objectID": "uc_2024/presentacion.html#p3evaluación-externa",
@@ -616,11 +630,25 @@
     "text": "P3:Evaluación Externa\n\n\n\n\n\n\nFeedback por pares\nEvaluación de proyectos\nDesarrolla habilidades blandas"
   },
   {
+    "objectID": "uc_2024/presentacion.html#p3evaluación-externa-1",
+    "href": "uc_2024/presentacion.html#p3evaluación-externa-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P3:Evaluación Externa",
+    "text": "P3:Evaluación Externa"
+  },
+  {
     "objectID": "uc_2024/presentacion.html#p4-evaluaciones-innovadoras",
     "href": "uc_2024/presentacion.html#p4-evaluaciones-innovadoras",
     "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
     "section": "P4: Evaluaciones Innovadoras",
     "text": "P4: Evaluaciones Innovadoras\n\n\n\n\n\n\nEvaluaciones prácticas\nEnfoque en colaboración\nPreparación mercado laboral"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p4-evaluaciones-innovadoras-1",
+    "href": "uc_2024/presentacion.html#p4-evaluaciones-innovadoras-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P4: Evaluaciones Innovadoras",
+    "text": "P4: Evaluaciones Innovadoras"
   },
   {
     "objectID": "uc_2024/presentacion.html#section-3",
@@ -634,21 +662,21 @@
     "href": "uc_2024/presentacion.html#comentarios-negativos",
     "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
     "section": "👎 Comentarios Negativos",
-    "text": "👎 Comentarios Negativos\n\n\n🔄 Sin retroalimentación ni respuestas\n❗ Cambios y criterios confusos\n📉 Desorganización e instrucciones ambiguas"
+    "text": "👎 Comentarios Negativos\n\n❌ “El profesor jamás respondió los correos cuando se le hacían dudas, lo que considero una enorme falta de respeto hacia los estudiantes.”\n📉 “Nunca se entregaron calificaciones ni retroalimentación, así que nunca supe si estaba haciendo bien las cosas o no.”\n❓ “El curso fue confuso en la manera de evaluar, me costó entender qué había que hacer en las evaluaciones y cuáles iban a ser las pruebas o tareas.”"
   },
   {
     "objectID": "uc_2024/presentacion.html#comentarios-positivos",
     "href": "uc_2024/presentacion.html#comentarios-positivos",
     "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
     "section": "👍 Comentarios Positivos",
-    "text": "👍 Comentarios Positivos\n\n\n📚 Excelente dominio y motivación\n🗂️ Clases claras y útiles\n🤝 Buen ambiente y confianza\n🛠️ Enfoque práctico (Python, GitHub)\n💡 Profesor comprometido"
+    "text": "👍 Comentarios Positivos\n\n✅ “Buen profesor, con buena disposición para consultas. Es ordenado, presenta bien el contenido y llega bien al alumno.”\n🌟 “El profesor explica muy bien, de una forma clara. Tiene muy buena disposición y transmite confianza.”\n📚 “Es un curso muy bueno, ayuda a aprender mucho sobre el área de Data Science, las aplicaciones que tiene y las diferentes herramientas disponibles en Python.”"
   },
   {
     "objectID": "uc_2024/presentacion.html#encuesta-docentes",
     "href": "uc_2024/presentacion.html#encuesta-docentes",
     "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
     "section": "Encuesta Docentes",
-    "text": "Encuesta Docentes\n\n\n\n🌐 Sistema de Información y Gestión Académica (SIGA) - USM"
+    "text": "Encuesta Docentes\n\n\n\n\n\n\n\n\n\n\n(C) La evaluó: contenidos, cercanía, y fomarlidades del curso."
   },
   {
     "objectID": "uc_2024/presentacion.html#section-4",
