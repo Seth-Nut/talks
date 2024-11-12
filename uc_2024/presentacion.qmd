@@ -244,14 +244,10 @@ plt.show()
 
 ## P1: Google Colab {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
 
-
 ::: {.r-stack}
+![](images/numpy2.png){.fragment .fade-in-then-out  width="100%" fig-align="center"}
 
-![](images/colab_012.png){.fragment .fade-in-then-out  fig-align="left"}
-
-![](images/colab_011.png){.fragment .fade-in-then-out  fig-align="center"}
-
-![](images/colab_01.png){.fragment width="80%" fig-align="right"}
+![](images/colab_011.png){.fragment width="100%" fig-align="center"}
 
 :::
 
@@ -299,39 +295,8 @@ plt.show()
 
 ---
 
-## P3:Evaluación Externa  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
 
-::: columns
-::: {.column width="40%" }
- <img src="images/p3.png" alt="Tachado" style="width: 100%; align: center;">
-:::
-
-::: {.column width="60%" .incremental .fade-in-then-semi-out}
-
-<br>
-
-- Feedback por pares
-- Evaluación de proyectos
-- Desarrolla habilidades blandas
-
-:::
-:::
-
----
-
-## P3:Evaluación Externa {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
-
-
-::: {.r-stack}
-![](images/proyectos_01.png){.fragment .fade-in-then-out  width="100%" fig-align="center"}
-
-![](images/proyectos_02.png){.fragment width="100%" fig-align="center"}
-
-:::
-
----
-
-## P4: Evaluaciones Innovadoras  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+## P3: Evaluaciones Innovadoras  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
 
 ::: columns
 ::: {.column width="40%" }
@@ -351,13 +316,49 @@ plt.show()
 
 ---
 
-## P4: Evaluaciones Innovadoras {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+## P3: Evaluaciones Innovadoras {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+::: {.r-stack}
+![](images/eval_01.png){.fragment .fade-in-then-out width="100%" fig-align="left"}
+
+![](images/evaluacion_01.png){.fragment .fade-in-then-out  fig-align="center"}
+
+![](images/repos_01.png){.fragment  fig-align="right"}
+
+
+:::
+
+
+---
+
+
+## P4:Evaluación Externa  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+::: columns
+::: {.column width="40%" }
+ <img src="images/p3.png" alt="Tachado" style="width: 100%; align: center;">
+:::
+
+::: {.column width="60%" .incremental .fade-in-then-semi-out}
+
+<br>
+
+- Feedback por pares
+- Evaluación de proyectos
+- Desarrolla habilidades blandas
+
+:::
+:::
+
+---
+
+## P4:Evaluación Externa {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
 
 
 ::: {.r-stack}
-![](images/evaluacion_01.png){.fragment .fade-in-then-out  width="100%" fig-align="center"}
+![](images/proyectos_01.png){.fragment .fade-in-then-out  width="100%" fig-align="center"}
 
-![](images/repos_01.png){.fragment width="100%" fig-align="center"}
+![](images/proyectos_02.png){.fragment width="100%" fig-align="center"}
 
 :::
 
@@ -396,7 +397,7 @@ plt.show()
 ---
 
 
-## Encuesta Docentes {background-image="images/background.jpg" background-opacity="0.25"}
+## Encuesta Docente {background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{python}
 import matplotlib.pyplot as plt
