@@ -179,6 +179,7 @@ plt.show()
 
 [🌐 PyLatam 2022: Clases Interactivas con Google Colab, Mkdocs y Github Actions](https://www.youtube.com/watch?v=1a-3qqlMcQA){style="font-size: 0.75em; color: gray align: center;"}
 
+
 ---
 
 ## Aprendizajes Claves {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
@@ -364,6 +365,33 @@ plt.show()
 
 ---
 
+## P5: Impacto Formación Profesional  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+::: columns
+::: {.column width="40%" }
+ <img src="images/p5.png" alt="Tachado" style="width: 100%; align: center;">
+:::
+
+::: {.column width="60%" .incremental .fade-in-then-semi-out}
+
+<br>
+
+- Motivación por la programación
+- Preparación para prácticas
+- Memorías Innovadoras
+
+:::
+:::
+
+---
+
+## P5: Impacto Formación Profesional  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+
+
+![](images/memoria.png){width="90%" fig-align="center"}
+
+
+---
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
