@@ -735,11 +735,18 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
+    "objectID": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
+    "href": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
+    "title": "De los Números a la Narrativa",
+    "section": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?",
+    "text": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?"
+  },
+  {
     "objectID": "narrativas_2024/presentacion.html#objetivos-del-taller",
     "href": "narrativas_2024/presentacion.html#objetivos-del-taller",
     "title": "De los Números a la Narrativa",
     "section": "🎯 Objetivos del Taller",
-    "text": "🎯 Objetivos del Taller\n\n\nAprender sobre visualización de datos.\nAprender a crear visualizaciones con Matplotlib y Seaborn.\nEntender cómo construir una app interactiva con Streamlit.\nIntegrar visualizaciones en una aplicación web simple."
+    "text": "🎯 Objetivos del Taller\n\n\n📊 Aprender sobre visualización de datos.\n🧑‍🎨 Aprender a crear visualizaciones.\n🌐 Entender cómo construir una app interactiva.\n💻 Integrar visualizaciones en una aplicación web simple."
   },
   {
     "objectID": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
@@ -747,13 +754,6 @@
     "title": "De los Números a la Narrativa",
     "section": "🤔 ¿Qué es la Visualización de Datos?",
     "text": "🤔 ¿Qué es la Visualización de Datos?\n\n\n La visualización de datos transforma información en gráficos para facilitar su comprensión."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplos",
-    "href": "narrativas_2024/presentacion.html#ejemplos",
-    "title": "De los Números a la Narrativa",
-    "section": "Ejemplos",
-    "text": "Ejemplos\n\n\n\n\n\n\n\n❌ Mal Gráfico\n\n\n\n\n\n\n✅ Buen Gráfico"
   },
   {
     "objectID": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
@@ -798,39 +798,81 @@
     "text": "Tipos de Gráficos Esenciales\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
   },
   {
-    "objectID": "narrativas_2024/presentacion.html#matplotlib-visualización-básica",
-    "href": "narrativas_2024/presentacion.html#matplotlib-visualización-básica",
+    "objectID": "narrativas_2024/presentacion.html#section",
+    "href": "narrativas_2024/presentacion.html#section",
     "title": "De los Números a la Narrativa",
-    "section": "〽️ Matplotlib: Visualización Básica",
-    "text": "〽️ Matplotlib: Visualización Básica\n\n\nMatplotlib es una biblioteca para crear gráficos estáticos.\nTipos de gráficos más comunes:\n\nLíneas, Barras, Dispersión, Histograma."
+    "section": "",
+    "text": "Matplotlib es una biblioteca para crear gráficos estáticos.\nTipos de gráficos más comunes:\n\nLíneas, Barras, Dispersión, Histograma."
   },
   {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-básico-con-matplotlib",
-    "href": "narrativas_2024/presentacion.html#ejemplo-básico-con-matplotlib",
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-líneas",
+    "href": "narrativas_2024/presentacion.html#ejemplo-líneas",
     "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo básico con Matplotlib",
-    "text": "〽️ Ejemplo básico con Matplotlib\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "section": "〽️ Ejemplo: líneas",
+    "text": "〽️ Ejemplo: líneas\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-con-matplotlib",
-    "href": "narrativas_2024/presentacion.html#ejemplo-con-matplotlib",
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión",
+    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión",
     "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo con Matplotlib",
-    "text": "〽️ Ejemplo con Matplotlib\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "section": "〽️ Ejemplo: dispersión",
+    "text": "〽️ Ejemplo: dispersión\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "narrativas_2024/presentacion.html#seaborn-visualización-avanzada",
-    "href": "narrativas_2024/presentacion.html#seaborn-visualización-avanzada",
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras",
+    "href": "narrativas_2024/presentacion.html#ejemplo-barras",
     "title": "De los Números a la Narrativa",
-    "section": "📊 Seaborn: Visualización Avanzada",
-    "text": "📊 Seaborn: Visualización Avanzada\n\n\nSeaborn extiende Matplotlib con gráficos más estilizados.\nEspecialmente útil para:\n\nGráficos estadísticos.\nAnálisis exploratorio de datos."
+    "section": "〽️ Ejemplo: barras",
+    "text": "〽️ Ejemplo: barras\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-con-seaborn",
-    "href": "narrativas_2024/presentacion.html#ejemplo-con-seaborn",
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
+    "href": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
     "title": "De los Números a la Narrativa",
-    "section": "📊 Ejemplo con Seaborn",
-    "text": "📊 Ejemplo con Seaborn\nimport seaborn as sns\nimport matplotlib.pyplot as plt\ntips = sns.load_dataset(\"tips\")\nplt.figure(figsize=(8, 6))\nsns.scatterplot(\n  x=\"total_bill\", \n  y=\"tip\", \n  data=tips, \n  color='salmon', \n  s=100, \n  edgecolor='gray')\nplt.title(\"Relación entre total de cuenta y propina\", fontsize=16)\nplt.grid(True)\nplt.show()"
+    "section": "〽️ Ejemplo: barras horizontales",
+    "text": "〽️ Ejemplo: barras horizontales\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#section-2",
+    "href": "narrativas_2024/presentacion.html#section-2",
+    "title": "De los Números a la Narrativa",
+    "section": "",
+    "text": "Seaborn extiende Matplotlib con gráficos más estilizados.\nEspecialmente útil para:\n\nGráficos estadísticos.\nAnálisis exploratorio de datos."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-penguins",
+    "href": "narrativas_2024/presentacion.html#ejemplo-penguins",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Ejemplo: penguins",
+    "text": "📊 Ejemplo: penguins\n\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nMale\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nFemale\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nFemale\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nFemale\n\n\n5\nAdelie\nTorgersen\n39.3\n20.6\n190.0\n3650.0\nMale"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
+    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Ejemplo: dispersión",
+    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='bill_length_mm', y='bill_depth_mm', data=penguins, \n                color='salmon')\n\n# Mostrar el gráfico\nplt.show()"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
+    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Ejemplo: dispersión",
+    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='flipper_length_mm', y='body_mass_g', data=penguins, \n                color='salmon', hue= \"sex\")\n\n# Mostrar el gráfico\nplt.show()"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
+    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Matplotlib vs Seaborn",
+    "text": "📊 Matplotlib vs Seaborn\nimport matplotlib.pyplot as plt\n\n# Contar la cantidad de Pingüinos por tipo\npenguins_type = penguins[\"species\"].value_counts()\n\n# Crear un gráfico de barras\nplt.figure(figsize=(6, 3))\npenguins_type.plot(kind=\"bar\", color=\"salmon\")\n\n# Mostrar gráfico\nplt.show()"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
+    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Matplotlib vs Seaborn",
+    "text": "📊 Matplotlib vs Seaborn\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear el gráfico de barras con seaborn\nplt.figure(figsize=(6, 3))\nsns.countplot(data=penguins, x=\"species\", color=\"salmon\")\n\n# Mostrar el gráfico\nplt.show()"
   },
   {
     "objectID": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
@@ -844,18 +886,18 @@
     "href": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
     "title": "De los Números a la Narrativa",
     "section": "Ejemplo de Streamlit",
-    "text": "Ejemplo de Streamlit\n https://github.com/sebastiandres/streamlit_slides"
+    "text": "Ejemplo de Streamlit"
   },
   {
-    "objectID": "narrativas_2024/presentacion.html#section",
-    "href": "narrativas_2024/presentacion.html#section",
+    "objectID": "narrativas_2024/presentacion.html#section-3",
+    "href": "narrativas_2024/presentacion.html#section-3",
     "title": "De los Números a la Narrativa",
     "section": "",
     "text": "¡Ahora te toca a ti!🫵"
   },
   {
-    "objectID": "narrativas_2024/presentacion.html#section-1",
-    "href": "narrativas_2024/presentacion.html#section-1",
+    "objectID": "narrativas_2024/presentacion.html#section-4",
+    "href": "narrativas_2024/presentacion.html#section-4",
     "title": "De los Números a la Narrativa",
     "section": "",
     "text": "¡Ahora te toca a ti!🫵"
@@ -875,6 +917,13 @@
     "text": "🎯 Objetivos del Curso\n\n\nFamiliarizarse con los Dispositivos Básicos\nConocer y Usar Programas Básicos de Oficina\nNavegar en Internet de Forma Segura\nAprender a Utilizar Aplicaciones Útiles y Páginas de Interés\nDesarrollar Habilidades en Redes Sociales\nRealizar Transferencias Electrónicas y Pagos en Línea de Forma Segura"
   },
   {
+    "objectID": "computacion_2024/presentacion.html#computador",
+    "href": "computacion_2024/presentacion.html#computador",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "Computador",
+    "text": "Computador"
+  },
+  {
     "objectID": "computacion_2024/presentacion.html#qué-es-un-computador",
     "href": "computacion_2024/presentacion.html#qué-es-un-computador",
     "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
@@ -882,11 +931,11 @@
     "text": "🤔 ¿Qué es un computador?\n\n\n🖥️ Un computador es una máquina que ayuda a realizar tareas de forma rápida y organizada.\nEs como una “oficina” en una caja, donde se pueden:\n\nEscribir documentos 📄\nEnviar correos 📧\nVer fotos 📷\nConectarse con amigos y familiares 👥\n\nFunciona con programas o aplicaciones, que son como herramientas en una caja de herramientas 🧰"
   },
   {
-    "objectID": "computacion_2024/presentacion.html#qué-es-un-notebook-y-en-qué-se-diferencia-de-un-computador-de-escritorio",
-    "href": "computacion_2024/presentacion.html#qué-es-un-notebook-y-en-qué-se-diferencia-de-un-computador-de-escritorio",
+    "objectID": "computacion_2024/presentacion.html#qué-es-un-notebook",
+    "href": "computacion_2024/presentacion.html#qué-es-un-notebook",
     "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🤔 ¿Qué es un notebook y en qué se diferencia de un computador de escritorio?",
-    "text": "🤔 ¿Qué es un notebook y en qué se diferencia de un computador de escritorio?\n\n\n💻 Un notebook es un computador pequeño y liviano que se puede llevar a cualquier lugar.\nA diferencia de un computador de escritorio:\n\nTodo está integrado en una sola pieza 🧩\nFunciona con batería🔋\n\nEs ideal para usar en diferentes lugares, dentro y fuera de casa 👩🏻‍💻🧑🏻‍💻"
+    "section": "🤔 ¿Qué es un notebook?",
+    "text": "🤔 ¿Qué es un notebook?\n\n\n💻 Un notebook es un computador pequeño y liviano que se puede llevar a cualquier lugar.\nA diferencia de un computador de escritorio:\n\nTodo está integrado en una sola pieza 🧩\nFunciona con batería🔋\n\nEs ideal para usar en diferentes lugares, dentro y fuera de casa 👩🏻‍💻🧑🏻‍💻"
   },
   {
     "objectID": "computacion_2024/presentacion.html#qué-es-un-celular-inteligente",
@@ -894,13 +943,6 @@
     "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
     "section": "🤔 ¿Qué es un Celular Inteligente?",
     "text": "🤔 ¿Qué es un Celular Inteligente?\n\n\n📱 Un celular inteligente es un dispositivo portátil que combina funciones de teléfono y computador.\nPermite hacer llamadas, enviar mensajes, y conectarse a internet 📞\nSe pueden instalar aplicaciones para diversas tareas: desde redes sociales hasta banca en línea ⬇️\nEs ideal para mantenerse en contacto y acceder a información en cualquier momento y lugar ⌚"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#computador-notebook-y-celular-inteligente",
-    "href": "computacion_2024/presentacion.html#computador-notebook-y-celular-inteligente",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🦾 Computador, Notebook y Celular Inteligente",
-    "text": "🦾 Computador, Notebook y Celular Inteligente\n\nComputadorNotebookCelular Inteligente"
   },
   {
     "objectID": "computacion_2024/presentacion.html#conocer-las-partes-del-computador",
@@ -921,7 +963,7 @@
     "href": "computacion_2024/presentacion.html#identificar-el-escritorio",
     "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
     "section": "🔍 Identificar el Escritorio",
-    "text": "🔍 Identificar el Escritorio\n\n\n\n\nEl “escritorio” es el espacio principal donde se ven íconos y accesos directos.\nMostrar los elementos principales:\n\nBarra de tareas: suele estar en la parte inferior, donde se ven aplicaciones y el botón de inicio.\nIconos: pequeñas imágenes en el escritorio para abrir programas o archivos."
+    "text": "🔍 Identificar el Escritorio\n\n\n\n\n\n\n\nElementos principales:\n\nBarra de tareas\nIconos"
   },
   {
     "objectID": "computacion_2024/presentacion.html#usar-el-mouse-y-el-teclado",
