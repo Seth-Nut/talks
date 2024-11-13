@@ -190,14 +190,15 @@ plt.show()
  <img src="images/learning.png" alt="Tachado" style="width: 100%; align: center;">
 :::
 
-::: {.column width="60%" .incremental .fade-in-then-semi-out}
+::: {.column width="60%"  .fragment}
 
 <br><br>
 
+- **Motivación**: Fomentar interés.
 - **Activo**: Involucra a los estudiantes.
 - **Proyectos**: Problemas reales. 
 - **Constructivismo**: Experiencia.
-- **Experiencial**: Aprender haciendo.
+
 
 :::
 
@@ -231,13 +232,14 @@ plt.show()
  <img src="images/p1.png"  alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;">
 :::
 
-::: {.column width="60%" .incremental .fade-in-then-semi-out}
+::: {.column width="60%" .fragment}
 
 <br>
 
 - Acceso sin instalación
 - Interactivo y colaborativo
 - Aprendizaje activo
+
 :::
 :::
 
@@ -263,14 +265,15 @@ plt.show()
 <img src="images/p22.jpg" alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;">
 :::
 
-::: {.column width="60%" .incremental .fade-in-then-semi-out}
+::: {.column width="60%" .fragment}
 
 <br>
 
 - Control de versiones
-- Primer portafolio
 - Facilita Seguimiento
 - Plantilla inicial 
+- Primer portafolio
+
 :::
 :::
 
@@ -282,7 +285,7 @@ plt.show()
 
 ::: columns
 ::: {.column width="50%"}
-![](images/repos_02.png){fig-align="center" width="90%"}\
+![](images/repos_02.png){fig-align="center" width="93%"}\
 [Repositorio del Curso](https://github.com/fralfaro/MAT281_2024)
 :::
 
@@ -304,7 +307,7 @@ plt.show()
  <img src="images/p4.png" alt="Tachado" style="width: 100%; align: center;">
 :::
 
-::: {.column width="60%" .incremental .fade-in-then-semi-out}
+::: {.column width="60%"  .fragment}
 
 <br>
 
@@ -340,7 +343,7 @@ plt.show()
  <img src="images/p3.png" alt="Tachado" style="width: 100%; align: center;">
 :::
 
-::: {.column width="60%" .incremental .fade-in-then-semi-out}
+::: {.column width="60%"  .fragment}
 
 <br>
 
@@ -372,7 +375,7 @@ plt.show()
  <img src="images/p5.png" alt="Tachado" style="width: 100%; align: center;">
 :::
 
-::: {.column width="60%" .incremental .fade-in-then-semi-out}
+::: {.column width="60%"  .fragment}
 
 <br>
 
@@ -405,22 +408,22 @@ plt.show()
 
 ## 👎 Comentarios Negativos {background-image="images/background.jpg" background-opacity="0.25"}
 
-
+::: { .fragment}
 - ❌ "El profesor jamás respondió los correos cuando se le hacían dudas, lo que considero una enorme falta de respeto hacia los estudiantes."
 - 📉 "Nunca se entregaron calificaciones ni retroalimentación, así que nunca supe si estaba haciendo bien las cosas o no."
 - ❓ "El curso fue confuso en la manera de evaluar, me costó entender qué había que hacer en las evaluaciones y cuáles iban a ser las pruebas o tareas."
-
+::: 
 
 
 ---
 
 ## 👍 Comentarios Positivos {background-image="images/background.jpg" background-opacity="0.25"}
 
-
+::: { .fragment}
 - ✅ "Buen profesor, con buena disposición para consultas. Es ordenado, presenta bien el contenido y llega bien al alumno."
 - 🌟 "El profesor explica muy bien, de una forma clara. Tiene muy buena disposición y transmite confianza."
 - 📚 "Es un curso muy bueno, ayuda a aprender mucho sobre el área de Data Science, las aplicaciones que tiene y las diferentes herramientas disponibles en Python."
-
+::: 
 
 ---
 
@@ -471,25 +474,35 @@ plt.show()
 ---
 
 
-## 🔍 Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
+## 🎓 Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-- 📊 Google Colab tiene un impacto positivo.
-- 💻 Aumenta motivación y participación.
-- 📈 Mejora la comprensión práctica.
-- 🔄 Flexibilidad en la enseñanza y aprendizaje remoto.
+::: { .fragment}
+ ✅ Google Colab tiene un impacto positivo.
+
+ ✅ Aumenta motivación y participación.
+
+ ✅ Mejora la comprensión práctica.
+
+ ✅ Flexibilidad en la enseñanza y aprendizaje remoto.
+::: 
 
 ---
 
-## 🚀 Trabajos Futuros {background-image="images/background.jpg" background-opacity="0.25"}
+## 🎓 Trabajos Futuros {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-- 🌐 Integrar tecnologías nuevas (IA).
-- 📚 Crear material en línea accesible.
-- 🤝 Fomentar proyectos con la industria.
-- 🎯 Expandir la metodología a otros cursos y disciplinas.
+::: { .fragment}
+💡 Integrar tecnologías nuevas (IA).
+
+💡 Crear material en línea accesible.
+
+💡 Fomentar proyectos con la industria.
+
+💡 Expandir la metodología a otros cursos y disciplinas.
+::: 
 
 ---
 
