@@ -44,9 +44,7 @@ format:
 ::: {.r-stack}
 ![](images/malla_01.png){.fragment .fade-in-then-out width="100%" fig-align="left"}
 
-![](images/mat281_2.png){.fragment .fade-in-then-out  fig-align="center"}
-
-![](images/mat281_4.png){.fragment  fig-align="right"}
+![](images/mat281_2.png){.fragment width="90%" fig-align="center"}
 
 <div class="fragment" style="text-align: right; font-size: 0.8em; color: gray; margin-top: 30px;">
   [🌐 Más detalles del curso MAT281](https://github.com/fralfaro/portfolio/blob/main/docs/files/teaching/mat281.pdf)
@@ -85,7 +83,7 @@ format:
 
 . . . 
 
-[🌐 Repositorio Oficial del curso en GitHub](https://github.com/fralfaro/MAT281_2024){style="font-size: 0.75em; color: gray align: center;"}
+[🌐 Repositorio: github.com/fralfaro/MAT281_2024](https://github.com/fralfaro/MAT281_2024){style="font-size: 0.75em; color: gray align: center;"}
 
 ---
 
@@ -127,7 +125,7 @@ format:
 
 . . . 
 
-[🌐 Accede a sitio oficial de Google Colab](https://colab.research.google.com){style="font-size: 0.75em; color: gray; align: center;"}
+[🌐 Link: colab.research.google.com](https://colab.research.google.com){style="font-size: 0.75em; align: center;"}
 
 ---
 
@@ -479,13 +477,13 @@ plt.show()
 <br>
 
 ::: { .fragment}
- ✅ Google Colab tiene un impacto positivo.
+ ✅ Google Colab tiene un impacto positivo
 
- ✅ Aumenta motivación y participación.
+ ✅ Aumenta motivación y participación
 
- ✅ Mejora la comprensión práctica.
+ ✅ Mejora la comprensión práctica
 
- ✅ Flexibilidad en la enseñanza y aprendizaje remoto.
+ ✅ Flexibilidad en la enseñanza y aprendizaje remoto
 ::: 
 
 ---
@@ -495,13 +493,14 @@ plt.show()
 <br>
 
 ::: { .fragment}
-💡 Integrar tecnologías nuevas (IA).
+💡 Integrar tecnologías nuevas (IA)
 
-💡 Crear material en línea accesible.
+💡 Fomentar proyectos con la industria
 
-💡 Fomentar proyectos con la industria.
+💡 Expandir la metodología a otros cursos
 
-💡 Expandir la metodología a otros cursos y disciplinas.
+💡 Implementar evaluaciones automatizadas
+
 ::: 
 
 ---
@@ -564,14 +563,14 @@ plt.show()
 
 ❓¿Preguntas?
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLScdkSSY40VsN_uEXsNK5LYP-qngUVvaO-c8qItr163zzvpzZA/viewform?usp=sf_link)
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLScS7eVbBPaKw6XhVonosCL_4nP4t9AbJAM03bdSfbsoSDFntg/viewform?usp=sf_link)
 
 
 🥳 Gracias de Nuevo 
   
 ::::
 :::: {.column width=50% align="center"}
-![](images/qr_visualizacion.png){width=400}
+![](images/qr_uc.png){width=400}
 ::::
 :::
 
