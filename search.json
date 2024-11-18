@@ -438,14 +438,14 @@
     "href": "visualization_2024/presentacion.html#herramientas-para-presentación",
     "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
     "section": "Herramientas para presentación",
-    "text": "Herramientas para presentación\n\n\n\nClásica: PowerPoint\n“Show don’t tell”:\n\nquarto\njupyter + RISE\nStreamlit\n\nOtros: canvas, revealjs, prezi"
+    "text": "Herramientas para presentación\n\n\n\nClásica: PowerPoint\n“Show don’t tell”:\n\nQuarto\nStreamlit\n\nOtros: Canvas, Revealjs, Prezi"
   },
   {
     "objectID": "visualization_2024/presentacion.html#quarto",
     "href": "visualization_2024/presentacion.html#quarto",
     "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
     "section": "Quarto",
-    "text": "Quarto\n\n\n Un sistema abierto para publicaciones científicas y técnicas, centrado en markdown, documentos dinámicos e interactivos con código (Python/R/Julia)."
+    "text": "Quarto\n\n\n\nUn sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R)."
   },
   {
     "objectID": "visualization_2024/presentacion.html#section-7",
@@ -455,18 +455,11 @@
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
   },
   {
-    "objectID": "visualization_2024/presentacion.html#jupyter-rise",
-    "href": "visualization_2024/presentacion.html#jupyter-rise",
-    "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
-    "section": "Jupyter + RISE",
-    "text": "Jupyter + RISE\n\n\n\nExtensión de Jupyter notebook/lab para transformar un notebooks en slides de revealjs."
-  },
-  {
     "objectID": "visualization_2024/presentacion.html#streamlit",
     "href": "visualization_2024/presentacion.html#streamlit",
     "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
     "section": "Streamlit",
-    "text": "Streamlit\n\n\n Streamlit es una herramienta de código abierto que permite crear aplicaciones web interactivas usando solo Python."
+    "text": "Streamlit\n\n\n Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python."
   },
   {
     "objectID": "visualization_2024/presentacion.html#streamlit-ejemplo",
@@ -487,14 +480,14 @@
     "href": "visualization_2024/presentacion.html#flujo-de-decisión",
     "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
     "section": "Flujo de decisión",
-    "text": "Flujo de decisión\n\n\nPowerPoint: Presentación sin código de un solo uso\nQuarto: Charlas a partir de documentos relacionados (libros, artículos)\nJupyter + RISE: Talleres o clases. Ejecutar código es importante\nStreamlit: Presentaciones personalizadas/experimentales"
+    "text": "Flujo de decisión\n\n\n\n🎤 PowerPoint: Presentación sin código de un solo uso\n📚 Quarto: Charlas a partir de documentos relacionados\n💻 Streamlit: Presentaciones interactivas (Python)\n🎨 Más: Canvas, Revealjs, Prezi"
   },
   {
     "objectID": "visualization_2024/presentacion.html#conclusión",
     "href": "visualization_2024/presentacion.html#conclusión",
     "title": "Crea, Innova y Presenta Data Storytelling + A.I.",
     "section": "Conclusión",
-    "text": "Conclusión\n\n\n\n📖 Storytelling: Narrativas que cautivan a través de datos.\n\n📊 Visualización: Gráficos claros y atractivos.\n\n🛠️ Herramientas: Streamlit, Quarto, y Python para presentaciones interactivas."
+    "text": "Conclusión\n\n\n\n📖 Storytelling: Narrativas que cautivan a través de datos.\n\n📊 Visualización: Gráficos claros y atractivos.\n\n🛠️ Herramientas: Streamlit, Quarto, y más."
   },
   {
     "objectID": "visualization_2024/presentacion.html#gracias-por-participar",
