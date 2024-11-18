@@ -452,14 +452,13 @@ Opción 2: Una agenda misteriosa.
 ::: {.column width="60%"}
 -   **Clásica**: PowerPoint
 -   **"Show don't tell"**:
-    -   quarto
-    -   jupyter + RISE
+    -   Quarto
     -   Streamlit
--   **Otros**: canvas, revealjs, prezi
+-   **Otros**: Canvas, Revealjs, Prezi
 :::
 
 ::: {.column width="40%"}
-![](images/tools.png){fig-align="center"}
+![](images/presentacion2.png){fig-align="center"}
 :::
 :::
 
@@ -469,7 +468,9 @@ Opción 2: Una agenda misteriosa.
 
 ::: columns
 ::: {.column width="60%"}
-<br> Un sistema abierto para publicaciones científicas y técnicas, centrado en markdown, documentos dinámicos e interactivos con código (Python/R/Julia).
+<br> 
+
+Un sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R).
 :::
 
 ::: {.column width="40%"}
@@ -525,33 +526,12 @@ format:
 
 ------------------------------------------------------------------------
 
-## Jupyter + RISE {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="40%"}
-<br><br>
-
-Extensión de Jupyter notebook/lab para transformar un notebooks en slides de revealjs.
-:::
-
-::: {.column width="60%"}
-<br> ![](images/rise/rise.png)
-:::
-:::
-
-------------------------------------------------------------------------
-
-### Jupyter + RISE
-
-<img src="./images/rise/basic_usage.gif" style="width:80%;"/>
-
-------------------------------------------------------------------------
 
 ## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="60%"}
-<br><br> Streamlit es una herramienta de código abierto que permite crear aplicaciones web interactivas usando solo Python.
+<br><br> Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python.
 :::
 
 ::: {.column width="40%"}
@@ -629,11 +609,13 @@ st.markdown(
 
 ## Flujo de decisión {background-image="images/background.jpg" background-opacity="0.25"}
 
+<br>
+
 ::: incremental
--   **PowerPoint**: Presentación sin código de un solo uso
--   **Quarto**: Charlas a partir de documentos relacionados (libros, artículos)
--   **Jupyter + RISE**: Talleres o clases. Ejecutar código es importante
--   **Streamlit**: Presentaciones personalizadas/experimentales
+-   🎤 **PowerPoint**: Presentación sin código de un solo uso
+-   📚 **Quarto**: Charlas a partir de documentos relacionados
+-   💻 **Streamlit**: Presentaciones interactivas (Python)
+-   🎨 **Más**: Canvas, Revealjs, Prezi
 :::
 
 ------------------------------------------------------------------------
@@ -645,7 +627,7 @@ st.markdown(
 ::: incremental
 -   **📖 Storytelling**: Narrativas que cautivan a través de datos.\
 -   **📊 Visualización**: Gráficos claros y atractivos.\
--   **🛠️ Herramientas**: Streamlit, Quarto, y Python para presentaciones interactivas.
+-   **🛠️ Herramientas**: Streamlit, Quarto, y más.
 :::
 
 ------------------------------------------------------------------------
