@@ -85,7 +85,7 @@ plt.show()
 
 <br>
 
-## ![](images/n04.png)
+![](images/n04.png)
 
 ## 🎓 Talleres {background-image="images/background.jpg" background-opacity="0.25"}
 

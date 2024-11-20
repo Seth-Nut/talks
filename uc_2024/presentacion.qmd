@@ -9,24 +9,21 @@ format:
     title-slide-attributes: 
       data-background-image: images/background.jpg
     logo: images/uc.png
-    
 ---
-
 
 ## 🔄 Aprender, Adaptar, Innovar {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.r-stack}
+::: r-stack
 <br>
 
-![](images/online.jpg){.fragment .fade-in-then-out  fig-align="left"}
+![](images/online.jpg){.fragment .fade-in-then-out fig-align="left"}
 
-![](images/techs.png){.fragment .fade-in-then-out  fig-align="center"}
+![](images/techs.png){.fragment .fade-in-then-out fig-align="center"}
 
-![](images/activa2.jpg){.fragment  fig-align="right"}
-
+![](images/activa2.jpg){.fragment fig-align="right"}
 :::
 
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -36,56 +33,50 @@ format:
 [Aplicaciones de la matemática en la ingeniería]{style="font-size: 2em"}
 :::
 
----
+------------------------------------------------------------------------
 
 ## Malla Curricular - ICMAT {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-::: {.r-stack}
+::: r-stack
 ![](images/malla_01.png){.fragment .fade-in-then-out width="100%" fig-align="left"}
 
 ![](images/mat281_2.png){.fragment width="90%" fig-align="center"}
 
-<div class="fragment" style="text-align: right; font-size: 0.8em; color: gray; margin-top: 30px;">
-  [🌐 Más detalles del curso MAT281](https://github.com/fralfaro/portfolio/blob/main/docs/files/teaching/mat281.pdf)
-</div>
-
+::: {.fragment style="text-align: right; font-size: 0.8em; color: gray; margin-top: 30px;"}
+[🌐 Más detalles del curso MAT281](https://github.com/fralfaro/portfolio/blob/main/docs/files/teaching/mat281.pdf)
+:::
 :::
 
-
----
+------------------------------------------------------------------------
 
 ## 📅 Historia del curso {background-image="images/background.jpg" background-opacity="0.25"}
 
-<img src="images/historia3.png" style="margin-left: 120px;">
+<img src="images/historia3.png" style="margin-left: 120px;"/>
 
----
+------------------------------------------------------------------------
 
-
-## MAT281 - Matemáticas Aplicadas {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+## MAT281 - Matemáticas Aplicadas {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
 ::: columns
-
 ::: {.column width="40%"}
-<div style="text-align: center;">
-  <img src="images/paper2.png" alt="Tachado" style="width: 100%; border-radius: 10px;">
-</div>
+::: {style="text-align: center;"}
+<img src="images/paper2.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
 :::
 
-::: {.column width="60%" .incremental}
-- 🎯 **Objetivo**: Desarrollar competencias como Data Scientist
-- 📚 **Requisitos**: Python y cursos básicos de matemáticas
-- 📝 **Contenidos**: Toolkit, Data Manipulation, Machine Learning
-- 📊 **Evaluaciones**: Laboratorios, Tareas, Proyecto
+::: {.column .incremental width="60%"}
+-   🎯 **Objetivo**: Desarrollar competencias como Data Scientist
+-   📚 **Requisitos**: Python y cursos básicos de matemáticas
+-   📝 **Contenidos**: Toolkit, Data Manipulation, Machine Learning
+-   📊 **Evaluaciones**: Laboratorios, Tareas, Proyecto
+:::
 :::
 
-:::
-
-. . . 
+. . .
 
 [🌐 Repositorio: github.com/fralfaro/MAT281_2024](https://github.com/fralfaro/MAT281_2024){style="font-size: 0.75em; color: gray align: center;"}
 
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -95,39 +86,37 @@ format:
 [Tecnologías y Aprendizajes]{style="font-size: 2em"}
 :::
 
----
+------------------------------------------------------------------------
 
-
-## Google Colab {background-image="images/background.jpg" background-opacity="0.25"} 
+## Google Colab {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="65%" .incremental}
+::: {.column .incremental width="65%"}
+<br>
+
+-   🖥️ Entorno en la nube (Python)
+-   📊 Ejecución de código interactivo
+-   🌐 Acceso desde internet
+:::
+
+::: {.column width="35%"}
+<img src="images/colab.png" alt="Tachado" style="width: 100%; align: center;"/>
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Google Colab {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-- 🖥️ Entorno en la nube (Python)
-- 📊 Ejecución de código interactivo
-- 🌐 Acceso desde internet
+<img src="images/colab2.png"/>
 
-:::
-::: {.column width="35%" }
- <img src="images/colab.png" alt="Tachado" style="width: 100%; align: center;">
-:::
-:::
-
----
-
-## Google Colab {background-image="images/background.jpg" background-opacity="0.25"} 
-
-<br>
-
- <img src="images/colab2.png" >
-
-. . . 
+. . .
 
 [🌐 Link: colab.research.google.com](https://colab.research.google.com){style="font-size: 0.75em; align: center;"}
 
----
+------------------------------------------------------------------------
 
 ## 📊 Ejemplo Python {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -141,7 +130,7 @@ mensaje = f"""
 print(mensaje)
 ```
 
----
+------------------------------------------------------------------------
 
 ## 📊 Ejemplo Python {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -155,7 +144,7 @@ plt.title('😊 ¿Te gusta la presentación hasta ahora? 😊')
 plt.show()
 ```
 
----
+------------------------------------------------------------------------
 
 ## 🎓 Más Herramientas {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -177,38 +166,30 @@ plt.show()
 
 [🌐 PyLatam 2022: Clases Interactivas con Google Colab, Mkdocs y Github Actions](https://www.youtube.com/watch?v=1a-3qqlMcQA){style="font-size: 0.75em; color: gray align: center;"}
 
+------------------------------------------------------------------------
 
----
-
-## Aprendizajes Claves {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+## Aprendizajes Claves {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
 ::: columns
-
-::: {.column width="40%" }
- <img src="images/learning.png" alt="Tachado" style="width: 100%; align: center;">
+::: {.column width="40%"}
+<img src="images/learning.png" alt="Tachado" style="width: 100%; align: center;"/>
 :::
 
-::: {.column width="60%"  .fragment}
-
+::: {.column .fragment width="60%"}
 <br><br>
 
-- **Motivación**: Fomentar interés.
-- **Activo**: Involucra a los estudiantes.
-- **Proyectos**: Problemas reales. 
-- **Constructivismo**: Experiencia.
-
-
+-   **Motivación**: Fomentar interés.
+-   **Activo**: Involucra a los estudiantes.
+-   **Proyectos**: Problemas reales.
+-   **Constructivismo**: Experiencia.
 :::
-
 :::
 
 . . .
 
-[📄 (C) How Learning Works  (Ambrose, 2010)](https://firstliteracy.org/wp-content/uploads/2015/07/How-Learning-Works.pdf){style="font-size: 0.75em; color: gray align: center;"}
+[📄 (C) How Learning Works (Ambrose, 2010)](https://firstliteracy.org/wp-content/uploads/2015/07/How-Learning-Works.pdf){style="font-size: 0.75em; color: gray align: center;"}
 
-
-
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -218,68 +199,60 @@ plt.show()
 [Innovación en la Enseñanza y Evaluación en MAT281]{style="font-size: 2em"}
 :::
 
----
+------------------------------------------------------------------------
 
-
-## P1: Google Colab {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+## P1: Google Colab {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
 ::: columns
-::: {.column width="40%" }
+::: {.column width="40%"}
 <br>
 
- <img src="images/p1.png"  alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;">
+<img src="images/p1.png" alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;"/>
 :::
 
-::: {.column width="60%" .fragment}
-
+::: {.column .fragment width="60%"}
 <br>
 
-- Acceso sin instalación
-- Interactivo y colaborativo
-- Aprendizaje activo
-
+-   Acceso sin instalación
+-   Interactivo y colaborativo
+-   Aprendizaje activo
 :::
 :::
 
----
+------------------------------------------------------------------------
 
-## P1: Google Colab {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+## P1: Google Colab {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-::: {.r-stack}
-![](images/numpy2.png){.fragment .fade-in-then-out  width="100%" fig-align="center"}
+::: r-stack
+![](images/numpy2.png){.fragment .fade-in-then-out width="100%" fig-align="center"}
 
 ![](images/colab_011.png){.fragment width="100%" fig-align="center"}
-
 :::
 
----
+------------------------------------------------------------------------
 
-## P2: Github {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+## P2: Github {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
 ::: columns
-::: {.column width="40%" }
+::: {.column width="40%"}
 <br>
 
-<img src="images/p22.jpg" alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;">
+<img src="images/p22.jpg" alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;"/>
 :::
 
-::: {.column width="60%" .fragment}
-
+::: {.column .fragment width="60%"}
 <br>
 
-- Control de versiones
-- Facilita Seguimiento
-- Plantilla inicial 
-- Primer portafolio
-
+-   Control de versiones
+-   Facilita Seguimiento
+-   Plantilla inicial
+-   Primer portafolio
 :::
 :::
 
----
+------------------------------------------------------------------------
 
-## P2: Github {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
-
-
+## P2: Github {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
 ::: columns
 ::: {.column width="50%"}
@@ -293,106 +266,89 @@ plt.show()
 :::
 :::
 
+------------------------------------------------------------------------
 
-
----
-
-
-## P3: Evaluaciones Innovadoras  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+## P3: Evaluaciones Innovadoras {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
 ::: columns
-::: {.column width="40%" }
- <img src="images/p4.png" alt="Tachado" style="width: 100%; align: center;">
+::: {.column width="40%"}
+<img src="images/p4.png" alt="Tachado" style="width: 100%; align: center;"/>
 :::
 
-::: {.column width="60%"  .fragment}
-
+::: {.column .fragment width="60%"}
 <br>
 
-- Evaluaciones prácticas
-- Enfoque en colaboración
-- Preparación mercado laboral
-
+-   Evaluaciones prácticas
+-   Enfoque en colaboración
+-   Preparación mercado laboral
 :::
 :::
 
----
+------------------------------------------------------------------------
 
-## P3: Evaluaciones Innovadoras {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+## P3: Evaluaciones Innovadoras {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-::: {.r-stack}
+::: r-stack
 ![](images/eval_01.png){.fragment .fade-in-then-out width="100%" fig-align="left"}
 
-![](images/evaluacion_01.png){.fragment .fade-in-then-out  fig-align="center"}
+![](images/evaluacion_01.png){.fragment .fade-in-then-out fig-align="center"}
 
-![](images/repos_01.png){.fragment  fig-align="right"}
-
-
+![](images/repos_01.png){.fragment fig-align="right"}
 :::
 
+------------------------------------------------------------------------
 
----
-
-
-## P4:Evaluación Externa  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+## P4:Evaluación Externa {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
 ::: columns
-::: {.column width="40%" }
- <img src="images/p3.png" alt="Tachado" style="width: 100%; align: center;">
+::: {.column width="40%"}
+<img src="images/p3.png" alt="Tachado" style="width: 100%; align: center;"/>
 :::
 
-::: {.column width="60%"  .fragment}
-
+::: {.column .fragment width="60%"}
 <br>
 
-- Feedback por pares
-- Evaluación de proyectos
-- Desarrolla habilidades blandas
-
+-   Feedback por pares
+-   Evaluación de proyectos
+-   Desarrolla habilidades blandas
 :::
 :::
 
----
+------------------------------------------------------------------------
 
-## P4:Evaluación Externa {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+## P4:Evaluación Externa {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-
-::: {.r-stack}
-![](images/proyectos_01.png){.fragment .fade-in-then-out  width="100%" fig-align="center"}
+::: r-stack
+![](images/proyectos_01.png){.fragment .fade-in-then-out width="100%" fig-align="center"}
 
 ![](images/proyectos_02.png){.fragment width="100%" fig-align="center"}
-
 :::
 
----
+------------------------------------------------------------------------
 
-## P5: Impacto Formación Profesional  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
+## P5: Impacto Formación Profesional {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
 ::: columns
-::: {.column width="40%" }
- <img src="images/p5.png" alt="Tachado" style="width: 100%; align: center;">
+::: {.column width="40%"}
+<img src="images/p5.png" alt="Tachado" style="width: 100%; align: center;"/>
 :::
 
-::: {.column width="60%"  .fragment}
-
+::: {.column .fragment width="60%"}
 <br>
 
-- Motivación por la programación
-- Preparación para prácticas
-- Memorías Innovadoras
-
+-   Motivación por la programación
+-   Preparación para prácticas
+-   Memorías Innovadoras
 :::
 :::
 
----
+------------------------------------------------------------------------
 
-## P5: Impacto Formación Profesional  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"} 
-
+## P5: Impacto Formación Profesional {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
 ![](images/memoria.png){width="90%" fig-align="center"}
 
-
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -402,29 +358,27 @@ plt.show()
 [Perspectiva de los Estudiantes del Curso MAT281]{style="font-size: 2em"}
 :::
 
----
+------------------------------------------------------------------------
 
 ## 👎 Comentarios Negativos {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: { .fragment}
-- ❌ "El profesor jamás respondió los correos cuando se le hacían dudas, lo que considero una enorme falta de respeto hacia los estudiantes."
-- 📉 "Nunca se entregaron calificaciones ni retroalimentación, así que nunca supe si estaba haciendo bien las cosas o no."
-- ❓ "El curso fue confuso en la manera de evaluar, me costó entender qué había que hacer en las evaluaciones y cuáles iban a ser las pruebas o tareas."
-::: 
+::: fragment
+-   ❌ "El profesor jamás respondió los correos cuando se le hacían dudas, lo que considero una enorme falta de respeto hacia los estudiantes."
+-   📉 "Nunca se entregaron calificaciones ni retroalimentación, así que nunca supe si estaba haciendo bien las cosas o no."
+-   ❓ "El curso fue confuso en la manera de evaluar, me costó entender qué había que hacer en las evaluaciones y cuáles iban a ser las pruebas o tareas."
+:::
 
-
----
+------------------------------------------------------------------------
 
 ## 👍 Comentarios Positivos {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: { .fragment}
-- ✅ "Buen profesor, con buena disposición para consultas. Es ordenado, presenta bien el contenido y llega bien al alumno."
-- 🌟 "El profesor explica muy bien, de una forma clara. Tiene muy buena disposición y transmite confianza."
-- 📚 "Es un curso muy bueno, ayuda a aprender mucho sobre el área de Data Science, las aplicaciones que tiene y las diferentes herramientas disponibles en Python."
-::: 
+::: fragment
+-   ✅ "Buen profesor, con buena disposición para consultas. Es ordenado, presenta bien el contenido y llega bien al alumno."
+-   🌟 "El profesor explica muy bien, de una forma clara. Tiene muy buena disposición y transmite confianza."
+-   📚 "Es un curso muy bueno, ayuda a aprender mucho sobre el área de Data Science, las aplicaciones que tiene y las diferentes herramientas disponibles en Python."
+:::
 
----
-
+------------------------------------------------------------------------
 
 ## Encuesta Docente {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -455,11 +409,12 @@ plt.legend()
 # Mostrar el gráfico
 plt.show()
 ```
-. . . 
 
-[(C)  La evaluó: contenidos, cercanía, y fomarlidades del curso.]{style="font-size: 0.7em; color: gray"} 
+. . .
 
----
+[(C) La evaluó: contenidos, cercanía, y fomarlidades del curso.]{style="font-size: 0.7em; color: gray"}
+
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -469,30 +424,29 @@ plt.show()
 [Resultados y Reflexiones del Curso MAT281]{style="font-size: 2em"}
 :::
 
----
-
+------------------------------------------------------------------------
 
 ## 🎓 Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-::: { .fragment}
- ✅ Google Colab tiene un impacto positivo
+::: fragment
+✅ Google Colab tiene un impacto positivo
 
- ✅ Aumenta motivación y participación
+✅ Aumenta motivación y participación
 
- ✅ Mejora la comprensión práctica
+✅ Mejora la comprensión práctica
 
- ✅ Flexibilidad en la enseñanza y aprendizaje remoto
-::: 
+✅ Flexibilidad en la enseñanza y aprendizaje remoto
+:::
 
----
+------------------------------------------------------------------------
 
 ## 🎓 Trabajos Futuros {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-::: { .fragment}
+::: fragment
 💡 Integrar tecnologías nuevas (IA)
 
 💡 Fomentar proyectos con la industria
@@ -500,16 +454,13 @@ plt.show()
 💡 Expandir la metodología a otros cursos
 
 💡 Implementar evaluaciones automatizadas
+:::
 
-::: 
-
----
-
+------------------------------------------------------------------------
 
 ## 🎉 Agradecimientos {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-:::: columns
+::: columns
 ::: {.column width="33%"}
 ![](images/seba_flores.jpg){fig-align="center" width="60%"}\
 **Sebastián Flores**
@@ -543,7 +494,7 @@ plt.show()
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ## 🎉 Agradecimientos {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -551,27 +502,24 @@ plt.show()
 
 ![](images/dmat.jpg){fig-align="center" width="100%"}
 
+------------------------------------------------------------------------
 
---- 
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-## 🎉 ¡Gracias por Participar!  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {.columns}
-:::: {.column width=50%}
+::: columns
+::: {.column width="50%"}
 <br>
 
 ❓¿Preguntas?
 
 👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLScS7eVbBPaKw6XhVonosCL_4nP4t9AbJAM03bdSfbsoSDFntg/viewform?usp=sf_link)
 
+🥳 Gracias de Nuevo
+:::
 
-🥳 Gracias de Nuevo 
-  
-::::
-:::: {.column width=50% align="center"}
-![](images/qr_uc.png){width=400}
-::::
+::: {.column width="50%" align="center"}
+![](images/qr_uc.png){width="400"}
+:::
 :::
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
