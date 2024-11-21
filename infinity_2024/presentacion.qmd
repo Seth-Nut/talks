@@ -10,57 +10,52 @@ format:
     title-slide-attributes: 
       data-background-image: images/background.jpg
     logo: images/logo_sn.png
-    
 ---
 
 ## Conjuntos de Números {background-image="images/background.jpg" background-opacity="0.25"}
-![](images/pa/num_01.png){width=300 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
+
+![](images/pa/num_01.png){width="300" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
 
 . . .
 
-![](images/pa/num_02.png){.absolute top=125 left=25 width=500 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![](images/pa/num_02.png){.absolute top="125" left="25" width="500" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
 . . .
 
-![](images/pa/num_03.png){.absolute top=180 left=50 width=700 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![](images/pa/num_03.png){.absolute top="180" left="50" width="700" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
 . . .
 
-![](images/pa/num_04.png){.absolute top=220 left=75 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![](images/pa/num_04.png){.absolute top="220" left="75" width="800" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
 . . .
 
-![](images/pa/num_05.png){.absolute top=250 left=95 width=900 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![](images/pa/num_05.png){.absolute top="250" left="95" width="900" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
-
-. . . 
+. . .
 
 <br><br><br><br><br><br><br>
 
-En **cantidad** de elementos: ¿| $\mathbb{N}| < |\mathbb{Z}| < |\mathbb{Q}|< |\mathbb{R}|<|\mathbb{C}|$ ? 
+En **cantidad** de elementos: ¿\| $\mathbb{N}| < |\mathbb{Z}| < |\mathbb{Q}|< |\mathbb{R}|<|\mathbb{C}|$ ?
 
-
----
+------------------------------------------------------------------------
 
 ## ¿Qué es el infinito? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="65%" .fragment}
+::: {.column .fragment width="65%"}
 <br>
 
-- El infinito es algo sin fin.
-- No es un número, sino una idea de continuidad ilimitada.
-
+-   El infinito es algo sin fin.
+-   No es un número, sino una idea de continuidad ilimitada.
 :::
-::: {.column width="35%" .fragment}
+
+::: {.column .fragment width="35%"}
 ![](images/infinito3.png){fig-align="center"}
 :::
 :::
 
-
----
-
-
+------------------------------------------------------------------------
 
 ## Historia {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -68,12 +63,11 @@ En **cantidad** de elementos: ¿| $\mathbb{N}| < |\mathbb{Z}| < |\mathbb{Q}|< |\
 
 ![](images/np_01.png){fig-align="center"}
 
-
----
+------------------------------------------------------------------------
 
 ## Gráficos {background-image="images/background.jpg" background-opacity="0.25"}
 
- ```{pyodide-python}
+```{pyodide-python}
 import numpy as np
 import matplotlib.pyplot as plt
 t = np.linspace(0, 2 * np.pi, 1000)
@@ -84,255 +78,219 @@ plt.plot(x, y, color='purple', lw=2, linestyle='-', label='Símbolo de Infinito 
 plt.title("Gráfico del Símbolo de Infinito Achato")
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.show()
- ```
+```
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [Infinito]{style="font-size: 1em"}
 
 [¿Qué es contar?]{style="font-size: 2em"}
-</div>
+:::
 
-
-
----
+------------------------------------------------------------------------
 
 ## Contar es ... {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="60%"}
+<br> N° elementos en un conjunto.
 
-<br>
-N° elementos en un conjunto.
-
-- Contar personas en una sala.
-- Contar números del 1 al 10.
-- Contar objetos en una canasta.
-
+-   Contar personas en una sala.
+-   Contar números del 1 al 10.
+-   Contar objetos en una canasta.
 :::
-::: {.column width="40%" .fragment}
+
+::: {.column .fragment width="40%"}
 ![](images/contar2.png){fig-align="center"}
 :::
 :::
 
-
-
---- 
+------------------------------------------------------------------------
 
 ## Fundamento en los Axiomas de Peano {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="60%"}
-
-1. **Primer Número**:  $0$ o $1$.
-2. **Sucesor**: $1 \rightarrow 2 \rightarrow 3 \rightarrow...$
-3. **Unicidad**: Cada número es único.
-4. **Inducción**:  Si un conjunto tiene 0 y sus sucesores, contiene a $\mathbb{N}$.
-
+1.  **Primer Número**: $0$ o $1$.
+2.  **Sucesor**: $1 \rightarrow 2 \rightarrow 3 \rightarrow...$
+3.  **Unicidad**: Cada número es único.
+4.  **Inducción**: Si un conjunto tiene 0 y sus sucesores, contiene a $\mathbb{N}$.
 :::
-::: {.column width="40%" .fragment}
+
+::: {.column .fragment width="40%"}
 ![](images/contar.png){fig-align="center"}
 :::
 :::
 
----
-
+------------------------------------------------------------------------
 
 ## Cardinalidad de un Conjunto {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-![](images/pa/img_01.png){width=700 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
-
-. . .
-
-![](images/pa/img_02.png){.absolute top=125 left=25 width=700 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![](images/pa/img_01.png){width="700" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
 
 . . .
 
-![](images/pa/img_03.png){.absolute top=180 left=50 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
-
+![](images/pa/img_02.png){.absolute top="125" left="25" width="700" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
 . . .
 
-![](images/pa/img_04.png){.absolute top=250 left=75 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![](images/pa/img_03.png){.absolute top="180" left="50" width="800" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
+. . .
 
+![](images/pa/img_04.png){.absolute top="250" left="75" width="800" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
----
+------------------------------------------------------------------------
 
 ## Cardinalidad de un Conjunto {background-image="images/background.jpg" background-opacity="0.25"}
 
 ![](images/pa/img_05.png){fig-align="center"}
 
-$|A|$: Contar **todos** los elementos de $A$ exactamente una vez.  
+$|A|$: Contar **todos** los elementos de $A$ exactamente una vez.
 
-
----
+------------------------------------------------------------------------
 
 ## Números Naturales {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: columns
-::: {.column width="60%" .incremental }
+::: {.column .incremental width="60%"}
 <br>
 
-* $\mathbb{N} = \{0,1,2,3,...\}$ son infinitos.
-* También son infinitos:
-  * Pares = $\{2,4,6,...\}$.
-  * Impares = $\{1,3,5,...\}$.
-  * Primos = $\{2,3,5,7,...\}$.
-
+-   $\mathbb{N} = \{0,1,2,3,...\}$ son infinitos.
+-   También son infinitos:
+    -   Pares = $\{2,4,6,...\}$.
+    -   Impares = $\{1,3,5,...\}$.
+    -   Primos = $\{2,3,5,7,...\}$.
 :::
 
-::: {.column width="40%" .fragment}
+::: {.column .fragment width="40%"}
 ![](images/pa/even.jpg){fig-align="center"}
 :::
 :::
 
-. . . 
+. . .
 
 [(C) Números Primos son infinitos, Demostración de Euclides.]{style="font-size: 0.75em; color: gray"}
 
-
----
+------------------------------------------------------------------------
 
 ## Números Enteros {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: columns
-::: {.column width="60%" .fragment}
+::: {.column .fragment width="60%"}
 <br>
 
-* $\mathbb{N} = \{0,1,2,3,...\}$
-* $\mathbb{Z} = \{0,-1,1,-2,2,-3,...\}$
-*  $\mathbb{N} \subsetneq  \mathbb{Z}$ ... ¿ $|\mathbb{N}| < |\mathbb{Z}|$ ? 
-
-:::
-::: {.column width="40%" .fragment}
-<br>
-![](images/pa/num_02.png){fig-align="center"}
-:::
+-   $\mathbb{N} = \{0,1,2,3,...\}$
+-   $\mathbb{Z} = \{0,-1,1,-2,2,-3,...\}$
+-   $\mathbb{N} \subsetneq  \mathbb{Z}$ ... ¿ $|\mathbb{N}| < |\mathbb{Z}|$ ?
 :::
 
----
+::: {.column .fragment width="40%"}
+<br> ![](images/pa/num_02.png){fig-align="center"}
+:::
+:::
+
+------------------------------------------------------------------------
 
 ## Contemos los números enteros {background-image="images/background.jpg" background-opacity="0.25"}
 
-:::{.center}
-![](images/pa/img_z1.png){width=500 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
+::: center
+![](images/pa/img_z1.png){width="500" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
 :::
 
 . . .
 
-:::{.center}
-![](images/pa/img_z2.png){.absolute top=125 left=25 width=500 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+::: center
+![](images/pa/img_z2.png){.absolute top="125" left="25" width="500" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 :::
 
 . . .
 
-:::{.center}
-![](images/pa/img_z3.png){.absolute top=175 left=50 width=500 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+::: center
+![](images/pa/img_z3.png){.absolute top="175" left="50" width="500" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 :::
 
 . . .
 
-:::{.center}
-![](images/pa/img_z4.png){.absolute top=200 left=75 width=500 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+::: center
+![](images/pa/img_z4.png){.absolute top="200" left="75" width="500" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 :::
-
 
 . . .
 
+::: {style="position: absolute; top: 70%; left: 90%; transform: translate(-50%, -50%);"}
+$\color{black}{\boxed{ |\mathbb{N}| = |\mathbb{Z}|  }}$
+:::
 
-
-<div style="position: absolute; top: 70%; left: 90%; transform: translate(-50%, -50%);">
-  $\color{black}{\boxed{ |\mathbb{N}| = |\mathbb{Z}|  }}$
-</div>
-
-
-
----
+------------------------------------------------------------------------
 
 ## Números Racionales {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: columns
-::: {.column width="60%" .fragment}
+::: {.column .fragment width="60%"}
 <br>
 
-* $\mathbb{Q} = \{ \dfrac{p}{q} | p,q \in \mathbb{Z}, q \neq 0 \}$
-*  $\mathbb{N} \subsetneq  \mathbb{Z} \subsetneq  \mathbb{Q}$ ... ¿ $|\mathbb{N}| < |\mathbb{Q}|$ ?
-
-:::
-::: {.column width="40%" .fragment}
-<br>
-![](images/pa/num_03.png){fig-align="center"}
-:::
+-   $\mathbb{Q} = \{ \dfrac{p}{q} | p,q \in \mathbb{Z}, q \neq 0 \}$
+-   $\mathbb{N} \subsetneq  \mathbb{Z} \subsetneq  \mathbb{Q}$ ... ¿ $|\mathbb{N}| < |\mathbb{Q}|$ ?
 :::
 
----
+::: {.column .fragment width="40%"}
+<br> ![](images/pa/num_03.png){fig-align="center"}
+:::
+:::
+
+------------------------------------------------------------------------
 
 ## Contemos los números racionales {background-image="images/background.jpg" background-opacity="0.25"}
 
-![](images/pa/racional_01.png){width=600 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
+![](images/pa/racional_01.png){width="600" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
 
 . . .
 
-![](images/pa/racional_02.png){.absolute top=125 left=25 width=600 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
-
-
+![](images/pa/racional_02.png){.absolute top="125" left="25" width="600" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
 . . .
 
-![](images/pa/racional_03.png){.absolute top=175 left=50 width=600 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![](images/pa/racional_03.png){.absolute top="175" left="50" width="600" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
-<div style="position: absolute; top: 70%; left: 90%; transform: translate(-50%, -50%);">
-  $\color{black}{\boxed{ |\mathbb{N}| \leq |\mathbb{Q_{+}}| \leq |\mathbb{N}| }}$
-</div>
+::: {style="position: absolute; top: 70%; left: 90%; transform: translate(-50%, -50%);"}
+$\color{black}{\boxed{ |\mathbb{N}| \leq |\mathbb{Q_{+}}| \leq |\mathbb{N}| }}$
+:::
 
 . . .
 
-::: {style="padding-left: 800px;" }
+::: {style="padding-left: 800px;"}
 $\color{black}{\boxed{ |\mathbb{N}| = |\mathbb{Z}| = |\mathbb{Q}| }}$
 :::
 
-
-
-
-
-
----
+------------------------------------------------------------------------
 
 ## Números Reales {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: columns
-::: {.column width="55%" .fragment}
+::: {.column .fragment width="55%"}
 <br>
 
-* $\mathbb{R} = \{ \sqrt{2}, \pi, \mathrm{e}, ...  \}$
-*  ¿ $|\mathbb{N}| < |\mathbb{R}|$ ?
-
-:::
-::: {.column width="45%" .fragment}
-<br>
-![](images/pa/num_04.png){fig-align="center"}
-:::
+-   $\mathbb{R} = \{ \sqrt{2}, \pi, \mathrm{e}, ...  \}$
+-   ¿ $|\mathbb{N}| < |\mathbb{R}|$ ?
 :::
 
----
+::: {.column .fragment width="45%"}
+<br> ![](images/pa/num_04.png){fig-align="center"}
+:::
+:::
+
+------------------------------------------------------------------------
 
 ## Números Reales {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: columns
-
-::: {.column width="50%" .fragment}
+::: {.column .fragment width="50%"}
 ![](images/cantor.jpg){fig-align="center" width="60%"}
 :::
 
-::: {.column width="50%" .fragment}
+::: {.column .fragment width="50%"}
 <br>
 
 En 1891, Cantor probó que es imposible enumerar todos los números reales en $(0,1)$.
@@ -340,157 +298,136 @@ En 1891, Cantor probó que es imposible enumerar todos los números reales en $(
 <br>
 
 $\color{black}{\boxed{\aleph_1 = |\mathbb{R}| > |\mathbb{N}| = |\mathbb{Z}| = |\mathbb{Q}| = \aleph_0}}$
-
+:::
 :::
 
-:::
-
-
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [Infinito]{style="font-size: 1em"}
 
 [Hotel de Hilbert]{style="font-size: 2em"}
-</div>
+:::
 
----
+------------------------------------------------------------------------
 
 ## El Hotel de Hilbert {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
-
-
-::: {.column width="50%" .fragment}
-
+::: {.column .fragment width="50%"}
 <br>
 
-1. **Hotel infinito**: Siempre hay espacio para más.
-2. **Truco**: Mueve cada huésped adelante.
-3. **Lección**: El infinito desafía la intuición.
-
+1.  **Hotel infinito**: Siempre hay espacio para más.
+2.  **Truco**: Mueve cada huésped adelante.
+3.  **Lección**: El infinito desafía la intuición.
 :::
 
-::: {.column width="50%" .fragment}
+::: {.column .fragment width="50%"}
 ![](images/hotel/hilbert_03.png){fig-align="center" width="80%"}
 :::
-
-
 :::
 
 ## 🐶 Bienvenidos al Hotel de Vale {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
-::: {.column width="50%" .fragment}
+::: {.column .fragment width="50%"}
 ![](images/hotel/hotel2.png){fig-align="center" width="80%"}
 :::
 
-::: {.column width="50%" .fragment}
-
-<br>
-Un lugar mágico con **infinitas habitaciones** para perritos, donde cada uno tiene su espacio y siempre son bienvenidos.
+::: {.column .fragment width="50%"}
+<br> Un lugar mágico con **infinitas habitaciones** para perritos, donde cada uno tiene su espacio y siempre son bienvenidos.
 :::
 :::
 
 . . .
 
-> ✨ !Siempre hay espacio para uno más! 
+> ✨ !Siempre hay espacio para uno más!
 
-
-
----
+------------------------------------------------------------------------
 
 ## Caso 1: Llega un Nuevo Perrito {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-::: {.incremental}
-- El hotel está completo, cada habitación tiene un perrito. 
-- Llega un Nuevo Perrito  ... ¿Qué hacemos?
+::: incremental
+-   El hotel está completo, cada habitación tiene un perrito.
+-   Llega un Nuevo Perrito ... ¿Qué hacemos?
 :::
 
 ::: {.center .fragment}
 ![](images/hotel/caso_01.png){fig-align="center" width="80%"}
 :::
 
----
+------------------------------------------------------------------------
 
 ## Caso 2: Infinitos Perritos {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.incremental}
-- El hotel está completo, cada habitación tiene un perrito. 
-- Llega un bus con infinitos perritos ... ¿Qué hacemos?
+::: incremental
+-   El hotel está completo, cada habitación tiene un perrito.
+-   Llega un bus con infinitos perritos ... ¿Qué hacemos?
 :::
 
 ::: {.center .fragment}
 ![](images/hotel/caso_02.png){fig-align="center" width="80%"}
 :::
 
-
----
+------------------------------------------------------------------------
 
 ## Caso 3: Infinitos Buses y Perritos {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.incremental}
-- El hotel está completo, cada habitación tiene un perrito. 
-- Llegan inifinitos buses con infinitos perritos ... ¿Qué hacemos?
+::: incremental
+-   El hotel está completo, cada habitación tiene un perrito.
+-   Llegan inifinitos buses con infinitos perritos ... ¿Qué hacemos?
 :::
 
 ::: {.center .fragment}
 ![](images/hotel/caso_03.png){fig-align="center" width="80%"}
 :::
 
-
----
+------------------------------------------------------------------------
 
 ## Caso 3: Infinitos Buses y Perritos {background-image="images/background.jpg" background-opacity="0.25"}
 
-![](images/hotel/caso_031.png){width=350 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
+![](images/hotel/caso_031.png){width="350" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
 
 . . .
 
-![](images/hotel/caso_032.png){.absolute top=125 left=25 width=350 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![](images/hotel/caso_032.png){.absolute top="125" left="25" width="350" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
 . . .
 
-![](images/hotel/caso_033.png){.absolute top=175 left=50 width=390 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![](images/hotel/caso_033.png){.absolute top="175" left="50" width="390" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
----
+------------------------------------------------------------------------
 
 ## Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-::: { .incremental }
-
-* **🌌 El $\infty$**: Conceptos que desafían la intuición.
-* **📏 Cardinalidad**: Diferentes tamaños de infinito.
-* **🐶 Hotel de Perritos**: Infinito de forma entretenida.
-
+::: incremental
+-   **🌌 El** $\infty$: Conceptos que desafían la intuición.
+-   **📏 Cardinalidad**: Diferentes tamaños de infinito.
+-   **🐶 Hotel de Perritos**: Infinito de forma entretenida.
 :::
 
----
+------------------------------------------------------------------------
 
-## 🎉 ¡Gracias por Participar!  {background-image="images/background.jpg" background-opacity="0.25"}
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.columns}
-:::: {.column width=50%}
+::: columns
+::: {.column width="50%"}
 <br>
 
 ❓¿Preguntas?
 
 👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSdvkmAfsYiiuVhJdjyWSgH3cr-8jZwWYMHWGsVBPG6NcvBd-A/viewform?usp=sf_link)
 
+🥳 Gracias de Nuevo
+:::
 
-🥳 Gracias de Nuevo 
-  
-::::
-:::: {.column width=50% align="center"}
-![](images/survey/QR_code_english.png){width=400}
-::::
+::: {.column width="50%" align="center"}
+![](images/survey/QR_code_english.png){width="400"}
+:::
 :::
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).

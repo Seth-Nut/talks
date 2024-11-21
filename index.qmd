@@ -7,21 +7,20 @@ output: html_document
 
 ¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con [Quarto](https://quarto.org/), una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.
 
-
 ¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!
 
-- 🎤 [Uso de Quarto para crear clases interactivas](latinr_2024/presentacion.html) - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.
+-   🎤 [Uso de Quarto para crear clases interactivas](latinr_2024/presentacion.html) - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.
 
-- 🎤 [Crea, Innova y Presenta: Data Storytelling con A.I.](visualization_2024/presentacion.html) - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.
+-   🎤 [Crea, Innova y Presenta: Data Storytelling con A.I.](visualization_2024/presentacion.html) - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.
 
-- 🎤 [Más allá del Infinito](infinity_2024/presentacion.html) - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.
+-   🎤 [Más allá del Infinito](infinity_2024/presentacion.html) - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.
 
-- 🎤 [De los Números a la Narrativa](narrativas_2024/presentacion.html) - Este taller profundiza en cómo transformar datos en visualizaciones impactantes, utilizando Python y herramientas de visualización para contar historias claras y persuasivas.
+-   🎤 [De los Números a la Narrativa](narrativas_2024/presentacion.html) - Este taller profundiza en cómo transformar datos en visualizaciones impactantes, utilizando Python y herramientas de visualización para contar historias claras y persuasivas.
 
-- 🎤 [Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero](computacion_2024/presentacion.html) - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.
+-   🎤 [Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero](computacion_2024/presentacion.html) - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.
 
-- 🎤 [Innovación en MAT281: Colab y Evaluaciones Dinámicas](uc_2024/presentacion.html) - Descubre cómo Google Colab y nuevas evaluaciones transformaron el curso MAT281, mejorando el acceso y la motivación de los estudiantes a través de un enfoque dinámico y colaborativo.
+-   🎤 [Innovación en MAT281: Colab y Evaluaciones Dinámicas](uc_2024/presentacion.html) - Descubre cómo Google Colab y nuevas evaluaciones transformaron el curso MAT281, mejorando el acceso y la motivación de los estudiantes a través de un enfoque dinámico y colaborativo.
 
+-   🎤 [Inteligencia Artificial en la Educación](mads_2024/presentacion.html) - Aprende cómo la Inteligencia Artificial está transformando el aprendizaje, desde la personalización de contenidos hasta el análisis de datos educativos. Esta presentación explora aplicaciones prácticas de la IA en la enseñanza para crear experiencias más enriquecedoras y adaptativas.
 
 ¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊
-

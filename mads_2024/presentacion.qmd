@@ -1,0 +1,368 @@
+---
+title: "Inteligencia Artificial en la Educación"
+author: 
+- Francisco Alfaro
+- Valeska Canales
+date: 21 Nov 2024
+format: 
+  revealjs:
+    transition: slide
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    slide-attributes:
+      data-background-image: images/background.jpg
+    logo: images/logo_sn.png
+---
+
+## 🔄 Aprender, Adaptar, Innovar {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/online.jpg){.fragment .fade-in-then-out fig-align="left"}
+
+![](images/techs.png){.fragment .fade-in-then-out fig-align="center"}
+
+![](images/activa2.jpg){.fragment fig-align="right"}
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Seth&Nut]{style="font-size: 1em"}
+
+[Programación y Matemáticas al Alcance de Todos]{style="font-size: 2em"}
+:::
+
+------------------------------------------------------------------------
+
+## 💼 Seth & Nut {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .incremental width="65%"}
+<br>
+
+-   🎓 Charlas y Talleres
+-   📚 Mini Cursos
+-   🌟  Capacitaciones
+:::
+
+::: {.column width="35%"}
+<img src="images/logo_sn.png" alt="Tachado" style="width: 100%; align: center;"/>
+:::
+:::
+
+. . .
+
+> 🔗 Nuestro Sitio Web: [https://seth-nut.github.io/website/](https://seth-nut.github.io/website/).
+
+
+------------------------------------------------------------------------
+
+## 💻 Fundadores {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/fran_02.png){fig-align="center" width="60%"}\
+*👨‍💻 Francisco Alfaro*
+:::
+
+::: {.column .fragment width="50%"}
+![](images/vale_03.png){fig-align="center" width="61%"}\
+*👩‍💻 Valeska Canales*
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Inteligencia Aritifical]{style="font-size: 1em"}
+
+[¿ Qué hacemos  con la Inteligencia Artificial?]{style="font-size: 2em"}
+:::
+
+
+------------------------------------------------------------------------
+
+## Quarto {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="60%"}
+<br>
+
+Un sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R).
+:::
+
+::: {.column width="40%"}
+![](images/quarto2.png)
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+[Código: example.qmd]{style="font-size: 0.5em; color: gray"}
+
+```         
+---
+title: "Habits"
+author: "John Doe"
+format:
+  revealjs:
+    transition: fade
+    theme: black
+    toc: true
+    center: true
+---
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+---
+
+## Going to sleep 
+::: { .incremental }
+
+- Get in bed
+- Count sheep
+
+:::
+```
+:::
+
+::: {.column width="60%"}
+[Slides: example.html]{style="font-size: 0.5em; color: gray"}
+
+```{=html}
+<iframe width=600 height=400 src="images/quarto_min.html"></iframe>
+```
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 📊 Interactividad con Quarto {background-image="images/background.jpg" background-opacity="0.25"}
+
+```{pyodide-python}
+import matplotlib.pyplot as plt
+categorias = ['Sí', 'No']
+valores = [20, 10]
+plt.figure(figsize=(5, 3))
+plt.bar(categorias, valores, color=['lightblue', 'salmon'])
+plt.title('😊 ¿Te gusta la presentación hasta ahora? 😊')
+plt.show()
+```
+
+------------------------------------------------------------------------
+
+## 🎓 Talleres {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column width="50%" align="center"}
+![](images/pyschool.png){width="250"}\
+[🐍 PySchool Chile](https://fralfaro.github.io/pyschool_content)
+:::
+
+::: {.column width="50%" align="center"}
+![](images/dmat.jpg){width="350"}\
+[🔢 Olimpiadas USM 2024](https://fralfaro.github.io/DMAT-SJ-Olimpiadas)
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="60%"}
+<br><br> Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python.
+:::
+
+::: {.column width="40%"}
+<br> ![](./images/streamlit.png)
+:::
+:::
+
+
+
+------------------------------------------------------------------------
+
+## Streamlit: Ejemplo {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+``` python
+import streamlit as st
+
+# Título principal de la aplicación
+st.title("Hola Streamlit")
+
+# Mensaje principal con nombres y emoticón fijos
+mensaje = "Darwin y Patricia son mejores amigos 😊"
+st.write(mensaje)
+
+# Imagen decorativa
+st.image(
+    "https://www.svgrepo.com/show/397758/people-hugging.svg",
+    caption="Amigos",
+    width=200  # Ajuste del tamaño de la imagen
+)
+
+# Footer
+st.markdown(
+    """
+    ---
+    Gracias por usar esta aplicación interactiva 🎈
+    """
+)
+```
+:::
+
+::: {.column .fragment width="50%"}
+![](images/streamlit_example.png){fig-align="center" width="85%"}
+:::
+:::
+
+. . .
+
+::: {style="text-align: center; margin-top: -30px;"}
+[(C) Ejemplo en Streamlit - Playground.](https://streamlit.io/playground?example=geospatial&code=H4sIAAAAAAAAA4VTPY8TMRDt91eMTJOTLsldEDpASnECHTR8SKFDKJo4cxsHr23Z3ts7TunRCfHR0aA0dIgCISH6_BP-APkJjHc3JCcKtpnZGb_n52ePKpz1EUL0hIVWETDwT5bdgGerr7HUFpxXRiqHGqYEGgGdVhKlWn03WYi9qKKmjnhouTXasIi9xDBSU5qgB2kNY4P0ytUwuADLmTUUEie3T1Ve-i1naIAb7iftYmbdaVZeRW7e26CBNBRkAs5pR_NFKlNho5JM3muEbQiBTGq3jOCQWRz5YA1q9YorW8rM2GLi6RCGsCuQzuNYGVfGjnhcL4BDsQ_iPvpKGd6sQQ3-ixok1FOMXkmFjGsUs2_XgIE0yTix5x0xSmk6BUJptgdkmudivfx4lfh-ffr8--e7lK2XH7408c2yie9_iBe1F4_-sYxNqa_ZZRs7h3AqLlsDFmxpmw8WwFaxQ3Pr2UwsVG4DXG60L0S6ruaaWqZ6x-PcU87mlqxdFZhTeh3SeozqDBOkLnYy4E_MYnThbr9fVVUvnDHS2Z60RT_MbNW_eefo6NbtviPrNHVnZZ4rk6dlYr9GS3SRLRqK41paWy0DjaXVZWHGlZrG2fAEdaCm1xQGBwcALHRehkgsTkPEAlffbDsCjeqsPs2JtZF8kl2gfzm1lWmVC1HHbrdbxwfpffNw8bixgvS2Qrw2TKAME6FMLsB6-fb1X5q97A_oi2bFpgMAAA){style="font-size: 0.75em; color: gray"}
+:::
+
+------------------------------------------------------------------------
+
+### Streamlit: Ejemplo
+
+<img src="./images/Streamlit-Prophet.gif" style="width:50%;"/>
+
+
+------------------------------------------------------------------------
+
+## 🚀 Aplicaciones {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column width="50%" align="center"}
+![](images/st_01.png){width="90%"}\
+[🍰 ¿Qué voy a comer hoy?](https://recetas-ai.streamlit.app/)
+:::
+
+::: {.column width="50%" align="center"}
+![](images/st_02.png){width="100%"}\
+[⚖️ Ley Protección de Datos](https://leyes-datos-chile.streamlit.app/)
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+## Usar chatbots de IA para: {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="65%"}
+<br>
+
+-   Plantillas personalizadas a medida
+-   Automatizar estructura del contenido
+-   Ahorro de tiempo en diseño
+-   Adaptación al estilo y preferencias
+:::
+
+::: {.column  width="35%"}
+![](images/template.png){fig-align="center"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Usar chatbots de IA para: {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br>
+
+-   Analogías y ejemplos
+-   Mejores traducciones
+-   Prompts para crear imágenes
+-   No busques imágenes, créalas!
+:::
+
+::: {.column  width="40%"}
+![](images/choice.jpeg){fig-align="center"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Conclusiones]{style="font-size: 1em"}
+
+[Aprendizajes de la Charla]{style="font-size: 2em"}
+:::
+
+------------------------------------------------------------------------
+
+
+## 💡 Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column .fragment width="65%"}
+<br>
+
+✅ **Aprendizaje Personalizado**.  
+
+✅ **Herramientas Dinámicas**.  
+
+✅ **Eficiencia en Acción**.  
+
+✅ **Innovación Inspiradora**.  
+:::
+
+::: {.column width="35%"}
+<img src="images/pencil2.png" alt="Tachado" style="width: 100%; align: center;"/>
+:::
+:::
+
+
+
+
+
+------------------------------------------------------------------------
+
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓¿Preguntas?
+
+👏 Responder [encuesta](https://forms.gle/Z6K2PqTEQniK9XdAA)
+
+🥳 Difrutar del Evento!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr_mads.png){width="400"}
+:::
+:::
+
+> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).

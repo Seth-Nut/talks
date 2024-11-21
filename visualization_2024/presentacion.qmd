@@ -468,7 +468,7 @@ Opción 2: Una agenda misteriosa.
 
 ::: columns
 ::: {.column width="60%"}
-<br> 
+<br>
 
 Un sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R).
 :::
@@ -525,7 +525,6 @@ format:
 :::
 
 ------------------------------------------------------------------------
-
 
 ## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
 
