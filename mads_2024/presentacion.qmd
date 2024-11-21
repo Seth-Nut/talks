@@ -56,7 +56,7 @@ format:
 
 . . .
 
-> 🔗 Nuestro Sitio Web: [https://seth-nut.github.io/website/](https://seth-nut.github.io/website/).
+> 🔗 Nuestro Sitio Web: [https://seth-nut.github.io/website/](https://seth-nut.github.io/website/)
 
 
 ------------------------------------------------------------------------
@@ -308,6 +308,19 @@ st.markdown(
 
 ------------------------------------------------------------------------
 
+## Material de Apoyo {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {width="55%" align="center"}
+![](./images/chat.jpg){width="80%"}
+:::
+
+. . .
+
+> 🔗 Charla: [Prompts Perfectos, Respuestas Poderosas](https://github.com/Seth-Nut/resources/blob/main/files/2024_09_13_chatgpt.pdf){style="font-size: 0.85em"}
+
+------------------------------------------------------------------------
+
+
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
@@ -365,4 +378,4 @@ st.markdown(
 :::
 :::
 
-> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
+> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
