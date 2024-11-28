@@ -24,9 +24,7 @@ format:
 ![](images/intro_012.jpg){.fragment .fade-in-then-out fig-align="center"}
 
 ![](images/intro_01.png){.fragment fig-align="right"}
-
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -37,7 +35,6 @@ format:
 
 [Reflexiona y planifica desde el inicio de tu carrera]{style="font-size: 2em"}
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -56,9 +53,25 @@ format:
 :::
 :::
 
-
 ------------------------------------------------------------------------
 
+## 💼 Autoconocimiento y Planificación {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/roles_01.png){.fragment .fade-in-then-out fig-align="left"}
+
+![](images/roles_02.png){.fragment  fig-align="center"}
+
+:::
+
+. . . 
+
+> 🔗 Link: <https://www.duoc.cl/carreras/ingenieria-informatica/>{style="font-size: 0.7em"}
+
+
+------------------------------------------------------------------------
 
 ## 💼 Aprovecha los Recursos {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -77,6 +90,23 @@ format:
 
 ------------------------------------------------------------------------
 
+## 💼 Aprovecha los Recursos {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/cv_01.png){fig-align="center" width="60%"}\
+*[Portafolio - Github](https://github.com/)*
+:::
+
+::: {.column .fragment width="50%"}
+![](images/cv_02.jpg){fig-align="center" width="61%"}\
+*[Curriculum - Overleaf](https://www.overleaf.com/)*
+:::
+:::
+
+------------------------------------------------------------------------
 
 ## 💼 Networking y Marca Personal {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -93,6 +123,18 @@ format:
 :::
 :::
 
+------------------------------------------------------------------------
+
+## 💼 Networking y Marca Personal {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: r-stack
+![](images/linkedin_01.jpg){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/linkedin_03.png){.fragment  fig-align="center"}
+
+:::
 
 ------------------------------------------------------------------------
 
@@ -104,22 +146,17 @@ format:
 [Desarrolla competencias clave]{style="font-size: 2em"}
 :::
 
-
-
 ------------------------------------------------------------------------
-
 
 ## 🚀 Habilidades Blandas (Soft Skills) {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="65%"}
-
 <br>
 
 -   Resolución de problemas
 -   Comunicación efectiva
 -   Adaptabilidad
-
 :::
 
 ::: {.column width="35%"}
@@ -129,12 +166,30 @@ format:
 
 ------------------------------------------------------------------------
 
+## 🚀 Habilidades Blandas (Soft Skills) {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
+![](images/os_022.png){fig-align="center" width="100%"}
+[JS Chile]()
+
+![](images/os_01.jpg){fig-align="center" width="100%"}
+[Python Chile]()
+
+![](images/os_03.png){ fig-align="center" width="100%"}
+[AWS Chile](){align="center"}
+
+![](images/os_04.png){ fig-align="center" width="100%"}
+[Google Chile]()
+:::
+
+------------------------------------------------------------------------
 
 ## 🚀 Habilidades Técnicas (Hard Skills) {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="65%"}
-
 <br>
 
 -   Aprende herramientas y tecnologías clave en tu campo.
@@ -148,6 +203,25 @@ format:
 
 ------------------------------------------------------------------------
 
+## 🚀 Habilidades Técnicas (Hard Skills) {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+![](images/mooc_01.png){fig-align="center" width="100%"}
+[Coursera]()
+
+![](images/mooc_022.png){fig-align="center" width="100%"}
+[Udemy]()
+
+![](images/mooc_03.png){ fig-align="center" width="100%"}
+[Cloud](){align="center"}
+
+
+:::
+
+------------------------------------------------------------------------
+
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
@@ -156,14 +230,12 @@ format:
 [Prepárate para el mundo laboral]{style="font-size: 2em"}
 :::
 
-
 ------------------------------------------------------------------------
 
-## 💻  Entrevistas de Trabajo {background-image="images/background.jpg" background-opacity="0.25"}
+## 💻 Entrevistas de Trabajo {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="65%"}
-
 <br>
 
 -   Asiste a ferias para conocer empresas y generar contactos valiosos.
@@ -181,7 +253,6 @@ format:
 
 ::: columns
 ::: {.column width="65%"}
-
 <br>
 
 -   Analiza la misión, visión y cultura de las empresas de tu interés.
@@ -199,7 +270,6 @@ format:
 
 ::: columns
 ::: {.column width="65%"}
-
 <br>
 
 -   Busca cursos, lecturas y experiencias que te mantengan actualizado.
@@ -217,7 +287,6 @@ format:
 
 ::: columns
 ::: {.column width="65%"}
-
 <br>
 
 -   Aprende sobre ahorro y presupuesto desde temprano.
@@ -235,13 +304,11 @@ format:
 
 ::: columns
 ::: {.column width="65%"}
-
 <br>
 
 -   Investiga salarios del mercado
 -   Identifica tus fortalezas
 -   Prepárate para negociar
-
 :::
 
 ::: {.column width="35%"}
@@ -249,9 +316,7 @@ format:
 :::
 :::
 
-
 ------------------------------------------------------------------------
-
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
