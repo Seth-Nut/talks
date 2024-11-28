@@ -23,4 +23,8 @@ output: html_document
 
 -   🎤 [Inteligencia Artificial en la Educación](mads_2024/presentacion.html) - Aprende cómo la Inteligencia Artificial está transformando el aprendizaje, desde la personalización de contenidos hasta el análisis de datos educativos. Esta presentación explora aplicaciones prácticas de la IA en la enseñanza para crear experiencias más enriquecedoras y adaptativas.
 
+- 🎤 [¿Y Ahora Qué? Del Aula al Trabajo](profesional_2024/presentacion.html) - Descubre cómo prepararte para el mundo laboral al finalizar tus estudios. Esta charla aborda habilidades clave, herramientas prácticas y estrategias para destacarte en tu transición profesional y adaptarte a un entorno laboral competitivo.
+
+
+
 ¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊
