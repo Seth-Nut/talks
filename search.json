@@ -469,235 +469,74 @@
     "text": "🎓 Conclusión\n\n\nMatplotlib para gráficos básicos.\nSeaborn para gráficos avanzados.\nStreamlit para aplicaciones interactivas."
   },
   {
-    "objectID": "uc_2024/presentacion.html#aprender-adaptar-innovar",
-    "href": "uc_2024/presentacion.html#aprender-adaptar-innovar",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🔄 Aprender, Adaptar, Innovar",
-    "text": "🔄 Aprender, Adaptar, Innovar"
+    "objectID": "latinr_2024/presentacion.html#innovar-en-la-enseñanza",
+    "href": "latinr_2024/presentacion.html#innovar-en-la-enseñanza",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "💡 Innovar en la Enseñanza",
+    "text": "💡 Innovar en la Enseñanza\n\n\n\n\n\n\nCaptar atención activa.\nAdaptarse al mundo digital.\nQuarto permite crear contenidos interactivos."
   },
   {
-    "objectID": "uc_2024/presentacion.html#section",
-    "href": "uc_2024/presentacion.html#section",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "",
-    "text": "Curso MAT281\nAplicaciones de la matemática en la ingeniería"
+    "objectID": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
+    "href": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🌐 Quarto WebR y Quarto Pyodide",
+    "text": "🌐 Quarto WebR y Quarto Pyodide\n\nWebR: Ejecuta código R en el navegador, sin instalaciones.\n# Para instalar WebR en tu entorno\nremotes::install_github(\"attiyap/WebR\")\nPyodide : Idem pero para Python.\n# Para instalar Pyodide\npip install pyodide"
   },
   {
-    "objectID": "uc_2024/presentacion.html#malla-curricular---icmat",
-    "href": "uc_2024/presentacion.html#malla-curricular---icmat",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "Malla Curricular - ICMAT",
-    "text": "Malla Curricular - ICMAT\n\n\n\n\n\n\n\n\n\n\n\n\n🌐 Más detalles del curso MAT281"
+    "objectID": "latinr_2024/presentacion.html#ejemplo-r",
+    "href": "latinr_2024/presentacion.html#ejemplo-r",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "📊 Ejemplo R",
+    "text": "📊 Ejemplo R\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "uc_2024/presentacion.html#mat281---matemáticas-aplicadas",
-    "href": "uc_2024/presentacion.html#mat281---matemáticas-aplicadas",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "MAT281 - Matemáticas Aplicadas",
-    "text": "MAT281 - Matemáticas Aplicadas\n\n\n\n\n\n\n\n🎯 Objetivo: Desarrollar competencias como Data Scientist\n📚 Requisitos: Python y cursos básicos de matemáticas\n📝 Contenidos: Toolkit, Data Manipulation, Machine Learning\n📊 Evaluaciones: Laboratorios, Tareas, Proyecto\n\n\n\n🌐 Repositorio: github.com/fralfaro/MAT281_2024"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#historia-del-curso",
-    "href": "uc_2024/presentacion.html#historia-del-curso",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "📅 Historia del curso",
-    "text": "📅 Historia del curso"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#section-1",
-    "href": "uc_2024/presentacion.html#section-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "",
-    "text": "Conceptos Claves\nTecnologías y Aprendizajes"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#google-colab",
-    "href": "uc_2024/presentacion.html#google-colab",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "Google Colab",
-    "text": "Google Colab\n\n\n\n\n🖥️ Entorno en la nube (Python)\n📊 Ejecución de código interactivo\n🌐 Acceso desde internet"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#google-colab-1",
-    "href": "uc_2024/presentacion.html#google-colab-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "Google Colab",
-    "text": "Google Colab\n\n\n\n🌐 Link: colab.research.google.com"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#ejemplo-python",
-    "href": "uc_2024/presentacion.html#ejemplo-python",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "objectID": "latinr_2024/presentacion.html#ejemplo-python",
+    "href": "latinr_2024/presentacion.html#ejemplo-python",
+    "title": "Uso de Quarto para crear clases interactivas",
     "section": "📊 Ejemplo Python",
     "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "uc_2024/presentacion.html#ejemplo-python-1",
-    "href": "uc_2024/presentacion.html#ejemplo-python-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "📊 Ejemplo Python",
-    "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "objectID": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
+    "href": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🎓 Quarto y la Enseñanza",
+    "text": "🎓 Quarto y la Enseñanza"
   },
   {
-    "objectID": "uc_2024/presentacion.html#más-herramientas",
-    "href": "uc_2024/presentacion.html#más-herramientas",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🎓 Más Herramientas",
-    "text": "🎓 Más Herramientas\n\n\n\n\nGithub versionar código\n\n\nMkdocs publicar sitios\n\n\n🌐 PyLatam 2022: Clases Interactivas con Google Colab, Mkdocs y Github Actions"
+    "objectID": "latinr_2024/presentacion.html#implementación",
+    "href": "latinr_2024/presentacion.html#implementación",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🛠️ Implementación",
+    "text": "🛠️ Implementación"
   },
   {
-    "objectID": "uc_2024/presentacion.html#aprendizajes-claves",
-    "href": "uc_2024/presentacion.html#aprendizajes-claves",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "Aprendizajes Claves",
-    "text": "Aprendizajes Claves\n\n\n\n\n\n\nMotivación: Fomentar interés.\nActivo: Involucra a los estudiantes.\nProyectos: Problemas reales.\nConstructivismo: Experiencia.\n\n\n\n📄 (C) How Learning Works (Ambrose, 2010)"
+    "objectID": "latinr_2024/presentacion.html#talleres",
+    "href": "latinr_2024/presentacion.html#talleres",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "🎓 Talleres",
+    "text": "🎓 Talleres\n\n\n\n\n🐍 PySchool Chile\n\n\n🔢 Olimpiadas USM 2024"
   },
   {
-    "objectID": "uc_2024/presentacion.html#section-2",
-    "href": "uc_2024/presentacion.html#section-2",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "",
-    "text": "Innovación Educativa\nInnovación en la Enseñanza y Evaluación en MAT281"
+    "objectID": "latinr_2024/presentacion.html#resultados",
+    "href": "latinr_2024/presentacion.html#resultados",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "📊 Resultados",
+    "text": "📊 Resultados\nEncuestas sobre el taller:\n\nSatisfacción general alta, con un promedio cercano a 9.\nDestacaron el uso de las herramientas interactivas."
   },
   {
-    "objectID": "uc_2024/presentacion.html#p1-google-colab",
-    "href": "uc_2024/presentacion.html#p1-google-colab",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P1: Google Colab",
-    "text": "P1: Google Colab\n\n\n\n\n\n\n\nAcceso sin instalación\nInteractivo y colaborativo\nAprendizaje activo"
+    "objectID": "latinr_2024/presentacion.html#recursos-adicionales",
+    "href": "latinr_2024/presentacion.html#recursos-adicionales",
+    "title": "Uso de Quarto para crear clases interactivas",
+    "section": "📚 Recursos Adicionales",
+    "text": "📚 Recursos Adicionales\n\n\n🌐 Remasterización del libro: “R for Data Science”"
   },
   {
-    "objectID": "uc_2024/presentacion.html#p1-google-colab-1",
-    "href": "uc_2024/presentacion.html#p1-google-colab-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P1: Google Colab",
-    "text": "P1: Google Colab"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p2-github",
-    "href": "uc_2024/presentacion.html#p2-github",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P2: Github",
-    "text": "P2: Github\n\n\n\n\n\n\n\nControl de versiones\nFacilita Seguimiento\nPlantilla inicial\nPrimer portafolio"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p2-github-1",
-    "href": "uc_2024/presentacion.html#p2-github-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P2: Github",
-    "text": "P2: Github\n\n\n\nRepositorio del Curso\n\n\nPortafolio Estudiantes"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras",
-    "href": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P3: Evaluaciones Innovadoras",
-    "text": "P3: Evaluaciones Innovadoras\n\n\n\n\n\n\nEvaluaciones prácticas\nEnfoque en colaboración\nPreparación mercado laboral"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras-1",
-    "href": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P3: Evaluaciones Innovadoras",
-    "text": "P3: Evaluaciones Innovadoras"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p4evaluación-externa",
-    "href": "uc_2024/presentacion.html#p4evaluación-externa",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P4:Evaluación Externa",
-    "text": "P4:Evaluación Externa\n\n\n\n\n\n\nFeedback por pares\nEvaluación de proyectos\nDesarrolla habilidades blandas"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p4evaluación-externa-1",
-    "href": "uc_2024/presentacion.html#p4evaluación-externa-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P4:Evaluación Externa",
-    "text": "P4:Evaluación Externa"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p5-impacto-formación-profesional",
-    "href": "uc_2024/presentacion.html#p5-impacto-formación-profesional",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P5: Impacto Formación Profesional",
-    "text": "P5: Impacto Formación Profesional\n\n\n\n\n\n\nMotivación por la programación\nPreparación para prácticas\nMemorías Innovadoras"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p5-impacto-formación-profesional-1",
-    "href": "uc_2024/presentacion.html#p5-impacto-formación-profesional-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P5: Impacto Formación Profesional",
-    "text": "P5: Impacto Formación Profesional"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#section-3",
-    "href": "uc_2024/presentacion.html#section-3",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "",
-    "text": "Retroalimentación\nPerspectiva de los Estudiantes del Curso MAT281"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#comentarios-negativos",
-    "href": "uc_2024/presentacion.html#comentarios-negativos",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "👎 Comentarios Negativos",
-    "text": "👎 Comentarios Negativos\n\n\n❌ “El profesor jamás respondió los correos cuando se le hacían dudas, lo que considero una enorme falta de respeto hacia los estudiantes.”\n📉 “Nunca se entregaron calificaciones ni retroalimentación, así que nunca supe si estaba haciendo bien las cosas o no.”\n❓ “El curso fue confuso en la manera de evaluar, me costó entender qué había que hacer en las evaluaciones y cuáles iban a ser las pruebas o tareas.”"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#comentarios-positivos",
-    "href": "uc_2024/presentacion.html#comentarios-positivos",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "👍 Comentarios Positivos",
-    "text": "👍 Comentarios Positivos\n\n\n✅ “Buen profesor, con buena disposición para consultas. Es ordenado, presenta bien el contenido y llega bien al alumno.”\n🌟 “El profesor explica muy bien, de una forma clara. Tiene muy buena disposición y transmite confianza.”\n📚 “Es un curso muy bueno, ayuda a aprender mucho sobre el área de Data Science, las aplicaciones que tiene y las diferentes herramientas disponibles en Python.”"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#encuesta-docente",
-    "href": "uc_2024/presentacion.html#encuesta-docente",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "Encuesta Docente",
-    "text": "Encuesta Docente\n\n\n\n\n\n\n\n\n\n\n(C) La evaluó: contenidos, cercanía, y fomarlidades del curso."
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#section-4",
-    "href": "uc_2024/presentacion.html#section-4",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "",
-    "text": "Conclusiones\nResultados y Reflexiones del Curso MAT281"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#conclusiones",
-    "href": "uc_2024/presentacion.html#conclusiones",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🎓 Conclusiones",
-    "text": "🎓 Conclusiones\n\n\n✅ Google Colab tiene un impacto positivo\n✅ Aumenta motivación y participación\n✅ Mejora la comprensión práctica\n✅ Flexibilidad en la enseñanza y aprendizaje remoto"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#trabajos-futuros",
-    "href": "uc_2024/presentacion.html#trabajos-futuros",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🎓 Trabajos Futuros",
-    "text": "🎓 Trabajos Futuros\n\n\n💡 Integrar tecnologías nuevas (IA)\n💡 Fomentar proyectos con la industria\n💡 Expandir la metodología a otros cursos\n💡 Implementar evaluaciones automatizadas"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#agradecimientos",
-    "href": "uc_2024/presentacion.html#agradecimientos",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🎉 Agradecimientos",
-    "text": "🎉 Agradecimientos\n\n\n\nSebastián Flores\n\n\nAlonso Ogueda\n\n\nAlberto Rubio\n\n\n\n\nEric Zepeda\n\n\nSebastián Torres\n\n\nRodrigo Lecaros"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#agradecimientos-1",
-    "href": "uc_2024/presentacion.html#agradecimientos-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🎉 Agradecimientos",
-    "text": "🎉 Agradecimientos"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#gracias-por-participar",
-    "href": "uc_2024/presentacion.html#gracias-por-participar",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "objectID": "latinr_2024/presentacion.html#gracias-por-participar",
+    "href": "latinr_2024/presentacion.html#gracias-por-participar",
+    "title": "Uso de Quarto para crear clases interactivas",
     "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar LatinR 2024!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
     "objectID": "visualization_2024/presentacion.html#agenda",
@@ -945,74 +784,354 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
-    "objectID": "latinr_2024/presentacion.html#innovar-en-la-enseñanza",
-    "href": "latinr_2024/presentacion.html#innovar-en-la-enseñanza",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "💡 Innovar en la Enseñanza",
-    "text": "💡 Innovar en la Enseñanza\n\n\n\n\n\n\nCaptar atención activa.\nAdaptarse al mundo digital.\nQuarto permite crear contenidos interactivos."
+    "objectID": "uc_2024/presentacion.html#aprender-adaptar-innovar",
+    "href": "uc_2024/presentacion.html#aprender-adaptar-innovar",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🔄 Aprender, Adaptar, Innovar",
+    "text": "🔄 Aprender, Adaptar, Innovar"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
-    "href": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🌐 Quarto WebR y Quarto Pyodide",
-    "text": "🌐 Quarto WebR y Quarto Pyodide\n\nWebR: Ejecuta código R en el navegador, sin instalaciones.\n# Para instalar WebR en tu entorno\nremotes::install_github(\"attiyap/WebR\")\nPyodide : Idem pero para Python.\n# Para instalar Pyodide\npip install pyodide"
+    "objectID": "uc_2024/presentacion.html#section",
+    "href": "uc_2024/presentacion.html#section",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "",
+    "text": "Curso MAT281\nAplicaciones de la matemática en la ingeniería"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#ejemplo-r",
-    "href": "latinr_2024/presentacion.html#ejemplo-r",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "📊 Ejemplo R",
-    "text": "📊 Ejemplo R\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "objectID": "uc_2024/presentacion.html#malla-curricular---icmat",
+    "href": "uc_2024/presentacion.html#malla-curricular---icmat",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "Malla Curricular - ICMAT",
+    "text": "Malla Curricular - ICMAT\n\n\n\n\n\n\n\n\n\n\n\n\n🌐 Más detalles del curso MAT281"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#ejemplo-python",
-    "href": "latinr_2024/presentacion.html#ejemplo-python",
-    "title": "Uso de Quarto para crear clases interactivas",
+    "objectID": "uc_2024/presentacion.html#mat281---matemáticas-aplicadas",
+    "href": "uc_2024/presentacion.html#mat281---matemáticas-aplicadas",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "MAT281 - Matemáticas Aplicadas",
+    "text": "MAT281 - Matemáticas Aplicadas\n\n\n\n\n\n\n\n🎯 Objetivo: Desarrollar competencias como Data Scientist\n📚 Requisitos: Python y cursos básicos de matemáticas\n📝 Contenidos: Toolkit, Data Manipulation, Machine Learning\n📊 Evaluaciones: Laboratorios, Tareas, Proyecto\n\n\n\n🌐 Repositorio: github.com/fralfaro/MAT281_2024"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#historia-del-curso",
+    "href": "uc_2024/presentacion.html#historia-del-curso",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "📅 Historia del curso",
+    "text": "📅 Historia del curso"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#section-1",
+    "href": "uc_2024/presentacion.html#section-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "",
+    "text": "Conceptos Claves\nTecnologías y Aprendizajes"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#google-colab",
+    "href": "uc_2024/presentacion.html#google-colab",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "Google Colab",
+    "text": "Google Colab\n\n\n\n\n🖥️ Entorno en la nube (Python)\n📊 Ejecución de código interactivo\n🌐 Acceso desde internet"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#google-colab-1",
+    "href": "uc_2024/presentacion.html#google-colab-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "Google Colab",
+    "text": "Google Colab\n\n\n\n🌐 Link: colab.research.google.com"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#ejemplo-python",
+    "href": "uc_2024/presentacion.html#ejemplo-python",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
     "section": "📊 Ejemplo Python",
     "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
-    "href": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🎓 Quarto y la Enseñanza",
-    "text": "🎓 Quarto y la Enseñanza"
+    "objectID": "uc_2024/presentacion.html#ejemplo-python-1",
+    "href": "uc_2024/presentacion.html#ejemplo-python-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "📊 Ejemplo Python",
+    "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "latinr_2024/presentacion.html#implementación",
-    "href": "latinr_2024/presentacion.html#implementación",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🛠️ Implementación",
-    "text": "🛠️ Implementación"
+    "objectID": "uc_2024/presentacion.html#más-herramientas",
+    "href": "uc_2024/presentacion.html#más-herramientas",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🎓 Más Herramientas",
+    "text": "🎓 Más Herramientas\n\n\n\n\nGithub versionar código\n\n\nMkdocs publicar sitios\n\n\n🌐 PyLatam 2022: Clases Interactivas con Google Colab, Mkdocs y Github Actions"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#talleres",
-    "href": "latinr_2024/presentacion.html#talleres",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🎓 Talleres",
-    "text": "🎓 Talleres\n\n\n\n\n🐍 PySchool Chile\n\n\n🔢 Olimpiadas USM 2024"
+    "objectID": "uc_2024/presentacion.html#aprendizajes-claves",
+    "href": "uc_2024/presentacion.html#aprendizajes-claves",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "Aprendizajes Claves",
+    "text": "Aprendizajes Claves\n\n\n\n\n\n\nMotivación: Fomentar interés.\nActivo: Involucra a los estudiantes.\nProyectos: Problemas reales.\nConstructivismo: Experiencia.\n\n\n\n📄 (C) How Learning Works (Ambrose, 2010)"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#resultados",
-    "href": "latinr_2024/presentacion.html#resultados",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "📊 Resultados",
-    "text": "📊 Resultados\nEncuestas sobre el taller:\n\nSatisfacción general alta, con un promedio cercano a 9.\nDestacaron el uso de las herramientas interactivas."
+    "objectID": "uc_2024/presentacion.html#section-2",
+    "href": "uc_2024/presentacion.html#section-2",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "",
+    "text": "Innovación Educativa\nInnovación en la Enseñanza y Evaluación en MAT281"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#recursos-adicionales",
-    "href": "latinr_2024/presentacion.html#recursos-adicionales",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "📚 Recursos Adicionales",
-    "text": "📚 Recursos Adicionales\n\n\n🌐 Remasterización del libro: “R for Data Science”"
+    "objectID": "uc_2024/presentacion.html#p1-google-colab",
+    "href": "uc_2024/presentacion.html#p1-google-colab",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P1: Google Colab",
+    "text": "P1: Google Colab\n\n\n\n\n\n\n\nAcceso sin instalación\nInteractivo y colaborativo\nAprendizaje activo"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#gracias-por-participar",
-    "href": "latinr_2024/presentacion.html#gracias-por-participar",
-    "title": "Uso de Quarto para crear clases interactivas",
+    "objectID": "uc_2024/presentacion.html#p1-google-colab-1",
+    "href": "uc_2024/presentacion.html#p1-google-colab-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P1: Google Colab",
+    "text": "P1: Google Colab"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p2-github",
+    "href": "uc_2024/presentacion.html#p2-github",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P2: Github",
+    "text": "P2: Github\n\n\n\n\n\n\n\nControl de versiones\nFacilita Seguimiento\nPlantilla inicial\nPrimer portafolio"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p2-github-1",
+    "href": "uc_2024/presentacion.html#p2-github-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P2: Github",
+    "text": "P2: Github\n\n\n\nRepositorio del Curso\n\n\nPortafolio Estudiantes"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras",
+    "href": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P3: Evaluaciones Innovadoras",
+    "text": "P3: Evaluaciones Innovadoras\n\n\n\n\n\n\nEvaluaciones prácticas\nEnfoque en colaboración\nPreparación mercado laboral"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras-1",
+    "href": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P3: Evaluaciones Innovadoras",
+    "text": "P3: Evaluaciones Innovadoras"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p4evaluación-externa",
+    "href": "uc_2024/presentacion.html#p4evaluación-externa",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P4:Evaluación Externa",
+    "text": "P4:Evaluación Externa\n\n\n\n\n\n\nFeedback por pares\nEvaluación de proyectos\nDesarrolla habilidades blandas"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p4evaluación-externa-1",
+    "href": "uc_2024/presentacion.html#p4evaluación-externa-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P4:Evaluación Externa",
+    "text": "P4:Evaluación Externa"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p5-impacto-formación-profesional",
+    "href": "uc_2024/presentacion.html#p5-impacto-formación-profesional",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P5: Impacto Formación Profesional",
+    "text": "P5: Impacto Formación Profesional\n\n\n\n\n\n\nMotivación por la programación\nPreparación para prácticas\nMemorías Innovadoras"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p5-impacto-formación-profesional-1",
+    "href": "uc_2024/presentacion.html#p5-impacto-formación-profesional-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P5: Impacto Formación Profesional",
+    "text": "P5: Impacto Formación Profesional"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#section-3",
+    "href": "uc_2024/presentacion.html#section-3",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "",
+    "text": "Retroalimentación\nPerspectiva de los Estudiantes del Curso MAT281"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#comentarios-negativos",
+    "href": "uc_2024/presentacion.html#comentarios-negativos",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "👎 Comentarios Negativos",
+    "text": "👎 Comentarios Negativos\n\n\n❌ “El profesor jamás respondió los correos cuando se le hacían dudas, lo que considero una enorme falta de respeto hacia los estudiantes.”\n📉 “Nunca se entregaron calificaciones ni retroalimentación, así que nunca supe si estaba haciendo bien las cosas o no.”\n❓ “El curso fue confuso en la manera de evaluar, me costó entender qué había que hacer en las evaluaciones y cuáles iban a ser las pruebas o tareas.”"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#comentarios-positivos",
+    "href": "uc_2024/presentacion.html#comentarios-positivos",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "👍 Comentarios Positivos",
+    "text": "👍 Comentarios Positivos\n\n\n✅ “Buen profesor, con buena disposición para consultas. Es ordenado, presenta bien el contenido y llega bien al alumno.”\n🌟 “El profesor explica muy bien, de una forma clara. Tiene muy buena disposición y transmite confianza.”\n📚 “Es un curso muy bueno, ayuda a aprender mucho sobre el área de Data Science, las aplicaciones que tiene y las diferentes herramientas disponibles en Python.”"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#encuesta-docente",
+    "href": "uc_2024/presentacion.html#encuesta-docente",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "Encuesta Docente",
+    "text": "Encuesta Docente\n\n\n\n\n\n\n\n\n\n\n(C) La evaluó: contenidos, cercanía, y fomarlidades del curso."
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#section-4",
+    "href": "uc_2024/presentacion.html#section-4",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "",
+    "text": "Conclusiones\nResultados y Reflexiones del Curso MAT281"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#conclusiones",
+    "href": "uc_2024/presentacion.html#conclusiones",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🎓 Conclusiones",
+    "text": "🎓 Conclusiones\n\n\n✅ Google Colab tiene un impacto positivo\n✅ Aumenta motivación y participación\n✅ Mejora la comprensión práctica\n✅ Flexibilidad en la enseñanza y aprendizaje remoto"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#trabajos-futuros",
+    "href": "uc_2024/presentacion.html#trabajos-futuros",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🎓 Trabajos Futuros",
+    "text": "🎓 Trabajos Futuros\n\n\n💡 Integrar tecnologías nuevas (IA)\n💡 Fomentar proyectos con la industria\n💡 Expandir la metodología a otros cursos\n💡 Implementar evaluaciones automatizadas"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#agradecimientos",
+    "href": "uc_2024/presentacion.html#agradecimientos",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🎉 Agradecimientos",
+    "text": "🎉 Agradecimientos\n\n\n\nSebastián Flores\n\n\nAlonso Ogueda\n\n\nAlberto Rubio\n\n\n\n\nEric Zepeda\n\n\nSebastián Torres\n\n\nRodrigo Lecaros"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#agradecimientos-1",
+    "href": "uc_2024/presentacion.html#agradecimientos-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🎉 Agradecimientos",
+    "text": "🎉 Agradecimientos"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#gracias-por-participar",
+    "href": "uc_2024/presentacion.html#gracias-por-participar",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
     "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar LatinR 2024!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#estudiar-graduarse-y-trabajar",
+    "href": "profesional_2024/presentacion.html#estudiar-graduarse-y-trabajar",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "🎓 Estudiar, Graduarse y … Trabajar?",
+    "text": "🎓 Estudiar, Graduarse y … Trabajar?"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#section",
+    "href": "profesional_2024/presentacion.html#section",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "",
+    "text": "Construyendo una Base Sólida\nReflexiona y planifica desde el inicio de tu carrera"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#autoconocimiento-y-planificación",
+    "href": "profesional_2024/presentacion.html#autoconocimiento-y-planificación",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💼 Autoconocimiento y Planificación",
+    "text": "💼 Autoconocimiento y Planificación\n\n\n\n\n¿Cuáles son tus fortalezas y debilidades?\n¿Qué te apasiona y dónde puedes destacarte?"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#aprovecha-los-recursos",
+    "href": "profesional_2024/presentacion.html#aprovecha-los-recursos",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💼 Aprovecha los Recursos",
+    "text": "💼 Aprovecha los Recursos\n\n\n\n\nParticipa en ferias laborales, talleres y actividades extracurriculares.\nConstruye un currículum sólido desde proyectos académicos."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#networking-y-marca-personal",
+    "href": "profesional_2024/presentacion.html#networking-y-marca-personal",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💼 Networking y Marca Personal",
+    "text": "💼 Networking y Marca Personal\n\n\n\n\nConecta con profesores y profesionales.\nCrea un perfil en LinkedIn y comparte logros."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#section-1",
+    "href": "profesional_2024/presentacion.html#section-1",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "",
+    "text": "Potenciando Habilidades\nDesarrolla competencias clave"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#habilidades-blandas-soft-skills",
+    "href": "profesional_2024/presentacion.html#habilidades-blandas-soft-skills",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "🚀 Habilidades Blandas (Soft Skills)",
+    "text": "🚀 Habilidades Blandas (Soft Skills)\n\n\n\n\nResolución de problemas\nComunicación efectiva\nAdaptabilidad"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#habilidades-técnicas-hard-skills",
+    "href": "profesional_2024/presentacion.html#habilidades-técnicas-hard-skills",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "🚀 Habilidades Técnicas (Hard Skills)",
+    "text": "🚀 Habilidades Técnicas (Hard Skills)\n\n\n\n\nAprende herramientas y tecnologías clave en tu campo.\nRealiza cursos y certificaciones para destacar frente a otros candidatos."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#section-2",
+    "href": "profesional_2024/presentacion.html#section-2",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "",
+    "text": "Proyectándote al Futuro\nPrepárate para el mundo laboral"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#entrevistas-de-trabajo",
+    "href": "profesional_2024/presentacion.html#entrevistas-de-trabajo",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 Entrevistas de Trabajo",
+    "text": "💻 Entrevistas de Trabajo\n\n\n\n\nAsiste a ferias para conocer empresas y generar contactos valiosos.\nInvestiga preguntas frecuentes y personaliza tus respuestas según la empresa."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#cultura-organizacional",
+    "href": "profesional_2024/presentacion.html#cultura-organizacional",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 Cultura Organizacional",
+    "text": "💻 Cultura Organizacional\n\n\n\n\nAnaliza la misión, visión y cultura de las empresas de tu interés.\nEvalúa si el ambiente de trabajo se alinea con tus principios y metas personales."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#aprende-y-mejora-continuamente",
+    "href": "profesional_2024/presentacion.html#aprende-y-mejora-continuamente",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 Aprende y Mejora Continuamente",
+    "text": "💻 Aprende y Mejora Continuamente\n\n\n\n\nBusca cursos, lecturas y experiencias que te mantengan actualizado.\nUsa los desafíos en proyectos académicos y personales como oportunidades de mejora."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#manejando-tu-futuro-financiero",
+    "href": "profesional_2024/presentacion.html#manejando-tu-futuro-financiero",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 Manejando tu Futuro Financiero",
+    "text": "💻 Manejando tu Futuro Financiero\n\n\n\n\nAprende sobre ahorro y presupuesto desde temprano.\nExplora inversiones sencillas, incluso con ingresos pequeños."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#cuánto-valgo-como-profesional",
+    "href": "profesional_2024/presentacion.html#cuánto-valgo-como-profesional",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 ¿Cuánto Valgo como Profesional?",
+    "text": "💻 ¿Cuánto Valgo como Profesional?\n\n\n\n\nInvestiga salarios del mercado\nIdentifica tus fortalezas\nPrepárate para negociar"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#section-3",
+    "href": "profesional_2024/presentacion.html#section-3",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "",
+    "text": "Conclusiones\nAprendizajes de la Charla"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#conclusiones",
+    "href": "profesional_2024/presentacion.html#conclusiones",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💡 Conclusiones",
+    "text": "💡 Conclusiones\n\n\n\n\n✅ Aprendizaje Personalizado.\n✅ Herramientas Dinámicas.\n✅ Eficiencia en Acción.\n✅ Innovación Inspiradora."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#gracias-por-participar",
+    "href": "profesional_2024/presentacion.html#gracias-por-participar",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
   },
   {
     "objectID": "infinity_2024/presentacion.html#conjuntos-de-números",
@@ -1194,6 +1313,6 @@
     "href": "index.html",
     "title": "🎉 Presentaciones",
     "section": "",
-    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.\n🎤 Crea, Innova y Presenta: Data Storytelling con A.I. - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.\n🎤 Más allá del Infinito - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.\n🎤 De los Números a la Narrativa - Este taller profundiza en cómo transformar datos en visualizaciones impactantes, utilizando Python y herramientas de visualización para contar historias claras y persuasivas.\n🎤 Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.\n🎤 Innovación en MAT281: Colab y Evaluaciones Dinámicas - Descubre cómo Google Colab y nuevas evaluaciones transformaron el curso MAT281, mejorando el acceso y la motivación de los estudiantes a través de un enfoque dinámico y colaborativo.\n🎤 Inteligencia Artificial en la Educación - Aprende cómo la Inteligencia Artificial está transformando el aprendizaje, desde la personalización de contenidos hasta el análisis de datos educativos. Esta presentación explora aplicaciones prácticas de la IA en la enseñanza para crear experiencias más enriquecedoras y adaptativas.\n\n¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊"
+    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.\n🎤 Crea, Innova y Presenta: Data Storytelling con A.I. - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.\n🎤 Más allá del Infinito - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.\n🎤 De los Números a la Narrativa - Este taller profundiza en cómo transformar datos en visualizaciones impactantes, utilizando Python y herramientas de visualización para contar historias claras y persuasivas.\n🎤 Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.\n🎤 Innovación en MAT281: Colab y Evaluaciones Dinámicas - Descubre cómo Google Colab y nuevas evaluaciones transformaron el curso MAT281, mejorando el acceso y la motivación de los estudiantes a través de un enfoque dinámico y colaborativo.\n🎤 Inteligencia Artificial en la Educación - Aprende cómo la Inteligencia Artificial está transformando el aprendizaje, desde la personalización de contenidos hasta el análisis de datos educativos. Esta presentación explora aplicaciones prácticas de la IA en la enseñanza para crear experiencias más enriquecedoras y adaptativas.\n🎤 ¿Y Ahora Qué? Del Aula al Trabajo - Descubre cómo prepararte para el mundo laboral al finalizar tus estudios. Esta charla aborda habilidades clave, herramientas prácticas y estrategias para destacarte en tu transición profesional y adaptarte a un entorno laboral competitivo.\n\n¡Haz clic en los enlaces para descubrir más! Si tienes preguntas o comentarios, ¡estaré encantado de escucharlos! 😊"
   }
 ]
