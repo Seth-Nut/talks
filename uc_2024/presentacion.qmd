@@ -37,7 +37,7 @@ format:
 
 ## Malla Curricular - ICMAT {background-image="images/background.jpg" background-opacity="0.25"}
 
-:::: r-stack
+::: r-stack
 ![](images/malla_01.png){.fragment .fade-in-then-out width="100%" fig-align="left"}
 
 ![](images/mat281_2.png){.fragment width="90%" fig-align="center"}
@@ -45,18 +45,18 @@ format:
 ::: {.fragment style="text-align: right; font-size: 0.8em; color: gray; margin-top: 30px;"}
 [🌐 Más detalles del curso MAT281](https://github.com/fralfaro/portfolio/blob/main/docs/files/teaching/mat281.pdf)
 :::
-::::
+:::
 
 ------------------------------------------------------------------------
 
 ## MAT281 - Matemáticas Aplicadas {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-:::::: columns
-:::: {.column width="40%"}
+::: columns
+::: {.column width="40%"}
 ::: {style="text-align: center;"}
 <img src="images/paper2.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
-::::
+:::
 
 ::: {.column .incremental width="60%"}
 -   🎯 **Objetivo**: Desarrollar competencias como Data Scientist
@@ -64,7 +64,7 @@ format:
 -   📝 **Contenidos**: Toolkit, Data Manipulation, Machine Learning
 -   📊 **Evaluaciones**: Laboratorios, Tareas, Proyecto
 :::
-::::::
+:::
 
 . . .
 
@@ -75,7 +75,6 @@ format:
 ## 📅 Historia del curso {background-image="images/background.jpg" background-opacity="0.25"}
 
 <img src="images/historia3.png" style="margin-left: 120px;"/>
-
 
 ------------------------------------------------------------------------
 
@@ -91,7 +90,7 @@ format:
 
 ## Google Colab {background-image="images/background.jpg" background-opacity="0.25"}
 
-::::: columns
+::: columns
 ::: {.column .incremental width="65%"}
 <br>
 
@@ -103,7 +102,7 @@ format:
 ::: {.column width="35%"}
 <img src="images/colab.png" alt="Tachado" style="width: 100%; align: center;"/>
 :::
-:::::
+:::
 
 ------------------------------------------------------------------------
 
@@ -117,19 +116,6 @@ format:
 
 [🌐 Link: colab.research.google.com](https://colab.research.google.com){style="font-size: 0.75em; align: center;"}
 
-------------------------------------------------------------------------
-
-## 📊 Ejemplo Python {background-image="images/background.jpg" background-opacity="0.25"}
-
-```{pyodide-python}
-evento = "Segundo Encuentro de Docencia e Innovación en Matemática Universitaria"
-mensaje = f"""
-📚 Bienvenidos al...
-
-🚀 !{evento}! 
-"""
-print(mensaje)
-```
 
 ------------------------------------------------------------------------
 
@@ -151,7 +137,7 @@ plt.show()
 
 <br>
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](images/github.png){fig-align="center" width="60%"}\
 *Github versionar código*
@@ -161,7 +147,7 @@ plt.show()
 ![](images/mkdocks.png){fig-align="center" width="60%"}\
 *Mkdocs publicar sitios*
 :::
-:::::
+:::
 
 . . .
 
@@ -171,7 +157,7 @@ plt.show()
 
 ## Aprendizajes Claves {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 <img src="images/learning.png" alt="Tachado" style="width: 100%; align: center;"/>
 :::
@@ -184,7 +170,7 @@ plt.show()
 -   **Proyectos**: Problemas reales.
 -   **Constructivismo**: Experiencia.
 :::
-:::::
+:::
 
 . . .
 
@@ -204,7 +190,7 @@ plt.show()
 
 ## P1: Google Colab {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 <br>
 
@@ -218,7 +204,7 @@ plt.show()
 -   Interactivo y colaborativo
 -   Aprendizaje activo
 :::
-:::::
+:::
 
 ------------------------------------------------------------------------
 
@@ -234,7 +220,7 @@ plt.show()
 
 ## P2: Github {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 <br>
 
@@ -249,13 +235,13 @@ plt.show()
 -   Plantilla inicial
 -   Primer portafolio
 :::
-:::::
+:::
 
 ------------------------------------------------------------------------
 
 ## P2: Github {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](images/repos_02.png){fig-align="center" width="93%"}\
 [Repositorio del Curso](https://github.com/fralfaro/MAT281_2024)
@@ -265,13 +251,13 @@ plt.show()
 ![](images/repos_03.png){fig-align="center" width="80%"}\
 [Portafolio Estudiantes](https://github.com/fralfaro/MAT281-Portfolio)
 :::
-:::::
+:::
 
 ------------------------------------------------------------------------
 
 ## P3: Evaluaciones Innovadoras {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 <img src="images/p4.png" alt="Tachado" style="width: 100%; align: center;"/>
 :::
@@ -283,7 +269,7 @@ plt.show()
 -   Enfoque en colaboración
 -   Preparación mercado laboral
 :::
-:::::
+:::
 
 ------------------------------------------------------------------------
 
@@ -301,7 +287,7 @@ plt.show()
 
 ## P4:Evaluación Externa {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 <img src="images/p3.png" alt="Tachado" style="width: 100%; align: center;"/>
 :::
@@ -313,7 +299,7 @@ plt.show()
 -   Evaluación de proyectos
 -   Desarrolla habilidades blandas
 :::
-:::::
+:::
 
 ------------------------------------------------------------------------
 
@@ -329,7 +315,7 @@ plt.show()
 
 ## P5: Impacto Formación Profesional {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 <img src="images/p5.png" alt="Tachado" style="width: 100%; align: center;"/>
 :::
@@ -341,7 +327,7 @@ plt.show()
 -   Preparación para prácticas
 -   Memorías Innovadoras
 :::
-:::::
+:::
 
 ------------------------------------------------------------------------
 
@@ -461,7 +447,7 @@ plt.show()
 
 ## 🎉 Agradecimientos {background-image="images/background.jpg" background-opacity="0.25"}
 
-:::::: columns
+::: columns
 ::: {.column width="33%"}
 ![](images/seba_flores.jpg){fig-align="center" width="60%"}\
 **Sebastián Flores**
@@ -476,9 +462,9 @@ plt.show()
 ![](images/alberto_rubio.jpg){fig-align="center" width="60%"}\
 **Alberto Rubio**
 :::
-::::::
+:::
 
-:::::: columns
+::: columns
 ::: {.column width="33%"}
 ![](images/eric_zepeda.jpg){fig-align="center" width="60%"}\
 **Eric Zepeda**
@@ -490,10 +476,10 @@ plt.show()
 :::
 
 ::: {.column width="33%"}
-![](images/rodrigo_lecaros.jpg){fig-align="center" width="60%"}\
+![](images/lecaros3.jpg){fig-align="center" width="60%"}\
 **Rodrigo Lecaros**
 :::
-::::::
+:::
 
 ------------------------------------------------------------------------
 
@@ -507,7 +493,7 @@ plt.show()
 
 ## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -521,6 +507,6 @@ plt.show()
 ::: {.column width="50%" align="center"}
 ![](images/qr_uc.png){width="400"}
 :::
-:::::
+:::
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
