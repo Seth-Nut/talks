@@ -249,6 +249,22 @@ format:
 
 ------------------------------------------------------------------------
 
+## 💻 Entrevistas de Trabajo {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+<br>
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+![](images/tech_02.png){fig-align="center" width="75%"}
+[Entrevista Técnica]()
+
+
+![](images/tech_01.png){fig-align="center" width="100%"}
+[Entrevista Sicológica]()
+:::
+
+------------------------------------------------------------------------
+
 ## 💻 Cultura Organizacional {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
@@ -266,20 +282,19 @@ format:
 
 ------------------------------------------------------------------------
 
-## 💻 Aprende y Mejora Continuamente {background-image="images/background.jpg" background-opacity="0.25"}
+## 💻 Cultura Organizacional {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
-::: {.column width="65%"}
-<br>
+::: r-stack
+<br> 
 
--   Busca cursos, lecturas y experiencias que te mantengan actualizado.
--   Usa los desafíos en proyectos académicos y personales como oportunidades de mejora.
+![](images/cultura_03.png){.fragment .fade-in-then-out fig-align="left"}
+
+![](images/cultura_01.png){.fragment  fig-align="center"}
+
 :::
 
-::: {.column width="35%"}
-<img src="images/computer.png" alt="Tachado" style="width: 100%; align: center;"/>
-:::
-:::
+
+
 
 ------------------------------------------------------------------------
 
@@ -296,6 +311,21 @@ format:
 ::: {.column width="35%"}
 <img src="images/computer.png" alt="Tachado" style="width: 100%; align: center;"/>
 :::
+:::
+
+------------------------------------------------------------------------
+
+## 💻 Manejando tu Futuro Financiero {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br> 
+<br>
+
+![](images/sueldo_01.jpg){.fragment .fade-in-then-out fig-align="left"}
+
+![](images/sueldo_02.png){.fragment .fade-in-then-out fig-align="center"}
+
+![](images/sueldo_03.jpg){.fragment fig-align="right"}
 :::
 
 ------------------------------------------------------------------------
@@ -318,6 +348,21 @@ format:
 
 ------------------------------------------------------------------------
 
+## 💻 ¿Cuánto Valgo como Profesional? {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: r-stack
+<br>
+
+![](images/neg_011.png){.fragment .fade-in-then-out fig-align="left"}
+
+![](images/neg_02.png){.fragment .fade-in-then-out fig-align="center"}
+
+![](images/neg_03.png){.fragment fig-align="right"}
+:::
+
+------------------------------------------------------------------------
+
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
@@ -336,13 +381,10 @@ format:
 ::: {.column .fragment width="65%"}
 <br>
 
-✅ **Aprendizaje Personalizado**.
-
-✅ **Herramientas Dinámicas**.
-
-✅ **Eficiencia en Acción**.
-
-✅ **Innovación Inspiradora**.
+✅ Descubrimiento Personal  
+✅ Herramientas Clave  
+✅ Redes Estratégicas  
+✅ Aprendizaje Constante
 :::
 
 ::: {.column width="35%"}
