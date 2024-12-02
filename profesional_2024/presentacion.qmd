@@ -170,18 +170,18 @@ format:
 
 <br>
 
-::: {style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;"}
+::: { .fragment style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 1em;  text-align: center;"}
 ![](images/os_022.png){fig-align="center" width="100%"}
-[JS Chile]()
+[JS Chile](https://jschile.org/)
 
 ![](images/os_01.jpg){fig-align="center" width="100%"}
-[Python Chile]()
+[Python Chile](https://pythonchile.cl/)
 
 ![](images/os_03.png){ fig-align="center" width="100%"}
-[AWS Chile](){align="center"}
+[AWS Chile](https://www.linkedin.com/company/aws-user-group-chile/posts/?feedView=all){align="center"}
 
 ![](images/os_04.png){ fig-align="center" width="100%"}
-[Google Chile]()
+[GDG Santiago](https://gdg.community.dev/gdg-santiago-de-chile/)
 :::
 
 ------------------------------------------------------------------------
@@ -207,15 +207,15 @@ format:
 
 <br>
 
-::: {style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em;"}
+::: {.fragment style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 1em; text-align: center;"}
 ![](images/mooc_01.png){fig-align="center" width="100%"}
-[Coursera]()
+[Coursera](https://www.coursera.org/)
 
 ![](images/mooc_022.png){fig-align="center" width="100%"}
-[Udemy]()
+[Udemy](https://www.udemy.com/)
 
 ![](images/mooc_03.png){ fig-align="center" width="100%"}
-[Cloud](){align="center"}
+[Cloud](https://azure.microsoft.com/en-us/resources/training-and-certifications#self-directed-training){align="center"}
 
 
 :::
@@ -254,13 +254,13 @@ format:
 
 <br>
 
-::: {style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
+::: {.fragment style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 1em;"}
 ![](images/tech_02.png){fig-align="center" width="75%"}
-[Entrevista Técnica]()
+*Entrevista Técnica*
 
 
-![](images/tech_01.png){fig-align="center" width="100%"}
-[Entrevista Sicológica]()
+![](images/tech_01.png){fig-align="center"  width="100%"}
+*Entrevista Sicológica*
 :::
 
 ------------------------------------------------------------------------
@@ -297,6 +297,45 @@ format:
 
 
 ------------------------------------------------------------------------
+
+
+
+## 💻 Descripción de Trabajos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="65%"}
+<br>
+
+- **Requisitos**: habilidades clave.  
+- **Rol**: alineado a tus metas.  
+- **Crecimiento**: desarrollo profesional.  
+
+:::
+
+::: {.column width="35%"}
+<img src="images/computer.png" alt="Descripción de Trabajos" style="width: 100%; align: center;"/>
+:::
+::: 
+
+------------------------------------------------------------------------
+
+
+
+## 💻 Descripción de Trabajos {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br> 
+
+::: r-stack
+<br> 
+
+![](images/req_01.png){.fragment .fade-in-then-out fig-align="left" width="110%"}
+
+![](images/req_02.png){.fragment  fig-align="center" width="110%"}
+
+:::
+
+------------------------------------------------------------------------
+
 
 ## 💻 Manejando tu Futuro Financiero {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -402,13 +441,13 @@ format:
 
 ❓¿Preguntas?
 
-👏 Responder [encuesta](https://forms.gle/Z6K2PqTEQniK9XdAA)
+👏 Responder [encuesta](https://forms.gle/PTczBF9Mk8nYYV88A)
 
 🥳 Difrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_mads.png){width="400"}
+![](images/qr_duoc_2024.png){width="400"}
 :::
 :::
 
