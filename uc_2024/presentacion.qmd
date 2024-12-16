@@ -116,7 +116,6 @@ format:
 
 [🌐 Link: colab.research.google.com](https://colab.research.google.com){style="font-size: 0.75em; align: center;"}
 
-
 ------------------------------------------------------------------------
 
 ## 📊 Ejemplo Python {background-image="images/background.jpg" background-opacity="0.25"}
@@ -305,11 +304,14 @@ plt.show()
 
 ## P4:Evaluación Externa {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
+
 ::: r-stack
 ![](images/proyectos_01.png){.fragment .fade-in-then-out width="100%" fig-align="center"}
 
 ![](images/proyectos_02.png){.fragment width="100%" fig-align="center"}
 :::
+
+
 
 ------------------------------------------------------------------------
 
@@ -373,13 +375,13 @@ plt.show()
 import matplotlib.pyplot as plt
 
 # Datos de las evaluaciones por año
-años = [ 2020, 2021, 2022, 2023]
-profesor = [ 3.4, 3.6, 3.4, 3.8]
-departamento = [3.7, 3.7, 3.6, 3.6]
-campus = [ 3.7, 3.7, 3.7, 3.7]
+años = [ 2020, 2021, 2022, 2023, 2024]
+profesor = [ 3.4, 3.6, 3.4, 3.8, 4.0]
+departamento = [3.7, 3.7, 3.6, 3.6, 3.7]
+campus = [ 3.7, 3.7, 3.7, 3.7, 3.8]
 
 # Crear el gráfico
-plt.figure(figsize=(10, 5))
+plt.figure(figsize=(11, 5))
 plt.plot(años, profesor, marker='o', label='Profesor', linestyle='-', linewidth=2)
 plt.plot(años, departamento, marker='o', label='Departamento', linestyle='--', linewidth=2)
 plt.plot(años, campus, marker='o', label='Campus', linestyle='-.', linewidth=2)
@@ -389,7 +391,7 @@ plt.xlabel('Año')
 plt.ylabel('Evaluación')
 plt.title('Evaluación Global: Profesor vs Departamento vs Campus')
 plt.xticks(años)
-plt.ylim(3.0, 4.5)
+plt.ylim(3.0, 4.2)
 plt.grid(True)
 plt.legend()
 
@@ -485,9 +487,12 @@ plt.show()
 
 ## 🎉 Agradecimientos {background-image="images/background.jpg" background-opacity="0.25"}
 
-<br>
+::: r-stack
+![](images/dmat.jpg){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
-![](images/dmat.jpg){fig-align="center" width="100%"}
+![](images/proyectos_03.jpg){.fragment width="65%" fig-align="center"}
+:::
+
 
 ------------------------------------------------------------------------
 
