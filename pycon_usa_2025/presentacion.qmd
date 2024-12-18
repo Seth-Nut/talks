@@ -1,0 +1,145 @@
+---
+title: "Educación sin Límites con Quarto y GitHub"
+author: 
+  - Francisco Alfaro
+  - Valeska Canales
+date: 25 May 2025
+format: 
+  revealjs:
+    transition: slide
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    logo: images/pycon_usa.png
+---
+
+## 💡 Innovar en la Enseñanza {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+![](images/logo-quarto.png){width="300"}
+:::
+
+::: {.column .incremental width="50%"}
+<br>
+
+-   Captar atención activa.
+-   Adaptarse al mundo digital.
+-   [Quarto](https://quarto.org/) permite crear contenidos interactivos.
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 🌐 Quarto WebR y Quarto Pyodide {background-image="images/background.jpg" background-opacity="0.25"}
+
+1.  [WebR](https://docs.r-wasm.org/webr/latest/): Ejecuta código R en el navegador, sin instalaciones.
+
+    ``` bash
+    # Para instalar WebR en tu entorno
+    remotes::install_github("attiyap/WebR")
+    ```
+
+2.  [Pyodide](https://quarto.thecoatlessprofessor.com/pyodide/) : Idem pero para Python.
+
+    ``` bash
+    # Para instalar Pyodide
+    pip install pyodide
+    ```
+
+![](images/botones.png){width="100"}
+
+------------------------------------------------------------------------
+
+## 📊 Ejemplo R {background-image="images/background.jpg" background-opacity="0.25"}
+
+```{webr-r}
+x <- c(1, 2, 3, 4, 5)
+y <- c(2, 4, 6, 8, 10)
+plot(x, y, type="o", col="blue", lty=1, xlab="", ylab="")
+title(main="Gráfico Sencillo en R")
+```
+
+------------------------------------------------------------------------
+
+## 📊 Ejemplo Python {background-image="images/background.jpg" background-opacity="0.25"}
+
+```{pyodide-python}
+import matplotlib.pyplot as plt
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+plt.figure(figsize=(6, 3)) 
+plt.plot(x, y, marker='o', color='blue')
+plt.title("Gráfico Sencillo en Python")
+plt.show()
+```
+
+------------------------------------------------------------------------
+
+## 🎓 Quarto y la Enseñanza {background-image="images/background.jpg" background-opacity="0.25"}
+
+![](images/n05.png)
+
+------------------------------------------------------------------------
+
+## 🛠️ Implementación {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+![](images/n04.png)
+
+## 🎓 Talleres {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column width="50%" align="center"}
+![](images/pyschool.png){width="250"}\
+[🐍 PySchool Chile](https://fralfaro.github.io/pyschool_content)
+:::
+
+::: {.column width="50%" align="center"}
+![](images/dmat2.png){width="350"}\
+[🔢 Olimpiadas USM 2024](https://fralfaro.github.io/DMAT-SJ-Olimpiadas)
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 📊 Resultados {background-image="images/background.jpg" background-opacity="0.25"}
+
+Encuestas sobre el taller:
+
+-   **Satisfacción general alta**, con un promedio cercano a `9`.
+-   **Destacaron** el uso de las herramientas interactivas.
+
+![](images/stats.png){width="300" align="center"}
+
+------------------------------------------------------------------------
+
+## 📚 Recursos Adicionales {background-image="images/background.jpg" background-opacity="0.25"}
+
+![](images/cover.jpg){width="300" style="display: block; margin-left: auto; margin-right: auto;"}
+
+> 🌐 [Remasterización del libro: **"R for Data Science"**](https://fralfaro.github.io/r4ds)
+
+------------------------------------------------------------------------
+
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓¿Preguntas?
+
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSdvkmAfsYiiuVhJdjyWSgH3cr-8jZwWYMHWGsVBPG6NcvBd-A/viewform?usp=sf_link)
+
+🥳 Difrutar PyCon US 2025!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr.png){width="400"}
+:::
+:::
+
+> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
