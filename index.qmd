@@ -28,5 +28,5 @@ output: html_document
 - 🎤 [Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub](pycon_usa_2025/presentacion.html) - Aprende a automatizar y versionar tus materiales educativos interactivos utilizando Quarto y GitHub. Descubre cómo estas herramientas te permiten crear, actualizar y compartir contenidos de forma eficiente, facilitando la colaboración y el acceso a recursos dinámicos en cualquier lugar del mundo.
 
 
-- 🎤 [From Data to Narrative: Interactive Storytelling with Shiny](shinyconf_2025/presentacion.html) - Esta presentación te mostrará cómo transformar datos en historias interactivas atractivas utilizando Shiny. Aprende a crear paneles dinámicos y visualizaciones que cautiven a tu audiencia y den vida a los insights de los datos..  
+- 🎤 [From Data to Narrative: Interactive Storytelling with Shiny](shiny_2025/presentacion.html) - Esta presentación te mostrará cómo transformar datos en historias interactivas atractivas utilizando Shiny. Aprende a crear paneles dinámicos y visualizaciones que cautiven a tu audiencia y den vida a los insights de los datos..  
 
