@@ -196,186 +196,347 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar LatinR 2024!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "🎉 Presentaciones",
+    "objectID": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
+    "href": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
+    "title": "De los Números a la Narrativa",
+    "section": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?",
+    "text": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#objetivos-del-taller",
+    "href": "narrativas_2024/presentacion.html#objetivos-del-taller",
+    "title": "De los Números a la Narrativa",
+    "section": "🎯 Objetivos del Taller",
+    "text": "🎯 Objetivos del Taller\n\n\n📊 Aprender sobre visualización de datos.\n🧑‍🎨 Aprender a crear visualizaciones.\n🌐 Entender cómo construir una app interactiva.\n💻 Integrar visualizaciones en una aplicación web simple."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
+    "href": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
+    "title": "De los Números a la Narrativa",
+    "section": "🤔 ¿Qué es la Visualización de Datos?",
+    "text": "🤔 ¿Qué es la Visualización de Datos?\n\n\n La visualización de datos transforma información en gráficos para facilitar su comprensión."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
+    "href": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
+    "title": "De los Números a la Narrativa",
+    "section": "Cuarteto de ANSCOMBE",
+    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n📋 Tablas vs 📊 Gráficos"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#teoría-de-visualización",
+    "href": "narrativas_2024/presentacion.html#teoría-de-visualización",
+    "title": "De los Números a la Narrativa",
+    "section": "Teoría de visualización",
+    "text": "Teoría de visualización"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#pilares-visualización---noah-iliinsky",
+    "href": "narrativas_2024/presentacion.html#pilares-visualización---noah-iliinsky",
+    "title": "De los Números a la Narrativa",
+    "section": "4 Pilares Visualización - Noah Iliinsky",
+    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#herramientas-de-visualización-en-python",
+    "href": "narrativas_2024/presentacion.html#herramientas-de-visualización-en-python",
+    "title": "De los Números a la Narrativa",
+    "section": "Herramientas de Visualización en Python",
+    "text": "Herramientas de Visualización en Python"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#exploración-de-datos",
+    "href": "narrativas_2024/presentacion.html#exploración-de-datos",
+    "title": "De los Números a la Narrativa",
+    "section": "Exploración de Datos",
+    "text": "Exploración de Datos\n\n\n\n\n\n\n\n\n\n\n¡Demasiadas opciones!  El usuario no puede ser responsable de encontrar lo valioso."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#tipos-de-gráficos-esenciales",
+    "href": "narrativas_2024/presentacion.html#tipos-de-gráficos-esenciales",
+    "title": "De los Números a la Narrativa",
+    "section": "Tipos de Gráficos Esenciales",
+    "text": "Tipos de Gráficos Esenciales\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#section",
+    "href": "narrativas_2024/presentacion.html#section",
+    "title": "De los Números a la Narrativa",
     "section": "",
-    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.\n🎤 Crea, Innova y Presenta: Data Storytelling con A.I. - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.\n🎤 Más allá del Infinito - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.\n🎤 De los Números a la Narrativa - Este taller profundiza en cómo transformar datos en visualizaciones impactantes, utilizando Python y herramientas de visualización para contar historias claras y persuasivas.\n🎤 Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.\n🎤 Innovación en MAT281: Colab y Evaluaciones Dinámicas - Descubre cómo Google Colab y nuevas evaluaciones transformaron el curso MAT281, mejorando el acceso y la motivación de los estudiantes a través de un enfoque dinámico y colaborativo.\n🎤 Inteligencia Artificial en la Educación - Aprende cómo la Inteligencia Artificial está transformando el aprendizaje, desde la personalización de contenidos hasta el análisis de datos educativos. Esta presentación explora aplicaciones prácticas de la IA en la enseñanza para crear experiencias más enriquecedoras y adaptativas.\n🎤 ¿Y Ahora Qué? Del Aula al Trabajo - Descubre cómo prepararte para el mundo laboral al finalizar tus estudios. Esta charla aborda habilidades clave, herramientas prácticas y estrategias para destacarte en tu transición profesional y adaptarte a un entorno laboral competitivo.\n🎤 Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub - Aprende a automatizar y versionar tus materiales educativos interactivos utilizando Quarto y GitHub. Descubre cómo estas herramientas te permiten crear, actualizar y compartir contenidos de forma eficiente, facilitando la colaboración y el acceso a recursos dinámicos en cualquier lugar del mundo.\n🎤 From Data to Narrative: Interactive Storytelling with Shiny - Esta presentación te mostrará cómo transformar datos en historias interactivas atractivas utilizando Shiny. Aprende a crear paneles dinámicos y visualizaciones que cautiven a tu audiencia y den vida a los insights de los datos.."
+    "text": "Matplotlib es una biblioteca para crear gráficos estáticos.\nTipos de gráficos más comunes:\n\nLíneas, Barras, Dispersión, Histograma."
   },
   {
-    "objectID": "infinity_2024/presentacion.html#conjuntos-de-números",
-    "href": "infinity_2024/presentacion.html#conjuntos-de-números",
-    "title": "Más allá del Infinito",
-    "section": "Conjuntos de Números",
-    "text": "Conjuntos de Números\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEn cantidad de elementos: ¿| \\(\\mathbb{N}| &lt; |\\mathbb{Z}| &lt; |\\mathbb{Q}|&lt; |\\mathbb{R}|&lt;|\\mathbb{C}|\\) ?"
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-líneas",
+    "href": "narrativas_2024/presentacion.html#ejemplo-líneas",
+    "title": "De los Números a la Narrativa",
+    "section": "〽️ Ejemplo: líneas",
+    "text": "〽️ Ejemplo: líneas\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "infinity_2024/presentacion.html#qué-es-el-infinito",
-    "href": "infinity_2024/presentacion.html#qué-es-el-infinito",
-    "title": "Más allá del Infinito",
-    "section": "¿Qué es el infinito?",
-    "text": "¿Qué es el infinito?\n\n\n\n\nEl infinito es algo sin fin.\nNo es un número, sino una idea de continuidad ilimitada."
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión",
+    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión",
+    "title": "De los Números a la Narrativa",
+    "section": "〽️ Ejemplo: dispersión",
+    "text": "〽️ Ejemplo: dispersión\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "infinity_2024/presentacion.html#historia",
-    "href": "infinity_2024/presentacion.html#historia",
-    "title": "Más allá del Infinito",
-    "section": "Historia",
-    "text": "Historia"
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras",
+    "href": "narrativas_2024/presentacion.html#ejemplo-barras",
+    "title": "De los Números a la Narrativa",
+    "section": "〽️ Ejemplo: barras",
+    "text": "〽️ Ejemplo: barras\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "infinity_2024/presentacion.html#gráficos",
-    "href": "infinity_2024/presentacion.html#gráficos",
-    "title": "Más allá del Infinito",
-    "section": "Gráficos",
-    "text": "Gráficos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
+    "href": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
+    "title": "De los Números a la Narrativa",
+    "section": "〽️ Ejemplo: barras horizontales",
+    "text": "〽️ Ejemplo: barras horizontales\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "infinity_2024/presentacion.html#section",
-    "href": "infinity_2024/presentacion.html#section",
-    "title": "Más allá del Infinito",
+    "objectID": "narrativas_2024/presentacion.html#section-2",
+    "href": "narrativas_2024/presentacion.html#section-2",
+    "title": "De los Números a la Narrativa",
     "section": "",
-    "text": "Infinito\n¿Qué es contar?"
+    "text": "Seaborn extiende Matplotlib con gráficos más estilizados.\nEspecialmente útil para:\n\nGráficos estadísticos.\nAnálisis exploratorio de datos."
   },
   {
-    "objectID": "infinity_2024/presentacion.html#contar-es",
-    "href": "infinity_2024/presentacion.html#contar-es",
-    "title": "Más allá del Infinito",
-    "section": "Contar es …",
-    "text": "Contar es …\n\n\n N° elementos en un conjunto.\n\nContar personas en una sala.\nContar números del 1 al 10.\nContar objetos en una canasta."
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-penguins",
+    "href": "narrativas_2024/presentacion.html#ejemplo-penguins",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Ejemplo: penguins",
+    "text": "📊 Ejemplo: penguins\n\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nMale\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nFemale\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nFemale\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nFemale\n\n\n5\nAdelie\nTorgersen\n39.3\n20.6\n190.0\n3650.0\nMale"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#fundamento-en-los-axiomas-de-peano",
-    "href": "infinity_2024/presentacion.html#fundamento-en-los-axiomas-de-peano",
-    "title": "Más allá del Infinito",
-    "section": "Fundamento en los Axiomas de Peano",
-    "text": "Fundamento en los Axiomas de Peano\n\n\n\nPrimer Número: \\(0\\) o \\(1\\).\nSucesor: \\(1 \\rightarrow 2 \\rightarrow 3 \\rightarrow...\\)\nUnicidad: Cada número es único.\nInducción: Si un conjunto tiene 0 y sus sucesores, contiene a \\(\\mathbb{N}\\)."
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
+    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Ejemplo: dispersión",
+    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='bill_length_mm', y='bill_depth_mm', data=penguins, \n                color='salmon')\n\n# Mostrar el gráfico\nplt.show()"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto",
-    "href": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto",
-    "title": "Más allá del Infinito",
-    "section": "Cardinalidad de un Conjunto",
-    "text": "Cardinalidad de un Conjunto"
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
+    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Ejemplo: dispersión",
+    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='flipper_length_mm', y='body_mass_g', data=penguins, \n                color='salmon', hue= \"sex\")\n\n# Mostrar el gráfico\nplt.show()"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto-1",
-    "href": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto-1",
-    "title": "Más allá del Infinito",
-    "section": "Cardinalidad de un Conjunto",
-    "text": "Cardinalidad de un Conjunto\n\n\\(|A|\\): Contar todos los elementos de \\(A\\) exactamente una vez."
+    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
+    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Matplotlib vs Seaborn",
+    "text": "📊 Matplotlib vs Seaborn\nimport matplotlib.pyplot as plt\n\n# Contar la cantidad de Pingüinos por tipo\npenguins_type = penguins[\"species\"].value_counts()\n\n# Crear un gráfico de barras\nplt.figure(figsize=(6, 3))\npenguins_type.plot(kind=\"bar\", color=\"salmon\")\n\n# Mostrar gráfico\nplt.show()"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#números-naturales",
-    "href": "infinity_2024/presentacion.html#números-naturales",
-    "title": "Más allá del Infinito",
-    "section": "Números Naturales",
-    "text": "Números Naturales\n\n\n\n\n\\(\\mathbb{N} = \\{0,1,2,3,...\\}\\) son infinitos.\nTambién son infinitos:\n\nPares = \\(\\{2,4,6,...\\}\\).\nImpares = \\(\\{1,3,5,...\\}\\).\nPrimos = \\(\\{2,3,5,7,...\\}\\).\n\n\n\n\n\n\n\n\n\n\n(C) Números Primos son infinitos, Demostración de Euclides."
+    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
+    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Matplotlib vs Seaborn",
+    "text": "📊 Matplotlib vs Seaborn\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear el gráfico de barras con seaborn\nplt.figure(figsize=(6, 3))\nsns.countplot(data=penguins, x=\"species\", color=\"salmon\")\n\n# Mostrar el gráfico\nplt.show()"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#números-enteros",
-    "href": "infinity_2024/presentacion.html#números-enteros",
-    "title": "Más allá del Infinito",
-    "section": "Números Enteros",
-    "text": "Números Enteros\n\n\n\n\n\\(\\mathbb{N} = \\{0,1,2,3,...\\}\\)\n\\(\\mathbb{Z} = \\{0,-1,1,-2,2,-3,...\\}\\)\n\\(\\mathbb{N} \\subsetneq  \\mathbb{Z}\\) … ¿ \\(|\\mathbb{N}| &lt; |\\mathbb{Z}|\\) ?"
+    "objectID": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
+    "href": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
+    "title": "De los Números a la Narrativa",
+    "section": "🧑🏻‍💻 Aplicaciones Web Interactivas",
+    "text": "🧑🏻‍💻 Aplicaciones Web Interactivas\n\n\nStreamlit permite crear aplicaciones web rápidamente.\nPuedes integrar gráficos creados con Matplotlib y Seaborn.\nIdeal para compartir resultados de análisis de datos."
   },
   {
-    "objectID": "infinity_2024/presentacion.html#contemos-los-números-enteros",
-    "href": "infinity_2024/presentacion.html#contemos-los-números-enteros",
-    "title": "Más allá del Infinito",
-    "section": "Contemos los números enteros",
-    "text": "Contemos los números enteros\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| = |\\mathbb{Z}|  }}\\)"
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
+    "href": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
+    "title": "De los Números a la Narrativa",
+    "section": "Ejemplo de Streamlit",
+    "text": "Ejemplo de Streamlit"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#números-racionales",
-    "href": "infinity_2024/presentacion.html#números-racionales",
-    "title": "Más allá del Infinito",
-    "section": "Números Racionales",
-    "text": "Números Racionales\n\n\n\n\n\\(\\mathbb{Q} = \\{ \\dfrac{p}{q} | p,q \\in \\mathbb{Z}, q \\neq 0 \\}\\)\n\\(\\mathbb{N} \\subsetneq  \\mathbb{Z} \\subsetneq  \\mathbb{Q}\\) … ¿ \\(|\\mathbb{N}| &lt; |\\mathbb{Q}|\\) ?"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#contemos-los-números-racionales",
-    "href": "infinity_2024/presentacion.html#contemos-los-números-racionales",
-    "title": "Más allá del Infinito",
-    "section": "Contemos los números racionales",
-    "text": "Contemos los números racionales\n\n\n\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| \\leq |\\mathbb{Q_{+}}| \\leq |\\mathbb{N}| }}\\)\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| }}\\)"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#números-reales",
-    "href": "infinity_2024/presentacion.html#números-reales",
-    "title": "Más allá del Infinito",
-    "section": "Números Reales",
-    "text": "Números Reales\n\n\n\n\n\\(\\mathbb{R} = \\{ \\sqrt{2}, \\pi, \\mathrm{e}, ...  \\}\\)\n¿ \\(|\\mathbb{N}| &lt; |\\mathbb{R}|\\) ?"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#números-reales-1",
-    "href": "infinity_2024/presentacion.html#números-reales-1",
-    "title": "Más allá del Infinito",
-    "section": "Números Reales",
-    "text": "Números Reales\n\n\n\n\n\n\n\n\n\nEn 1891, Cantor probó que es imposible enumerar todos los números reales en \\((0,1)\\).\n\n\\(\\color{black}{\\boxed{\\aleph_1 = |\\mathbb{R}| &gt; |\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| = \\aleph_0}}\\)"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#section-1",
-    "href": "infinity_2024/presentacion.html#section-1",
-    "title": "Más allá del Infinito",
+    "objectID": "narrativas_2024/presentacion.html#section-3",
+    "href": "narrativas_2024/presentacion.html#section-3",
+    "title": "De los Números a la Narrativa",
     "section": "",
-    "text": "Infinito\nHotel de Hilbert"
+    "text": "¡Ahora te toca a ti!🫵"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#el-hotel-de-hilbert",
-    "href": "infinity_2024/presentacion.html#el-hotel-de-hilbert",
-    "title": "Más allá del Infinito",
-    "section": "El Hotel de Hilbert",
-    "text": "El Hotel de Hilbert\n\n\n\n\nHotel infinito: Siempre hay espacio para más.\nTruco: Mueve cada huésped adelante.\nLección: El infinito desafía la intuición."
+    "objectID": "narrativas_2024/presentacion.html#section-4",
+    "href": "narrativas_2024/presentacion.html#section-4",
+    "title": "De los Números a la Narrativa",
+    "section": "",
+    "text": "¡Ahora te toca a ti!🫵"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#bienvenidos-al-hotel-de-vale",
-    "href": "infinity_2024/presentacion.html#bienvenidos-al-hotel-de-vale",
-    "title": "Más allá del Infinito",
-    "section": "🐶 Bienvenidos al Hotel de Vale",
-    "text": "🐶 Bienvenidos al Hotel de Vale\n\n\n\n\n\n\n\n\n Un lugar mágico con infinitas habitaciones para perritos, donde cada uno tiene su espacio y siempre son bienvenidos.\n\n\n\n✨ !Siempre hay espacio para uno más!"
+    "objectID": "narrativas_2024/presentacion.html#conclusión",
+    "href": "narrativas_2024/presentacion.html#conclusión",
+    "title": "De los Números a la Narrativa",
+    "section": "🎓 Conclusión",
+    "text": "🎓 Conclusión\n\n\nMatplotlib para gráficos básicos.\nSeaborn para gráficos avanzados.\nStreamlit para aplicaciones interactivas."
   },
   {
-    "objectID": "infinity_2024/presentacion.html#caso-1-llega-un-nuevo-perrito",
-    "href": "infinity_2024/presentacion.html#caso-1-llega-un-nuevo-perrito",
-    "title": "Más allá del Infinito",
-    "section": "Caso 1: Llega un Nuevo Perrito",
-    "text": "Caso 1: Llega un Nuevo Perrito\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlega un Nuevo Perrito … ¿Qué hacemos?"
+    "objectID": "computacion_2024/presentacion.html#objetivos-del-curso",
+    "href": "computacion_2024/presentacion.html#objetivos-del-curso",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🎯 Objetivos del Curso",
+    "text": "🎯 Objetivos del Curso\n\n\nFamiliarizarse con los Dispositivos Básicos\nConocer y Usar Programas Básicos de Oficina\nNavegar en Internet de Forma Segura\nAprender a Utilizar Aplicaciones Útiles y Páginas de Interés\nDesarrollar Habilidades en Redes Sociales\nRealizar Transferencias Electrónicas y Pagos en Línea de Forma Segura"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#caso-2-infinitos-perritos",
-    "href": "infinity_2024/presentacion.html#caso-2-infinitos-perritos",
-    "title": "Más allá del Infinito",
-    "section": "Caso 2: Infinitos Perritos",
-    "text": "Caso 2: Infinitos Perritos\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlega un bus con infinitos perritos … ¿Qué hacemos?"
+    "objectID": "computacion_2024/presentacion.html#computador",
+    "href": "computacion_2024/presentacion.html#computador",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "Computador",
+    "text": "Computador"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos",
-    "href": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos",
-    "title": "Más allá del Infinito",
-    "section": "Caso 3: Infinitos Buses y Perritos",
-    "text": "Caso 3: Infinitos Buses y Perritos\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlegan inifinitos buses con infinitos perritos … ¿Qué hacemos?"
+    "objectID": "computacion_2024/presentacion.html#qué-es-un-computador",
+    "href": "computacion_2024/presentacion.html#qué-es-un-computador",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🤔 ¿Qué es un computador?",
+    "text": "🤔 ¿Qué es un computador?\n\n\n🖥️ Un computador es una máquina que ayuda a realizar tareas de forma rápida y organizada.\nEs como una “oficina” en una caja, donde se pueden:\n\nEscribir documentos 📄\nEnviar correos 📧\nVer fotos 📷\nConectarse con amigos y familiares 👥\n\nFunciona con programas o aplicaciones, que son como herramientas en una caja de herramientas 🧰"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos-1",
-    "href": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos-1",
-    "title": "Más allá del Infinito",
-    "section": "Caso 3: Infinitos Buses y Perritos",
-    "text": "Caso 3: Infinitos Buses y Perritos"
+    "objectID": "computacion_2024/presentacion.html#qué-es-un-notebook",
+    "href": "computacion_2024/presentacion.html#qué-es-un-notebook",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🤔 ¿Qué es un notebook?",
+    "text": "🤔 ¿Qué es un notebook?\n\n\n💻 Un notebook es un computador pequeño y liviano que se puede llevar a cualquier lugar.\nA diferencia de un computador de escritorio:\n\nTodo está integrado en una sola pieza 🧩\nFunciona con batería🔋\n\nEs ideal para usar en diferentes lugares, dentro y fuera de casa 👩🏻‍💻🧑🏻‍💻"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#conclusiones",
-    "href": "infinity_2024/presentacion.html#conclusiones",
-    "title": "Más allá del Infinito",
-    "section": "Conclusiones",
-    "text": "Conclusiones\n\n\n\n🌌 El \\(\\infty\\): Conceptos que desafían la intuición.\n📏 Cardinalidad: Diferentes tamaños de infinito.\n🐶 Hotel de Perritos: Infinito de forma entretenida."
+    "objectID": "computacion_2024/presentacion.html#qué-es-un-celular-inteligente",
+    "href": "computacion_2024/presentacion.html#qué-es-un-celular-inteligente",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🤔 ¿Qué es un Celular Inteligente?",
+    "text": "🤔 ¿Qué es un Celular Inteligente?\n\n\n📱 Un celular inteligente es un dispositivo portátil que combina funciones de teléfono y computador.\nPermite hacer llamadas, enviar mensajes, y conectarse a internet 📞\nSe pueden instalar aplicaciones para diversas tareas: desde redes sociales hasta banca en línea ⬇️\nEs ideal para mantenerse en contacto y acceder a información en cualquier momento y lugar ⌚"
   },
   {
-    "objectID": "infinity_2024/presentacion.html#gracias-por-participar",
-    "href": "infinity_2024/presentacion.html#gracias-por-participar",
-    "title": "Más allá del Infinito",
-    "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+    "objectID": "computacion_2024/presentacion.html#conocer-las-partes-del-computador",
+    "href": "computacion_2024/presentacion.html#conocer-las-partes-del-computador",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🖥️ Conocer las Partes del Computador",
+    "text": "🖥️ Conocer las Partes del Computador"
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#encender-el-computador",
+    "href": "computacion_2024/presentacion.html#encender-el-computador",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "💡 Encender el Computador",
+    "text": "💡 Encender el Computador\n\n\n Encender la CPU\n\n Encender el monitor\n\n Encender el notebook"
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#identificar-el-escritorio",
+    "href": "computacion_2024/presentacion.html#identificar-el-escritorio",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🔍 Identificar el Escritorio",
+    "text": "🔍 Identificar el Escritorio\n\n\n\n\n\n\n\nElementos principales:\n\nBarra de tareas\nIconos"
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#usar-el-mouse-y-el-teclado",
+    "href": "computacion_2024/presentacion.html#usar-el-mouse-y-el-teclado",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🖱️⌨️ Usar el Mouse y el Teclado",
+    "text": "🖱️⌨️ Usar el Mouse y el Teclado\n\n\nPracticar cómo mover el puntero con el mouse y hacer clic.\nEnseñar a hacer clic izquierdo para seleccionar y doble clic para abrir.\nPracticar escribir en el teclado (ejemplo: escribir su nombre en un documento)."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#abrir-y-cerrar-programas",
+    "href": "computacion_2024/presentacion.html#abrir-y-cerrar-programas",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📄 Abrir y Cerrar Programas",
+    "text": "📄 Abrir y Cerrar Programas\n\n\nMostrar cómo hacer clic en el botón de inicio para abrir programas (como Word o el navegador).\nPracticar abrir y cerrar programas, usando el botón de la “X” en la esquina superior."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#navegar-en-internet",
+    "href": "computacion_2024/presentacion.html#navegar-en-internet",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🛜 Navegar en Internet",
+    "text": "🛜 Navegar en Internet\n\n\nExplicar qué es el navegador y abrir uno (Chrome o Firefox, por ejemplo).\nPracticar cómo buscar en Google escribiendo palabras clave, como “clima” o “noticias”."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#apagar-el-computador",
+    "href": "computacion_2024/presentacion.html#apagar-el-computador",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🔘 Apagar el Computador",
+    "text": "🔘 Apagar el Computador\n\n\nExplicar que apagar el computador ayuda a mantenerlo en buen estado.\nMostrar el proceso para apagar desde el botón de inicio &gt; apagar."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#abrir-la-aplicación-de-reloj",
+    "href": "computacion_2024/presentacion.html#abrir-la-aplicación-de-reloj",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "⏰ Abrir la Aplicación de Reloj",
+    "text": "⏰ Abrir la Aplicación de Reloj\n\n\nEn la mayoría de los celulares, busca la aplicación llamada “Reloj”. Generalmente tiene un icono de un reloj.\nSi no la encuentras, puedes buscar “Reloj” en la barra de búsqueda de aplicaciones.\n\nSeleccionar la Opción de “Alarma”\n\nDentro de la aplicación, verás varias opciones como “Alarma”, “Temporizador”, y “Cronómetro”.\nToca en Alarma."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#crear-una-nueva-alarma",
+    "href": "computacion_2024/presentacion.html#crear-una-nueva-alarma",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "⏰ Crear una Nueva Alarma",
+    "text": "⏰ Crear una Nueva Alarma\n\n\nToca el icono de + o Añadir para crear una nueva alarma.\nSelecciona la hora y el minuto exactos para la alarma.\nPuedes configurar la alarma para que suene una sola vez o en días específicos, lo cual es útil si necesitas recordatorios recurrentes, como un medicamento diario.\n\nPersonalizar la Alarma\n\nEtiqueta o Nombre: Escribe un nombre para que sepas a qué se refiere, como “Medicación” o “Cita Médica”.\nRepetición: Configura si deseas que suene todos los días, o solo ciertos días de la semana.\nTono: Escoge un tono que sea fácil de reconocer."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#configurar-alarmas-con-recordatorios-extra",
+    "href": "computacion_2024/presentacion.html#configurar-alarmas-con-recordatorios-extra",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "⏰ Configurar Alarmas con Recordatorios Extra",
+    "text": "⏰ Configurar Alarmas con Recordatorios Extra\n\n\nEn algunos teléfonos, puedes crear recordatorios en la app de Calendario o Google Calendar. Esto permite que el teléfono te envíe una notificación con la hora y el motivo del recordatorio.\nIngresa la fecha y la hora de la cita, y selecciona “Añadir notificación”. Puedes agregar más de un aviso para que te recuerde varias veces antes de la hora indicada."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#comprobación",
+    "href": "computacion_2024/presentacion.html#comprobación",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "⏰ Comprobación",
+    "text": "⏰ Comprobación\n\n\nVerifica que las alarmas están activadas para que suenen en el horario adecuado.\nRecomienda a la persona revisarlas de vez en cuando para asegurarse de que están activas y programadas correctamente."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#consejos",
+    "href": "computacion_2024/presentacion.html#consejos",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "⏰ Consejos:",
+    "text": "⏰ Consejos:\n\n\nPrueba las Alarmas: Si es su primera vez, es buena idea hacer una prueba y verificar que el sonido de la alarma es suficiente.\nDuración del Sonido: Asegúrate de que el tono dure lo suficiente para que se escuche, especialmente si es algo tan importante como un medicamento."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#abrir-el-navegador-de-internet",
+    "href": "computacion_2024/presentacion.html#abrir-el-navegador-de-internet",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Abrir el Navegador de Internet",
+    "text": "📡 Abrir el Navegador de Internet\n\n\nExplica que debe buscar el navegador de internet en su celular o computador. Puede ser Google Chrome, Mozilla Firefox.\nHaga clic en el ícono para abrir el navegador."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#ir-a-la-barra-de-búsqueda-o-de-dirección",
+    "href": "computacion_2024/presentacion.html#ir-a-la-barra-de-búsqueda-o-de-dirección",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Ir a la Barra de Búsqueda o de Dirección",
+    "text": "📡 Ir a la Barra de Búsqueda o de Dirección\n\n\n\nUna vez en el navegador, escribir en la barra de búsqueda o barra de direcciones. Es el espacio en la parte superior donde puede escribir palabras o direcciones de sitios web."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#ejemplo",
+    "href": "computacion_2024/presentacion.html#ejemplo",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Ejemplo",
+    "text": "📡 Ejemplo\n\n\n\nEscribamos “ChileAtiende” en la barra de búsqueda y luego presione Enter o toque el botón de Buscar.\nEsto le mostrará una lista de resultados; debemos hacer clic en el primer enlace oficial que aparece, que suele decir www.chileatiende.cl o ChileAtiende - Gobierno de Chile."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#ingresar-directamente-la-dirección",
+    "href": "computacion_2024/presentacion.html#ingresar-directamente-la-dirección",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Ingresar Directamente la Dirección",
+    "text": "📡 Ingresar Directamente la Dirección\n\n\nAlternativamente, puede escribir directamente la dirección www.chileatiende.cl en la barra de direcciones si se siente cómodo.\nLuego, debe presionar Enter para abrir el sitio web."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#navegar-en-el-sitio",
+    "href": "computacion_2024/presentacion.html#navegar-en-el-sitio",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Navegar en el Sitio",
+    "text": "📡 Navegar en el Sitio\n\n\nUna vez en el sitio de ChileAtiende, podemos desplazarnos hacia abajo o hacia arriba para ver más contenido.\nTambién podemos usar las opciones del menú en la parte superior o buscar un servicio específico usando la barra de búsqueda dentro de la página."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#consejos-para-facilidad-de-uso",
+    "href": "computacion_2024/presentacion.html#consejos-para-facilidad-de-uso",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Consejos para Facilidad de Uso",
+    "text": "📡 Consejos para Facilidad de Uso\n\n\nGuardar la Página: Si es una página que visitará frecuentemente, podemos guardar la página como marcador o favorito. Esto se hace generalmente tocando el ícono de estrella o seleccionando “Agregar a Favoritos” en el menú del navegador.\nBuscar Información en el Sitio: En la página de ChileAtiende, muchas veces la información está organizada por temas. Ahora escribiremos palabras clave como “pensiones” o “salud” en el buscador del sitio para encontrar información específica."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#resumen-de-los-pasos",
+    "href": "computacion_2024/presentacion.html#resumen-de-los-pasos",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Resumen de los Pasos:",
+    "text": "📡 Resumen de los Pasos:\n\n\nAbrir el navegador.\nIr a la barra de búsqueda y escribir “ChileAtiende”.\nBuscar y hacer clic en el enlace oficial.\nExplorar el sitio y guardar en favoritos si es necesario."
   },
   {
     "objectID": "profesional_2024/presentacion.html#estudiar-graduarse-y-trabajar",
@@ -882,592 +1043,431 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
-    "objectID": "computacion_2024/presentacion.html#objetivos-del-curso",
-    "href": "computacion_2024/presentacion.html#objetivos-del-curso",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🎯 Objetivos del Curso",
-    "text": "🎯 Objetivos del Curso\n\n\nFamiliarizarse con los Dispositivos Básicos\nConocer y Usar Programas Básicos de Oficina\nNavegar en Internet de Forma Segura\nAprender a Utilizar Aplicaciones Útiles y Páginas de Interés\nDesarrollar Habilidades en Redes Sociales\nRealizar Transferencias Electrónicas y Pagos en Línea de Forma Segura"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#computador",
-    "href": "computacion_2024/presentacion.html#computador",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "Computador",
-    "text": "Computador"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#qué-es-un-computador",
-    "href": "computacion_2024/presentacion.html#qué-es-un-computador",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🤔 ¿Qué es un computador?",
-    "text": "🤔 ¿Qué es un computador?\n\n\n🖥️ Un computador es una máquina que ayuda a realizar tareas de forma rápida y organizada.\nEs como una “oficina” en una caja, donde se pueden:\n\nEscribir documentos 📄\nEnviar correos 📧\nVer fotos 📷\nConectarse con amigos y familiares 👥\n\nFunciona con programas o aplicaciones, que son como herramientas en una caja de herramientas 🧰"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#qué-es-un-notebook",
-    "href": "computacion_2024/presentacion.html#qué-es-un-notebook",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🤔 ¿Qué es un notebook?",
-    "text": "🤔 ¿Qué es un notebook?\n\n\n💻 Un notebook es un computador pequeño y liviano que se puede llevar a cualquier lugar.\nA diferencia de un computador de escritorio:\n\nTodo está integrado en una sola pieza 🧩\nFunciona con batería🔋\n\nEs ideal para usar en diferentes lugares, dentro y fuera de casa 👩🏻‍💻🧑🏻‍💻"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#qué-es-un-celular-inteligente",
-    "href": "computacion_2024/presentacion.html#qué-es-un-celular-inteligente",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🤔 ¿Qué es un Celular Inteligente?",
-    "text": "🤔 ¿Qué es un Celular Inteligente?\n\n\n📱 Un celular inteligente es un dispositivo portátil que combina funciones de teléfono y computador.\nPermite hacer llamadas, enviar mensajes, y conectarse a internet 📞\nSe pueden instalar aplicaciones para diversas tareas: desde redes sociales hasta banca en línea ⬇️\nEs ideal para mantenerse en contacto y acceder a información en cualquier momento y lugar ⌚"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#conocer-las-partes-del-computador",
-    "href": "computacion_2024/presentacion.html#conocer-las-partes-del-computador",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🖥️ Conocer las Partes del Computador",
-    "text": "🖥️ Conocer las Partes del Computador"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#encender-el-computador",
-    "href": "computacion_2024/presentacion.html#encender-el-computador",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "💡 Encender el Computador",
-    "text": "💡 Encender el Computador\n\n\n Encender la CPU\n\n Encender el monitor\n\n Encender el notebook"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#identificar-el-escritorio",
-    "href": "computacion_2024/presentacion.html#identificar-el-escritorio",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🔍 Identificar el Escritorio",
-    "text": "🔍 Identificar el Escritorio\n\n\n\n\n\n\n\nElementos principales:\n\nBarra de tareas\nIconos"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#usar-el-mouse-y-el-teclado",
-    "href": "computacion_2024/presentacion.html#usar-el-mouse-y-el-teclado",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🖱️⌨️ Usar el Mouse y el Teclado",
-    "text": "🖱️⌨️ Usar el Mouse y el Teclado\n\n\nPracticar cómo mover el puntero con el mouse y hacer clic.\nEnseñar a hacer clic izquierdo para seleccionar y doble clic para abrir.\nPracticar escribir en el teclado (ejemplo: escribir su nombre en un documento)."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#abrir-y-cerrar-programas",
-    "href": "computacion_2024/presentacion.html#abrir-y-cerrar-programas",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📄 Abrir y Cerrar Programas",
-    "text": "📄 Abrir y Cerrar Programas\n\n\nMostrar cómo hacer clic en el botón de inicio para abrir programas (como Word o el navegador).\nPracticar abrir y cerrar programas, usando el botón de la “X” en la esquina superior."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#navegar-en-internet",
-    "href": "computacion_2024/presentacion.html#navegar-en-internet",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🛜 Navegar en Internet",
-    "text": "🛜 Navegar en Internet\n\n\nExplicar qué es el navegador y abrir uno (Chrome o Firefox, por ejemplo).\nPracticar cómo buscar en Google escribiendo palabras clave, como “clima” o “noticias”."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#apagar-el-computador",
-    "href": "computacion_2024/presentacion.html#apagar-el-computador",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🔘 Apagar el Computador",
-    "text": "🔘 Apagar el Computador\n\n\nExplicar que apagar el computador ayuda a mantenerlo en buen estado.\nMostrar el proceso para apagar desde el botón de inicio &gt; apagar."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#abrir-la-aplicación-de-reloj",
-    "href": "computacion_2024/presentacion.html#abrir-la-aplicación-de-reloj",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "⏰ Abrir la Aplicación de Reloj",
-    "text": "⏰ Abrir la Aplicación de Reloj\n\n\nEn la mayoría de los celulares, busca la aplicación llamada “Reloj”. Generalmente tiene un icono de un reloj.\nSi no la encuentras, puedes buscar “Reloj” en la barra de búsqueda de aplicaciones.\n\nSeleccionar la Opción de “Alarma”\n\nDentro de la aplicación, verás varias opciones como “Alarma”, “Temporizador”, y “Cronómetro”.\nToca en Alarma."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#crear-una-nueva-alarma",
-    "href": "computacion_2024/presentacion.html#crear-una-nueva-alarma",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "⏰ Crear una Nueva Alarma",
-    "text": "⏰ Crear una Nueva Alarma\n\n\nToca el icono de + o Añadir para crear una nueva alarma.\nSelecciona la hora y el minuto exactos para la alarma.\nPuedes configurar la alarma para que suene una sola vez o en días específicos, lo cual es útil si necesitas recordatorios recurrentes, como un medicamento diario.\n\nPersonalizar la Alarma\n\nEtiqueta o Nombre: Escribe un nombre para que sepas a qué se refiere, como “Medicación” o “Cita Médica”.\nRepetición: Configura si deseas que suene todos los días, o solo ciertos días de la semana.\nTono: Escoge un tono que sea fácil de reconocer."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#configurar-alarmas-con-recordatorios-extra",
-    "href": "computacion_2024/presentacion.html#configurar-alarmas-con-recordatorios-extra",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "⏰ Configurar Alarmas con Recordatorios Extra",
-    "text": "⏰ Configurar Alarmas con Recordatorios Extra\n\n\nEn algunos teléfonos, puedes crear recordatorios en la app de Calendario o Google Calendar. Esto permite que el teléfono te envíe una notificación con la hora y el motivo del recordatorio.\nIngresa la fecha y la hora de la cita, y selecciona “Añadir notificación”. Puedes agregar más de un aviso para que te recuerde varias veces antes de la hora indicada."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#comprobación",
-    "href": "computacion_2024/presentacion.html#comprobación",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "⏰ Comprobación",
-    "text": "⏰ Comprobación\n\n\nVerifica que las alarmas están activadas para que suenen en el horario adecuado.\nRecomienda a la persona revisarlas de vez en cuando para asegurarse de que están activas y programadas correctamente."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#consejos",
-    "href": "computacion_2024/presentacion.html#consejos",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "⏰ Consejos:",
-    "text": "⏰ Consejos:\n\n\nPrueba las Alarmas: Si es su primera vez, es buena idea hacer una prueba y verificar que el sonido de la alarma es suficiente.\nDuración del Sonido: Asegúrate de que el tono dure lo suficiente para que se escuche, especialmente si es algo tan importante como un medicamento."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#abrir-el-navegador-de-internet",
-    "href": "computacion_2024/presentacion.html#abrir-el-navegador-de-internet",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Abrir el Navegador de Internet",
-    "text": "📡 Abrir el Navegador de Internet\n\n\nExplica que debe buscar el navegador de internet en su celular o computador. Puede ser Google Chrome, Mozilla Firefox.\nHaga clic en el ícono para abrir el navegador."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#ir-a-la-barra-de-búsqueda-o-de-dirección",
-    "href": "computacion_2024/presentacion.html#ir-a-la-barra-de-búsqueda-o-de-dirección",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Ir a la Barra de Búsqueda o de Dirección",
-    "text": "📡 Ir a la Barra de Búsqueda o de Dirección\n\n\n\nUna vez en el navegador, escribir en la barra de búsqueda o barra de direcciones. Es el espacio en la parte superior donde puede escribir palabras o direcciones de sitios web."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#ejemplo",
-    "href": "computacion_2024/presentacion.html#ejemplo",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Ejemplo",
-    "text": "📡 Ejemplo\n\n\n\nEscribamos “ChileAtiende” en la barra de búsqueda y luego presione Enter o toque el botón de Buscar.\nEsto le mostrará una lista de resultados; debemos hacer clic en el primer enlace oficial que aparece, que suele decir www.chileatiende.cl o ChileAtiende - Gobierno de Chile."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#ingresar-directamente-la-dirección",
-    "href": "computacion_2024/presentacion.html#ingresar-directamente-la-dirección",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Ingresar Directamente la Dirección",
-    "text": "📡 Ingresar Directamente la Dirección\n\n\nAlternativamente, puede escribir directamente la dirección www.chileatiende.cl en la barra de direcciones si se siente cómodo.\nLuego, debe presionar Enter para abrir el sitio web."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#navegar-en-el-sitio",
-    "href": "computacion_2024/presentacion.html#navegar-en-el-sitio",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Navegar en el Sitio",
-    "text": "📡 Navegar en el Sitio\n\n\nUna vez en el sitio de ChileAtiende, podemos desplazarnos hacia abajo o hacia arriba para ver más contenido.\nTambién podemos usar las opciones del menú en la parte superior o buscar un servicio específico usando la barra de búsqueda dentro de la página."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#consejos-para-facilidad-de-uso",
-    "href": "computacion_2024/presentacion.html#consejos-para-facilidad-de-uso",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Consejos para Facilidad de Uso",
-    "text": "📡 Consejos para Facilidad de Uso\n\n\nGuardar la Página: Si es una página que visitará frecuentemente, podemos guardar la página como marcador o favorito. Esto se hace generalmente tocando el ícono de estrella o seleccionando “Agregar a Favoritos” en el menú del navegador.\nBuscar Información en el Sitio: En la página de ChileAtiende, muchas veces la información está organizada por temas. Ahora escribiremos palabras clave como “pensiones” o “salud” en el buscador del sitio para encontrar información específica."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#resumen-de-los-pasos",
-    "href": "computacion_2024/presentacion.html#resumen-de-los-pasos",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Resumen de los Pasos:",
-    "text": "📡 Resumen de los Pasos:\n\n\nAbrir el navegador.\nIr a la barra de búsqueda y escribir “ChileAtiende”.\nBuscar y hacer clic en el enlace oficial.\nExplorar el sitio y guardar en favoritos si es necesario."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
-    "href": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
-    "title": "De los Números a la Narrativa",
-    "section": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?",
-    "text": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#objetivos-del-taller",
-    "href": "narrativas_2024/presentacion.html#objetivos-del-taller",
-    "title": "De los Números a la Narrativa",
-    "section": "🎯 Objetivos del Taller",
-    "text": "🎯 Objetivos del Taller\n\n\n📊 Aprender sobre visualización de datos.\n🧑‍🎨 Aprender a crear visualizaciones.\n🌐 Entender cómo construir una app interactiva.\n💻 Integrar visualizaciones en una aplicación web simple."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
-    "href": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
-    "title": "De los Números a la Narrativa",
-    "section": "🤔 ¿Qué es la Visualización de Datos?",
-    "text": "🤔 ¿Qué es la Visualización de Datos?\n\n\n La visualización de datos transforma información en gráficos para facilitar su comprensión."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
-    "href": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
-    "title": "De los Números a la Narrativa",
-    "section": "Cuarteto de ANSCOMBE",
-    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n📋 Tablas vs 📊 Gráficos"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#teoría-de-visualización",
-    "href": "narrativas_2024/presentacion.html#teoría-de-visualización",
-    "title": "De los Números a la Narrativa",
-    "section": "Teoría de visualización",
-    "text": "Teoría de visualización"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#pilares-visualización---noah-iliinsky",
-    "href": "narrativas_2024/presentacion.html#pilares-visualización---noah-iliinsky",
-    "title": "De los Números a la Narrativa",
-    "section": "4 Pilares Visualización - Noah Iliinsky",
-    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#herramientas-de-visualización-en-python",
-    "href": "narrativas_2024/presentacion.html#herramientas-de-visualización-en-python",
-    "title": "De los Números a la Narrativa",
-    "section": "Herramientas de Visualización en Python",
-    "text": "Herramientas de Visualización en Python"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#exploración-de-datos",
-    "href": "narrativas_2024/presentacion.html#exploración-de-datos",
-    "title": "De los Números a la Narrativa",
-    "section": "Exploración de Datos",
-    "text": "Exploración de Datos\n\n\n\n\n\n\n\n\n\n\n¡Demasiadas opciones!  El usuario no puede ser responsable de encontrar lo valioso."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#tipos-de-gráficos-esenciales",
-    "href": "narrativas_2024/presentacion.html#tipos-de-gráficos-esenciales",
-    "title": "De los Números a la Narrativa",
-    "section": "Tipos de Gráficos Esenciales",
-    "text": "Tipos de Gráficos Esenciales\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#section",
-    "href": "narrativas_2024/presentacion.html#section",
-    "title": "De los Números a la Narrativa",
-    "section": "",
-    "text": "Matplotlib es una biblioteca para crear gráficos estáticos.\nTipos de gráficos más comunes:\n\nLíneas, Barras, Dispersión, Histograma."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-líneas",
-    "href": "narrativas_2024/presentacion.html#ejemplo-líneas",
-    "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo: líneas",
-    "text": "〽️ Ejemplo: líneas\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión",
-    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión",
-    "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo: dispersión",
-    "text": "〽️ Ejemplo: dispersión\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras",
-    "href": "narrativas_2024/presentacion.html#ejemplo-barras",
-    "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo: barras",
-    "text": "〽️ Ejemplo: barras\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
-    "href": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
-    "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo: barras horizontales",
-    "text": "〽️ Ejemplo: barras horizontales\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#section-2",
-    "href": "narrativas_2024/presentacion.html#section-2",
-    "title": "De los Números a la Narrativa",
-    "section": "",
-    "text": "Seaborn extiende Matplotlib con gráficos más estilizados.\nEspecialmente útil para:\n\nGráficos estadísticos.\nAnálisis exploratorio de datos."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-penguins",
-    "href": "narrativas_2024/presentacion.html#ejemplo-penguins",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Ejemplo: penguins",
-    "text": "📊 Ejemplo: penguins\n\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nMale\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nFemale\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nFemale\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nFemale\n\n\n5\nAdelie\nTorgersen\n39.3\n20.6\n190.0\n3650.0\nMale"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
-    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Ejemplo: dispersión",
-    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='bill_length_mm', y='bill_depth_mm', data=penguins, \n                color='salmon')\n\n# Mostrar el gráfico\nplt.show()"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
-    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Ejemplo: dispersión",
-    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='flipper_length_mm', y='body_mass_g', data=penguins, \n                color='salmon', hue= \"sex\")\n\n# Mostrar el gráfico\nplt.show()"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
-    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Matplotlib vs Seaborn",
-    "text": "📊 Matplotlib vs Seaborn\nimport matplotlib.pyplot as plt\n\n# Contar la cantidad de Pingüinos por tipo\npenguins_type = penguins[\"species\"].value_counts()\n\n# Crear un gráfico de barras\nplt.figure(figsize=(6, 3))\npenguins_type.plot(kind=\"bar\", color=\"salmon\")\n\n# Mostrar gráfico\nplt.show()"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
-    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Matplotlib vs Seaborn",
-    "text": "📊 Matplotlib vs Seaborn\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear el gráfico de barras con seaborn\nplt.figure(figsize=(6, 3))\nsns.countplot(data=penguins, x=\"species\", color=\"salmon\")\n\n# Mostrar el gráfico\nplt.show()"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
-    "href": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
-    "title": "De los Números a la Narrativa",
-    "section": "🧑🏻‍💻 Aplicaciones Web Interactivas",
-    "text": "🧑🏻‍💻 Aplicaciones Web Interactivas\n\n\nStreamlit permite crear aplicaciones web rápidamente.\nPuedes integrar gráficos creados con Matplotlib y Seaborn.\nIdeal para compartir resultados de análisis de datos."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
-    "href": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
-    "title": "De los Números a la Narrativa",
-    "section": "Ejemplo de Streamlit",
-    "text": "Ejemplo de Streamlit"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#section-3",
-    "href": "narrativas_2024/presentacion.html#section-3",
-    "title": "De los Números a la Narrativa",
-    "section": "",
-    "text": "¡Ahora te toca a ti!🫵"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#section-4",
-    "href": "narrativas_2024/presentacion.html#section-4",
-    "title": "De los Números a la Narrativa",
-    "section": "",
-    "text": "¡Ahora te toca a ti!🫵"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#conclusión",
-    "href": "narrativas_2024/presentacion.html#conclusión",
-    "title": "De los Números a la Narrativa",
-    "section": "🎓 Conclusión",
-    "text": "🎓 Conclusión\n\n\nMatplotlib para gráficos básicos.\nSeaborn para gráficos avanzados.\nStreamlit para aplicaciones interactivas."
-  },
-  {
-    "objectID": "shinyconf_2025/presentacion.html#agenda",
-    "href": "shinyconf_2025/presentacion.html#agenda",
+    "objectID": "shiny_2025/presentacion.html#agenda",
+    "href": "shiny_2025/presentacion.html#agenda",
     "title": "From Data to Narrative",
     "section": "Agenda",
     "text": "Agenda\n\n\n\n\nNo\nNope\nJamás"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#section",
-    "href": "shinyconf_2025/presentacion.html#section",
+    "objectID": "shiny_2025/presentacion.html#section",
+    "href": "shiny_2025/presentacion.html#section",
     "title": "From Data to Narrative",
     "section": "",
     "text": "Regla de Storytelling #1\n\n\nNunca reveles el final antes de tiempo.\nSiempre eleva la tensión y el dramatismo"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#agenda-v2",
-    "href": "shinyconf_2025/presentacion.html#agenda-v2",
+    "objectID": "shiny_2025/presentacion.html#agenda-v2",
+    "href": "shiny_2025/presentacion.html#agenda-v2",
     "title": "From Data to Narrative",
     "section": "Agenda (v2)",
     "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes.\nTu primera versión será horrible.\nMuestra, no cuentes."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#section-1",
-    "href": "shinyconf_2025/presentacion.html#section-1",
+    "objectID": "shiny_2025/presentacion.html#section-1",
+    "href": "shiny_2025/presentacion.html#section-1",
     "title": "From Data to Narrative",
     "section": "",
     "text": "Data Storytelling\n¿Por qué Data Storytelling?"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#qué-es-el-storytelling",
-    "href": "shinyconf_2025/presentacion.html#qué-es-el-storytelling",
+    "objectID": "shiny_2025/presentacion.html#qué-es-el-storytelling",
+    "href": "shiny_2025/presentacion.html#qué-es-el-storytelling",
     "title": "From Data to Narrative",
     "section": "¿Qué es el Storytelling?",
     "text": "¿Qué es el Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#esos-cerebros-tan-hackables",
-    "href": "shinyconf_2025/presentacion.html#esos-cerebros-tan-hackables",
+    "objectID": "shiny_2025/presentacion.html#esos-cerebros-tan-hackables",
+    "href": "shiny_2025/presentacion.html#esos-cerebros-tan-hackables",
     "title": "From Data to Narrative",
     "section": "Esos cerebros tan hackables…",
     "text": "Esos cerebros tan hackables…\n\n\n\nRegla del máximo y final (Peak-End Rule)\n\n\nRating de Game of Thrones, por Kelvin Neo"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#narrativa",
-    "href": "shinyconf_2025/presentacion.html#narrativa",
+    "objectID": "shiny_2025/presentacion.html#narrativa",
+    "href": "shiny_2025/presentacion.html#narrativa",
     "title": "From Data to Narrative",
     "section": "Narrativa",
     "text": "Narrativa\n\n\n Usar trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n🎭 Las emociones generan acciones"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#el-mejor-ejemplo",
-    "href": "shinyconf_2025/presentacion.html#el-mejor-ejemplo",
+    "objectID": "shiny_2025/presentacion.html#el-mejor-ejemplo",
+    "href": "shiny_2025/presentacion.html#el-mejor-ejemplo",
     "title": "From Data to Narrative",
     "section": "El mejor ejemplo",
     "text": "El mejor ejemplo\n\n\n\n\n\n\n\n\n ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#section-2",
-    "href": "shinyconf_2025/presentacion.html#section-2",
+    "objectID": "shiny_2025/presentacion.html#section-2",
+    "href": "shiny_2025/presentacion.html#section-2",
     "title": "From Data to Narrative",
     "section": "",
     "text": "Regla de Storytelling #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#ejemplos",
-    "href": "shinyconf_2025/presentacion.html#ejemplos",
+    "objectID": "shiny_2025/presentacion.html#ejemplos",
+    "href": "shiny_2025/presentacion.html#ejemplos",
     "title": "From Data to Narrative",
     "section": "Ejemplos",
     "text": "Ejemplos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#section-3",
-    "href": "shinyconf_2025/presentacion.html#section-3",
+    "objectID": "shiny_2025/presentacion.html#section-3",
+    "href": "shiny_2025/presentacion.html#section-3",
     "title": "From Data to Narrative",
     "section": "",
     "text": "Regla de Storytelling #3\n\n\nTu primera versión siempre será horrible."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#ejemplos-1",
-    "href": "shinyconf_2025/presentacion.html#ejemplos-1",
+    "objectID": "shiny_2025/presentacion.html#ejemplos-1",
+    "href": "shiny_2025/presentacion.html#ejemplos-1",
     "title": "From Data to Narrative",
     "section": "Ejemplos",
     "text": "Ejemplos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🥱 1° versión \\(&lt;\\) … \\(&lt;\\) 😊 última versión"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#usar-chatbots-de-ia-para",
-    "href": "shinyconf_2025/presentacion.html#usar-chatbots-de-ia-para",
+    "objectID": "shiny_2025/presentacion.html#usar-chatbots-de-ia-para",
+    "href": "shiny_2025/presentacion.html#usar-chatbots-de-ia-para",
     "title": "From Data to Narrative",
     "section": "Usar chatbots de IA para:",
     "text": "Usar chatbots de IA para:\n\n\n\n\nPlantillas personalizadas a medida\nAutomatizar estructura del contenido\nAhorro de tiempo en diseño\nAdaptación al estilo y preferencias"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#usar-chatbots-de-ia-para-1",
-    "href": "shinyconf_2025/presentacion.html#usar-chatbots-de-ia-para-1",
+    "objectID": "shiny_2025/presentacion.html#usar-chatbots-de-ia-para-1",
+    "href": "shiny_2025/presentacion.html#usar-chatbots-de-ia-para-1",
     "title": "From Data to Narrative",
     "section": "Usar chatbots de IA para:",
     "text": "Usar chatbots de IA para:\n\n\n\n\nAnalogías y ejemplos\nMejores traducciones\nPrompts para crear imágenes\nNo busques imágenes, créalas!"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#section-4",
-    "href": "shinyconf_2025/presentacion.html#section-4",
+    "objectID": "shiny_2025/presentacion.html#section-4",
+    "href": "shiny_2025/presentacion.html#section-4",
     "title": "From Data to Narrative",
     "section": "",
     "text": "Regla de Storytelling #4\n\n\nExplicar menos y mostrar más"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#explicar-menos-y-mostrar-más",
-    "href": "shinyconf_2025/presentacion.html#explicar-menos-y-mostrar-más",
+    "objectID": "shiny_2025/presentacion.html#explicar-menos-y-mostrar-más",
+    "href": "shiny_2025/presentacion.html#explicar-menos-y-mostrar-más",
     "title": "From Data to Narrative",
     "section": "Explicar menos y mostrar más",
     "text": "Explicar menos y mostrar más\n\n\nimport matplotlib.pyplot as plt\n\n# Datos de ejemplo\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\n\n# Generamos el gráfico\nplt.figure(figsize=(6, 4))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.xlabel(\"Eje X\")\nplt.ylabel(\"Eje Y\")\nplt.grid(True)\nplt.show()"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#explicar-menos-y-mostrar-más-1",
-    "href": "shinyconf_2025/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "objectID": "shiny_2025/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "href": "shiny_2025/presentacion.html#explicar-menos-y-mostrar-más-1",
     "title": "From Data to Narrative",
     "section": "Explicar menos y mostrar más",
     "text": "Explicar menos y mostrar más\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#agenda-v2-1",
-    "href": "shinyconf_2025/presentacion.html#agenda-v2-1",
+    "objectID": "shiny_2025/presentacion.html#agenda-v2-1",
+    "href": "shiny_2025/presentacion.html#agenda-v2-1",
     "title": "From Data to Narrative",
     "section": "Agenda (v2)",
     "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nMuestra, no cuentes\n\n\n\nOpción 2: Una agenda misteriosa."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#section-5",
-    "href": "shinyconf_2025/presentacion.html#section-5",
+    "objectID": "shiny_2025/presentacion.html#section-5",
+    "href": "shiny_2025/presentacion.html#section-5",
     "title": "From Data to Narrative",
     "section": "",
     "text": "Visualización\n¿Qué es la Visualización?"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#visualización",
-    "href": "shinyconf_2025/presentacion.html#visualización",
+    "objectID": "shiny_2025/presentacion.html#visualización",
+    "href": "shiny_2025/presentacion.html#visualización",
     "title": "From Data to Narrative",
     "section": "Visualización…",
     "text": "Visualización…\n\n\n\n\nConvierte datos en gráficos para facilitar su comprensión.\nDestaca patrones y tendencias de forma clara."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#ejemplos-2",
-    "href": "shinyconf_2025/presentacion.html#ejemplos-2",
+    "objectID": "shiny_2025/presentacion.html#ejemplos-2",
+    "href": "shiny_2025/presentacion.html#ejemplos-2",
     "title": "From Data to Narrative",
     "section": "Ejemplos",
     "text": "Ejemplos\n\n\n\n\n\n\n\n❌ Mal Gráfico\n\n\n\n\n\n\n✅ Buen Gráfico"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#cuarteto-de-anscombe",
-    "href": "shinyconf_2025/presentacion.html#cuarteto-de-anscombe",
+    "objectID": "shiny_2025/presentacion.html#cuarteto-de-anscombe",
+    "href": "shiny_2025/presentacion.html#cuarteto-de-anscombe",
     "title": "From Data to Narrative",
     "section": "Cuarteto de ANSCOMBE",
     "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n📋 Tablas vs 📊 Gráficos"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#teoría-de-visualización",
-    "href": "shinyconf_2025/presentacion.html#teoría-de-visualización",
+    "objectID": "shiny_2025/presentacion.html#teoría-de-visualización",
+    "href": "shiny_2025/presentacion.html#teoría-de-visualización",
     "title": "From Data to Narrative",
     "section": "Teoría de Visualización",
     "text": "Teoría de Visualización"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#pilares-visualización---noah-iliinsky",
-    "href": "shinyconf_2025/presentacion.html#pilares-visualización---noah-iliinsky",
+    "objectID": "shiny_2025/presentacion.html#pilares-visualización---noah-iliinsky",
+    "href": "shiny_2025/presentacion.html#pilares-visualización---noah-iliinsky",
     "title": "From Data to Narrative",
     "section": "4 Pilares Visualización - Noah Iliinsky",
     "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado.\n\n\n\n\n\n\n\n\n\n(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#qué-gráficos-son-buenos",
-    "href": "shinyconf_2025/presentacion.html#qué-gráficos-son-buenos",
+    "objectID": "shiny_2025/presentacion.html#qué-gráficos-son-buenos",
+    "href": "shiny_2025/presentacion.html#qué-gráficos-son-buenos",
     "title": "From Data to Narrative",
     "section": "Qué Gráficos son buenos?",
     "text": "Qué Gráficos son buenos?\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#section-6",
-    "href": "shinyconf_2025/presentacion.html#section-6",
+    "objectID": "shiny_2025/presentacion.html#section-6",
+    "href": "shiny_2025/presentacion.html#section-6",
     "title": "From Data to Narrative",
     "section": "",
     "text": "Herramientas\nHerramientas de Visualización"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#herramientas-para-presentación",
-    "href": "shinyconf_2025/presentacion.html#herramientas-para-presentación",
+    "objectID": "shiny_2025/presentacion.html#herramientas-para-presentación",
+    "href": "shiny_2025/presentacion.html#herramientas-para-presentación",
     "title": "From Data to Narrative",
     "section": "Herramientas para presentación",
     "text": "Herramientas para presentación\n\n\n\nClásica: PowerPoint\n“Show don’t tell”:\n\nQuarto\nStreamlit\n\nOtros: Canvas, Revealjs, Prezi"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#quarto",
-    "href": "shinyconf_2025/presentacion.html#quarto",
+    "objectID": "shiny_2025/presentacion.html#quarto",
+    "href": "shiny_2025/presentacion.html#quarto",
     "title": "From Data to Narrative",
     "section": "Quarto",
     "text": "Quarto\n\n\n\nUn sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R)."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#section-7",
-    "href": "shinyconf_2025/presentacion.html#section-7",
+    "objectID": "shiny_2025/presentacion.html#section-7",
+    "href": "shiny_2025/presentacion.html#section-7",
     "title": "From Data to Narrative",
     "section": "",
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#streamlit",
-    "href": "shinyconf_2025/presentacion.html#streamlit",
+    "objectID": "shiny_2025/presentacion.html#streamlit",
+    "href": "shiny_2025/presentacion.html#streamlit",
     "title": "From Data to Narrative",
     "section": "Streamlit",
     "text": "Streamlit\n\n\n Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#streamlit-ejemplo",
-    "href": "shinyconf_2025/presentacion.html#streamlit-ejemplo",
+    "objectID": "shiny_2025/presentacion.html#streamlit-ejemplo",
+    "href": "shiny_2025/presentacion.html#streamlit-ejemplo",
     "title": "From Data to Narrative",
     "section": "Streamlit: Ejemplo",
     "text": "Streamlit: Ejemplo\n\n\nimport streamlit as st\n\n# Título principal de la aplicación\nst.title(\"Hola Streamlit\")\n\n# Mensaje principal con nombres y emoticón fijos\nmensaje = \"Darwin y Patricia son mejores amigos 😊\"\nst.write(mensaje)\n\n# Imagen decorativa\nst.image(\n    \"https://www.svgrepo.com/show/397758/people-hugging.svg\",\n    caption=\"Amigos\",\n    width=200  # Ajuste del tamaño de la imagen\n)\n\n# Footer\nst.markdown(\n    \"\"\"\n    ---\n    Gracias por usar esta aplicación interactiva 🎈\n    \"\"\"\n)\n\n\n\n\n\n\n\n\n\n(C) Ejemplo en Streamlit - Playground."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#html-webapps",
-    "href": "shinyconf_2025/presentacion.html#html-webapps",
+    "objectID": "shiny_2025/presentacion.html#html-webapps",
+    "href": "shiny_2025/presentacion.html#html-webapps",
     "title": "From Data to Narrative",
     "section": "HTML & webapps",
     "text": "HTML & webapps\n\n\n🛠️ Elige una herramienta\n\n💡 La innovación destaca"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#flujo-de-decisión",
-    "href": "shinyconf_2025/presentacion.html#flujo-de-decisión",
+    "objectID": "shiny_2025/presentacion.html#flujo-de-decisión",
+    "href": "shiny_2025/presentacion.html#flujo-de-decisión",
     "title": "From Data to Narrative",
     "section": "Flujo de decisión",
     "text": "Flujo de decisión\n\n\n\n🎤 PowerPoint: Presentación sin código de un solo uso\n📚 Quarto: Charlas a partir de documentos relacionados\n💻 Streamlit: Presentaciones interactivas (Python)\n🎨 Más: Canvas, Revealjs, Prezi"
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#conclusión",
-    "href": "shinyconf_2025/presentacion.html#conclusión",
+    "objectID": "shiny_2025/presentacion.html#conclusión",
+    "href": "shiny_2025/presentacion.html#conclusión",
     "title": "From Data to Narrative",
     "section": "Conclusión",
     "text": "Conclusión\n\n\n\n📖 Storytelling: Narrativas que cautivan a través de datos.\n\n📊 Visualización: Gráficos claros y atractivos.\n\n🛠️ Herramientas: Streamlit, Quarto, y más."
   },
   {
-    "objectID": "shinyconf_2025/presentacion.html#gracias-por-participar",
-    "href": "shinyconf_2025/presentacion.html#gracias-por-participar",
+    "objectID": "shiny_2025/presentacion.html#gracias-por-participar",
+    "href": "shiny_2025/presentacion.html#gracias-por-participar",
     "title": "From Data to Narrative",
     "section": "🎉 ¡Gracias por Participar!",
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#conjuntos-de-números",
+    "href": "infinity_2024/presentacion.html#conjuntos-de-números",
+    "title": "Más allá del Infinito",
+    "section": "Conjuntos de Números",
+    "text": "Conjuntos de Números\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEn cantidad de elementos: ¿| \\(\\mathbb{N}| &lt; |\\mathbb{Z}| &lt; |\\mathbb{Q}|&lt; |\\mathbb{R}|&lt;|\\mathbb{C}|\\) ?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#qué-es-el-infinito",
+    "href": "infinity_2024/presentacion.html#qué-es-el-infinito",
+    "title": "Más allá del Infinito",
+    "section": "¿Qué es el infinito?",
+    "text": "¿Qué es el infinito?\n\n\n\n\nEl infinito es algo sin fin.\nNo es un número, sino una idea de continuidad ilimitada."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#historia",
+    "href": "infinity_2024/presentacion.html#historia",
+    "title": "Más allá del Infinito",
+    "section": "Historia",
+    "text": "Historia"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#gráficos",
+    "href": "infinity_2024/presentacion.html#gráficos",
+    "title": "Más allá del Infinito",
+    "section": "Gráficos",
+    "text": "Gráficos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#section",
+    "href": "infinity_2024/presentacion.html#section",
+    "title": "Más allá del Infinito",
+    "section": "",
+    "text": "Infinito\n¿Qué es contar?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#contar-es",
+    "href": "infinity_2024/presentacion.html#contar-es",
+    "title": "Más allá del Infinito",
+    "section": "Contar es …",
+    "text": "Contar es …\n\n\n N° elementos en un conjunto.\n\nContar personas en una sala.\nContar números del 1 al 10.\nContar objetos en una canasta."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#fundamento-en-los-axiomas-de-peano",
+    "href": "infinity_2024/presentacion.html#fundamento-en-los-axiomas-de-peano",
+    "title": "Más allá del Infinito",
+    "section": "Fundamento en los Axiomas de Peano",
+    "text": "Fundamento en los Axiomas de Peano\n\n\n\nPrimer Número: \\(0\\) o \\(1\\).\nSucesor: \\(1 \\rightarrow 2 \\rightarrow 3 \\rightarrow...\\)\nUnicidad: Cada número es único.\nInducción: Si un conjunto tiene 0 y sus sucesores, contiene a \\(\\mathbb{N}\\)."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto",
+    "href": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto",
+    "title": "Más allá del Infinito",
+    "section": "Cardinalidad de un Conjunto",
+    "text": "Cardinalidad de un Conjunto"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto-1",
+    "href": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto-1",
+    "title": "Más allá del Infinito",
+    "section": "Cardinalidad de un Conjunto",
+    "text": "Cardinalidad de un Conjunto\n\n\\(|A|\\): Contar todos los elementos de \\(A\\) exactamente una vez."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-naturales",
+    "href": "infinity_2024/presentacion.html#números-naturales",
+    "title": "Más allá del Infinito",
+    "section": "Números Naturales",
+    "text": "Números Naturales\n\n\n\n\n\\(\\mathbb{N} = \\{0,1,2,3,...\\}\\) son infinitos.\nTambién son infinitos:\n\nPares = \\(\\{2,4,6,...\\}\\).\nImpares = \\(\\{1,3,5,...\\}\\).\nPrimos = \\(\\{2,3,5,7,...\\}\\).\n\n\n\n\n\n\n\n\n\n\n(C) Números Primos son infinitos, Demostración de Euclides."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-enteros",
+    "href": "infinity_2024/presentacion.html#números-enteros",
+    "title": "Más allá del Infinito",
+    "section": "Números Enteros",
+    "text": "Números Enteros\n\n\n\n\n\\(\\mathbb{N} = \\{0,1,2,3,...\\}\\)\n\\(\\mathbb{Z} = \\{0,-1,1,-2,2,-3,...\\}\\)\n\\(\\mathbb{N} \\subsetneq  \\mathbb{Z}\\) … ¿ \\(|\\mathbb{N}| &lt; |\\mathbb{Z}|\\) ?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#contemos-los-números-enteros",
+    "href": "infinity_2024/presentacion.html#contemos-los-números-enteros",
+    "title": "Más allá del Infinito",
+    "section": "Contemos los números enteros",
+    "text": "Contemos los números enteros\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| = |\\mathbb{Z}|  }}\\)"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-racionales",
+    "href": "infinity_2024/presentacion.html#números-racionales",
+    "title": "Más allá del Infinito",
+    "section": "Números Racionales",
+    "text": "Números Racionales\n\n\n\n\n\\(\\mathbb{Q} = \\{ \\dfrac{p}{q} | p,q \\in \\mathbb{Z}, q \\neq 0 \\}\\)\n\\(\\mathbb{N} \\subsetneq  \\mathbb{Z} \\subsetneq  \\mathbb{Q}\\) … ¿ \\(|\\mathbb{N}| &lt; |\\mathbb{Q}|\\) ?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#contemos-los-números-racionales",
+    "href": "infinity_2024/presentacion.html#contemos-los-números-racionales",
+    "title": "Más allá del Infinito",
+    "section": "Contemos los números racionales",
+    "text": "Contemos los números racionales\n\n\n\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| \\leq |\\mathbb{Q_{+}}| \\leq |\\mathbb{N}| }}\\)\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| }}\\)"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-reales",
+    "href": "infinity_2024/presentacion.html#números-reales",
+    "title": "Más allá del Infinito",
+    "section": "Números Reales",
+    "text": "Números Reales\n\n\n\n\n\\(\\mathbb{R} = \\{ \\sqrt{2}, \\pi, \\mathrm{e}, ...  \\}\\)\n¿ \\(|\\mathbb{N}| &lt; |\\mathbb{R}|\\) ?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-reales-1",
+    "href": "infinity_2024/presentacion.html#números-reales-1",
+    "title": "Más allá del Infinito",
+    "section": "Números Reales",
+    "text": "Números Reales\n\n\n\n\n\n\n\n\n\nEn 1891, Cantor probó que es imposible enumerar todos los números reales en \\((0,1)\\).\n\n\\(\\color{black}{\\boxed{\\aleph_1 = |\\mathbb{R}| &gt; |\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| = \\aleph_0}}\\)"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#section-1",
+    "href": "infinity_2024/presentacion.html#section-1",
+    "title": "Más allá del Infinito",
+    "section": "",
+    "text": "Infinito\nHotel de Hilbert"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#el-hotel-de-hilbert",
+    "href": "infinity_2024/presentacion.html#el-hotel-de-hilbert",
+    "title": "Más allá del Infinito",
+    "section": "El Hotel de Hilbert",
+    "text": "El Hotel de Hilbert\n\n\n\n\nHotel infinito: Siempre hay espacio para más.\nTruco: Mueve cada huésped adelante.\nLección: El infinito desafía la intuición."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#bienvenidos-al-hotel-de-vale",
+    "href": "infinity_2024/presentacion.html#bienvenidos-al-hotel-de-vale",
+    "title": "Más allá del Infinito",
+    "section": "🐶 Bienvenidos al Hotel de Vale",
+    "text": "🐶 Bienvenidos al Hotel de Vale\n\n\n\n\n\n\n\n\n Un lugar mágico con infinitas habitaciones para perritos, donde cada uno tiene su espacio y siempre son bienvenidos.\n\n\n\n✨ !Siempre hay espacio para uno más!"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#caso-1-llega-un-nuevo-perrito",
+    "href": "infinity_2024/presentacion.html#caso-1-llega-un-nuevo-perrito",
+    "title": "Más allá del Infinito",
+    "section": "Caso 1: Llega un Nuevo Perrito",
+    "text": "Caso 1: Llega un Nuevo Perrito\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlega un Nuevo Perrito … ¿Qué hacemos?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#caso-2-infinitos-perritos",
+    "href": "infinity_2024/presentacion.html#caso-2-infinitos-perritos",
+    "title": "Más allá del Infinito",
+    "section": "Caso 2: Infinitos Perritos",
+    "text": "Caso 2: Infinitos Perritos\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlega un bus con infinitos perritos … ¿Qué hacemos?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos",
+    "href": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos",
+    "title": "Más allá del Infinito",
+    "section": "Caso 3: Infinitos Buses y Perritos",
+    "text": "Caso 3: Infinitos Buses y Perritos\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlegan inifinitos buses con infinitos perritos … ¿Qué hacemos?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos-1",
+    "href": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos-1",
+    "title": "Más allá del Infinito",
+    "section": "Caso 3: Infinitos Buses y Perritos",
+    "text": "Caso 3: Infinitos Buses y Perritos"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#conclusiones",
+    "href": "infinity_2024/presentacion.html#conclusiones",
+    "title": "Más allá del Infinito",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\n\n\n🌌 El \\(\\infty\\): Conceptos que desafían la intuición.\n📏 Cardinalidad: Diferentes tamaños de infinito.\n🐶 Hotel de Perritos: Infinito de forma entretenida."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#gracias-por-participar",
+    "href": "infinity_2024/presentacion.html#gracias-por-participar",
+    "title": "Más allá del Infinito",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "🎉 Presentaciones",
+    "section": "",
+    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.\n🎤 Crea, Innova y Presenta: Data Storytelling con A.I. - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.\n🎤 Más allá del Infinito - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.\n🎤 De los Números a la Narrativa - Este taller profundiza en cómo transformar datos en visualizaciones impactantes, utilizando Python y herramientas de visualización para contar historias claras y persuasivas.\n🎤 Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.\n🎤 Innovación en MAT281: Colab y Evaluaciones Dinámicas - Descubre cómo Google Colab y nuevas evaluaciones transformaron el curso MAT281, mejorando el acceso y la motivación de los estudiantes a través de un enfoque dinámico y colaborativo.\n🎤 Inteligencia Artificial en la Educación - Aprende cómo la Inteligencia Artificial está transformando el aprendizaje, desde la personalización de contenidos hasta el análisis de datos educativos. Esta presentación explora aplicaciones prácticas de la IA en la enseñanza para crear experiencias más enriquecedoras y adaptativas.\n🎤 ¿Y Ahora Qué? Del Aula al Trabajo - Descubre cómo prepararte para el mundo laboral al finalizar tus estudios. Esta charla aborda habilidades clave, herramientas prácticas y estrategias para destacarte en tu transición profesional y adaptarte a un entorno laboral competitivo.\n🎤 Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub - Aprende a automatizar y versionar tus materiales educativos interactivos utilizando Quarto y GitHub. Descubre cómo estas herramientas te permiten crear, actualizar y compartir contenidos de forma eficiente, facilitando la colaboración y el acceso a recursos dinámicos en cualquier lugar del mundo.\n🎤 From Data to Narrative: Interactive Storytelling with Shiny - Esta presentación te mostrará cómo transformar datos en historias interactivas atractivas utilizando Shiny. Aprende a crear paneles dinámicos y visualizaciones que cautiven a tu audiencia y den vida a los insights de los datos.."
   },
   {
     "objectID": "uc_2024/presentacion.html#aprender-adaptar-innovar",
