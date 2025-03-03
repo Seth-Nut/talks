@@ -32,6 +32,8 @@ filters:
 :::
 :::
 
+
+
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
@@ -258,39 +260,42 @@ Tu primera versión **siempre** será horrible.
 
 ::: columns
 ::: {.column width="50%"}
+<br>
+
 ``` python
 import matplotlib.pyplot as plt
 
-# Datos de ejemplo
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 3, 5, 7]
+# Data
+categories = ['Yes', 'No']
+values = [75, 25]
 
-# Generamos el gráfico
-plt.figure(figsize=(6, 4))
-plt.plot(x, y, marker='o')
-plt.title("Gráfico de Ejemplo")
-plt.xlabel("Eje X")
-plt.ylabel("Eje Y")
-plt.grid(True)
+# Create the bar chart
+plt.figure(figsize=(10, 4))
+plt.bar(categories, values, color=['lightblue', 'salmon'])
+plt.title('😊 Do you like the presentation so far? 😊')
+
+# Display the plot
 plt.show()
 ```
 :::
 
 ::: {.column .fragment width="50%"}
+
+<br>
+
 ```{python}
 import matplotlib.pyplot as plt
 
-# Datos de ejemplo
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 3, 5, 7]
+# Data
+categories = ['Yes', 'No']
+values = [75, 25]
 
-# Generamos el gráfico
-plt.figure(figsize=(6, 4))
-plt.plot(x, y, marker='o')
-plt.title("Gráfico de Ejemplo")
-plt.xlabel("Eje X")
-plt.ylabel("Eje Y")
-plt.grid(True)
+# Create the bar chart
+plt.figure(figsize=(10, 4))
+plt.bar(categories, values, color=['lightblue', 'salmon'])
+plt.title('😊 Do you like the presentation so far? 😊')
+
+# Display the plot
 plt.show()
 ```
 :::
@@ -302,16 +307,73 @@ plt.show()
 
 ```{pyodide-python}
 import matplotlib.pyplot as plt
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 3, 5, 7]
-plt.figure(figsize=(5, 3))
-plt.plot(x, y, marker='o')
-plt.title("Gráfico de Ejemplo")
-plt.grid(True)
+categories = ['Yes', 'No']
+values = [75, 25]
+plt.figure(figsize=(10, 3))
+plt.bar(categories, values, color=['lightblue', 'salmon'])
+plt.title('😊 Do you like the presentation so far? 😊')
 plt.show()
 ```
 
 ------------------------------------------------------------------------
+
+
+
+## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"} {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+```{shinylive-python}
+#| standalone: true
+#| viewerHeight: 550
+
+from shiny import App, ui, render, reactive
+import matplotlib.pyplot as plt
+import io
+import base64
+
+# Function to generate the plot dynamically based on input values
+def create_plot(yes_value, no_value):
+    categories = ['Yes', 'No']
+    values = [yes_value, no_value]
+
+    fig, ax = plt.subplots(figsize=(10, 3))
+    ax.bar(categories, values, color=['lightblue', 'salmon'])
+    ax.set_title('😊 Do you like the presentation so far? 😊')
+
+    # Convert the image to base64 for display in Shiny
+    buf = io.BytesIO()
+    plt.savefig(buf, format="png")
+    plt.close(fig)
+    buf.seek(0)
+    encoded_image = base64.b64encode(buf.getvalue()).decode()
+    return f'<img src="data:image/png;base64,{encoded_image}" style="max-width:100%;">'
+
+# UI definition
+app_ui = ui.page_fluid(
+    ui.h2("Interactive Survey"),
+    
+    # Sliders to change values dynamically
+    ui.input_slider("yes_value", "Yes responses:", min=0, max=50, value=20),
+    ui.input_slider("no_value", "No responses:", min=0, max=50, value=10),
+    
+    # Output area for the plot
+    ui.output_ui("plot_output")
+)
+
+# Server function
+def server(input, output, session):
+    @output
+    @render.ui
+    def plot_output():
+        return ui.HTML(create_plot(input.yes_value(), input.no_value()))
+
+# Create the Shiny app
+app = App(app_ui, server)
+
+```
+
+------------------------------------------------------------------------
+
 
 ## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
 
