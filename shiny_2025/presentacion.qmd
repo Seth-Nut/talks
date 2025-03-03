@@ -9,7 +9,7 @@ format:
     transition: slide
     title-slide-attributes: 
       data-background-image: images/background.jpg
-    logo: images/shinyconf.png
+    logo: images/shiny_2025.png
 filters:
   - quarto-ext/shinylive
 ---
@@ -31,8 +31,6 @@ filters:
 <img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"/>
 :::
 :::
-
-
 
 ------------------------------------------------------------------------
 
@@ -280,7 +278,6 @@ plt.show()
 :::
 
 ::: {.column .fragment width="50%"}
-
 <br>
 
 ```{python}
@@ -317,10 +314,7 @@ plt.show()
 
 ------------------------------------------------------------------------
 
-
-
 ## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"} {background-image="images/background.jpg" background-opacity="0.25"}
-
 
 ```{shinylive-python}
 #| standalone: true
@@ -373,7 +367,6 @@ app = App(app_ui, server)
 ```
 
 ------------------------------------------------------------------------
-
 
 ## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -715,7 +708,7 @@ st.markdown(
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
 
-
+```{=html}
 <style>
 /* Ajusta el tamaño del título y subtítulo */
 .reveal .slides h1 {
@@ -741,5 +734,13 @@ st.markdown(
 /* Ajusta el tamaño de los bullets */
 .reveal .slides ul {
   font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+
 }
+
+.reveal .slide-logo {
+   max-height: 1em !important;
+}
+
+
 </style>
+```
