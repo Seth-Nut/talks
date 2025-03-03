@@ -7,8 +7,13 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.40">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<meta name="shinylive:serviceworker_dir" content="..">
+<script src="../site_libs/quarto-contrib/shinylive-0.9.3/shinylive/load-shinylive-sw.js" type="module"></script>
+<script src="../site_libs/quarto-contrib/shinylive-0.9.3/shinylive/run-python-blocks.js" type="module"></script>
+<link href="../site_libs/quarto-contrib/shinylive-0.9.3/shinylive/shinylive.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.42">
 
   <meta name="author" content="Francisco Alfaro">
   <meta name="dcterms.date" content="2025-04-09">
@@ -96,7 +101,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2f366650f320edcfcf53d73c80250a32.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -373,7 +378,7 @@
   }
 
   // Store cell data
-  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\nplt.figure(figsize=(5, 3))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.grid(True)\nplt.show()","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\ncategories = ['Yes', 'No']\nvalues = [75, 25]\nplt.figure(figsize=(10, 3))\nplt.bar(categories, values, color=['lightblue', 'salmon'])\nplt.title('😊 Do you like the presentation so far? 😊')\nplt.show()","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
   </script>
@@ -843,26 +848,27 @@ Francisco Alfaro
 <h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
+<p><br></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-2"><a></a></span>
-<span id="cb1-3"><a></a><span class="co"># Datos de ejemplo</span></span>
-<span id="cb1-4"><a></a>x <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
-<span id="cb1-5"><a></a>y <span class="op">=</span> [<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">7</span>]</span>
+<span id="cb1-3"><a></a><span class="co"># Data</span></span>
+<span id="cb1-4"><a></a>categories <span class="op">=</span> [<span class="st">'Yes'</span>, <span class="st">'No'</span>]</span>
+<span id="cb1-5"><a></a>values <span class="op">=</span> [<span class="dv">75</span>, <span class="dv">25</span>]</span>
 <span id="cb1-6"><a></a></span>
-<span id="cb1-7"><a></a><span class="co"># Generamos el gráfico</span></span>
-<span id="cb1-8"><a></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
-<span id="cb1-9"><a></a>plt.plot(x, y, marker<span class="op">=</span><span class="st">'o'</span>)</span>
-<span id="cb1-10"><a></a>plt.title(<span class="st">"Gráfico de Ejemplo"</span>)</span>
-<span id="cb1-11"><a></a>plt.xlabel(<span class="st">"Eje X"</span>)</span>
-<span id="cb1-12"><a></a>plt.ylabel(<span class="st">"Eje Y"</span>)</span>
-<span id="cb1-13"><a></a>plt.grid(<span class="va">True</span>)</span>
-<span id="cb1-14"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-7"><a></a><span class="co"># Create the bar chart</span></span>
+<span id="cb1-8"><a></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">4</span>))</span>
+<span id="cb1-9"><a></a>plt.bar(categories, values, color<span class="op">=</span>[<span class="st">'lightblue'</span>, <span class="st">'salmon'</span>])</span>
+<span id="cb1-10"><a></a>plt.title(<span class="st">'😊 Do you like the presentation so far? 😊'</span>)</span>
+<span id="cb1-11"><a></a></span>
+<span id="cb1-12"><a></a><span class="co"># Display the plot</span></span>
+<span id="cb1-13"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column fragment" style="width:50%;">
-<div id="64145d23" class="cell" data-execution_count="1">
+<p><br></p>
+<div id="af508b68" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
-<p><img data-src="presentacion_files/figure-revealjs/cell-2-output-1.png" width="502" height="377"></p>
+<p><img data-src="presentacion_files/figure-revealjs/cell-2-output-1.png" width="789" height="358"></p>
 </figure>
 </div>
 </div>
@@ -873,6 +879,58 @@ Francisco Alfaro
 <h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="explicar-menos-y-mostrar-más-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
+<div class="sourceCode" id="cb2" data-engine="python"><pre class="sourceCode numberSource shinylive-python number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>#| '!! shinylive warning !!': |</span>
+<span id="cb2-2"><a></a>#|   shinylive does not work in self-contained HTML documents.</span>
+<span id="cb2-3"><a></a>#|   Please set `embed-resources: false` in your metadata.</span>
+<span id="cb2-4"><a></a>#| standalone: true</span>
+<span id="cb2-5"><a></a>#| viewerHeight: 550</span>
+<span id="cb2-6"><a></a></span>
+<span id="cb2-7"><a></a>from shiny import App, ui, render, reactive</span>
+<span id="cb2-8"><a></a>import matplotlib.pyplot as plt</span>
+<span id="cb2-9"><a></a>import io</span>
+<span id="cb2-10"><a></a>import base64</span>
+<span id="cb2-11"><a></a></span>
+<span id="cb2-12"><a></a># Function to generate the plot dynamically based on input values</span>
+<span id="cb2-13"><a></a>def create_plot(yes_value, no_value):</span>
+<span id="cb2-14"><a></a>    categories = ['Yes', 'No']</span>
+<span id="cb2-15"><a></a>    values = [yes_value, no_value]</span>
+<span id="cb2-16"><a></a></span>
+<span id="cb2-17"><a></a>    fig, ax = plt.subplots(figsize=(10, 3))</span>
+<span id="cb2-18"><a></a>    ax.bar(categories, values, color=['lightblue', 'salmon'])</span>
+<span id="cb2-19"><a></a>    ax.set_title('😊 Do you like the presentation so far? 😊')</span>
+<span id="cb2-20"><a></a></span>
+<span id="cb2-21"><a></a>    # Convert the image to base64 for display in Shiny</span>
+<span id="cb2-22"><a></a>    buf = io.BytesIO()</span>
+<span id="cb2-23"><a></a>    plt.savefig(buf, format="png")</span>
+<span id="cb2-24"><a></a>    plt.close(fig)</span>
+<span id="cb2-25"><a></a>    buf.seek(0)</span>
+<span id="cb2-26"><a></a>    encoded_image = base64.b64encode(buf.getvalue()).decode()</span>
+<span id="cb2-27"><a></a>    return f'&lt;img src="data:image/png;base64,{encoded_image}" style="max-width:100%;"&gt;'</span>
+<span id="cb2-28"><a></a></span>
+<span id="cb2-29"><a></a># UI definition</span>
+<span id="cb2-30"><a></a>app_ui = ui.page_fluid(</span>
+<span id="cb2-31"><a></a>    ui.h2("Interactive Survey"),</span>
+<span id="cb2-32"><a></a>    </span>
+<span id="cb2-33"><a></a>    # Sliders to change values dynamically</span>
+<span id="cb2-34"><a></a>    ui.input_slider("yes_value", "Yes responses:", min=0, max=50, value=20),</span>
+<span id="cb2-35"><a></a>    ui.input_slider("no_value", "No responses:", min=0, max=50, value=10),</span>
+<span id="cb2-36"><a></a>    </span>
+<span id="cb2-37"><a></a>    # Output area for the plot</span>
+<span id="cb2-38"><a></a>    ui.output_ui("plot_output")</span>
+<span id="cb2-39"><a></a>)</span>
+<span id="cb2-40"><a></a></span>
+<span id="cb2-41"><a></a># Server function</span>
+<span id="cb2-42"><a></a>def server(input, output, session):</span>
+<span id="cb2-43"><a></a>    @output</span>
+<span id="cb2-44"><a></a>    @render.ui</span>
+<span id="cb2-45"><a></a>    def plot_output():</span>
+<span id="cb2-46"><a></a>        return ui.HTML(create_plot(input.yes_value(), input.no_value()))</span>
+<span id="cb2-47"><a></a></span>
+<span id="cb2-48"><a></a># Create the Shiny app</span>
+<span id="cb2-49"><a></a>app = App(app_ui, server)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="agenda-v2-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>Agenda (v2)</h2>
@@ -1085,29 +1143,29 @@ format:
 <h2>Streamlit: Ejemplo</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb3-2"><a></a></span>
-<span id="cb3-3"><a></a><span class="co"># Título principal de la aplicación</span></span>
-<span id="cb3-4"><a></a>st.title(<span class="st">"Hola Streamlit"</span>)</span>
-<span id="cb3-5"><a></a></span>
-<span id="cb3-6"><a></a><span class="co"># Mensaje principal con nombres y emoticón fijos</span></span>
-<span id="cb3-7"><a></a>mensaje <span class="op">=</span> <span class="st">"Darwin y Patricia son mejores amigos 😊"</span></span>
-<span id="cb3-8"><a></a>st.write(mensaje)</span>
-<span id="cb3-9"><a></a></span>
-<span id="cb3-10"><a></a><span class="co"># Imagen decorativa</span></span>
-<span id="cb3-11"><a></a>st.image(</span>
-<span id="cb3-12"><a></a>    <span class="st">"https://www.svgrepo.com/show/397758/people-hugging.svg"</span>,</span>
-<span id="cb3-13"><a></a>    caption<span class="op">=</span><span class="st">"Amigos"</span>,</span>
-<span id="cb3-14"><a></a>    width<span class="op">=</span><span class="dv">200</span>  <span class="co"># Ajuste del tamaño de la imagen</span></span>
-<span id="cb3-15"><a></a>)</span>
-<span id="cb3-16"><a></a></span>
-<span id="cb3-17"><a></a><span class="co"># Footer</span></span>
-<span id="cb3-18"><a></a>st.markdown(</span>
-<span id="cb3-19"><a></a>    <span class="st">"""</span></span>
-<span id="cb3-20"><a></a><span class="st">    ---</span></span>
-<span id="cb3-21"><a></a><span class="st">    Gracias por usar esta aplicación interactiva 🎈</span></span>
-<span id="cb3-22"><a></a><span class="st">    """</span></span>
-<span id="cb3-23"><a></a>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb4-2"><a></a></span>
+<span id="cb4-3"><a></a><span class="co"># Título principal de la aplicación</span></span>
+<span id="cb4-4"><a></a>st.title(<span class="st">"Hola Streamlit"</span>)</span>
+<span id="cb4-5"><a></a></span>
+<span id="cb4-6"><a></a><span class="co"># Mensaje principal con nombres y emoticón fijos</span></span>
+<span id="cb4-7"><a></a>mensaje <span class="op">=</span> <span class="st">"Darwin y Patricia son mejores amigos 😊"</span></span>
+<span id="cb4-8"><a></a>st.write(mensaje)</span>
+<span id="cb4-9"><a></a></span>
+<span id="cb4-10"><a></a><span class="co"># Imagen decorativa</span></span>
+<span id="cb4-11"><a></a>st.image(</span>
+<span id="cb4-12"><a></a>    <span class="st">"https://www.svgrepo.com/show/397758/people-hugging.svg"</span>,</span>
+<span id="cb4-13"><a></a>    caption<span class="op">=</span><span class="st">"Amigos"</span>,</span>
+<span id="cb4-14"><a></a>    width<span class="op">=</span><span class="dv">200</span>  <span class="co"># Ajuste del tamaño de la imagen</span></span>
+<span id="cb4-15"><a></a>)</span>
+<span id="cb4-16"><a></a></span>
+<span id="cb4-17"><a></a><span class="co"># Footer</span></span>
+<span id="cb4-18"><a></a>st.markdown(</span>
+<span id="cb4-19"><a></a>    <span class="st">"""</span></span>
+<span id="cb4-20"><a></a><span class="st">    ---</span></span>
+<span id="cb4-21"><a></a><span class="st">    Gracias por usar esta aplicación interactiva 🎈</span></span>
+<span id="cb4-22"><a></a><span class="st">    """</span></span>
+<span id="cb4-23"><a></a>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column fragment" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -1200,14 +1258,21 @@ format:
 /* Ajusta el tamaño de los bullets */
 .reveal .slides ul {
   font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+
 }
+
+.reveal .slide-logo {
+   max-height: 1em !important;
+}
+
+
 </style>
 
 
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="images/shinyconf.png" class="slide-logo"></p>
+<p><img src="images/shiny_2025.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>
