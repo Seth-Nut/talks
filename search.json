@@ -126,53 +126,25 @@
     "text": "Explicar menos y mostrar más\n\n\n\nimport matplotlib.pyplot as plt\n\n# Data\ncategories = ['Yes', 'No']\nvalues = [75, 25]\n\n# Create the bar chart\nplt.figure(figsize=(10, 4))\nplt.bar(categories, values, color=['lightblue', 'salmon'])\nplt.title('😊 Do you like the presentation so far? 😊')\n\n# Display the plot\nplt.show()"
   },
   {
-    "objectID": "shiny_2025/presentacion.html#explicar-menos-y-mostrar-más-1",
-    "href": "shiny_2025/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "objectID": "shiny_2025/presentacion.html#quarto",
+    "href": "shiny_2025/presentacion.html#quarto",
     "title": "From Data to Narrative",
-    "section": "Explicar menos y mostrar más",
-    "text": "Explicar menos y mostrar más\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#explicar-menos-y-mostrar-más-2",
-    "href": "shiny_2025/presentacion.html#explicar-menos-y-mostrar-más-2",
-    "title": "From Data to Narrative",
-    "section": "Explicar menos y mostrar más",
-    "text": "Explicar menos y mostrar más\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 550\n\nfrom shiny import App, ui, render, reactive\nimport matplotlib.pyplot as plt\nimport io\nimport base64\n\n# Function to generate the plot dynamically based on input values\ndef create_plot(yes_value, no_value):\n    categories = ['Yes', 'No']\n    values = [yes_value, no_value]\n\n    fig, ax = plt.subplots(figsize=(10, 3))\n    ax.bar(categories, values, color=['lightblue', 'salmon'])\n    ax.set_title('😊 Do you like the presentation so far? 😊')\n\n    # Convert the image to base64 for display in Shiny\n    buf = io.BytesIO()\n    plt.savefig(buf, format=\"png\")\n    plt.close(fig)\n    buf.seek(0)\n    encoded_image = base64.b64encode(buf.getvalue()).decode()\n    return f'&lt;img src=\"data:image/png;base64,{encoded_image}\" style=\"max-width:100%;\"&gt;'\n\n# UI definition\napp_ui = ui.page_fluid(\n    ui.h2(\"Interactive Survey\"),\n    \n    # Sliders to change values dynamically\n    ui.input_slider(\"yes_value\", \"Yes responses:\", min=0, max=50, value=20),\n    ui.input_slider(\"no_value\", \"No responses:\", min=0, max=50, value=10),\n    \n    # Output area for the plot\n    ui.output_ui(\"plot_output\")\n)\n\n# Server function\ndef server(input, output, session):\n    @output\n    @render.ui\n    def plot_output():\n        return ui.HTML(create_plot(input.yes_value(), input.no_value()))\n\n# Create the Shiny app\napp = App(app_ui, server)"
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#agenda-v2-1",
-    "href": "shiny_2025/presentacion.html#agenda-v2-1",
-    "title": "From Data to Narrative",
-    "section": "Agenda (v2)",
-    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nMuestra, no cuentes\n\n\n\nOpción 2: Una agenda misteriosa."
+    "section": "Quarto",
+    "text": "Quarto\n\n\n\nQuarto es un sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R)."
   },
   {
     "objectID": "shiny_2025/presentacion.html#section-5",
     "href": "shiny_2025/presentacion.html#section-5",
     "title": "From Data to Narrative",
     "section": "",
-    "text": "Herramientas\nHerramientas de Visualización"
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#herramientas-para-presentación",
-    "href": "shiny_2025/presentacion.html#herramientas-para-presentación",
-    "title": "From Data to Narrative",
-    "section": "Herramientas para presentación",
-    "text": "Herramientas para presentación\n\n\n\nClásica: PowerPoint\n“Show don’t tell”:\n\nQuarto\n\nOtros: Canvas, Revealjs, Prezi"
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#quarto",
-    "href": "shiny_2025/presentacion.html#quarto",
-    "title": "From Data to Narrative",
-    "section": "Quarto",
-    "text": "Quarto\n\n\n\nUn sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R)."
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#section-6",
-    "href": "shiny_2025/presentacion.html#section-6",
-    "title": "From Data to Narrative",
-    "section": "",
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
+  },
+  {
+    "objectID": "shiny_2025/presentacion.html#ejemplos-2",
+    "href": "shiny_2025/presentacion.html#ejemplos-2",
+    "title": "From Data to Narrative",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\nCodePlot\n\n\nimport matplotlib.pyplot as plt\n\n# Data\ncategories = ['Yes', 'No']\nvalues = [75, 25]\n\n# Create the bar chart\nplt.figure(figsize=(10, 4))\nplt.bar(categories, values, color=['lightblue', 'salmon'])\nplt.title('😊 Do you like the presentation so far? 😊')\n\n# Display the plot\nplt.show()"
   },
   {
     "objectID": "shiny_2025/presentacion.html#quarto-extensiones",
@@ -189,18 +161,11 @@
     "text": "🌐 Quarto WebR y Quarto Pyodide\n\n\nWebR: Ejecuta código R en el navegador, sin instalaciones.\n# Para instalar WebR en tu entorno\nremotes::install_github(\"attiyap/WebR\")\nPyodide : Idem pero para Python.\n# Para instalar Pyodide\npip install pyodide"
   },
   {
-    "objectID": "shiny_2025/presentacion.html#ejemplo-r",
-    "href": "shiny_2025/presentacion.html#ejemplo-r",
+    "objectID": "shiny_2025/presentacion.html#ejemplos-3",
+    "href": "shiny_2025/presentacion.html#ejemplos-3",
     "title": "From Data to Narrative",
-    "section": "📊 Ejemplo R",
-    "text": "📊 Ejemplo R\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#ejemplo-r-1",
-    "href": "shiny_2025/presentacion.html#ejemplo-r-1",
-    "title": "From Data to Narrative",
-    "section": "📊 Ejemplo R",
-    "text": "📊 Ejemplo R\n\n\n\n'''{webr-r}\nx &lt;- c(1, 2, 3, 4, 5)\ny &lt;- c(2, 4, 6, 8, 10)\nplot(x, y, type=\"o\", col=\"blue\", lty=1, xlab=\"\", ylab=\"\")\ntitle(main=\"Gráfico Sencillo en R\")\n'''\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\nWebRPyodide\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
     "objectID": "shiny_2025/presentacion.html#shiny",
@@ -217,25 +182,25 @@
     "text": "Shiny"
   },
   {
+    "objectID": "shiny_2025/presentacion.html#quarto-shinylive",
+    "href": "shiny_2025/presentacion.html#quarto-shinylive",
+    "title": "From Data to Narrative",
+    "section": "🌐 Quarto Shinylive",
+    "text": "🌐 Quarto Shinylive\n\n\n\nCódigo para desplegar aplicaciones Shiny que se ejecutarán completamente en el navegador, utilizando Pyodide y webR (Python y R compilados a WebAssembly).\n\n\n\n\nR: Ejemplos de Shinylive en R\nPython: Ejemplos de Shinylive en Python"
+  },
+  {
     "objectID": "shiny_2025/presentacion.html#quarto-shiny",
     "href": "shiny_2025/presentacion.html#quarto-shiny",
     "title": "From Data to Narrative",
     "section": "Quarto & Shiny",
-    "text": "Quarto & Shiny"
+    "text": "Quarto & Shiny\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 550\n\nfrom shiny import App, ui, render, reactive\nimport matplotlib.pyplot as plt\nimport io\nimport base64\n\n# Function to generate the plot dynamically based on input values\ndef create_plot(yes_value, no_value):\n    categories = ['Yes', 'No']\n    values = [yes_value, no_value]\n\n    fig, ax = plt.subplots(figsize=(10, 3))\n    ax.bar(categories, values, color=['lightblue', 'salmon'])\n    ax.set_title('😊 Do you like the presentation so far? 😊')\n\n    # Convert the image to base64 for display in Shiny\n    buf = io.BytesIO()\n    plt.savefig(buf, format=\"png\")\n    plt.close(fig)\n    buf.seek(0)\n    encoded_image = base64.b64encode(buf.getvalue()).decode()\n    return f'&lt;img src=\"data:image/png;base64,{encoded_image}\" style=\"max-width:100%;\"&gt;'\n\n# UI definition\napp_ui = ui.page_fluid(\n    ui.h2(\"Interactive Survey\"),\n    \n    # Sliders to change values dynamically\n    ui.input_slider(\"yes_value\", \"Yes responses:\", min=0, max=50, value=20),\n    ui.input_slider(\"no_value\", \"No responses:\", min=0, max=50, value=10),\n    \n    # Output area for the plot\n    ui.output_ui(\"plot_output\")\n)\n\n# Server function\ndef server(input, output, session):\n    @output\n    @render.ui\n    def plot_output():\n        return ui.HTML(create_plot(input.yes_value(), input.no_value()))\n\n# Create the Shiny app\napp = App(app_ui, server)"
   },
   {
-    "objectID": "shiny_2025/presentacion.html#flujo-de-decisión",
-    "href": "shiny_2025/presentacion.html#flujo-de-decisión",
+    "objectID": "shiny_2025/presentacion.html#agenda-v2-1",
+    "href": "shiny_2025/presentacion.html#agenda-v2-1",
     "title": "From Data to Narrative",
-    "section": "Flujo de decisión",
-    "text": "Flujo de decisión\n\n\n\n🎤 PowerPoint: Presentación sin código de un solo uso\n📚 Quarto: Charlas a partir de documentos relacionados\n💻 Shiny: Dshboards Interactivos (R)\n🎨 Más: Canvas, Revealjs, Prezi"
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#conclusión",
-    "href": "shiny_2025/presentacion.html#conclusión",
-    "title": "From Data to Narrative",
-    "section": "Conclusión",
-    "text": "Conclusión\n\n\n\n📖 Storytelling: Narrativas que cautivan a través de datos.\n\n🛠️ Herramientas:Quarto, Shiny, webR, y más."
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nMuestra, no cuentes\n\n\n\nOpción 2: Una agenda misteriosa."
   },
   {
     "objectID": "shiny_2025/presentacion.html#gracias-por-participar",
