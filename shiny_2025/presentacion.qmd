@@ -344,21 +344,238 @@ plt.show()
 
 ------------------------------------------------------------------------
 
-## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"} {background-image="images/background.jpg" background-opacity="0.25"}
+## Quarto {background-image="images/background.jpg" background-opacity="0.25"}
 
-```{pyodide-python}
-import matplotlib.pyplot as plt
-categories = ['Yes', 'No']
-values = [75, 25]
-plt.figure(figsize=(10, 3))
-plt.bar(categories, values, color=['lightblue', 'salmon'])
-plt.title('😊 Do you like the presentation so far? 😊')
-plt.show()
-```
+::: columns
+::: {.column width="60%"}
+<br>
+
+[Quarto](https://quarto.org/) es un sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R).
+:::
+
+::: {.column width="40%"}
+![](images/quarto/quarto2.png)
+:::
+:::
 
 ------------------------------------------------------------------------
 
-## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"} {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+[Código: example.qmd]{style="font-size: 0.5em; color: gray"}
+
+```         
+---
+title: "Habits"
+author: "John Doe"
+format:
+  revealjs:
+    transition: fade
+    theme: black
+    toc: true
+    center: true
+---
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+---
+
+## Going to sleep 
+::: { .incremental }
+
+- Get in bed
+- Count sheep
+
+:::
+```
+:::
+
+::: {.column width="60%"}
+[Slides: example.html]{style="font-size: 0.5em; color: gray"}
+
+```{=html}
+<iframe width=600 height=400 src="images/quarto/quarto_min.html"></iframe>
+```
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.panel-tabset}
+
+## Code
+
+``` python
+import matplotlib.pyplot as plt
+
+# Data
+categories = ['Yes', 'No']
+values = [75, 25]
+
+# Create the bar chart
+plt.figure(figsize=(10, 4))
+plt.bar(categories, values, color=['lightblue', 'salmon'])
+plt.title('😊 Do you like the presentation so far? 😊')
+
+# Display the plot
+plt.show()
+```
+
+## Plot
+
+```{python}
+import matplotlib.pyplot as plt
+
+# Data
+categories = ['Yes', 'No']
+values = [75, 25]
+
+# Create the bar chart
+plt.figure(figsize=(10, 4))
+plt.bar(categories, values, color=['lightblue', 'salmon'])
+plt.title('😊 Do you like the presentation so far? 😊')
+
+# Display the plot
+plt.show()
+```
+
+:::
+
+
+
+
+------------------------------------------------------------------------
+
+## Quarto Extensiones {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+Las [extensiones](https://quarto.org/docs/extensions/) son una herramienta poderosa para modificar y ampliar el comportamiento de Quarto.
+
+::: {style="text-align: center;"}
+<img src="images/quarto/quarto-extensions.png" alt="Tachado" style="width: 70%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+## 🌐 Quarto WebR y Quarto Pyodide {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+1.  [WebR](https://docs.r-wasm.org/webr/latest/): Ejecuta código R en el navegador, sin instalaciones.
+
+    ``` bash
+    # Para instalar WebR en tu entorno
+    remotes::install_github("attiyap/WebR")
+    ```
+
+2.  [Pyodide](https://quarto.thecoatlessprofessor.com/pyodide/) : Idem pero para Python.
+
+    ``` bash
+    # Para instalar Pyodide
+    pip install pyodide
+    ```
+
+::: {style="text-align: center;"}
+<img src="images/quarto/webr-demo.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+
+
+------------------------------------------------------------------------
+
+
+## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.panel-tabset}
+
+## WebR
+
+```{webr-r}
+x <- c(1, 2, 3, 4, 5)
+y <- c(2, 4, 6, 8, 10)
+par(mfrow = c(2, 1), mar = c(1, 1, 1, 1),  oma = c(1, 10, 1, 1)   )
+plot(x, y, type="o", col="blue", pch=16, lwd=2, xlab="", ylab="", main="Gráfico en R")
+```
+
+## Pyodide
+
+```{pyodide-python}
+import matplotlib.pyplot as plt
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+plt.figure(figsize=(6, 3)) 
+plt.plot(x, y, marker='o', color='blue')
+plt.title("Gráfico Sencillo en Python")
+plt.show()
+```
+
+:::
+
+
+
+
+------------------------------------------------------------------------
+
+
+
+## Shiny {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="60%"}
+<br><br>
+
+Shiny es un paquete de R que permite crear aplicaciones web interactivas fácilmente usando R (También disponible para python).
+
+:::
+
+::: {.column width="40%"}
+![](images/quarto/shiny.png)
+:::
+:::
+
+
+
+------------------------------------------------------------------------
+
+
+## Shiny {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+![](https://shiny.posit.co/r/articles/improve/debugging/kmeans-showcase.gif){width="80%"}
+
+
+------------------------------------------------------------------------
+
+## 🌐 Quarto Shinylive {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="60%"}
+<br>
+
+Código para desplegar aplicaciones **Shiny** que se ejecutarán completamente en el navegador, utilizando **Pyodide** y **webR** (Python y R compilados a WebAssembly).
+:::
+
+::: {.column width="40%"}
+![](images/quarto/shinylive.png)
+:::
+:::
+
+
+> **R:** [Ejemplos de Shinylive en R](https://shinylive.io/r/examples/)  
+> **Python:** [Ejemplos de Shinylive en Python](https://shinylive.io/py/examples/)
+
+------------------------------------------------------------------------
+
+
+## Quarto & Shiny {background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{shinylive-python}
 #| standalone: true
@@ -423,233 +640,6 @@ app = App(app_ui, server)
 
 ::: notes
 Opción 2: Una agenda misteriosa.
-:::
-
-------------------------------------------------------------------------
-
-
-##  {background-image="images/background_slides3.png" background-opacity="0.3"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Herramientas]{style="font-size: 1em"}
-
-[Herramientas de Visualización]{style="font-size: 2em"}
-:::
-
-## Herramientas para presentación {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="60%"}
--   **Clásica**: PowerPoint
--   **"Show don't tell"**:
-    -   Quarto
--   **Otros**: Canvas, Revealjs, Prezi
-:::
-
-::: {.column width="40%"}
-![](images/presentacion2.png){fig-align="center"}
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Quarto {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="60%"}
-<br>
-
-Un sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R).
-:::
-
-::: {.column width="40%"}
-![](images/quarto/quarto2.png)
-:::
-:::
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="40%"}
-[Código: example.qmd]{style="font-size: 0.5em; color: gray"}
-
-```         
----
-title: "Habits"
-author: "John Doe"
-format:
-  revealjs:
-    transition: fade
-    theme: black
-    toc: true
-    center: true
----
-
-## Getting up
-
-- Turn off alarm
-- Get out of bed
-
----
-
-## Going to sleep 
-::: { .incremental }
-
-- Get in bed
-- Count sheep
-
-:::
-```
-:::
-
-::: {.column width="60%"}
-[Slides: example.html]{style="font-size: 0.5em; color: gray"}
-
-```{=html}
-<iframe width=600 height=400 src="images/quarto/quarto_min.html"></iframe>
-```
-:::
-:::
-
-
-------------------------------------------------------------------------
-
-## Quarto Extensiones {background-image="images/background.jpg" background-opacity="0.25"}
-
-<br>
-
-Las extensiones son una herramienta poderosa para modificar y ampliar el comportamiento de Quarto.
-
-::: {style="text-align: center;"}
-<img src="images/quarto/quarto-extensions.png" alt="Tachado" style="width: 70%; border-radius: 10px;"/>
-:::
-
-------------------------------------------------------------------------
-
-## 🌐 Quarto WebR y Quarto Pyodide {background-image="images/background.jpg" background-opacity="0.25"}
-
-<br>
-
-1.  [WebR](https://docs.r-wasm.org/webr/latest/): Ejecuta código R en el navegador, sin instalaciones.
-
-    ``` bash
-    # Para instalar WebR en tu entorno
-    remotes::install_github("attiyap/WebR")
-    ```
-
-2.  [Pyodide](https://quarto.thecoatlessprofessor.com/pyodide/) : Idem pero para Python.
-
-    ``` bash
-    # Para instalar Pyodide
-    pip install pyodide
-    ```
-
-------------------------------------------------------------------------
-
-
-## 📊 Ejemplo R {background-image="images/background.jpg" background-opacity="0.25"}
-
-```{webr-r}
-x <- c(1, 2, 3, 4, 5)
-y <- c(2, 4, 6, 8, 10)
-plot(x, y, type="o", col="blue", lty=1, xlab="", ylab="")
-title(main="Gráfico Sencillo en R")
-```
-
-------------------------------------------------------------------------
-
-
-## 📊 Ejemplo R {background-image="images/background.jpg" background-opacity="0.25"}
-
-
-::: columns
-::: {.column width="40%"}
-
-
-
-```
-
-'''{webr-r}
-x <- c(1, 2, 3, 4, 5)
-y <- c(2, 4, 6, 8, 10)
-plot(x, y, type="o", col="blue", lty=1, xlab="", ylab="")
-title(main="Gráfico Sencillo en R")
-'''
-
-```
-
-:::
-
-::: {.column width="60%"}
-```{webr-r}
-x <- c(1, 2, 3, 4, 5)
-y <- c(2, 4, 6, 8, 10)
-plot(x, y, type="o", col="blue", lty=1, xlab="", ylab="")
-title(main="Gráfico Sencillo en R")
-```
-:::
-:::
-
-------------------------------------------------------------------------
-
-
-
-## Shiny {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="60%"}
-<br><br>
-
-Shiny es un paquete de R que permite crear aplicaciones web interactivas fácilmente usando R (También disponible para python).
-
-:::
-
-::: {.column width="40%"}
-![](images/quarto/shiny.png)
-:::
-:::
-
-------------------------------------------------------------------------
-
-
-## Shiny {background-image="images/background.jpg" background-opacity="0.25"}
-
-
-![](https://shiny.posit.co/r/articles/improve/debugging/kmeans-showcase.gif){width="80%"}
-
-
-------------------------------------------------------------------------
-
-
-## Quarto & Shiny {background-image="images/background.jpg" background-opacity="0.25"}
-
-
-
----------------------------------------------------------------------------
-
-
-## Flujo de decisión {background-image="images/background.jpg" background-opacity="0.25"}
-
-<br>
-
-::: incremental
--   🎤 **PowerPoint**: Presentación sin código de un solo uso
--   📚 **Quarto**: Charlas a partir de documentos relacionados
--   💻 **Shiny**: Dshboards Interactivos (R)
--   🎨 **Más**: Canvas, Revealjs, Prezi
-:::
-
-------------------------------------------------------------------------
-
-## Conclusión {background-image="images/background.jpg" background-opacity="0.25"}
-
-<br>
-
-::: incremental
--   **📖 Storytelling**: Narrativas que cautivan a través de datos.\
--   **🛠️ Herramientas**:Quarto, Shiny, webR, y más.
 :::
 
 ------------------------------------------------------------------------
