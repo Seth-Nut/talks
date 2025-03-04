@@ -91,11 +91,25 @@
     "text": "Usar chatbots de IA para:\n\n\n\n\nPlantillas personalizadas a medida\nAutomatizar estructura del contenido\nAhorro de tiempo en diseño\nAdaptación al estilo y preferencias"
   },
   {
+    "objectID": "shiny_2025/presentacion.html#chatbots-a.i.---ideas",
+    "href": "shiny_2025/presentacion.html#chatbots-a.i.---ideas",
+    "title": "From Data to Narrative",
+    "section": "💡 Chatbots A.I. - Ideas",
+    "text": "💡 Chatbots A.I. - Ideas\n\n\n\n\nChatGPT (OpenAI)\nGemini (Google DeepMind)\nMeta AI (Meta)\nDeepSeek (DeepSeek)"
+  },
+  {
     "objectID": "shiny_2025/presentacion.html#usar-chatbots-de-ia-para-1",
     "href": "shiny_2025/presentacion.html#usar-chatbots-de-ia-para-1",
     "title": "From Data to Narrative",
     "section": "Usar chatbots de IA para:",
     "text": "Usar chatbots de IA para:\n\n\n\n\nAnalogías y ejemplos\nMejores traducciones\nPrompts para crear imágenes\nNo busques imágenes, créalas!"
+  },
+  {
+    "objectID": "shiny_2025/presentacion.html#chatbots-a.i.---imágenes",
+    "href": "shiny_2025/presentacion.html#chatbots-a.i.---imágenes",
+    "title": "From Data to Narrative",
+    "section": "💡 Chatbots A.I. - Imágenes",
+    "text": "💡 Chatbots A.I. - Imágenes\n\n\n\n\nCanva con Magic Studio\nMicrosoft Designer\nNapkin AI\nMidjourney"
   },
   {
     "objectID": "shiny_2025/presentacion.html#section-4",
@@ -137,55 +151,6 @@
     "href": "shiny_2025/presentacion.html#section-5",
     "title": "From Data to Narrative",
     "section": "",
-    "text": "Visualización\n¿Qué es la Visualización?"
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#visualización",
-    "href": "shiny_2025/presentacion.html#visualización",
-    "title": "From Data to Narrative",
-    "section": "Visualización…",
-    "text": "Visualización…\n\n\n\n\nConvierte datos en gráficos para facilitar su comprensión.\nDestaca patrones y tendencias de forma clara."
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#ejemplos-2",
-    "href": "shiny_2025/presentacion.html#ejemplos-2",
-    "title": "From Data to Narrative",
-    "section": "Ejemplos",
-    "text": "Ejemplos\n\n\n\n\n\n\n\n❌ Mal Gráfico\n\n\n\n\n\n\n✅ Buen Gráfico"
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#cuarteto-de-anscombe",
-    "href": "shiny_2025/presentacion.html#cuarteto-de-anscombe",
-    "title": "From Data to Narrative",
-    "section": "Cuarteto de ANSCOMBE",
-    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n📋 Tablas vs 📊 Gráficos"
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#teoría-de-visualización",
-    "href": "shiny_2025/presentacion.html#teoría-de-visualización",
-    "title": "From Data to Narrative",
-    "section": "Teoría de Visualización",
-    "text": "Teoría de Visualización"
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#pilares-visualización---noah-iliinsky",
-    "href": "shiny_2025/presentacion.html#pilares-visualización---noah-iliinsky",
-    "title": "From Data to Narrative",
-    "section": "4 Pilares Visualización - Noah Iliinsky",
-    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado.\n\n\n\n\n\n\n\n\n\n(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube."
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#qué-gráficos-son-buenos",
-    "href": "shiny_2025/presentacion.html#qué-gráficos-son-buenos",
-    "title": "From Data to Narrative",
-    "section": "Qué Gráficos son buenos?",
-    "text": "Qué Gráficos son buenos?\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#section-6",
-    "href": "shiny_2025/presentacion.html#section-6",
-    "title": "From Data to Narrative",
-    "section": "",
     "text": "Herramientas\nHerramientas de Visualización"
   },
   {
@@ -193,7 +158,7 @@
     "href": "shiny_2025/presentacion.html#herramientas-para-presentación",
     "title": "From Data to Narrative",
     "section": "Herramientas para presentación",
-    "text": "Herramientas para presentación\n\n\n\nClásica: PowerPoint\n“Show don’t tell”:\n\nQuarto\nStreamlit\n\nOtros: Canvas, Revealjs, Prezi"
+    "text": "Herramientas para presentación\n\n\n\nClásica: PowerPoint\n“Show don’t tell”:\n\nQuarto\n\nOtros: Canvas, Revealjs, Prezi"
   },
   {
     "objectID": "shiny_2025/presentacion.html#quarto",
@@ -203,46 +168,74 @@
     "text": "Quarto\n\n\n\nUn sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R)."
   },
   {
-    "objectID": "shiny_2025/presentacion.html#section-7",
-    "href": "shiny_2025/presentacion.html#section-7",
+    "objectID": "shiny_2025/presentacion.html#section-6",
+    "href": "shiny_2025/presentacion.html#section-6",
     "title": "From Data to Narrative",
     "section": "",
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
   },
   {
-    "objectID": "shiny_2025/presentacion.html#streamlit",
-    "href": "shiny_2025/presentacion.html#streamlit",
+    "objectID": "shiny_2025/presentacion.html#quarto-extensiones",
+    "href": "shiny_2025/presentacion.html#quarto-extensiones",
     "title": "From Data to Narrative",
-    "section": "Streamlit",
-    "text": "Streamlit\n\n\n Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python."
+    "section": "Quarto Extensiones",
+    "text": "Quarto Extensiones\n\nLas extensiones son una herramienta poderosa para modificar y ampliar el comportamiento de Quarto."
   },
   {
-    "objectID": "shiny_2025/presentacion.html#streamlit-ejemplo",
-    "href": "shiny_2025/presentacion.html#streamlit-ejemplo",
+    "objectID": "shiny_2025/presentacion.html#quarto-webr-y-quarto-pyodide",
+    "href": "shiny_2025/presentacion.html#quarto-webr-y-quarto-pyodide",
     "title": "From Data to Narrative",
-    "section": "Streamlit: Ejemplo",
-    "text": "Streamlit: Ejemplo\n\n\nimport streamlit as st\n\n# Título principal de la aplicación\nst.title(\"Hola Streamlit\")\n\n# Mensaje principal con nombres y emoticón fijos\nmensaje = \"Darwin y Patricia son mejores amigos 😊\"\nst.write(mensaje)\n\n# Imagen decorativa\nst.image(\n    \"https://www.svgrepo.com/show/397758/people-hugging.svg\",\n    caption=\"Amigos\",\n    width=200  # Ajuste del tamaño de la imagen\n)\n\n# Footer\nst.markdown(\n    \"\"\"\n    ---\n    Gracias por usar esta aplicación interactiva 🎈\n    \"\"\"\n)\n\n\n\n\n\n\n\n\n\n(C) Ejemplo en Streamlit - Playground."
+    "section": "🌐 Quarto WebR y Quarto Pyodide",
+    "text": "🌐 Quarto WebR y Quarto Pyodide\n\n\nWebR: Ejecuta código R en el navegador, sin instalaciones.\n# Para instalar WebR en tu entorno\nremotes::install_github(\"attiyap/WebR\")\nPyodide : Idem pero para Python.\n# Para instalar Pyodide\npip install pyodide"
   },
   {
-    "objectID": "shiny_2025/presentacion.html#html-webapps",
-    "href": "shiny_2025/presentacion.html#html-webapps",
+    "objectID": "shiny_2025/presentacion.html#ejemplo-r",
+    "href": "shiny_2025/presentacion.html#ejemplo-r",
     "title": "From Data to Narrative",
-    "section": "HTML & webapps",
-    "text": "HTML & webapps\n\n\n🛠️ Elige una herramienta\n\n💡 La innovación destaca"
+    "section": "📊 Ejemplo R",
+    "text": "📊 Ejemplo R\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "shiny_2025/presentacion.html#ejemplo-r-1",
+    "href": "shiny_2025/presentacion.html#ejemplo-r-1",
+    "title": "From Data to Narrative",
+    "section": "📊 Ejemplo R",
+    "text": "📊 Ejemplo R\n\n\n\n'''{webr-r}\nx &lt;- c(1, 2, 3, 4, 5)\ny &lt;- c(2, 4, 6, 8, 10)\nplot(x, y, type=\"o\", col=\"blue\", lty=1, xlab=\"\", ylab=\"\")\ntitle(main=\"Gráfico Sencillo en R\")\n'''\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "shiny_2025/presentacion.html#shiny",
+    "href": "shiny_2025/presentacion.html#shiny",
+    "title": "From Data to Narrative",
+    "section": "Shiny",
+    "text": "Shiny\n\n\n\nShiny es un paquete de R que permite crear aplicaciones web interactivas fácilmente usando R (También disponible para python)."
+  },
+  {
+    "objectID": "shiny_2025/presentacion.html#shiny-1",
+    "href": "shiny_2025/presentacion.html#shiny-1",
+    "title": "From Data to Narrative",
+    "section": "Shiny",
+    "text": "Shiny"
+  },
+  {
+    "objectID": "shiny_2025/presentacion.html#quarto-shiny",
+    "href": "shiny_2025/presentacion.html#quarto-shiny",
+    "title": "From Data to Narrative",
+    "section": "Quarto & Shiny",
+    "text": "Quarto & Shiny"
   },
   {
     "objectID": "shiny_2025/presentacion.html#flujo-de-decisión",
     "href": "shiny_2025/presentacion.html#flujo-de-decisión",
     "title": "From Data to Narrative",
     "section": "Flujo de decisión",
-    "text": "Flujo de decisión\n\n\n\n🎤 PowerPoint: Presentación sin código de un solo uso\n📚 Quarto: Charlas a partir de documentos relacionados\n💻 Streamlit: Presentaciones interactivas (Python)\n🎨 Más: Canvas, Revealjs, Prezi"
+    "text": "Flujo de decisión\n\n\n\n🎤 PowerPoint: Presentación sin código de un solo uso\n📚 Quarto: Charlas a partir de documentos relacionados\n💻 Shiny: Dshboards Interactivos (R)\n🎨 Más: Canvas, Revealjs, Prezi"
   },
   {
     "objectID": "shiny_2025/presentacion.html#conclusión",
     "href": "shiny_2025/presentacion.html#conclusión",
     "title": "From Data to Narrative",
     "section": "Conclusión",
-    "text": "Conclusión\n\n\n\n📖 Storytelling: Narrativas que cautivan a través de datos.\n\n📊 Visualización: Gráficos claros y atractivos.\n\n🛠️ Herramientas: Streamlit, Quarto, y más."
+    "text": "Conclusión\n\n\n\n📖 Storytelling: Narrativas que cautivan a través de datos.\n\n🛠️ Herramientas:Quarto, Shiny, webR, y más."
   },
   {
     "objectID": "shiny_2025/presentacion.html#gracias-por-participar",
