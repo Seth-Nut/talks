@@ -584,7 +584,7 @@ app = App(app_ui, server)
 <br>
 
 - 🎥 **YouTube Videos**: 
-  - [Reproducible Data Science with webR and Shinylive](https://www.youtube.com/watch?v=dummy_link)
+  - [Reproducible Data Science: WebR + Shinylive](https://www.youtube.com/watch?v=dummy_link)
   - [George Stagg | Posit](https://github.com/georgestagg) 
 
 
