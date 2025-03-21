@@ -7,12 +7,7 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<meta name="shinylive:serviceworker_dir" content="..">
-<script src="../site_libs/quarto-contrib/shinylive-0.10.3/shinylive/load-shinylive-sw.js" type="module"></script>
-<script src="../site_libs/quarto-contrib/shinylive-0.10.3/shinylive/run-python-blocks.js" type="module"></script>
-<link href="../site_libs/quarto-contrib/shinylive-0.10.3/shinylive/shinylive.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
   <meta name="author" content="Francisco Alfaro">
@@ -193,6 +188,8 @@
       margin-right: 0; 
     }
   </style>
+  <script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+  <link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.47.0/min/vs/editor/editor.main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     
@@ -2055,9 +2052,9 @@ Francisco Alfaro
 <div class="column" style="width:30%;">
 <ul>
 <li class="fragment"></li>
-<li class="fragment">No</li>
-<li class="fragment">Nope</li>
-<li class="fragment">No chance</li>
+<li class="fragment"><p>No</p></li>
+<li class="fragment"><p>Nope</p></li>
+<li class="fragment"><p>No chance</p></li>
 </ul>
 </div><div class="column fragment" style="width:70%;">
 <p><img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"></p>
@@ -2161,7 +2158,7 @@ Francisco Alfaro
 <div class="column fragment" data-fragment-index="1" style="width:30%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/storytelling/spotify1.png" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="images/storytelling/spotify1.jpeg" class="quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 </div><div class="column center" style="width:40%;">
@@ -2169,7 +2166,7 @@ Francisco Alfaro
 </div><div class="column fragment" data-fragment-index="1" style="width:30%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/storytelling/spotify2.png" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="images/storytelling/spotify2.jpeg" class="quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 </div></div>
@@ -2202,25 +2199,6 @@ Francisco Alfaro
 </div></div>
 <div class="fragment">
 <p><br><br> <span style="font-size: 0.75em; color: gray">(C) Storytelling with Data, by Cole Nussbaumer Knaflic.</span></p>
-</div>
-</section>
-<section id="best-charts-for-your-data" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Best Charts for your Data</h2>
-<div class="r-stack">
-<p><br></p>
-<div class="quarto-figure quarto-figure-left">
-<figure>
-<p><img data-src="images/storytelling/plot1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-left"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="images/storytelling/plot2.png" class="fragment quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div>
-<div class="fragment">
-<p><span style="font-size: 0.75em; color: gray">(C) Essential chart types for data visualization, por Atlassian.</span></p>
 </div>
 </section>
 <section id="section-3" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
@@ -2361,20 +2339,29 @@ Francisco Alfaro
 <section id="explain-less-show-more" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2><span style="color: red">Explain less</span>, <span style="color: green">show more</span></h2>
 <p><br></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>categories <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Yes"</span>, <span class="st">"No"</span>)</span>
-<span id="cb1-2"><a></a>values <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">75</span>, <span class="dv">25</span>)</span>
-<span id="cb1-3"><a></a>colors <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"lightblue"</span>, <span class="st">"salmon"</span>)</span>
-<span id="cb1-4"><a></a><span class="fu">barplot</span>(</span>
-<span id="cb1-5"><a></a>  values, <span class="at">names.arg =</span> categories, <span class="at">col =</span> colors, </span>
-<span id="cb1-6"><a></a>  <span class="at">main =</span> <span class="st">"😊 Do you like the presentation so far? 😊"</span>, <span class="at">cex.main =</span> <span class="fl">0.9</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="fragment">
 <div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="presentacion_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
-</figure>
-</div>
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="303" data-source-offset="0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 302;"><span id="cb1-303"><a></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb1-304"><a></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb1-305"><a></a>    Plot<span class="op">.</span><span class="fu">barY</span>(</span>
+<span id="cb1-306"><a></a>      [</span>
+<span id="cb1-307"><a></a>        { <span class="dt">category</span><span class="op">:</span> <span class="st">"Yes"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">75</span> }<span class="op">,</span></span>
+<span id="cb1-308"><a></a>        { <span class="dt">category</span><span class="op">:</span> <span class="st">"No"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">25</span> }</span>
+<span id="cb1-309"><a></a>      ]<span class="op">,</span></span>
+<span id="cb1-310"><a></a>      {</span>
+<span id="cb1-311"><a></a>        <span class="dt">x</span><span class="op">:</span> <span class="st">"category"</span><span class="op">,</span></span>
+<span id="cb1-312"><a></a>        <span class="dt">y</span><span class="op">:</span> <span class="st">"value"</span><span class="op">,</span></span>
+<span id="cb1-313"><a></a>        <span class="dt">fill</span><span class="op">:</span> d <span class="kw">=&gt;</span> (d<span class="op">.</span><span class="at">category</span> <span class="op">===</span> <span class="st">"Yes"</span> <span class="op">?</span> <span class="st">"lightblue"</span> <span class="op">:</span> <span class="st">"salmon"</span>)</span>
+<span id="cb1-314"><a></a>      }</span>
+<span id="cb1-315"><a></a>    )</span>
+<span id="cb1-316"><a></a>  ]<span class="op">,</span></span>
+<span id="cb1-317"><a></a>  <span class="dt">width</span><span class="op">:</span> <span class="dv">600</span><span class="op">,</span></span>
+<span id="cb1-318"><a></a>  <span class="dt">height</span><span class="op">:</span> <span class="dv">400</span><span class="op">,</span></span>
+<span id="cb1-319"><a></a>  <span class="dt">title</span><span class="op">:</span> <span class="st">"Do you like the presentation so far? "</span><span class="op">,</span></span>
+<span id="cb1-320"><a></a>  <span class="dt">titleFontSize</span><span class="op">:</span> <span class="dv">10</span> </span>
+<span id="cb1-321"><a></a>})</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-1" data-nodetype="expression">
+
 </div>
 </div>
 </div>
@@ -2443,7 +2430,7 @@ format:
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="presentacion_files/figure-revealjs/unnamed-chunk-2-1.png" width="960"></p>
+<p><img data-src="presentacion_js_files/figure-revealjs/unnamed-chunk-2-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -2525,55 +2512,64 @@ format:
 </section>
 <section id="quarto-shiny" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>Quarto &amp; Shiny</h2>
-<div class="sourceCode" id="cb6" data-engine="python"><pre class="sourceCode numberSource shinylive-python number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a></a>#| '!! shinylive warning !!': |</span>
-<span id="cb6-2"><a></a>#|   shinylive does not work in self-contained HTML documents.</span>
-<span id="cb6-3"><a></a>#|   Please set `embed-resources: false` in your metadata.</span>
-<span id="cb6-4"><a></a>#| standalone: true</span>
-<span id="cb6-5"><a></a>#| viewerHeight: 550</span>
-<span id="cb6-6"><a></a></span>
-<span id="cb6-7"><a></a>from shiny import App, ui, render, reactive</span>
-<span id="cb6-8"><a></a>import matplotlib.pyplot as plt</span>
-<span id="cb6-9"><a></a>import io</span>
-<span id="cb6-10"><a></a>import base64</span>
-<span id="cb6-11"><a></a></span>
-<span id="cb6-12"><a></a># Function to generate the plot dynamically based on input values</span>
-<span id="cb6-13"><a></a>def create_plot(yes_value, no_value):</span>
-<span id="cb6-14"><a></a>    categories = ['Yes', 'No']</span>
-<span id="cb6-15"><a></a>    values = [yes_value, no_value]</span>
-<span id="cb6-16"><a></a></span>
-<span id="cb6-17"><a></a>    fig, ax = plt.subplots(figsize=(10, 3))</span>
-<span id="cb6-18"><a></a>    ax.bar(categories, values, color=['lightblue', 'salmon'])</span>
-<span id="cb6-19"><a></a>    ax.set_title('😊 Do you like the presentation so far? 😊')</span>
-<span id="cb6-20"><a></a></span>
-<span id="cb6-21"><a></a>    # Convert the image to base64 for display in Shiny</span>
-<span id="cb6-22"><a></a>    buf = io.BytesIO()</span>
-<span id="cb6-23"><a></a>    plt.savefig(buf, format="png")</span>
-<span id="cb6-24"><a></a>    plt.close(fig)</span>
-<span id="cb6-25"><a></a>    buf.seek(0)</span>
-<span id="cb6-26"><a></a>    encoded_image = base64.b64encode(buf.getvalue()).decode()</span>
-<span id="cb6-27"><a></a>    return f'&lt;img src="data:image/png;base64,{encoded_image}" style="max-width:100%;"&gt;'</span>
-<span id="cb6-28"><a></a></span>
-<span id="cb6-29"><a></a># UI definition</span>
-<span id="cb6-30"><a></a>app_ui = ui.page_fluid(</span>
-<span id="cb6-31"><a></a>    ui.h2("Interactive Survey"),</span>
-<span id="cb6-32"><a></a>    </span>
-<span id="cb6-33"><a></a>    # Sliders to change values dynamically</span>
-<span id="cb6-34"><a></a>    ui.input_slider("yes_value", "Yes responses:", min=0, max=50, value=20),</span>
-<span id="cb6-35"><a></a>    ui.input_slider("no_value", "No responses:", min=0, max=50, value=10),</span>
-<span id="cb6-36"><a></a>    </span>
-<span id="cb6-37"><a></a>    # Output area for the plot</span>
-<span id="cb6-38"><a></a>    ui.output_ui("plot_output")</span>
-<span id="cb6-39"><a></a>)</span>
-<span id="cb6-40"><a></a></span>
-<span id="cb6-41"><a></a># Server function</span>
-<span id="cb6-42"><a></a>def server(input, output, session):</span>
-<span id="cb6-43"><a></a>    @output</span>
-<span id="cb6-44"><a></a>    @render.ui</span>
-<span id="cb6-45"><a></a>    def plot_output():</span>
-<span id="cb6-46"><a></a>        return ui.HTML(create_plot(input.yes_value(), input.no_value()))</span>
-<span id="cb6-47"><a></a></span>
-<span id="cb6-48"><a></a># Create the Shiny app</span>
-<span id="cb6-49"><a></a>app = App(app_ui, server)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="529" data-source-offset="-0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 528;"><span id="cb6-529"><a></a>viewof yes_value <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> { </span>
+<span id="cb6-530"><a></a>  <span class="dt">value</span><span class="op">:</span> <span class="dv">75</span><span class="op">,</span> </span>
+<span id="cb6-531"><a></a>  <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> </span>
+<span id="cb6-532"><a></a>  <span class="dt">label</span><span class="op">:</span> <span class="st">"👍 Yes responses:"</span><span class="op">,</span> </span>
+<span id="cb6-533"><a></a>  <span class="dt">width</span><span class="op">:</span> <span class="dv">200</span> </span>
+<span id="cb6-534"><a></a>})</span>
+<span id="cb6-535"><a></a></span>
+<span id="cb6-536"><a></a>viewof no_value <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">100</span>]<span class="op">,</span> { </span>
+<span id="cb6-537"><a></a>  <span class="dt">value</span><span class="op">:</span> <span class="dv">25</span><span class="op">,</span> </span>
+<span id="cb6-538"><a></a>  <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> </span>
+<span id="cb6-539"><a></a>  <span class="dt">label</span><span class="op">:</span> <span class="st">"👎 No responses:"</span><span class="op">,</span> </span>
+<span id="cb6-540"><a></a>  <span class="dt">width</span><span class="op">:</span> <span class="dv">200</span> </span>
+<span id="cb6-541"><a></a>})</span>
+<span id="cb6-542"><a></a></span>
+<span id="cb6-543"><a></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb6-544"><a></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb6-545"><a></a>    Plot<span class="op">.</span><span class="fu">barY</span>(</span>
+<span id="cb6-546"><a></a>      [</span>
+<span id="cb6-547"><a></a>        { <span class="dt">category</span><span class="op">:</span> <span class="st">"Yes"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> yes_value }<span class="op">,</span></span>
+<span id="cb6-548"><a></a>        { <span class="dt">category</span><span class="op">:</span> <span class="st">"No"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> no_value }</span>
+<span id="cb6-549"><a></a>      ]<span class="op">,</span></span>
+<span id="cb6-550"><a></a>      {</span>
+<span id="cb6-551"><a></a>        <span class="dt">x</span><span class="op">:</span> <span class="st">"category"</span><span class="op">,</span></span>
+<span id="cb6-552"><a></a>        <span class="dt">y</span><span class="op">:</span> <span class="st">"value"</span><span class="op">,</span></span>
+<span id="cb6-553"><a></a>        <span class="dt">fill</span><span class="op">:</span> d <span class="kw">=&gt;</span> (d<span class="op">.</span><span class="at">category</span> <span class="op">===</span> <span class="st">"Yes"</span> <span class="op">?</span> <span class="st">"#4CAF50"</span> <span class="op">:</span> <span class="st">"#F44336"</span>)<span class="op">,</span></span>
+<span id="cb6-554"><a></a>        <span class="dt">tip</span><span class="op">:</span> <span class="kw">true</span></span>
+<span id="cb6-555"><a></a>      }</span>
+<span id="cb6-556"><a></a>    )</span>
+<span id="cb6-557"><a></a>  ]<span class="op">,</span></span>
+<span id="cb6-558"><a></a>  <span class="dt">width</span><span class="op">:</span> <span class="dv">500</span><span class="op">,</span></span>
+<span id="cb6-559"><a></a>  <span class="dt">height</span><span class="op">:</span> <span class="dv">350</span><span class="op">,</span></span>
+<span id="cb6-560"><a></a>  <span class="dt">marginBottom</span><span class="op">:</span> <span class="dv">50</span><span class="op">,</span></span>
+<span id="cb6-561"><a></a>  <span class="dt">marginLeft</span><span class="op">:</span> <span class="dv">60</span><span class="op">,</span></span>
+<span id="cb6-562"><a></a></span>
+<span id="cb6-563"><a></a>})</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="useful-links" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>🔗 Useful Links</h2>
@@ -2590,6 +2586,7 @@ format:
 <ul>
 <li class="fragment"><a href="https://docs.r-wasm.org/webr/v0.3.2/">WebR Documentation</a></li>
 <li class="fragment"><a href="https://quarto-ext.github.io/shinylive/">Shinylive Documentation</a></li>
+<li class="fragment"><a href="https://shinylive.io/r/">Shinylive Examples</a></li>
 </ul></li>
 </ul>
 </div><div class="column" style="width:40%;">
@@ -2889,6 +2886,17 @@ format:
           RevealZoom
         ]
       });
+    </script>
+    <script type="ojs-module-contents">
+    eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlBsb3QucGxvdCh7XG4gIG1hcmtzOiBbXG4gICAgUGxvdC5iYXJZKFxuICAgICAgW1xuICAgICAgICB7IGNhdGVnb3J5OiBcIlllc1wiLCB2YWx1ZTogNzUgfSxcbiAgICAgICAgeyBjYXRlZ29yeTogXCJOb1wiLCB2YWx1ZTogMjUgfVxuICAgICAgXSxcbiAgICAgIHtcbiAgICAgICAgeDogXCJjYXRlZ29yeVwiLFxuICAgICAgICB5OiBcInZhbHVlXCIsXG4gICAgICAgIGZpbGw6IGQgPT4gKGQuY2F0ZWdvcnkgPT09IFwiWWVzXCIgPyBcImxpZ2h0Ymx1ZVwiIDogXCJzYWxtb25cIilcbiAgICAgIH1cbiAgICApXG4gIF0sXG4gIHdpZHRoOiA2MDAsXG4gIGhlaWdodDogNDAwLFxuICB0aXRsZTogXCJEbyB5b3UgbGlrZSB0aGUgcHJlc2VudGF0aW9uIHNvIGZhcj8gXCIsXG4gIHRpdGxlRm9udFNpemU6IDEwIFxufSlcblxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidmlld29mIHllc192YWx1ZSA9IElucHV0cy5yYW5nZShbMCwgMTAwXSwgeyBcbiAgdmFsdWU6IDc1LCBcbiAgc3RlcDogMSwgXG4gIGxhYmVsOiBcIvCfkY0gWWVzIHJlc3BvbnNlczpcIiwgXG4gIHdpZHRoOiAyMDAgXG59KVxuXG52aWV3b2Ygbm9fdmFsdWUgPSBJbnB1dHMucmFuZ2UoWzAsIDEwMF0sIHsgXG4gIHZhbHVlOiAyNSwgXG4gIHN0ZXA6IDEsIFxuICBsYWJlbDogXCLwn5GOIE5vIHJlc3BvbnNlczpcIiwgXG4gIHdpZHRoOiAyMDAgXG59KVxuXG5QbG90LnBsb3Qoe1xuICBtYXJrczogW1xuICAgIFBsb3QuYmFyWShcbiAgICAgIFtcbiAgICAgICAgeyBjYXRlZ29yeTogXCJZZXNcIiwgdmFsdWU6IHllc192YWx1ZSB9LFxuICAgICAgICB7IGNhdGVnb3J5OiBcIk5vXCIsIHZhbHVlOiBub192YWx1ZSB9XG4gICAgICBdLFxuICAgICAge1xuICAgICAgICB4OiBcImNhdGVnb3J5XCIsXG4gICAgICAgIHk6IFwidmFsdWVcIixcbiAgICAgICAgZmlsbDogZCA9PiAoZC5jYXRlZ29yeSA9PT0gXCJZZXNcIiA/IFwiIzRDQUY1MFwiIDogXCIjRjQ0MzM2XCIpLFxuICAgICAgICB0aXA6IHRydWVcbiAgICAgIH1cbiAgICApXG4gIF0sXG4gIHdpZHRoOiA1MDAsXG4gIGhlaWdodDogMzUwLFxuICBtYXJnaW5Cb3R0b206IDUwLFxuICBtYXJnaW5MZWZ0OiA2MCxcblxufSlcblxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCd5ZXNfdmFsdWUnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnbm9fdmFsdWUnKSJ9XX0=
+    </script>
+    <script type="module">
+    if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+    window._ojs.paths.runtimeToDoc = "../../shiny_2025";
+    window._ojs.paths.runtimeToRoot = "../..";
+    window._ojs.paths.docToRoot = "..";
+    window._ojs.selfContained = false;
+    window._ojs.runtime.interpretFromScriptTags();
     </script>
     
     <script>

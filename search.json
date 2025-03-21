@@ -210,74 +210,1355 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
-    "objectID": "latinr_2024/presentacion.html#innovar-en-la-enseñanza",
-    "href": "latinr_2024/presentacion.html#innovar-en-la-enseñanza",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "💡 Innovar en la Enseñanza",
-    "text": "💡 Innovar en la Enseñanza\n\n\n\n\n\n\nCaptar atención activa.\nAdaptarse al mundo digital.\nQuarto permite crear contenidos interactivos."
+    "objectID": "shiny_2025/presentacion_js.html#agenda",
+    "href": "shiny_2025/presentacion_js.html#agenda",
+    "title": "From Data to Narrative",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n\nNo\nNope\nNo chance"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
-    "href": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🌐 Quarto WebR y Quarto Pyodide",
-    "text": "🌐 Quarto WebR y Quarto Pyodide\n\nWebR: Ejecuta código R en el navegador, sin instalaciones.\n# Para instalar WebR en tu entorno\nremotes::install_github(\"attiyap/WebR\")\nPyodide : Idem pero para Python.\n# Para instalar Pyodide\npip install pyodide"
+    "objectID": "shiny_2025/presentacion_js.html#section",
+    "href": "shiny_2025/presentacion_js.html#section",
+    "title": "From Data to Narrative",
+    "section": "",
+    "text": "Lesson #1 of Storytelling\n\n\nNever reveal the ending too soon.\nAlways build up tension and drama"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#ejemplo-r",
-    "href": "latinr_2024/presentacion.html#ejemplo-r",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "📊 Ejemplo R",
-    "text": "📊 Ejemplo R\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "objectID": "shiny_2025/presentacion_js.html#agenda-v2",
+    "href": "shiny_2025/presentacion_js.html#agenda-v2",
+    "title": "From Data to Narrative",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNever reveal the ending\n\nDetails are important, but not all details are important.\n\nYour first draft will be horrible.\n\nShow, don’t tell."
   },
   {
-    "objectID": "latinr_2024/presentacion.html#ejemplo-python",
-    "href": "latinr_2024/presentacion.html#ejemplo-python",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "📊 Ejemplo Python",
-    "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "objectID": "shiny_2025/presentacion_js.html#section-1",
+    "href": "shiny_2025/presentacion_js.html#section-1",
+    "title": "From Data to Narrative",
+    "section": "",
+    "text": "Data Storytelling\nWhy Data Storytelling?"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
-    "href": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🎓 Quarto y la Enseñanza",
-    "text": "🎓 Quarto y la Enseñanza"
+    "objectID": "shiny_2025/presentacion_js.html#what-is-storytelling",
+    "href": "shiny_2025/presentacion_js.html#what-is-storytelling",
+    "title": "From Data to Narrative",
+    "section": "What is Storytelling?",
+    "text": "What is Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Stories are the first human technology."
   },
   {
-    "objectID": "latinr_2024/presentacion.html#implementación",
-    "href": "latinr_2024/presentacion.html#implementación",
-    "title": "Uso de Quarto para crear clases interactivas",
-    "section": "🛠️ Implementación",
-    "text": "🛠️ Implementación"
+    "objectID": "shiny_2025/presentacion_js.html#ohh-those-hackable-brains",
+    "href": "shiny_2025/presentacion_js.html#ohh-those-hackable-brains",
+    "title": "From Data to Narrative",
+    "section": "Ohh, those hackable brains",
+    "text": "Ohh, those hackable brains\n\n\n\n\nPeak-End Rule\n\n\nGame of Thrones Rating, by Kelvin Neo"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#talleres",
-    "href": "latinr_2024/presentacion.html#talleres",
-    "title": "Uso de Quarto para crear clases interactivas",
+    "objectID": "shiny_2025/presentacion_js.html#narrative",
+    "href": "shiny_2025/presentacion_js.html#narrative",
+    "title": "From Data to Narrative",
+    "section": "Narrative",
+    "text": "Narrative\n\n\n Use Storytelling tricks (narrative) to create presentations that will be remembered and make an impact\n\n\n\n\n\n\n\n\n\n🎭 Emotions inspire action"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#the-best-example",
+    "href": "shiny_2025/presentacion_js.html#the-best-example",
+    "title": "From Data to Narrative",
+    "section": "The best example",
+    "text": "The best example\n\n\n\n\n\n\n\n\n How to make millions of people share statistics on social media?"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#section-2",
+    "href": "shiny_2025/presentacion_js.html#section-2",
+    "title": "From Data to Narrative",
+    "section": "",
+    "text": "Storytelling principle #2\n\n\nDetails matter, but not all details are important."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#examples",
+    "href": "shiny_2025/presentacion_js.html#examples",
+    "title": "From Data to Narrative",
+    "section": "Examples",
+    "text": "Examples\n\n\n 🔢 Don’t share numbers\n\n 🪶 Share a story\n\n\n (C) Storytelling with Data, by Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#section-3",
+    "href": "shiny_2025/presentacion_js.html#section-3",
+    "title": "From Data to Narrative",
+    "section": "",
+    "text": "Storytelling principle #2\n\n\nYour first draft will always be horrible."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#examples-1",
+    "href": "shiny_2025/presentacion_js.html#examples-1",
+    "title": "From Data to Narrative",
+    "section": "Examples",
+    "text": "Examples\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🥱 1° version \\(&lt;\\) … \\(&lt;\\) 😊 last version"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#using-ai-chatbots-to",
+    "href": "shiny_2025/presentacion_js.html#using-ai-chatbots-to",
+    "title": "From Data to Narrative",
+    "section": "Using AI Chatbots to:",
+    "text": "Using AI Chatbots to:\n\n\n\n\nCreate customized templates\n\nAutomate content structure\n\nSave time on design\n\nAdapt to style and preferences"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#chatbots-a.i.---ideas",
+    "href": "shiny_2025/presentacion_js.html#chatbots-a.i.---ideas",
+    "title": "From Data to Narrative",
+    "section": "💡 Chatbots A.I. - Ideas",
+    "text": "💡 Chatbots A.I. - Ideas\n\n\n\n\nChatGPT (OpenAI)\nGemini (Google DeepMind)\nMeta AI (Meta)\nDeepSeek (DeepSeek)"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#using-ai-chatbots-for",
+    "href": "shiny_2025/presentacion_js.html#using-ai-chatbots-for",
+    "title": "From Data to Narrative",
+    "section": "Using AI Chatbots for:",
+    "text": "Using AI Chatbots for:\n\n\n\n\nAnalogies and examples\n\nBetter translations\n\nPrompts to create images\n\nDon’t search for images, create them!"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#chatbots-a.i.---images",
+    "href": "shiny_2025/presentacion_js.html#chatbots-a.i.---images",
+    "title": "From Data to Narrative",
+    "section": "💡 Chatbots A.I. - Images",
+    "text": "💡 Chatbots A.I. - Images\n\n\n\n\nCanva + Magic Studio\nMicrosoft Designer\nNapkin AI\nMidjourney"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#section-4",
+    "href": "shiny_2025/presentacion_js.html#section-4",
+    "title": "From Data to Narrative",
+    "section": "",
+    "text": "Storytelling principle #4\n\n\nExplain less, show more"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#explain-less-show-more",
+    "href": "shiny_2025/presentacion_js.html#explain-less-show-more",
+    "title": "From Data to Narrative",
+    "section": "Explain less, show more",
+    "text": "Explain less, show more\n\n\nPlot.plot({\n  marks: [\n    Plot.barY(\n      [\n        { category: \"Yes\", value: 75 },\n        { category: \"No\", value: 25 }\n      ],\n      {\n        x: \"category\",\n        y: \"value\",\n        fill: d =&gt; (d.category === \"Yes\" ? \"lightblue\" : \"salmon\")\n      }\n    )\n  ],\n  width: 600,\n  height: 400,\n  title: \"Do you like the presentation so far? \",\n  titleFontSize: 10 \n})"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#quarto",
+    "href": "shiny_2025/presentacion_js.html#quarto",
+    "title": "From Data to Narrative",
+    "section": "Quarto",
+    "text": "Quarto\n\n\n\nQuarto is an open system for scientific publications with markdown and interactive code (Python/R)."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#section-5",
+    "href": "shiny_2025/presentacion_js.html#section-5",
+    "title": "From Data to Narrative",
+    "section": "",
+    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#examples-2",
+    "href": "shiny_2025/presentacion_js.html#examples-2",
+    "title": "From Data to Narrative",
+    "section": "Examples",
+    "text": "Examples\n\nCodePlot\n\n\ncategories &lt;- c(\"Yes\", \"No\")\nvalues &lt;- c(75, 25)\ncolors &lt;- c(\"lightblue\", \"salmon\")\nbarplot(\n  values, names.arg = categories, col = colors, \n  main = \"😊 Do you like the presentation so far? 😊\", cex.main = 0.9\n)"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#quarto-extensions",
+    "href": "shiny_2025/presentacion_js.html#quarto-extensions",
+    "title": "From Data to Narrative",
+    "section": "Quarto Extensions",
+    "text": "Quarto Extensions\n\nExtensions are a powerful tool to modify and extend the behavior of Quarto."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#quarto-webr",
+    "href": "shiny_2025/presentacion_js.html#quarto-webr",
+    "title": "From Data to Narrative",
+    "section": "🌐 Quarto WebR",
+    "text": "🌐 Quarto WebR\n\n\n\n\nWebR: Run R code in the browser, no installation required.\n# To install WebR in your environment\nremotes::install_github(\"attiyap/WebR\")\nPyodide: Same, but for Python.\n# To install Pyodide\npip install pyodide"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#examples-3",
+    "href": "shiny_2025/presentacion_js.html#examples-3",
+    "title": "From Data to Narrative",
+    "section": "Examples",
+    "text": "Examples\n\nWebR - ex1WebR - ex2\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#shiny",
+    "href": "shiny_2025/presentacion_js.html#shiny",
+    "title": "From Data to Narrative",
+    "section": "Shiny",
+    "text": "Shiny\n\n\n\nShiny is an R package that allows you to easily create interactive web applications using R (also available for Python)."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#shiny-1",
+    "href": "shiny_2025/presentacion_js.html#shiny-1",
+    "title": "From Data to Narrative",
+    "section": "Shiny",
+    "text": "Shiny"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#quarto-shinylive",
+    "href": "shiny_2025/presentacion_js.html#quarto-shinylive",
+    "title": "From Data to Narrative",
+    "section": "🌐 Quarto Shinylive",
+    "text": "🌐 Quarto Shinylive\n\n\n\nCode to deploy Shiny applications that run entirely in the browser, using Pyodide and webR (Python and R compiled to WebAssembly).\n\n\n\n\n\n🌐 Shinylive in R, 🐍 Shinylive in Python"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#quarto-shiny",
+    "href": "shiny_2025/presentacion_js.html#quarto-shiny",
+    "title": "From Data to Narrative",
+    "section": "Quarto & Shiny",
+    "text": "Quarto & Shiny\n\nviewof yes_value = Inputs.range([0, 100], { \n  value: 75, \n  step: 1, \n  label: \"👍 Yes responses:\", \n  width: 200 \n})\n\nviewof no_value = Inputs.range([0, 100], { \n  value: 25, \n  step: 1, \n  label: \"👎 No responses:\", \n  width: 200 \n})\n\nPlot.plot({\n  marks: [\n    Plot.barY(\n      [\n        { category: \"Yes\", value: yes_value },\n        { category: \"No\", value: no_value }\n      ],\n      {\n        x: \"category\",\n        y: \"value\",\n        fill: d =&gt; (d.category === \"Yes\" ? \"#4CAF50\" : \"#F44336\"),\n        tip: true\n      }\n    )\n  ],\n  width: 500,\n  height: 350,\n  marginBottom: 50,\n  marginLeft: 60,\n\n})"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#useful-links",
+    "href": "shiny_2025/presentacion_js.html#useful-links",
+    "title": "From Data to Narrative",
+    "section": "🔗 Useful Links",
+    "text": "🔗 Useful Links\n\n\n\n\n🎥 YouTube Videos:\n\nReproducible Data Science: WebR + Shinylive\nGeorge Stagg | Posit\n\n📖 More about webR and Shinylive:\n\nWebR Documentation\nShinylive Documentation\nShinylive Examples"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#agenda-v2-1",
+    "href": "shiny_2025/presentacion_js.html#agenda-v2-1",
+    "title": "From Data to Narrative",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNever reveal the ending\n\nDetails are important, but not all details are important\n\nYour first draft will be horrible\n\nShow, don’t tell\n\n\n\nOpción 2: Una agenda misteriosa."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_js.html#thank-you-for-participating",
+    "href": "shiny_2025/presentacion_js.html#thank-you-for-participating",
+    "title": "From Data to Narrative",
+    "section": "🎉 Thank You for Participating!",
+    "text": "🎉 Thank You for Participating!\n\n\n\n❓ Questions?\n👏 Fill out the survey\n🥳 Thank You Again!\n\n\n\n\n🔗 Our Website: seth-nut.github.io/resources."
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#aprender-adaptar-innovar",
+    "href": "mads_2024/presentacion.html#aprender-adaptar-innovar",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "🔄 Aprender, Adaptar, Innovar",
+    "text": "🔄 Aprender, Adaptar, Innovar"
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#section",
+    "href": "mads_2024/presentacion.html#section",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "",
+    "text": "Seth&Nut\nProgramación y Matemáticas al Alcance de Todos"
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#seth-nut",
+    "href": "mads_2024/presentacion.html#seth-nut",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "💼 Seth & Nut",
+    "text": "💼 Seth & Nut\n\n\n\n\n🎓 Charlas y Talleres\n📚 Mini Cursos\n🌟 Capacitaciones\n\n\n\n\n\n\n🔗 Nuestro Sitio Web: https://seth-nut.github.io/website/"
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#fundadores",
+    "href": "mads_2024/presentacion.html#fundadores",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "💻 Fundadores",
+    "text": "💻 Fundadores\n\n\n\n\n👨‍💻 Francisco Alfaro\n\n\n👩‍💻 Valeska Canales"
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#section-1",
+    "href": "mads_2024/presentacion.html#section-1",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "",
+    "text": "Inteligencia Aritifical\n¿ Qué hacemos con la Inteligencia Artificial?"
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#quarto",
+    "href": "mads_2024/presentacion.html#quarto",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "Quarto",
+    "text": "Quarto\n\n\n\nUn sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R)."
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#section-2",
+    "href": "mads_2024/presentacion.html#section-2",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "",
+    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#interactividad-con-quarto",
+    "href": "mads_2024/presentacion.html#interactividad-con-quarto",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "📊 Interactividad con Quarto",
+    "text": "📊 Interactividad con Quarto\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#talleres",
+    "href": "mads_2024/presentacion.html#talleres",
+    "title": "Inteligencia Artificial en la Educación",
     "section": "🎓 Talleres",
     "text": "🎓 Talleres\n\n\n\n\n🐍 PySchool Chile\n\n\n🔢 Olimpiadas USM 2024"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#resultados",
-    "href": "latinr_2024/presentacion.html#resultados",
-    "title": "Uso de Quarto para crear clases interactivas",
+    "objectID": "mads_2024/presentacion.html#streamlit",
+    "href": "mads_2024/presentacion.html#streamlit",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "Streamlit",
+    "text": "Streamlit\n\n\n Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python."
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#streamlit-ejemplo",
+    "href": "mads_2024/presentacion.html#streamlit-ejemplo",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "Streamlit: Ejemplo",
+    "text": "Streamlit: Ejemplo\n\n\nimport streamlit as st\n\n# Título principal de la aplicación\nst.title(\"Hola Streamlit\")\n\n# Mensaje principal con nombres y emoticón fijos\nmensaje = \"Darwin y Patricia son mejores amigos 😊\"\nst.write(mensaje)\n\n# Imagen decorativa\nst.image(\n    \"https://www.svgrepo.com/show/397758/people-hugging.svg\",\n    caption=\"Amigos\",\n    width=200  # Ajuste del tamaño de la imagen\n)\n\n# Footer\nst.markdown(\n    \"\"\"\n    ---\n    Gracias por usar esta aplicación interactiva 🎈\n    \"\"\"\n)\n\n\n\n\n\n\n\n\n\n(C) Ejemplo en Streamlit - Playground."
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#aplicaciones",
+    "href": "mads_2024/presentacion.html#aplicaciones",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "🚀 Aplicaciones",
+    "text": "🚀 Aplicaciones\n\n\n\n\n🍰 ¿Qué voy a comer hoy?\n\n\n⚖️ Ley Protección de Datos"
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#usar-chatbots-de-ia-para",
+    "href": "mads_2024/presentacion.html#usar-chatbots-de-ia-para",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nPlantillas personalizadas a medida\nAutomatizar estructura del contenido\nAhorro de tiempo en diseño\nAdaptación al estilo y preferencias"
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#usar-chatbots-de-ia-para-1",
+    "href": "mads_2024/presentacion.html#usar-chatbots-de-ia-para-1",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nAnalogías y ejemplos\nMejores traducciones\nPrompts para crear imágenes\nNo busques imágenes, créalas!"
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#material-de-apoyo",
+    "href": "mads_2024/presentacion.html#material-de-apoyo",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "Material de Apoyo",
+    "text": "Material de Apoyo\n\n\n\n\n\n🔗 Charla: Prompts Perfectos, Respuestas Poderosas"
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#section-3",
+    "href": "mads_2024/presentacion.html#section-3",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "",
+    "text": "Conclusiones\nAprendizajes de la Charla"
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#conclusiones",
+    "href": "mads_2024/presentacion.html#conclusiones",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "💡 Conclusiones",
+    "text": "💡 Conclusiones\n\n\n\n\n✅ Aprendizaje Personalizado.\n✅ Herramientas Dinámicas.\n✅ Eficiencia en Acción.\n✅ Innovación Inspiradora."
+  },
+  {
+    "objectID": "mads_2024/presentacion.html#gracias-por-participar",
+    "href": "mads_2024/presentacion.html#gracias-por-participar",
+    "title": "Inteligencia Artificial en la Educación",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#aprender-adaptar-innovar",
+    "href": "uc_2024/presentacion.html#aprender-adaptar-innovar",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🔄 Aprender, Adaptar, Innovar",
+    "text": "🔄 Aprender, Adaptar, Innovar"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#section",
+    "href": "uc_2024/presentacion.html#section",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "",
+    "text": "Curso MAT281\nAplicaciones de la matemática en la ingeniería"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#malla-curricular---icmat",
+    "href": "uc_2024/presentacion.html#malla-curricular---icmat",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "Malla Curricular - ICMAT",
+    "text": "Malla Curricular - ICMAT\n\n\n\n\n\n\n\n\n\n\n\n\n🌐 Más detalles del curso MAT281"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#mat281---matemáticas-aplicadas",
+    "href": "uc_2024/presentacion.html#mat281---matemáticas-aplicadas",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "MAT281 - Matemáticas Aplicadas",
+    "text": "MAT281 - Matemáticas Aplicadas\n\n\n\n\n\n\n\n🎯 Objetivo: Desarrollar competencias como Data Scientist\n📚 Requisitos: Python y cursos básicos de matemáticas\n📝 Contenidos: Toolkit, Data Manipulation, Machine Learning\n📊 Evaluaciones: Laboratorios, Tareas, Proyecto\n\n\n\n🌐 Repositorio: github.com/fralfaro/MAT281_2024"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#historia-del-curso",
+    "href": "uc_2024/presentacion.html#historia-del-curso",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "📅 Historia del curso",
+    "text": "📅 Historia del curso"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#section-1",
+    "href": "uc_2024/presentacion.html#section-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "",
+    "text": "Conceptos Claves\nTecnologías y Aprendizajes"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#google-colab",
+    "href": "uc_2024/presentacion.html#google-colab",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "Google Colab",
+    "text": "Google Colab\n\n\n\n\n🖥️ Entorno en la nube (Python)\n📊 Ejecución de código interactivo\n🌐 Acceso desde internet"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#google-colab-1",
+    "href": "uc_2024/presentacion.html#google-colab-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "Google Colab",
+    "text": "Google Colab\n\n\n\n🌐 Link: colab.research.google.com"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#ejemplo-python",
+    "href": "uc_2024/presentacion.html#ejemplo-python",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "📊 Ejemplo Python",
+    "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#más-herramientas",
+    "href": "uc_2024/presentacion.html#más-herramientas",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🎓 Más Herramientas",
+    "text": "🎓 Más Herramientas\n\n\n\n\nGithub versionar código\n\n\nMkdocs publicar sitios\n\n\n🌐 PyLatam 2022: Clases Interactivas con Google Colab, Mkdocs y Github Actions"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#aprendizajes-claves",
+    "href": "uc_2024/presentacion.html#aprendizajes-claves",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "Aprendizajes Claves",
+    "text": "Aprendizajes Claves\n\n\n\n\n\n\nMotivación: Fomentar interés.\nActivo: Involucra a los estudiantes.\nProyectos: Problemas reales.\nConstructivismo: Experiencia.\n\n\n\n📄 (C) How Learning Works (Ambrose, 2010)"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#section-2",
+    "href": "uc_2024/presentacion.html#section-2",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "",
+    "text": "Innovación Educativa\nInnovación en la Enseñanza y Evaluación en MAT281"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p1-google-colab",
+    "href": "uc_2024/presentacion.html#p1-google-colab",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P1: Google Colab",
+    "text": "P1: Google Colab\n\n\n\n\n\n\n\nAcceso sin instalación\nInteractivo y colaborativo\nAprendizaje activo"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p1-google-colab-1",
+    "href": "uc_2024/presentacion.html#p1-google-colab-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P1: Google Colab",
+    "text": "P1: Google Colab"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p2-github",
+    "href": "uc_2024/presentacion.html#p2-github",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P2: Github",
+    "text": "P2: Github\n\n\n\n\n\n\n\nControl de versiones\nFacilita Seguimiento\nPlantilla inicial\nPrimer portafolio"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p2-github-1",
+    "href": "uc_2024/presentacion.html#p2-github-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P2: Github",
+    "text": "P2: Github\n\n\n\nRepositorio del Curso\n\n\nPortafolio Estudiantes"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras",
+    "href": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P3: Evaluaciones Innovadoras",
+    "text": "P3: Evaluaciones Innovadoras\n\n\n\n\n\n\nEvaluaciones prácticas\nEnfoque en colaboración\nPreparación mercado laboral"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras-1",
+    "href": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P3: Evaluaciones Innovadoras",
+    "text": "P3: Evaluaciones Innovadoras"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p4evaluación-externa",
+    "href": "uc_2024/presentacion.html#p4evaluación-externa",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P4:Evaluación Externa",
+    "text": "P4:Evaluación Externa\n\n\n\n\n\n\nFeedback por pares\nEvaluación de proyectos\nDesarrolla habilidades blandas"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p4evaluación-externa-1",
+    "href": "uc_2024/presentacion.html#p4evaluación-externa-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P4:Evaluación Externa",
+    "text": "P4:Evaluación Externa"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p5-impacto-formación-profesional",
+    "href": "uc_2024/presentacion.html#p5-impacto-formación-profesional",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P5: Impacto Formación Profesional",
+    "text": "P5: Impacto Formación Profesional\n\n\n\n\n\n\nMotivación por la programación\nPreparación para prácticas\nMemorías Innovadoras"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#p5-impacto-formación-profesional-1",
+    "href": "uc_2024/presentacion.html#p5-impacto-formación-profesional-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "P5: Impacto Formación Profesional",
+    "text": "P5: Impacto Formación Profesional"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#section-3",
+    "href": "uc_2024/presentacion.html#section-3",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "",
+    "text": "Retroalimentación\nPerspectiva de los Estudiantes del Curso MAT281"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#comentarios-negativos",
+    "href": "uc_2024/presentacion.html#comentarios-negativos",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "👎 Comentarios Negativos",
+    "text": "👎 Comentarios Negativos\n\n\n❌ “El profesor jamás respondió los correos cuando se le hacían dudas, lo que considero una enorme falta de respeto hacia los estudiantes.”\n📉 “Nunca se entregaron calificaciones ni retroalimentación, así que nunca supe si estaba haciendo bien las cosas o no.”\n❓ “El curso fue confuso en la manera de evaluar, me costó entender qué había que hacer en las evaluaciones y cuáles iban a ser las pruebas o tareas.”"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#comentarios-positivos",
+    "href": "uc_2024/presentacion.html#comentarios-positivos",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "👍 Comentarios Positivos",
+    "text": "👍 Comentarios Positivos\n\n\n✅ “Buen profesor, con buena disposición para consultas. Es ordenado, presenta bien el contenido y llega bien al alumno.”\n🌟 “El profesor explica muy bien, de una forma clara. Tiene muy buena disposición y transmite confianza.”\n📚 “Es un curso muy bueno, ayuda a aprender mucho sobre el área de Data Science, las aplicaciones que tiene y las diferentes herramientas disponibles en Python.”"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#encuesta-docente",
+    "href": "uc_2024/presentacion.html#encuesta-docente",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "Encuesta Docente",
+    "text": "Encuesta Docente\n\n\n\n\n\n\n\n\n\n\n(C) La evaluó: contenidos, cercanía, y fomarlidades del curso."
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#section-4",
+    "href": "uc_2024/presentacion.html#section-4",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "",
+    "text": "Conclusiones\nResultados y Reflexiones del Curso MAT281"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#conclusiones",
+    "href": "uc_2024/presentacion.html#conclusiones",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🎓 Conclusiones",
+    "text": "🎓 Conclusiones\n\n\n✅ Google Colab tiene un impacto positivo\n✅ Aumenta motivación y participación\n✅ Mejora la comprensión práctica\n✅ Flexibilidad en la enseñanza y aprendizaje remoto"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#trabajos-futuros",
+    "href": "uc_2024/presentacion.html#trabajos-futuros",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🎓 Trabajos Futuros",
+    "text": "🎓 Trabajos Futuros\n\n\n💡 Integrar tecnologías nuevas (IA)\n💡 Fomentar proyectos con la industria\n💡 Expandir la metodología a otros cursos\n💡 Implementar evaluaciones automatizadas"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#agradecimientos",
+    "href": "uc_2024/presentacion.html#agradecimientos",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🎉 Agradecimientos",
+    "text": "🎉 Agradecimientos\n\n\n\nSebastián Flores\n\n\nAlonso Ogueda\n\n\nAlberto Rubio\n\n\n\n\nEric Zepeda\n\n\nSebastián Torres\n\n\nRodrigo Lecaros"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#agradecimientos-1",
+    "href": "uc_2024/presentacion.html#agradecimientos-1",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🎉 Agradecimientos",
+    "text": "🎉 Agradecimientos"
+  },
+  {
+    "objectID": "uc_2024/presentacion.html#gracias-por-participar",
+    "href": "uc_2024/presentacion.html#gracias-por-participar",
+    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#estudiar-graduarse-y-trabajar",
+    "href": "profesional_2024/presentacion.html#estudiar-graduarse-y-trabajar",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "🎓 Estudiar, Graduarse y … Trabajar?",
+    "text": "🎓 Estudiar, Graduarse y … Trabajar?"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#section",
+    "href": "profesional_2024/presentacion.html#section",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "",
+    "text": "Construyendo una Base Sólida\nReflexiona y planifica desde el inicio de tu carrera"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#autoconocimiento-y-planificación",
+    "href": "profesional_2024/presentacion.html#autoconocimiento-y-planificación",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💼 Autoconocimiento y Planificación",
+    "text": "💼 Autoconocimiento y Planificación\n\n\n\n\n¿Cuáles son tus fortalezas y debilidades?\n¿Qué te apasiona y dónde puedes destacarte?"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#autoconocimiento-y-planificación-1",
+    "href": "profesional_2024/presentacion.html#autoconocimiento-y-planificación-1",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💼 Autoconocimiento y Planificación",
+    "text": "💼 Autoconocimiento y Planificación\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔗 Link: https://www.duoc.cl/carreras/ingenieria-informatica/"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#aprovecha-los-recursos",
+    "href": "profesional_2024/presentacion.html#aprovecha-los-recursos",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💼 Aprovecha los Recursos",
+    "text": "💼 Aprovecha los Recursos\n\n\n\n\nParticipa en ferias laborales, talleres y actividades extracurriculares.\nConstruye un currículum sólido desde proyectos académicos."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#aprovecha-los-recursos-1",
+    "href": "profesional_2024/presentacion.html#aprovecha-los-recursos-1",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💼 Aprovecha los Recursos",
+    "text": "💼 Aprovecha los Recursos\n\n\n\n\nPortafolio - Github\n\n\nCurriculum - Overleaf"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#networking-y-marca-personal",
+    "href": "profesional_2024/presentacion.html#networking-y-marca-personal",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💼 Networking y Marca Personal",
+    "text": "💼 Networking y Marca Personal\n\n\n\n\nConecta con profesores y profesionales.\nCrea un perfil en LinkedIn y comparte logros."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#networking-y-marca-personal-1",
+    "href": "profesional_2024/presentacion.html#networking-y-marca-personal-1",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💼 Networking y Marca Personal",
+    "text": "💼 Networking y Marca Personal"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#section-1",
+    "href": "profesional_2024/presentacion.html#section-1",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "",
+    "text": "Potenciando Habilidades\nDesarrolla competencias clave"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#habilidades-blandas-soft-skills",
+    "href": "profesional_2024/presentacion.html#habilidades-blandas-soft-skills",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "🚀 Habilidades Blandas (Soft Skills)",
+    "text": "🚀 Habilidades Blandas (Soft Skills)\n\n\n\n\nResolución de problemas\nComunicación efectiva\nAdaptabilidad"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#habilidades-blandas-soft-skills-1",
+    "href": "profesional_2024/presentacion.html#habilidades-blandas-soft-skills-1",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "🚀 Habilidades Blandas (Soft Skills)",
+    "text": "🚀 Habilidades Blandas (Soft Skills)\n\n\n JS Chile\n Python Chile\n AWS Chile\n GDG Santiago"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#habilidades-técnicas-hard-skills",
+    "href": "profesional_2024/presentacion.html#habilidades-técnicas-hard-skills",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "🚀 Habilidades Técnicas (Hard Skills)",
+    "text": "🚀 Habilidades Técnicas (Hard Skills)\n\n\n\n\nAprende herramientas y tecnologías clave en tu campo.\nRealiza cursos y certificaciones para destacar frente a otros candidatos."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#habilidades-técnicas-hard-skills-1",
+    "href": "profesional_2024/presentacion.html#habilidades-técnicas-hard-skills-1",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "🚀 Habilidades Técnicas (Hard Skills)",
+    "text": "🚀 Habilidades Técnicas (Hard Skills)\n\n\n Coursera\n Udemy\n Cloud"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#section-2",
+    "href": "profesional_2024/presentacion.html#section-2",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "",
+    "text": "Proyectándote al Futuro\nPrepárate para el mundo laboral"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#entrevistas-de-trabajo",
+    "href": "profesional_2024/presentacion.html#entrevistas-de-trabajo",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 Entrevistas de Trabajo",
+    "text": "💻 Entrevistas de Trabajo\n\n\n\n\nAsiste a ferias para conocer empresas y generar contactos valiosos.\nInvestiga preguntas frecuentes y personaliza tus respuestas según la empresa."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#entrevistas-de-trabajo-1",
+    "href": "profesional_2024/presentacion.html#entrevistas-de-trabajo-1",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 Entrevistas de Trabajo",
+    "text": "💻 Entrevistas de Trabajo\n\n\n Entrevista Técnica\n Entrevista Sicológica"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#cultura-organizacional",
+    "href": "profesional_2024/presentacion.html#cultura-organizacional",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 Cultura Organizacional",
+    "text": "💻 Cultura Organizacional\n\n\n\n\nAnaliza la misión, visión y cultura de las empresas de tu interés.\nEvalúa si el ambiente de trabajo se alinea con tus principios y metas personales."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#cultura-organizacional-1",
+    "href": "profesional_2024/presentacion.html#cultura-organizacional-1",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 Cultura Organizacional",
+    "text": "💻 Cultura Organizacional"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#descripción-de-trabajos",
+    "href": "profesional_2024/presentacion.html#descripción-de-trabajos",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 Descripción de Trabajos",
+    "text": "💻 Descripción de Trabajos\n\n\n\n\nRequisitos: habilidades clave.\n\nRol: alineado a tus metas.\n\nCrecimiento: desarrollo profesional."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#descripción-de-trabajos-1",
+    "href": "profesional_2024/presentacion.html#descripción-de-trabajos-1",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 Descripción de Trabajos",
+    "text": "💻 Descripción de Trabajos"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#manejando-tu-futuro-financiero",
+    "href": "profesional_2024/presentacion.html#manejando-tu-futuro-financiero",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 Manejando tu Futuro Financiero",
+    "text": "💻 Manejando tu Futuro Financiero\n\n\n\n\nAprende sobre ahorro y presupuesto desde temprano.\nExplora inversiones sencillas, incluso con ingresos pequeños."
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#manejando-tu-futuro-financiero-1",
+    "href": "profesional_2024/presentacion.html#manejando-tu-futuro-financiero-1",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 Manejando tu Futuro Financiero",
+    "text": "💻 Manejando tu Futuro Financiero"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#cuánto-valgo-como-profesional",
+    "href": "profesional_2024/presentacion.html#cuánto-valgo-como-profesional",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 ¿Cuánto Valgo como Profesional?",
+    "text": "💻 ¿Cuánto Valgo como Profesional?\n\n\n\n\nInvestiga salarios del mercado\nIdentifica tus fortalezas\nPrepárate para negociar"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#cuánto-valgo-como-profesional-1",
+    "href": "profesional_2024/presentacion.html#cuánto-valgo-como-profesional-1",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💻 ¿Cuánto Valgo como Profesional?",
+    "text": "💻 ¿Cuánto Valgo como Profesional?"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#section-3",
+    "href": "profesional_2024/presentacion.html#section-3",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "",
+    "text": "Conclusiones\nAprendizajes de la Charla"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#conclusiones",
+    "href": "profesional_2024/presentacion.html#conclusiones",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "💡 Conclusiones",
+    "text": "💡 Conclusiones\n\n\n\n\n✅ Descubrimiento Personal\n✅ Herramientas Clave\n✅ Redes Estratégicas\n✅ Aprendizaje Constante"
+  },
+  {
+    "objectID": "profesional_2024/presentacion.html#gracias-por-participar",
+    "href": "profesional_2024/presentacion.html#gracias-por-participar",
+    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
+  },
+  {
+    "objectID": "pycon_usa_2025/presentacion.html#innovar-en-la-enseñanza",
+    "href": "pycon_usa_2025/presentacion.html#innovar-en-la-enseñanza",
+    "title": "Educación sin Límites con Quarto y GitHub",
+    "section": "💡 Innovar en la Enseñanza",
+    "text": "💡 Innovar en la Enseñanza\n\n\n\n\n\n\nCaptar atención activa.\nAdaptarse al mundo digital.\nQuarto permite crear contenidos interactivos."
+  },
+  {
+    "objectID": "pycon_usa_2025/presentacion.html#quarto-webr-y-quarto-pyodide",
+    "href": "pycon_usa_2025/presentacion.html#quarto-webr-y-quarto-pyodide",
+    "title": "Educación sin Límites con Quarto y GitHub",
+    "section": "🌐 Quarto WebR y Quarto Pyodide",
+    "text": "🌐 Quarto WebR y Quarto Pyodide\n\nWebR: Ejecuta código R en el navegador, sin instalaciones.\n# Para instalar WebR en tu entorno\nremotes::install_github(\"attiyap/WebR\")\nPyodide : Idem pero para Python.\n# Para instalar Pyodide\npip install pyodide"
+  },
+  {
+    "objectID": "pycon_usa_2025/presentacion.html#ejemplo-r",
+    "href": "pycon_usa_2025/presentacion.html#ejemplo-r",
+    "title": "Educación sin Límites con Quarto y GitHub",
+    "section": "📊 Ejemplo R",
+    "text": "📊 Ejemplo R\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "pycon_usa_2025/presentacion.html#ejemplo-python",
+    "href": "pycon_usa_2025/presentacion.html#ejemplo-python",
+    "title": "Educación sin Límites con Quarto y GitHub",
+    "section": "📊 Ejemplo Python",
+    "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "pycon_usa_2025/presentacion.html#quarto-y-la-enseñanza",
+    "href": "pycon_usa_2025/presentacion.html#quarto-y-la-enseñanza",
+    "title": "Educación sin Límites con Quarto y GitHub",
+    "section": "🎓 Quarto y la Enseñanza",
+    "text": "🎓 Quarto y la Enseñanza"
+  },
+  {
+    "objectID": "pycon_usa_2025/presentacion.html#implementación",
+    "href": "pycon_usa_2025/presentacion.html#implementación",
+    "title": "Educación sin Límites con Quarto y GitHub",
+    "section": "🛠️ Implementación",
+    "text": "🛠️ Implementación"
+  },
+  {
+    "objectID": "pycon_usa_2025/presentacion.html#talleres",
+    "href": "pycon_usa_2025/presentacion.html#talleres",
+    "title": "Educación sin Límites con Quarto y GitHub",
+    "section": "🎓 Talleres",
+    "text": "🎓 Talleres\n\n\n\n\n🐍 PySchool Chile\n\n\n🔢 Olimpiadas USM 2024"
+  },
+  {
+    "objectID": "pycon_usa_2025/presentacion.html#resultados",
+    "href": "pycon_usa_2025/presentacion.html#resultados",
+    "title": "Educación sin Límites con Quarto y GitHub",
     "section": "📊 Resultados",
     "text": "📊 Resultados\nEncuestas sobre el taller:\n\nSatisfacción general alta, con un promedio cercano a 9.\nDestacaron el uso de las herramientas interactivas."
   },
   {
-    "objectID": "latinr_2024/presentacion.html#recursos-adicionales",
-    "href": "latinr_2024/presentacion.html#recursos-adicionales",
-    "title": "Uso de Quarto para crear clases interactivas",
+    "objectID": "pycon_usa_2025/presentacion.html#recursos-adicionales",
+    "href": "pycon_usa_2025/presentacion.html#recursos-adicionales",
+    "title": "Educación sin Límites con Quarto y GitHub",
     "section": "📚 Recursos Adicionales",
     "text": "📚 Recursos Adicionales\n\n\n🌐 Remasterización del libro: “R for Data Science”"
   },
   {
-    "objectID": "latinr_2024/presentacion.html#gracias-por-participar",
-    "href": "latinr_2024/presentacion.html#gracias-por-participar",
-    "title": "Uso de Quarto para crear clases interactivas",
+    "objectID": "pycon_usa_2025/presentacion.html#gracias-por-participar",
+    "href": "pycon_usa_2025/presentacion.html#gracias-por-participar",
+    "title": "Educación sin Límites con Quarto y GitHub",
     "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar LatinR 2024!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar PyCon US 2025!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#objetivos-del-curso",
+    "href": "computacion_2024/presentacion.html#objetivos-del-curso",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🎯 Objetivos del Curso",
+    "text": "🎯 Objetivos del Curso\n\n\nFamiliarizarse con los Dispositivos Básicos\nConocer y Usar Programas Básicos de Oficina\nNavegar en Internet de Forma Segura\nAprender a Utilizar Aplicaciones Útiles y Páginas de Interés\nDesarrollar Habilidades en Redes Sociales\nRealizar Transferencias Electrónicas y Pagos en Línea de Forma Segura"
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#computador",
+    "href": "computacion_2024/presentacion.html#computador",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "Computador",
+    "text": "Computador"
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#qué-es-un-computador",
+    "href": "computacion_2024/presentacion.html#qué-es-un-computador",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🤔 ¿Qué es un computador?",
+    "text": "🤔 ¿Qué es un computador?\n\n\n🖥️ Un computador es una máquina que ayuda a realizar tareas de forma rápida y organizada.\nEs como una “oficina” en una caja, donde se pueden:\n\nEscribir documentos 📄\nEnviar correos 📧\nVer fotos 📷\nConectarse con amigos y familiares 👥\n\nFunciona con programas o aplicaciones, que son como herramientas en una caja de herramientas 🧰"
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#qué-es-un-notebook",
+    "href": "computacion_2024/presentacion.html#qué-es-un-notebook",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🤔 ¿Qué es un notebook?",
+    "text": "🤔 ¿Qué es un notebook?\n\n\n💻 Un notebook es un computador pequeño y liviano que se puede llevar a cualquier lugar.\nA diferencia de un computador de escritorio:\n\nTodo está integrado en una sola pieza 🧩\nFunciona con batería🔋\n\nEs ideal para usar en diferentes lugares, dentro y fuera de casa 👩🏻‍💻🧑🏻‍💻"
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#qué-es-un-celular-inteligente",
+    "href": "computacion_2024/presentacion.html#qué-es-un-celular-inteligente",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🤔 ¿Qué es un Celular Inteligente?",
+    "text": "🤔 ¿Qué es un Celular Inteligente?\n\n\n📱 Un celular inteligente es un dispositivo portátil que combina funciones de teléfono y computador.\nPermite hacer llamadas, enviar mensajes, y conectarse a internet 📞\nSe pueden instalar aplicaciones para diversas tareas: desde redes sociales hasta banca en línea ⬇️\nEs ideal para mantenerse en contacto y acceder a información en cualquier momento y lugar ⌚"
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#conocer-las-partes-del-computador",
+    "href": "computacion_2024/presentacion.html#conocer-las-partes-del-computador",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🖥️ Conocer las Partes del Computador",
+    "text": "🖥️ Conocer las Partes del Computador"
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#encender-el-computador",
+    "href": "computacion_2024/presentacion.html#encender-el-computador",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "💡 Encender el Computador",
+    "text": "💡 Encender el Computador\n\n\n Encender la CPU\n\n Encender el monitor\n\n Encender el notebook"
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#identificar-el-escritorio",
+    "href": "computacion_2024/presentacion.html#identificar-el-escritorio",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🔍 Identificar el Escritorio",
+    "text": "🔍 Identificar el Escritorio\n\n\n\n\n\n\n\nElementos principales:\n\nBarra de tareas\nIconos"
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#usar-el-mouse-y-el-teclado",
+    "href": "computacion_2024/presentacion.html#usar-el-mouse-y-el-teclado",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🖱️⌨️ Usar el Mouse y el Teclado",
+    "text": "🖱️⌨️ Usar el Mouse y el Teclado\n\n\nPracticar cómo mover el puntero con el mouse y hacer clic.\nEnseñar a hacer clic izquierdo para seleccionar y doble clic para abrir.\nPracticar escribir en el teclado (ejemplo: escribir su nombre en un documento)."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#abrir-y-cerrar-programas",
+    "href": "computacion_2024/presentacion.html#abrir-y-cerrar-programas",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📄 Abrir y Cerrar Programas",
+    "text": "📄 Abrir y Cerrar Programas\n\n\nMostrar cómo hacer clic en el botón de inicio para abrir programas (como Word o el navegador).\nPracticar abrir y cerrar programas, usando el botón de la “X” en la esquina superior."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#navegar-en-internet",
+    "href": "computacion_2024/presentacion.html#navegar-en-internet",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🛜 Navegar en Internet",
+    "text": "🛜 Navegar en Internet\n\n\nExplicar qué es el navegador y abrir uno (Chrome o Firefox, por ejemplo).\nPracticar cómo buscar en Google escribiendo palabras clave, como “clima” o “noticias”."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#apagar-el-computador",
+    "href": "computacion_2024/presentacion.html#apagar-el-computador",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "🔘 Apagar el Computador",
+    "text": "🔘 Apagar el Computador\n\n\nExplicar que apagar el computador ayuda a mantenerlo en buen estado.\nMostrar el proceso para apagar desde el botón de inicio &gt; apagar."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#abrir-la-aplicación-de-reloj",
+    "href": "computacion_2024/presentacion.html#abrir-la-aplicación-de-reloj",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "⏰ Abrir la Aplicación de Reloj",
+    "text": "⏰ Abrir la Aplicación de Reloj\n\n\nEn la mayoría de los celulares, busca la aplicación llamada “Reloj”. Generalmente tiene un icono de un reloj.\nSi no la encuentras, puedes buscar “Reloj” en la barra de búsqueda de aplicaciones.\n\nSeleccionar la Opción de “Alarma”\n\nDentro de la aplicación, verás varias opciones como “Alarma”, “Temporizador”, y “Cronómetro”.\nToca en Alarma."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#crear-una-nueva-alarma",
+    "href": "computacion_2024/presentacion.html#crear-una-nueva-alarma",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "⏰ Crear una Nueva Alarma",
+    "text": "⏰ Crear una Nueva Alarma\n\n\nToca el icono de + o Añadir para crear una nueva alarma.\nSelecciona la hora y el minuto exactos para la alarma.\nPuedes configurar la alarma para que suene una sola vez o en días específicos, lo cual es útil si necesitas recordatorios recurrentes, como un medicamento diario.\n\nPersonalizar la Alarma\n\nEtiqueta o Nombre: Escribe un nombre para que sepas a qué se refiere, como “Medicación” o “Cita Médica”.\nRepetición: Configura si deseas que suene todos los días, o solo ciertos días de la semana.\nTono: Escoge un tono que sea fácil de reconocer."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#configurar-alarmas-con-recordatorios-extra",
+    "href": "computacion_2024/presentacion.html#configurar-alarmas-con-recordatorios-extra",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "⏰ Configurar Alarmas con Recordatorios Extra",
+    "text": "⏰ Configurar Alarmas con Recordatorios Extra\n\n\nEn algunos teléfonos, puedes crear recordatorios en la app de Calendario o Google Calendar. Esto permite que el teléfono te envíe una notificación con la hora y el motivo del recordatorio.\nIngresa la fecha y la hora de la cita, y selecciona “Añadir notificación”. Puedes agregar más de un aviso para que te recuerde varias veces antes de la hora indicada."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#comprobación",
+    "href": "computacion_2024/presentacion.html#comprobación",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "⏰ Comprobación",
+    "text": "⏰ Comprobación\n\n\nVerifica que las alarmas están activadas para que suenen en el horario adecuado.\nRecomienda a la persona revisarlas de vez en cuando para asegurarse de que están activas y programadas correctamente."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#consejos",
+    "href": "computacion_2024/presentacion.html#consejos",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "⏰ Consejos:",
+    "text": "⏰ Consejos:\n\n\nPrueba las Alarmas: Si es su primera vez, es buena idea hacer una prueba y verificar que el sonido de la alarma es suficiente.\nDuración del Sonido: Asegúrate de que el tono dure lo suficiente para que se escuche, especialmente si es algo tan importante como un medicamento."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#abrir-el-navegador-de-internet",
+    "href": "computacion_2024/presentacion.html#abrir-el-navegador-de-internet",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Abrir el Navegador de Internet",
+    "text": "📡 Abrir el Navegador de Internet\n\n\nExplica que debe buscar el navegador de internet en su celular o computador. Puede ser Google Chrome, Mozilla Firefox.\nHaga clic en el ícono para abrir el navegador."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#ir-a-la-barra-de-búsqueda-o-de-dirección",
+    "href": "computacion_2024/presentacion.html#ir-a-la-barra-de-búsqueda-o-de-dirección",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Ir a la Barra de Búsqueda o de Dirección",
+    "text": "📡 Ir a la Barra de Búsqueda o de Dirección\n\n\n\nUna vez en el navegador, escribir en la barra de búsqueda o barra de direcciones. Es el espacio en la parte superior donde puede escribir palabras o direcciones de sitios web."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#ejemplo",
+    "href": "computacion_2024/presentacion.html#ejemplo",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Ejemplo",
+    "text": "📡 Ejemplo\n\n\n\nEscribamos “ChileAtiende” en la barra de búsqueda y luego presione Enter o toque el botón de Buscar.\nEsto le mostrará una lista de resultados; debemos hacer clic en el primer enlace oficial que aparece, que suele decir www.chileatiende.cl o ChileAtiende - Gobierno de Chile."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#ingresar-directamente-la-dirección",
+    "href": "computacion_2024/presentacion.html#ingresar-directamente-la-dirección",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Ingresar Directamente la Dirección",
+    "text": "📡 Ingresar Directamente la Dirección\n\n\nAlternativamente, puede escribir directamente la dirección www.chileatiende.cl en la barra de direcciones si se siente cómodo.\nLuego, debe presionar Enter para abrir el sitio web."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#navegar-en-el-sitio",
+    "href": "computacion_2024/presentacion.html#navegar-en-el-sitio",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Navegar en el Sitio",
+    "text": "📡 Navegar en el Sitio\n\n\nUna vez en el sitio de ChileAtiende, podemos desplazarnos hacia abajo o hacia arriba para ver más contenido.\nTambién podemos usar las opciones del menú en la parte superior o buscar un servicio específico usando la barra de búsqueda dentro de la página."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#consejos-para-facilidad-de-uso",
+    "href": "computacion_2024/presentacion.html#consejos-para-facilidad-de-uso",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Consejos para Facilidad de Uso",
+    "text": "📡 Consejos para Facilidad de Uso\n\n\nGuardar la Página: Si es una página que visitará frecuentemente, podemos guardar la página como marcador o favorito. Esto se hace generalmente tocando el ícono de estrella o seleccionando “Agregar a Favoritos” en el menú del navegador.\nBuscar Información en el Sitio: En la página de ChileAtiende, muchas veces la información está organizada por temas. Ahora escribiremos palabras clave como “pensiones” o “salud” en el buscador del sitio para encontrar información específica."
+  },
+  {
+    "objectID": "computacion_2024/presentacion.html#resumen-de-los-pasos",
+    "href": "computacion_2024/presentacion.html#resumen-de-los-pasos",
+    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
+    "section": "📡 Resumen de los Pasos:",
+    "text": "📡 Resumen de los Pasos:\n\n\nAbrir el navegador.\nIr a la barra de búsqueda y escribir “ChileAtiende”.\nBuscar y hacer clic en el enlace oficial.\nExplorar el sitio y guardar en favoritos si es necesario."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "🎉 Presentaciones",
+    "section": "",
+    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.\n🎤 Crea, Innova y Presenta: Data Storytelling con A.I. - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.\n🎤 Más allá del Infinito - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.\n🎤 De los Números a la Narrativa - Este taller profundiza en cómo transformar datos en visualizaciones impactantes, utilizando Python y herramientas de visualización para contar historias claras y persuasivas.\n🎤 Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.\n🎤 Innovación en MAT281: Colab y Evaluaciones Dinámicas - Descubre cómo Google Colab y nuevas evaluaciones transformaron el curso MAT281, mejorando el acceso y la motivación de los estudiantes a través de un enfoque dinámico y colaborativo.\n🎤 Inteligencia Artificial en la Educación - Aprende cómo la Inteligencia Artificial está transformando el aprendizaje, desde la personalización de contenidos hasta el análisis de datos educativos. Esta presentación explora aplicaciones prácticas de la IA en la enseñanza para crear experiencias más enriquecedoras y adaptativas.\n🎤 ¿Y Ahora Qué? Del Aula al Trabajo - Descubre cómo prepararte para el mundo laboral al finalizar tus estudios. Esta charla aborda habilidades clave, herramientas prácticas y estrategias para destacarte en tu transición profesional y adaptarte a un entorno laboral competitivo.\n🎤 Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub - Aprende a automatizar y versionar tus materiales educativos interactivos utilizando Quarto y GitHub. Descubre cómo estas herramientas te permiten crear, actualizar y compartir contenidos de forma eficiente, facilitando la colaboración y el acceso a recursos dinámicos en cualquier lugar del mundo.\n🎤 From Data to Narrative: Interactive Storytelling with Shiny - Esta presentación te mostrará cómo transformar datos en historias interactivas atractivas utilizando Shiny. Aprende a crear paneles dinámicos y visualizaciones que cautiven a tu audiencia y den vida a los insights de los datos.\n\nVersión en Inglés\nVersión en Español"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
+    "href": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
+    "title": "De los Números a la Narrativa",
+    "section": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?",
+    "text": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#objetivos-del-taller",
+    "href": "narrativas_2024/presentacion.html#objetivos-del-taller",
+    "title": "De los Números a la Narrativa",
+    "section": "🎯 Objetivos del Taller",
+    "text": "🎯 Objetivos del Taller\n\n\n📊 Aprender sobre visualización de datos.\n🧑‍🎨 Aprender a crear visualizaciones.\n🌐 Entender cómo construir una app interactiva.\n💻 Integrar visualizaciones en una aplicación web simple."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
+    "href": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
+    "title": "De los Números a la Narrativa",
+    "section": "🤔 ¿Qué es la Visualización de Datos?",
+    "text": "🤔 ¿Qué es la Visualización de Datos?\n\n\n La visualización de datos transforma información en gráficos para facilitar su comprensión."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
+    "href": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
+    "title": "De los Números a la Narrativa",
+    "section": "Cuarteto de ANSCOMBE",
+    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n📋 Tablas vs 📊 Gráficos"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#teoría-de-visualización",
+    "href": "narrativas_2024/presentacion.html#teoría-de-visualización",
+    "title": "De los Números a la Narrativa",
+    "section": "Teoría de visualización",
+    "text": "Teoría de visualización"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#pilares-visualización---noah-iliinsky",
+    "href": "narrativas_2024/presentacion.html#pilares-visualización---noah-iliinsky",
+    "title": "De los Números a la Narrativa",
+    "section": "4 Pilares Visualización - Noah Iliinsky",
+    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#herramientas-de-visualización-en-python",
+    "href": "narrativas_2024/presentacion.html#herramientas-de-visualización-en-python",
+    "title": "De los Números a la Narrativa",
+    "section": "Herramientas de Visualización en Python",
+    "text": "Herramientas de Visualización en Python"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#exploración-de-datos",
+    "href": "narrativas_2024/presentacion.html#exploración-de-datos",
+    "title": "De los Números a la Narrativa",
+    "section": "Exploración de Datos",
+    "text": "Exploración de Datos\n\n\n\n\n\n\n\n\n\n\n¡Demasiadas opciones!  El usuario no puede ser responsable de encontrar lo valioso."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#tipos-de-gráficos-esenciales",
+    "href": "narrativas_2024/presentacion.html#tipos-de-gráficos-esenciales",
+    "title": "De los Números a la Narrativa",
+    "section": "Tipos de Gráficos Esenciales",
+    "text": "Tipos de Gráficos Esenciales\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#section",
+    "href": "narrativas_2024/presentacion.html#section",
+    "title": "De los Números a la Narrativa",
+    "section": "",
+    "text": "Matplotlib es una biblioteca para crear gráficos estáticos.\nTipos de gráficos más comunes:\n\nLíneas, Barras, Dispersión, Histograma."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-líneas",
+    "href": "narrativas_2024/presentacion.html#ejemplo-líneas",
+    "title": "De los Números a la Narrativa",
+    "section": "〽️ Ejemplo: líneas",
+    "text": "〽️ Ejemplo: líneas\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión",
+    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión",
+    "title": "De los Números a la Narrativa",
+    "section": "〽️ Ejemplo: dispersión",
+    "text": "〽️ Ejemplo: dispersión\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras",
+    "href": "narrativas_2024/presentacion.html#ejemplo-barras",
+    "title": "De los Números a la Narrativa",
+    "section": "〽️ Ejemplo: barras",
+    "text": "〽️ Ejemplo: barras\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
+    "href": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
+    "title": "De los Números a la Narrativa",
+    "section": "〽️ Ejemplo: barras horizontales",
+    "text": "〽️ Ejemplo: barras horizontales\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#section-2",
+    "href": "narrativas_2024/presentacion.html#section-2",
+    "title": "De los Números a la Narrativa",
+    "section": "",
+    "text": "Seaborn extiende Matplotlib con gráficos más estilizados.\nEspecialmente útil para:\n\nGráficos estadísticos.\nAnálisis exploratorio de datos."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-penguins",
+    "href": "narrativas_2024/presentacion.html#ejemplo-penguins",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Ejemplo: penguins",
+    "text": "📊 Ejemplo: penguins\n\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nMale\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nFemale\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nFemale\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nFemale\n\n\n5\nAdelie\nTorgersen\n39.3\n20.6\n190.0\n3650.0\nMale"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
+    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Ejemplo: dispersión",
+    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='bill_length_mm', y='bill_depth_mm', data=penguins, \n                color='salmon')\n\n# Mostrar el gráfico\nplt.show()"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
+    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Ejemplo: dispersión",
+    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='flipper_length_mm', y='body_mass_g', data=penguins, \n                color='salmon', hue= \"sex\")\n\n# Mostrar el gráfico\nplt.show()"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
+    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Matplotlib vs Seaborn",
+    "text": "📊 Matplotlib vs Seaborn\nimport matplotlib.pyplot as plt\n\n# Contar la cantidad de Pingüinos por tipo\npenguins_type = penguins[\"species\"].value_counts()\n\n# Crear un gráfico de barras\nplt.figure(figsize=(6, 3))\npenguins_type.plot(kind=\"bar\", color=\"salmon\")\n\n# Mostrar gráfico\nplt.show()"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
+    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Matplotlib vs Seaborn",
+    "text": "📊 Matplotlib vs Seaborn\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear el gráfico de barras con seaborn\nplt.figure(figsize=(6, 3))\nsns.countplot(data=penguins, x=\"species\", color=\"salmon\")\n\n# Mostrar el gráfico\nplt.show()"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
+    "href": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
+    "title": "De los Números a la Narrativa",
+    "section": "🧑🏻‍💻 Aplicaciones Web Interactivas",
+    "text": "🧑🏻‍💻 Aplicaciones Web Interactivas\n\n\nStreamlit permite crear aplicaciones web rápidamente.\nPuedes integrar gráficos creados con Matplotlib y Seaborn.\nIdeal para compartir resultados de análisis de datos."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
+    "href": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
+    "title": "De los Números a la Narrativa",
+    "section": "Ejemplo de Streamlit",
+    "text": "Ejemplo de Streamlit"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#section-3",
+    "href": "narrativas_2024/presentacion.html#section-3",
+    "title": "De los Números a la Narrativa",
+    "section": "",
+    "text": "¡Ahora te toca a ti!🫵"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#section-4",
+    "href": "narrativas_2024/presentacion.html#section-4",
+    "title": "De los Números a la Narrativa",
+    "section": "",
+    "text": "¡Ahora te toca a ti!🫵"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#conclusión",
+    "href": "narrativas_2024/presentacion.html#conclusión",
+    "title": "De los Números a la Narrativa",
+    "section": "🎓 Conclusión",
+    "text": "🎓 Conclusión\n\n\nMatplotlib para gráficos básicos.\nSeaborn para gráficos avanzados.\nStreamlit para aplicaciones interactivas."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#conjuntos-de-números",
+    "href": "infinity_2024/presentacion.html#conjuntos-de-números",
+    "title": "Más allá del Infinito",
+    "section": "Conjuntos de Números",
+    "text": "Conjuntos de Números\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEn cantidad de elementos: ¿| \\(\\mathbb{N}| &lt; |\\mathbb{Z}| &lt; |\\mathbb{Q}|&lt; |\\mathbb{R}|&lt;|\\mathbb{C}|\\) ?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#qué-es-el-infinito",
+    "href": "infinity_2024/presentacion.html#qué-es-el-infinito",
+    "title": "Más allá del Infinito",
+    "section": "¿Qué es el infinito?",
+    "text": "¿Qué es el infinito?\n\n\n\n\nEl infinito es algo sin fin.\nNo es un número, sino una idea de continuidad ilimitada."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#historia",
+    "href": "infinity_2024/presentacion.html#historia",
+    "title": "Más allá del Infinito",
+    "section": "Historia",
+    "text": "Historia"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#gráficos",
+    "href": "infinity_2024/presentacion.html#gráficos",
+    "title": "Más allá del Infinito",
+    "section": "Gráficos",
+    "text": "Gráficos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#section",
+    "href": "infinity_2024/presentacion.html#section",
+    "title": "Más allá del Infinito",
+    "section": "",
+    "text": "Infinito\n¿Qué es contar?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#contar-es",
+    "href": "infinity_2024/presentacion.html#contar-es",
+    "title": "Más allá del Infinito",
+    "section": "Contar es …",
+    "text": "Contar es …\n\n\n N° elementos en un conjunto.\n\nContar personas en una sala.\nContar números del 1 al 10.\nContar objetos en una canasta."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#fundamento-en-los-axiomas-de-peano",
+    "href": "infinity_2024/presentacion.html#fundamento-en-los-axiomas-de-peano",
+    "title": "Más allá del Infinito",
+    "section": "Fundamento en los Axiomas de Peano",
+    "text": "Fundamento en los Axiomas de Peano\n\n\n\nPrimer Número: \\(0\\) o \\(1\\).\nSucesor: \\(1 \\rightarrow 2 \\rightarrow 3 \\rightarrow...\\)\nUnicidad: Cada número es único.\nInducción: Si un conjunto tiene 0 y sus sucesores, contiene a \\(\\mathbb{N}\\)."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto",
+    "href": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto",
+    "title": "Más allá del Infinito",
+    "section": "Cardinalidad de un Conjunto",
+    "text": "Cardinalidad de un Conjunto"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto-1",
+    "href": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto-1",
+    "title": "Más allá del Infinito",
+    "section": "Cardinalidad de un Conjunto",
+    "text": "Cardinalidad de un Conjunto\n\n\\(|A|\\): Contar todos los elementos de \\(A\\) exactamente una vez."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-naturales",
+    "href": "infinity_2024/presentacion.html#números-naturales",
+    "title": "Más allá del Infinito",
+    "section": "Números Naturales",
+    "text": "Números Naturales\n\n\n\n\n\\(\\mathbb{N} = \\{0,1,2,3,...\\}\\) son infinitos.\nTambién son infinitos:\n\nPares = \\(\\{2,4,6,...\\}\\).\nImpares = \\(\\{1,3,5,...\\}\\).\nPrimos = \\(\\{2,3,5,7,...\\}\\).\n\n\n\n\n\n\n\n\n\n\n(C) Números Primos son infinitos, Demostración de Euclides."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-enteros",
+    "href": "infinity_2024/presentacion.html#números-enteros",
+    "title": "Más allá del Infinito",
+    "section": "Números Enteros",
+    "text": "Números Enteros\n\n\n\n\n\\(\\mathbb{N} = \\{0,1,2,3,...\\}\\)\n\\(\\mathbb{Z} = \\{0,-1,1,-2,2,-3,...\\}\\)\n\\(\\mathbb{N} \\subsetneq  \\mathbb{Z}\\) … ¿ \\(|\\mathbb{N}| &lt; |\\mathbb{Z}|\\) ?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#contemos-los-números-enteros",
+    "href": "infinity_2024/presentacion.html#contemos-los-números-enteros",
+    "title": "Más allá del Infinito",
+    "section": "Contemos los números enteros",
+    "text": "Contemos los números enteros\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| = |\\mathbb{Z}|  }}\\)"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-racionales",
+    "href": "infinity_2024/presentacion.html#números-racionales",
+    "title": "Más allá del Infinito",
+    "section": "Números Racionales",
+    "text": "Números Racionales\n\n\n\n\n\\(\\mathbb{Q} = \\{ \\dfrac{p}{q} | p,q \\in \\mathbb{Z}, q \\neq 0 \\}\\)\n\\(\\mathbb{N} \\subsetneq  \\mathbb{Z} \\subsetneq  \\mathbb{Q}\\) … ¿ \\(|\\mathbb{N}| &lt; |\\mathbb{Q}|\\) ?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#contemos-los-números-racionales",
+    "href": "infinity_2024/presentacion.html#contemos-los-números-racionales",
+    "title": "Más allá del Infinito",
+    "section": "Contemos los números racionales",
+    "text": "Contemos los números racionales\n\n\n\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| \\leq |\\mathbb{Q_{+}}| \\leq |\\mathbb{N}| }}\\)\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| }}\\)"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-reales",
+    "href": "infinity_2024/presentacion.html#números-reales",
+    "title": "Más allá del Infinito",
+    "section": "Números Reales",
+    "text": "Números Reales\n\n\n\n\n\\(\\mathbb{R} = \\{ \\sqrt{2}, \\pi, \\mathrm{e}, ...  \\}\\)\n¿ \\(|\\mathbb{N}| &lt; |\\mathbb{R}|\\) ?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#números-reales-1",
+    "href": "infinity_2024/presentacion.html#números-reales-1",
+    "title": "Más allá del Infinito",
+    "section": "Números Reales",
+    "text": "Números Reales\n\n\n\n\n\n\n\n\n\nEn 1891, Cantor probó que es imposible enumerar todos los números reales en \\((0,1)\\).\n\n\\(\\color{black}{\\boxed{\\aleph_1 = |\\mathbb{R}| &gt; |\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| = \\aleph_0}}\\)"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#section-1",
+    "href": "infinity_2024/presentacion.html#section-1",
+    "title": "Más allá del Infinito",
+    "section": "",
+    "text": "Infinito\nHotel de Hilbert"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#el-hotel-de-hilbert",
+    "href": "infinity_2024/presentacion.html#el-hotel-de-hilbert",
+    "title": "Más allá del Infinito",
+    "section": "El Hotel de Hilbert",
+    "text": "El Hotel de Hilbert\n\n\n\n\nHotel infinito: Siempre hay espacio para más.\nTruco: Mueve cada huésped adelante.\nLección: El infinito desafía la intuición."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#bienvenidos-al-hotel-de-vale",
+    "href": "infinity_2024/presentacion.html#bienvenidos-al-hotel-de-vale",
+    "title": "Más allá del Infinito",
+    "section": "🐶 Bienvenidos al Hotel de Vale",
+    "text": "🐶 Bienvenidos al Hotel de Vale\n\n\n\n\n\n\n\n\n Un lugar mágico con infinitas habitaciones para perritos, donde cada uno tiene su espacio y siempre son bienvenidos.\n\n\n\n✨ !Siempre hay espacio para uno más!"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#caso-1-llega-un-nuevo-perrito",
+    "href": "infinity_2024/presentacion.html#caso-1-llega-un-nuevo-perrito",
+    "title": "Más allá del Infinito",
+    "section": "Caso 1: Llega un Nuevo Perrito",
+    "text": "Caso 1: Llega un Nuevo Perrito\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlega un Nuevo Perrito … ¿Qué hacemos?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#caso-2-infinitos-perritos",
+    "href": "infinity_2024/presentacion.html#caso-2-infinitos-perritos",
+    "title": "Más allá del Infinito",
+    "section": "Caso 2: Infinitos Perritos",
+    "text": "Caso 2: Infinitos Perritos\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlega un bus con infinitos perritos … ¿Qué hacemos?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos",
+    "href": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos",
+    "title": "Más allá del Infinito",
+    "section": "Caso 3: Infinitos Buses y Perritos",
+    "text": "Caso 3: Infinitos Buses y Perritos\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlegan inifinitos buses con infinitos perritos … ¿Qué hacemos?"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos-1",
+    "href": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos-1",
+    "title": "Más allá del Infinito",
+    "section": "Caso 3: Infinitos Buses y Perritos",
+    "text": "Caso 3: Infinitos Buses y Perritos"
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#conclusiones",
+    "href": "infinity_2024/presentacion.html#conclusiones",
+    "title": "Más allá del Infinito",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\n\n\n🌌 El \\(\\infty\\): Conceptos que desafían la intuición.\n📏 Cardinalidad: Diferentes tamaños de infinito.\n🐶 Hotel de Perritos: Infinito de forma entretenida."
+  },
+  {
+    "objectID": "infinity_2024/presentacion.html#gracias-por-participar",
+    "href": "infinity_2024/presentacion.html#gracias-por-participar",
+    "title": "Más allá del Infinito",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
     "objectID": "visualization_2024/presentacion.html#agenda",
@@ -525,1138 +1806,74 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
-    "objectID": "infinity_2024/presentacion.html#conjuntos-de-números",
-    "href": "infinity_2024/presentacion.html#conjuntos-de-números",
-    "title": "Más allá del Infinito",
-    "section": "Conjuntos de Números",
-    "text": "Conjuntos de Números\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEn cantidad de elementos: ¿| \\(\\mathbb{N}| &lt; |\\mathbb{Z}| &lt; |\\mathbb{Q}|&lt; |\\mathbb{R}|&lt;|\\mathbb{C}|\\) ?"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#qué-es-el-infinito",
-    "href": "infinity_2024/presentacion.html#qué-es-el-infinito",
-    "title": "Más allá del Infinito",
-    "section": "¿Qué es el infinito?",
-    "text": "¿Qué es el infinito?\n\n\n\n\nEl infinito es algo sin fin.\nNo es un número, sino una idea de continuidad ilimitada."
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#historia",
-    "href": "infinity_2024/presentacion.html#historia",
-    "title": "Más allá del Infinito",
-    "section": "Historia",
-    "text": "Historia"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#gráficos",
-    "href": "infinity_2024/presentacion.html#gráficos",
-    "title": "Más allá del Infinito",
-    "section": "Gráficos",
-    "text": "Gráficos\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#section",
-    "href": "infinity_2024/presentacion.html#section",
-    "title": "Más allá del Infinito",
-    "section": "",
-    "text": "Infinito\n¿Qué es contar?"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#contar-es",
-    "href": "infinity_2024/presentacion.html#contar-es",
-    "title": "Más allá del Infinito",
-    "section": "Contar es …",
-    "text": "Contar es …\n\n\n N° elementos en un conjunto.\n\nContar personas en una sala.\nContar números del 1 al 10.\nContar objetos en una canasta."
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#fundamento-en-los-axiomas-de-peano",
-    "href": "infinity_2024/presentacion.html#fundamento-en-los-axiomas-de-peano",
-    "title": "Más allá del Infinito",
-    "section": "Fundamento en los Axiomas de Peano",
-    "text": "Fundamento en los Axiomas de Peano\n\n\n\nPrimer Número: \\(0\\) o \\(1\\).\nSucesor: \\(1 \\rightarrow 2 \\rightarrow 3 \\rightarrow...\\)\nUnicidad: Cada número es único.\nInducción: Si un conjunto tiene 0 y sus sucesores, contiene a \\(\\mathbb{N}\\)."
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto",
-    "href": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto",
-    "title": "Más allá del Infinito",
-    "section": "Cardinalidad de un Conjunto",
-    "text": "Cardinalidad de un Conjunto"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto-1",
-    "href": "infinity_2024/presentacion.html#cardinalidad-de-un-conjunto-1",
-    "title": "Más allá del Infinito",
-    "section": "Cardinalidad de un Conjunto",
-    "text": "Cardinalidad de un Conjunto\n\n\\(|A|\\): Contar todos los elementos de \\(A\\) exactamente una vez."
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#números-naturales",
-    "href": "infinity_2024/presentacion.html#números-naturales",
-    "title": "Más allá del Infinito",
-    "section": "Números Naturales",
-    "text": "Números Naturales\n\n\n\n\n\\(\\mathbb{N} = \\{0,1,2,3,...\\}\\) son infinitos.\nTambién son infinitos:\n\nPares = \\(\\{2,4,6,...\\}\\).\nImpares = \\(\\{1,3,5,...\\}\\).\nPrimos = \\(\\{2,3,5,7,...\\}\\).\n\n\n\n\n\n\n\n\n\n\n(C) Números Primos son infinitos, Demostración de Euclides."
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#números-enteros",
-    "href": "infinity_2024/presentacion.html#números-enteros",
-    "title": "Más allá del Infinito",
-    "section": "Números Enteros",
-    "text": "Números Enteros\n\n\n\n\n\\(\\mathbb{N} = \\{0,1,2,3,...\\}\\)\n\\(\\mathbb{Z} = \\{0,-1,1,-2,2,-3,...\\}\\)\n\\(\\mathbb{N} \\subsetneq  \\mathbb{Z}\\) … ¿ \\(|\\mathbb{N}| &lt; |\\mathbb{Z}|\\) ?"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#contemos-los-números-enteros",
-    "href": "infinity_2024/presentacion.html#contemos-los-números-enteros",
-    "title": "Más allá del Infinito",
-    "section": "Contemos los números enteros",
-    "text": "Contemos los números enteros\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| = |\\mathbb{Z}|  }}\\)"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#números-racionales",
-    "href": "infinity_2024/presentacion.html#números-racionales",
-    "title": "Más allá del Infinito",
-    "section": "Números Racionales",
-    "text": "Números Racionales\n\n\n\n\n\\(\\mathbb{Q} = \\{ \\dfrac{p}{q} | p,q \\in \\mathbb{Z}, q \\neq 0 \\}\\)\n\\(\\mathbb{N} \\subsetneq  \\mathbb{Z} \\subsetneq  \\mathbb{Q}\\) … ¿ \\(|\\mathbb{N}| &lt; |\\mathbb{Q}|\\) ?"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#contemos-los-números-racionales",
-    "href": "infinity_2024/presentacion.html#contemos-los-números-racionales",
-    "title": "Más allá del Infinito",
-    "section": "Contemos los números racionales",
-    "text": "Contemos los números racionales\n\n\n\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| \\leq |\\mathbb{Q_{+}}| \\leq |\\mathbb{N}| }}\\)\n\n\n\n\n\\(\\color{black}{\\boxed{ |\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| }}\\)"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#números-reales",
-    "href": "infinity_2024/presentacion.html#números-reales",
-    "title": "Más allá del Infinito",
-    "section": "Números Reales",
-    "text": "Números Reales\n\n\n\n\n\\(\\mathbb{R} = \\{ \\sqrt{2}, \\pi, \\mathrm{e}, ...  \\}\\)\n¿ \\(|\\mathbb{N}| &lt; |\\mathbb{R}|\\) ?"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#números-reales-1",
-    "href": "infinity_2024/presentacion.html#números-reales-1",
-    "title": "Más allá del Infinito",
-    "section": "Números Reales",
-    "text": "Números Reales\n\n\n\n\n\n\n\n\n\nEn 1891, Cantor probó que es imposible enumerar todos los números reales en \\((0,1)\\).\n\n\\(\\color{black}{\\boxed{\\aleph_1 = |\\mathbb{R}| &gt; |\\mathbb{N}| = |\\mathbb{Z}| = |\\mathbb{Q}| = \\aleph_0}}\\)"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#section-1",
-    "href": "infinity_2024/presentacion.html#section-1",
-    "title": "Más allá del Infinito",
-    "section": "",
-    "text": "Infinito\nHotel de Hilbert"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#el-hotel-de-hilbert",
-    "href": "infinity_2024/presentacion.html#el-hotel-de-hilbert",
-    "title": "Más allá del Infinito",
-    "section": "El Hotel de Hilbert",
-    "text": "El Hotel de Hilbert\n\n\n\n\nHotel infinito: Siempre hay espacio para más.\nTruco: Mueve cada huésped adelante.\nLección: El infinito desafía la intuición."
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#bienvenidos-al-hotel-de-vale",
-    "href": "infinity_2024/presentacion.html#bienvenidos-al-hotel-de-vale",
-    "title": "Más allá del Infinito",
-    "section": "🐶 Bienvenidos al Hotel de Vale",
-    "text": "🐶 Bienvenidos al Hotel de Vale\n\n\n\n\n\n\n\n\n Un lugar mágico con infinitas habitaciones para perritos, donde cada uno tiene su espacio y siempre son bienvenidos.\n\n\n\n✨ !Siempre hay espacio para uno más!"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#caso-1-llega-un-nuevo-perrito",
-    "href": "infinity_2024/presentacion.html#caso-1-llega-un-nuevo-perrito",
-    "title": "Más allá del Infinito",
-    "section": "Caso 1: Llega un Nuevo Perrito",
-    "text": "Caso 1: Llega un Nuevo Perrito\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlega un Nuevo Perrito … ¿Qué hacemos?"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#caso-2-infinitos-perritos",
-    "href": "infinity_2024/presentacion.html#caso-2-infinitos-perritos",
-    "title": "Más allá del Infinito",
-    "section": "Caso 2: Infinitos Perritos",
-    "text": "Caso 2: Infinitos Perritos\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlega un bus con infinitos perritos … ¿Qué hacemos?"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos",
-    "href": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos",
-    "title": "Más allá del Infinito",
-    "section": "Caso 3: Infinitos Buses y Perritos",
-    "text": "Caso 3: Infinitos Buses y Perritos\n\n\nEl hotel está completo, cada habitación tiene un perrito.\nLlegan inifinitos buses con infinitos perritos … ¿Qué hacemos?"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos-1",
-    "href": "infinity_2024/presentacion.html#caso-3-infinitos-buses-y-perritos-1",
-    "title": "Más allá del Infinito",
-    "section": "Caso 3: Infinitos Buses y Perritos",
-    "text": "Caso 3: Infinitos Buses y Perritos"
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#conclusiones",
-    "href": "infinity_2024/presentacion.html#conclusiones",
-    "title": "Más allá del Infinito",
-    "section": "Conclusiones",
-    "text": "Conclusiones\n\n\n\n🌌 El \\(\\infty\\): Conceptos que desafían la intuición.\n📏 Cardinalidad: Diferentes tamaños de infinito.\n🐶 Hotel de Perritos: Infinito de forma entretenida."
-  },
-  {
-    "objectID": "infinity_2024/presentacion.html#gracias-por-participar",
-    "href": "infinity_2024/presentacion.html#gracias-por-participar",
-    "title": "Más allá del Infinito",
-    "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
-    "href": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
-    "title": "De los Números a la Narrativa",
-    "section": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?",
-    "text": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#objetivos-del-taller",
-    "href": "narrativas_2024/presentacion.html#objetivos-del-taller",
-    "title": "De los Números a la Narrativa",
-    "section": "🎯 Objetivos del Taller",
-    "text": "🎯 Objetivos del Taller\n\n\n📊 Aprender sobre visualización de datos.\n🧑‍🎨 Aprender a crear visualizaciones.\n🌐 Entender cómo construir una app interactiva.\n💻 Integrar visualizaciones en una aplicación web simple."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
-    "href": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
-    "title": "De los Números a la Narrativa",
-    "section": "🤔 ¿Qué es la Visualización de Datos?",
-    "text": "🤔 ¿Qué es la Visualización de Datos?\n\n\n La visualización de datos transforma información en gráficos para facilitar su comprensión."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
-    "href": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
-    "title": "De los Números a la Narrativa",
-    "section": "Cuarteto de ANSCOMBE",
-    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n📋 Tablas vs 📊 Gráficos"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#teoría-de-visualización",
-    "href": "narrativas_2024/presentacion.html#teoría-de-visualización",
-    "title": "De los Números a la Narrativa",
-    "section": "Teoría de visualización",
-    "text": "Teoría de visualización"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#pilares-visualización---noah-iliinsky",
-    "href": "narrativas_2024/presentacion.html#pilares-visualización---noah-iliinsky",
-    "title": "De los Números a la Narrativa",
-    "section": "4 Pilares Visualización - Noah Iliinsky",
-    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#herramientas-de-visualización-en-python",
-    "href": "narrativas_2024/presentacion.html#herramientas-de-visualización-en-python",
-    "title": "De los Números a la Narrativa",
-    "section": "Herramientas de Visualización en Python",
-    "text": "Herramientas de Visualización en Python"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#exploración-de-datos",
-    "href": "narrativas_2024/presentacion.html#exploración-de-datos",
-    "title": "De los Números a la Narrativa",
-    "section": "Exploración de Datos",
-    "text": "Exploración de Datos\n\n\n\n\n\n\n\n\n\n\n¡Demasiadas opciones!  El usuario no puede ser responsable de encontrar lo valioso."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#tipos-de-gráficos-esenciales",
-    "href": "narrativas_2024/presentacion.html#tipos-de-gráficos-esenciales",
-    "title": "De los Números a la Narrativa",
-    "section": "Tipos de Gráficos Esenciales",
-    "text": "Tipos de Gráficos Esenciales\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#section",
-    "href": "narrativas_2024/presentacion.html#section",
-    "title": "De los Números a la Narrativa",
-    "section": "",
-    "text": "Matplotlib es una biblioteca para crear gráficos estáticos.\nTipos de gráficos más comunes:\n\nLíneas, Barras, Dispersión, Histograma."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-líneas",
-    "href": "narrativas_2024/presentacion.html#ejemplo-líneas",
-    "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo: líneas",
-    "text": "〽️ Ejemplo: líneas\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión",
-    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión",
-    "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo: dispersión",
-    "text": "〽️ Ejemplo: dispersión\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras",
-    "href": "narrativas_2024/presentacion.html#ejemplo-barras",
-    "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo: barras",
-    "text": "〽️ Ejemplo: barras\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
-    "href": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
-    "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo: barras horizontales",
-    "text": "〽️ Ejemplo: barras horizontales\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#section-2",
-    "href": "narrativas_2024/presentacion.html#section-2",
-    "title": "De los Números a la Narrativa",
-    "section": "",
-    "text": "Seaborn extiende Matplotlib con gráficos más estilizados.\nEspecialmente útil para:\n\nGráficos estadísticos.\nAnálisis exploratorio de datos."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-penguins",
-    "href": "narrativas_2024/presentacion.html#ejemplo-penguins",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Ejemplo: penguins",
-    "text": "📊 Ejemplo: penguins\n\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nMale\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nFemale\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nFemale\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nFemale\n\n\n5\nAdelie\nTorgersen\n39.3\n20.6\n190.0\n3650.0\nMale"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
-    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Ejemplo: dispersión",
-    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='bill_length_mm', y='bill_depth_mm', data=penguins, \n                color='salmon')\n\n# Mostrar el gráfico\nplt.show()"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
-    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Ejemplo: dispersión",
-    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='flipper_length_mm', y='body_mass_g', data=penguins, \n                color='salmon', hue= \"sex\")\n\n# Mostrar el gráfico\nplt.show()"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
-    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Matplotlib vs Seaborn",
-    "text": "📊 Matplotlib vs Seaborn\nimport matplotlib.pyplot as plt\n\n# Contar la cantidad de Pingüinos por tipo\npenguins_type = penguins[\"species\"].value_counts()\n\n# Crear un gráfico de barras\nplt.figure(figsize=(6, 3))\npenguins_type.plot(kind=\"bar\", color=\"salmon\")\n\n# Mostrar gráfico\nplt.show()"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
-    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Matplotlib vs Seaborn",
-    "text": "📊 Matplotlib vs Seaborn\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear el gráfico de barras con seaborn\nplt.figure(figsize=(6, 3))\nsns.countplot(data=penguins, x=\"species\", color=\"salmon\")\n\n# Mostrar el gráfico\nplt.show()"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
-    "href": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
-    "title": "De los Números a la Narrativa",
-    "section": "🧑🏻‍💻 Aplicaciones Web Interactivas",
-    "text": "🧑🏻‍💻 Aplicaciones Web Interactivas\n\n\nStreamlit permite crear aplicaciones web rápidamente.\nPuedes integrar gráficos creados con Matplotlib y Seaborn.\nIdeal para compartir resultados de análisis de datos."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
-    "href": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
-    "title": "De los Números a la Narrativa",
-    "section": "Ejemplo de Streamlit",
-    "text": "Ejemplo de Streamlit"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#section-3",
-    "href": "narrativas_2024/presentacion.html#section-3",
-    "title": "De los Números a la Narrativa",
-    "section": "",
-    "text": "¡Ahora te toca a ti!🫵"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#section-4",
-    "href": "narrativas_2024/presentacion.html#section-4",
-    "title": "De los Números a la Narrativa",
-    "section": "",
-    "text": "¡Ahora te toca a ti!🫵"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#conclusión",
-    "href": "narrativas_2024/presentacion.html#conclusión",
-    "title": "De los Números a la Narrativa",
-    "section": "🎓 Conclusión",
-    "text": "🎓 Conclusión\n\n\nMatplotlib para gráficos básicos.\nSeaborn para gráficos avanzados.\nStreamlit para aplicaciones interactivas."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "🎉 Presentaciones",
-    "section": "",
-    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.\n🎤 Crea, Innova y Presenta: Data Storytelling con A.I. - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.\n🎤 Más allá del Infinito - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.\n🎤 De los Números a la Narrativa - Este taller profundiza en cómo transformar datos en visualizaciones impactantes, utilizando Python y herramientas de visualización para contar historias claras y persuasivas.\n🎤 Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.\n🎤 Innovación en MAT281: Colab y Evaluaciones Dinámicas - Descubre cómo Google Colab y nuevas evaluaciones transformaron el curso MAT281, mejorando el acceso y la motivación de los estudiantes a través de un enfoque dinámico y colaborativo.\n🎤 Inteligencia Artificial en la Educación - Aprende cómo la Inteligencia Artificial está transformando el aprendizaje, desde la personalización de contenidos hasta el análisis de datos educativos. Esta presentación explora aplicaciones prácticas de la IA en la enseñanza para crear experiencias más enriquecedoras y adaptativas.\n🎤 ¿Y Ahora Qué? Del Aula al Trabajo - Descubre cómo prepararte para el mundo laboral al finalizar tus estudios. Esta charla aborda habilidades clave, herramientas prácticas y estrategias para destacarte en tu transición profesional y adaptarte a un entorno laboral competitivo.\n🎤 Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub - Aprende a automatizar y versionar tus materiales educativos interactivos utilizando Quarto y GitHub. Descubre cómo estas herramientas te permiten crear, actualizar y compartir contenidos de forma eficiente, facilitando la colaboración y el acceso a recursos dinámicos en cualquier lugar del mundo.\n🎤 From Data to Narrative: Interactive Storytelling with Shiny - Esta presentación te mostrará cómo transformar datos en historias interactivas atractivas utilizando Shiny. Aprende a crear paneles dinámicos y visualizaciones que cautiven a tu audiencia y den vida a los insights de los datos.\n\nVersión en Inglés\nVersión en Español"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#objetivos-del-curso",
-    "href": "computacion_2024/presentacion.html#objetivos-del-curso",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🎯 Objetivos del Curso",
-    "text": "🎯 Objetivos del Curso\n\n\nFamiliarizarse con los Dispositivos Básicos\nConocer y Usar Programas Básicos de Oficina\nNavegar en Internet de Forma Segura\nAprender a Utilizar Aplicaciones Útiles y Páginas de Interés\nDesarrollar Habilidades en Redes Sociales\nRealizar Transferencias Electrónicas y Pagos en Línea de Forma Segura"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#computador",
-    "href": "computacion_2024/presentacion.html#computador",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "Computador",
-    "text": "Computador"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#qué-es-un-computador",
-    "href": "computacion_2024/presentacion.html#qué-es-un-computador",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🤔 ¿Qué es un computador?",
-    "text": "🤔 ¿Qué es un computador?\n\n\n🖥️ Un computador es una máquina que ayuda a realizar tareas de forma rápida y organizada.\nEs como una “oficina” en una caja, donde se pueden:\n\nEscribir documentos 📄\nEnviar correos 📧\nVer fotos 📷\nConectarse con amigos y familiares 👥\n\nFunciona con programas o aplicaciones, que son como herramientas en una caja de herramientas 🧰"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#qué-es-un-notebook",
-    "href": "computacion_2024/presentacion.html#qué-es-un-notebook",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🤔 ¿Qué es un notebook?",
-    "text": "🤔 ¿Qué es un notebook?\n\n\n💻 Un notebook es un computador pequeño y liviano que se puede llevar a cualquier lugar.\nA diferencia de un computador de escritorio:\n\nTodo está integrado en una sola pieza 🧩\nFunciona con batería🔋\n\nEs ideal para usar en diferentes lugares, dentro y fuera de casa 👩🏻‍💻🧑🏻‍💻"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#qué-es-un-celular-inteligente",
-    "href": "computacion_2024/presentacion.html#qué-es-un-celular-inteligente",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🤔 ¿Qué es un Celular Inteligente?",
-    "text": "🤔 ¿Qué es un Celular Inteligente?\n\n\n📱 Un celular inteligente es un dispositivo portátil que combina funciones de teléfono y computador.\nPermite hacer llamadas, enviar mensajes, y conectarse a internet 📞\nSe pueden instalar aplicaciones para diversas tareas: desde redes sociales hasta banca en línea ⬇️\nEs ideal para mantenerse en contacto y acceder a información en cualquier momento y lugar ⌚"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#conocer-las-partes-del-computador",
-    "href": "computacion_2024/presentacion.html#conocer-las-partes-del-computador",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🖥️ Conocer las Partes del Computador",
-    "text": "🖥️ Conocer las Partes del Computador"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#encender-el-computador",
-    "href": "computacion_2024/presentacion.html#encender-el-computador",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "💡 Encender el Computador",
-    "text": "💡 Encender el Computador\n\n\n Encender la CPU\n\n Encender el monitor\n\n Encender el notebook"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#identificar-el-escritorio",
-    "href": "computacion_2024/presentacion.html#identificar-el-escritorio",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🔍 Identificar el Escritorio",
-    "text": "🔍 Identificar el Escritorio\n\n\n\n\n\n\n\nElementos principales:\n\nBarra de tareas\nIconos"
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#usar-el-mouse-y-el-teclado",
-    "href": "computacion_2024/presentacion.html#usar-el-mouse-y-el-teclado",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🖱️⌨️ Usar el Mouse y el Teclado",
-    "text": "🖱️⌨️ Usar el Mouse y el Teclado\n\n\nPracticar cómo mover el puntero con el mouse y hacer clic.\nEnseñar a hacer clic izquierdo para seleccionar y doble clic para abrir.\nPracticar escribir en el teclado (ejemplo: escribir su nombre en un documento)."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#abrir-y-cerrar-programas",
-    "href": "computacion_2024/presentacion.html#abrir-y-cerrar-programas",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📄 Abrir y Cerrar Programas",
-    "text": "📄 Abrir y Cerrar Programas\n\n\nMostrar cómo hacer clic en el botón de inicio para abrir programas (como Word o el navegador).\nPracticar abrir y cerrar programas, usando el botón de la “X” en la esquina superior."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#navegar-en-internet",
-    "href": "computacion_2024/presentacion.html#navegar-en-internet",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🛜 Navegar en Internet",
-    "text": "🛜 Navegar en Internet\n\n\nExplicar qué es el navegador y abrir uno (Chrome o Firefox, por ejemplo).\nPracticar cómo buscar en Google escribiendo palabras clave, como “clima” o “noticias”."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#apagar-el-computador",
-    "href": "computacion_2024/presentacion.html#apagar-el-computador",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "🔘 Apagar el Computador",
-    "text": "🔘 Apagar el Computador\n\n\nExplicar que apagar el computador ayuda a mantenerlo en buen estado.\nMostrar el proceso para apagar desde el botón de inicio &gt; apagar."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#abrir-la-aplicación-de-reloj",
-    "href": "computacion_2024/presentacion.html#abrir-la-aplicación-de-reloj",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "⏰ Abrir la Aplicación de Reloj",
-    "text": "⏰ Abrir la Aplicación de Reloj\n\n\nEn la mayoría de los celulares, busca la aplicación llamada “Reloj”. Generalmente tiene un icono de un reloj.\nSi no la encuentras, puedes buscar “Reloj” en la barra de búsqueda de aplicaciones.\n\nSeleccionar la Opción de “Alarma”\n\nDentro de la aplicación, verás varias opciones como “Alarma”, “Temporizador”, y “Cronómetro”.\nToca en Alarma."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#crear-una-nueva-alarma",
-    "href": "computacion_2024/presentacion.html#crear-una-nueva-alarma",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "⏰ Crear una Nueva Alarma",
-    "text": "⏰ Crear una Nueva Alarma\n\n\nToca el icono de + o Añadir para crear una nueva alarma.\nSelecciona la hora y el minuto exactos para la alarma.\nPuedes configurar la alarma para que suene una sola vez o en días específicos, lo cual es útil si necesitas recordatorios recurrentes, como un medicamento diario.\n\nPersonalizar la Alarma\n\nEtiqueta o Nombre: Escribe un nombre para que sepas a qué se refiere, como “Medicación” o “Cita Médica”.\nRepetición: Configura si deseas que suene todos los días, o solo ciertos días de la semana.\nTono: Escoge un tono que sea fácil de reconocer."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#configurar-alarmas-con-recordatorios-extra",
-    "href": "computacion_2024/presentacion.html#configurar-alarmas-con-recordatorios-extra",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "⏰ Configurar Alarmas con Recordatorios Extra",
-    "text": "⏰ Configurar Alarmas con Recordatorios Extra\n\n\nEn algunos teléfonos, puedes crear recordatorios en la app de Calendario o Google Calendar. Esto permite que el teléfono te envíe una notificación con la hora y el motivo del recordatorio.\nIngresa la fecha y la hora de la cita, y selecciona “Añadir notificación”. Puedes agregar más de un aviso para que te recuerde varias veces antes de la hora indicada."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#comprobación",
-    "href": "computacion_2024/presentacion.html#comprobación",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "⏰ Comprobación",
-    "text": "⏰ Comprobación\n\n\nVerifica que las alarmas están activadas para que suenen en el horario adecuado.\nRecomienda a la persona revisarlas de vez en cuando para asegurarse de que están activas y programadas correctamente."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#consejos",
-    "href": "computacion_2024/presentacion.html#consejos",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "⏰ Consejos:",
-    "text": "⏰ Consejos:\n\n\nPrueba las Alarmas: Si es su primera vez, es buena idea hacer una prueba y verificar que el sonido de la alarma es suficiente.\nDuración del Sonido: Asegúrate de que el tono dure lo suficiente para que se escuche, especialmente si es algo tan importante como un medicamento."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#abrir-el-navegador-de-internet",
-    "href": "computacion_2024/presentacion.html#abrir-el-navegador-de-internet",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Abrir el Navegador de Internet",
-    "text": "📡 Abrir el Navegador de Internet\n\n\nExplica que debe buscar el navegador de internet en su celular o computador. Puede ser Google Chrome, Mozilla Firefox.\nHaga clic en el ícono para abrir el navegador."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#ir-a-la-barra-de-búsqueda-o-de-dirección",
-    "href": "computacion_2024/presentacion.html#ir-a-la-barra-de-búsqueda-o-de-dirección",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Ir a la Barra de Búsqueda o de Dirección",
-    "text": "📡 Ir a la Barra de Búsqueda o de Dirección\n\n\n\nUna vez en el navegador, escribir en la barra de búsqueda o barra de direcciones. Es el espacio en la parte superior donde puede escribir palabras o direcciones de sitios web."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#ejemplo",
-    "href": "computacion_2024/presentacion.html#ejemplo",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Ejemplo",
-    "text": "📡 Ejemplo\n\n\n\nEscribamos “ChileAtiende” en la barra de búsqueda y luego presione Enter o toque el botón de Buscar.\nEsto le mostrará una lista de resultados; debemos hacer clic en el primer enlace oficial que aparece, que suele decir www.chileatiende.cl o ChileAtiende - Gobierno de Chile."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#ingresar-directamente-la-dirección",
-    "href": "computacion_2024/presentacion.html#ingresar-directamente-la-dirección",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Ingresar Directamente la Dirección",
-    "text": "📡 Ingresar Directamente la Dirección\n\n\nAlternativamente, puede escribir directamente la dirección www.chileatiende.cl en la barra de direcciones si se siente cómodo.\nLuego, debe presionar Enter para abrir el sitio web."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#navegar-en-el-sitio",
-    "href": "computacion_2024/presentacion.html#navegar-en-el-sitio",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Navegar en el Sitio",
-    "text": "📡 Navegar en el Sitio\n\n\nUna vez en el sitio de ChileAtiende, podemos desplazarnos hacia abajo o hacia arriba para ver más contenido.\nTambién podemos usar las opciones del menú en la parte superior o buscar un servicio específico usando la barra de búsqueda dentro de la página."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#consejos-para-facilidad-de-uso",
-    "href": "computacion_2024/presentacion.html#consejos-para-facilidad-de-uso",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Consejos para Facilidad de Uso",
-    "text": "📡 Consejos para Facilidad de Uso\n\n\nGuardar la Página: Si es una página que visitará frecuentemente, podemos guardar la página como marcador o favorito. Esto se hace generalmente tocando el ícono de estrella o seleccionando “Agregar a Favoritos” en el menú del navegador.\nBuscar Información en el Sitio: En la página de ChileAtiende, muchas veces la información está organizada por temas. Ahora escribiremos palabras clave como “pensiones” o “salud” en el buscador del sitio para encontrar información específica."
-  },
-  {
-    "objectID": "computacion_2024/presentacion.html#resumen-de-los-pasos",
-    "href": "computacion_2024/presentacion.html#resumen-de-los-pasos",
-    "title": "Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero",
-    "section": "📡 Resumen de los Pasos:",
-    "text": "📡 Resumen de los Pasos:\n\n\nAbrir el navegador.\nIr a la barra de búsqueda y escribir “ChileAtiende”.\nBuscar y hacer clic en el enlace oficial.\nExplorar el sitio y guardar en favoritos si es necesario."
-  },
-  {
-    "objectID": "pycon_usa_2025/presentacion.html#innovar-en-la-enseñanza",
-    "href": "pycon_usa_2025/presentacion.html#innovar-en-la-enseñanza",
-    "title": "Educación sin Límites con Quarto y GitHub",
+    "objectID": "latinr_2024/presentacion.html#innovar-en-la-enseñanza",
+    "href": "latinr_2024/presentacion.html#innovar-en-la-enseñanza",
+    "title": "Uso de Quarto para crear clases interactivas",
     "section": "💡 Innovar en la Enseñanza",
     "text": "💡 Innovar en la Enseñanza\n\n\n\n\n\n\nCaptar atención activa.\nAdaptarse al mundo digital.\nQuarto permite crear contenidos interactivos."
   },
   {
-    "objectID": "pycon_usa_2025/presentacion.html#quarto-webr-y-quarto-pyodide",
-    "href": "pycon_usa_2025/presentacion.html#quarto-webr-y-quarto-pyodide",
-    "title": "Educación sin Límites con Quarto y GitHub",
+    "objectID": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
+    "href": "latinr_2024/presentacion.html#quarto-webr-y-quarto-pyodide",
+    "title": "Uso de Quarto para crear clases interactivas",
     "section": "🌐 Quarto WebR y Quarto Pyodide",
     "text": "🌐 Quarto WebR y Quarto Pyodide\n\nWebR: Ejecuta código R en el navegador, sin instalaciones.\n# Para instalar WebR en tu entorno\nremotes::install_github(\"attiyap/WebR\")\nPyodide : Idem pero para Python.\n# Para instalar Pyodide\npip install pyodide"
   },
   {
-    "objectID": "pycon_usa_2025/presentacion.html#ejemplo-r",
-    "href": "pycon_usa_2025/presentacion.html#ejemplo-r",
-    "title": "Educación sin Límites con Quarto y GitHub",
+    "objectID": "latinr_2024/presentacion.html#ejemplo-r",
+    "href": "latinr_2024/presentacion.html#ejemplo-r",
+    "title": "Uso de Quarto para crear clases interactivas",
     "section": "📊 Ejemplo R",
     "text": "📊 Ejemplo R\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "pycon_usa_2025/presentacion.html#ejemplo-python",
-    "href": "pycon_usa_2025/presentacion.html#ejemplo-python",
-    "title": "Educación sin Límites con Quarto y GitHub",
+    "objectID": "latinr_2024/presentacion.html#ejemplo-python",
+    "href": "latinr_2024/presentacion.html#ejemplo-python",
+    "title": "Uso de Quarto para crear clases interactivas",
     "section": "📊 Ejemplo Python",
     "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "pycon_usa_2025/presentacion.html#quarto-y-la-enseñanza",
-    "href": "pycon_usa_2025/presentacion.html#quarto-y-la-enseñanza",
-    "title": "Educación sin Límites con Quarto y GitHub",
+    "objectID": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
+    "href": "latinr_2024/presentacion.html#quarto-y-la-enseñanza",
+    "title": "Uso de Quarto para crear clases interactivas",
     "section": "🎓 Quarto y la Enseñanza",
     "text": "🎓 Quarto y la Enseñanza"
   },
   {
-    "objectID": "pycon_usa_2025/presentacion.html#implementación",
-    "href": "pycon_usa_2025/presentacion.html#implementación",
-    "title": "Educación sin Límites con Quarto y GitHub",
+    "objectID": "latinr_2024/presentacion.html#implementación",
+    "href": "latinr_2024/presentacion.html#implementación",
+    "title": "Uso de Quarto para crear clases interactivas",
     "section": "🛠️ Implementación",
     "text": "🛠️ Implementación"
   },
   {
-    "objectID": "pycon_usa_2025/presentacion.html#talleres",
-    "href": "pycon_usa_2025/presentacion.html#talleres",
-    "title": "Educación sin Límites con Quarto y GitHub",
+    "objectID": "latinr_2024/presentacion.html#talleres",
+    "href": "latinr_2024/presentacion.html#talleres",
+    "title": "Uso de Quarto para crear clases interactivas",
     "section": "🎓 Talleres",
     "text": "🎓 Talleres\n\n\n\n\n🐍 PySchool Chile\n\n\n🔢 Olimpiadas USM 2024"
   },
   {
-    "objectID": "pycon_usa_2025/presentacion.html#resultados",
-    "href": "pycon_usa_2025/presentacion.html#resultados",
-    "title": "Educación sin Límites con Quarto y GitHub",
+    "objectID": "latinr_2024/presentacion.html#resultados",
+    "href": "latinr_2024/presentacion.html#resultados",
+    "title": "Uso de Quarto para crear clases interactivas",
     "section": "📊 Resultados",
     "text": "📊 Resultados\nEncuestas sobre el taller:\n\nSatisfacción general alta, con un promedio cercano a 9.\nDestacaron el uso de las herramientas interactivas."
   },
   {
-    "objectID": "pycon_usa_2025/presentacion.html#recursos-adicionales",
-    "href": "pycon_usa_2025/presentacion.html#recursos-adicionales",
-    "title": "Educación sin Límites con Quarto y GitHub",
+    "objectID": "latinr_2024/presentacion.html#recursos-adicionales",
+    "href": "latinr_2024/presentacion.html#recursos-adicionales",
+    "title": "Uso de Quarto para crear clases interactivas",
     "section": "📚 Recursos Adicionales",
     "text": "📚 Recursos Adicionales\n\n\n🌐 Remasterización del libro: “R for Data Science”"
   },
   {
-    "objectID": "pycon_usa_2025/presentacion.html#gracias-por-participar",
-    "href": "pycon_usa_2025/presentacion.html#gracias-por-participar",
-    "title": "Educación sin Límites con Quarto y GitHub",
+    "objectID": "latinr_2024/presentacion.html#gracias-por-participar",
+    "href": "latinr_2024/presentacion.html#gracias-por-participar",
+    "title": "Uso de Quarto para crear clases interactivas",
     "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar PyCon US 2025!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#estudiar-graduarse-y-trabajar",
-    "href": "profesional_2024/presentacion.html#estudiar-graduarse-y-trabajar",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "🎓 Estudiar, Graduarse y … Trabajar?",
-    "text": "🎓 Estudiar, Graduarse y … Trabajar?"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#section",
-    "href": "profesional_2024/presentacion.html#section",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "",
-    "text": "Construyendo una Base Sólida\nReflexiona y planifica desde el inicio de tu carrera"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#autoconocimiento-y-planificación",
-    "href": "profesional_2024/presentacion.html#autoconocimiento-y-planificación",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💼 Autoconocimiento y Planificación",
-    "text": "💼 Autoconocimiento y Planificación\n\n\n\n\n¿Cuáles son tus fortalezas y debilidades?\n¿Qué te apasiona y dónde puedes destacarte?"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#autoconocimiento-y-planificación-1",
-    "href": "profesional_2024/presentacion.html#autoconocimiento-y-planificación-1",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💼 Autoconocimiento y Planificación",
-    "text": "💼 Autoconocimiento y Planificación\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔗 Link: https://www.duoc.cl/carreras/ingenieria-informatica/"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#aprovecha-los-recursos",
-    "href": "profesional_2024/presentacion.html#aprovecha-los-recursos",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💼 Aprovecha los Recursos",
-    "text": "💼 Aprovecha los Recursos\n\n\n\n\nParticipa en ferias laborales, talleres y actividades extracurriculares.\nConstruye un currículum sólido desde proyectos académicos."
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#aprovecha-los-recursos-1",
-    "href": "profesional_2024/presentacion.html#aprovecha-los-recursos-1",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💼 Aprovecha los Recursos",
-    "text": "💼 Aprovecha los Recursos\n\n\n\n\nPortafolio - Github\n\n\nCurriculum - Overleaf"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#networking-y-marca-personal",
-    "href": "profesional_2024/presentacion.html#networking-y-marca-personal",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💼 Networking y Marca Personal",
-    "text": "💼 Networking y Marca Personal\n\n\n\n\nConecta con profesores y profesionales.\nCrea un perfil en LinkedIn y comparte logros."
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#networking-y-marca-personal-1",
-    "href": "profesional_2024/presentacion.html#networking-y-marca-personal-1",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💼 Networking y Marca Personal",
-    "text": "💼 Networking y Marca Personal"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#section-1",
-    "href": "profesional_2024/presentacion.html#section-1",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "",
-    "text": "Potenciando Habilidades\nDesarrolla competencias clave"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#habilidades-blandas-soft-skills",
-    "href": "profesional_2024/presentacion.html#habilidades-blandas-soft-skills",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "🚀 Habilidades Blandas (Soft Skills)",
-    "text": "🚀 Habilidades Blandas (Soft Skills)\n\n\n\n\nResolución de problemas\nComunicación efectiva\nAdaptabilidad"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#habilidades-blandas-soft-skills-1",
-    "href": "profesional_2024/presentacion.html#habilidades-blandas-soft-skills-1",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "🚀 Habilidades Blandas (Soft Skills)",
-    "text": "🚀 Habilidades Blandas (Soft Skills)\n\n\n JS Chile\n Python Chile\n AWS Chile\n GDG Santiago"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#habilidades-técnicas-hard-skills",
-    "href": "profesional_2024/presentacion.html#habilidades-técnicas-hard-skills",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "🚀 Habilidades Técnicas (Hard Skills)",
-    "text": "🚀 Habilidades Técnicas (Hard Skills)\n\n\n\n\nAprende herramientas y tecnologías clave en tu campo.\nRealiza cursos y certificaciones para destacar frente a otros candidatos."
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#habilidades-técnicas-hard-skills-1",
-    "href": "profesional_2024/presentacion.html#habilidades-técnicas-hard-skills-1",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "🚀 Habilidades Técnicas (Hard Skills)",
-    "text": "🚀 Habilidades Técnicas (Hard Skills)\n\n\n Coursera\n Udemy\n Cloud"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#section-2",
-    "href": "profesional_2024/presentacion.html#section-2",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "",
-    "text": "Proyectándote al Futuro\nPrepárate para el mundo laboral"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#entrevistas-de-trabajo",
-    "href": "profesional_2024/presentacion.html#entrevistas-de-trabajo",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💻 Entrevistas de Trabajo",
-    "text": "💻 Entrevistas de Trabajo\n\n\n\n\nAsiste a ferias para conocer empresas y generar contactos valiosos.\nInvestiga preguntas frecuentes y personaliza tus respuestas según la empresa."
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#entrevistas-de-trabajo-1",
-    "href": "profesional_2024/presentacion.html#entrevistas-de-trabajo-1",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💻 Entrevistas de Trabajo",
-    "text": "💻 Entrevistas de Trabajo\n\n\n Entrevista Técnica\n Entrevista Sicológica"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#cultura-organizacional",
-    "href": "profesional_2024/presentacion.html#cultura-organizacional",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💻 Cultura Organizacional",
-    "text": "💻 Cultura Organizacional\n\n\n\n\nAnaliza la misión, visión y cultura de las empresas de tu interés.\nEvalúa si el ambiente de trabajo se alinea con tus principios y metas personales."
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#cultura-organizacional-1",
-    "href": "profesional_2024/presentacion.html#cultura-organizacional-1",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💻 Cultura Organizacional",
-    "text": "💻 Cultura Organizacional"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#descripción-de-trabajos",
-    "href": "profesional_2024/presentacion.html#descripción-de-trabajos",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💻 Descripción de Trabajos",
-    "text": "💻 Descripción de Trabajos\n\n\n\n\nRequisitos: habilidades clave.\n\nRol: alineado a tus metas.\n\nCrecimiento: desarrollo profesional."
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#descripción-de-trabajos-1",
-    "href": "profesional_2024/presentacion.html#descripción-de-trabajos-1",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💻 Descripción de Trabajos",
-    "text": "💻 Descripción de Trabajos"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#manejando-tu-futuro-financiero",
-    "href": "profesional_2024/presentacion.html#manejando-tu-futuro-financiero",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💻 Manejando tu Futuro Financiero",
-    "text": "💻 Manejando tu Futuro Financiero\n\n\n\n\nAprende sobre ahorro y presupuesto desde temprano.\nExplora inversiones sencillas, incluso con ingresos pequeños."
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#manejando-tu-futuro-financiero-1",
-    "href": "profesional_2024/presentacion.html#manejando-tu-futuro-financiero-1",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💻 Manejando tu Futuro Financiero",
-    "text": "💻 Manejando tu Futuro Financiero"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#cuánto-valgo-como-profesional",
-    "href": "profesional_2024/presentacion.html#cuánto-valgo-como-profesional",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💻 ¿Cuánto Valgo como Profesional?",
-    "text": "💻 ¿Cuánto Valgo como Profesional?\n\n\n\n\nInvestiga salarios del mercado\nIdentifica tus fortalezas\nPrepárate para negociar"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#cuánto-valgo-como-profesional-1",
-    "href": "profesional_2024/presentacion.html#cuánto-valgo-como-profesional-1",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💻 ¿Cuánto Valgo como Profesional?",
-    "text": "💻 ¿Cuánto Valgo como Profesional?"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#section-3",
-    "href": "profesional_2024/presentacion.html#section-3",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "",
-    "text": "Conclusiones\nAprendizajes de la Charla"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#conclusiones",
-    "href": "profesional_2024/presentacion.html#conclusiones",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "💡 Conclusiones",
-    "text": "💡 Conclusiones\n\n\n\n\n✅ Descubrimiento Personal\n✅ Herramientas Clave\n✅ Redes Estratégicas\n✅ Aprendizaje Constante"
-  },
-  {
-    "objectID": "profesional_2024/presentacion.html#gracias-por-participar",
-    "href": "profesional_2024/presentacion.html#gracias-por-participar",
-    "title": "¿Y Ahora Qué? Del Aula al Trabajo",
-    "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#aprender-adaptar-innovar",
-    "href": "uc_2024/presentacion.html#aprender-adaptar-innovar",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🔄 Aprender, Adaptar, Innovar",
-    "text": "🔄 Aprender, Adaptar, Innovar"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#section",
-    "href": "uc_2024/presentacion.html#section",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "",
-    "text": "Curso MAT281\nAplicaciones de la matemática en la ingeniería"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#malla-curricular---icmat",
-    "href": "uc_2024/presentacion.html#malla-curricular---icmat",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "Malla Curricular - ICMAT",
-    "text": "Malla Curricular - ICMAT\n\n\n\n\n\n\n\n\n\n\n\n\n🌐 Más detalles del curso MAT281"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#mat281---matemáticas-aplicadas",
-    "href": "uc_2024/presentacion.html#mat281---matemáticas-aplicadas",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "MAT281 - Matemáticas Aplicadas",
-    "text": "MAT281 - Matemáticas Aplicadas\n\n\n\n\n\n\n\n🎯 Objetivo: Desarrollar competencias como Data Scientist\n📚 Requisitos: Python y cursos básicos de matemáticas\n📝 Contenidos: Toolkit, Data Manipulation, Machine Learning\n📊 Evaluaciones: Laboratorios, Tareas, Proyecto\n\n\n\n🌐 Repositorio: github.com/fralfaro/MAT281_2024"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#historia-del-curso",
-    "href": "uc_2024/presentacion.html#historia-del-curso",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "📅 Historia del curso",
-    "text": "📅 Historia del curso"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#section-1",
-    "href": "uc_2024/presentacion.html#section-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "",
-    "text": "Conceptos Claves\nTecnologías y Aprendizajes"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#google-colab",
-    "href": "uc_2024/presentacion.html#google-colab",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "Google Colab",
-    "text": "Google Colab\n\n\n\n\n🖥️ Entorno en la nube (Python)\n📊 Ejecución de código interactivo\n🌐 Acceso desde internet"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#google-colab-1",
-    "href": "uc_2024/presentacion.html#google-colab-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "Google Colab",
-    "text": "Google Colab\n\n\n\n🌐 Link: colab.research.google.com"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#ejemplo-python",
-    "href": "uc_2024/presentacion.html#ejemplo-python",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "📊 Ejemplo Python",
-    "text": "📊 Ejemplo Python\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#más-herramientas",
-    "href": "uc_2024/presentacion.html#más-herramientas",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🎓 Más Herramientas",
-    "text": "🎓 Más Herramientas\n\n\n\n\nGithub versionar código\n\n\nMkdocs publicar sitios\n\n\n🌐 PyLatam 2022: Clases Interactivas con Google Colab, Mkdocs y Github Actions"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#aprendizajes-claves",
-    "href": "uc_2024/presentacion.html#aprendizajes-claves",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "Aprendizajes Claves",
-    "text": "Aprendizajes Claves\n\n\n\n\n\n\nMotivación: Fomentar interés.\nActivo: Involucra a los estudiantes.\nProyectos: Problemas reales.\nConstructivismo: Experiencia.\n\n\n\n📄 (C) How Learning Works (Ambrose, 2010)"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#section-2",
-    "href": "uc_2024/presentacion.html#section-2",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "",
-    "text": "Innovación Educativa\nInnovación en la Enseñanza y Evaluación en MAT281"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p1-google-colab",
-    "href": "uc_2024/presentacion.html#p1-google-colab",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P1: Google Colab",
-    "text": "P1: Google Colab\n\n\n\n\n\n\n\nAcceso sin instalación\nInteractivo y colaborativo\nAprendizaje activo"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p1-google-colab-1",
-    "href": "uc_2024/presentacion.html#p1-google-colab-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P1: Google Colab",
-    "text": "P1: Google Colab"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p2-github",
-    "href": "uc_2024/presentacion.html#p2-github",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P2: Github",
-    "text": "P2: Github\n\n\n\n\n\n\n\nControl de versiones\nFacilita Seguimiento\nPlantilla inicial\nPrimer portafolio"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p2-github-1",
-    "href": "uc_2024/presentacion.html#p2-github-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P2: Github",
-    "text": "P2: Github\n\n\n\nRepositorio del Curso\n\n\nPortafolio Estudiantes"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras",
-    "href": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P3: Evaluaciones Innovadoras",
-    "text": "P3: Evaluaciones Innovadoras\n\n\n\n\n\n\nEvaluaciones prácticas\nEnfoque en colaboración\nPreparación mercado laboral"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras-1",
-    "href": "uc_2024/presentacion.html#p3-evaluaciones-innovadoras-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P3: Evaluaciones Innovadoras",
-    "text": "P3: Evaluaciones Innovadoras"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p4evaluación-externa",
-    "href": "uc_2024/presentacion.html#p4evaluación-externa",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P4:Evaluación Externa",
-    "text": "P4:Evaluación Externa\n\n\n\n\n\n\nFeedback por pares\nEvaluación de proyectos\nDesarrolla habilidades blandas"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p4evaluación-externa-1",
-    "href": "uc_2024/presentacion.html#p4evaluación-externa-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P4:Evaluación Externa",
-    "text": "P4:Evaluación Externa"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p5-impacto-formación-profesional",
-    "href": "uc_2024/presentacion.html#p5-impacto-formación-profesional",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P5: Impacto Formación Profesional",
-    "text": "P5: Impacto Formación Profesional\n\n\n\n\n\n\nMotivación por la programación\nPreparación para prácticas\nMemorías Innovadoras"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#p5-impacto-formación-profesional-1",
-    "href": "uc_2024/presentacion.html#p5-impacto-formación-profesional-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "P5: Impacto Formación Profesional",
-    "text": "P5: Impacto Formación Profesional"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#section-3",
-    "href": "uc_2024/presentacion.html#section-3",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "",
-    "text": "Retroalimentación\nPerspectiva de los Estudiantes del Curso MAT281"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#comentarios-negativos",
-    "href": "uc_2024/presentacion.html#comentarios-negativos",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "👎 Comentarios Negativos",
-    "text": "👎 Comentarios Negativos\n\n\n❌ “El profesor jamás respondió los correos cuando se le hacían dudas, lo que considero una enorme falta de respeto hacia los estudiantes.”\n📉 “Nunca se entregaron calificaciones ni retroalimentación, así que nunca supe si estaba haciendo bien las cosas o no.”\n❓ “El curso fue confuso en la manera de evaluar, me costó entender qué había que hacer en las evaluaciones y cuáles iban a ser las pruebas o tareas.”"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#comentarios-positivos",
-    "href": "uc_2024/presentacion.html#comentarios-positivos",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "👍 Comentarios Positivos",
-    "text": "👍 Comentarios Positivos\n\n\n✅ “Buen profesor, con buena disposición para consultas. Es ordenado, presenta bien el contenido y llega bien al alumno.”\n🌟 “El profesor explica muy bien, de una forma clara. Tiene muy buena disposición y transmite confianza.”\n📚 “Es un curso muy bueno, ayuda a aprender mucho sobre el área de Data Science, las aplicaciones que tiene y las diferentes herramientas disponibles en Python.”"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#encuesta-docente",
-    "href": "uc_2024/presentacion.html#encuesta-docente",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "Encuesta Docente",
-    "text": "Encuesta Docente\n\n\n\n\n\n\n\n\n\n\n(C) La evaluó: contenidos, cercanía, y fomarlidades del curso."
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#section-4",
-    "href": "uc_2024/presentacion.html#section-4",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "",
-    "text": "Conclusiones\nResultados y Reflexiones del Curso MAT281"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#conclusiones",
-    "href": "uc_2024/presentacion.html#conclusiones",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🎓 Conclusiones",
-    "text": "🎓 Conclusiones\n\n\n✅ Google Colab tiene un impacto positivo\n✅ Aumenta motivación y participación\n✅ Mejora la comprensión práctica\n✅ Flexibilidad en la enseñanza y aprendizaje remoto"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#trabajos-futuros",
-    "href": "uc_2024/presentacion.html#trabajos-futuros",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🎓 Trabajos Futuros",
-    "text": "🎓 Trabajos Futuros\n\n\n💡 Integrar tecnologías nuevas (IA)\n💡 Fomentar proyectos con la industria\n💡 Expandir la metodología a otros cursos\n💡 Implementar evaluaciones automatizadas"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#agradecimientos",
-    "href": "uc_2024/presentacion.html#agradecimientos",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🎉 Agradecimientos",
-    "text": "🎉 Agradecimientos\n\n\n\nSebastián Flores\n\n\nAlonso Ogueda\n\n\nAlberto Rubio\n\n\n\n\nEric Zepeda\n\n\nSebastián Torres\n\n\nRodrigo Lecaros"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#agradecimientos-1",
-    "href": "uc_2024/presentacion.html#agradecimientos-1",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🎉 Agradecimientos",
-    "text": "🎉 Agradecimientos"
-  },
-  {
-    "objectID": "uc_2024/presentacion.html#gracias-por-participar",
-    "href": "uc_2024/presentacion.html#gracias-por-participar",
-    "title": "Innovación en MAT281: Colab y Evaluaciones Dinámicas",
-    "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#aprender-adaptar-innovar",
-    "href": "mads_2024/presentacion.html#aprender-adaptar-innovar",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "🔄 Aprender, Adaptar, Innovar",
-    "text": "🔄 Aprender, Adaptar, Innovar"
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#section",
-    "href": "mads_2024/presentacion.html#section",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "",
-    "text": "Seth&Nut\nProgramación y Matemáticas al Alcance de Todos"
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#seth-nut",
-    "href": "mads_2024/presentacion.html#seth-nut",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "💼 Seth & Nut",
-    "text": "💼 Seth & Nut\n\n\n\n\n🎓 Charlas y Talleres\n📚 Mini Cursos\n🌟 Capacitaciones\n\n\n\n\n\n\n🔗 Nuestro Sitio Web: https://seth-nut.github.io/website/"
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#fundadores",
-    "href": "mads_2024/presentacion.html#fundadores",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "💻 Fundadores",
-    "text": "💻 Fundadores\n\n\n\n\n👨‍💻 Francisco Alfaro\n\n\n👩‍💻 Valeska Canales"
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#section-1",
-    "href": "mads_2024/presentacion.html#section-1",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "",
-    "text": "Inteligencia Aritifical\n¿ Qué hacemos con la Inteligencia Artificial?"
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#quarto",
-    "href": "mads_2024/presentacion.html#quarto",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "Quarto",
-    "text": "Quarto\n\n\n\nUn sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R)."
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#section-2",
-    "href": "mads_2024/presentacion.html#section-2",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "",
-    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#interactividad-con-quarto",
-    "href": "mads_2024/presentacion.html#interactividad-con-quarto",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "📊 Interactividad con Quarto",
-    "text": "📊 Interactividad con Quarto\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#talleres",
-    "href": "mads_2024/presentacion.html#talleres",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "🎓 Talleres",
-    "text": "🎓 Talleres\n\n\n\n\n🐍 PySchool Chile\n\n\n🔢 Olimpiadas USM 2024"
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#streamlit",
-    "href": "mads_2024/presentacion.html#streamlit",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "Streamlit",
-    "text": "Streamlit\n\n\n Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python."
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#streamlit-ejemplo",
-    "href": "mads_2024/presentacion.html#streamlit-ejemplo",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "Streamlit: Ejemplo",
-    "text": "Streamlit: Ejemplo\n\n\nimport streamlit as st\n\n# Título principal de la aplicación\nst.title(\"Hola Streamlit\")\n\n# Mensaje principal con nombres y emoticón fijos\nmensaje = \"Darwin y Patricia son mejores amigos 😊\"\nst.write(mensaje)\n\n# Imagen decorativa\nst.image(\n    \"https://www.svgrepo.com/show/397758/people-hugging.svg\",\n    caption=\"Amigos\",\n    width=200  # Ajuste del tamaño de la imagen\n)\n\n# Footer\nst.markdown(\n    \"\"\"\n    ---\n    Gracias por usar esta aplicación interactiva 🎈\n    \"\"\"\n)\n\n\n\n\n\n\n\n\n\n(C) Ejemplo en Streamlit - Playground."
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#aplicaciones",
-    "href": "mads_2024/presentacion.html#aplicaciones",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "🚀 Aplicaciones",
-    "text": "🚀 Aplicaciones\n\n\n\n\n🍰 ¿Qué voy a comer hoy?\n\n\n⚖️ Ley Protección de Datos"
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#usar-chatbots-de-ia-para",
-    "href": "mads_2024/presentacion.html#usar-chatbots-de-ia-para",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "Usar chatbots de IA para:",
-    "text": "Usar chatbots de IA para:\n\n\n\n\nPlantillas personalizadas a medida\nAutomatizar estructura del contenido\nAhorro de tiempo en diseño\nAdaptación al estilo y preferencias"
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#usar-chatbots-de-ia-para-1",
-    "href": "mads_2024/presentacion.html#usar-chatbots-de-ia-para-1",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "Usar chatbots de IA para:",
-    "text": "Usar chatbots de IA para:\n\n\n\n\nAnalogías y ejemplos\nMejores traducciones\nPrompts para crear imágenes\nNo busques imágenes, créalas!"
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#material-de-apoyo",
-    "href": "mads_2024/presentacion.html#material-de-apoyo",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "Material de Apoyo",
-    "text": "Material de Apoyo\n\n\n\n\n\n🔗 Charla: Prompts Perfectos, Respuestas Poderosas"
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#section-3",
-    "href": "mads_2024/presentacion.html#section-3",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "",
-    "text": "Conclusiones\nAprendizajes de la Charla"
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#conclusiones",
-    "href": "mads_2024/presentacion.html#conclusiones",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "💡 Conclusiones",
-    "text": "💡 Conclusiones\n\n\n\n\n✅ Aprendizaje Personalizado.\n✅ Herramientas Dinámicas.\n✅ Eficiencia en Acción.\n✅ Innovación Inspiradora."
-  },
-  {
-    "objectID": "mads_2024/presentacion.html#gracias-por-participar",
-    "href": "mads_2024/presentacion.html#gracias-por-participar",
-    "title": "Inteligencia Artificial en la Educación",
-    "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar LatinR 2024!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
     "objectID": "shiny_2025/presentacion.html#agenda",
@@ -1727,6 +1944,13 @@
     "title": "From Data to Narrative",
     "section": "Examples",
     "text": "Examples\n\n\n 🔢 Don’t share numbers\n\n 🪶 Share a story\n\n\n (C) Storytelling with Data, by Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "shiny_2025/presentacion.html#best-charts-for-your-data",
+    "href": "shiny_2025/presentacion.html#best-charts-for-your-data",
+    "title": "From Data to Narrative",
+    "section": "Best Charts for your Data",
+    "text": "Best Charts for your Data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C) Essential chart types for data visualization, por Atlassian."
   },
   {
     "objectID": "shiny_2025/presentacion.html#section-3",
@@ -1859,7 +2083,7 @@
     "href": "shiny_2025/presentacion.html#useful-links",
     "title": "From Data to Narrative",
     "section": "🔗 Useful Links",
-    "text": "🔗 Useful Links\n\n\n\n\n🎥 YouTube Videos:\n\nReproducible Data Science: WebR + Shinylive\nGeorge Stagg | Posit\n\n📖 More about webR and Shinylive:\n\nWebR Documentation\nShinylive Documentation\nShinylive Examples"
+    "text": "🔗 Useful Links\n\n\n\n\n🎥 YouTube Videos:\n\nReproducible Data Science: WebR + Shinylive\nGeorge Stagg | Posit\n\n📖 More about webR and Shinylive:\n\nWebR Documentation\nShinylive Documentation"
   },
   {
     "objectID": "shiny_2025/presentacion.html#agenda-v2-1",
