@@ -14,6 +14,32 @@ filters:
   - quarto-ext/shinylive
 ---
 
+## About me {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+![](images/fralfaro.png){fig-align="center"}
+:::
+::: {.column width="60%"}
+&#32;<br>
+
+* Francisco Alfaro Medina aka *fralfaro*
+* Member of Python Chile
+* Lead Data Scientist at Grupo Security  
+* Associate Lecturer at UTFSM
+:::
+:::
+
+::: {.notes}
+My names is Francisco Alfaro Medina aka *fralfaro*
+
+:::
+
+
+
+------------------------------------------------------------------------
+
+
 ## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
@@ -37,7 +63,7 @@ filters:
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 ::: callout-note
-## Lesson #1 of Storytelling
+## Storytelling principle #1
 
 Never reveal the ending too soon.  
 [Always build up tension and drama]{.fragment}
@@ -52,7 +78,7 @@ Never reveal the ending too soon.
 1. Never reveal the [ending]{style="background-color:black;"}  
 2. Details are important, but [not **all** details are important.]{style="background-color:black;"}  
 3. Your first draft will be [horrible.]{style="background-color:black;"}  
-4. Show, don't [tell.]{style="background-color:black;"}
+4. Explain less, [show more]{style="background-color:black;"}
 :::
 
 ------------------------------------------------------------------------
@@ -195,9 +221,9 @@ Details matter, [but not **all** details are important.]{.fragment}
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 ::: callout-note
 
-## Storytelling principle #2
+## Storytelling principle #3
 
-Your first draft will **always** be horrible.
+Your first draft will [**always** be horrible.]{.fragment} 
 :::
 :::
 
@@ -253,7 +279,7 @@ Your first draft will **always** be horrible.
 -   [ChatGPT (OpenAI)](https://openai.com/chatgpt/)
 -   [Gemini (Google DeepMind)](https://deepmind.google/gemini/)
 -   [Meta AI (Meta)](https://ai.meta.com/)
--   [DeepSeek (DeepSeek)](https://chat.deepseek.com/)
+-   [Mistral (Mistral)](https://www.mistral.ai/)
 :::
 
 ::: {.column width="40%"}
@@ -307,7 +333,9 @@ Your first draft will **always** be horrible.
 ::: callout-note
 ## Storytelling principle #4
 
-[Explain less]{style="color: red"}, [show more]{style="color: green"}
+[Explain less]{style="color: red"}, [show more.]{.fragment style="color: green"} 
+
+
 :::
 :::
 
@@ -629,7 +657,7 @@ app = App(app_ui, server)
 1. Never reveal the [**ending**]{.fragment style="color:grey;"}  
 2. Details are important, but [not **all** details are important]{.fragment style="color:grey;"}  
 3. Your first draft will be [**horrible**]{.fragment style="color:grey;"}  
-4. Show, don't [**tell**]{.fragment style="color:grey;"}
+4. Explain less, [**show more**]{.fragment style="color:grey;"}
 :::
 
 ::: notes
