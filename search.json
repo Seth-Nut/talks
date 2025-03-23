@@ -1908,7 +1908,7 @@
     "href": "shiny_2025/presentacion.html#section-1",
     "title": "From Data to Narrative",
     "section": "",
-    "text": "Data Storytelling\nWhy Data Storytelling?"
+    "text": "Storytelling\nWhy Storytelling?"
   },
   {
     "objectID": "shiny_2025/presentacion.html#what-is-storytelling",
@@ -1943,6 +1943,13 @@
     "href": "shiny_2025/presentacion.html#section-2",
     "title": "From Data to Narrative",
     "section": "",
+    "text": "Data Storytelling\nTool #1: Visualization"
+  },
+  {
+    "objectID": "shiny_2025/presentacion.html#section-3",
+    "href": "shiny_2025/presentacion.html#section-3",
+    "title": "From Data to Narrative",
+    "section": "",
     "text": "Storytelling principle #2\n\n\nDetails matter, but not all details are important."
   },
   {
@@ -1960,8 +1967,15 @@
     "text": "Best Charts for your Data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C) Essential chart types for data visualization, por Atlassian."
   },
   {
-    "objectID": "shiny_2025/presentacion.html#section-3",
-    "href": "shiny_2025/presentacion.html#section-3",
+    "objectID": "shiny_2025/presentacion.html#section-4",
+    "href": "shiny_2025/presentacion.html#section-4",
+    "title": "From Data to Narrative",
+    "section": "",
+    "text": "Data Storytelling\nTool #2: AI"
+  },
+  {
+    "objectID": "shiny_2025/presentacion.html#section-5",
+    "href": "shiny_2025/presentacion.html#section-5",
     "title": "From Data to Narrative",
     "section": "",
     "text": "Storytelling principle #3\n\n\nYour first draft will always be horrible."
@@ -2002,8 +2016,15 @@
     "text": "💡 Chatbots A.I. - Images\n\n\n\n\nCanva + Magic Studio\nMicrosoft Designer\nNapkin AI\nMidjourney"
   },
   {
-    "objectID": "shiny_2025/presentacion.html#section-4",
-    "href": "shiny_2025/presentacion.html#section-4",
+    "objectID": "shiny_2025/presentacion.html#section-6",
+    "href": "shiny_2025/presentacion.html#section-6",
+    "title": "From Data to Narrative",
+    "section": "",
+    "text": "Data Storytelling\nTool #3: Presentation"
+  },
+  {
+    "objectID": "shiny_2025/presentacion.html#section-7",
+    "href": "shiny_2025/presentacion.html#section-7",
     "title": "From Data to Narrative",
     "section": "",
     "text": "Storytelling principle #4\n\n\nExplain less, show more."
@@ -2023,8 +2044,8 @@
     "text": "Quarto\n\n\n\nQuarto is an open system for scientific publications with markdown and interactive code (Python/R)."
   },
   {
-    "objectID": "shiny_2025/presentacion.html#section-5",
-    "href": "shiny_2025/presentacion.html#section-5",
+    "objectID": "shiny_2025/presentacion.html#section-8",
+    "href": "shiny_2025/presentacion.html#section-8",
     "title": "From Data to Narrative",
     "section": "",
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
