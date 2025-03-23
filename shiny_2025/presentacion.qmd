@@ -86,9 +86,9 @@ Never reveal the ending too soon.
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Data Storytelling]{style="font-size: 1em"}  
+[Storytelling]{style="font-size: 1em"}  
 
-[Why Data Storytelling?]{style="font-size: 1.5em"}
+[Why Storytelling?]{style="font-size: 1.5em"}
 :::
 
 ------------------------------------------------------------------------
@@ -169,6 +169,16 @@ Never reveal the ending too soon.
 
 ------------------------------------------------------------------------
 
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Tool #1: Visualization]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
@@ -213,6 +223,16 @@ Details matter, [but not **all** details are important.]{.fragment}
 . . .
 
 [(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Tool #2: AI]{style="font-size: 1.5em"}
+:::
 
 ------------------------------------------------------------------------
 
@@ -324,6 +344,17 @@ Your first draft will [**always** be horrible.]{.fragment}
 <img src="images/ai/ai_images.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Tool #3: Presentation]{style="font-size: 1.5em"}
+:::
+
 
 ------------------------------------------------------------------------
 
