@@ -12,7 +12,6 @@ format:
     logo: images/shiny_2025.png
 filters:
   - quarto-ext/shinylive
-
 ---
 
 ## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
@@ -226,7 +225,6 @@ Tu primera versión **siempre** será horrible.
 
 ## 💡 Chatbots A.I. - Ideas {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: columns
 ::: {.column width="60%"}
 <br>
@@ -237,7 +235,7 @@ Tu primera versión **siempre** será horrible.
 -   [DeepSeek (DeepSeek)](https://chat.deepseek.com/)
 :::
 
-::: {.column  width="40%"}
+::: {.column width="40%"}
 <img src="images/ai/ai_ideas.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
@@ -263,26 +261,22 @@ Tu primera versión **siempre** será horrible.
 
 ------------------------------------------------------------------------
 
-
 ## 💡 Chatbots A.I. - Imágenes {background-image="images/background.jpg" background-opacity="0.25"}
-
 
 ::: columns
 ::: {.column width="60%"}
-
 <br>
 
-- [Canva con Magic Studio](https://www.canva.com/magic/)
-- [Microsoft Designer](https://designer.microsoft.com/)
-- [Napkin AI](https://www.napkin.one/)
-- [Midjourney](https://www.midjourney.com/)
+-   [Canva con Magic Studio](https://www.canva.com/magic/)
+-   [Microsoft Designer](https://designer.microsoft.com/)
+-   [Napkin AI](https://www.napkin.one/)
+-   [Midjourney](https://www.midjourney.com/)
 :::
 
-::: {.column  width="40%"}
+::: {.column width="40%"}
 <img src="images/ai/ai_images.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -404,13 +398,11 @@ format:
 :::
 :::
 
-
 ------------------------------------------------------------------------
 
 ## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## Code
 
 ``` python
@@ -446,11 +438,7 @@ plt.title('😊 Do you like the presentation so far? 😊')
 # Display the plot
 plt.show()
 ```
-
 :::
-
-
-
 
 ------------------------------------------------------------------------
 
@@ -488,14 +476,11 @@ Las [extensiones](https://quarto.org/docs/extensions/) son una herramienta poder
 <img src="images/quarto/webr-demo.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 
-
 ------------------------------------------------------------------------
-
 
 ## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## WebR
 
 ```{webr-r}
@@ -516,15 +501,9 @@ plt.plot(x, y, marker='o', color='blue')
 plt.title("Gráfico Sencillo en Python")
 plt.show()
 ```
-
 :::
 
-
-
-
 ------------------------------------------------------------------------
-
-
 
 ## Shiny {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -533,7 +512,6 @@ plt.show()
 <br><br>
 
 Shiny es un paquete de R que permite crear aplicaciones web interactivas fácilmente usando R (También disponible para python).
-
 :::
 
 ::: {.column width="40%"}
@@ -541,16 +519,11 @@ Shiny es un paquete de R que permite crear aplicaciones web interactivas fácilm
 :::
 :::
 
-
-
 ------------------------------------------------------------------------
-
 
 ## Shiny {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ![](https://shiny.posit.co/r/articles/improve/debugging/kmeans-showcase.gif){width="80%"}
-
 
 ------------------------------------------------------------------------
 
@@ -568,12 +541,10 @@ Código para desplegar aplicaciones **Shiny** que se ejecutarán completamente e
 :::
 :::
 
-
-> **R:** [Ejemplos de Shinylive en R](https://shinylive.io/r/examples/)  
+> **R:** [Ejemplos de Shinylive en R](https://shinylive.io/r/examples/)\
 > **Python:** [Ejemplos de Shinylive en Python](https://shinylive.io/py/examples/)
 
 ------------------------------------------------------------------------
-
 
 ## Quarto & Shiny {background-image="images/background.jpg" background-opacity="0.25"}
 

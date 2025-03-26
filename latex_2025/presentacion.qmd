@@ -1,0 +1,559 @@
+---
+title: "¡Adiós Word, Hola LaTeX! "
+subtitle: "El Poder de Escribir como un Profesional"
+author: 
+- Francisco Alfaro
+- Valeska Canales
+date: 20 Jun 2025
+format: 
+  revealjs:
+    transition: slide
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    slide-attributes:
+      data-background-image: images/background.jpg
+    logo: images/logo_sn.png
+---
+
+## 🖼️ ¿Te ha pasado esto? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/demo1.jpeg){.fragment .fade-in-then-out fig-align="center" width="50%"}
+
+![](images/demo2.jpeg){.fragment .fade-in-then-out fig-align="center" width="50%"}
+
+![](images/demo3.jpeg){.fragment fig-align="center" width="50%"}
+:::
+
+
+---
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[LaTeX]{style="font-size: 1em"}
+
+[¿ Qué es LaTeX? ]{style="font-size: 1.5em"}
+:::
+
+---
+
+## ¿Qué es LaTeX? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/latex.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+- **¿Qué es LaTeX?**  
+  - Sistema para crear documentos académicos y científicos con formato profesional.  
+
+- **¿Por qué usarlo?**  
+  - Automatiza referencias y ecuaciones.  
+  - Ofrece mayor control sobre formato y estructura.
+:::
+:::
+
+
+---
+
+## Ejemplos de LaTeX {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br> <br>
+
+::: r-stack
+
+![](images/latex1.svg){.fragment .fade-in-then-out fig-align="center" style="width: 140%;"}
+
+![](images/latex2.svg){.fragment .fade-in-then-out fig-align="center" style="width: 140%;"}
+
+![](images/latex3.svg){.fragment fig-align="center" style="width: 140%;"}
+:::
+
+
+---
+
+## Word vs LaTeX {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+
+
+![](images/latexword2.jpg){.fragment fig-align="center" width="80%"}
+:::
+
+
+---
+
+## ¿Cómo empezar? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/tex.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+- **Editor recomendado:**  
+  - Overleaf (en línea, sin instalación)  
+
+- **Instalaciones locales:**  
+  - TeXLive, MiKTeX, MacTeX  
+
+- **Editores útiles:**  
+  - TeXstudio, VSCode + LaTeX Workshop
+
+:::
+:::
+
+---
+
+## 📝 Overleaf: LaTeX Online   {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns  
+::: {.column width="40%"}  
+::: {style="text-align: center;"}  
+<img src="images/overleaf.png" alt="Overleaf Logo" style="width: 80%; border-radius: 10px;"/>  
+:::  
+:::  
+
+::: {.column .incremental width="60%"}  
+<br>  
+
+- **¿Qué es?**  
+  - Plataforma en línea para escribir y compilar documentos en LaTeX sin instalación.  
+
+- **¿Por qué usarlo?**  
+  - Edición colaborativa en tiempo real.  
+  - Integración con GitHub y la nube.  
+  - Compilación y previsualización instantánea.  
+:::  
+:::
+
+---
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[LaTeX]{style="font-size: 1em"}
+
+[Manos a la Obra]{style="font-size: 1.5em"}
+:::
+
+
+---
+
+## 📝 Ejemplo 1 {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: panel-tabset
+
+## Teoría
+
+Todo documento LaTeX comienza con la declaración de clase (`\documentclass`) y el uso de paquetes necesarios. Luego se definen el título, autor, fecha y el contenido del documento dentro del entorno `\begin{document}` ... `\end{document}`.
+
+## Código
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+\title{Ejemplo de Documento en \LaTeX}
+\author{Francisco Alfaro, Valeska Canales}
+\date{\today}
+\maketitle
+
+\section{Ecuaciones en \LaTeX}
+Ejemplo de una ecuación matemática:
+
+\begin{equation}
+E = mc^2
+\end{equation}
+
+\end{document}
+```
+
+## Salida
+
+::: {style="text-align: center;"}
+<img src="images/ejemplo_latex.png" alt="Escribir Informe" />
+:::
+
+:::
+
+
+---
+
+
+
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[LaTeX]{style="font-size: 1em"}
+
+[¿Qué más se puede hacer con LaTeX?]{style="font-size: 1.5em"}
+:::
+
+
+---
+
+## ¿Qué más se puede hacer con LaTeX? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/latex.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+- **Mucho más que informes:**
+  - Presentaciones profesionales (`beamer`)
+  - Carteles científicos (`beamerposter`)
+  - Currículums vitae (`moderncv`, `awesome-cv`)
+  - Tesis, libros, cartas y exámenes
+  - Diagramas con `TikZ`
+  - Certificados y pósters personalizados
+:::
+:::
+
+---
+
+## ¿Qué más se puede hacer con LaTeX? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.r-stack style="margin-top: 20px;"}
+
+![](images/img011.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
+
+![](images/img02.png){.fragment .fade-in-then-out fig-align="center" width="40%"}
+
+![](images/img03.png){.fragment fig-align="center" width="60%"}
+
+:::
+
+
+---
+
+
+
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[LaTeX]{style="font-size: 1em"}
+
+[Más Herramientas]{style="font-size: 1.5em"}
+:::
+
+
+
+---
+
+## 🛠️ Herramientas Útiles {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/latex.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+- 📊 [**Tables Generator**](https://www.tablesgenerator.com/)  
+  Crea y exporta fácilmente tablas en formato LaTeX, HTML o Markdown.
+
+- 🔢 [**LaTeX Equation Editor**](https://latexeditor.lagrida.com/)  
+  Genera ecuaciones LaTeX con vista previa en tiempo real.
+
+- 🧾 [**BibTeX Editor**](https://truben.no/latex/bibtex/)  
+  Crea referencias bibliográficas en formato BibTeX.
+
+- 🧠 [**Detexify**](http://detexify.kirelabs.org/classify.html)  
+  Dibuja un símbolo y encuentra su comando LaTeX.
+:::
+:::
+
+
+---
+
+## 🛠️ Herramientas Útiles {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/tool1.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/tool2.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/tool3.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/tool4.png){.fragment fig-align="center" width="100%"}
+:::
+
+
+---
+
+## 🤖 LaTeX + Inteligencia Artificial {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/latex.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+- 💬 **ChatGPT** te ayuda a:
+  - Escribir y corregir código LaTeX.
+  - Corregir errores y mejorar el formato.
+  - Generar ecuaciones, tablas, referencias y figuras.
+
+- 🧠 Modelos como **MathGPT**:  
+  - Interpretan LaTeX 
+  - Resuelven matemáticas paso a paso.
+:::
+:::
+
+
+---
+
+## 🤖 LaTeX + Inteligencia Artificial {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: {.panel-tabset}
+
+## Prompt 1
+
+::: columns
+::: {.column width="50%"}
+✨ **Ejemplo de prompt:**
+
+"Escríbeme la fórmula cuadrática"
+:::
+
+::: {.column .incremental width="50%"}
+✅ **Esperado:**
+
+¡Por supuesto! Aquí tienes la **fórmula cuadrática** escrita en **LaTeX**:
+
+```latex
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+```
+
+:::
+:::
+
+## Prompt 2
+
+
+::: columns
+::: {.column width="50%"}
+✨ **Ejemplo de prompt:**
+
+> "Haz una tabla de derivadas básicas en latex"
+:::
+
+::: {.column .incremental width="50%"}
+✅ **Esperado:**
+
+```latex
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Función} & \textbf{Derivada} \\
+\hline
+$c$ & $0$ \\
+$x$ & $1$ \\
+$x^n$ & $nx^{n-1}$ \\
+$\sqrt{x}$ & $\dfrac{1}{2\sqrt{x}}$ \\
+...
+\hline
+\end{tabular}
+```
+:::
+:::
+
+## Prompt 3
+
+::: columns
+::: {.column width="50%"}
+✨ **Ejemplo de prompt:**
+
+“Estoy tratando de compilar esta ecuación en LaTeX, pero me da error. ¿Me puedes ayudar?”
+
+```latex
+\begin{equation}
+f(x) = \int_0^\infty e^-x^2 dx
+\end{equation}
+```
+
+
+:::
+
+::: {.column .incremental width="50%"}
+
+✅ **Esperado:**
+
+❌ `e^-x^2` está mal escrito. Falta agrupar el exponente con llaves.
+
+
+❌ Se recomienda escribir `\,dx` para buena tipografía.
+  
+:::
+:::
+
+:::
+
+
+---
+
+
+##  🤖 LaTeX + Inteligencia Artificial {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/mathgpt.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
+
+
+![](images/mathgpt2.png){.fragment fig-align="center" width="90%"}
+:::
+
+
+---
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[LaTeX]{style="font-size: 1em"}
+
+[Conclusiones]{style="font-size: 1.5em"}
+:::
+
+
+## ✅ Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+<br> <br>
+
+- 🎯 **LaTeX** permite crear documentos académicos con formato profesional.  
+- 💡 Ofrece **control total** sobre estilo y estructura.  
+- 🛠️ Hay muchas **herramientas** que lo hacen más fácil de usar.  
+- 🤖 Con **IA**, escribir en LaTeX es aún más eficiente.  
+- 🚀 **Overleaf** permite comenzar sin instalar nada.  
+
+  
+---
+
+
+## 📚 Referencias y Recursos {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: columns
+::: {.column width="50%"}
+
+<br>
+
+📄 LaTeX
+
+- [Manual de LaTeX](https://aprendeconalf.es/latex-manual/)
+- [Overleaf - Editor en línea](https://www.overleaf.com/)
+- [Documentación oficial de LaTeX](https://www.latex-project.org/)
+
+  
+:::
+
+::: {.column  width="50%"}
+<br>
+
+🤖 Inteligencia Artificial
+
+- [ChatGPT](https://chat.openai.com/)
+- [MathGPT](https://www.wolframalpha.com/)
+- [Prompts Perfectos ChatGPT](https://sethnut.com/ceemat_2025/prompts_chatgpt/presentacion.html#/title-slide)
+
+
+
+:::
+:::
+
+
+
+
+
+
+------------------------------------------------------------------------
+
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓¿Preguntas?
+
+👏 Responder [encuesta](https://forms.gle/PTczBF9Mk8nYYV88A)
+
+🥳 Difrutar del Evento!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr_duoc_2024.png){width="400"}
+:::
+:::
+
+> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+
+}
+
+.reveal .slide-logo {
+   max-height: 1em !important;
+}
+
+
+</style>
+```
