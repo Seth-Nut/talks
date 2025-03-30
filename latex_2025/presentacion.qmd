@@ -12,7 +12,7 @@ format:
       data-background-image: images/background.jpg
     slide-attributes:
       data-background-image: images/background.jpg
-    logo: images/logo_sn.png
+    logo: images/emma.png
 ---
 
 ## 🖼️ ¿Te ha pasado esto? {background-image="images/background.jpg" background-opacity="0.25"}
@@ -551,7 +551,7 @@ f(x) = \int_0^\infty e^-x^2 dx
 }
 
 .reveal .slide-logo {
-   max-height: 1em !important;
+   max-height: 2em !important;
 }
 
 
