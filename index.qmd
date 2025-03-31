@@ -31,5 +31,7 @@ output: html_document
 
     -   [Versión en Inglés](shiny_2025/presentacion.html)
     -   [Versión en Español](shiny_2025/presentacion_es.html)
-  
+
 -   🎤 [¡Adiós Word, Hola LaTeX!](latex_2025/presentacion.html) - Aprende a crear documentos académicos y científicos con formato profesional utilizando LaTeX. Descubre cómo esta herramienta te permite automatizar referencias y ecuaciones, ofreciendo una experiencia de escritura profesional y dinámica.
+
+-   🎤 [Taller de Python + IA para todos](citt_2025/presentacion.html) - Actividad educativa que enseña los fundamentos de Python y cómo aplicar IA en ejemplos cotidianos, sin necesidad de experiencia previa.

@@ -1,0 +1,467 @@
+---
+title: "Taller de Python + IA para todos "
+subtitle: "¡Haz tu propio ChatGPT!"
+author: 
+- Sebastián Flores
+- Francisco Alfaro
+- Valeska Canales
+date: 02 Apr 2025
+format:
+  revealjs:
+    width: 1245
+    height: 700
+    menu: false
+    controls: true
+    transition: fade
+    auto-stretch: false
+    embed-resources: false
+    toc: false
+    center: true
+    slide-number: false
+    preview-links: false
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    theme:
+        - simple
+    logo: images/citt.png
+---
+
+## ¿Qué dicen los diarios de la IA?
+
+![](images/alarmismo.png){fig-align="center" .fragment}
+
+---
+
+## SI presten atención al hombre tras la cortina
+
+{{< video videos/tras_la_cortina.mp4 >}}
+
+---
+
+::: {.callout-tip title="Idea"}
+Toda tecnología suficientemente avanzada parece magia.
+
+[**Arthur C. Clarke**]{style="text-align: right;"}
+:::
+
+---
+
+## Parte 1
+
+La ilusión de la continuidad
+
+---
+
+## Desafío
+
+¿Qué contiene la siguiente cadena de bits?
+
+[00000000]{style="font-size: 80px; margin: 0px; color: white"}
+[00101010]{style="font-size: 80px; margin: 0px;"}
+
+---
+
+[00000000]{style="font-size: 80px; margin: 0px; color: white"}
+[00101010]{style="font-size: 80px; margin: 0px;"}
+
+[Podría ser el número 42 escrito en binario...]{.fragment}
+
+---
+
+[00000000]{style="font-size: 80px; margin: 0px; color: white"}
+[00101010]{style="font-size: 80px; margin: 0px;"}
+
+[Podría ser el carácter `*` en la convención ascii...]{.fragment}
+
+---
+
+[00000000]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[00101010]{style="font-size: 80px; margin: 0px;"}
+[00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+
+[Podría ser parte de un número decimal, 0.4523 o $\pi$...]{.fragment}
+
+
+---
+
+[10000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[00100001]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[01000111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[00001000]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[00101010]{style="font-size: 80px; margin: 0px;"}
+[01000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[11111111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[11001101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[01000111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[01110111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+
+[Podría ser parte de un archivo multimedia (video, imagen, audio, etc.)...]{.fragment}
+
+---
+
+En el computador **TODO** se representa con bits.
+
+`representación` `=` `bits` `+` `contexto` 
+
+[Eso significa que todo es discreto.  
+No existe ni el infinito ni lo continuo.]{.fragment}
+
+---
+
+Alta fidelidad no es continuidad.
+
+![](code/derivada_5.png){fig-align="center"}
+
+---
+
+Alta fidelidad no es continuidad.
+
+![](code/derivada_7.png){fig-align="center"}
+
+---
+
+Alta fidelidad no es continuidad.
+
+![](code/derivada_9.png){fig-align="center"}
+
+---
+
+Alta fidelidad no es continuidad.
+
+![](code/derivada_11.png){fig-align="center"}
+
+---
+
+Alta fidelidad no es continuidad.
+
+![](code/derivada_21.png){fig-align="center"}
+
+---
+
+Alta fidelidad no es continuidad. [Pero puede ser suficiente...]{.fragment fragment-index=1}
+
+![](code/derivada_31.png){fig-align="center"}
+
+---
+
+No necesitamos la realidad, necesitamos una buena aproximación. Suficiente para engañar a los sentidos.
+
+![](images/celuloide.jpg){width=50% fig-align="center" .fragment}
+
+[Una película de 24 FPS es suficiente para engañar al ojo humano.]{.fragment}
+
+
+---
+
+## Moraleja de Parte 1
+
+* Ninguna representación en el computador es perfecta.
+* LLMs no son perfectos, pero no necesitamos que lo sean.
+
+---
+
+## Parte 2
+
+El computador parlanchín
+
+---
+
+¿Cómo representar una palabra?
+
+---
+
+## Representación textual
+
+Si solo queremos transcribir texto, basta con representar cada letra con una secuencia de bits, y almacenarla.
+
+::: columns
+::: {.column style="font-size: 24px;" .fragment .center}
+ASCII
+
+* 1 byte (8 bits): 128 carácteres posibles
+* 0 (48) ... 9 (57)
+* A (65) ... Z (90)
+* a (97) ... z (122) 
+* Problema: Faltan muchos carácteres: Ñ, ñ, á, é, í, ó, ú, u
+:::
+::: {.column style="font-size: 24px;" .fragment .center}
+UTF-8
+
+* 1 a 4 bytes (8 a 32 bits)
+* Mantiene ASCII sin cambios
+* Permite representar alfabetos latinos, griego, cirílico, copto, armenio, hebreo, árabe, siríaco, thaana, y n'ko, además de caracteres chinos, japoneses y coreanos. 
+* Incluye emojis 😁, simbolos ✅ y mil cosas más 🗿
+:::
+:::
+
+---
+
+## Representación semántica
+
+Semántica: relativo al **significado** de las palabras.
+
+Si quieres que el computador pueda interpretar el sentido de cada palabra, es necesario almacenar cada palabra como un todo. No puede descomponerse en sus letras.
+
+[Necesitamos una mejor REPRESENTACIÓN.]{.fragment}
+
+---
+
+## Actividad 2.1
+
+* Actividad: Ir a [https://platform.openai.com/tokenizer](https://platform.openai.com/tokenizer)
+* Objetivo: Evaluar distintos textos, en distintos idiomas. 
+
+::: panel-tabset
+## Ejemplo 1
+
+**Ejemplo 1**: *La informática,​ también llamada computación, es el área de la ciencia que se encarga de estudiar la administración de métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital.*
+
+## Ejemplo 2
+**Ejemplo 2**: *Computing is any goal-oriented activity requiring, benefiting from, or creating computing machinery. It includes the study and experimentation of algorithmic processes, and the development of both hardware and software. Computing has scientific, engineering, mathematical, technological, and social aspects.*
+:::
+
+
+
+
+---
+
+## Aprendizajes de Actividad 2.1
+
+* Palabra != Token
+* Cada token tiene un identificador único
+* En inglés,  100 tokens ~= 75 palabras. 
+* 2 palabras pueden ser idénticas pero tener distinto token
+
+---
+
+## ¿LLM?
+
+LLM = Large Language Model = Grandes Modelos de Lenguaje
+
+---
+
+## Diagrama técnico de un LLM
+
+Diagrama de funcionamiento de un LLM que se filtró de OpenAI:
+
+[¡¡¡No difundir!!!]{.fragment}
+
+![](images/LLM_words.gif){fig-align="center" width=150% .fragment}
+
+---
+
+## Actividad 2.2
+
+* Actividad: Ir a [https://huggingface.co/spaces/alonsosilva/NextTokenPrediction](https://huggingface.co/spaces/alonsosilva/NextTokenPrediction)
+* Objetivo: Observar la lista de token que se muestran como posible continuación del texto.
+* Tiempo: 5 minutos
+
+---
+
+## Aprendizajes de Actividad 2.1
+
+* El LLM no reflexiona sobre la próxima palabra. 
+* El LLM sugiere los tokens que estadísticamente son más probables.
+* Se predice token a token. No hay paralelismo, no se puede predecir el siguiente token mientras los anteriores no se han predicho. Es super secuencial.
+* El LLM no tiene memoria. Siempre empieza a predecir desde el mismo estado inicial.
+
+::: {.notes}
+Comparar con una multiplicación de matrices. La matriz no recuerda que ya hizo multiplicaciones antes.
+:::
+
+---
+
+## El negocio de los LLMs
+
+* Los LLMs hoy en día tienen billones de parámetros: 1,000,000,000,000
+* Cada parámetro se determina en un proceso de entrenamiento basado en enormes conjuntos de texto (esencialmente TODO el internet y libros escritos).
+* Entrenar una LLM requiere muchas horas de uso de tarjetas gráficas (GPUs).
+
+Esto significa que un LLM open source puede descargarse (son bits), y ejecutarse localmente - si tu hardware lo permite.
+
+---
+
+## El negocio de los LLMs
+
+No existe solo chatGPT (OpenAI): todos quieren un pedazo de la torta:
+
+::: columns
+::: {.column width="50%" .fragment .center}
+Los de pago:
+
+* GPT-4 (OpenAI)
+* Gemini (Google)
+* Claude (Anthropic)
+* ...
+:::
+::: {.column width="50%" .fragment .center}
+Los de código abierto:
+
+* Llama (Meta)
+* Qwen (Baidu)
+* DeepSeek (China)
+* ...
+:::
+:::
+
+[Y están quienes no desarrollan pero entregan LLM como un servicio: Amazon (Bedrock), OpenRouter, etc.]{.fragment}
+
+---
+
+## Parte 3
+
+¡Hazlo tu mismo!
+
+---
+
+## Actividad 1
+
+
+::: panel-tabset
+## Teoría
+
+**¿Cómo podemos emular chatGPT?**
+
+::: columns
+::: {.column width="50%" .center}
+Ejecutar localmente LLM: 
+
+* Configuración compleja
+* Hardware costoso
+:::
+::: {.column width="50%" .fragment}
+Consumir una API de LLM  
+
+* Simple
+* Pagar lo que consumes
+* Multiples proveedores y alternativas
+:::
+:::
+
+## Actividad
+
+* Actividad: Ir a [https://cittripio.streamlit.app/](https://cittripio.streamlit.app/)
+* Objetivo: Lograr que el bot responda "con personalidad"
+* Tiempo: 5 minutos
+
+## Aprendizajes
+
+* El LLM responde en función del prompt.
+* El prompt puede pedir cualquier cosa.
+
+:::
+
+
+---
+
+## Actividad 2
+
+
+::: panel-tabset
+
+## Actividad
+
+* Actividad: Ir a [https://cittripio.streamlit.app/v2](https://cittripio.streamlit.app/v2)
+* Objetivo: Hacer 2 preguntas:
+  * ¿Qué animal da leche y dice mu? 
+  * ¿Que come ese animal?
+* ¿El LLM tiene memoria?
+* Tiempo: 5 minutos
+
+## Aprendizajes
+
+* Separar en contexto y pregunta permite imponer una "personalidad" o ciertas características.
+* El chatbot no tiene memoria.
+
+:::
+
+
+--- 
+
+## Actividad 3
+
+
+::: panel-tabset
+
+## Teoría I
+
+**¿Porqué chatGPT si tiene memoria?**
+
+*Muy simple*: Pasemosle la historia de la conversación en cada prompt.
+
+- Opción 1: Pasarle todo el texto.
+- Opción 2: Pasarle un resumen de la conversación.
+
+## Teoría II
+
+**¿Qué es la temperatura?** 
+
+* Es un parámetro que controla que tan aleatoria es la elección del siguiente token.
+* Temperatura = 0: Muy determinista.
+* Temperatura = 1: Muy aleatorio.
+
+## Actividad 
+
+* Actividad: Ir a [https://cittripio.streamlit.app/v2](https://cittripio.streamlit.app/v2)
+* Objetivo 1: Lograr que cittripio le responda a Luke Skywalker que es su padre.
+* Objetivo 2: Cambiar la personalidad de cittripio por cualquier otro personaje (no necesariamente de Star Wars).
+* Tiempo: 5 minutos
+
+## Aprendizajes 
+
+* El LLM necesita tener como input todo el contexto e historia en el prompt.
+* Las APIs agregan muchas opciones para simplificar y manejar todo esto convenientemente.
+
+:::
+
+
+
+---
+
+## Conclusión
+
+* LLMs no son magia: es tecnología.
+* Cualquiera puede comenzar a crear soluciones con LLMs.
+* Conocer como funcionan LLMs permite usarlos mejor.
+* Existen muchos recursos gratuitos para aprender y jugar.
+
+
+
+------------------------------------------------------------------------
+
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓¿Preguntas?
+
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSd2CseqhHUjdmvr46ZDb_Aa2iUYEjLAIE4MwLztled5ytRJvg/viewform?usp=dialog)
+
+🥳 Difrutar del Evento!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr_citt2.png){width="400"}
+:::
+:::
+
+> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+
+```{=html}
+<style>
+
+
+.reveal .slide-logo {
+   max-height: 2em !important;
+}
+
+
+</style>
+```

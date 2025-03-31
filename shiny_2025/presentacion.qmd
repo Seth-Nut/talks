@@ -20,25 +20,22 @@ filters:
 ::: {.column width="40%"}
 ![](images/fralfaro.png){fig-align="center"}
 :::
+
 ::: {.column width="60%"}
-&#32;<br>
+<br>
 
-* Francisco Alfaro Medina aka *fralfaro*
-* Member of Python Chile
-* Lead Data Scientist at Grupo Security  
-* Associate Lecturer at UTFSM
+-   Francisco Alfaro Medina aka *fralfaro*
+-   Member of Python Chile
+-   Lead Data Scientist at Grupo Security\
+-   Associate Lecturer at UTFSM
 :::
 :::
 
-::: {.notes}
+::: notes
 My names is Francisco Alfaro Medina aka *fralfaro*
-
 :::
-
-
 
 ------------------------------------------------------------------------
-
 
 ## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -46,10 +43,11 @@ My names is Francisco Alfaro Medina aka *fralfaro*
 ::: {.column .incremental width="30%"}
 -   
 
-* No
-* Nope
-* No chance
-  
+-   No
+
+-   Nope
+
+-   No chance
 :::
 
 ::: {.column .fragment width="70%"}
@@ -65,7 +63,7 @@ My names is Francisco Alfaro Medina aka *fralfaro*
 ::: callout-note
 ## Storytelling principle #1
 
-Never reveal the ending too soon.  
+Never reveal the ending too soon.\
 [Always build up tension and drama]{.fragment}
 :::
 :::
@@ -75,10 +73,10 @@ Never reveal the ending too soon.
 ## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: incremental
-1. Never reveal the [ending]{style="background-color:black;"}  
-2. Details are important, but [not **all** details are important.]{style="background-color:black;"}  
-3. Your first draft will be [horrible.]{style="background-color:black;"}  
-4. Explain less, [show more]{style="background-color:black;"}
+1.  Never reveal the [ending]{style="background-color:black;"}\
+2.  Details are important, but [not **all** details are important.]{style="background-color:black;"}\
+3.  Your first draft will be [horrible.]{style="background-color:black;"}\
+4.  Explain less, [show more]{style="background-color:black;"}
 :::
 
 ------------------------------------------------------------------------
@@ -86,7 +84,7 @@ Never reveal the ending too soon.
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Storytelling]{style="font-size: 1em"}  
+[Storytelling]{style="font-size: 1em"}
 
 [Why Storytelling?]{style="font-size: 1.5em"}
 :::
@@ -135,7 +133,7 @@ Never reveal the ending too soon.
 
 ::: columns
 ::: {.column width="60%"}
-<br><br> Use **Storytelling tricks** (narrative) to create presentations that will be **remembered** and make an **impact**  
+<br><br> Use **Storytelling tricks** (narrative) to create presentations that will be **remembered** and make an **impact**
 :::
 
 ::: {.column .fragment width="40%"}
@@ -193,14 +191,14 @@ Details matter, [but not **all** details are important.]{.fragment}
 
 ## Examples {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns  
-::: {.column width="50%"}  
-![](images/dst_before.png){fig-align="center"} *🔢 Don't share numbers*  
-:::  
+::: columns
+::: {.column width="50%"}
+![](images/dst_before.png){fig-align="center"} *🔢 Don't share numbers*
+:::
 
-::: {.column .fragment width="50%"}  
-![](images/dst_after.png){fig-align="center"} *🪶 Share a story*  
-:::  
+::: {.column .fragment width="50%"}
+![](images/dst_after.png){fig-align="center"} *🪶 Share a story*
+:::
 :::
 
 . . .
@@ -210,7 +208,6 @@ Details matter, [but not **all** details are important.]{.fragment}
 ------------------------------------------------------------------------
 
 ## Best Charts for your Data {background-image="images/background.jpg" background-opacity="0.25"}
-
 
 ::: r-stack
 <br>
@@ -240,10 +237,9 @@ Details matter, [but not **all** details are important.]{.fragment}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 ::: callout-note
-
 ## Storytelling principle #3
 
-Your first draft will [**always** be horrible.]{.fragment} 
+Your first draft will [**always** be horrible.]{.fragment}
 :::
 :::
 
@@ -273,14 +269,14 @@ Your first draft will [**always** be horrible.]{.fragment}
 
 ## Using AI Chatbots to: {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns  
-::: {.column width="65%"}  
-<br>  
+::: columns
+::: {.column width="65%"}
+<br>
 
--   Create customized templates  
--   Automate content structure  
--   Save time on design  
--   Adapt to style and preferences  
+-   Create customized templates\
+-   Automate content structure\
+-   Save time on design\
+-   Adapt to style and preferences\
 :::
 
 ::: {.column .fragment width="35%"}
@@ -311,14 +307,14 @@ Your first draft will [**always** be horrible.]{.fragment}
 
 ## Using AI Chatbots for: {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns  
-::: {.column width="60%"}  
-<br>  
+::: columns
+::: {.column width="60%"}
+<br>
 
--   Analogies and examples  
--   Better translations  
--   Prompts to create images  
--   Don't search for images, create them!  
+-   Analogies and examples\
+-   Better translations\
+-   Prompts to create images\
+-   Don't search for images, create them!\
 :::
 
 ::: {.column .fragment width="40%"}
@@ -355,7 +351,6 @@ Your first draft will [**always** be horrible.]{.fragment}
 [Tool #3: Presentation]{style="font-size: 1.5em"}
 :::
 
-
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
@@ -364,9 +359,7 @@ Your first draft will [**always** be horrible.]{.fragment}
 ::: callout-note
 ## Storytelling principle #4
 
-[Explain less]{style="color: red"}, [show more.]{.fragment style="color: green"} 
-
-
+[Explain less]{style="color: red"}, [show more.]{.fragment style="color: green"}
 :::
 :::
 
@@ -376,7 +369,7 @@ Your first draft will [**always** be horrible.]{.fragment}
 
 <br>
 
-```r
+``` r
 categories <- c("Yes", "No")
 values <- c(75, 25)
 colors <- c("lightblue", "salmon")
@@ -385,8 +378,7 @@ barplot(
   main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
 ```
 
-. . . 
-
+. . .
 
 ```{r}
 categories <- c("Yes", "No")
@@ -395,7 +387,6 @@ colors <- c("lightblue", "salmon")
 par(mfrow = c(2, 1), mar = c(1, 2, 1, 1),  oma = c(1, 8, 1, 3)   )
 barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
 ```
-
 
 ------------------------------------------------------------------------
 
@@ -466,7 +457,7 @@ format:
 ::: panel-tabset
 ## Code
 
-```r
+``` r
 categories <- c("Yes", "No")
 values <- c(75, 25)
 colors <- c("lightblue", "salmon")
@@ -508,14 +499,14 @@ barplot(values, names.arg = categories, col = colors, main = "😊 Do you like t
 
 1.  [WebR](https://docs.r-wasm.org/webr/latest/): Run R code in the browser, no installation required.
 
-    ```bash
+    ``` bash
     # To install WebR in your environment
     remotes::install_github("attiyap/WebR")
     ```
 
 2.  [Pyodide](https://quarto.thecoatlessprofessor.com/pyodide/): Same, but for Python.
 
-    ```bash
+    ``` bash
     # To install Pyodide
     pip install pyodide
     ```
@@ -549,7 +540,6 @@ colors <- c("lightblue", "salmon")
 par(mfrow = c(2, 1), mar = c(1, 2, 1, 1),  oma = c(1, 8, 1, 3)   )
 barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
 ```
-
 :::
 
 ------------------------------------------------------------------------
@@ -592,7 +582,7 @@ Code to deploy **Shiny** applications that run entirely in the browser, using **
 :::
 :::
 
-. . . 
+. . .
 
 > 🌐 [Shinylive in R](https://shinylive.io/r/examples/), 🐍 [Shinylive in Python](https://shinylive.io/py/examples/)
 
@@ -655,40 +645,31 @@ app = App(app_ui, server)
 ## 🔗 Useful Links {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%" .incremental}
-
+::: {.column .incremental width="60%"}
 <br>
 
-- 🎥 **YouTube Videos**: 
-  - [Reproducible Data Science: WebR + Shinylive](https://www.youtube.com/watch?v=dummy_link)
-  - [George Stagg | Posit](https://github.com/georgestagg) 
-
-
-- 📖 **More about webR and Shinylive**: 
-  - [WebR Documentation](https://docs.r-wasm.org/webr/v0.3.2/)
-  - [Shinylive Documentation](https://quarto-ext.github.io/shinylive/)
-
-
-
+-   🎥 **YouTube Videos**:
+    -   [Reproducible Data Science: WebR + Shinylive](https://www.youtube.com/watch?v=dummy_link)
+    -   [George Stagg \| Posit](https://github.com/georgestagg)
+-   📖 **More about webR and Shinylive**:
+    -   [WebR Documentation](https://docs.r-wasm.org/webr/v0.3.2/)
+    -   [Shinylive Documentation](https://quarto-ext.github.io/shinylive/)
 :::
 
 ::: {.column width="40%"}
-<br>
-![](images/quarto/rwasm.png)
+<br> ![](images/quarto/rwasm.png)
 :::
 :::
-
 
 ------------------------------------------------------------------------
-
 
 ## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: incremental
-1. Never reveal the [**ending**]{.fragment style="color:grey;"}  
-2. Details are important, but [not **all** details are important]{.fragment style="color:grey;"}  
-3. Your first draft will be [**horrible**]{.fragment style="color:grey;"}  
-4. Explain less, [**show more**]{.fragment style="color:grey;"}
+1.  Never reveal the [**ending**]{.fragment style="color:grey;"}\
+2.  Details are important, but [not **all** details are important]{.fragment style="color:grey;"}\
+3.  Your first draft will be [**horrible**]{.fragment style="color:grey;"}\
+4.  Explain less, [**show more**]{.fragment style="color:grey;"}
 :::
 
 ::: notes
@@ -699,21 +680,21 @@ Opción 2: Una agenda misteriosa.
 
 ## 🎉 Thank You for Participating! {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns  
-::: {.column width="50%"}  
-<br>  
+::: columns
+::: {.column width="50%"}
+<br>
 
-❓ Questions?  
+❓ Questions?
 
-👏 Fill out the [survey](https://forms.gle/roKy9m8pfSANAkHJ8)  
+👏 Fill out the [survey](https://forms.gle/roKy9m8pfSANAkHJ8)
 
-🥳 Thank You Again!  
-:::  
+🥳 Thank You Again!
+:::
 
-::: {.column width="50%" align="center"}  
-![](images/qr_shinyconf.png){width="400"}  
-:::  
-:::  
+::: {.column width="50%" align="center"}
+![](images/qr_shinyconf.png){width="400"}
+:::
+:::
 
 > 🔗 Our Website: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
 
