@@ -1411,21 +1411,28 @@
     "href": "citt_2025/presentacion.html#actividad-1",
     "title": "Taller de Python + IA para todos",
     "section": "Actividad 1",
-    "text": "Actividad 1\n\n🧠 Teoría🛠️ Actividad💡 Aprendizajes\n\n\n¿Cómo podemos emular chatGPT?\n\n\nEjecutar localmente LLM:\n\nConfiguración compleja\nHardware costoso\n\n\nConsumir una API de LLM\n\nSimple\nPagar lo que consumes\nMultiples proveedores y alternativas\n\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/v1\nObjetivo: Lograr que el bot responda “una pregunta”\n\nTiempo: 5 minutos\n\n\n\n\n\nEl LLM responde en función del prompt.\nEl prompt puede pedir cualquier cosa.\nPrompts cortos entregan resultados muy variables."
+    "text": "Actividad 1\n\n🧠 Teoría🛠️ Actividad💡 Aprendizajes\n\n\n¿Cómo podemos emular chatGPT?\n\n\nEjecutar localmente LLM:\n\nConfiguración compleja\nHardware costoso\n\n\nConsumir una API de LLM\n\nSimple y pago por uso\nVarias opciones y proveedores\n\n\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/v1\nObjetivo: Lograr que el bot responda “una pregunta”\n\nTiempo: 5 minutos\n\n\n\n\n\nEl LLM responde en función del prompt.\nEl prompt puede pedir cualquier cosa.\nPrompts cortos entregan resultados muy variables."
   },
   {
     "objectID": "citt_2025/presentacion.html#actividad-2",
     "href": "citt_2025/presentacion.html#actividad-2",
     "title": "Taller de Python + IA para todos",
     "section": "Actividad 2",
-    "text": "Actividad 2\n\n🧠 Teoría🛠️ Actividad💡 Aprendizajes\n\n\n\nLos LLMs no tienen personalidad propia, pero tú puedes definir cómo deben comportarse mediante el prompt.\nEsto se logra describiendo explícitamente el rol, el tono y el estilo que deseas que adopte el modelo.\n\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/vdos\nObjetivo:\n\nO1: Hacer 2 preguntas relacionadas.\nO2: Cambiar la personalidad del bot.\n\n¿El LLM tiene memoria?\n\nTiempo: 5 minutos\n\n\n\n\n\nSeparar en contexto y pregunta permite imponer una “personalidad” o ciertas características.\nUn LLM no tiene memoria."
+    "text": "Actividad 2\n\n🧠 Teoría🛠️ Actividad💡 Aprendizajes\n\n\n\nLos LLMs no tienen personalidad propia, pero tú puedes definir cómo deben comportarse mediante el prompt.\nEsto se logra describiendo explícitamente el rol, el tono y el estilo que deseas que adopte el modelo.\n\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/vdos\nObjetivo:\n\nO1: Hacer 2 preguntas relacionadas.\nO2: Cambiar la personalidad del bot.\nTiempo: 5 minutos\n\n\n\n\n\nSeparar en contexto y pregunta permite imponer una “personalidad” o ciertas características.\nUn LLM no tiene memoria."
   },
   {
     "objectID": "citt_2025/presentacion.html#actividad-3-1",
     "href": "citt_2025/presentacion.html#actividad-3-1",
     "title": "Taller de Python + IA para todos",
     "section": "Actividad 3",
-    "text": "Actividad 3\n\n🧠 Teoría I🧠 Teoría II🛠️ Actividad💡 Aprendizajes\n\n\n¿Porqué chatGPT si tiene memoria?\nMuy simple: Pasemosle la historia de la conversación en cada prompt.\n\nOpción 1: Pasarle todo el texto.\nOpción 2: Pasarle un resumen de la conversación.\n\n\n\n\n¿Qué es la temperatura?\n\nEs un parámetro que controla que tan aleatoria es la elección del siguiente token.\nTemperatura = 0: Muy determinista.\nTemperatura = 1: Muy aleatorio.\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/vf\nObjetivo:\n\nO1: Lograr que cittripio le responda a Luke Skywalker que es su padre.\nO2: Cambiar la personalidad de cittripio por cualquier otro personaje (no necesariamente de Star Wars).\nTiempo: 5 minutos\n\n\n\n\n\nEl LLM necesita tener como input todo el contexto e historia en el prompt.\nLas APIs agregan muchas opciones para simplificar y manejar todo esto convenientemente."
+    "text": "Actividad 3\n\n🧠 Teoría I🧠 Teoría II🛠️ Actividad💡 Aprendizajes\n\n\n¿Por qué chatGPT si tiene memoria?\nMuy simple: Pasemosle la historia de la conversación en cada prompt.\n\nOpción 1: Pasarle todo el texto.\nOpción 2: Pasarle un resumen de la conversación.\n\n\n\n\n¿Qué es la temperatura?\nEs un parámetro que controla que tan aleatoria es la elección del siguiente token. - Temperatura = 0: Muy determinista. - Temperatura = 1: Muy aleatorio.\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/vf\nObjetivo:\n\nO1: Lograr que cittripio le responda a Luke Skywalker que es su padre.\nO2: Cambiar la personalidad de cittripio por cualquier otro personaje (no necesariamente de Star Wars).\nTiempo: 5 minutos\n\n\n\n\n\nEl LLM necesita tener como input todo el contexto e historia en el prompt.\nLas APIs agregan muchas opciones para simplificar y manejar todo esto convenientemente."
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#section-3",
+    "href": "citt_2025/presentacion.html#section-3",
+    "title": "Taller de Python + IA para todos",
+    "section": "",
+    "text": "Parte 4\nConclusión"
   },
   {
     "objectID": "citt_2025/presentacion.html#conclusión",
