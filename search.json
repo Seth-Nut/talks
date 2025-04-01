@@ -1295,10 +1295,10 @@
     "text": "SI presten atención al hombre tras la cortina"
   },
   {
-    "objectID": "citt_2025/presentacion.html#parte-1",
-    "href": "citt_2025/presentacion.html#parte-1",
+    "objectID": "citt_2025/presentacion.html#section",
+    "href": "citt_2025/presentacion.html#section",
     "title": "Taller de Python + IA para todos",
-    "section": "Parte 1",
+    "section": "",
     "text": "Parte 1\nLa ilusión de la continuidad"
   },
   {
@@ -1309,18 +1309,25 @@
     "text": "Desafío\n¿Qué contiene la siguiente cadena de bits?\n00000000 00101010"
   },
   {
-    "objectID": "citt_2025/presentacion.html#moraleja-de-parte-1",
-    "href": "citt_2025/presentacion.html#moraleja-de-parte-1",
+    "objectID": "citt_2025/presentacion.html#qué-aprendimos",
+    "href": "citt_2025/presentacion.html#qué-aprendimos",
     "title": "Taller de Python + IA para todos",
-    "section": "Moraleja de Parte 1",
-    "text": "Moraleja de Parte 1\n\nNinguna representación en el computador es perfecta.\nLLMs no son perfectos, pero no necesitamos que lo sean."
+    "section": "¿Qué aprendimos?",
+    "text": "¿Qué aprendimos?\n\nNinguna representación en el computador es perfecta.\nLos LLMs tampoco lo son… ¡y no tienen que serlo!"
   },
   {
-    "objectID": "citt_2025/presentacion.html#parte-2",
-    "href": "citt_2025/presentacion.html#parte-2",
+    "objectID": "citt_2025/presentacion.html#section-1",
+    "href": "citt_2025/presentacion.html#section-1",
     "title": "Taller de Python + IA para todos",
-    "section": "Parte 2",
+    "section": "",
     "text": "Parte 2\nEl computador parlanchín"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#cómo-representar-una-palabra",
+    "href": "citt_2025/presentacion.html#cómo-representar-una-palabra",
+    "title": "Taller de Python + IA para todos",
+    "section": "¿Cómo representar una palabra?",
+    "text": "¿Cómo representar una palabra?"
   },
   {
     "objectID": "citt_2025/presentacion.html#representación-textual",
@@ -1334,69 +1341,69 @@
     "href": "citt_2025/presentacion.html#representación-semántica",
     "title": "Taller de Python + IA para todos",
     "section": "Representación semántica",
-    "text": "Representación semántica\nSemántica: relativo al significado de las palabras.\nSi quieres que el computador pueda interpretar el sentido de cada palabra, es necesario almacenar cada palabra como un todo. No puede descomponerse en sus letras.\nNecesitamos una mejor REPRESENTACIÓN."
+    "text": "Representación semántica\n\n\n\n\nSemántica significa el sentido o significado de las palabras.\nNecesitamos guardarla como un todo o dividirla en partes con sentido (tokens)."
   },
   {
     "objectID": "citt_2025/presentacion.html#actividad-2.1",
     "href": "citt_2025/presentacion.html#actividad-2.1",
     "title": "Taller de Python + IA para todos",
     "section": "Actividad 2.1",
-    "text": "Actividad 2.1\n\nActividad: Ir a https://platform.openai.com/tokenizer\nObjetivo: Evaluar distintos textos, en distintos idiomas.\n\n\nEjemplo 1Ejemplo 2\n\n\nEjemplo 1: La informática,​ también llamada computación, es el área de la ciencia que se encarga de estudiar la administración de métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital.\n\n\nEjemplo 2: Computing is any goal-oriented activity requiring, benefiting from, or creating computing machinery. It includes the study and experimentation of algorithmic processes, and the development of both hardware and software. Computing has scientific, engineering, mathematical, technological, and social aspects."
+    "text": "Actividad 2.1\n\nActividad: Ir a https://platform.openai.com/tokenizer\nObjetivo: Evaluar distintos textos, en distintos idiomas.\n\n\nEjemplo 1Ejemplo 2\n\n\nEspañol: La informática,​ también llamada computación, es el área de la ciencia que se encarga de estudiar la administración de métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital.\n\n\nInglés: Computing is any goal-oriented activity requiring, benefiting from, or creating computing machinery. It includes the study and experimentation of algorithmic processes, and the development of both hardware and software. Computing has scientific, engineering, mathematical, technological, and social aspects."
   },
   {
-    "objectID": "citt_2025/presentacion.html#aprendizajes-de-actividad-2.1",
-    "href": "citt_2025/presentacion.html#aprendizajes-de-actividad-2.1",
+    "objectID": "citt_2025/presentacion.html#aprendizajes",
+    "href": "citt_2025/presentacion.html#aprendizajes",
     "title": "Taller de Python + IA para todos",
-    "section": "Aprendizajes de Actividad 2.1",
-    "text": "Aprendizajes de Actividad 2.1\n\nPalabra != Token\nCada token tiene un identificador único\nEn inglés, 100 tokens ~= 75 palabras.\n2 palabras pueden ser idénticas pero tener distinto token"
+    "section": "💡 Aprendizajes",
+    "text": "💡 Aprendizajes\n\nPalabra ≠ Token\nCada token tiene un ID único\n\nEn inglés, 100 tokens ≈ 75 palabras\n\nDos palabras iguales pueden tener tokens distintos, según el contexto"
   },
   {
-    "objectID": "citt_2025/presentacion.html#llm",
-    "href": "citt_2025/presentacion.html#llm",
+    "objectID": "citt_2025/presentacion.html#llm-large-language-model",
+    "href": "citt_2025/presentacion.html#llm-large-language-model",
     "title": "Taller de Python + IA para todos",
-    "section": "¿LLM?",
-    "text": "¿LLM?\nLLM = Large Language Model = Grandes Modelos de Lenguaje"
+    "section": "LLM = Large Language Model",
+    "text": "LLM = Large Language Model"
   },
   {
     "objectID": "citt_2025/presentacion.html#diagrama-técnico-de-un-llm",
     "href": "citt_2025/presentacion.html#diagrama-técnico-de-un-llm",
     "title": "Taller de Python + IA para todos",
     "section": "Diagrama técnico de un LLM",
-    "text": "Diagrama técnico de un LLM\nDiagrama de funcionamiento de un LLM que se filtró de OpenAI:\n¡¡¡No difundir!!!"
+    "text": "Diagrama técnico de un LLM"
   },
   {
     "objectID": "citt_2025/presentacion.html#actividad-2.2",
     "href": "citt_2025/presentacion.html#actividad-2.2",
     "title": "Taller de Python + IA para todos",
     "section": "Actividad 2.2",
-    "text": "Actividad 2.2\n\nActividad: Ir a https://huggingface.co/spaces/alonsosilva/NextTokenPrediction\nObjetivo: Observar la lista de token que se muestran como posible continuación del texto.\nTiempo: 5 minutos"
+    "text": "Actividad 2.2\n\nActividad: Ir a https://huggingface.co/spaces/alonsosilva/NextTokenPrediction\nObjetivo: Observar la lista de token que se muestran como posible continuación del texto."
   },
   {
-    "objectID": "citt_2025/presentacion.html#aprendizajes-de-actividad-2.1-1",
-    "href": "citt_2025/presentacion.html#aprendizajes-de-actividad-2.1-1",
+    "objectID": "citt_2025/presentacion.html#aprendizajes-1",
+    "href": "citt_2025/presentacion.html#aprendizajes-1",
     "title": "Taller de Python + IA para todos",
-    "section": "Aprendizajes de Actividad 2.1",
-    "text": "Aprendizajes de Actividad 2.1\n\nEl LLM no reflexiona sobre la próxima palabra.\nEl LLM sugiere los tokens que estadísticamente son más probables.\nSe predice token a token. No hay paralelismo, no se puede predecir el siguiente token mientras los anteriores no se han predicho. Es super secuencial.\nEl LLM no tiene memoria. Siempre empieza a predecir desde el mismo estado inicial.\n\n\nComparar con una multiplicación de matrices. La matriz no recuerda que ya hizo multiplicaciones antes."
+    "section": "💡 Aprendizajes",
+    "text": "💡 Aprendizajes\n\nEl LLM no reflexiona, solo predice el token más probable.\n\nLa predicción es secuencial, token por token.\n\nNo tiene memoria: siempre parte desde cero.\n\n\nComparar con una multiplicación de matrices. La matriz no recuerda que ya hizo multiplicaciones antes."
   },
   {
     "objectID": "citt_2025/presentacion.html#el-negocio-de-los-llms",
     "href": "citt_2025/presentacion.html#el-negocio-de-los-llms",
     "title": "Taller de Python + IA para todos",
     "section": "El negocio de los LLMs",
-    "text": "El negocio de los LLMs\n\nLos LLMs hoy en día tienen billones de parámetros: 1,000,000,000,000\nCada parámetro se determina en un proceso de entrenamiento basado en enormes conjuntos de texto (esencialmente TODO el internet y libros escritos).\nEntrenar una LLM requiere muchas horas de uso de tarjetas gráficas (GPUs).\n\nEsto significa que un LLM open source puede descargarse (son bits), y ejecutarse localmente - si tu hardware lo permite."
+    "text": "El negocio de los LLMs\n\n\n\n\nLos LLMs tienen billones de parámetros.\n\nSe entrenan con textos masivos (internet, libros, etc.).\n\nRequieren mucho poder computacional (GPUs por horas)."
   },
   {
     "objectID": "citt_2025/presentacion.html#el-negocio-de-los-llms-1",
     "href": "citt_2025/presentacion.html#el-negocio-de-los-llms-1",
     "title": "Taller de Python + IA para todos",
     "section": "El negocio de los LLMs",
-    "text": "El negocio de los LLMs\nNo existe solo chatGPT (OpenAI): todos quieren un pedazo de la torta:\n\n\nLos de pago:\n\nGPT-4 (OpenAI)\nGemini (Google)\nClaude (Anthropic)\n…\n\n\nLos de código abierto:\n\nLlama (Meta)\nQwen (Baidu)\nDeepSeek (China)\n…\n\n\nY están quienes no desarrollan pero entregan LLM como un servicio: Amazon (Bedrock), OpenRouter, etc."
+    "text": "El negocio de los LLMs\nNo existe solo chatGPT (OpenAI): todos quieren un pedazo de la torta:\n\n\nLos de pago:\n\nGPT-4 (OpenAI)\nGemini (Google)\nClaude (Anthropic)\n…\n\n\nLos de código abierto:\n\nLlama (Meta)\nQwen (Baidu)\nDeepSeek (China)\n…"
   },
   {
-    "objectID": "citt_2025/presentacion.html#parte-3",
-    "href": "citt_2025/presentacion.html#parte-3",
+    "objectID": "citt_2025/presentacion.html#section-2",
+    "href": "citt_2025/presentacion.html#section-2",
     "title": "Taller de Python + IA para todos",
-    "section": "Parte 3",
+    "section": "",
     "text": "Parte 3\n¡Hazlo tu mismo!"
   },
   {
@@ -1404,28 +1411,28 @@
     "href": "citt_2025/presentacion.html#actividad-1",
     "title": "Taller de Python + IA para todos",
     "section": "Actividad 1",
-    "text": "Actividad 1\n\nTeoríaActividadAprendizajes\n\n\n¿Cómo podemos emular chatGPT?\n\n\nEjecutar localmente LLM:\n\nConfiguración compleja\nHardware costoso\n\n\nConsumir una API de LLM\n\nSimple\nPagar lo que consumes\nMultiples proveedores y alternativas\n\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/\nObjetivo: Lograr que el bot responda “con personalidad”\nTiempo: 5 minutos\n\n\n\n\nEl LLM responde en función del prompt.\nEl prompt puede pedir cualquier cosa."
+    "text": "Actividad 1\n\n🧠 Teoría🛠️ Actividad💡 Aprendizajes\n\n\n¿Cómo podemos emular chatGPT?\n\n\nEjecutar localmente LLM:\n\nConfiguración compleja\nHardware costoso\n\n\nConsumir una API de LLM\n\nSimple\nPagar lo que consumes\nMultiples proveedores y alternativas\n\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/v1\nObjetivo: Lograr que el bot responda “una pregunta”\n\nTiempo: 5 minutos\n\n\n\n\n\nEl LLM responde en función del prompt.\nEl prompt puede pedir cualquier cosa.\nPrompts cortos entregan resultados muy variables."
   },
   {
     "objectID": "citt_2025/presentacion.html#actividad-2",
     "href": "citt_2025/presentacion.html#actividad-2",
     "title": "Taller de Python + IA para todos",
     "section": "Actividad 2",
-    "text": "Actividad 2\n\nActividadAprendizajes\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/v2\nObjetivo: Hacer 2 preguntas:\n\n¿Qué animal da leche y dice mu?\n¿Que come ese animal?\n\n¿El LLM tiene memoria?\nTiempo: 5 minutos\n\n\n\n\nSeparar en contexto y pregunta permite imponer una “personalidad” o ciertas características.\nEl chatbot no tiene memoria."
+    "text": "Actividad 2\n\n🧠 Teoría🛠️ Actividad💡 Aprendizajes\n\n\n\nLos LLMs no tienen personalidad propia, pero tú puedes definir cómo deben comportarse mediante el prompt.\nEsto se logra describiendo explícitamente el rol, el tono y el estilo que deseas que adopte el modelo.\n\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/vdos\nObjetivo:\n\nO1: Hacer 2 preguntas relacionadas.\nO2: Cambiar la personalidad del bot.\n\n¿El LLM tiene memoria?\n\nTiempo: 5 minutos\n\n\n\n\n\nSeparar en contexto y pregunta permite imponer una “personalidad” o ciertas características.\nUn LLM no tiene memoria."
   },
   {
     "objectID": "citt_2025/presentacion.html#actividad-3-1",
     "href": "citt_2025/presentacion.html#actividad-3-1",
     "title": "Taller de Python + IA para todos",
     "section": "Actividad 3",
-    "text": "Actividad 3\n\nTeoría ITeoría IIActividadAprendizajes\n\n\n¿Porqué chatGPT si tiene memoria?\nMuy simple: Pasemosle la historia de la conversación en cada prompt.\n\nOpción 1: Pasarle todo el texto.\nOpción 2: Pasarle un resumen de la conversación.\n\n\n\n¿Qué es la temperatura?\n\nEs un parámetro que controla que tan aleatoria es la elección del siguiente token.\nTemperatura = 0: Muy determinista.\nTemperatura = 1: Muy aleatorio.\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/v2\nObjetivo 1: Lograr que cittripio le responda a Luke Skywalker que es su padre.\nObjetivo 2: Cambiar la personalidad de cittripio por cualquier otro personaje (no necesariamente de Star Wars).\nTiempo: 5 minutos\n\n\n\n\nEl LLM necesita tener como input todo el contexto e historia en el prompt.\nLas APIs agregan muchas opciones para simplificar y manejar todo esto convenientemente."
+    "text": "Actividad 3\n\n🧠 Teoría I🧠 Teoría II🛠️ Actividad💡 Aprendizajes\n\n\n¿Porqué chatGPT si tiene memoria?\nMuy simple: Pasemosle la historia de la conversación en cada prompt.\n\nOpción 1: Pasarle todo el texto.\nOpción 2: Pasarle un resumen de la conversación.\n\n\n\n\n¿Qué es la temperatura?\n\nEs un parámetro que controla que tan aleatoria es la elección del siguiente token.\nTemperatura = 0: Muy determinista.\nTemperatura = 1: Muy aleatorio.\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/vf\nObjetivo:\n\nO1: Lograr que cittripio le responda a Luke Skywalker que es su padre.\nO2: Cambiar la personalidad de cittripio por cualquier otro personaje (no necesariamente de Star Wars).\nTiempo: 5 minutos\n\n\n\n\n\nEl LLM necesita tener como input todo el contexto e historia en el prompt.\nLas APIs agregan muchas opciones para simplificar y manejar todo esto convenientemente."
   },
   {
     "objectID": "citt_2025/presentacion.html#conclusión",
     "href": "citt_2025/presentacion.html#conclusión",
     "title": "Taller de Python + IA para todos",
-    "section": "Conclusión",
-    "text": "Conclusión\n\nLLMs no son magia: es tecnología.\nCualquiera puede comenzar a crear soluciones con LLMs.\nConocer como funcionan LLMs permite usarlos mejor.\nExisten muchos recursos gratuitos para aprender y jugar."
+    "section": "🚀 Conclusión",
+    "text": "🚀 Conclusión\n✅ LLMs no son magia: es tecnología.\n✅ Cualquiera puede comenzar a crear soluciones con LLMs.\n✅ Conocer como funcionan LLMs permite usarlos mejor.\n✅ Existen muchos recursos gratuitos para aprender y jugar."
   },
   {
     "objectID": "citt_2025/presentacion.html#gracias-por-participar",
