@@ -26,6 +26,8 @@ format:
     logo: images/citt.png
 ---
 
+
+
 ## ¿Qué dicen los diarios de la IA?
 
 ![](images/alarmismo.png){fig-align="center" .fragment}
@@ -46,9 +48,14 @@ Toda tecnología suficientemente avanzada parece magia.
 
 ---
 
-## Parte 1
 
-La ilusión de la continuidad
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[ Parte 1]{style="font-size: 1em"}
+
+[La ilusión de la continuidad]{style="font-size: 1.5em"}
+:::
 
 ---
 
@@ -104,12 +111,22 @@ La ilusión de la continuidad
 
 ---
 
-En el computador **TODO** se representa con bits.
 
-`representación` `=` `bits` `+` `contexto` 
+::: columns
+::: {.column width="60%"}
+<br><br>
 
-[Eso significa que todo es discreto.  
-No existe ni el infinito ni lo continuo.]{.fragment}
+* **TODO** en el computador son bits
+* `representación` `=` `bits` `+` `contexto` 
+
+:::
+
+::: {.column .fragment width="40%"}
+![](images/context.png){fig-align="center"}
+:::
+:::
+
+
 
 ---
 
@@ -158,20 +175,29 @@ No necesitamos la realidad, necesitamos una buena aproximación. Suficiente para
 
 ---
 
-## Moraleja de Parte 1
+## ¿Qué aprendimos?
 
 * Ninguna representación en el computador es perfecta.
-* LLMs no son perfectos, pero no necesitamos que lo sean.
+* Los LLMs tampoco lo son… ¡y no tienen que serlo!
 
 ---
 
-## Parte 2
 
-El computador parlanchín
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[ Parte 2]{style="font-size: 1em"}
+
+[El computador parlanchín]{style="font-size: 1.5em"}
+:::
+
 
 ---
 
-¿Cómo representar una palabra?
+## ¿Cómo representar una palabra?
+
+![](images/representacion.png){fig-align="center" .fragment}
+
 
 ---
 
@@ -203,11 +229,21 @@ UTF-8
 
 ## Representación semántica
 
-Semántica: relativo al **significado** de las palabras.
+::: columns
+::: {.column width="60%"}
+<br>
 
-Si quieres que el computador pueda interpretar el sentido de cada palabra, es necesario almacenar cada palabra como un todo. No puede descomponerse en sus letras.
+* **Semántica** significa **el sentido o significado** de las palabras.
+* Necesitamos guardarla como un **todo** o dividirla en **partes con sentido** (tokens).
 
-[Necesitamos una mejor REPRESENTACIÓN.]{.fragment}
+:::
+
+::: {.column .fragment width="40%"}
+![](images/semantica.jpg){fig-align="center"}
+:::
+:::
+
+
 
 ---
 
@@ -219,10 +255,10 @@ Si quieres que el computador pueda interpretar el sentido de cada palabra, es ne
 ::: panel-tabset
 ## Ejemplo 1
 
-**Ejemplo 1**: *La informática,​ también llamada computación, es el área de la ciencia que se encarga de estudiar la administración de métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital.*
+Español: [*La informática,​ también llamada computación, es el área de la ciencia que se encarga de estudiar la administración de métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital.*]{style="font-size: 24px;"}
 
 ## Ejemplo 2
-**Ejemplo 2**: *Computing is any goal-oriented activity requiring, benefiting from, or creating computing machinery. It includes the study and experimentation of algorithmic processes, and the development of both hardware and software. Computing has scientific, engineering, mathematical, technological, and social aspects.*
+Inglés: [*Computing is any goal-oriented activity requiring, benefiting from, or creating computing machinery. It includes the study and experimentation of algorithmic processes, and the development of both hardware and software. Computing has scientific, engineering, mathematical, technological, and social aspects.*]{style="font-size: 24px;"}
 :::
 
 
@@ -230,45 +266,56 @@ Si quieres que el computador pueda interpretar el sentido de cada palabra, es ne
 
 ---
 
-## Aprendizajes de Actividad 2.1
+## 💡 Aprendizajes 
 
-* Palabra != Token
-* Cada token tiene un identificador único
-* En inglés,  100 tokens ~= 75 palabras. 
-* 2 palabras pueden ser idénticas pero tener distinto token
+
+
+- Palabra ≠ Token
+- Cada **token** tiene un **ID único**  
+- En inglés, **100 tokens ≈ 75 palabras**  
+- Dos palabras **iguales** pueden tener **tokens distintos**, según el contexto
+
 
 ---
 
-## ¿LLM?
+## LLM = Large Language Model 
 
-LLM = Large Language Model = Grandes Modelos de Lenguaje
+
+![](https://cdn-lfs-us-1.hf.co/repos/45/f4/45f48d5b3577034b76ee728dfe60afca3d0aa70790fda3e706eeb9276d8d5331/777db24e5844d6a63742e444cabbd57147412f73154e1a877e519a49c0612edc?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27transformer.jpg%3B+filename%3D%22transformer.jpg%22%3B&response-content-type=image%2Fjpeg&Expires=1743476159&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzQ3NjE1OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzQ1L2Y0LzQ1ZjQ4ZDViMzU3NzAzNGI3NmVlNzI4ZGZlNjBhZmNhM2QwYWE3MDc5MGZkYTNlNzA2ZWViOTI3NmQ4ZDUzMzEvNzc3ZGIyNGU1ODQ0ZDZhNjM3NDJlNDQ0Y2FiYmQ1NzE0NzQxMmY3MzE1NGUxYTg3N2U1MTlhNDljMDYxMmVkYz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=HRZcJrd5BJCifYvgZVxzRm6OKnFLbyAYdieV4G4TpIfBIZkXf1NOI3uKow1%7EGbRsj8Mq1ZgNzMIGNC9nmW0xZ8m7Jypdn-25z%7EYyTlnPB4OoZxSitVozMeexhJxyLCMrYK7887fn%7EezQ2azB2sPc29rGNs%7EkwlyRxtOl%7EaJYVGjgqkCjxvbnvzYpO105ndIPd2N8KtadABQQRS0ozCiv4ACa-ARLJFKinLqq0oWZSFcsah%7EyyDyO5c6FtK-yM775sj4JDZ92LkiQztDzqNbK%7EUcmHxXAG3hT35HTjVe96vg4-oD8KvlqaGKCnEY7KgT9Y7U6gA-FNuHKLuAHNWmfuQ__&Key-Pair-Id=K24J24Z295AEI9){fig-align="center" .fragment width="85%"}
+
+
 
 ---
 
 ## Diagrama técnico de un LLM
 
-Diagrama de funcionamiento de un LLM que se filtró de OpenAI:
+::: r-stack
+<br>
 
-[¡¡¡No difundir!!!]{.fragment}
 
-![](images/LLM_words.gif){fig-align="center" width=150% .fragment}
+
+![](https://cdn-lfs-us-1.hf.co/repos/45/f4/45f48d5b3577034b76ee728dfe60afca3d0aa70790fda3e706eeb9276d8d5331/53a020cfddcd2f7b93c048b98335f38535a398caf2c7b3c97a7c1c1bcf96e13d?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27AutoregressionSchema.gif%3B+filename%3D%22AutoregressionSchema.gif%22%3B&response-content-type=image%2Fgif&Expires=1743475984&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzQ3NTk4NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzQ1L2Y0LzQ1ZjQ4ZDViMzU3NzAzNGI3NmVlNzI4ZGZlNjBhZmNhM2QwYWE3MDc5MGZkYTNlNzA2ZWViOTI3NmQ4ZDUzMzEvNTNhMDIwY2ZkZGNkMmY3YjkzYzA0OGI5ODMzNWYzODUzNWEzOThjYWYyYzdiM2M5N2E3YzFjMWJjZjk2ZTEzZD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=GncgZCWIhS-O4pcyvmdtRbhYCCdxC1B2b5hQznAhykioaKhuimm7kD8t1%7EufxPbTBPNVrXecWpBDTT5Z%7Ewe3qxc7zGUJPZmDZdCg0faC7fAHLV0FrPDYPc3Q%7EbHKzgZB7wHD3nPaejixE9es-B-zL7Pk0zUlWC2VnLFQ0IWCd-HuDwLamxbJ2cZyrgNRO4ivmIQAxR9VIECqMilGoSzzA9E4MH-k4qOFb33y6kJxcQLf5Z2K8URDapjVZO%7EC3vvtpir3CfX70RzzpPyn9xk4xFyqJA3enUO3lYlknnegST6r5LNbBJLpAoBj5NX7DMk8UxsQ7J0NzvQPwDFv-hR1Qg__&Key-Pair-Id=K24J24Z295AEI9){.fragment .fade-in-then-out fig-align="center"}
+
+![](https://cdn-lfs-us-1.hf.co/repos/45/f4/45f48d5b3577034b76ee728dfe60afca3d0aa70790fda3e706eeb9276d8d5331/51160fb55461970933039680c9a5ab21a35d0b42f3383ab2bd52a47d63fcb40d?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27DecodingFinal.gif%3B+filename%3D%22DecodingFinal.gif%22%3B&response-content-type=image%2Fgif&Expires=1743475986&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzQ3NTk4Nn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzQ1L2Y0LzQ1ZjQ4ZDViMzU3NzAzNGI3NmVlNzI4ZGZlNjBhZmNhM2QwYWE3MDc5MGZkYTNlNzA2ZWViOTI3NmQ4ZDUzMzEvNTExNjBmYjU1NDYxOTcwOTMzMDM5NjgwYzlhNWFiMjFhMzVkMGI0MmYzMzgzYWIyYmQ1MmE0N2Q2M2ZjYjQwZD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=Jc10dNbK%7E2mAWNa%7E7xShQ6qMCcgbfdsM4RWwNlbRwmCDWKGkZikRYRf%7EzBn-QlgbIxhEfnImUViHMlKB48UNSEAksJBATLkUUpRIeccTzZtRnZ95Amtp3w%7EpK3jbD1lyxAUmFC%7EZ0DzuBb2oY8IjIX35CJDiadjiYtyDsCunIhTh-oc7PO2KJwwPlV0IvH5h77Ju-5gmrnB14dBG8njqaJ8Uxy0NWFPiEHUbTve82Ion7dFfxiRbOso1hEmU0cNZl6i3QpfaE4Xb2lJmYewQ9Qr-BhyI6AzEbZZ%7EoncZ1LsBqnOe4WGCRVs123V6tJ4GAj73YssMSqhi2-i%7EuZTUJA__&Key-Pair-Id=K24J24Z295AEI9){.fragment fig-align="center"}
+
+
+:::
 
 ---
 
 ## Actividad 2.2
 
 * Actividad: Ir a [https://huggingface.co/spaces/alonsosilva/NextTokenPrediction](https://huggingface.co/spaces/alonsosilva/NextTokenPrediction)
-* Objetivo: Observar la lista de token que se muestran como posible continuación del texto.
-* Tiempo: 5 minutos
+* **Objetivo**: Observar la lista de token que se muestran como posible continuación del texto.
+
 
 ---
 
-## Aprendizajes de Actividad 2.1
+## 💡 Aprendizajes
 
-* El LLM no reflexiona sobre la próxima palabra. 
-* El LLM sugiere los tokens que estadísticamente son más probables.
-* Se predice token a token. No hay paralelismo, no se puede predecir el siguiente token mientras los anteriores no se han predicho. Es super secuencial.
-* El LLM no tiene memoria. Siempre empieza a predecir desde el mismo estado inicial.
+- El LLM **no reflexiona**, solo predice el **token más probable**.  
+- La predicción es **secuencial**, token por token.  
+- No tiene **memoria**: siempre parte desde cero.
 
 ::: {.notes}
 Comparar con una multiplicación de matrices. La matriz no recuerda que ya hizo multiplicaciones antes.
@@ -278,11 +325,22 @@ Comparar con una multiplicación de matrices. La matriz no recuerda que ya hizo 
 
 ## El negocio de los LLMs
 
-* Los LLMs hoy en día tienen billones de parámetros: 1,000,000,000,000
-* Cada parámetro se determina en un proceso de entrenamiento basado en enormes conjuntos de texto (esencialmente TODO el internet y libros escritos).
-* Entrenar una LLM requiere muchas horas de uso de tarjetas gráficas (GPUs).
+::: columns
+::: {.column width="60%"}
+<br>
 
-Esto significa que un LLM open source puede descargarse (son bits), y ejecutarse localmente - si tu hardware lo permite.
+- Los LLMs tienen **billones de parámetros**.  
+- Se entrenan con **textos masivos** (internet, libros, etc.).  
+- Requieren **mucho poder computacional** (GPUs por horas).
+
+:::
+
+::: {.column .fragment width="40%"}
+![](images/gpu.png){fig-align="center"}
+:::
+:::
+
+
 
 ---
 
@@ -292,7 +350,7 @@ No existe solo chatGPT (OpenAI): todos quieren un pedazo de la torta:
 
 ::: columns
 ::: {.column width="50%" .fragment .center}
-Los de pago:
+**Los de pago:**
 
 * GPT-4 (OpenAI)
 * Gemini (Google)
@@ -300,7 +358,7 @@ Los de pago:
 * ...
 :::
 ::: {.column width="50%" .fragment .center}
-Los de código abierto:
+**Los de código abierto:**
 
 * Llama (Meta)
 * Qwen (Baidu)
@@ -309,13 +367,19 @@ Los de código abierto:
 :::
 :::
 
-[Y están quienes no desarrollan pero entregan LLM como un servicio: Amazon (Bedrock), OpenRouter, etc.]{.fragment}
 
 ---
 
-## Parte 3
 
-¡Hazlo tu mismo!
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[  Parte 3]{style="font-size: 1em"}
+
+[¡Hazlo tu mismo!]{style="font-size: 1.5em"}
+:::
+
+
 
 ---
 
@@ -323,7 +387,7 @@ Los de código abierto:
 
 
 ::: panel-tabset
-## Teoría
+## 🧠 Teoría
 
 **¿Cómo podemos emular chatGPT?**
 
@@ -343,16 +407,17 @@ Consumir una API de LLM
 :::
 :::
 
-## Actividad
+## 🛠️ Actividad
 
-* Actividad: Ir a [https://cittripio.streamlit.app/](https://cittripio.streamlit.app/)
-* Objetivo: Lograr que el bot responda "con personalidad"
-* Tiempo: 5 minutos
+* Actividad: Ir a [https://cittripio.streamlit.app/v1](https://cittripio.streamlit.app/v1)
+* Objetivo: Lograr que el bot responda "una pregunta"
+  * Tiempo: 5 minutos
 
-## Aprendizajes
+## 💡 Aprendizajes
 
 * El LLM responde en función del prompt.
 * El prompt puede pedir cualquier cosa.
+* Prompts cortos entregan resultados muy variables.
 
 :::
 
@@ -364,19 +429,26 @@ Consumir una API de LLM
 
 ::: panel-tabset
 
-## Actividad
+## 🧠 Teoría
 
-* Actividad: Ir a [https://cittripio.streamlit.app/v2](https://cittripio.streamlit.app/v2)
-* Objetivo: Hacer 2 preguntas:
-  * ¿Qué animal da leche y dice mu? 
-  * ¿Que come ese animal?
+* Los LLMs no tienen personalidad propia, pero tú puedes definir cómo deben comportarse mediante el prompt. 
+* Esto se logra describiendo explícitamente el rol, el tono y el estilo que deseas que adopte el modelo.
+
+<br>
+
+## 🛠️ Actividad
+
+* Actividad: Ir a [https://cittripio.streamlit.app/vdos](https://cittripio.streamlit.app/vdos)
+* **Objetivo**: 
+  * O1: Hacer 2 preguntas relacionadas.
+  * O2: Cambiar la personalidad del bot.
 * ¿El LLM tiene memoria?
-* Tiempo: 5 minutos
+  * Tiempo: 5 minutos
 
-## Aprendizajes
+## 💡 Aprendizajes
 
-* Separar en contexto y pregunta permite imponer una "personalidad" o ciertas características.
-* El chatbot no tiene memoria.
+* Separar en contexto y pregunta permite imponer una “personalidad” o ciertas características.
+* Un LLM no tiene memoria.
 
 :::
 
@@ -388,7 +460,7 @@ Consumir una API de LLM
 
 ::: panel-tabset
 
-## Teoría I
+## 🧠 Teoría I
 
 **¿Porqué chatGPT si tiene memoria?**
 
@@ -397,7 +469,9 @@ Consumir una API de LLM
 - Opción 1: Pasarle todo el texto.
 - Opción 2: Pasarle un resumen de la conversación.
 
-## Teoría II
+<br>
+
+## 🧠 Teoría II
 
 **¿Qué es la temperatura?** 
 
@@ -405,14 +479,15 @@ Consumir una API de LLM
 * Temperatura = 0: Muy determinista.
 * Temperatura = 1: Muy aleatorio.
 
-## Actividad 
+## 🛠️ Actividad 
 
-* Actividad: Ir a [https://cittripio.streamlit.app/v2](https://cittripio.streamlit.app/v2)
-* Objetivo 1: Lograr que cittripio le responda a Luke Skywalker que es su padre.
-* Objetivo 2: Cambiar la personalidad de cittripio por cualquier otro personaje (no necesariamente de Star Wars).
-* Tiempo: 5 minutos
+* Actividad: Ir a [https://cittripio.streamlit.app/vf](https://cittripio.streamlit.app/vf)
+* **Objetivo**:
+  * O1: Lograr que cittripio le responda a Luke Skywalker que es su padre.
+  * O2: Cambiar la personalidad de cittripio por cualquier otro personaje (no necesariamente de Star Wars).
+  * Tiempo: 5 minutos
 
-## Aprendizajes 
+## 💡 Aprendizajes 
 
 * El LLM necesita tener como input todo el contexto e historia en el prompt.
 * Las APIs agregan muchas opciones para simplificar y manejar todo esto convenientemente.
@@ -423,12 +498,18 @@ Consumir una API de LLM
 
 ---
 
-## Conclusión
+## 🚀 Conclusión
 
-* LLMs no son magia: es tecnología.
-* Cualquiera puede comenzar a crear soluciones con LLMs.
-* Conocer como funcionan LLMs permite usarlos mejor.
-* Existen muchos recursos gratuitos para aprender y jugar.
+
+✅ LLMs no son magia: es tecnología.
+
+✅ Cualquiera puede comenzar a crear soluciones con LLMs.
+
+✅ Conocer como funcionan LLMs permite usarlos mejor.
+
+✅ Existen muchos recursos gratuitos para aprender y jugar.
+
+<br><br>
 
 
 
@@ -461,6 +542,7 @@ Consumir una API de LLM
 .reveal .slide-logo {
    max-height: 2em !important;
 }
+
 
 
 </style>
