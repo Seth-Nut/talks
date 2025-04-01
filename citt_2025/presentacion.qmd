@@ -26,19 +26,17 @@ format:
     logo: images/citt.png
 ---
 
-
-
 ## ¿Qué dicen los diarios de la IA?
 
-![](images/alarmismo.png){fig-align="center" .fragment}
+![](images/alarmismo.png){.fragment fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 ## SI presten atención al hombre tras la cortina
 
 {{< video videos/tras_la_cortina.mp4 >}}
 
----
+------------------------------------------------------------------------
 
 ::: {.callout-tip title="Idea"}
 Toda tecnología suficientemente avanzada parece magia.
@@ -46,211 +44,180 @@ Toda tecnología suficientemente avanzada parece magia.
 [**Arthur C. Clarke**]{style="text-align: right;"}
 :::
 
----
-
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[ Parte 1]{style="font-size: 1em"}
+[Parte 1]{style="font-size: 1em"}
 
 [La ilusión de la continuidad]{style="font-size: 1.5em"}
 :::
 
----
+------------------------------------------------------------------------
 
 ## Desafío
 
 ¿Qué contiene la siguiente cadena de bits?
 
-[00000000]{style="font-size: 80px; margin: 0px; color: white"}
-[00101010]{style="font-size: 80px; margin: 0px;"}
+[00000000]{style="font-size: 80px; margin: 0px; color: white"} [00101010]{style="font-size: 80px; margin: 0px;"}
 
----
+------------------------------------------------------------------------
 
-[00000000]{style="font-size: 80px; margin: 0px; color: white"}
-[00101010]{style="font-size: 80px; margin: 0px;"}
+[00000000]{style="font-size: 80px; margin: 0px; color: white"} [00101010]{style="font-size: 80px; margin: 0px;"}
 
 [Podría ser el número 42 escrito en binario...]{.fragment}
 
----
+------------------------------------------------------------------------
 
-[00000000]{style="font-size: 80px; margin: 0px; color: white"}
-[00101010]{style="font-size: 80px; margin: 0px;"}
+[00000000]{style="font-size: 80px; margin: 0px; color: white"} [00101010]{style="font-size: 80px; margin: 0px;"}
 
 [Podría ser el carácter `*` en la convención ascii...]{.fragment}
 
----
+------------------------------------------------------------------------
 
-[00000000]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[00101010]{style="font-size: 80px; margin: 0px;"}
-[00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[00000000]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00101010]{style="font-size: 80px; margin: 0px;"} [00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
 
 [Podría ser parte de un número decimal, 0.4523 o $\pi$...]{.fragment}
 
+------------------------------------------------------------------------
 
----
-
-[10000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[00100001]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[01000111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[00001000]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[00101010]{style="font-size: 80px; margin: 0px;"}
-[01000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[11111111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[11001101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[01000111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
-[01110111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+[10000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00100001]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [01000111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00001000]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00101010]{style="font-size: 80px; margin: 0px;"} [01000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [11111111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [11001101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [01000111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [01110111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
 
 [Podría ser parte de un archivo multimedia (video, imagen, audio, etc.)...]{.fragment}
 
----
-
+------------------------------------------------------------------------
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="60%" .fragment}
 <br><br>
 
-* **TODO** en el computador son bits
-* `representación` `=` `bits` `+` `contexto` 
-
+-   **TODO** en el computador son bits
+-   `representación` `=` `bits` `+` `contexto`
 :::
 
-::: {.column .fragment width="40%"}
+::: {.column  width="40%"}
 ![](images/context.png){fig-align="center"}
 :::
 :::
 
-
-
----
+------------------------------------------------------------------------
 
 Alta fidelidad no es continuidad.
 
 ![](code/derivada_5.png){fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 Alta fidelidad no es continuidad.
 
 ![](code/derivada_7.png){fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 Alta fidelidad no es continuidad.
 
 ![](code/derivada_9.png){fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 Alta fidelidad no es continuidad.
 
 ![](code/derivada_11.png){fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 Alta fidelidad no es continuidad.
 
 ![](code/derivada_21.png){fig-align="center"}
 
----
+------------------------------------------------------------------------
 
-Alta fidelidad no es continuidad. [Pero puede ser suficiente...]{.fragment fragment-index=1}
+Alta fidelidad no es continuidad. [Pero puede ser suficiente...]{.fragment fragment-index="1"}
 
 ![](code/derivada_31.png){fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 No necesitamos la realidad, necesitamos una buena aproximación. Suficiente para engañar a los sentidos.
 
-![](images/celuloide.jpg){width=50% fig-align="center" .fragment}
+![](images/celuloide.jpg){.fragment width="50%" fig-align="center"}
 
 [Una película de 24 FPS es suficiente para engañar al ojo humano.]{.fragment}
 
-
----
+------------------------------------------------------------------------
 
 ## ¿Qué aprendimos?
 
-* Ninguna representación en el computador es perfecta.
-* Los LLMs tampoco lo son… ¡y no tienen que serlo!
+-   Ninguna representación en el computador es perfecta.
+-   Los LLMs tampoco lo son… ¡y no tienen que serlo!
 
----
-
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[ Parte 2]{style="font-size: 1em"}
+[Parte 2]{style="font-size: 1em"}
 
 [El computador parlanchín]{style="font-size: 1.5em"}
 :::
 
-
----
+------------------------------------------------------------------------
 
 ## ¿Cómo representar una palabra?
 
-![](images/representacion.png){fig-align="center" .fragment}
+![](images/representacion.png){.fragment fig-align="center"}
 
-
----
+------------------------------------------------------------------------
 
 ## Representación textual
 
 Si solo queremos transcribir texto, basta con representar cada letra con una secuencia de bits, y almacenarla.
 
 ::: columns
-::: {.column style="font-size: 24px;" .fragment .center}
+::: {.column .fragment .center style="font-size: 24px;"}
 ASCII
 
-* 1 byte (8 bits): 128 carácteres posibles
-* 0 (48) ... 9 (57)
-* A (65) ... Z (90)
-* a (97) ... z (122) 
-* Problema: Faltan muchos carácteres: Ñ, ñ, á, é, í, ó, ú, u
+-   1 byte (8 bits): 128 carácteres posibles
+-   0 (48) ... 9 (57)
+-   A (65) ... Z (90)
+-   a (97) ... z (122)
+-   Problema: Faltan muchos carácteres: Ñ, ñ, á, é, í, ó, ú, u
 :::
-::: {.column style="font-size: 24px;" .fragment .center}
+
+::: {.column .fragment .center style="font-size: 24px;"}
 UTF-8
 
-* 1 a 4 bytes (8 a 32 bits)
-* Mantiene ASCII sin cambios
-* Permite representar alfabetos latinos, griego, cirílico, copto, armenio, hebreo, árabe, siríaco, thaana, y n'ko, además de caracteres chinos, japoneses y coreanos. 
-* Incluye emojis 😁, simbolos ✅ y mil cosas más 🗿
+-   1 a 4 bytes (8 a 32 bits)
+-   Mantiene ASCII sin cambios
+-   Permite representar alfabetos latinos, griego, cirílico, copto, armenio, hebreo, árabe, siríaco, thaana, y n'ko, además de caracteres chinos, japoneses y coreanos.
+-   Incluye emojis 😁, simbolos ✅ y mil cosas más 🗿
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ## Representación semántica
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="60%" .fragment}
 <br>
 
-* **Semántica** significa **el sentido o significado** de las palabras.
-* Necesitamos guardarla como un **todo** o dividirla en **partes con sentido** (tokens).
-
+-   **Semántica** significa **el sentido o significado** de las palabras.
+-   Necesitamos guardarla como un **todo** o dividirla en **partes con sentido** (tokens).
 :::
 
-::: {.column .fragment width="40%"}
+::: {.column  width="40%"}
 ![](images/semantica.jpg){fig-align="center"}
 :::
 :::
 
-
-
----
+------------------------------------------------------------------------
 
 ## Actividad 2.1
 
-* Actividad: Ir a [https://platform.openai.com/tokenizer](https://platform.openai.com/tokenizer)
-* Objetivo: Evaluar distintos textos, en distintos idiomas. 
+-   Actividad: Ir a <https://platform.openai.com/tokenizer>
+-   Objetivo: Evaluar distintos textos, en distintos idiomas.
 
 ::: panel-tabset
 ## Ejemplo 1
@@ -258,133 +225,119 @@ UTF-8
 Español: [*La informática,​ también llamada computación, es el área de la ciencia que se encarga de estudiar la administración de métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital.*]{style="font-size: 24px;"}
 
 ## Ejemplo 2
+
 Inglés: [*Computing is any goal-oriented activity requiring, benefiting from, or creating computing machinery. It includes the study and experimentation of algorithmic processes, and the development of both hardware and software. Computing has scientific, engineering, mathematical, technological, and social aspects.*]{style="font-size: 24px;"}
 :::
 
+<br>
 
+------------------------------------------------------------------------
 
+## 💡 Aprendizajes
 
----
+-   Palabra ≠ Token
+-   Cada **token** tiene un **ID único**\
+-   En inglés, **100 tokens ≈ 75 palabras**\
+-   Dos palabras **iguales** pueden tener **tokens distintos**, según el contexto
 
-## 💡 Aprendizajes 
+<br>
 
+------------------------------------------------------------------------
 
+## LLM = Large Language Model
 
-- Palabra ≠ Token
-- Cada **token** tiene un **ID único**  
-- En inglés, **100 tokens ≈ 75 palabras**  
-- Dos palabras **iguales** pueden tener **tokens distintos**, según el contexto
+![](images/llm1.png){.fragment fig-align="center" width="40%"}
 
-
----
-
-## LLM = Large Language Model 
-
-
-![](https://cdn-lfs-us-1.hf.co/repos/45/f4/45f48d5b3577034b76ee728dfe60afca3d0aa70790fda3e706eeb9276d8d5331/777db24e5844d6a63742e444cabbd57147412f73154e1a877e519a49c0612edc?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27transformer.jpg%3B+filename%3D%22transformer.jpg%22%3B&response-content-type=image%2Fjpeg&Expires=1743476159&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzQ3NjE1OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzQ1L2Y0LzQ1ZjQ4ZDViMzU3NzAzNGI3NmVlNzI4ZGZlNjBhZmNhM2QwYWE3MDc5MGZkYTNlNzA2ZWViOTI3NmQ4ZDUzMzEvNzc3ZGIyNGU1ODQ0ZDZhNjM3NDJlNDQ0Y2FiYmQ1NzE0NzQxMmY3MzE1NGUxYTg3N2U1MTlhNDljMDYxMmVkYz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=HRZcJrd5BJCifYvgZVxzRm6OKnFLbyAYdieV4G4TpIfBIZkXf1NOI3uKow1%7EGbRsj8Mq1ZgNzMIGNC9nmW0xZ8m7Jypdn-25z%7EYyTlnPB4OoZxSitVozMeexhJxyLCMrYK7887fn%7EezQ2azB2sPc29rGNs%7EkwlyRxtOl%7EaJYVGjgqkCjxvbnvzYpO105ndIPd2N8KtadABQQRS0ozCiv4ACa-ARLJFKinLqq0oWZSFcsah%7EyyDyO5c6FtK-yM775sj4JDZ92LkiQztDzqNbK%7EUcmHxXAG3hT35HTjVe96vg4-oD8KvlqaGKCnEY7KgT9Y7U6gA-FNuHKLuAHNWmfuQ__&Key-Pair-Id=K24J24Z295AEI9){fig-align="center" .fragment width="85%"}
-
-
-
----
+------------------------------------------------------------------------
 
 ## Diagrama técnico de un LLM
 
 ::: r-stack
 <br>
 
+![](images/gif1.gif){.fragment .fade-in-then-out fig-align="center"}
 
-
-![](https://cdn-lfs-us-1.hf.co/repos/45/f4/45f48d5b3577034b76ee728dfe60afca3d0aa70790fda3e706eeb9276d8d5331/53a020cfddcd2f7b93c048b98335f38535a398caf2c7b3c97a7c1c1bcf96e13d?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27AutoregressionSchema.gif%3B+filename%3D%22AutoregressionSchema.gif%22%3B&response-content-type=image%2Fgif&Expires=1743475984&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzQ3NTk4NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzQ1L2Y0LzQ1ZjQ4ZDViMzU3NzAzNGI3NmVlNzI4ZGZlNjBhZmNhM2QwYWE3MDc5MGZkYTNlNzA2ZWViOTI3NmQ4ZDUzMzEvNTNhMDIwY2ZkZGNkMmY3YjkzYzA0OGI5ODMzNWYzODUzNWEzOThjYWYyYzdiM2M5N2E3YzFjMWJjZjk2ZTEzZD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=GncgZCWIhS-O4pcyvmdtRbhYCCdxC1B2b5hQznAhykioaKhuimm7kD8t1%7EufxPbTBPNVrXecWpBDTT5Z%7Ewe3qxc7zGUJPZmDZdCg0faC7fAHLV0FrPDYPc3Q%7EbHKzgZB7wHD3nPaejixE9es-B-zL7Pk0zUlWC2VnLFQ0IWCd-HuDwLamxbJ2cZyrgNRO4ivmIQAxR9VIECqMilGoSzzA9E4MH-k4qOFb33y6kJxcQLf5Z2K8URDapjVZO%7EC3vvtpir3CfX70RzzpPyn9xk4xFyqJA3enUO3lYlknnegST6r5LNbBJLpAoBj5NX7DMk8UxsQ7J0NzvQPwDFv-hR1Qg__&Key-Pair-Id=K24J24Z295AEI9){.fragment .fade-in-then-out fig-align="center"}
-
-![](https://cdn-lfs-us-1.hf.co/repos/45/f4/45f48d5b3577034b76ee728dfe60afca3d0aa70790fda3e706eeb9276d8d5331/51160fb55461970933039680c9a5ab21a35d0b42f3383ab2bd52a47d63fcb40d?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27DecodingFinal.gif%3B+filename%3D%22DecodingFinal.gif%22%3B&response-content-type=image%2Fgif&Expires=1743475986&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MzQ3NTk4Nn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmhmLmNvL3JlcG9zLzQ1L2Y0LzQ1ZjQ4ZDViMzU3NzAzNGI3NmVlNzI4ZGZlNjBhZmNhM2QwYWE3MDc5MGZkYTNlNzA2ZWViOTI3NmQ4ZDUzMzEvNTExNjBmYjU1NDYxOTcwOTMzMDM5NjgwYzlhNWFiMjFhMzVkMGI0MmYzMzgzYWIyYmQ1MmE0N2Q2M2ZjYjQwZD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSomcmVzcG9uc2UtY29udGVudC10eXBlPSoifV19&Signature=Jc10dNbK%7E2mAWNa%7E7xShQ6qMCcgbfdsM4RWwNlbRwmCDWKGkZikRYRf%7EzBn-QlgbIxhEfnImUViHMlKB48UNSEAksJBATLkUUpRIeccTzZtRnZ95Amtp3w%7EpK3jbD1lyxAUmFC%7EZ0DzuBb2oY8IjIX35CJDiadjiYtyDsCunIhTh-oc7PO2KJwwPlV0IvH5h77Ju-5gmrnB14dBG8njqaJ8Uxy0NWFPiEHUbTve82Ion7dFfxiRbOso1hEmU0cNZl6i3QpfaE4Xb2lJmYewQ9Qr-BhyI6AzEbZZ%7EoncZ1LsBqnOe4WGCRVs123V6tJ4GAj73YssMSqhi2-i%7EuZTUJA__&Key-Pair-Id=K24J24Z295AEI9){.fragment fig-align="center"}
-
-
+![](images/gif2.gif){.fragment fig-align="center"}
 :::
 
----
+------------------------------------------------------------------------
 
 ## Actividad 2.2
 
-* Actividad: Ir a [https://huggingface.co/spaces/alonsosilva/NextTokenPrediction](https://huggingface.co/spaces/alonsosilva/NextTokenPrediction)
-* **Objetivo**: Observar la lista de token que se muestran como posible continuación del texto.
+-   Actividad: Ir a <https://huggingface.co/spaces/alonsosilva/NextTokenPrediction>
+-   **Objetivo**: Observar la lista de token que se muestran como posible continuación del texto.
 
+<br><br>
 
----
+------------------------------------------------------------------------
 
 ## 💡 Aprendizajes
 
-- El LLM **no reflexiona**, solo predice el **token más probable**.  
-- La predicción es **secuencial**, token por token.  
-- No tiene **memoria**: siempre parte desde cero.
+-   El LLM **no reflexiona**, solo predice el **token más probable**.\
+-   La predicción es **secuencial**, token por token.\
+-   No tiene **memoria**: siempre parte desde cero.
 
-::: {.notes}
+::: notes
 Comparar con una multiplicación de matrices. La matriz no recuerda que ya hizo multiplicaciones antes.
 :::
 
----
+------------------------------------------------------------------------
 
 ## El negocio de los LLMs
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="60%" .fragment}
 <br>
 
-- Los LLMs tienen **billones de parámetros**.  
-- Se entrenan con **textos masivos** (internet, libros, etc.).  
-- Requieren **mucho poder computacional** (GPUs por horas).
-
+-   Los LLMs tienen **billones de parámetros**.\
+-   Se entrenan con **textos masivos** (internet, libros, etc.).\
+-   Requieren **mucho poder computacional** (GPUs por horas).
 :::
 
-::: {.column .fragment width="40%"}
+::: {.column  width="40%"}
 ![](images/gpu.png){fig-align="center"}
 :::
 :::
 
-
-
----
+------------------------------------------------------------------------
 
 ## El negocio de los LLMs
 
 No existe solo chatGPT (OpenAI): todos quieren un pedazo de la torta:
 
 ::: columns
-::: {.column width="50%" .fragment .center}
+::: {.column .fragment .center width="50%"}
 **Los de pago:**
 
-* GPT-4 (OpenAI)
-* Gemini (Google)
-* Claude (Anthropic)
-* ...
+-   GPT-4 (OpenAI)
+-   Gemini (Google)
+-   Claude (Anthropic)
+-   ...
 :::
-::: {.column width="50%" .fragment .center}
+
+::: {.column .fragment .center width="50%"}
 **Los de código abierto:**
 
-* Llama (Meta)
-* Qwen (Baidu)
-* DeepSeek (China)
-* ...
+-   Llama (Meta)
+-   Qwen (Baidu)
+-   DeepSeek (China)
+-   ...
 :::
 :::
 
-
----
-
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[  Parte 3]{style="font-size: 1em"}
+[Parte 3]{style="font-size: 1em"}
 
 [¡Hazlo tu mismo!]{style="font-size: 1.5em"}
 :::
 
-
-
----
+------------------------------------------------------------------------
 
 ## Actividad 1
-
 
 ::: panel-tabset
 ## 🧠 Teoría
@@ -392,114 +345,115 @@ No existe solo chatGPT (OpenAI): todos quieren un pedazo de la torta:
 **¿Cómo podemos emular chatGPT?**
 
 ::: columns
-::: {.column width="50%" .center}
-Ejecutar localmente LLM: 
+::: {.column .center width="50%"}
+*Ejecutar localmente LLM:*
 
-* Configuración compleja
-* Hardware costoso
-:::
-::: {.column width="50%" .fragment}
-Consumir una API de LLM  
-
-* Simple
-* Pagar lo que consumes
-* Multiples proveedores y alternativas
-:::
+-   Configuración compleja
+-   Hardware costoso
 :::
 
-## 🛠️ Actividad
+::: {.column .fragment width="50%"}
+*Consumir una API de LLM*
 
-* Actividad: Ir a [https://cittripio.streamlit.app/v1](https://cittripio.streamlit.app/v1)
-* Objetivo: Lograr que el bot responda "una pregunta"
-  * Tiempo: 5 minutos
-
-## 💡 Aprendizajes
-
-* El LLM responde en función del prompt.
-* El prompt puede pedir cualquier cosa.
-* Prompts cortos entregan resultados muy variables.
-
+* Simple y pago por uso
+* Varias opciones y proveedores
+  
 :::
-
-
----
-
-## Actividad 2
-
-
-::: panel-tabset
-
-## 🧠 Teoría
-
-* Los LLMs no tienen personalidad propia, pero tú puedes definir cómo deben comportarse mediante el prompt. 
-* Esto se logra describiendo explícitamente el rol, el tono y el estilo que deseas que adopte el modelo.
+:::
 
 <br>
 
 ## 🛠️ Actividad
 
-* Actividad: Ir a [https://cittripio.streamlit.app/vdos](https://cittripio.streamlit.app/vdos)
-* **Objetivo**: 
-  * O1: Hacer 2 preguntas relacionadas.
-  * O2: Cambiar la personalidad del bot.
-* ¿El LLM tiene memoria?
-  * Tiempo: 5 minutos
+-   Actividad: Ir a <https://cittripio.streamlit.app/v1>
+-   Objetivo: Lograr que el bot responda "una pregunta"
+    -   Tiempo: 5 minutos
 
 ## 💡 Aprendizajes
 
-* Separar en contexto y pregunta permite imponer una “personalidad” o ciertas características.
-* Un LLM no tiene memoria.
-
+-   El LLM responde en función del prompt.
+-   El prompt puede pedir cualquier cosa.
+-   Prompts cortos entregan resultados muy variables.
 :::
 
+------------------------------------------------------------------------
 
---- 
+## Actividad 2
+
+::: panel-tabset
+## 🧠 Teoría
+
+-   Los LLMs no tienen personalidad propia, pero tú puedes definir cómo deben comportarse mediante el prompt.
+-   Esto se logra describiendo explícitamente el rol, el tono y el estilo que deseas que adopte el modelo.
+
+<br>
+
+## 🛠️ Actividad
+
+-   Actividad: Ir a <https://cittripio.streamlit.app/vdos>
+-   **Objetivo**:
+    -   [O1: Hacer 2 preguntas relacionadas.]{style="font-size: 24px;"}
+    -   [O2: Cambiar la personalidad del bot.]{style="font-size: 24px;"}
+    -   Tiempo: 5 minutos
+
+## 💡 Aprendizajes
+
+-   Separar en contexto y pregunta permite imponer una “personalidad” o ciertas características.
+-   Un LLM no tiene memoria.
+:::
+
+------------------------------------------------------------------------
 
 ## Actividad 3
 
-
 ::: panel-tabset
-
 ## 🧠 Teoría I
 
-**¿Porqué chatGPT si tiene memoria?**
+**¿Por qué chatGPT si tiene memoria?**
 
 *Muy simple*: Pasemosle la historia de la conversación en cada prompt.
 
-- Opción 1: Pasarle todo el texto.
-- Opción 2: Pasarle un resumen de la conversación.
+-   Opción 1: Pasarle todo el texto.
+-   Opción 2: Pasarle un resumen de la conversación.
 
 <br>
 
 ## 🧠 Teoría II
 
-**¿Qué es la temperatura?** 
+**¿Qué es la temperatura?**
 
-* Es un parámetro que controla que tan aleatoria es la elección del siguiente token.
-* Temperatura = 0: Muy determinista.
-* Temperatura = 1: Muy aleatorio.
+Es un parámetro que controla que tan aleatoria es la elección del siguiente token.
+-   Temperatura = 0: Muy determinista.
+-   Temperatura = 1: Muy aleatorio.
 
-## 🛠️ Actividad 
+## 🛠️ Actividad
 
-* Actividad: Ir a [https://cittripio.streamlit.app/vf](https://cittripio.streamlit.app/vf)
-* **Objetivo**:
-  * O1: Lograr que cittripio le responda a Luke Skywalker que es su padre.
-  * O2: Cambiar la personalidad de cittripio por cualquier otro personaje (no necesariamente de Star Wars).
-  * Tiempo: 5 minutos
+-   Actividad: Ir a <https://cittripio.streamlit.app/vf>
+-   **Objetivo**:
+    -   [O1: Lograr que cittripio le responda a Luke Skywalker que es su padre.]{style="font-size: 24px;"}
+    -   [O2: Cambiar la personalidad de cittripio por cualquier otro personaje (no necesariamente de Star Wars).]{style="font-size: 24px;"}
+    -   Tiempo: 5 minutos
 
-## 💡 Aprendizajes 
+## 💡 Aprendizajes
 
-* El LLM necesita tener como input todo el contexto e historia en el prompt.
-* Las APIs agregan muchas opciones para simplificar y manejar todo esto convenientemente.
-
+-   El LLM necesita tener como input todo el contexto e historia en el prompt.
+-   Las APIs agregan muchas opciones para simplificar y manejar todo esto convenientemente.
 :::
 
+------------------------------------------------------------------------
 
 
----
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Parte 4]{style="font-size: 1em"}
+
+[Conclusión]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
 
 ## 🚀 Conclusión
-
 
 ✅ LLMs no son magia: es tecnología.
 
@@ -510,8 +464,6 @@ Consumir una API de LLM
 ✅ Existen muchos recursos gratuitos para aprender y jugar.
 
 <br><br>
-
-
 
 ------------------------------------------------------------------------
 
