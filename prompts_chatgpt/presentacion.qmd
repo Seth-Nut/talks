@@ -1,0 +1,724 @@
+---
+title: "No es Magia, es Ciencia"
+subtitle: "Cómo conversar mejor con asistentes de IA"
+author: 
+  - Francisco Alfaro
+  - Valeska Canales
+date: 02 apr 2025
+format: 
+  revealjs:
+    transition: slide
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    logo: images/logo_sn.png
+---
+
+## 🤖 A.I. en el día a día {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/intro_02.jpg){.fragment .fade-in-then-out fig-align="left"}
+
+![](images/intro_03.jpg){.fragment .fade-in-then-out fig-align="center"}
+
+![](images/intro_01.png){.fragment fig-align="right"}
+:::
+
+------------------------------------------------------------------------
+
+## 🎯 Objetivos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/intro_04.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br><br>
+
+-   **Comprender los LLM**: Definición, funcionamiento y aplicaciones.\
+-   **Asistentes Virtuales**: Uso, prompts y desafíos comunes.\
+-   **Ética**: Consideraciones y buenas prácticas.
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Prompts Perfectos ChatGPT]{style="font-size: 1em"}
+
+[¿ Qué son los LLM ?]{style="font-size: 2em"}
+:::
+
+------------------------------------------------------------------------
+
+## 📖 Large language Model {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .incremental width="60%"}
+<br><br>
+
+- 🧠 Los LLMs generan lenguaje natural tras entrenarse con grandes volúmenes de texto.
+- 🤖 Se usan en chatbots, asistentes virtuales y tareas de procesamiento de lenguaje.
+  
+:::
+
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/llm_01.png" alt="Tachado" style="width: 80%; border-radius: 10px;"/>
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 📖 Características LLM {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .incremental width="50%"}
+<br><br>
+
+- 📦 Entrenados con billones de parámetros y textos masivos
+- 🛠️ Adaptables a múltiples tareas (traducción, resumen, Q&A, etc.)
+- 🌍 Aplicables en dominios diversos: salud, educación, negocios
+
+:::
+
+::: {.column width="50%"}
+::: {style="text-align: center;"}
+<img src="images/llm1.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## ⏳Historia de los LLM {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+![](images/llm_05.png){.fragment .fade-in-then-out fig-align="left" width="100%"}
+
+![](images/llm_04.png){.fragment fig-align="right"}
+:::
+
+------------------------------------------------------------------------
+
+## ¿Cómo representar una palabra?  {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: {style="text-align: center;" .fragment}
+<img src="images/representacion.png" alt="Tachado" style="width: 75%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+
+## 📝 Representación textual {background-image="images/background.jpg" background-opacity="0.25"}
+
+Transcribir texto es guardar letras como bits.
+
+::: panel-tabset
+
+## Teoría
+
+<br>
+
+::: columns
+::: {.column  .center style="font-size: 24px;"}
+ASCII
+
+-   1 byte (8 bits): 128 carácteres posibles
+-   0 (48) ... 9 (57)
+-   A (65) ... Z (90)
+-   a (97) ... z (122)
+-   Problema: Faltan muchos carácteres: Ñ, ñ, á, é, í, ó, ú, u
+:::
+
+::: {.column .fragment .center style="font-size: 24px;"}
+UTF-8
+
+-   1 a 4 bytes (8 a 32 bits)
+-   Mantiene ASCII sin cambios
+-   Permite representar alfabetos latinos, griego, árabe, ... además de caracteres chinos, japoneses y coreanos
+-   Incluye emojis 😁, simbolos ✅ y mil cosas más 🗿
+:::
+:::
+
+## Ejemplo
+
+::: {style="text-align: center;" }
+<img src="images/encoding.jpg" alt="Tachado" style="width: 75%; border-radius: 10px;"/>
+:::
+
+:::
+
+
+
+
+
+------------------------------------------------------------------------
+
+## 🧠 Representación semántica {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+-   **Semántica** significa **el sentido o significado** de las palabras.
+-   Necesitamos guardarla como un **todo** o dividirla en **partes con sentido** (tokens).
+:::
+
+::: {.column width="40%"}
+<br>
+![](images/semantica.jpg){fig-align="center"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: {style="text-align: center;"}
+<iframe
+    src="https://agents-course-the-tokenizer-playground.static.hf.space"
+    frameborder="0"
+    width="950"
+    height="650"
+  ></iframe>
+:::
+
+
+------------------------------------------------------------------------
+
+## 💡 Aprendizajes {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+-   Palabra ≠ Token
+-   Cada **token** tiene un **ID único**\
+-   En inglés, **100 tokens ≈ 75 palabras**\
+-   Dos palabras **iguales** pueden tener **tokens distintos**, según el contexto
+
+------------------------------------------------------------------------
+
+## ⚙️ Diagrama técnico de un LLM {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/gif1.gif){.fragment .fade-in-then-out fig-align="center"}
+
+![](images/gif2.gif){.fragment fig-align="center"}
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: {style="text-align: center;"}
+<iframe
+    src="https://agents-course-decoding-visualizer.hf.space"
+    frameborder="0"
+    width="950"
+    height="650"
+  ></iframe>
+:::
+
+---
+
+## 💡 Aprendizajes {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+-   El LLM **no reflexiona**, solo predice el **token más probable**.\
+-   La predicción es **secuencial**, token por token.\
+-   No tiene **memoria**: siempre parte desde cero.
+
+---
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Prompts Perfectos ChatGPT]{style="font-size: 1em"}
+
+[¿Qué son los Prompts?]{style="font-size: 1.5em"}
+:::
+
+--- 
+
+## 🤖 Asistentes Virtuales Inteligentes {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br><br>
+
+Los **asistentes virtuales** impulsados por **IA** facilitan la comunicación, automatización y soporte en diversas industrias.
+
+::: {style="text-align: center;"}
+<img src="images/chat_013.png" alt="Tachado" style="width: 30%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+## 🤖 Asistentes Virtuales Inteligentes {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .incremental width="60%"}
+<br><br>
+
+**Asistentes más destacados**:
+
+-   [ChatGPT (OpenAI)](https://openai.com/chatgpt/)
+-   [Gemini (Google DeepMind)](https://deepmind.google/gemini/)
+-   [Meta AI (Meta)](https://ai.meta.com/)
+-   [DeepSeek (DeepSeek)](https://chat.deepseek.com/)
+:::
+
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<br> <img src="images/chat_013.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 📱¿Qué podemos hacer? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/chat_02.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+- 🎓 **Educación**: Tutor virtual.  
+- 🩺 **Salud**: Asistencia en consultas.  
+- 📝 **Contenido**: Redacción y resumen.  
+- 💻 **Software**: Generación/corrección código.  
+- 💬 **Cliente**: Respuestas automáticas.  
+
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+## 📝 Prompts en ChatGPT {background-image="images/background.jpg" background-opacity="0.25"}
+
+Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje, como **ChatGPT**, para generar una **respuesta** o realizar una **tarea específica**. Pueden ser preguntas, frases o directrices que guían el modelo hacia el resultado deseado.
+
+::: {style="text-align: center;"}
+<img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+## 📝 Prompts en ChatGPT {background-image="images/background.jpg" background-opacity="0.25"}
+
+**Pregunta directa**: "¿Qué es la inteligencia artificial?"
+
+**Instrucción**: "Escribe una historia corta sobre un viaje al espacio."
+
+**Comando**: "Genera un código Python para calcular el promedio de una lista."
+
+::: {style="text-align: center;"}
+<img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: {style="text-align: center;"}
+<iframe
+    src="https://llama2.streamlit.app/?embed=true"
+    frameborder="0"
+    width="950"
+    height="650"
+  ></iframe>
+:::
+
+
+----- 
+
+
+## Estructura de un Buen Prompts {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="text-align: center;"}
+<img src="images/pro_031.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+## Estructura de un Buen Prompts {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: panel-tabset
+
+## ❌ Sin estructura
+<br>
+
+> **Prompt:**
+> 
+> ```         
+> ¿Cómo hacer una receta de pan con queso? 
+> ```
+
+
+
+## ✅ Estructurado 
+
+<br>
+
+> **Prompt:**
+> 
+> ```         
+> Eres un chef experto en panadería. 
+> 
+> Tu tarea es crear una receta de pan con queso que utilice al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno. 
+> 
+> Busca una combinación que sea deliciosa y tenga buena textura.
+> 
+> Este desarrollo se enmarca en la creación de un menú para un bistró que valora opciones artesanales.
+> 
+> Importante: la receta debe ser sencilla de replicar en casa.
+> ```
+
+## ✨ Explicación 
+
+<br>
+
+* Pasos a paso:
+
+  -   🍽️ **Rol**: Eres un chef experto en panadería.
+  -   🧀 **Tarea**: Crear una receta de pan con queso. -
+  -   🧀🧀 **Detalles específicos**: Utiliza al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno.
+  -   🌿 **Contexto**: Este desarrollo se enmarca en la creación de un menú artesanal para un bistró que valora opciones caseras y únicas.
+  -   📝 **Notas**: **Importante**: la receta debe ser **sencilla** de replicar en casa.
+
+
+:::
+
+
+
+
+------------------------------------------------------------------------
+
+## ♟️Técnicas para Mejorar los Prompts {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: {style="text-align: center;"}
+<img src="images/pro_04.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+## ♟️Técnicas para Mejorar los Prompts {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: panel-tabset
+
+## Zero-shot
+
+**Definición:** Se da un **prompt sin ejemplos previos**, y se espera que el modelo genere una respuesta basada en su conocimiento previo.
+
+
+::: columns
+::: {.column width="50%"}
+✨ **Ejemplo de prompt:**
+
+> "¿Qué es la fotosíntesis?"
+:::
+
+::: {.column .incremental width="50%"}
+✅ **Esperado:**
+
+> "La fotosíntesis es el proceso por el cual las plantas convierten la luz solar en energía química utilizando dióxido de carbono y agua."
+:::
+:::
+
+
+## ♟️ Few-shot 
+
+**Definición:** Se proporcionan **pocos ejemplos** en el prompt para ayudar al modelo a generar una respuesta más precisa.
+
+::: columns
+::: {.column width="50%"}
+✨ **Ejemplo de prompt:**
+
+> "Traduce las siguientes frases al francés:\
+> - Hello → Bonjour\
+> - Thank you → Merci\
+> - Good morning → ?"
+:::
+
+::: {.column .incremental width="50%"}
+✅ **Esperado:**
+
+> "Good morning → Bonjour"
+:::
+:::
+
+
+
+## ♟️ CoT
+
+**Definición:** Se fomenta el **razonamiento paso a paso** (*Chain-of-Thought* ) para obtener respuestas más estructuradas y detalladas. 
+
+::: columns
+::: {.column width="50%"}
+✨ **Ejemplo de prompt:**
+
+> "Si un tren viaja a 80 km/h y recorre 240 km, ¿cuánto tiempo tarda en llegar? Explica tu razonamiento."
+:::
+
+::: {.column .incremental width="50%"}
+✅ **Esperado:**
+
+> "El tren viaja a 80 km/h y debe recorrer 240 km. Para calcular el tiempo, usamos la fórmula:\
+> **tiempo = distancia / velocidad**\
+> **240 km ÷ 80 km/h = 3 horas.**\
+> Por lo tanto, el tren tarda 3 horas en llegar."
+:::
+:::
+
+## ♟️ Chaining 
+
+**Definición:** Se descompone una tarea compleja en **múltiples prompts encadenados**, donde la salida de un prompt se usa como entrada para el siguiente.
+
+
+::: columns
+::: {.column width="50%"}
+✨ **Ejemplo de prompt:**
+
+> **Paso 1:** "Resume en 3 frases la Revolución Industrial."\
+> **Paso 2:** (Usando la respuesta del primer prompt) "Ahora expande cada frase en un párrafo detallado."
+:::
+
+::: {.column .incremental width="50%"}
+✅ **Esperado:**
+
+> **Paso 1:** "La Revolución Industrial marcó el inicio de la producción mecanizada, el crecimiento de las ciudades y el avance del transporte."\
+> **Paso 2:** Se genera un desarrollo más detallado de cada punto.
+:::
+:::
+
+
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Prompts Perfectos ChatGPT]{style="font-size: 1em"}
+
+[Una mirada crítica a los LLMs]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
+## ⚠️ Problemas comunes con los LLM {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="text-align: center;"}
+<img src="images/pro_22.png" alt="Tachado" style="width: 90%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+## ⚠️ Problemas Comunes con los LLM {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+| 🚨 **Error**       | 💬 **Prompt**                                         | ❌ **Respuesta Incorrecta**                                      |
+|----------------------------|-------------------------------------------------------|------------------------------------------------------------------|
+| **Información Incorrecta** | *¿Quién fue presidente de Chile en 1865?*            | *Abraham Lincoln fue presidente de Chile en 1865.*              |
+| **Datos Obsoletos**        | *¿Cuál es el LLM más reciente de OpenAI?*            | *ChatGPT-4 es el más reciente, lanzado en 2023.*                |
+| **Respuestas Ambiguas**    | *¿Cuál es la capital de Chile?*                      | *La capital de Chile es Santiago y también Valparaíso.*         |
+| **Sesgo en Respuestas**    | *¿Qué grupos tienen más probabilidad de cometer delitos?* | *Estudios muestran que ciertas etnias tienen mayor tendencia.*  |
+
+
+
+------------------------------------------------------------------------
+
+## ⚖️ Ética en el Uso de la A.I. {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/pro_07.png){.fragment .fade-in-then-out fig-align="center" width="900"}
+
+![](images/pro_061.png){.fragment fig-align="center" width="800"}
+:::
+
+------------------------------------------------------------------------
+
+## ⚖️ Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: panel-tabset
+
+## ⚠️  Credenciales
+
+**Definición:** Se debe evitar compartir información sensible como contraseñas, tokens de acceso o datos privados en prompts de IA.
+
+
+::: columns
+::: {.column width="50%"}
+
+❌ **Mal prompt:**
+
+> "Mi API key es `1234-5678`, y mi contraseña es `mypassword123`. ¿Puedes conectarte por mí?"
+
+:::
+
+::: {.column .incremental width="50%"}
+
+✅ **Buen prompt:**
+
+> "¿Cómo guardar credenciales en un archivo `.env` y cargarlas de forma segura en Python?"
+
+:::
+:::
+
+## 🔒 Privacidad
+
+
+**Definición:** Los prompts no deben solicitar ni exponer datos personales. Es esencial proteger la identidad y privacidad de las personas al interactuar con modelos de lenguaje.
+
+::: columns
+::: {.column width="50%"}
+
+❌ **Prompt inadecuado:**
+
+> "Tengo el RUT y dirección de una persona. ¿Puedes decirme su número de teléfono o redes sociales?"
+
+:::
+
+::: {.column .incremental width="50%"}
+
+✅ **Prompt recomendado:**
+
+> "Explícame cómo anonimizar datos sensibles correctamente."
+
+:::
+:::
+
+
+
+## 📐 Tareas {background-image="images/background.jpg" background-opacity="0.25"}
+
+**Definición:** Los prompts deben promover el **razonamiento y aprendizaje**, evitando solicitudes que generen respuestas incorrectas o superficiales.
+
+::: columns
+::: {.column width="50%"}
+
+❌ **Prompt inadecuado:**
+
+> **Paso 1:** "Resuelve esta ecuación sin explicaciones: \$x^2 + 5x + 6 = 0\$."  
+> **Paso 2:** "Solo quiero la respuesta final."
+
+:::
+
+::: {.column .incremental width="50%"}
+
+✅ **Prompt recomendado:**
+
+> **Paso 1:** "Resuelve paso a paso la ecuación \$x^2 + 5x + 6 = 0\$ usando factorización."  
+> **Paso 2:** "Explica por qué se eligen esos factores y sugiere otro método de resolución."
+
+:::
+:::
+
+
+
+
+:::
+
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Prompts Perfectos ChatGPT]{style="font-size: 1em"}
+
+[Conclusiones]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
+## 💡Conclusiones {background-image="images/background.jpg" background-opacity="0.25" }
+
+<br>
+
+-   🤔 **Entender la importancia de los prompts**: Un buen diseño de prompts es clave para obtener respuestas más precisas y útiles al interactuar con modelos de lenguaje como ChatGPT.
+
+-   🌱 **Aplicaciones y uso responsable**: Los modelos de lenguaje tienen un gran potencial, pero es crucial utilizarlos de manera ética y responsable.
+
+-   🚀 **Evolución y futuro de los LLM**: La IA conversacional sigue mejorando, y los avances esperados tendrán un gran impacto en cómo interactuamos con la tecnología en el futuro.
+
+
+
+------------------------------------------------------------------------
+
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓¿Preguntas?
+
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSd2CseqhHUjdmvr46ZDb_Aa2iUYEjLAIE4MwLztled5ytRJvg/viewform?usp=dialog)
+
+🥳 Difrutar del Evento!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr_citt2.png){width="400"}
+:::
+:::
+
+> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+}
+</style>
+```

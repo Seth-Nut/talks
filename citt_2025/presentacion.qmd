@@ -89,14 +89,14 @@ Toda tecnología suficientemente avanzada parece magia.
 ------------------------------------------------------------------------
 
 ::: columns
-::: {.column width="60%" .fragment}
+::: {.column .fragment width="60%"}
 <br><br>
 
 -   **TODO** en el computador son bits
 -   `representación` `=` `bits` `+` `contexto`
 :::
 
-::: {.column  width="40%"}
+::: {.column width="40%"}
 ![](images/context.png){fig-align="center"}
 :::
 :::
@@ -190,7 +190,7 @@ UTF-8
 
 -   1 a 4 bytes (8 a 32 bits)
 -   Mantiene ASCII sin cambios
--   Permite representar alfabetos latinos, griego, cirílico, copto, armenio, hebreo, árabe, siríaco, thaana, y n'ko, además de caracteres chinos, japoneses y coreanos.
+-   Permite representar alfabetos latinos, griego, árabe, siríaco, thaana, y n'ko, además de caracteres chinos, japoneses y coreanos.
 -   Incluye emojis 😁, simbolos ✅ y mil cosas más 🗿
 :::
 :::
@@ -200,14 +200,14 @@ UTF-8
 ## Representación semántica
 
 ::: columns
-::: {.column width="60%" .fragment}
+::: {.column .fragment width="60%"}
 <br>
 
 -   **Semántica** significa **el sentido o significado** de las palabras.
 -   Necesitamos guardarla como un **todo** o dividirla en **partes con sentido** (tokens).
 :::
 
-::: {.column  width="40%"}
+::: {.column width="40%"}
 ![](images/semantica.jpg){fig-align="center"}
 :::
 :::
@@ -230,6 +230,17 @@ Inglés: [*Computing is any goal-oriented activity requiring, benefiting from, o
 :::
 
 <br>
+
+------------------------------------------------------------------------
+
+::: {style="text-align: center;"}
+<iframe
+    src="https://agents-course-the-tokenizer-playground.static.hf.space"
+    frameborder="0"
+    width="950"
+    height="650"
+  ></iframe>
+:::
 
 ------------------------------------------------------------------------
 
@@ -271,6 +282,17 @@ Inglés: [*Computing is any goal-oriented activity requiring, benefiting from, o
 
 ------------------------------------------------------------------------
 
+::: {style="text-align: center;"}
+<iframe
+    src="https://agents-course-decoding-visualizer.hf.space"
+    frameborder="0"
+    width="950"
+    height="650"
+  ></iframe>
+:::
+
+------------------------------------------------------------------------
+
 ## 💡 Aprendizajes
 
 -   El LLM **no reflexiona**, solo predice el **token más probable**.\
@@ -286,7 +308,7 @@ Comparar con una multiplicación de matrices. La matriz no recuerda que ya hizo 
 ## El negocio de los LLMs
 
 ::: columns
-::: {.column width="60%" .fragment}
+::: {.column .fragment width="60%"}
 <br>
 
 -   Los LLMs tienen **billones de parámetros**.\
@@ -294,7 +316,7 @@ Comparar con una multiplicación de matrices. La matriz no recuerda que ya hizo 
 -   Requieren **mucho poder computacional** (GPUs por horas).
 :::
 
-::: {.column  width="40%"}
+::: {.column width="40%"}
 ![](images/gpu.png){fig-align="center"}
 :::
 :::
@@ -355,9 +377,8 @@ No existe solo chatGPT (OpenAI): todos quieren un pedazo de la torta:
 ::: {.column .fragment width="50%"}
 *Consumir una API de LLM*
 
-* Simple y pago por uso
-* Varias opciones y proveedores
-  
+-   Simple y pago por uso
+-   Varias opciones y proveedores
 :::
 :::
 
@@ -368,6 +389,12 @@ No existe solo chatGPT (OpenAI): todos quieren un pedazo de la torta:
 -   Actividad: Ir a <https://cittripio.streamlit.app/v1>
 -   Objetivo: Lograr que el bot responda "una pregunta"
     -   Tiempo: 5 minutos
+
+## Code
+
+<iframe src="https://cittripio.streamlit.app/v1?embed=true" style="height: 450px; width: 100%;">
+
+</iframe>
 
 ## 💡 Aprendizajes
 
@@ -422,9 +449,7 @@ No existe solo chatGPT (OpenAI): todos quieren un pedazo de la torta:
 
 **¿Qué es la temperatura?**
 
-Es un parámetro que controla que tan aleatoria es la elección del siguiente token.
--   Temperatura = 0: Muy determinista.
--   Temperatura = 1: Muy aleatorio.
+Es un parámetro que controla que tan aleatoria es la elección del siguiente token. - Temperatura = 0: Muy determinista. - Temperatura = 1: Muy aleatorio.
 
 ## 🛠️ Actividad
 
@@ -441,7 +466,6 @@ Es un parámetro que controla que tan aleatoria es la elección del siguiente to
 :::
 
 ------------------------------------------------------------------------
-
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
