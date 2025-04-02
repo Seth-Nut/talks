@@ -645,6 +645,74 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 :::
 
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Prompts Perfectos ChatGPT]{style="font-size: 1em"}
+
+[Actividad]{style="font-size: 1.5em"}
+:::
+
+
+---
+
+## 🧪 Desafío: ¡Crea tu propio chatbot! {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: panel-tabset
+
+## 🎯 Objetivo
+
+<br>
+
+
+Diseñar un **chatbot con personalidad única** utilizando el aplicativo [CITTRIPIO](https://cittripio.streamlit.app/vdos), capaz de responder preguntas sobre un tema específico.
+
+Ejemplos:
+
+- Un doctor que habla como Yoda 🟢  
+- Un historiador que rapea 🎤  
+- Un pirata que enseña biología 🧬
+
+
+
+## 🛠️ Instrucciones
+
+<br>
+
+* Formen grupos de 2 a 4 personas.
+* Elijan una temática (ciencia, arte, salud, etc.).
+* Redacten el *prompt del sistema*: estilo, público y propósito del bot.
+* Prueben el chatbot con preguntas reales.
+* Compartan su bot con el curso.
+
+
+## 📦 Entregables
+
+<br>
+
+- Prompt del sistema.
+- 5 preguntas con sus respuestas.
+- Captura del bot en funcionamiento.
+- Breve reflexión (texto o video).
+
+
+## 🏆 Evaluación
+
+<br>
+
+| Criterio               | Puntos |
+|------------------------|--------|
+| Creatividad            | 20 🪙  |
+| Claridad del propósito | 20 🪙  |
+| Buen funcionamiento    | 20 🪙  |
+| Calidad de respuestas  | 20 🪙  |
+| Presentación final     | 20 🪙  |
+| **Total**              | **100 🪙** |
+
+:::
+
 
 ------------------------------------------------------------------------
 
