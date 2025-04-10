@@ -1211,170 +1211,100 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar PyCon US 2025!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
-    "objectID": "citt_2025/presentacion.html#qué-dicen-los-diarios-de-la-ia",
-    "href": "citt_2025/presentacion.html#qué-dicen-los-diarios-de-la-ia",
-    "title": "Taller de Python + IA para todos",
-    "section": "¿Qué dicen los diarios de la IA?",
-    "text": "¿Qué dicen los diarios de la IA?"
+    "objectID": "comunidad_2025/presentacion.html#por-qué-enseñar-python",
+    "href": "comunidad_2025/presentacion.html#por-qué-enseñar-python",
+    "title": "Educación Abierta y Comunidad",
+    "section": "🐍 ¿Por qué enseñar Python?",
+    "text": "🐍 ¿Por qué enseñar Python?"
   },
   {
-    "objectID": "citt_2025/presentacion.html#si-presten-atención-al-hombre-tras-la-cortina",
-    "href": "citt_2025/presentacion.html#si-presten-atención-al-hombre-tras-la-cortina",
-    "title": "Taller de Python + IA para todos",
-    "section": "SI presten atención al hombre tras la cortina",
-    "text": "SI presten atención al hombre tras la cortina"
-  },
-  {
-    "objectID": "citt_2025/presentacion.html#section",
-    "href": "citt_2025/presentacion.html#section",
-    "title": "Taller de Python + IA para todos",
+    "objectID": "comunidad_2025/presentacion.html#section",
+    "href": "comunidad_2025/presentacion.html#section",
+    "title": "Educación Abierta y Comunidad",
     "section": "",
-    "text": "Parte 1\nLa ilusión de la continuidad"
+    "text": "Educación Abierta y Comunidad\nHerramientas"
   },
   {
-    "objectID": "citt_2025/presentacion.html#desafío",
-    "href": "citt_2025/presentacion.html#desafío",
-    "title": "Taller de Python + IA para todos",
-    "section": "Desafío",
-    "text": "Desafío\n¿Qué contiene la siguiente cadena de bits?\n00000000 00101010"
+    "objectID": "comunidad_2025/presentacion.html#quarto",
+    "href": "comunidad_2025/presentacion.html#quarto",
+    "title": "Educación Abierta y Comunidad",
+    "section": "Quarto",
+    "text": "Quarto\n\n\n\nQuarto is an open system for scientific publications with markdown and interactive code (Python/R)."
   },
   {
-    "objectID": "citt_2025/presentacion.html#qué-aprendimos",
-    "href": "citt_2025/presentacion.html#qué-aprendimos",
-    "title": "Taller de Python + IA para todos",
-    "section": "¿Qué aprendimos?",
-    "text": "¿Qué aprendimos?\n\nNinguna representación en el computador es perfecta.\nLos LLMs tampoco lo son… ¡y no tienen que serlo!"
-  },
-  {
-    "objectID": "citt_2025/presentacion.html#section-1",
-    "href": "citt_2025/presentacion.html#section-1",
-    "title": "Taller de Python + IA para todos",
+    "objectID": "comunidad_2025/presentacion.html#section-1",
+    "href": "comunidad_2025/presentacion.html#section-1",
+    "title": "Educación Abierta y Comunidad",
     "section": "",
-    "text": "Parte 2\nEl computador parlanchín"
+    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
   },
   {
-    "objectID": "citt_2025/presentacion.html#cómo-representar-una-palabra",
-    "href": "citt_2025/presentacion.html#cómo-representar-una-palabra",
-    "title": "Taller de Python + IA para todos",
-    "section": "¿Cómo representar una palabra?",
-    "text": "¿Cómo representar una palabra?"
+    "objectID": "comunidad_2025/presentacion.html#examples",
+    "href": "comunidad_2025/presentacion.html#examples",
+    "title": "Educación Abierta y Comunidad",
+    "section": "Examples",
+    "text": "Examples\n\nCodePlot\n\n\ncategories &lt;- c(\"Yes\", \"No\")\nvalues &lt;- c(75, 25)\ncolors &lt;- c(\"lightblue\", \"salmon\")\nbarplot(\n  values, names.arg = categories, col = colors, \n  main = \"😊 Do you like the presentation so far? 😊\", cex.main = 0.9\n)"
   },
   {
-    "objectID": "citt_2025/presentacion.html#representación-textual",
-    "href": "citt_2025/presentacion.html#representación-textual",
-    "title": "Taller de Python + IA para todos",
-    "section": "Representación textual",
-    "text": "Representación textual\nSi solo queremos transcribir texto, basta con representar cada letra con una secuencia de bits, y almacenarla.\n\n\nASCII\n\n1 byte (8 bits): 128 carácteres posibles\n0 (48) … 9 (57)\nA (65) … Z (90)\na (97) … z (122)\nProblema: Faltan muchos carácteres: Ñ, ñ, á, é, í, ó, ú, u\n\n\nUTF-8\n\n1 a 4 bytes (8 a 32 bits)\nMantiene ASCII sin cambios\nPermite representar alfabetos latinos, griego, árabe, siríaco, thaana, y n’ko, además de caracteres chinos, japoneses y coreanos.\nIncluye emojis 😁, simbolos ✅ y mil cosas más 🗿"
+    "objectID": "comunidad_2025/presentacion.html#quarto-extensions",
+    "href": "comunidad_2025/presentacion.html#quarto-extensions",
+    "title": "Educación Abierta y Comunidad",
+    "section": "Quarto Extensions",
+    "text": "Quarto Extensions\n\nExtensions are a powerful tool to modify and extend the behavior of Quarto."
   },
   {
-    "objectID": "citt_2025/presentacion.html#representación-semántica",
-    "href": "citt_2025/presentacion.html#representación-semántica",
-    "title": "Taller de Python + IA para todos",
-    "section": "Representación semántica",
-    "text": "Representación semántica\n\n\n\n\nSemántica significa el sentido o significado de las palabras.\nNecesitamos guardarla como un todo o dividirla en partes con sentido (tokens)."
+    "objectID": "comunidad_2025/presentacion.html#quarto-webr",
+    "href": "comunidad_2025/presentacion.html#quarto-webr",
+    "title": "Educación Abierta y Comunidad",
+    "section": "🌐 Quarto WebR",
+    "text": "🌐 Quarto WebR\n\n\n\n\nWebR: Run R code in the browser, no installation required.\n# To install WebR in your environment\nremotes::install_github(\"attiyap/WebR\")\nPyodide: Same, but for Python.\n# To install Pyodide\npip install pyodide"
   },
   {
-    "objectID": "citt_2025/presentacion.html#actividad-2.1",
-    "href": "citt_2025/presentacion.html#actividad-2.1",
-    "title": "Taller de Python + IA para todos",
-    "section": "Actividad 2.1",
-    "text": "Actividad 2.1\n\nActividad: Ir a https://platform.openai.com/tokenizer\nObjetivo: Evaluar distintos textos, en distintos idiomas.\n\n\nEjemplo 1Ejemplo 2\n\n\nEspañol: La informática,​ también llamada computación, es el área de la ciencia que se encarga de estudiar la administración de métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital.\n\n\nInglés: Computing is any goal-oriented activity requiring, benefiting from, or creating computing machinery. It includes the study and experimentation of algorithmic processes, and the development of both hardware and software. Computing has scientific, engineering, mathematical, technological, and social aspects."
+    "objectID": "comunidad_2025/presentacion.html#examples-1",
+    "href": "comunidad_2025/presentacion.html#examples-1",
+    "title": "Educación Abierta y Comunidad",
+    "section": "Examples",
+    "text": "Examples\n\nWebR - ex1WebR - ex2\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "citt_2025/presentacion.html#aprendizajes",
-    "href": "citt_2025/presentacion.html#aprendizajes",
-    "title": "Taller de Python + IA para todos",
-    "section": "💡 Aprendizajes",
-    "text": "💡 Aprendizajes\n\nPalabra ≠ Token\nCada token tiene un ID único\n\nEn inglés, 100 tokens ≈ 75 palabras\n\nDos palabras iguales pueden tener tokens distintos, según el contexto"
+    "objectID": "comunidad_2025/presentacion.html#streamlit",
+    "href": "comunidad_2025/presentacion.html#streamlit",
+    "title": "Educación Abierta y Comunidad",
+    "section": "Streamlit",
+    "text": "Streamlit\n\n\n Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python."
   },
   {
-    "objectID": "citt_2025/presentacion.html#llm-large-language-model",
-    "href": "citt_2025/presentacion.html#llm-large-language-model",
-    "title": "Taller de Python + IA para todos",
-    "section": "LLM = Large Language Model",
-    "text": "LLM = Large Language Model"
+    "objectID": "comunidad_2025/presentacion.html#streamlit-ejemplo-1",
+    "href": "comunidad_2025/presentacion.html#streamlit-ejemplo-1",
+    "title": "Educación Abierta y Comunidad",
+    "section": "Streamlit: Ejemplo",
+    "text": "Streamlit: Ejemplo\n\n\nimport streamlit as st\n\n# Título principal de la aplicación\nst.title(\"Hola Streamlit\")\n\n# Sidebar con descripción y opciones de configuración\nst.sidebar.title(\"Opciones\")\nst.sidebar.write(\"Configura el mensaje principal y el emoticón.\")\n\n# Opciones en el sidebar para personalizar el mensaje\nnombre1 = st.sidebar.text_input(\"Nombre 1\", \"Seth\")\nnombre2 = st.sidebar.text_input(\"Nombre 2\", \"Nut\")\nemoticon = st.sidebar.selectbox(\"Selecciona un emoticón\", [\"😊\", \"❤️\", \"👫\", \"🌟\", \"🐶\"])\n\n# Mensaje principal en la app\nmensaje = f\"{nombre1} y {nombre2} son mejores amigos {emoticon}\"\nst.write(mensaje)\n\n# Agregar una imagen decorativa\nst.image(\n    \"https://media1.thehungryjpeg.com/thumbs2/ori_4312464_ng19gv7ncq8oga7awkf1w72gsvbznzrkc861timx_valentine-couple-of-doberman-pinscher.jpg\",\n    caption=\"Amigos\",\n    use_container_width =False,\n    width=300  # Ajuste del tamaño de la imagen\n)\n\n# Footer\nst.markdown(\n    \"\"\"\n    ---\n    Gracias por usar esta aplicación interactiva 🎈\n    \"\"\"\n)\n\n\n\n\n\n\n\n\n\n(C) Ejemplo en Streamlit - Playground."
   },
   {
-    "objectID": "citt_2025/presentacion.html#diagrama-técnico-de-un-llm",
-    "href": "citt_2025/presentacion.html#diagrama-técnico-de-un-llm",
-    "title": "Taller de Python + IA para todos",
-    "section": "Diagrama técnico de un LLM",
-    "text": "Diagrama técnico de un LLM"
+    "objectID": "comunidad_2025/presentacion.html#github",
+    "href": "comunidad_2025/presentacion.html#github",
+    "title": "Educación Abierta y Comunidad",
+    "section": "Github",
+    "text": "Github\n\n\n Es un sistema de control de versiones para el desarrollo de software. Permite rastrear los cambios en el código, compartir el código con otros usuarios y colaborar en proyectos."
   },
   {
-    "objectID": "citt_2025/presentacion.html#actividad-2.2",
-    "href": "citt_2025/presentacion.html#actividad-2.2",
-    "title": "Taller de Python + IA para todos",
-    "section": "Actividad 2.2",
-    "text": "Actividad 2.2\n\nActividad: Ir a https://huggingface.co/spaces/alonsosilva/NextTokenPrediction\nObjetivo: Observar la lista de token que se muestran como posible continuación del texto."
+    "objectID": "comunidad_2025/presentacion.html#más-sobre-github",
+    "href": "comunidad_2025/presentacion.html#más-sobre-github",
+    "title": "Educación Abierta y Comunidad",
+    "section": "Más sobre GitHub",
+    "text": "Más sobre GitHub"
   },
   {
-    "objectID": "citt_2025/presentacion.html#aprendizajes-1",
-    "href": "citt_2025/presentacion.html#aprendizajes-1",
-    "title": "Taller de Python + IA para todos",
-    "section": "💡 Aprendizajes",
-    "text": "💡 Aprendizajes\n\nEl LLM no reflexiona, solo predice el token más probable.\n\nLa predicción es secuencial, token por token.\n\nNo tiene memoria: siempre parte desde cero.\n\n\nComparar con una multiplicación de matrices. La matriz no recuerda que ya hizo multiplicaciones antes."
+    "objectID": "comunidad_2025/presentacion.html#qué-podemos-hacer",
+    "href": "comunidad_2025/presentacion.html#qué-podemos-hacer",
+    "title": "Educación Abierta y Comunidad",
+    "section": "✅ ¿Qué podemos hacer ?",
+    "text": "✅ ¿Qué podemos hacer ?"
   },
   {
-    "objectID": "citt_2025/presentacion.html#el-negocio-de-los-llms",
-    "href": "citt_2025/presentacion.html#el-negocio-de-los-llms",
-    "title": "Taller de Python + IA para todos",
-    "section": "El negocio de los LLMs",
-    "text": "El negocio de los LLMs\n\n\n\n\nLos LLMs tienen billones de parámetros.\n\nSe entrenan con textos masivos (internet, libros, etc.).\n\nRequieren mucho poder computacional (GPUs por horas)."
-  },
-  {
-    "objectID": "citt_2025/presentacion.html#el-negocio-de-los-llms-1",
-    "href": "citt_2025/presentacion.html#el-negocio-de-los-llms-1",
-    "title": "Taller de Python + IA para todos",
-    "section": "El negocio de los LLMs",
-    "text": "El negocio de los LLMs\nNo existe solo chatGPT (OpenAI): todos quieren un pedazo de la torta:\n\n\nLos de pago:\n\nGPT-4 (OpenAI)\nGemini (Google)\nClaude (Anthropic)\n…\n\n\nLos de código abierto:\n\nLlama (Meta)\nQwen (Baidu)\nDeepSeek (China)\n…"
-  },
-  {
-    "objectID": "citt_2025/presentacion.html#section-2",
-    "href": "citt_2025/presentacion.html#section-2",
-    "title": "Taller de Python + IA para todos",
-    "section": "",
-    "text": "Parte 3\n¡Hazlo tu mismo!"
-  },
-  {
-    "objectID": "citt_2025/presentacion.html#actividad-1",
-    "href": "citt_2025/presentacion.html#actividad-1",
-    "title": "Taller de Python + IA para todos",
-    "section": "Actividad 1",
-    "text": "Actividad 1\n\n🧠 Teoría🛠️ ActividadCode💡 Aprendizajes\n\n\n¿Cómo podemos emular chatGPT?\n\n\nEjecutar localmente LLM:\n\nConfiguración compleja\nHardware costoso\n\n\nConsumir una API de LLM\n\nSimple y pago por uso\nVarias opciones y proveedores\n\n\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/v1\nObjetivo: Lograr que el bot responda “una pregunta”\n\nTiempo: 5 minutos\n\n\n\n\n\n\n\n\n\nEl LLM responde en función del prompt.\nEl prompt puede pedir cualquier cosa.\nPrompts cortos entregan resultados muy variables."
-  },
-  {
-    "objectID": "citt_2025/presentacion.html#actividad-2",
-    "href": "citt_2025/presentacion.html#actividad-2",
-    "title": "Taller de Python + IA para todos",
-    "section": "Actividad 2",
-    "text": "Actividad 2\n\n🧠 Teoría🛠️ Actividad💡 Aprendizajes\n\n\n\nLos LLMs no tienen personalidad propia, pero tú puedes definir cómo deben comportarse mediante el prompt.\nEsto se logra describiendo explícitamente el rol, el tono y el estilo que deseas que adopte el modelo.\n\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/vdos\nObjetivo:\n\nO1: Hacer 2 preguntas relacionadas.\nO2: Cambiar la personalidad del bot.\nTiempo: 5 minutos\n\n\n\n\n\nSeparar en contexto y pregunta permite imponer una “personalidad” o ciertas características.\nUn LLM no tiene memoria."
-  },
-  {
-    "objectID": "citt_2025/presentacion.html#actividad-3-1",
-    "href": "citt_2025/presentacion.html#actividad-3-1",
-    "title": "Taller de Python + IA para todos",
-    "section": "Actividad 3",
-    "text": "Actividad 3\n\n🧠 Teoría I🧠 Teoría II🛠️ Actividad💡 Aprendizajes\n\n\n¿Por qué chatGPT si tiene memoria?\nMuy simple: Pasemosle la historia de la conversación en cada prompt.\n\nOpción 1: Pasarle todo el texto.\nOpción 2: Pasarle un resumen de la conversación.\n\n\n\n\n¿Qué es la temperatura?\nEs un parámetro que controla que tan aleatoria es la elección del siguiente token. - Temperatura = 0: Muy determinista. - Temperatura = 1: Muy aleatorio.\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/vf\nObjetivo:\n\nO1: Lograr que cittripio le responda a Luke Skywalker que es su padre.\nO2: Cambiar la personalidad de cittripio por cualquier otro personaje (no necesariamente de Star Wars).\nTiempo: 5 minutos\n\n\n\n\n\nEl LLM necesita tener como input todo el contexto e historia en el prompt.\nLas APIs agregan muchas opciones para simplificar y manejar todo esto convenientemente."
-  },
-  {
-    "objectID": "citt_2025/presentacion.html#section-3",
-    "href": "citt_2025/presentacion.html#section-3",
-    "title": "Taller de Python + IA para todos",
-    "section": "",
-    "text": "Parte 4\nConclusión"
-  },
-  {
-    "objectID": "citt_2025/presentacion.html#conclusión",
-    "href": "citt_2025/presentacion.html#conclusión",
-    "title": "Taller de Python + IA para todos",
-    "section": "🚀 Conclusión",
-    "text": "🚀 Conclusión\n✅ LLMs no son magia: es tecnología.\n✅ Cualquiera puede comenzar a crear soluciones con LLMs.\n✅ Conocer como funcionan LLMs permite usarlos mejor.\n✅ Existen muchos recursos gratuitos para aprender y jugar."
-  },
-  {
-    "objectID": "citt_2025/presentacion.html#gracias-por-participar",
-    "href": "citt_2025/presentacion.html#gracias-por-participar",
-    "title": "Taller de Python + IA para todos",
+    "objectID": "comunidad_2025/presentacion.html#gracias-por-participar",
+    "href": "comunidad_2025/presentacion.html#gracias-por-participar",
+    "title": "Educación Abierta y Comunidad",
     "section": "🎉 ¡Gracias por Participar!",
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
   },
@@ -1547,11 +1477,179 @@
     "text": "📡 Resumen de los Pasos:\n\n\nAbrir el navegador.\nIr a la barra de búsqueda y escribir “ChileAtiende”.\nBuscar y hacer clic en el enlace oficial.\nExplorar el sitio y guardar en favoritos si es necesario."
   },
   {
+    "objectID": "citt_2025/presentacion.html#qué-dicen-los-diarios-de-la-ia",
+    "href": "citt_2025/presentacion.html#qué-dicen-los-diarios-de-la-ia",
+    "title": "Taller de Python + IA para todos",
+    "section": "¿Qué dicen los diarios de la IA?",
+    "text": "¿Qué dicen los diarios de la IA?"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#si-presten-atención-al-hombre-tras-la-cortina",
+    "href": "citt_2025/presentacion.html#si-presten-atención-al-hombre-tras-la-cortina",
+    "title": "Taller de Python + IA para todos",
+    "section": "SI presten atención al hombre tras la cortina",
+    "text": "SI presten atención al hombre tras la cortina"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#section",
+    "href": "citt_2025/presentacion.html#section",
+    "title": "Taller de Python + IA para todos",
+    "section": "",
+    "text": "Parte 1\nLa ilusión de la continuidad"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#desafío",
+    "href": "citt_2025/presentacion.html#desafío",
+    "title": "Taller de Python + IA para todos",
+    "section": "Desafío",
+    "text": "Desafío\n¿Qué contiene la siguiente cadena de bits?\n00000000 00101010"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#qué-aprendimos",
+    "href": "citt_2025/presentacion.html#qué-aprendimos",
+    "title": "Taller de Python + IA para todos",
+    "section": "¿Qué aprendimos?",
+    "text": "¿Qué aprendimos?\n\nNinguna representación en el computador es perfecta.\nLos LLMs tampoco lo son… ¡y no tienen que serlo!"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#section-1",
+    "href": "citt_2025/presentacion.html#section-1",
+    "title": "Taller de Python + IA para todos",
+    "section": "",
+    "text": "Parte 2\nEl computador parlanchín"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#cómo-representar-una-palabra",
+    "href": "citt_2025/presentacion.html#cómo-representar-una-palabra",
+    "title": "Taller de Python + IA para todos",
+    "section": "¿Cómo representar una palabra?",
+    "text": "¿Cómo representar una palabra?"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#representación-textual",
+    "href": "citt_2025/presentacion.html#representación-textual",
+    "title": "Taller de Python + IA para todos",
+    "section": "Representación textual",
+    "text": "Representación textual\nSi solo queremos transcribir texto, basta con representar cada letra con una secuencia de bits, y almacenarla.\n\n\nASCII\n\n1 byte (8 bits): 128 carácteres posibles\n0 (48) … 9 (57)\nA (65) … Z (90)\na (97) … z (122)\nProblema: Faltan muchos carácteres: Ñ, ñ, á, é, í, ó, ú, u\n\n\nUTF-8\n\n1 a 4 bytes (8 a 32 bits)\nMantiene ASCII sin cambios\nPermite representar alfabetos latinos, griego, árabe, siríaco, thaana, y n’ko, además de caracteres chinos, japoneses y coreanos.\nIncluye emojis 😁, simbolos ✅ y mil cosas más 🗿"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#representación-semántica",
+    "href": "citt_2025/presentacion.html#representación-semántica",
+    "title": "Taller de Python + IA para todos",
+    "section": "Representación semántica",
+    "text": "Representación semántica\n\n\n\n\nSemántica significa el sentido o significado de las palabras.\nNecesitamos guardarla como un todo o dividirla en partes con sentido (tokens)."
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#actividad-2.1",
+    "href": "citt_2025/presentacion.html#actividad-2.1",
+    "title": "Taller de Python + IA para todos",
+    "section": "Actividad 2.1",
+    "text": "Actividad 2.1\n\nActividad: Ir a https://platform.openai.com/tokenizer\nObjetivo: Evaluar distintos textos, en distintos idiomas.\n\n\nEjemplo 1Ejemplo 2\n\n\nEspañol: La informática,​ también llamada computación, es el área de la ciencia que se encarga de estudiar la administración de métodos, técnicas y procesos con el fin de almacenar, procesar y transmitir información y datos en formato digital.\n\n\nInglés: Computing is any goal-oriented activity requiring, benefiting from, or creating computing machinery. It includes the study and experimentation of algorithmic processes, and the development of both hardware and software. Computing has scientific, engineering, mathematical, technological, and social aspects."
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#aprendizajes",
+    "href": "citt_2025/presentacion.html#aprendizajes",
+    "title": "Taller de Python + IA para todos",
+    "section": "💡 Aprendizajes",
+    "text": "💡 Aprendizajes\n\nPalabra ≠ Token\nCada token tiene un ID único\n\nEn inglés, 100 tokens ≈ 75 palabras\n\nDos palabras iguales pueden tener tokens distintos, según el contexto"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#llm-large-language-model",
+    "href": "citt_2025/presentacion.html#llm-large-language-model",
+    "title": "Taller de Python + IA para todos",
+    "section": "LLM = Large Language Model",
+    "text": "LLM = Large Language Model"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#diagrama-técnico-de-un-llm",
+    "href": "citt_2025/presentacion.html#diagrama-técnico-de-un-llm",
+    "title": "Taller de Python + IA para todos",
+    "section": "Diagrama técnico de un LLM",
+    "text": "Diagrama técnico de un LLM"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#actividad-2.2",
+    "href": "citt_2025/presentacion.html#actividad-2.2",
+    "title": "Taller de Python + IA para todos",
+    "section": "Actividad 2.2",
+    "text": "Actividad 2.2\n\nActividad: Ir a https://huggingface.co/spaces/alonsosilva/NextTokenPrediction\nObjetivo: Observar la lista de token que se muestran como posible continuación del texto."
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#aprendizajes-1",
+    "href": "citt_2025/presentacion.html#aprendizajes-1",
+    "title": "Taller de Python + IA para todos",
+    "section": "💡 Aprendizajes",
+    "text": "💡 Aprendizajes\n\nEl LLM no reflexiona, solo predice el token más probable.\n\nLa predicción es secuencial, token por token.\n\nNo tiene memoria: siempre parte desde cero.\n\n\nComparar con una multiplicación de matrices. La matriz no recuerda que ya hizo multiplicaciones antes."
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#el-negocio-de-los-llms",
+    "href": "citt_2025/presentacion.html#el-negocio-de-los-llms",
+    "title": "Taller de Python + IA para todos",
+    "section": "El negocio de los LLMs",
+    "text": "El negocio de los LLMs\n\n\n\n\nLos LLMs tienen billones de parámetros.\n\nSe entrenan con textos masivos (internet, libros, etc.).\n\nRequieren mucho poder computacional (GPUs por horas)."
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#el-negocio-de-los-llms-1",
+    "href": "citt_2025/presentacion.html#el-negocio-de-los-llms-1",
+    "title": "Taller de Python + IA para todos",
+    "section": "El negocio de los LLMs",
+    "text": "El negocio de los LLMs\nNo existe solo chatGPT (OpenAI): todos quieren un pedazo de la torta:\n\n\nLos de pago:\n\nGPT-4 (OpenAI)\nGemini (Google)\nClaude (Anthropic)\n…\n\n\nLos de código abierto:\n\nLlama (Meta)\nQwen (Baidu)\nDeepSeek (China)\n…"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#section-2",
+    "href": "citt_2025/presentacion.html#section-2",
+    "title": "Taller de Python + IA para todos",
+    "section": "",
+    "text": "Parte 3\n¡Hazlo tu mismo!"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#actividad-1",
+    "href": "citt_2025/presentacion.html#actividad-1",
+    "title": "Taller de Python + IA para todos",
+    "section": "Actividad 1",
+    "text": "Actividad 1\n\n🧠 Teoría🛠️ ActividadCode💡 Aprendizajes\n\n\n¿Cómo podemos emular chatGPT?\n\n\nEjecutar localmente LLM:\n\nConfiguración compleja\nHardware costoso\n\n\nConsumir una API de LLM\n\nSimple y pago por uso\nVarias opciones y proveedores\n\n\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/v1\nObjetivo: Lograr que el bot responda “una pregunta”\n\nTiempo: 5 minutos\n\n\n\n\n\n\n\n\n\nEl LLM responde en función del prompt.\nEl prompt puede pedir cualquier cosa.\nPrompts cortos entregan resultados muy variables."
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#actividad-2",
+    "href": "citt_2025/presentacion.html#actividad-2",
+    "title": "Taller de Python + IA para todos",
+    "section": "Actividad 2",
+    "text": "Actividad 2\n\n🧠 Teoría🛠️ Actividad💡 Aprendizajes\n\n\n\nLos LLMs no tienen personalidad propia, pero tú puedes definir cómo deben comportarse mediante el prompt.\nEsto se logra describiendo explícitamente el rol, el tono y el estilo que deseas que adopte el modelo.\n\n\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/vdos\nObjetivo:\n\nO1: Hacer 2 preguntas relacionadas.\nO2: Cambiar la personalidad del bot.\nTiempo: 5 minutos\n\n\n\n\n\nSeparar en contexto y pregunta permite imponer una “personalidad” o ciertas características.\nUn LLM no tiene memoria."
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#actividad-3-1",
+    "href": "citt_2025/presentacion.html#actividad-3-1",
+    "title": "Taller de Python + IA para todos",
+    "section": "Actividad 3",
+    "text": "Actividad 3\n\n🧠 Teoría I🧠 Teoría II🛠️ Actividad💡 Aprendizajes\n\n\n¿Por qué chatGPT si tiene memoria?\nMuy simple: Pasemosle la historia de la conversación en cada prompt.\n\nOpción 1: Pasarle todo el texto.\nOpción 2: Pasarle un resumen de la conversación.\n\n\n\n\n¿Qué es la temperatura?\nEs un parámetro que controla que tan aleatoria es la elección del siguiente token. - Temperatura = 0: Muy determinista. - Temperatura = 1: Muy aleatorio.\n\n\n\nActividad: Ir a https://cittripio.streamlit.app/vf\nObjetivo:\n\nO1: Lograr que cittripio le responda a Luke Skywalker que es su padre.\nO2: Cambiar la personalidad de cittripio por cualquier otro personaje (no necesariamente de Star Wars).\nTiempo: 5 minutos\n\n\n\n\n\nEl LLM necesita tener como input todo el contexto e historia en el prompt.\nLas APIs agregan muchas opciones para simplificar y manejar todo esto convenientemente."
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#section-3",
+    "href": "citt_2025/presentacion.html#section-3",
+    "title": "Taller de Python + IA para todos",
+    "section": "",
+    "text": "Parte 4\nConclusión"
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#conclusión",
+    "href": "citt_2025/presentacion.html#conclusión",
+    "title": "Taller de Python + IA para todos",
+    "section": "🚀 Conclusión",
+    "text": "🚀 Conclusión\n✅ LLMs no son magia: es tecnología.\n✅ Cualquiera puede comenzar a crear soluciones con LLMs.\n✅ Conocer como funcionan LLMs permite usarlos mejor.\n✅ Existen muchos recursos gratuitos para aprender y jugar."
+  },
+  {
+    "objectID": "citt_2025/presentacion.html#gracias-por-participar",
+    "href": "citt_2025/presentacion.html#gracias-por-participar",
+    "title": "Taller de Python + IA para todos",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "🎉 Presentaciones",
     "section": "",
-    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.\n🎤 Crea, Innova y Presenta: Data Storytelling con A.I. - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.\n🎤 Más allá del Infinito - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.\n🎤 De los Números a la Narrativa - Este taller profundiza en cómo transformar datos en visualizaciones impactantes, utilizando Python y herramientas de visualización para contar historias claras y persuasivas.\n🎤 Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.\n🎤 Innovación en MAT281: Colab y Evaluaciones Dinámicas - Descubre cómo Google Colab y nuevas evaluaciones transformaron el curso MAT281, mejorando el acceso y la motivación de los estudiantes a través de un enfoque dinámico y colaborativo.\n🎤 Inteligencia Artificial en la Educación - Aprende cómo la Inteligencia Artificial está transformando el aprendizaje, desde la personalización de contenidos hasta el análisis de datos educativos. Esta presentación explora aplicaciones prácticas de la IA en la enseñanza para crear experiencias más enriquecedoras y adaptativas.\n🎤 ¿Y Ahora Qué? Del Aula al Trabajo - Descubre cómo prepararte para el mundo laboral al finalizar tus estudios. Esta charla aborda habilidades clave, herramientas prácticas y estrategias para destacarte en tu transición profesional y adaptarte a un entorno laboral competitivo.\n🎤 Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub - Aprende a automatizar y versionar tus materiales educativos interactivos utilizando Quarto y GitHub. Descubre cómo estas herramientas te permiten crear, actualizar y compartir contenidos de forma eficiente, facilitando la colaboración y el acceso a recursos dinámicos en cualquier lugar del mundo.\n🎤 From Data to Narrative: Interactive Storytelling with Shiny - Esta presentación te mostrará cómo transformar datos en historias interactivas atractivas utilizando Shiny. Aprende a crear paneles dinámicos y visualizaciones que cautiven a tu audiencia y den vida a los insights de los datos.\n\nVersión en Inglés\nVersión en Español\n\n🎤 ¡Adiós Word, Hola LaTeX! - Aprende a crear documentos académicos y científicos con formato profesional utilizando LaTeX. Descubre cómo esta herramienta te permite automatizar referencias y ecuaciones, ofreciendo una experiencia de escritura profesional y dinámica.\n🎤 No es Magia, es Ciencia - Diseña preguntas y comandos efectivos para interactuar con herramientas de inteligencia artificial como ChatGPT. Aprende a estructurar prompts que resuelvan problemas académicos, generen ideas y mejoren tus resultados de manera precisa y ética."
+    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!\n\n🎤 Uso de Quarto para crear clases interactivas - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.\n🎤 Crea, Innova y Presenta: Data Storytelling con A.I. - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.\n🎤 Más allá del Infinito - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.\n🎤 De los Números a la Narrativa - Este taller profundiza en cómo transformar datos en visualizaciones impactantes, utilizando Python y herramientas de visualización para contar historias claras y persuasivas.\n🎤 Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.\n🎤 Innovación en MAT281: Colab y Evaluaciones Dinámicas - Descubre cómo Google Colab y nuevas evaluaciones transformaron el curso MAT281, mejorando el acceso y la motivación de los estudiantes a través de un enfoque dinámico y colaborativo.\n🎤 Inteligencia Artificial en la Educación - Aprende cómo la Inteligencia Artificial está transformando el aprendizaje, desde la personalización de contenidos hasta el análisis de datos educativos. Esta presentación explora aplicaciones prácticas de la IA en la enseñanza para crear experiencias más enriquecedoras y adaptativas.\n🎤 ¿Y Ahora Qué? Del Aula al Trabajo - Descubre cómo prepararte para el mundo laboral al finalizar tus estudios. Esta charla aborda habilidades clave, herramientas prácticas y estrategias para destacarte en tu transición profesional y adaptarte a un entorno laboral competitivo.\n🎤 Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub - Aprende a automatizar y versionar tus materiales educativos interactivos utilizando Quarto y GitHub. Descubre cómo estas herramientas te permiten crear, actualizar y compartir contenidos de forma eficiente, facilitando la colaboración y el acceso a recursos dinámicos en cualquier lugar del mundo.\n🎤 From Data to Narrative: Interactive Storytelling with Shiny - Esta presentación te mostrará cómo transformar datos en historias interactivas atractivas utilizando Shiny. Aprende a crear paneles dinámicos y visualizaciones que cautiven a tu audiencia y den vida a los insights de los datos.\n\nVersión en Inglés\nVersión en Español\n\n🎤 ¡Adiós Word, Hola LaTeX! - Aprende a crear documentos académicos y científicos con formato profesional utilizando LaTeX. Descubre cómo esta herramienta te permite automatizar referencias y ecuaciones, ofreciendo una experiencia de escritura profesional y dinámica.\n🎤 No es Magia, es Ciencia - Diseña preguntas y comandos efectivos para interactuar con herramientas de inteligencia artificial como ChatGPT. Aprende a estructurar prompts que resuelvan problemas académicos, generen ideas y mejoren tus resultados de manera precisa y ética.\n🎤 Educación Abierta y Comunidad - Aprende a crear contenidos educativos y colaborar con otros profesionales en el área de la educación. Descubre cómo utilizar herramientas como GitHub y Quarto para automatizar y compartir tus materiales educativos, y cómo colaborar con otros profesionales para mejorar tus conocimientos y habilidades."
   },
   {
     "objectID": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
@@ -2426,70 +2524,77 @@
     "href": "shiny_2025/presentacion.html#about-me",
     "title": "From Data to Narrative",
     "section": "About me",
-    "text": "About me\n\n\n\n\n\n\n\n\n\n\nFrancisco Alfaro Medina aka fralfaro\nMember of Python Chile\nLead Data Scientist at Grupo Security\n\nAssociate Lecturer at UTFSM\n\n\n\nMy names is Francisco Alfaro Medina aka fralfaro"
+    "text": "About me\n\n\n\n\n\n\n\n\n\n\nFrancisco Alfaro Medina aka fralfaro\nMember of Python Chile\nLead Data Scientist at Grupo Security\n\nAssociate Lecturer at UTFSM\n\n\n\nMy name is Francisco Alfaro Medina, also known as fralfaro.\nI’m a member of Python Chile, currently working as Lead Data Scientist at Grupo Security, and I also teach at UTFSM."
   },
   {
     "objectID": "shiny_2025/presentacion.html#agenda",
     "href": "shiny_2025/presentacion.html#agenda",
     "title": "From Data to Narrative",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\nNo\nNope\nNo chance"
+    "text": "Agenda\n\n\n\n\nNo\nNope\nNo chance\n\n\n\n\n\nMost talks start with a detailed agenda slide…\nBut not this one.\nI want this to feel more like a story we explore together, not a checklist."
   },
   {
     "objectID": "shiny_2025/presentacion.html#section",
     "href": "shiny_2025/presentacion.html#section",
     "title": "From Data to Narrative",
     "section": "",
-    "text": "Storytelling principle #1\n\n\nNever reveal the ending too soon.\nAlways build up tension and drama"
+    "text": "Storytelling principle #1\n\n\nNever reveal the ending too soon.\nAlways build up tension and drama\n\n\n\n\n\nLesson #1 of Storytelling. NEVER kill the suspense. Don’t give up the reveal. No book or joke starts by revealing the ending, why would you? Only explain the content if it raises the stakes and makes it more interesting!"
   },
   {
     "objectID": "shiny_2025/presentacion.html#agenda-v2",
     "href": "shiny_2025/presentacion.html#agenda-v2",
     "title": "From Data to Narrative",
     "section": "Agenda (v2)",
-    "text": "Agenda (v2)\n\n\nNever reveal the ending\n\nDetails are important, but not all details are important.\n\nYour first draft will be horrible.\n\nExplain less, show more"
+    "text": "Agenda (v2)\n\n\nNever reveal the ending\n\nDetails are important, but not all details are important.\n\nYour first draft will be horrible.\n\nExplain less, show more\n\n\n\nThis will actually be our agenda for today…\nBut I’m not going to reveal what each point means until we reach it.\nIt’s part of the story — you’ll only connect the dots at the end.\nAlso, each of these points reflects a lesson in storytelling and communication with data.\nSo keep them in the back of your mind — they’ll make more sense as we go."
   },
   {
     "objectID": "shiny_2025/presentacion.html#section-1",
     "href": "shiny_2025/presentacion.html#section-1",
     "title": "From Data to Narrative",
     "section": "",
-    "text": "Storytelling\nWhy Storytelling?"
+    "text": "Storytelling\nWhy Storytelling?\n\n\nOK, so, why data storytelling?"
   },
   {
     "objectID": "shiny_2025/presentacion.html#what-is-storytelling",
     "href": "shiny_2025/presentacion.html#what-is-storytelling",
     "title": "From Data to Narrative",
     "section": "What is Storytelling?",
-    "text": "What is Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Stories are the first human technology."
+    "text": "What is Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Stories are the first human technology.\n\n\nPeople have been telling stories since the begining, because it’s just the way our brains work. [click] It’s a “built-in technology” because it allows for knowledge transmission. It allows collective learning and cooperation at small and large scale.\nStories are not a random collection of facts. There’s a very specific order: start, conflict, conflict resolution, ending. That’s the pattern that the brain craves, because it can learn from it. That’s why we consume so much stories in any form: books, comics, tv-series, movies, etcetera. So, what do you do when you know how something works? You hack it, of course!"
   },
   {
     "objectID": "shiny_2025/presentacion.html#ohh-those-hackable-brains",
     "href": "shiny_2025/presentacion.html#ohh-those-hackable-brains",
     "title": "From Data to Narrative",
     "section": "Ohh, those hackable brains",
-    "text": "Ohh, those hackable brains\n\n\n\n\nPeak-End Rule\n\n\nGame of Thrones Rating, by Kelvin Neo"
+    "text": "Ohh, those hackable brains\n\n\n\n\nPeak-End Rule\n\n\nGame of Thrones Rating, by Kelvin Neo\n\n\nThe peak-end rule is a fun fact. You remember something for: What was the most intense emotion How it ended You can use this to build your presentation around the big ending you want. If you are not convinced, let me give you a real example. [click] We, collectively, enjoyed 7 seasons of this great tv series. Can you guess wich one it is? [click] Yes, the whole game of thrones series is remembered by the not-so-great ending and the peak scenes (do you remember the red wedding?) What’s really interesting is that is not symmetrical. We can forgive a bad first season, but never a bad grand finale. Endings matter!"
   },
   {
     "objectID": "shiny_2025/presentacion.html#narrative",
     "href": "shiny_2025/presentacion.html#narrative",
     "title": "From Data to Narrative",
     "section": "Narrative",
-    "text": "Narrative\n\n\n Use Storytelling tricks (narrative) to create presentations that will be remembered and make an impact\n\n\n\n\n\n\n\n\n\n🎭 Emotions inspire action"
+    "text": "Narrative\n\n\n Use Storytelling tricks (narrative) to create presentations that will be remembered and make an impact\n\n\n\n\n\n\n\n\n\n🎭 Emotions inspire action\n\n\nWe are only as good as our communication skills. If you’re really really good, but cannot articulate your ideas and communicate effectively, you’ll only be as good as someone bad but with great communication skills. Think of storytelling is a bag of tricks you can use to make better presentations. Presentations that will change something on your audience. [click] Think of Sherlock Holmes. We enjoyed his stories, not because he was a genius, but because of how Doctor John Watson describe the cases. It’s not enough to crack the case and solve the mystery. We need to be able to collect the important facts and to tell an engaging story. [click] The key point is: Only emotions create actions."
   },
   {
     "objectID": "shiny_2025/presentacion.html#the-best-example",
     "href": "shiny_2025/presentacion.html#the-best-example",
     "title": "From Data to Narrative",
     "section": "The best example",
-    "text": "The best example\n\n\n\n\n\n\n\n\n How to make millions of people share statistics on social media?"
+    "text": "The best example\n\n\n\n\n\n\n\n\n How to make millions of people share statistics on social media?\n\n\n\n\n\n\n\n\nWould you agree to spend 10 minutes to share on social media about some data statistics a company made? No? Well, I’m pretty sure you did. [click] You probably remember Spotify wrapped. Can you remember how you felt after you saw your yearly data analysis? After all, it’s just some stats, but it feels more than that. Personally, I always learn something about my musical taste, and it’s weird to see that it has changed over the years. Anyway. It’s engaging because it’s told as a story. Not cold numbers."
   },
   {
     "objectID": "shiny_2025/presentacion.html#section-2",
     "href": "shiny_2025/presentacion.html#section-2",
     "title": "From Data to Narrative",
     "section": "",
-    "text": "Data Storytelling\nTool #1: Visualization"
+    "text": "Data Storytelling\nTool #1: Visualization\n\n\nSo, let me tell you about how visualization and storytelling are related."
+  },
+  {
+    "objectID": "shiny_2025/presentacion.html#examples",
+    "href": "shiny_2025/presentacion.html#examples",
+    "title": "From Data to Narrative",
+    "section": "Examples",
+    "text": "Examples\n\n\n 🔢 Don’t share numbers\n\n 🪶 Share a story\n\n\n (C) Storytelling with Data, by Cole Nussbaumer Knaflic.\n\nSo, details are important. [click] But not all details are important. On writing this is called the Chekhov’s Gun: If in the first act you describe a pistol hung on the wall, then the pistol must be fired at some point. Otherwise don’t put it there. (Chekhov’s Gun)"
   },
   {
     "objectID": "shiny_2025/presentacion.html#section-3",
@@ -2499,32 +2604,18 @@
     "text": "Storytelling principle #2\n\n\nDetails matter, but not all details are important."
   },
   {
-    "objectID": "shiny_2025/presentacion.html#examples",
-    "href": "shiny_2025/presentacion.html#examples",
-    "title": "From Data to Narrative",
-    "section": "Examples",
-    "text": "Examples\n\n\n 🔢 Don’t share numbers\n\n 🪶 Share a story\n\n\n (C) Storytelling with Data, by Cole Nussbaumer Knaflic."
-  },
-  {
     "objectID": "shiny_2025/presentacion.html#best-charts-for-your-data",
     "href": "shiny_2025/presentacion.html#best-charts-for-your-data",
     "title": "From Data to Narrative",
     "section": "Best Charts for your Data",
-    "text": "Best Charts for your Data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C) Essential chart types for data visualization, por Atlassian."
+    "text": "Best Charts for your Data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C) Essential chart types for data visualization, por Atlassian.\n\nWhen we think about the best chart for our data, there are countless options.\nBut honestly, most of the time you don’t need anything fancy.\nIf you master just a few — like bar plots, scatter plots, box plots, heatmaps, and well-placed text —\nyou can already create impactful and clear visualizations.\nThese six types cover the vast majority of use cases.\nSo when in doubt, start simple and focus on clarity."
   },
   {
     "objectID": "shiny_2025/presentacion.html#section-4",
     "href": "shiny_2025/presentacion.html#section-4",
     "title": "From Data to Narrative",
     "section": "",
-    "text": "Data Storytelling\nTool #2: AI"
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#section-5",
-    "href": "shiny_2025/presentacion.html#section-5",
-    "title": "From Data to Narrative",
-    "section": "",
-    "text": "Storytelling principle #3\n\n\nYour first draft will always be horrible."
+    "text": "Data Storytelling\nTool #2: AI\n\n\nLet’s talk about our second storytelling tool: AI.\nAI is not here to replace your story — it’s here to help you tell it better.\nWhether you’re generating ideas, testing visuals, or refining your message,\nAI can help you explore new possibilities and get to the point faster.\nWe’ll see how it can support your data storytelling process in a creative and practical way."
   },
   {
     "objectID": "shiny_2025/presentacion.html#examples-1",
@@ -2534,32 +2625,25 @@
     "text": "Examples\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🥱 1° version \\(&lt;\\) … \\(&lt;\\) 😊 last version"
   },
   {
-    "objectID": "shiny_2025/presentacion.html#using-ai-chatbots-to",
-    "href": "shiny_2025/presentacion.html#using-ai-chatbots-to",
+    "objectID": "shiny_2025/presentacion.html#section-5",
+    "href": "shiny_2025/presentacion.html#section-5",
     "title": "From Data to Narrative",
-    "section": "Using AI Chatbots to:",
-    "text": "Using AI Chatbots to:\n\n\n\n\nCreate customized templates\n\nAutomate content structure\n\nSave time on design\n\nAdapt to style and preferences"
+    "section": "",
+    "text": "Storytelling principle #3\n\n\nYour first draft will always be horrible."
   },
   {
-    "objectID": "shiny_2025/presentacion.html#chatbots-a.i.---ideas",
-    "href": "shiny_2025/presentacion.html#chatbots-a.i.---ideas",
+    "objectID": "shiny_2025/presentacion.html#from-ideas-to-impact-faster-with-ai",
+    "href": "shiny_2025/presentacion.html#from-ideas-to-impact-faster-with-ai",
     "title": "From Data to Narrative",
-    "section": "💡 Chatbots A.I. - Ideas",
-    "text": "💡 Chatbots A.I. - Ideas\n\n\n\n\nChatGPT (OpenAI)\nGemini (Google DeepMind)\nMeta AI (Meta)\nMistral (Mistral)"
+    "section": "From Ideas to Impact… Faster with AI",
+    "text": "From Ideas to Impact… Faster with AI\n\n\n\n\nFaster structure, less effort\n\nClearer stories, better impact\n\nVisuals in seconds\n\nMore time for creativity"
   },
   {
-    "objectID": "shiny_2025/presentacion.html#using-ai-chatbots-for",
-    "href": "shiny_2025/presentacion.html#using-ai-chatbots-for",
+    "objectID": "shiny_2025/presentacion.html#unlocking-creativity-with-ai-tools",
+    "href": "shiny_2025/presentacion.html#unlocking-creativity-with-ai-tools",
     "title": "From Data to Narrative",
-    "section": "Using AI Chatbots for:",
-    "text": "Using AI Chatbots for:\n\n\n\n\nAnalogies and examples\n\nBetter translations\n\nPrompts to create images\n\nDon’t search for images, create them!"
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#chatbots-a.i.---images",
-    "href": "shiny_2025/presentacion.html#chatbots-a.i.---images",
-    "title": "From Data to Narrative",
-    "section": "💡 Chatbots A.I. - Images",
-    "text": "💡 Chatbots A.I. - Images\n\n\n\n\nCanva + Magic Studio\nMicrosoft Designer\nNapkin AI\nMidjourney"
+    "section": "💡Unlocking Creativity with AI Tools",
+    "text": "💡Unlocking Creativity with AI Tools\n\n\n\n\nChatGPT (OpenAI)\nGemini (Google DeepMind)\nNapkin AI\nMidjourney\nBolt"
   },
   {
     "objectID": "shiny_2025/presentacion.html#section-6",
@@ -2569,6 +2653,13 @@
     "text": "Data Storytelling\nTool #3: Presentation"
   },
   {
+    "objectID": "shiny_2025/presentacion.html#examples-2",
+    "href": "shiny_2025/presentacion.html#examples-2",
+    "title": "From Data to Narrative",
+    "section": "Examples",
+    "text": "Examples\n\nCodePlot\n\n\nLet’s see how much code we need to say something as simple as:\n“Do you like this presentation?”\nIt may seem like a small question, but turning that into code requires defining categories, assigning values, choosing colors, and setting plot parameters.\nAnd that’s just to get a basic bar chart.\ncategories &lt;- c(\"Yes\", \"No\")\nvalues &lt;- c(75, 25)\ncolors &lt;- c(\"lightblue\", \"salmon\")\nbarplot(\n  values, names.arg = categories, col = colors, \n  main = \"😊 Do you like the presentation so far? 😊\", cex.main = 0.9\n)"
+  },
+  {
     "objectID": "shiny_2025/presentacion.html#section-7",
     "href": "shiny_2025/presentacion.html#section-7",
     "title": "From Data to Narrative",
@@ -2576,18 +2667,11 @@
     "text": "Storytelling principle #4\n\n\nExplain less, show more."
   },
   {
-    "objectID": "shiny_2025/presentacion.html#explain-less-show-more",
-    "href": "shiny_2025/presentacion.html#explain-less-show-more",
+    "objectID": "shiny_2025/presentacion.html#quarto-extensions",
+    "href": "shiny_2025/presentacion.html#quarto-extensions",
     "title": "From Data to Narrative",
-    "section": "Explain less, show more",
-    "text": "Explain less, show more\n\ncategories &lt;- c(\"Yes\", \"No\")\nvalues &lt;- c(75, 25)\ncolors &lt;- c(\"lightblue\", \"salmon\")\nbarplot(\n  values, names.arg = categories, col = colors, \n  main = \"😊 Do you like the presentation so far? 😊\", cex.main = 0.9)"
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#quarto",
-    "href": "shiny_2025/presentacion.html#quarto",
-    "title": "From Data to Narrative",
-    "section": "Quarto",
-    "text": "Quarto\n\n\n\nQuarto is an open system for scientific publications with markdown and interactive code (Python/R)."
+    "section": "📝 Quarto (+ Extensions)",
+    "text": "📝 Quarto (+ Extensions)\n\n\n\nQuarto is an open system for scientific publications with markdown and interactive code (Python/R).\n\n\n🔧 Need more power? Use Extensions"
   },
   {
     "objectID": "shiny_2025/presentacion.html#section-8",
@@ -2597,20 +2681,6 @@
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
   },
   {
-    "objectID": "shiny_2025/presentacion.html#examples-2",
-    "href": "shiny_2025/presentacion.html#examples-2",
-    "title": "From Data to Narrative",
-    "section": "Examples",
-    "text": "Examples\n\nCodePlot\n\n\ncategories &lt;- c(\"Yes\", \"No\")\nvalues &lt;- c(75, 25)\ncolors &lt;- c(\"lightblue\", \"salmon\")\nbarplot(\n  values, names.arg = categories, col = colors, \n  main = \"😊 Do you like the presentation so far? 😊\", cex.main = 0.9\n)"
-  },
-  {
-    "objectID": "shiny_2025/presentacion.html#quarto-extensions",
-    "href": "shiny_2025/presentacion.html#quarto-extensions",
-    "title": "From Data to Narrative",
-    "section": "Quarto Extensions",
-    "text": "Quarto Extensions\n\nExtensions are a powerful tool to modify and extend the behavior of Quarto."
-  },
-  {
     "objectID": "shiny_2025/presentacion.html#quarto-webr",
     "href": "shiny_2025/presentacion.html#quarto-webr",
     "title": "From Data to Narrative",
@@ -2618,11 +2688,11 @@
     "text": "🌐 Quarto WebR\n\n\n\n\nWebR: Run R code in the browser, no installation required.\n# To install WebR in your environment\nremotes::install_github(\"attiyap/WebR\")\nPyodide: Same, but for Python.\n# To install Pyodide\npip install pyodide"
   },
   {
-    "objectID": "shiny_2025/presentacion.html#examples-3",
-    "href": "shiny_2025/presentacion.html#examples-3",
+    "objectID": "shiny_2025/presentacion.html#example",
+    "href": "shiny_2025/presentacion.html#example",
     "title": "From Data to Narrative",
-    "section": "Examples",
-    "text": "Examples\n\nWebR - ex1WebR - ex2\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "section": "Example",
+    "text": "Example\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
     "objectID": "shiny_2025/presentacion.html#shiny",
@@ -2643,7 +2713,7 @@
     "href": "shiny_2025/presentacion.html#quarto-shinylive",
     "title": "From Data to Narrative",
     "section": "🌐 Quarto Shinylive",
-    "text": "🌐 Quarto Shinylive\n\n\n\nCode to deploy Shiny applications that run entirely in the browser, using Pyodide and webR (Python and R compiled to WebAssembly).\n\n\n\n\n\n🌐 Shinylive in R, 🐍 Shinylive in Python"
+    "text": "🌐 Quarto Shinylive\n\n\n\n\nDeploy Shiny apps that run 100% in the browser — with Python & R (via WebAssembly).\nNo servers. No setup. Just code & run.\n\n\n\n\n\n\n\nStay in your presentation.\nStay in the flow. 🎯"
   },
   {
     "objectID": "shiny_2025/presentacion.html#quarto-shiny",
@@ -2671,6 +2741,6 @@
     "href": "shiny_2025/presentacion.html#thank-you-for-participating",
     "title": "From Data to Narrative",
     "section": "🎉 Thank You for Participating!",
-    "text": "🎉 Thank You for Participating!\n\n\n\n❓ Questions?\n👏 Fill out the survey\n🥳 Thank You Again!\n\n\n\n\n🔗 Our Website: seth-nut.github.io/resources."
+    "text": "🎉 Thank You for Participating!\n\n\n\n❓ Questions?\n👏 Fill out the survey\n🥳 Thank You Again!\n\n\n\n\n✨ Shine On with Shiny! (www.shinyconf.com)"
   }
 ]
