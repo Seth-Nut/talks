@@ -9,7 +9,7 @@ format:
     transition: slide
     title-slide-attributes: 
       data-background-image: images/background.jpg
-    logo: images/shiny_2025.png
+    logo: images/shinyv2.png
 filters:
   - quarto-ext/shinylive
 ---
@@ -32,7 +32,8 @@ filters:
 :::
 
 ::: notes
-My names is Francisco Alfaro Medina aka *fralfaro*
+My name is Francisco Alfaro Medina, also known as *fralfaro*.  
+I'm a member of Python Chile, currently working as Lead Data Scientist at Grupo Security, and I also teach at UTFSM.
 :::
 
 ------------------------------------------------------------------------
@@ -55,6 +56,12 @@ My names is Francisco Alfaro Medina aka *fralfaro*
 :::
 :::
 
+::: notes
+Most talks start with a detailed agenda slide...  
+But not this one.  
+I want this to feel more like a story we explore together, not a checklist.
+:::
+
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
@@ -68,6 +75,14 @@ Never reveal the ending too soon.\
 :::
 :::
 
+::: {.notes}
+Lesson #1 of Storytelling.
+NEVER kill the suspense. 
+Don't give up the reveal. 
+No book or joke starts by revealing the ending, why would you? 
+Only explain the content if it raises the stakes and makes it more interesting!
+:::
+
 ------------------------------------------------------------------------
 
 ## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
@@ -79,6 +94,15 @@ Never reveal the ending too soon.\
 4.  Explain less, [show more]{style="background-color:black;"}
 :::
 
+::: notes
+This will actually *be* our agenda for today...  
+But I'm not going to reveal what each point means until we reach it.  
+It's part of the story — you’ll only connect the dots at the end.  
+
+Also, each of these points reflects a lesson in storytelling and communication with data.  
+So keep them in the back of your mind — they’ll make more sense as we go.
+:::
+
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
@@ -88,6 +112,12 @@ Never reveal the ending too soon.\
 
 [Why Storytelling?]{style="font-size: 1.5em"}
 :::
+
+
+::: {.notes}
+OK, so, why data storytelling?
+:::
+
 
 ------------------------------------------------------------------------
 
@@ -109,6 +139,17 @@ Never reveal the ending too soon.\
 🔥 **Stories** are the first human technology.
 :::
 
+:::{.notes}
+People have been telling stories since the begining, because it's just the way our brains work. 
+[click]
+It's a "built-in technology" because it allows for knowledge transmission. 
+It allows collective learning and cooperation at small and large scale.
+
+Stories are not a random collection of facts. There's a very specific order: start, conflict, conflict resolution, ending. 
+That's the pattern that the brain craves, because it can learn from it. That's why we consume so much stories in any form: books, comics, tv-series, movies, etcetera.
+So, what do you do when you know how something works? You hack it, of course!
+:::
+
 ------------------------------------------------------------------------
 
 ## Ohh, those hackable brains {background-image="images/background.jpg" background-opacity="0.25"}
@@ -125,6 +166,19 @@ Never reveal the ending too soon.\
 ![](images/storytelling/got.jpg){fig-align="center" width="100%"}\
 *Game of Thrones Rating, by Kelvin Neo*
 :::
+:::
+
+:::{.notes}
+The peak-end rule is a fun fact. You remember something for:
+What was the most intense emotion
+How it ended
+You can use this to build your presentation around the big ending you want. 
+If you are not convinced, let me give you a real example. 
+[click]
+We, collectively, enjoyed 7 seasons of this great tv series. Can you guess wich one it is?
+[click]
+Yes, the whole game of thrones series is remembered by the not-so-great ending and the peak scenes (do you remember the red wedding?)
+What's really interesting is that is not symmetrical. We can forgive a bad first season, but never a bad grand finale. Endings matter!
 :::
 
 ------------------------------------------------------------------------
@@ -147,6 +201,18 @@ Never reveal the ending too soon.\
 🎭 Emotions inspire action
 :::
 
+
+:::{.notes}
+We are only as good as our communication skills. If you’re really really good, but cannot articulate your ideas and communicate effectively, you’ll only be as good as someone bad but with great communication skills. 
+Think of storytelling is a bag of tricks you can use to make better presentations.
+Presentations that will change something on your audience.
+[click]
+Think of Sherlock Holmes. We enjoyed his stories, not because he was a genius, but  because of how Doctor John Watson describe the cases. It’s not enough to crack the case and solve the mystery. We need to be able to collect the important facts and to tell an engaging story. 
+[click]
+The key point is: Only emotions create actions.
+:::
+
+
 ------------------------------------------------------------------------
 
 ## The best example {background-image="images/background.jpg" background-opacity="0.25"}
@@ -165,6 +231,13 @@ Never reveal the ending too soon.\
 :::
 :::
 
+:::{.notes}
+Would you agree to spend 10 minutes to share on social media about some data statistics a company made? No? Well, I’m pretty sure you did.
+[click]
+You probably remember Spotify wrapped. 
+Can you remember how you felt after you saw your yearly data analysis? After all, it's just some stats, but it feels more than that. Personally, I always learn something about my musical taste, and it's weird to see that it has changed over the years. Anyway. It's engaging because it's told as a story. Not cold numbers.
+:::
+
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
@@ -175,17 +248,11 @@ Never reveal the ending too soon.\
 [Tool #1: Visualization]{style="font-size: 1.5em"}
 :::
 
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Storytelling principle #2
-
-Details matter, [but not **all** details are important.]{.fragment}
+:::{.notes}
+So, let me tell you about how visualization and storytelling are related.
 :::
-:::
+
+
 
 ------------------------------------------------------------------------
 
@@ -205,6 +272,26 @@ Details matter, [but not **all** details are important.]{.fragment}
 
 <br><br> [(C) Storytelling with Data, by Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
 
+
+:::{.notes}
+So, details are important. [click] But not all details are important.
+On writing this is called the Chekhov's Gun: 
+If in the first act you describe a pistol hung on the wall, then the pistol must be fired at some point. Otherwise don’t put it there. (Chekhov's Gun)
+:::
+
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #2
+
+Details matter, [but not **all** details are important.]{.fragment}
+:::
+:::
+
 ------------------------------------------------------------------------
 
 ## Best Charts for your Data {background-image="images/background.jpg" background-opacity="0.25"}
@@ -221,6 +308,17 @@ Details matter, [but not **all** details are important.]{.fragment}
 
 [(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
 
+::: notes
+When we think about the best chart for our data, there are countless options.  
+But honestly, most of the time you don’t need anything fancy.
+
+If you master just a few — like **bar plots**, **scatter plots**, **box plots**, **heatmaps**, and **well-placed text** —  
+you can already create impactful and clear visualizations.
+
+These six types cover the vast majority of use cases.  
+So when in doubt, start simple and focus on clarity.
+:::
+
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
@@ -231,17 +329,18 @@ Details matter, [but not **all** details are important.]{.fragment}
 [Tool #2: AI]{style="font-size: 1.5em"}
 :::
 
-------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+::: notes
+Let’s talk about our second storytelling tool: **AI**.  
+AI is not here to replace your story — it's here to help you tell it better.
 
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Storytelling principle #3
+Whether you're generating ideas, testing visuals, or refining your message,  
+AI can help you explore new possibilities and get to the point faster.
 
-Your first draft will [**always** be horrible.]{.fragment}
+We'll see how it can support your data storytelling process in a creative and practical way.
 :::
-:::
+
+
 
 ------------------------------------------------------------------------
 
@@ -267,54 +366,29 @@ Your first draft will [**always** be horrible.]{.fragment}
 
 ------------------------------------------------------------------------
 
-## Using AI Chatbots to: {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
-::: {.column width="65%"}
-<br>
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #3
 
--   Create customized templates\
--   Automate content structure\
--   Save time on design\
--   Adapt to style and preferences\
-:::
-
-::: {.column .fragment width="35%"}
-![](images/ai/template.png){fig-align="center"}
+Your first draft will [**always** be horrible.]{.fragment}
 :::
 :::
+
 
 ------------------------------------------------------------------------
 
-## 💡 Chatbots A.I. - Ideas {background-image="images/background.jpg" background-opacity="0.25"}
+##  From Ideas to Impact... Faster with AI {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="60%" .fragment}
 <br>
 
--   [ChatGPT (OpenAI)](https://openai.com/chatgpt/)
--   [Gemini (Google DeepMind)](https://deepmind.google/gemini/)
--   [Meta AI (Meta)](https://ai.meta.com/)
--   [Mistral (Mistral)](https://www.mistral.ai/)
-:::
-
-::: {.column width="40%"}
-<img src="images/ai/ai_ideas.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Using AI Chatbots for: {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="60%"}
-<br>
-
--   Analogies and examples\
--   Better translations\
--   Prompts to create images\
--   Don't search for images, create them!\
+- Faster structure, less effort  
+- Clearer stories, better impact  
+- Visuals in seconds  
+- More time for creativity 
 :::
 
 ::: {.column .fragment width="40%"}
@@ -322,24 +396,28 @@ Your first draft will [**always** be horrible.]{.fragment}
 :::
 :::
 
+
+
 ------------------------------------------------------------------------
 
-## 💡 Chatbots A.I. - Images {background-image="images/background.jpg" background-opacity="0.25"}
+## 💡Unlocking Creativity with AI Tools {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="60%" .fragment}
 <br>
 
--   [Canva + Magic Studio](https://www.canva.com/magic/)
--   [Microsoft Designer](https://designer.microsoft.com/)
+-   [ChatGPT (OpenAI)](https://openai.com/chatgpt/)
+-   [Gemini (Google DeepMind)](https://deepmind.google/gemini/)
 -   [Napkin AI](https://www.napkin.one/)
 -   [Midjourney](https://www.midjourney.com/)
+-   [Bolt](https://bolt.new/)
 :::
 
 ::: {.column width="40%"}
 <img src="images/ai/ai_images.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
+
 
 ------------------------------------------------------------------------
 
@@ -349,6 +427,43 @@ Your first draft will [**always** be horrible.]{.fragment}
 [Data Storytelling]{style="font-size: 1em"}
 
 [Tool #3: Presentation]{style="font-size: 1.5em"}
+:::
+
+
+
+------------------------------------------------------------------------
+
+## Examples {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: panel-tabset
+## Code
+
+Let’s see how much code we need to say something as simple as:  
+“Do you like this presentation?”
+
+It may seem like a small question, but turning that into code requires defining categories, assigning values, choosing colors, and setting plot parameters.  
+And that’s just to get a basic bar chart.
+
+
+``` r
+categories <- c("Yes", "No")
+values <- c(75, 25)
+colors <- c("lightblue", "salmon")
+barplot(
+  values, names.arg = categories, col = colors, 
+  main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9
+)
+```
+
+## Plot
+
+```{r}
+categories <- c("Yes", "No")
+values <- c(75, 25)
+colors <- c("lightblue", "salmon")
+barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
+```
 :::
 
 ------------------------------------------------------------------------
@@ -365,44 +480,27 @@ Your first draft will [**always** be horrible.]{.fragment}
 
 ------------------------------------------------------------------------
 
-## [Explain less]{style="color: red"}, [show more]{style="color: green"} {background-image="images/background.jpg" background-opacity="0.25"}
-
-<br>
-
-``` r
-categories <- c("Yes", "No")
-values <- c(75, 25)
-colors <- c("lightblue", "salmon")
-barplot(
-  values, names.arg = categories, col = colors, 
-  main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
-```
-
-. . .
-
-```{r}
-categories <- c("Yes", "No")
-values <- c(75, 25)
-colors <- c("lightblue", "salmon")
-par(mfrow = c(2, 1), mar = c(1, 2, 1, 1),  oma = c(1, 8, 1, 3)   )
-barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
-```
-
-------------------------------------------------------------------------
-
-## Quarto {background-image="images/background.jpg" background-opacity="0.25"}
+## 📝 Quarto (+ Extensions) {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="60%" .fragment}
 <br><br>
 
 [Quarto](https://quarto.org/) is an open system for scientific publications with markdown and interactive code (Python/R).
+
+<br>
+
+> 🔧 Need more power? Use [Extensions](https://quarto.org/docs/extensions/)
+
+
 :::
 
 ::: {.column width="40%"}
 ![](images/quarto/quarto2.png)
 :::
 :::
+
+
 
 ------------------------------------------------------------------------
 
@@ -450,44 +548,6 @@ format:
 :::
 :::
 
-------------------------------------------------------------------------
-
-## Examples {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: panel-tabset
-## Code
-
-``` r
-categories <- c("Yes", "No")
-values <- c(75, 25)
-colors <- c("lightblue", "salmon")
-barplot(
-  values, names.arg = categories, col = colors, 
-  main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9
-)
-```
-
-## Plot
-
-```{r}
-categories <- c("Yes", "No")
-values <- c(75, 25)
-colors <- c("lightblue", "salmon")
-barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
-```
-:::
-
-------------------------------------------------------------------------
-
-## Quarto Extensions {background-image="images/background.jpg" background-opacity="0.25"}
-
-<br>
-
-[Extensions](https://quarto.org/docs/extensions/) are a powerful tool to modify and extend the behavior of Quarto.
-
-::: {style="text-align: center;"}
-<img src="images/quarto/quarto-extensions.png" alt="Tachado" style="width: 70%; border-radius: 10px;"/>
-:::
 
 ------------------------------------------------------------------------
 
@@ -519,28 +579,15 @@ barplot(values, names.arg = categories, col = colors, main = "😊 Do you like t
 
 ------------------------------------------------------------------------
 
-## Examples {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: panel-tabset
-## WebR - ex1
-
-```{webr-r}
-x <- c(1, 2, 3, 4, 5)
-y <- c(2, 4, 6, 8, 10)
-par(mfrow = c(2, 1), mar = c(1, 1, 1, 1),  oma = c(1, 10, 1, 1)   )
-plot(x, y, type="o", col="blue", pch=16, lwd=2, xlab="", ylab="", main="Simple Line Plot")
-```
-
-## WebR - ex2
+## Example {background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{webr-r}
 categories <- c("Yes", "No")
 values <- c(75, 25)
 colors <- c("lightblue", "salmon")
-par(mfrow = c(2, 1), mar = c(1, 2, 1, 1),  oma = c(1, 8, 1, 3)   )
+par(mfrow = c(1, 1), mar = c(7, 4, 1, 1),  oma = c(1, 6, 1, 1)   )
 barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
 ```
-:::
 
 ------------------------------------------------------------------------
 
@@ -571,10 +618,11 @@ barplot(values, names.arg = categories, col = colors, main = "😊 Do you like t
 ## 🌐 Quarto Shinylive {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="60%" .fragment}
 <br>
 
-Code to deploy **Shiny** applications that run entirely in the browser, using **Pyodide** and **webR** (Python and R compiled to WebAssembly).
+* Deploy **Shiny** apps that run 100% in the browser — with **Python** & **R** (via WebAssembly).
+* No servers. No setup. Just code & run. 
 :::
 
 ::: {.column width="40%"}
@@ -584,7 +632,12 @@ Code to deploy **Shiny** applications that run entirely in the browser, using **
 
 . . .
 
-> 🌐 [Shinylive in R](https://shinylive.io/r/examples/), 🐍 [Shinylive in Python](https://shinylive.io/py/examples/)
+<br>
+
+::: {style="text-align: center; font-size: 1.2em;"}
+Stay in your presentation.  
+Stay in the flow. 🎯
+:::
 
 ------------------------------------------------------------------------
 
@@ -696,7 +749,7 @@ Opción 2: Una agenda misteriosa.
 :::
 :::
 
-> 🔗 Our Website: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
+> ✨ Shine On with Shiny! ([www.shinyconf.com](https://www.shinyconf.com/))
 
 ```{=html}
 <style>
@@ -728,7 +781,7 @@ Opción 2: Una agenda misteriosa.
 }
 
 .reveal .slide-logo {
-   max-height: 1em !important;
+   max-height: 3em !important;
 }
 
 

@@ -13,152 +13,141 @@ format:
     slide-attributes:
       data-background-image: images/background.jpg
     logo: images/logo_sn.png
-    
 ---
 
 ## 🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial? {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.r-stack}
+::: r-stack
 ![](images/male_height.jpg){.fragment .fade-in-then-out width="400%" fig-align="left"}
 
 ![](images/Honestidad2.png){.fragment .fade-in-then-out width="60%" fig-align="center"}
 
 ![](images/buengrafico.png){.fragment width="600%" fig-align="right"}
-
 :::
 
----
+------------------------------------------------------------------------
 
 ## 🎯 Objetivos del Taller {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.incremental}
-* 📊 Aprender sobre visualización de datos.
-* 🧑‍🎨 Aprender a crear visualizaciones.
-* 🌐 Entender cómo construir una app interactiva.
-* 💻 Integrar visualizaciones en una aplicación web simple.
+::: incremental
+-   📊 Aprender sobre visualización de datos.
+-   🧑‍🎨 Aprender a crear visualizaciones.
+-   🌐 Entender cómo construir una app interactiva.
+-   💻 Integrar visualizaciones en una aplicación web simple.
 :::
 
----
+------------------------------------------------------------------------
 
 ## 🤔 ¿Qué es la Visualización de Datos? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="60%"}
-<br>
-La visualización de datos transforma información en gráficos para facilitar su comprensión. 
+<br> La visualización de datos transforma información en gráficos para facilitar su comprensión.
 :::
 
-::: {.column width="40%" .fragment}
+::: {.column .fragment width="40%"}
 ![](images/eye.jpeg){fig-align="center"}
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ## Cuarteto de ANSCOMBE {background-image="images/background.jpg" background-opacity="0.25"}
+
 ::: columns
-::: {.column width="50%" style="text-align: center;" }
+::: {.column width="50%" style="text-align: center;"}
 ![](images/viz/canscombe_01.png){fig-align="center" width="80%"}
 :::
-::: {.column width="50%" .fragment style="text-align: center;" }
-<br>
-![](images/viz/canscombe_02.png){fig-align="center" width="100%"}
+
+::: {.column .fragment width="50%" style="text-align: center;"}
+<br> ![](images/viz/canscombe_02.png){fig-align="center" width="100%"}
 :::
 :::
 
-::: {style="text-align:center" .fragment}
+::: {.fragment style="text-align:center"}
 📋 Tablas vs 📊 Gráficos
 :::
 
----
+------------------------------------------------------------------------
 
 ## Teoría de visualización {background-image="images/background.jpg" background-opacity="0.25"}
 
 ![](images/viz/teoria_vis.png){fig-align="center" width="90%"}
 
----
+------------------------------------------------------------------------
 
-## 4 Pilares Visualización -  Noah Iliinsky {background-image="images/background.jpg" background-opacity="0.25"}
+## 4 Pilares Visualización - Noah Iliinsky {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%" .fragment .incremental}
+::: {.column .fragment .incremental width="60%"}
 <br>
 
-1. **Propósito**: Define la meta.
-2. **Contenido**: Datos relevantes.
-3. **Estructura**: Organización clara.
-4. **Formato**: Gráfico adecuado.
-
+1.  **Propósito**: Define la meta.
+2.  **Contenido**: Datos relevantes.
+3.  **Estructura**: Organización clara.
+4.  **Formato**: Gráfico adecuado.
 :::
 
-::: {.column width="40%" }
+::: {.column width="40%"}
 ![](images/viz/pilar2.png){fig-align="center"}
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ## Herramientas de Visualización en Python {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ![](images/plotly.jpg){fig-align="center"}
 
----
+------------------------------------------------------------------------
 
 ## Exploración de Datos {background-image="images/background.jpg" background-opacity="0.25"}
 
 . . .
 
-![](images/viz/looker.png){width=400 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
+![](images/viz/looker.png){width="400" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
 
 . . .
 
-![](images/viz/tableau.png){.absolute top=125 left=25 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![](images/viz/tableau.png){.absolute top="125" left="25" width="800" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
 . . .
 
-![](images/viz/pbi.png){.absolute top=150 left=50 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+![](images/viz/pbi.png){.absolute top="150" left="50" width="800" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
 
 . . .
 
-[¡Demasiadas opciones! <br> El usuario no puede ser responsable de encontrar lo valioso.]{ style="background-color: #fff" }
+[¡Demasiadas opciones! <br> El usuario no puede ser responsable de encontrar lo valioso.]{style="background-color: #fff"}
 
----
+------------------------------------------------------------------------
 
 ## Tipos de Gráficos Esenciales {background-image="images/background.jpg" background-opacity="0.25"}
 
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;"}
+<img src="images/viz/chart_01.png" style="width: 75%; height: auto;"/> <img src="images/viz/chart_04.png" style="width: 75%; height: auto;"/>
 
+<img src="images/viz/chart_03.png" style="width: 75%; height: auto;"/> <img src="images/viz/chart_05.png" style="width: 70%; height: auto;"/>
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-
-<img src="images/viz/chart_01.png" style="width: 75%; height: auto;"/> 
-<img src="images/viz/chart_04.png" style="width: 75%; height: auto;"/>
-
-<img src="images/viz/chart_03.png" style="width: 75%; height: auto;"/>
-<img src="images/viz/chart_05.png" style="width: 70%; height: auto;"/>
-
-<img src="images/viz/chart_02.png" style="width: 75%; height: auto;"/>
-<img src="images/viz/chart_07.png" style="width: 85%; height: auto;"/>
-
-</div>
+<img src="images/viz/chart_02.png" style="width: 75%; height: auto;"/> <img src="images/viz/chart_07.png" style="width: 85%; height: auto;"/>
+:::
 
 . . .
 
 [(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
 
----
+------------------------------------------------------------------------
 
 ## ![](images/matplolib.webp "width:80%"){fig-align="center"} {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.incremental}
-* [Matplotlib](https://matplotlib.org/) es una biblioteca para crear gráficos estáticos.
-* Tipos de gráficos más comunes:
-    * Líneas, Barras, Dispersión, Histograma.
-
+::: incremental
+-   [Matplotlib](https://matplotlib.org/) es una biblioteca para crear gráficos estáticos.
+-   Tipos de gráficos más comunes:
+    -   Líneas, Barras, Dispersión, Histograma.
 :::
 
----
+------------------------------------------------------------------------
 
-## 〽️ Ejemplo: líneas {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+## 〽️ Ejemplo: líneas {.scrollable background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{pyodide-python}
 import matplotlib.pyplot as plt
@@ -169,9 +158,9 @@ plt.plot(x, y)
 plt.show()
 ```
 
----
+------------------------------------------------------------------------
 
-## 〽️ Ejemplo: dispersión {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+## 〽️ Ejemplo: dispersión {.scrollable background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{pyodide-python}
 import matplotlib.pyplot as plt
@@ -182,9 +171,9 @@ plt.scatter(x, y)
 plt.show()
 ```
 
----
+------------------------------------------------------------------------
 
-## 〽️ Ejemplo: barras {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+## 〽️ Ejemplo: barras {.scrollable background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{pyodide-python}
 import matplotlib.pyplot as plt
@@ -195,15 +184,15 @@ plt.bar(x, y)
 plt.show()
 ```
 
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ![](images/Anatomy_1.png){fig-align="center"}
 
----
+------------------------------------------------------------------------
 
-## 〽️ Ejemplo: barras horizontales {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+## 〽️ Ejemplo: barras horizontales {.scrollable background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{pyodide-python}
 import matplotlib.pyplot as plt
@@ -218,23 +207,20 @@ plt.grid(True)
 plt.show()
 ```
 
----
+------------------------------------------------------------------------
 
 ## ![](images/seaborn.png){fig-align="center"} {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.incremental}
-
-* [Seaborn](https://seaborn.pydata.org/)
- extiende Matplotlib con gráficos más estilizados.
-* Especialmente útil para:
-    * Gráficos estadísticos.
-    * Análisis exploratorio de datos.
-  
+::: incremental
+-   [Seaborn](https://seaborn.pydata.org/) extiende Matplotlib con gráficos más estilizados.
+-   Especialmente útil para:
+    -   Gráficos estadísticos.
+    -   Análisis exploratorio de datos.
 :::
 
----
+------------------------------------------------------------------------
 
-## 📊 Ejemplo: penguins {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+## 📊 Ejemplo: penguins {.scrollable background-image="images/background.jpg" background-opacity="0.25"}
 
 ```{python}
 import seaborn as sns
@@ -251,11 +237,11 @@ penguins.head()
 
 ```
 
----
+------------------------------------------------------------------------
 
-## 📊 Ejemplo: dispersión {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+## 📊 Ejemplo: dispersión {.scrollable background-image="images/background.jpg" background-opacity="0.25"}
 
-```python
+``` python
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -267,6 +253,7 @@ sns.scatterplot(x='bill_length_mm', y='bill_depth_mm', data=penguins,
 # Mostrar el gráfico
 plt.show()
 ```
+
 . . .
 
 ```{python}
@@ -281,11 +268,12 @@ sns.scatterplot(x='bill_length_mm', y='bill_depth_mm', data=penguins,
 # Mostrar el gráfico
 plt.show()
 ```
----
 
-## 📊 Ejemplo: dispersión {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+------------------------------------------------------------------------
 
-```python
+## 📊 Ejemplo: dispersión {.scrollable background-image="images/background.jpg" background-opacity="0.25"}
+
+``` python
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -297,6 +285,7 @@ sns.scatterplot(x='flipper_length_mm', y='body_mass_g', data=penguins,
 # Mostrar el gráfico
 plt.show()
 ```
+
 . . .
 
 ```{python}
@@ -311,11 +300,12 @@ sns.scatterplot(x='flipper_length_mm', y='body_mass_g', data=penguins,
 # Mostrar el gráfico
 plt.show()
 ```
----
 
-## 📊 Matplotlib vs Seaborn {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+------------------------------------------------------------------------
 
-```python
+## 📊 Matplotlib vs Seaborn {.scrollable background-image="images/background.jpg" background-opacity="0.25"}
+
+``` python
 import matplotlib.pyplot as plt
 
 # Contar la cantidad de Pingüinos por tipo
@@ -344,9 +334,9 @@ plt.show()
 
 ```
 
-## 📊 Matplotlib vs Seaborn {background-image="images/background.jpg" background-opacity="0.25".scrollable}
+## 📊 Matplotlib vs Seaborn {.scrollable background-image="images/background.jpg" background-opacity="0.25"}
 
-```python
+``` python
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -357,6 +347,7 @@ sns.countplot(data=penguins, x="species", color="salmon")
 # Mostrar el gráfico
 plt.show()
 ```
+
 ```{python}
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -369,42 +360,42 @@ sns.countplot(data=penguins, x="species", color="salmon")
 plt.show()
 ```
 
----
+------------------------------------------------------------------------
 
 ## 🧑🏻‍💻 Aplicaciones Web Interactivas {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.incremental}
-* Streamlit permite crear aplicaciones web rápidamente.
-* Puedes integrar gráficos creados con Matplotlib y Seaborn.
-* Ideal para compartir resultados de análisis de datos.
+::: incremental
+-   Streamlit permite crear aplicaciones web rápidamente.
+-   Puedes integrar gráficos creados con Matplotlib y Seaborn.
+-   Ideal para compartir resultados de análisis de datos.
 :::
 
----
+------------------------------------------------------------------------
 
 ## Ejemplo de Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
 
-<img style="width:90%;" src="./images/streamlit/streamlit.gif"><br>
+<img src="./images/streamlit/streamlit.gif" style="width:90%;"/><br>
 
----
+------------------------------------------------------------------------
 
-## {auto-animate=true}
+##  {auto-animate="true"}
 
 ::: {style="margin-top: 100px;"}
 ¡Ahora te toca a ti!🫵
 :::
 
-## {auto-animate=true}
+##  {auto-animate="true"}
 
 ::: {style="margin-top: 200px; font-size: 3em; color: red;"}
 ¡Ahora te toca a ti!🫵
 :::
 
----
+------------------------------------------------------------------------
 
 ## 🎓 Conclusión {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.incremental}
-* Matplotlib para gráficos básicos.
-* Seaborn para gráficos avanzados.
-* Streamlit para aplicaciones interactivas.
+::: incremental
+-   Matplotlib para gráficos básicos.
+-   Seaborn para gráficos avanzados.
+-   Streamlit para aplicaciones interactivas.
 :::

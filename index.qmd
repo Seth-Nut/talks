@@ -35,3 +35,5 @@ output: html_document
 -   🎤 [¡Adiós Word, Hola LaTeX!](latex_2025/presentacion.html) - Aprende a crear documentos académicos y científicos con formato profesional utilizando LaTeX. Descubre cómo esta herramienta te permite automatizar referencias y ecuaciones, ofreciendo una experiencia de escritura profesional y dinámica.
 
 -   🎤 [No es Magia, es Ciencia](prompts_chatgpt/presentacion.html) - Diseña preguntas y comandos efectivos para interactuar con herramientas de inteligencia artificial como ChatGPT. Aprende a estructurar prompts que resuelvan problemas académicos, generen ideas y mejoren tus resultados de manera precisa y ética.
+
+-   🎤 [Educación Abierta y Comunidad](comunidad_2025/presentacion.html) - Aprende a crear contenidos educativos y colaborar con otros profesionales en el área de la educación. Descubre cómo utilizar herramientas como GitHub y Quarto para automatizar y compartir tus materiales educativos, y cómo colaborar con otros profesionales para mejorar tus conocimientos y habilidades.

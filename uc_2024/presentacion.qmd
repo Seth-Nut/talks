@@ -304,14 +304,11 @@ plt.show()
 
 ## P4:Evaluación Externa {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-
 ::: r-stack
 ![](images/proyectos_01.png){.fragment .fade-in-then-out width="100%" fig-align="center"}
 
 ![](images/proyectos_02.png){.fragment width="100%" fig-align="center"}
 :::
-
-
 
 ------------------------------------------------------------------------
 
@@ -492,7 +489,6 @@ plt.show()
 
 ![](images/proyectos_03.jpg){.fragment width="65%" fig-align="center"}
 :::
-
 
 ------------------------------------------------------------------------
 
