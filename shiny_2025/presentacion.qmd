@@ -78,9 +78,10 @@ Never reveal the ending too soon.\
 ::: {.notes}
 Lesson #1 of Storytelling.
 NEVER kill the suspense. 
-Don't give up the reveal. 
-No book or joke starts by revealing the ending, why would you? 
-Only explain the content if it raises the stakes and makes it more interesting!
+Storytelling Tip:  
+Keep your audience curious.  
+Don’t spoil the ending — build tension first!  
+Surprise makes stories memorable.
 :::
 
 ------------------------------------------------------------------------
@@ -94,13 +95,10 @@ Only explain the content if it raises the stakes and makes it more interesting!
 4.  Explain less, [show more]{style="background-color:black;"}
 :::
 
-::: notes
-This will actually *be* our agenda for today...  
-But I'm not going to reveal what each point means until we reach it.  
-It's part of the story — you’ll only connect the dots at the end.  
-
-Also, each of these points reflects a lesson in storytelling and communication with data.  
-So keep them in the back of your mind — they’ll make more sense as we go.
+::: {.notes}
+Today’s agenda = storytelling lessons.  
+We’ll uncover each one as we go — no spoilers.  
+Stay curious.
 :::
 
 ------------------------------------------------------------------------
@@ -139,15 +137,10 @@ OK, so, why data storytelling?
 🔥 **Stories** are the first human technology.
 :::
 
-:::{.notes}
-People have been telling stories since the begining, because it's just the way our brains work. 
-[click]
-It's a "built-in technology" because it allows for knowledge transmission. 
-It allows collective learning and cooperation at small and large scale.
-
-Stories are not a random collection of facts. There's a very specific order: start, conflict, conflict resolution, ending. 
-That's the pattern that the brain craves, because it can learn from it. That's why we consume so much stories in any form: books, comics, tv-series, movies, etcetera.
-So, what do you do when you know how something works? You hack it, of course!
+::: {.notes}
+Stories are how humans share knowledge.  
+It’s our oldest learning tool — built for memory, connection, and meaning.  
+Use it well.
 :::
 
 ------------------------------------------------------------------------
@@ -168,17 +161,10 @@ So, what do you do when you know how something works? You hack it, of course!
 :::
 :::
 
-:::{.notes}
-The peak-end rule is a fun fact. You remember something for:
-What was the most intense emotion
-How it ended
-You can use this to build your presentation around the big ending you want. 
-If you are not convinced, let me give you a real example. 
-[click]
-We, collectively, enjoyed 7 seasons of this great tv series. Can you guess wich one it is?
-[click]
-Yes, the whole game of thrones series is remembered by the not-so-great ending and the peak scenes (do you remember the red wedding?)
-What's really interesting is that is not symmetrical. We can forgive a bad first season, but never a bad grand finale. Endings matter!
+::: {.notes}
+People remember peaks and endings.  
+Strong emotions + a great finale = lasting impact.  
+Plan your story with this in mind.
 :::
 
 ------------------------------------------------------------------------
@@ -202,14 +188,10 @@ What's really interesting is that is not symmetrical. We can forgive a bad first
 :::
 
 
-:::{.notes}
-We are only as good as our communication skills. If you’re really really good, but cannot articulate your ideas and communicate effectively, you’ll only be as good as someone bad but with great communication skills. 
-Think of storytelling is a bag of tricks you can use to make better presentations.
-Presentations that will change something on your audience.
-[click]
-Think of Sherlock Holmes. We enjoyed his stories, not because he was a genius, but  because of how Doctor John Watson describe the cases. It’s not enough to crack the case and solve the mystery. We need to be able to collect the important facts and to tell an engaging story. 
-[click]
-The key point is: Only emotions create actions.
+::: {.notes}
+Great ideas need great communication.  
+Storytelling is your toolkit to move people.  
+Facts inform — emotions inspire action.
 :::
 
 
@@ -231,11 +213,10 @@ The key point is: Only emotions create actions.
 :::
 :::
 
-:::{.notes}
-Would you agree to spend 10 minutes to share on social media about some data statistics a company made? No? Well, I’m pretty sure you did.
-[click]
-You probably remember Spotify wrapped. 
-Can you remember how you felt after you saw your yearly data analysis? After all, it's just some stats, but it feels more than that. Personally, I always learn something about my musical taste, and it's weird to see that it has changed over the years. Anyway. It's engaging because it's told as a story. Not cold numbers.
+::: {.notes}
+Spotify Wrapped = storytelling with data.  
+Not just stats — it’s *your* story.  
+That’s why millions share it every year.
 :::
 
 ------------------------------------------------------------------------
@@ -273,10 +254,10 @@ So, let me tell you about how visualization and storytelling are related.
 <br><br> [(C) Storytelling with Data, by Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
 
 
-:::{.notes}
-So, details are important. [click] But not all details are important.
-On writing this is called the Chekhov's Gun: 
-If in the first act you describe a pistol hung on the wall, then the pistol must be fired at some point. Otherwise don’t put it there. (Chekhov's Gun)
+::: {.notes}
+Numbers inform.  
+Stories connect.  
+Show only what matters — everything else is noise.
 :::
 
 
@@ -290,6 +271,12 @@ If in the first act you describe a pistol hung on the wall, then the pistol must
 
 Details matter, [but not **all** details are important.]{.fragment}
 :::
+:::
+
+::: {.notes}
+Details guide attention.  
+Show less — but better.  
+Focus only on what moves the story forward.
 :::
 
 ------------------------------------------------------------------------
@@ -308,15 +295,10 @@ Details matter, [but not **all** details are important.]{.fragment}
 
 [(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
 
-::: notes
-When we think about the best chart for our data, there are countless options.  
-But honestly, most of the time you don’t need anything fancy.
-
-If you master just a few — like **bar plots**, **scatter plots**, **box plots**, **heatmaps**, and **well-placed text** —  
-you can already create impactful and clear visualizations.
-
-These six types cover the vast majority of use cases.  
-So when in doubt, start simple and focus on clarity.
+::: {.notes}
+You don’t need fancy charts.  
+Bar, scatter, box, heatmap, big text — that's 90% of data storytelling.  
+Simple wins.
 :::
 
 ------------------------------------------------------------------------
@@ -330,16 +312,10 @@ So when in doubt, start simple and focus on clarity.
 :::
 
 
-::: notes
-Let’s talk about our second storytelling tool: **AI**.  
-AI is not here to replace your story — it's here to help you tell it better.
-
-Whether you're generating ideas, testing visuals, or refining your message,  
-AI can help you explore new possibilities and get to the point faster.
-
-We'll see how it can support your data storytelling process in a creative and practical way.
+::: {.notes}
+AI won’t tell your story for you.  
+But it will help you tell it better — faster, clearer, and more creative.
 :::
-
 
 
 ------------------------------------------------------------------------
@@ -364,6 +340,12 @@ We'll see how it can support your data storytelling process in a creative and pr
 🥱 1° version $<$ ... $<$ 😊 last version
 :::
 
+::: {.notes}
+First versions are never perfect.  
+Draft → feedback → improve.  
+Storytelling is an iterative process.
+:::
+
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
@@ -376,6 +358,12 @@ Your first draft will [**always** be horrible.]{.fragment}
 :::
 :::
 
+
+::: {.notes}
+Bad first drafts are normal.  
+Don’t aim for perfect — aim to start.  
+Refining comes later.
+:::
 
 ------------------------------------------------------------------------
 
@@ -396,6 +384,11 @@ Your first draft will [**always** be horrible.]{.fragment}
 :::
 :::
 
+::: {.notes}
+First drafts are messy — that’s normal.  
+AI helps you go from idea → clarity → impact much faster.  
+Less time stuck, more time creating.
+:::
 
 
 ------------------------------------------------------------------------
@@ -418,6 +411,11 @@ Your first draft will [**always** be horrible.]{.fragment}
 :::
 :::
 
+::: {.notes}
+AI tools = creative shortcuts.  
+They help you write, visualize, and explore ideas faster.  
+Use them as assistants — not replacements.
+:::
 
 ------------------------------------------------------------------------
 
@@ -429,7 +427,11 @@ Your first draft will [**always** be horrible.]{.fragment}
 [Tool #3: Presentation]{style="font-size: 1.5em"}
 :::
 
-
+::: {.notes}
+Your story needs a stage.  
+Presentation tools shape how people feel your message.  
+Design it with care — it’s part of the story.
+:::
 
 ------------------------------------------------------------------------
 
@@ -478,6 +480,12 @@ barplot(values, names.arg = categories, col = colors, main = "😊 Do you like t
 :::
 :::
 
+::: {.notes}
+Sometimes we write too much...  
+When a simple image or chart says it all — faster and clearer.  
+Remember: Show, don’t tell.
+:::
+
 ------------------------------------------------------------------------
 
 ## 📝 Quarto (+ Extensions) {background-image="images/background.jpg" background-opacity="0.25"}
@@ -499,6 +507,13 @@ barplot(values, names.arg = categories, col = colors, main = "😊 Do you like t
 ![](images/quarto/quarto2.png)
 :::
 :::
+
+::: {.notes}
+Quarto makes it easy to write, code, and share.  
+Clean documents by default — more powerful with extensions.  
+One tool for writing, coding, and presenting.
+:::
+
 
 
 
@@ -549,6 +564,14 @@ format:
 :::
 
 
+
+::: {.notes}
+Write once in Quarto — export everywhere.  
+Same file, clean code, beautiful slides.  
+Focus on content, let Quarto handle the rest.
+:::
+
+
 ------------------------------------------------------------------------
 
 ## 🌐 Quarto WebR {background-image="images/background.jpg" background-opacity="0.25"}
@@ -577,6 +600,12 @@ format:
 :::
 :::
 
+::: {.notes}
+WebR and Pyodide run code directly in the browser.  
+No setup, no installs — just share and run.  
+Perfect for teaching, demos, and interactive content.
+:::
+
 ------------------------------------------------------------------------
 
 ## Example {background-image="images/background.jpg" background-opacity="0.25"}
@@ -588,6 +617,17 @@ colors <- c("lightblue", "salmon")
 par(mfrow = c(1, 1), mar = c(7, 4, 1, 1),  oma = c(1, 6, 1, 1)   )
 barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
 ```
+
+
+::: {.notes}
+This is a live R example.  
+
+Why run it live?  
+
+Because people learn better when they see and try.  
+No setup, no install — just code and results.  
+That’s the power of WebR.
+:::
 
 ------------------------------------------------------------------------
 
@@ -605,6 +645,12 @@ barplot(values, names.arg = categories, col = colors, main = "😊 Do you like t
 :::
 :::
 
+::: {.notes}
+Shiny lets you turn R code into interactive apps.  
+Great for dashboards, reports, and data exploration.  
+No web dev skills needed.
+:::
+
 ------------------------------------------------------------------------
 
 ## Shiny {background-image="images/background.jpg" background-opacity="0.25"}
@@ -612,6 +658,12 @@ barplot(values, names.arg = categories, col = colors, main = "😊 Do you like t
 <br>
 
 ![](https://shiny.posit.co/r/articles/improve/debugging/kmeans-showcase.gif){width="80%"}
+
+::: {.notes}
+Shiny apps let people interact with your data.  
+Change inputs — see results instantly.  
+Perfect for exploring and communicating insights.
+:::
 
 ------------------------------------------------------------------------
 
@@ -637,6 +689,14 @@ barplot(values, names.arg = categories, col = colors, main = "😊 Do you like t
 ::: {style="text-align: center; font-size: 1.2em;"}
 Stay in your presentation.  
 Stay in the flow. 🎯
+:::
+
+::: {.notes}
+Shinylive runs Shiny apps fully in the browser.  
+
+No servers, no install — just share and interact.  
+
+Great for live demos without breaking the flow.
 :::
 
 ------------------------------------------------------------------------
@@ -693,6 +753,14 @@ app = App(app_ui, server)
 
 ```
 
+::: {.notes}
+This is a full Shiny app — running in the browser.  
+
+Change values → update plot instantly.  
+
+Great for interactive presentations, surveys, or dashboards — without leaving the slides.
+:::
+
 ------------------------------------------------------------------------
 
 ## 🔗 Useful Links {background-image="images/background.jpg" background-opacity="0.25"}
@@ -714,6 +782,14 @@ app = App(app_ui, server)
 :::
 :::
 
+::: {.notes}
+If you want to go deeper — here are great resources.  
+
+Videos, docs, and examples to explore WebR and Shinylive on your own.  
+
+Learn by doing!
+:::
+
 ------------------------------------------------------------------------
 
 ## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
@@ -725,8 +801,12 @@ app = App(app_ui, server)
 4.  Explain less, [**show more**]{.fragment style="color:grey;"}
 :::
 
-::: notes
-Opción 2: Una agenda misteriosa.
+::: {.notes}
+A mysterious agenda — like a good story.  
+
+Now you’ve seen how each point connects.  
+
+Simple rules to tell better stories with data.
 :::
 
 ------------------------------------------------------------------------
@@ -750,6 +830,16 @@ Opción 2: Una agenda misteriosa.
 :::
 
 > ✨ Shine On with Shiny! ([www.shinyconf.com](https://www.shinyconf.com/))
+
+::: {.notes}
+Thank you so much for being here!  
+
+Feel free to ask questions — and please fill out the survey.  
+
+Let’s keep learning and creating great stories with data.  
+See you next time!
+:::
+
 
 ```{=html}
 <style>
