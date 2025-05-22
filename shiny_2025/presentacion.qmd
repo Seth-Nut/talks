@@ -9,7 +9,7 @@ format:
     transition: slide
     title-slide-attributes: 
       data-background-image: images/background.jpg
-    logo: images/shinyv2.png
+    logo: images/user_2025.png
 filters:
   - quarto-ext/shinylive
 ---

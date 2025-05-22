@@ -63,9 +63,8 @@ format:
 ::: {.column .incremental width="60%"}
 <br><br>
 
-- 🧠 Los LLMs generan lenguaje natural tras entrenarse con grandes volúmenes de texto.
-- 🤖 Se usan en chatbots, asistentes virtuales y tareas de procesamiento de lenguaje.
-  
+-   🧠 Los LLMs generan lenguaje natural tras entrenarse con grandes volúmenes de texto.
+-   🤖 Se usan en chatbots, asistentes virtuales y tareas de procesamiento de lenguaje.
 :::
 
 ::: {.column width="40%"}
@@ -83,10 +82,9 @@ format:
 ::: {.column .incremental width="50%"}
 <br><br>
 
-- 📦 Entrenados con billones de parámetros y textos masivos
-- 🛠️ Adaptables a múltiples tareas (traducción, resumen, Q&A, etc.)
-- 🌍 Aplicables en dominios diversos: salud, educación, negocios
-
+-   📦 Entrenados con billones de parámetros y textos masivos
+-   🛠️ Adaptables a múltiples tareas (traducción, resumen, Q&A, etc.)
+-   🌍 Aplicables en dominios diversos: salud, educación, negocios
 :::
 
 ::: {.column width="50%"}
@@ -108,28 +106,25 @@ format:
 
 ------------------------------------------------------------------------
 
-## ¿Cómo representar una palabra?  {background-image="images/background.jpg" background-opacity="0.25"}
+## ¿Cómo representar una palabra? {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-::: {style="text-align: center;" .fragment}
+::: {.fragment style="text-align: center;"}
 <img src="images/representacion.png" alt="Tachado" style="width: 75%; border-radius: 10px;"/>
 :::
 
 ------------------------------------------------------------------------
-
 
 ## 📝 Representación textual {background-image="images/background.jpg" background-opacity="0.25"}
 
 Transcribir texto es guardar letras como bits.
 
 ::: panel-tabset
-
 ## Teoría
 
 <br>
 
 ::: columns
-::: {.column  .center style="font-size: 24px;"}
+::: {.column .center style="font-size: 24px;"}
 ASCII
 
 -   1 byte (8 bits): 128 carácteres posibles
@@ -151,15 +146,10 @@ UTF-8
 
 ## Ejemplo
 
-::: {style="text-align: center;" }
+::: {style="text-align: center;"}
 <img src="images/encoding.jpg" alt="Tachado" style="width: 75%; border-radius: 10px;"/>
 :::
-
 :::
-
-
-
-
 
 ------------------------------------------------------------------------
 
@@ -174,8 +164,7 @@ UTF-8
 :::
 
 ::: {.column width="40%"}
-<br>
-![](images/semantica.jpg){fig-align="center"}
+<br> ![](images/semantica.jpg){fig-align="center"}
 :::
 :::
 
@@ -183,16 +172,11 @@ UTF-8
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: {style="text-align: center;"}
-<iframe
-    src="https://agents-course-the-tokenizer-playground.static.hf.space"
-    frameborder="0"
-    width="950"
-    height="650"
-  ></iframe>
-:::
+<iframe src="https://agents-course-the-tokenizer-playground.static.hf.space" frameborder="0" width="950" height="650">
 
+</iframe>
+:::
 
 ------------------------------------------------------------------------
 
@@ -204,6 +188,16 @@ UTF-8
 -   Cada **token** tiene un **ID único**\
 -   En inglés, **100 tokens ≈ 75 palabras**\
 -   Dos palabras **iguales** pueden tener **tokens distintos**, según el contexto
+
+------------------------------------------------------------------------
+
+## ⚙️ Diagrama técnico de un LLM {background-image="images/background.jpg" background-opacity="0.25"}
+
+Diagrama de funcionamiento de un LLM que se filtró de OpenAI:
+
+[**¡¡¡No difundir!!!**]{style="color: red;" .fragment}
+
+![](images/LLM_words.gif){fig-align="center" height=500px .fragment}
 
 ------------------------------------------------------------------------
 
@@ -221,17 +215,13 @@ UTF-8
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: {style="text-align: center;"}
-<iframe
-    src="https://agents-course-decoding-visualizer.hf.space"
-    frameborder="0"
-    width="950"
-    height="650"
-  ></iframe>
+<iframe src="https://agents-course-decoding-visualizer.hf.space" frameborder="0" width="950" height="650">
+
+</iframe>
 :::
 
----
+------------------------------------------------------------------------
 
 ## 💡 Aprendizajes {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -241,7 +231,7 @@ UTF-8
 -   La predicción es **secuencial**, token por token.\
 -   No tiene **memoria**: siempre parte desde cero.
 
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -251,7 +241,7 @@ UTF-8
 [¿Qué son los Prompts?]{style="font-size: 1.5em"}
 :::
 
---- 
+------------------------------------------------------------------------
 
 ## 🤖 Asistentes Virtuales Inteligentes {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -300,15 +290,13 @@ Los **asistentes virtuales** impulsados por **IA** facilitan la comunicación, a
 ::: {.column .incremental width="60%"}
 <br>
 
-- 🎓 **Educación**: Tutor virtual.  
-- 🩺 **Salud**: Asistencia en consultas.  
-- 📝 **Contenido**: Redacción y resumen.  
-- 💻 **Software**: Generación/corrección código.  
-- 💬 **Cliente**: Respuestas automáticas.  
-
+-   🎓 **Educación**: Tutor virtual.\
+-   🩺 **Salud**: Asistencia en consultas.\
+-   📝 **Contenido**: Redacción y resumen.\
+-   💻 **Software**: Generación/corrección código.\
+-   💬 **Cliente**: Respuestas automáticas.
 :::
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -336,22 +324,15 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 ------------------------------------------------------------------------
 
-
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: {style="text-align: center;"}
-<iframe
-    src="https://llama2.streamlit.app/?embed=true"
-    frameborder="0"
-    width="950"
-    height="650"
-  ></iframe>
+<iframe src="https://cittripio-v2.streamlit.app/?embed=true" frameborder="0" width="950" height="650">
+
+</iframe>
 :::
 
-
------ 
-
+------------------------------------------------------------------------
 
 ## Estructura de un Buen Prompts {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -364,53 +345,46 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 ## Estructura de un Buen Prompts {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: panel-tabset
-
 ## ❌ Sin estructura
+
 <br>
 
 > **Prompt:**
-> 
+>
 > ```         
 > ¿Cómo hacer una receta de pan con queso? 
 > ```
 
-
-
-## ✅ Estructurado 
+## ✅ Estructurado
 
 <br>
 
 > **Prompt:**
-> 
+>
 > ```         
 > Eres un chef experto en panadería. 
-> 
+>
 > Tu tarea es crear una receta de pan con queso que utilice al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno. 
-> 
+>
 > Busca una combinación que sea deliciosa y tenga buena textura.
-> 
+>
 > Este desarrollo se enmarca en la creación de un menú para un bistró que valora opciones artesanales.
-> 
+>
 > Importante: la receta debe ser sencilla de replicar en casa.
 > ```
 
-## ✨ Explicación 
+## ✨ Explicación
 
 <br>
 
-* Pasos a paso:
+-   Pasos a paso:
 
-  -   🍽️ **Rol**: Eres un chef experto en panadería.
-  -   🧀 **Tarea**: Crear una receta de pan con queso. -
-  -   🧀🧀 **Detalles específicos**: Utiliza al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno.
-  -   🌿 **Contexto**: Este desarrollo se enmarca en la creación de un menú artesanal para un bistró que valora opciones caseras y únicas.
-  -   📝 **Notas**: **Importante**: la receta debe ser **sencilla** de replicar en casa.
-
-
+    -   🍽️ **Rol**: Eres un chef experto en panadería.
+    -   🧀 **Tarea**: Crear una receta de pan con queso. -
+    -   🧀🧀 **Detalles específicos**: Utiliza al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno.
+    -   🌿 **Contexto**: Este desarrollo se enmarca en la creación de un menú artesanal para un bistró que valora opciones caseras y únicas.
+    -   📝 **Notas**: **Importante**: la receta debe ser **sencilla** de replicar en casa.
 :::
-
-
-
 
 ------------------------------------------------------------------------
 
@@ -426,13 +400,10 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 ## ♟️Técnicas para Mejorar los Prompts {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: panel-tabset
-
 ## Zero-shot
 
 **Definición:** Se da un **prompt sin ejemplos previos**, y se espera que el modelo genere una respuesta basada en su conocimiento previo.
-
 
 ::: columns
 ::: {.column width="50%"}
@@ -448,8 +419,7 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 :::
 :::
 
-
-## ♟️ Few-shot 
+## ♟️ Few-shot
 
 **Definición:** Se proporcionan **pocos ejemplos** en el prompt para ayudar al modelo a generar una respuesta más precisa.
 
@@ -470,11 +440,9 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 :::
 :::
 
-
-
 ## ♟️ CoT
 
-**Definición:** Se fomenta el **razonamiento paso a paso** (*Chain-of-Thought* ) para obtener respuestas más estructuradas y detalladas. 
+**Definición:** Se fomenta el **razonamiento paso a paso** (*Chain-of-Thought* ) para obtener respuestas más estructuradas y detalladas.
 
 ::: columns
 ::: {.column width="50%"}
@@ -493,10 +461,9 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 :::
 :::
 
-## ♟️ Chaining 
+## ♟️ Chaining
 
 **Definición:** Se descompone una tarea compleja en **múltiples prompts encadenados**, donde la salida de un prompt se usa como entrada para el siguiente.
-
 
 ::: columns
 ::: {.column width="50%"}
@@ -513,8 +480,6 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 > **Paso 2:** Se genera un desarrollo más detallado de cada punto.
 :::
 :::
-
-
 :::
 
 ------------------------------------------------------------------------
@@ -541,14 +506,12 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 <br>
 
-| 🚨 **Error**       | 💬 **Prompt**                                         | ❌ **Respuesta Incorrecta**                                      |
-|----------------------------|-------------------------------------------------------|------------------------------------------------------------------|
-| **Información Incorrecta** | *¿Quién fue presidente de Chile en 1865?*            | *Abraham Lincoln fue presidente de Chile en 1865.*              |
-| **Datos Obsoletos**        | *¿Cuál es el LLM más reciente de OpenAI?*            | *ChatGPT-4 es el más reciente, lanzado en 2023.*                |
-| **Respuestas Ambiguas**    | *¿Cuál es la capital de Chile?*                      | *La capital de Chile es Santiago y también Valparaíso.*         |
-| **Sesgo en Respuestas**    | *¿Qué grupos tienen más probabilidad de cometer delitos?* | *Estudios muestran que ciertas etnias tienen mayor tendencia.*  |
-
-
+| 🚨 **Error**               | 💬 **Prompt**                                             | ❌ **Respuesta Incorrecta**                                    |
+|----------------------------|-----------------------------------------------------------|----------------------------------------------------------------|
+| **Información Incorrecta** | *¿Quién fue presidente de Chile en 1865?*                 | *Abraham Lincoln fue presidente de Chile en 1865.*             |
+| **Datos Obsoletos**        | *¿Cuál es el LLM más reciente de OpenAI?*                 | *ChatGPT-4 es el más reciente, lanzado en 2023.*               |
+| **Respuestas Ambiguas**    | *¿Cuál es la capital de Chile?*                           | *La capital de Chile es Santiago y también Valparaíso.*        |
+| **Sesgo en Respuestas**    | *¿Qué grupos tienen más probabilidad de cometer delitos?* | *Estudios muestran que ciertas etnias tienen mayor tendencia.* |
 
 ------------------------------------------------------------------------
 
@@ -567,54 +530,41 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 ## ⚖️ Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: panel-tabset
-
-## ⚠️  Credenciales
+## ⚠️ Credenciales
 
 **Definición:** Se debe evitar compartir información sensible como contraseñas, tokens de acceso o datos privados en prompts de IA.
 
-
 ::: columns
 ::: {.column width="50%"}
-
 ❌ **Mal prompt:**
 
 > "Mi API key es `1234-5678`, y mi contraseña es `mypassword123`. ¿Puedes conectarte por mí?"
-
 :::
 
 ::: {.column .incremental width="50%"}
-
 ✅ **Buen prompt:**
 
 > "¿Cómo guardar credenciales en un archivo `.env` y cargarlas de forma segura en Python?"
-
 :::
 :::
 
 ## 🔒 Privacidad
 
-
 **Definición:** Los prompts no deben solicitar ni exponer datos personales. Es esencial proteger la identidad y privacidad de las personas al interactuar con modelos de lenguaje.
 
 ::: columns
 ::: {.column width="50%"}
-
 ❌ **Prompt inadecuado:**
 
 > "Tengo el RUT y dirección de una persona. ¿Puedes decirme su número de teléfono o redes sociales?"
-
 :::
 
 ::: {.column .incremental width="50%"}
-
 ✅ **Prompt recomendado:**
 
 > "Explícame cómo anonimizar datos sensibles correctamente."
-
 :::
 :::
-
-
 
 ## 📐 Tareas {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -622,27 +572,19 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 ::: columns
 ::: {.column width="50%"}
-
 ❌ **Prompt inadecuado:**
 
-> **Paso 1:** "Resuelve esta ecuación sin explicaciones: \$x^2 + 5x + 6 = 0\$."  
+> **Paso 1:** "Resuelve esta ecuación sin explicaciones: \$x\^2 + 5x + 6 = 0\$."\
 > **Paso 2:** "Solo quiero la respuesta final."
-
 :::
 
 ::: {.column .incremental width="50%"}
-
 ✅ **Prompt recomendado:**
 
-> **Paso 1:** "Resuelve paso a paso la ecuación \$x^2 + 5x + 6 = 0\$ usando factorización."  
+> **Paso 1:** "Resuelve paso a paso la ecuación \$x\^2 + 5x + 6 = 0\$ usando factorización."\
 > **Paso 2:** "Explica por qué se eligen esos factores y sugiere otro método de resolución."
-
 :::
 :::
-
-
-
-
 :::
 
 ------------------------------------------------------------------------
@@ -655,64 +597,55 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 [Actividad]{style="font-size: 1.5em"}
 :::
 
-
----
+------------------------------------------------------------------------
 
 ## 🧪 Desafío: ¡Crea tu propio chatbot! {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: panel-tabset
-
 ## 🎯 Objetivo
 
 <br>
 
-
-Diseñar un **chatbot con personalidad única** utilizando el aplicativo [CITTRIPIO](https://cittripio.streamlit.app/vdos), capaz de responder preguntas sobre un tema específico.
+Diseñar un **chatbot con personalidad única** utilizando el aplicativo [CITTRIPIO](https://cittripio-v2.streamlit.app/), capaz de responder preguntas sobre un tema específico.
 
 Ejemplos:
 
-- Un doctor que habla como Yoda 🟢  
-- Un historiador que rapea 🎤  
-- Un pirata que enseña biología 🧬
-
-
+-   Un doctor que habla como Yoda 🟢\
+-   Un historiador que rapea 🎤\
+-   Un pirata que enseña biología 🧬
 
 ## 🛠️ Instrucciones
 
 <br>
 
-* Formen grupos de 2 a 4 personas.
-* Elijan una temática (ciencia, arte, salud, etc.).
-* Redacten el *prompt del sistema*: estilo, público y propósito del bot.
-* Prueben el chatbot con preguntas reales.
-* Compartan su bot con el curso.
-
+-   Formen grupos de 2 a 4 personas.
+-   Elijan una temática (ciencia, arte, salud, etc.).
+-   Redacten el *prompt del sistema*: estilo, público y propósito del bot.
+-   Prueben el chatbot con preguntas reales.
+-   Compartan su bot con el curso.
 
 ## 📦 Entregables
 
 <br>
 
-- Prompt del sistema.
-- 5 preguntas con sus respuestas.
-- Captura del bot en funcionamiento.
-- Breve reflexión (texto o video).
-
+-   Prompt del sistema.
+-   5 preguntas con sus respuestas.
+-   Captura del bot en funcionamiento.
+-   Breve reflexión (texto o video).
 
 ## 🏆 Evaluación
 
 <br>
 
-| Criterio               | Puntos |
-|------------------------|--------|
-| Creatividad            | 20 🪙  |
-| Claridad del propósito | 20 🪙  |
-| Buen funcionamiento    | 20 🪙  |
-| Calidad de respuestas  | 20 🪙  |
-| Presentación final     | 20 🪙  |
+| Criterio               | Puntos     |
+|------------------------|------------|
+| Creatividad            | 20 🪙      |
+| Claridad del propósito | 20 🪙      |
+| Buen funcionamiento    | 20 🪙      |
+| Calidad de respuestas  | 20 🪙      |
+| Presentación final     | 20 🪙      |
 | **Total**              | **100 🪙** |
-
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -726,7 +659,7 @@ Ejemplos:
 
 ------------------------------------------------------------------------
 
-## 💡Conclusiones {background-image="images/background.jpg" background-opacity="0.25" }
+## 💡Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
@@ -735,8 +668,6 @@ Ejemplos:
 -   🌱 **Aplicaciones y uso responsable**: Los modelos de lenguaje tienen un gran potencial, pero es crucial utilizarlos de manera ética y responsable.
 
 -   🚀 **Evolución y futuro de los LLM**: La IA conversacional sigue mejorando, y los avances esperados tendrán un gran impacto en cómo interactuamos con la tecnología en el futuro.
-
-
 
 ------------------------------------------------------------------------
 
@@ -759,7 +690,6 @@ Ejemplos:
 :::
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
-
 
 ```{=html}
 <style>
@@ -787,6 +717,10 @@ Ejemplos:
 /* Ajusta el tamaño de los bullets */
 .reveal .slides ul {
   font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+}
+
+.reveal .slide-logo {
+   max-height: 2em !important;
 }
 </style>
 ```

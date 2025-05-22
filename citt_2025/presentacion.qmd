@@ -234,12 +234,9 @@ Inglés: [*Computing is any goal-oriented activity requiring, benefiting from, o
 ------------------------------------------------------------------------
 
 ::: {style="text-align: center;"}
-<iframe
-    src="https://agents-course-the-tokenizer-playground.static.hf.space"
-    frameborder="0"
-    width="950"
-    height="650"
-  ></iframe>
+<iframe src="https://agents-course-the-tokenizer-playground.static.hf.space" frameborder="0" width="950" height="650">
+
+</iframe>
 :::
 
 ------------------------------------------------------------------------
@@ -283,12 +280,9 @@ Inglés: [*Computing is any goal-oriented activity requiring, benefiting from, o
 ------------------------------------------------------------------------
 
 ::: {style="text-align: center;"}
-<iframe
-    src="https://agents-course-decoding-visualizer.hf.space"
-    frameborder="0"
-    width="950"
-    height="650"
-  ></iframe>
+<iframe src="https://agents-course-decoding-visualizer.hf.space" frameborder="0" width="950" height="650">
+
+</iframe>
 :::
 
 ------------------------------------------------------------------------
