@@ -106,6 +106,79 @@ format:
 
 ------------------------------------------------------------------------
 
+
+## 🔥 Desafío  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br><br>
+
+¿Qué contiene la siguiente cadena de bits?
+
+[00000000]{style="font-size: 80px; margin: 0px; color: white"} [00101010]{style="font-size: 80px; margin: 0px;"}
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br><br><br>
+
+
+[00000000]{style="font-size: 80px; margin: 0px; color: white"} [00101010]{style="font-size: 80px; margin: 0px;"}
+
+[Podría ser el número 42 escrito en binario...]{.fragment}
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br><br><br>
+
+
+[00000000]{style="font-size: 80px; margin: 0px; color: white"} [00101010]{style="font-size: 80px; margin: 0px;"}
+
+[Podría ser el carácter `*` en la convención ascii...]{.fragment}
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br><br><br>
+
+
+[00000000]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00101010]{style="font-size: 80px; margin: 0px;"} [00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+
+[Podría ser parte de un número decimal, 0.4523 o $\pi$...]{.fragment}
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+<br><br>
+
+[10000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00100001]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [01000111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00001000]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00101010]{style="font-size: 80px; margin: 0px;"} [01000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [11111111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [11001101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [01000111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [00000101]{style="font-size: 80px; margin: 0px; color:#D3D3D3"} [01110111]{style="font-size: 80px; margin: 0px; color:#D3D3D3"}
+
+[Podría ser parte de un archivo multimedia (video, imagen, audio, etc.)...]{.fragment}
+
+------------------------------------------------------------------------
+
+## Representación  {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+-   **TODO** en el computador son bits
+-   `representación` `=` `bits` `+` `contexto`
+:::
+
+::: {.column width="40%"}
+![](images/context.png){fig-align="center"}
+:::
+:::
+
+------------------------------------------------------------------------
+
 ## ¿Cómo representar una palabra? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.fragment style="text-align: center;"}
@@ -195,9 +268,9 @@ UTF-8
 
 Diagrama de funcionamiento de un LLM que se filtró de OpenAI:
 
-[**¡¡¡No difundir!!!**]{style="color: red;" .fragment}
+[**¡¡¡No difundir!!!**]{.fragment style="color: red;"}
 
-![](images/LLM_words.gif){fig-align="center" height=500px .fragment}
+![](images/LLM_words.gif){.fragment fig-align="center" height="500px"}
 
 ------------------------------------------------------------------------
 

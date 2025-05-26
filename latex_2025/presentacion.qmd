@@ -70,11 +70,11 @@ format:
 
 ::: r-stack
 
-![](images/latex1.svg){.fragment .fade-in-then-out fig-align="center" style="width: 140%;"}
+![](images/latex1.svg){.fragment .fade-in-then-out fig-align="center" style="width: 100%;" height="auto"}
 
-![](images/latex2.svg){.fragment .fade-in-then-out fig-align="center" style="width: 140%;"}
+![](images/latex2.svg){.fragment .fade-in-then-out fig-align="center" style="width: 100%;"}
 
-![](images/latex3.svg){.fragment fig-align="center" style="width: 140%;"}
+![](images/latex3.svg){.fragment fig-align="center" style="width: 100%;"}
 :::
 
 
@@ -85,7 +85,7 @@ format:
 ::: r-stack
 
 
-![](images/latexword2.jpg){.fragment fig-align="center" width="80%"}
+![](images/latexword2.jpg){.fragment fig-align="center" width="75%"}
 :::
 
 
@@ -152,7 +152,7 @@ format:
 
 ---
 
-## 📝 Ejemplo 1 {background-image="images/background.jpg" background-opacity="0.25"}
+## 📝 Ejemplo 1: Conceptos Básicos {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: panel-tabset
 
@@ -185,13 +185,172 @@ E = mc^2
 ## Salida
 
 ::: {style="text-align: center;"}
-<img src="images/ejemplo_latex.png" alt="Escribir Informe" />
+<img src="images/example1.png" alt="Escribir Informe" width="70%" />
 :::
 
 :::
 
 
 ---
+
+
+## 📚 Ejemplo 2: Tablas Bonitas
+
+::: panel-tabset
+
+## Teoría
+
+LaTeX permite crear tablas con gran precisión, controlando alineación, bordes, estilos y hasta fórmulas dentro de las celdas con paquetes como `booktabs` o `array`.
+
+## Código
+
+```latex
+\documentclass{article}
+\usepackage{booktabs}
+
+\begin{document}
+\section{Tabla con Estilo}
+
+\begin{tabular}{lcr}
+\toprule
+Nombre & Edad & Ciudad \\
+\midrule
+Ana & 23 & Valparaíso \\
+Luis & 31 & Santiago \\
+Valeska & 28 & Concepción \\
+\bottomrule
+\end{tabular}
+
+\end{document}
+```
+
+## Salida
+
+::: {style="text-align: center;"}
+<img src="images/example2.png" alt="Escribir Informe" width="50%" />
+:::
+
+:::
+
+---
+
+## 🎨 Ejemplo 3: Colores y Texto 
+
+::: panel-tabset
+
+## Teoría
+
+Con el paquete `xcolor`, puedes usar colores en textos, resaltar conceptos o crear estilos visuales atractivos para presentaciones o informes.
+
+## Código
+
+```latex
+\documentclass{article}
+\usepackage{xcolor}
+
+\begin{document}
+
+\section*{Texto con Colores}
+
+El texto puede ser \textcolor{blue}{azul}, \textcolor{red}{rojo}, o \textbf{\textcolor{orange}{resaltado}}.
+
+También se pueden definir colores personalizados:
+\textcolor[rgb]{0.1,0.6,0.1}{Verde especial.}
+
+\end{document}
+```
+
+## Salida
+
+::: {style="text-align: center;"}
+<img src="images/example3.png" alt="Escribir Informe" width="60%" />
+:::
+
+:::
+
+---
+
+## 🧠 Ejemplo 4: Lógica Matemática
+
+::: panel-tabset
+
+## Teoría
+
+LaTeX es ideal para escribir fórmulas matemáticas complejas, especialmente en lógica, álgebra o teoría de conjuntos, gracias a `amsmath`.
+
+## Código
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Lógica Proposicional}
+
+Sea $P \Rightarrow Q$ la implicación. Podemos expresar su tabla de verdad como:
+
+\[
+\begin{array}{c|c|c}
+P & Q & P \Rightarrow Q \\
+\hline
+V & V & V \\
+V & F & F \\
+F & V & V \\
+F & F & V \\
+\end{array}
+\]
+
+\end{document}
+```
+
+## Salida
+
+::: {style="text-align: center;"}
+<img src="images/example4.png" alt="Escribir Informe" width="70%"/>
+:::
+
+:::
+
+---
+
+## 📄 Ejemplo 5: Listas Personalizadas
+
+::: panel-tabset
+
+## Teoría
+
+Las listas ordenadas y no ordenadas se personalizan fácilmente con `enumitem`, permitiendo cambiar símbolos, márgenes, o incluso mezclar listas anidadas.
+
+## Código
+
+```latex
+\documentclass{article}
+\usepackage{enumitem}
+
+\begin{document}
+
+\section*{Lista con símbolo personalizado}
+
+\begin{itemize}[label=\textbullet] % También puedes usar: \textendash, \textasteriskcentered, etc.
+  \item Primera tarea completada
+  \item Segunda tarea pendiente
+  \item Tercera tarea en progreso
+\end{itemize}
+
+\end{document}
+```
+
+## Salida
+
+::: {style="text-align: center;"}
+<img src="images/example5.png" alt="Escribir Informe" width="60%" />
+:::
+
+:::
+
+---
+
 
 
 
@@ -242,6 +401,178 @@ E = mc^2
 ![](images/img03.png){.fragment fig-align="center" width="60%"}
 
 :::
+
+
+
+---
+
+## 🎤 Ejemplo 6: Presentación con Beamer
+
+::: panel-tabset
+
+## Teoría
+
+El paquete `beamer` permite crear presentaciones elegantes y profesionales en PDF. Puedes agregar títulos, viñetas, ecuaciones, imágenes, animaciones paso a paso, y más.
+
+## Código
+
+```latex
+\documentclass{beamer}
+\usetheme{Madrid}
+\usepackage{amsmath}
+
+\title{Introducción a \LaTeX}
+\author{Francisco Alfaro}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Ecuación Clásica}
+\begin{itemize}
+  \item Física y matemáticas se ven mejor en LaTeX.
+  \item Por ejemplo:
+\end{itemize}
+
+\[
+E = mc^2
+\]
+
+\end{frame}
+
+\end{document}
+```
+
+## Salida
+
+::: {style="text-align: center;"}
+<img src="images/example6.png" alt="Escribir Informe" width="60%" />
+:::
+
+
+:::
+
+---
+
+## 👔 Ejemplo 7: Currículum con ModernCV
+
+::: panel-tabset
+
+## Teoría
+
+Con `moderncv`, puedes generar currículums elegantes y completamente personalizables, controlando estilos, secciones, colores y tipografías.
+
+## Código
+
+```latex
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\name{Francisco}{Alfaro}
+\title{Data Scientist}
+\email{francisco@example.com}
+\phone[mobile]{+56~9~1234~5678}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Educación}
+\cventry{2016--2018}{Magíster en Ciencia de Datos}{Universidad Técnica Federico Santa María}{Chile}{}{}
+
+\section{Experiencia}
+\cventry{2020--2024}{Head of Advanced Analytics}{Grupo Security}{Chile}{}{
+  \begin{itemize}
+    \item Lideré proyectos de ciencia de datos para distintas empresas del grupo.
+    \item Automatización de pipelines y generación de modelos predictivos.
+  \end{itemize}
+}
+
+\end{document}
+```
+
+## Salida
+
+::: {style="text-align: center;"}
+<img src="images/example7.png" alt="Escribir Informe" width="60%" />
+:::
+
+
+:::
+
+
+
+
+
+
+
+
+---
+
+## 🖼️ Ejemplo 8: Póster con `tikzposter` 
+
+::: panel-tabset
+
+## Teoría
+
+`tikzposter` es una clase moderna para hacer pósteres científicos. Usa `TikZ` para controlar el diseño visual.
+
+## Código
+
+```latex
+\documentclass[a0paper,landscape,blockverticalspace=5mm]{tikzposter}
+
+\title{Título del Póster}
+\author{Francisco Alfaro, Valeska Canales}
+\institute{Universidad Técnica Federico Santa María}
+
+\usetheme{Default}
+\usecolorstyle{Germany}
+
+\begin{document}
+
+\maketitle
+
+\block{Introducción}{
+LaTeX es un sistema ideal para preparar pósteres científicos. Su control tipográfico permite generar documentos de alta calidad.
+}
+
+\block{Objetivos}{
+\begin{itemize}
+  \item Aprender a usar LaTeX para crear pósteres.
+  \item Personalizar colores, bloques y disposición.
+  \item Combinar texto, imágenes y ecuaciones.
+\end{itemize}
+}
+
+\block{Ejemplo de ecuación}{
+\[
+E = mc^2
+\]
+}
+
+\block{Conclusiones}{
+\begin{itemize}
+  \item Fácil de compilar en Overleaf.
+  \item Permite diseños elegantes y profesionales.
+\end{itemize}
+}
+
+\end{document}
+```
+
+## Salida
+
+::: {style="text-align: center;"}
+<img src="images/example8.png" alt="Escribir Informe" width="70%" />
+:::
+
+
+:::
+
+
 
 
 ---
@@ -494,9 +825,9 @@ f(x) = \int_0^\infty e^-x^2 dx
 :::
 :::
 
+. . .
 
-
-
+> 🚀 **Ejemplos en Overleaf:** [https://www.overleaf.com/project/68347a46c09a1b7708ccf48a](https://www.overleaf.com/project/68347a46c09a1b7708ccf48a)
 
 
 ------------------------------------------------------------------------
