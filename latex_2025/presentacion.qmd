@@ -842,7 +842,7 @@ f(x) = \int_0^\infty e^-x^2 dx
 
 👏 Responder [encuesta](https://forms.gle/PTczBF9Mk8nYYV88A)
 
-🥳 Difrutar del Evento!
+🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}
