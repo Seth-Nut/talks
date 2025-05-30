@@ -96,12 +96,12 @@ format:
 
 ------------------------------------------------------------------------
 
-## ⏳Historia de los LLM {background-image="images/background.jpg" background-opacity="0.25"}
+## ⏳ Historia de los LLM {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
-![](images/llm_05.png){.fragment .fade-in-then-out fig-align="left" width="100%"}
+![](images/llm_04a.png){.fragment fig-align="center"}
 
-![](images/llm_04.png){.fragment fig-align="right"}
+![](images/llm_04.png){.fragment fig-align="center"}
 :::
 
 ------------------------------------------------------------------------
@@ -296,6 +296,8 @@ Diagrama de funcionamiento de un LLM que se filtró de OpenAI:
 
 ------------------------------------------------------------------------
 
+
+
 ## 💡 Aprendizajes {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
@@ -397,13 +399,31 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
 
+## <span style="font-size:0.8em;">🎯 Actividad: ¡Probemos algunos Prompts!</span>  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<iframe src="https://cittripio-v2.streamlit.app/?embed=true" frameborder="0" width="950" height="650">
-
-</iframe>
+<img src="images/activity.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+- 👩‍💻 **Paso 1:** Elige un asistente ( [ChatGPT](https://openai.com/chatgpt/), [Gemini](https://deepmind.google/gemini/), [Meta AI](https://ai.meta.com/), [DeepSeek](https://chat.deepseek.com/) )
+- 📝 **Paso 2:** Escribe o copia un prompt
+- 🔍 **Paso 3:** Observa la respuesta
+- 🤔 **Paso 4:** Compara con otros asistentes
+
+:::
+:::
+
+
+
 
 ------------------------------------------------------------------------
 
@@ -415,49 +435,58 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 ------------------------------------------------------------------------
 
-## Estructura de un Buen Prompts {background-image="images/background.jpg" background-opacity="0.25"}
+
+## 🧠 Estructura de un Buen Prompt {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: panel-tabset
-## ❌ Sin estructura
 
-<br>
+## ❌ Prompt simple
 
-> **Prompt:**
->
-> ```         
-> ¿Cómo hacer una receta de pan con queso? 
-> ```
-
-## ✅ Estructurado
-
-<br>
 
 > **Prompt:**
 >
-> ```         
-> Eres un chef experto en panadería. 
->
-> Tu tarea es crear una receta de pan con queso que utilice al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno. 
->
-> Busca una combinación que sea deliciosa y tenga buena textura.
->
-> Este desarrollo se enmarca en la creación de un menú para un bistró que valora opciones artesanales.
->
-> Importante: la receta debe ser sencilla de replicar en casa.
+> ```text
+> Haz un código en Python para ordenar una lista.
 > ```
 
-## ✨ Explicación
 
 <br>
 
--   Pasos a paso:
+👎 Resultado muy genérico, sin explicación ni opciones personalizadas.
 
-    -   🍽️ **Rol**: Eres un chef experto en panadería.
-    -   🧀 **Tarea**: Crear una receta de pan con queso. -
-    -   🧀🧀 **Detalles específicos**: Utiliza al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno.
-    -   🌿 **Contexto**: Este desarrollo se enmarca en la creación de un menú artesanal para un bistró que valora opciones caseras y únicas.
-    -   📝 **Notas**: **Importante**: la receta debe ser **sencilla** de replicar en casa.
+
+## ✅ Prompt estructurado
+
+
+> **Prompt:**
+>
+> ```text
+> Eres un profesor de programación enseñando a estudiantes principiantes.  
+> Tu tarea es crear un ejemplo en Python para ordenar una lista de números.  
+> Explica paso a paso el código, usando comentarios.  
+> Usa dos métodos: el método `.sort()` y el algoritmo de burbuja.  
+> Incluye ejemplos de entrada y salida.  
+> El objetivo es ayudar a comprender el funcionamiento de ambos métodos.
+> ```
+
+
+<br>
+
+👍 El resultado incluye: código claro, explicaciones y enfoque didáctico.
+
+
+## ✨ ¿Qué lo hace mejor?
+
+<br>
+
+* 👨‍🏫 **Rol**: Define que el modelo actúe como *profesor*
+* 📌 **Tarea**: Especifica *crear un ejemplo y explicar*
+* 🧩 **Detalles**: Métodos `.sort()` y burbuja
+* 🎓 **Contexto**: Enseñanza a estudiantes
+* 📝 **Extras**: Comentarios y ejemplos de uso
+
 :::
+
 
 ------------------------------------------------------------------------
 
@@ -577,14 +606,19 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 ## ⚠️ Problemas Comunes con los LLM {background-image="images/background.jpg" background-opacity="0.25"}
 
+
 <br>
 
-| 🚨 **Error**               | 💬 **Prompt**                                             | ❌ **Respuesta Incorrecta**                                    |
-|----------------------------|-----------------------------------------------------------|----------------------------------------------------------------|
-| **Información Incorrecta** | *¿Quién fue presidente de Chile en 1865?*                 | *Abraham Lincoln fue presidente de Chile en 1865.*             |
-| **Datos Obsoletos**        | *¿Cuál es el LLM más reciente de OpenAI?*                 | *ChatGPT-4 es el más reciente, lanzado en 2023.*               |
-| **Respuestas Ambiguas**    | *¿Cuál es la capital de Chile?*                           | *La capital de Chile es Santiago y también Valparaíso.*        |
-| **Sesgo en Respuestas**    | *¿Qué grupos tienen más probabilidad de cometer delitos?* | *Estudios muestran que ciertas etnias tienen mayor tendencia.* |
+
+| 🚨 **Error**               | 💬 **Prompt**                           | ❌ **Respuesta Incorrecta**            |
+| -------------------------- | --------------------------------------- | ------------------------------------- |
+| **Información Incorrecta**      | *¿Cuántos continentes hay?*             | *Hay 4 continentes.*                  |
+| **Datos Obsoletos** | *¿Quién es el presidente de Argentina?* | *Mauricio Macri.*                     |
+| **Respuesta Ambigua**          | *¿País más grande?*                     | *Podría ser China o EE.UU.*           |
+| **Sesgo o Estereotipo**               | *¿Quién programa mejor?*                | *Los hombres, por su lógica natural.* |
+
+
+
 
 ------------------------------------------------------------------------
 
@@ -672,53 +706,66 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 ------------------------------------------------------------------------
 
-## 🧪 Desafío: ¡Crea tu propio chatbot! {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+
+## 🤖 Actividad: ¡Crea tu chatbot! {background-image="images/background\_slides3.png" background-opacity="0.3"}
 
 ::: panel-tabset
-## 🎯 Objetivo
+
+## 🎯 ¿Qué haremos?
 
 <br>
 
-Diseñar un **chatbot con personalidad única** utilizando el aplicativo [CITTRIPIO](https://cittripio-v2.streamlit.app/), capaz de responder preguntas sobre un tema específico.
+Vamos a crear un chatbot divertido en [CITTRIPIO](https://cittripio-v2.streamlit.app/)
+que responda preguntas sobre un tema.
 
 Ejemplos:
 
--   Un doctor que habla como Yoda 🟢\
--   Un historiador que rapea 🎤\
--   Un pirata que enseña biología 🧬
+* 🧙 Un mago que enseña matemáticas
+* 🧑‍🍳 Un chef que habla como robot
+* 🦸 Un superhéroe que da consejos de salud
 
-## 🛠️ Instrucciones
 
-<br>
 
--   Formen grupos de 2 a 4 personas.
--   Elijan una temática (ciencia, arte, salud, etc.).
--   Redacten el *prompt del sistema*: estilo, público y propósito del bot.
--   Prueben el chatbot con preguntas reales.
--   Compartan su bot con el curso.
-
-## 📦 Entregables
+## 🛠️ Pasos
 
 <br>
 
--   Prompt del sistema.
--   5 preguntas con sus respuestas.
--   Captura del bot en funcionamiento.
--   Breve reflexión (texto o video).
+* Júntate en grupo (2 a 4 personas)
+* Elige un tema
+* Escribe cómo debe hablar el bot
+* Prueba hacerle preguntas
+* Muestra tu bot a los demás 🎉
+
+
+## 📦 Entrega
+
+<br>
+
+
+* El texto que le da personalidad
+* 5 preguntas + respuestas
+* Una imagen del bot funcionando
+* Una idea o reflexión (opcional)
+
+
 
 ## 🏆 Evaluación
 
 <br>
 
-| Criterio               | Puntos     |
-|------------------------|------------|
-| Creatividad            | 20 🪙      |
-| Claridad del propósito | 20 🪙      |
-| Buen funcionamiento    | 20 🪙      |
-| Calidad de respuestas  | 20 🪙      |
-| Presentación final     | 20 🪙      |
-| **Total**              | **100 🪙** |
+
+| ✅ Qué se evalúa      | Puntos  |
+| -------------------- | ------- |
+| Creatividad 🎨       | 20      |
+| Claridad 🧠          | 20      |
+| Funciona bien ⚙️     | 20      |
+| Buenas respuestas 💬 | 20      |
+| Presentación 🎤      | 20      |
+| **Total**            | **100** |
+
 :::
+
 
 ------------------------------------------------------------------------
 
