@@ -528,8 +528,8 @@
     "objectID": "prompts_chatgpt/presentacion.html#historia-de-los-llm",
     "href": "prompts_chatgpt/presentacion.html#historia-de-los-llm",
     "title": "No es Magia, es Ciencia",
-    "section": "⏳Historia de los LLM",
-    "text": "⏳Historia de los LLM"
+    "section": "⏳ Historia de los LLM",
+    "text": "⏳ Historia de los LLM"
   },
   {
     "objectID": "prompts_chatgpt/presentacion.html#desafío",
@@ -665,6 +665,13 @@
     "text": "📝 Prompts en ChatGPT\nPregunta directa: “¿Qué es la inteligencia artificial?”\nInstrucción: “Escribe una historia corta sobre un viaje al espacio.”\nComando: “Genera un código Python para calcular el promedio de una lista.”"
   },
   {
+    "objectID": "prompts_chatgpt/presentacion.html#actividad-probemos-algunos-prompts",
+    "href": "prompts_chatgpt/presentacion.html#actividad-probemos-algunos-prompts",
+    "title": "No es Magia, es Ciencia",
+    "section": "🎯 Actividad: ¡Probemos algunos Prompts!",
+    "text": "🎯 Actividad: ¡Probemos algunos Prompts!\n\n\n\n\n\n\n\n\n\n👩‍💻 Paso 1: Elige un asistente ( ChatGPT, Gemini, Meta AI, DeepSeek )\n📝 Paso 2: Escribe o copia un prompt\n🔍 Paso 3: Observa la respuesta\n🤔 Paso 4: Compara con otros asistentes"
+  },
+  {
     "objectID": "prompts_chatgpt/presentacion.html#estructura-de-un-buen-prompts",
     "href": "prompts_chatgpt/presentacion.html#estructura-de-un-buen-prompts",
     "title": "No es Magia, es Ciencia",
@@ -672,11 +679,11 @@
     "text": "Estructura de un Buen Prompts"
   },
   {
-    "objectID": "prompts_chatgpt/presentacion.html#estructura-de-un-buen-prompts-1",
-    "href": "prompts_chatgpt/presentacion.html#estructura-de-un-buen-prompts-1",
+    "objectID": "prompts_chatgpt/presentacion.html#estructura-de-un-buen-prompt",
+    "href": "prompts_chatgpt/presentacion.html#estructura-de-un-buen-prompt",
     "title": "No es Magia, es Ciencia",
-    "section": "Estructura de un Buen Prompts",
-    "text": "Estructura de un Buen Prompts\n\n❌ Sin estructura✅ Estructurado✨ Explicación\n\n\n\n\nPrompt:\n¿Cómo hacer una receta de pan con queso? \n\n\n\n\n\nPrompt:\nEres un chef experto en panadería. \n\nTu tarea es crear una receta de pan con queso que utilice al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno. \n\nBusca una combinación que sea deliciosa y tenga buena textura.\n\nEste desarrollo se enmarca en la creación de un menú para un bistró que valora opciones artesanales.\n\nImportante: la receta debe ser sencilla de replicar en casa.\n\n\n\n\n\nPasos a paso:\n\n🍽️ Rol: Eres un chef experto en panadería.\n🧀 Tarea: Crear una receta de pan con queso. -\n🧀🧀 Detalles específicos: Utiliza al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno.\n🌿 Contexto: Este desarrollo se enmarca en la creación de un menú artesanal para un bistró que valora opciones caseras y únicas.\n📝 Notas: Importante: la receta debe ser sencilla de replicar en casa."
+    "section": "🧠 Estructura de un Buen Prompt",
+    "text": "🧠 Estructura de un Buen Prompt\n\n❌ Prompt simple✅ Prompt estructurado✨ ¿Qué lo hace mejor?\n\n\n\nPrompt:\nHaz un código en Python para ordenar una lista.\n\n\n👎 Resultado muy genérico, sin explicación ni opciones personalizadas.\n\n\n\nPrompt:\nEres un profesor de programación enseñando a estudiantes principiantes.  \nTu tarea es crear un ejemplo en Python para ordenar una lista de números.  \nExplica paso a paso el código, usando comentarios.  \nUsa dos métodos: el método `.sort()` y el algoritmo de burbuja.  \nIncluye ejemplos de entrada y salida.  \nEl objetivo es ayudar a comprender el funcionamiento de ambos métodos.\n\n\n👍 El resultado incluye: código claro, explicaciones y enfoque didáctico.\n\n\n\n\n👨‍🏫 Rol: Define que el modelo actúe como profesor\n📌 Tarea: Especifica crear un ejemplo y explicar\n🧩 Detalles: Métodos .sort() y burbuja\n🎓 Contexto: Enseñanza a estudiantes\n📝 Extras: Comentarios y ejemplos de uso"
   },
   {
     "objectID": "prompts_chatgpt/presentacion.html#técnicas-para-mejorar-los-prompts",
@@ -693,8 +700,8 @@
     "text": "♟️Técnicas para Mejorar los Prompts\n\nZero-shot♟️ Few-shot♟️ CoT♟️ Chaining\n\n\nDefinición: Se da un prompt sin ejemplos previos, y se espera que el modelo genere una respuesta basada en su conocimiento previo.\n\n\n✨ Ejemplo de prompt:\n\n“¿Qué es la fotosíntesis?”\n\n\n✅ Esperado:\n\n“La fotosíntesis es el proceso por el cual las plantas convierten la luz solar en energía química utilizando dióxido de carbono y agua.”\n\n\n\n\nDefinición: Se proporcionan pocos ejemplos en el prompt para ayudar al modelo a generar una respuesta más precisa.\n\n\n✨ Ejemplo de prompt:\n\n“Traduce las siguientes frases al francés:\n- Hello → Bonjour\n- Thank you → Merci\n- Good morning → ?”\n\n\n✅ Esperado:\n\n“Good morning → Bonjour”\n\n\n\n\nDefinición: Se fomenta el razonamiento paso a paso (Chain-of-Thought ) para obtener respuestas más estructuradas y detalladas.\n\n\n✨ Ejemplo de prompt:\n\n“Si un tren viaja a 80 km/h y recorre 240 km, ¿cuánto tiempo tarda en llegar? Explica tu razonamiento.”\n\n\n✅ Esperado:\n\n“El tren viaja a 80 km/h y debe recorrer 240 km. Para calcular el tiempo, usamos la fórmula:\ntiempo = distancia / velocidad\n240 km ÷ 80 km/h = 3 horas.\nPor lo tanto, el tren tarda 3 horas en llegar.”\n\n\n\n\nDefinición: Se descompone una tarea compleja en múltiples prompts encadenados, donde la salida de un prompt se usa como entrada para el siguiente.\n\n\n✨ Ejemplo de prompt:\n\nPaso 1: “Resume en 3 frases la Revolución Industrial.”\nPaso 2: (Usando la respuesta del primer prompt) “Ahora expande cada frase en un párrafo detallado.”\n\n\n✅ Esperado:\n\nPaso 1: “La Revolución Industrial marcó el inicio de la producción mecanizada, el crecimiento de las ciudades y el avance del transporte.”\nPaso 2: Se genera un desarrollo más detallado de cada punto."
   },
   {
-    "objectID": "prompts_chatgpt/presentacion.html#section-9",
-    "href": "prompts_chatgpt/presentacion.html#section-9",
+    "objectID": "prompts_chatgpt/presentacion.html#section-8",
+    "href": "prompts_chatgpt/presentacion.html#section-8",
     "title": "No es Magia, es Ciencia",
     "section": "",
     "text": "Prompts Perfectos ChatGPT\nUna mirada crítica a los LLMs"
@@ -711,7 +718,7 @@
     "href": "prompts_chatgpt/presentacion.html#problemas-comunes-con-los-llm-1",
     "title": "No es Magia, es Ciencia",
     "section": "⚠️ Problemas Comunes con los LLM",
-    "text": "⚠️ Problemas Comunes con los LLM\n\n\n\n\n\n\n\n\n\n🚨 Error\n💬 Prompt\n❌ Respuesta Incorrecta\n\n\n\n\nInformación Incorrecta\n¿Quién fue presidente de Chile en 1865?\nAbraham Lincoln fue presidente de Chile en 1865.\n\n\nDatos Obsoletos\n¿Cuál es el LLM más reciente de OpenAI?\nChatGPT-4 es el más reciente, lanzado en 2023.\n\n\nRespuestas Ambiguas\n¿Cuál es la capital de Chile?\nLa capital de Chile es Santiago y también Valparaíso.\n\n\nSesgo en Respuestas\n¿Qué grupos tienen más probabilidad de cometer delitos?\nEstudios muestran que ciertas etnias tienen mayor tendencia."
+    "text": "⚠️ Problemas Comunes con los LLM\n\n\n\n\n\n\n\n\n\n🚨 Error\n💬 Prompt\n❌ Respuesta Incorrecta\n\n\n\n\nInformación Incorrecta\n¿Cuántos continentes hay?\nHay 4 continentes.\n\n\nDatos Obsoletos\n¿Quién es el presidente de Argentina?\nMauricio Macri.\n\n\nRespuesta Ambigua\n¿País más grande?\nPodría ser China o EE.UU.\n\n\nSesgo o Estereotipo\n¿Quién programa mejor?\nLos hombres, por su lógica natural."
   },
   {
     "objectID": "prompts_chatgpt/presentacion.html#ética-en-el-uso-de-la-a.i.",
@@ -728,22 +735,22 @@
     "text": "⚖️ Ejemplos\n\n⚠️ Credenciales🔒 Privacidad📐 Tareas\n\n\nDefinición: Se debe evitar compartir información sensible como contraseñas, tokens de acceso o datos privados en prompts de IA.\n\n\n❌ Mal prompt:\n\n“Mi API key es 1234-5678, y mi contraseña es mypassword123. ¿Puedes conectarte por mí?”\n\n\n✅ Buen prompt:\n\n“¿Cómo guardar credenciales en un archivo .env y cargarlas de forma segura en Python?”\n\n\n\n\nDefinición: Los prompts no deben solicitar ni exponer datos personales. Es esencial proteger la identidad y privacidad de las personas al interactuar con modelos de lenguaje.\n\n\n❌ Prompt inadecuado:\n\n“Tengo el RUT y dirección de una persona. ¿Puedes decirme su número de teléfono o redes sociales?”\n\n\n✅ Prompt recomendado:\n\n“Explícame cómo anonimizar datos sensibles correctamente.”\n\n\n\n\nDefinición: Los prompts deben promover el razonamiento y aprendizaje, evitando solicitudes que generen respuestas incorrectas o superficiales.\n\n\n❌ Prompt inadecuado:\n\nPaso 1: “Resuelve esta ecuación sin explicaciones: $x^2 + 5x + 6 = 0$.”\nPaso 2: “Solo quiero la respuesta final.”\n\n\n✅ Prompt recomendado:\n\nPaso 1: “Resuelve paso a paso la ecuación $x^2 + 5x + 6 = 0$ usando factorización.”\nPaso 2: “Explica por qué se eligen esos factores y sugiere otro método de resolución.”"
   },
   {
-    "objectID": "prompts_chatgpt/presentacion.html#section-10",
-    "href": "prompts_chatgpt/presentacion.html#section-10",
+    "objectID": "prompts_chatgpt/presentacion.html#section-9",
+    "href": "prompts_chatgpt/presentacion.html#section-9",
     "title": "No es Magia, es Ciencia",
     "section": "",
     "text": "Prompts Perfectos ChatGPT\nActividad"
   },
   {
-    "objectID": "prompts_chatgpt/presentacion.html#desafío-crea-tu-propio-chatbot",
-    "href": "prompts_chatgpt/presentacion.html#desafío-crea-tu-propio-chatbot",
+    "objectID": "prompts_chatgpt/presentacion.html#actividad-crea-tu-chatbot",
+    "href": "prompts_chatgpt/presentacion.html#actividad-crea-tu-chatbot",
     "title": "No es Magia, es Ciencia",
-    "section": "🧪 Desafío: ¡Crea tu propio chatbot!",
-    "text": "🧪 Desafío: ¡Crea tu propio chatbot!\n\n🎯 Objetivo🛠️ Instrucciones📦 Entregables🏆 Evaluación\n\n\n\nDiseñar un chatbot con personalidad única utilizando el aplicativo CITTRIPIO, capaz de responder preguntas sobre un tema específico.\nEjemplos:\n\nUn doctor que habla como Yoda 🟢\n\nUn historiador que rapea 🎤\n\nUn pirata que enseña biología 🧬\n\n\n\n\n\nFormen grupos de 2 a 4 personas.\nElijan una temática (ciencia, arte, salud, etc.).\nRedacten el prompt del sistema: estilo, público y propósito del bot.\nPrueben el chatbot con preguntas reales.\nCompartan su bot con el curso.\n\n\n\n\n\nPrompt del sistema.\n5 preguntas con sus respuestas.\nCaptura del bot en funcionamiento.\nBreve reflexión (texto o video).\n\n\n\n\n\n\n\nCriterio\nPuntos\n\n\n\n\nCreatividad\n20 🪙\n\n\nClaridad del propósito\n20 🪙\n\n\nBuen funcionamiento\n20 🪙\n\n\nCalidad de respuestas\n20 🪙\n\n\nPresentación final\n20 🪙\n\n\nTotal\n100 🪙"
+    "section": "🤖 Actividad: ¡Crea tu chatbot!",
+    "text": "🤖 Actividad: ¡Crea tu chatbot!\n\n🎯 ¿Qué haremos?🛠️ Pasos📦 Entrega🏆 Evaluación\n\n\n\nVamos a crear un chatbot divertido en CITTRIPIO que responda preguntas sobre un tema.\nEjemplos:\n\n🧙 Un mago que enseña matemáticas\n🧑‍🍳 Un chef que habla como robot\n🦸 Un superhéroe que da consejos de salud\n\n\n\n\n\nJúntate en grupo (2 a 4 personas)\nElige un tema\nEscribe cómo debe hablar el bot\nPrueba hacerle preguntas\nMuestra tu bot a los demás 🎉\n\n\n\n\n\nEl texto que le da personalidad\n5 preguntas + respuestas\nUna imagen del bot funcionando\nUna idea o reflexión (opcional)\n\n\n\n\n\n\n\n✅ Qué se evalúa\nPuntos\n\n\n\n\nCreatividad 🎨\n20\n\n\nClaridad 🧠\n20\n\n\nFunciona bien ⚙️\n20\n\n\nBuenas respuestas 💬\n20\n\n\nPresentación 🎤\n20\n\n\nTotal\n100"
   },
   {
-    "objectID": "prompts_chatgpt/presentacion.html#section-11",
-    "href": "prompts_chatgpt/presentacion.html#section-11",
+    "objectID": "prompts_chatgpt/presentacion.html#section-10",
+    "href": "prompts_chatgpt/presentacion.html#section-10",
     "title": "No es Magia, es Ciencia",
     "section": "",
     "text": "Prompts Perfectos ChatGPT\nConclusiones"

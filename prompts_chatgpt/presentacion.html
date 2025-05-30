@@ -31,6 +31,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -226,16 +292,16 @@ Valeska Canales
 </div></div>
 </section>
 <section id="historia-de-los-llm" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>⏳Historia de los LLM</h2>
+<h2>⏳ Historia de los LLM</h2>
 <div class="r-stack">
-<div class="quarto-figure quarto-figure-left">
+<div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/llm_05.png" class="fragment fade-in-then-out quarto-figure quarto-figure-left" style="width:100.0%"></p>
+<p><img data-src="images/llm_04a.png" class="fragment quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-right">
+<div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/llm_04.png" class="fragment quarto-figure quarto-figure-right"></p>
+<p><img data-src="images/llm_04.png" class="fragment quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 </div>
@@ -476,12 +542,23 @@ Valeska Canales
 <p><img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"></p>
 </div>
 </section>
-<section id="section-8" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
+<section id="actividad-probemos-algunos-prompts" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2><span style="font-size:0.8em;">🎯 Actividad: ¡Probemos algunos Prompts!</span></h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
 <div style="text-align: center;">
-<iframe src="https://cittripio-v2.streamlit.app/?embed=true" frameborder="0" width="950" height="650">
-</iframe>
+<p><img src="images/activity.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
 </div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment">👩‍💻 <strong>Paso 1:</strong> Elige un asistente ( <a href="https://openai.com/chatgpt/">ChatGPT</a>, <a href="https://deepmind.google/gemini/">Gemini</a>, <a href="https://ai.meta.com/">Meta AI</a>, <a href="https://chat.deepseek.com/">DeepSeek</a> )</li>
+<li class="fragment">📝 <strong>Paso 2:</strong> Escribe o copia un prompt</li>
+<li class="fragment">🔍 <strong>Paso 3:</strong> Observa la respuesta</li>
+<li class="fragment">🤔 <strong>Paso 4:</strong> Compara con otros asistentes</li>
+</ul>
+</div></div>
 </section>
 <section id="estructura-de-un-buen-prompts" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>Estructura de un Buen Prompts</h2>
@@ -489,44 +566,40 @@ Valeska Canales
 <p><img src="images/pro_031.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
 </div>
 </section>
-<section id="estructura-de-un-buen-prompts-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Estructura de un Buen Prompts</h2>
+<section id="estructura-de-un-buen-prompt" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🧠 Estructura de un Buen Prompt</h2>
 <div class="panel-tabset">
-<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">❌ Sin estructura</a></li><li><a href="#tabset-2-2">✅ Estructurado</a></li><li><a href="#tabset-2-3">✨ Explicación</a></li></ul>
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">❌ Prompt simple</a></li><li><a href="#tabset-2-2">✅ Prompt estructurado</a></li><li><a href="#tabset-2-3">✨ ¿Qué lo hace mejor?</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1">
-<p><br></p>
 <blockquote>
 <p><strong>Prompt:</strong></p>
-<pre><code>¿Cómo hacer una receta de pan con queso? </code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>Haz un código en Python para ordenar una lista.</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </blockquote>
+<p><br></p>
+<p>👎 Resultado muy genérico, sin explicación ni opciones personalizadas.</p>
 </div>
 <div id="tabset-2-2">
-<p><br></p>
 <blockquote>
 <p><strong>Prompt:</strong></p>
-<pre><code>Eres un chef experto en panadería. 
-
-Tu tarea es crear una receta de pan con queso que utilice al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno. 
-
-Busca una combinación que sea deliciosa y tenga buena textura.
-
-Este desarrollo se enmarca en la creación de un menú para un bistró que valora opciones artesanales.
-
-Importante: la receta debe ser sencilla de replicar en casa.</code></pre>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>Eres un profesor de programación enseñando a estudiantes principiantes.  </span>
+<span id="cb2-2"><a></a>Tu tarea es crear un ejemplo en Python para ordenar una lista de números.  </span>
+<span id="cb2-3"><a></a>Explica paso a paso el código, usando comentarios.  </span>
+<span id="cb2-4"><a></a>Usa dos métodos: el método `.sort()` y el algoritmo de burbuja.  </span>
+<span id="cb2-5"><a></a>Incluye ejemplos de entrada y salida.  </span>
+<span id="cb2-6"><a></a>El objetivo es ayudar a comprender el funcionamiento de ambos métodos.</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </blockquote>
+<p><br></p>
+<p>👍 El resultado incluye: código claro, explicaciones y enfoque didáctico.</p>
 </div>
 <div id="tabset-2-3">
 <p><br></p>
 <ul>
-<li><p>Pasos a paso:</p>
-<ul>
-<li>🍽️ <strong>Rol</strong>: Eres un chef experto en panadería.</li>
-<li>🧀 <strong>Tarea</strong>: Crear una receta de pan con queso. -</li>
-<li>🧀🧀 <strong>Detalles específicos</strong>: Utiliza al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno.</li>
-<li>🌿 <strong>Contexto</strong>: Este desarrollo se enmarca en la creación de un menú artesanal para un bistró que valora opciones caseras y únicas.</li>
-<li>📝 <strong>Notas</strong>: <strong>Importante</strong>: la receta debe ser <strong>sencilla</strong> de replicar en casa.</li>
-</ul></li>
+<li>👨‍🏫 <strong>Rol</strong>: Define que el modelo actúe como <em>profesor</em></li>
+<li>📌 <strong>Tarea</strong>: Especifica <em>crear un ejemplo y explicar</em></li>
+<li>🧩 <strong>Detalles</strong>: Métodos <code>.sort()</code> y burbuja</li>
+<li>🎓 <strong>Contexto</strong>: Enseñanza a estudiantes</li>
+<li>📝 <strong>Extras</strong>: Comentarios y ejemplos de uso</li>
 </ul>
 </div>
 </div>
@@ -615,7 +688,7 @@ Por lo tanto, el tren tarda 3 horas en llegar.”</p>
 </div>
 </div>
 </section>
-<section id="section-9" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<section id="section-8" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
 <p><span style="font-size: 1em">Prompts Perfectos ChatGPT</span></p>
@@ -633,9 +706,9 @@ Por lo tanto, el tren tarda 3 horas en llegar.”</p>
 <p><br></p>
 <table class="caption-top">
 <colgroup>
-<col style="width: 18%">
-<col style="width: 39%">
-<col style="width: 42%">
+<col style="width: 25%">
+<col style="width: 38%">
+<col style="width: 36%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -647,23 +720,23 @@ Por lo tanto, el tren tarda 3 horas en llegar.”</p>
 <tbody>
 <tr class="odd">
 <td><strong>Información Incorrecta</strong></td>
-<td><em>¿Quién fue presidente de Chile en 1865?</em></td>
-<td><em>Abraham Lincoln fue presidente de Chile en 1865.</em></td>
+<td><em>¿Cuántos continentes hay?</em></td>
+<td><em>Hay 4 continentes.</em></td>
 </tr>
 <tr class="even">
 <td><strong>Datos Obsoletos</strong></td>
-<td><em>¿Cuál es el LLM más reciente de OpenAI?</em></td>
-<td><em>ChatGPT-4 es el más reciente, lanzado en 2023.</em></td>
+<td><em>¿Quién es el presidente de Argentina?</em></td>
+<td><em>Mauricio Macri.</em></td>
 </tr>
 <tr class="odd">
-<td><strong>Respuestas Ambiguas</strong></td>
-<td><em>¿Cuál es la capital de Chile?</em></td>
-<td><em>La capital de Chile es Santiago y también Valparaíso.</em></td>
+<td><strong>Respuesta Ambigua</strong></td>
+<td><em>¿País más grande?</em></td>
+<td><em>Podría ser China o EE.UU.</em></td>
 </tr>
 <tr class="even">
-<td><strong>Sesgo en Respuestas</strong></td>
-<td><em>¿Qué grupos tienen más probabilidad de cometer delitos?</em></td>
-<td><em>Estudios muestran que ciertas etnias tienen mayor tendencia.</em></td>
+<td><strong>Sesgo o Estereotipo</strong></td>
+<td><em>¿Quién programa mejor?</em></td>
+<td><em>Los hombres, por su lógica natural.</em></td>
 </tr>
 </tbody>
 </table>
@@ -739,47 +812,45 @@ Por lo tanto, el tren tarda 3 horas en llegar.”</p>
 </div>
 </div>
 </section>
-<section id="section-10" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<section id="section-9" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
 <p><span style="font-size: 1em">Prompts Perfectos ChatGPT</span></p>
 <p><span style="font-size: 1.5em">Actividad</span></p>
 </div>
 </section>
-<section id="desafío-crea-tu-propio-chatbot" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2>🧪 Desafío: ¡Crea tu propio chatbot!</h2>
+<section id="actividad-crea-tu-chatbot" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2>🤖 Actividad: ¡Crea tu chatbot!</h2>
 <div class="panel-tabset">
-<ul id="tabset-5" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-5-1">🎯 Objetivo</a></li><li><a href="#tabset-5-2">🛠️ Instrucciones</a></li><li><a href="#tabset-5-3">📦 Entregables</a></li><li><a href="#tabset-5-4">🏆 Evaluación</a></li></ul>
+<ul id="tabset-5" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-5-1">🎯 ¿Qué haremos?</a></li><li><a href="#tabset-5-2">🛠️ Pasos</a></li><li><a href="#tabset-5-3">📦 Entrega</a></li><li><a href="#tabset-5-4">🏆 Evaluación</a></li></ul>
 <div class="tab-content">
 <div id="tabset-5-1">
 <p><br></p>
-<p>Diseñar un <strong>chatbot con personalidad única</strong> utilizando el aplicativo <a href="https://cittripio-v2.streamlit.app/">CITTRIPIO</a>, capaz de responder preguntas sobre un tema específico.</p>
+<p>Vamos a crear un chatbot divertido en <a href="https://cittripio-v2.streamlit.app/">CITTRIPIO</a> que responda preguntas sobre un tema.</p>
 <p>Ejemplos:</p>
 <ul>
-<li>Un doctor que habla como Yoda 🟢<br>
-</li>
-<li>Un historiador que rapea 🎤<br>
-</li>
-<li>Un pirata que enseña biología 🧬</li>
+<li>🧙 Un mago que enseña matemáticas</li>
+<li>🧑‍🍳 Un chef que habla como robot</li>
+<li>🦸 Un superhéroe que da consejos de salud</li>
 </ul>
 </div>
 <div id="tabset-5-2">
 <p><br></p>
 <ul>
-<li>Formen grupos de 2 a 4 personas.</li>
-<li>Elijan una temática (ciencia, arte, salud, etc.).</li>
-<li>Redacten el <em>prompt del sistema</em>: estilo, público y propósito del bot.</li>
-<li>Prueben el chatbot con preguntas reales.</li>
-<li>Compartan su bot con el curso.</li>
+<li>Júntate en grupo (2 a 4 personas)</li>
+<li>Elige un tema</li>
+<li>Escribe cómo debe hablar el bot</li>
+<li>Prueba hacerle preguntas</li>
+<li>Muestra tu bot a los demás 🎉</li>
 </ul>
 </div>
 <div id="tabset-5-3">
 <p><br></p>
 <ul>
-<li>Prompt del sistema.</li>
-<li>5 preguntas con sus respuestas.</li>
-<li>Captura del bot en funcionamiento.</li>
-<li>Breve reflexión (texto o video).</li>
+<li>El texto que le da personalidad</li>
+<li>5 preguntas + respuestas</li>
+<li>Una imagen del bot funcionando</li>
+<li>Una idea o reflexión (opcional)</li>
 </ul>
 </div>
 <div id="tabset-5-4">
@@ -787,34 +858,34 @@ Por lo tanto, el tren tarda 3 horas en llegar.”</p>
 <table class="caption-top">
 <thead>
 <tr class="header">
-<th>Criterio</th>
+<th>✅ Qué se evalúa</th>
 <th>Puntos</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Creatividad</td>
-<td>20 🪙</td>
+<td>Creatividad 🎨</td>
+<td>20</td>
 </tr>
 <tr class="even">
-<td>Claridad del propósito</td>
-<td>20 🪙</td>
+<td>Claridad 🧠</td>
+<td>20</td>
 </tr>
 <tr class="odd">
-<td>Buen funcionamiento</td>
-<td>20 🪙</td>
+<td>Funciona bien ⚙️</td>
+<td>20</td>
 </tr>
 <tr class="even">
-<td>Calidad de respuestas</td>
-<td>20 🪙</td>
+<td>Buenas respuestas 💬</td>
+<td>20</td>
 </tr>
 <tr class="odd">
-<td>Presentación final</td>
-<td>20 🪙</td>
+<td>Presentación 🎤</td>
+<td>20</td>
 </tr>
 <tr class="even">
 <td><strong>Total</strong></td>
-<td><strong>100 🪙</strong></td>
+<td><strong>100</strong></td>
 </tr>
 </tbody>
 </table>
@@ -822,7 +893,7 @@ Por lo tanto, el tren tarda 3 horas en llegar.”</p>
 </div>
 </div>
 </section>
-<section id="section-11" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<section id="section-10" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
 <p><span style="font-size: 1em">Prompts Perfectos ChatGPT</span></p>
