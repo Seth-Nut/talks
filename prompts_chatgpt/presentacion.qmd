@@ -50,7 +50,7 @@ format:
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Prompts Perfectos ChatGPT]{style="font-size: 1em"}
+[No es Magia, es Ciencia]{style="font-size: 1em"}
 
 [¿ Qué son los LLM ?]{style="font-size: 2em"}
 :::
@@ -311,7 +311,7 @@ Diagrama de funcionamiento de un LLM que se filtró de OpenAI:
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Prompts Perfectos ChatGPT]{style="font-size: 1em"}
+[No es Magia, es Ciencia]{style="font-size: 1em"}
 
 [¿Qué son los Prompts?]{style="font-size: 1.5em"}
 :::
@@ -589,7 +589,7 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Prompts Perfectos ChatGPT]{style="font-size: 1em"}
+[No es Magia, es Ciencia]{style="font-size: 1em"}
 
 [Una mirada crítica a los LLMs]{style="font-size: 1.5em"}
 :::
@@ -699,7 +699,7 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Prompts Perfectos ChatGPT]{style="font-size: 1em"}
+[No es Magia, es Ciencia]{style="font-size: 1em"}
 
 [Actividad]{style="font-size: 1.5em"}
 :::
@@ -716,7 +716,7 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 <br>
 
-Vamos a crear un chatbot divertido en [CITTRIPIO](https://cittripio-v2.streamlit.app/)
+Vamos a crear un chatbot divertido en [NUT-AI](https://cittripio-v2.streamlit.app/)
 que responda preguntas sobre un tema.
 
 Ejemplos:
@@ -772,7 +772,7 @@ Ejemplos:
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Prompts Perfectos ChatGPT]{style="font-size: 1em"}
+[No es Magia, es Ciencia]{style="font-size: 1em"}
 
 [Conclusiones]{style="font-size: 1.5em"}
 :::
