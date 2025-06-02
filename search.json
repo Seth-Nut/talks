@@ -2769,7 +2769,7 @@
     "href": "comunidad_2025/presentacion.html#quarto",
     "title": "Educación Abierta y Comunidad",
     "section": "Quarto",
-    "text": "Quarto\n\n\n\nQuarto is an open system for scientific publications with markdown and interactive code (Python/R)."
+    "text": "Quarto\n\n\n\n\n\nCombinar texto, código y visualizaciones\nExportar a HTML, PDF, slides y más\nExtender con plugins y lenguajes como Python y R"
   },
   {
     "objectID": "comunidad_2025/presentacion.html#section-1",
@@ -2779,73 +2779,80 @@
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
   },
   {
-    "objectID": "comunidad_2025/presentacion.html#examples",
-    "href": "comunidad_2025/presentacion.html#examples",
+    "objectID": "comunidad_2025/presentacion.html#quarto-python",
+    "href": "comunidad_2025/presentacion.html#quarto-python",
     "title": "Educación Abierta y Comunidad",
-    "section": "Examples",
-    "text": "Examples\n\nCodePlot\n\n\ncategories &lt;- c(\"Yes\", \"No\")\nvalues &lt;- c(75, 25)\ncolors &lt;- c(\"lightblue\", \"salmon\")\nbarplot(\n  values, names.arg = categories, col = colors, \n  main = \"😊 Do you like the presentation so far? 😊\", cex.main = 0.9\n)"
+    "section": "Quarto + Python",
+    "text": "Quarto + Python\n\n\n\n\n\nExplica ideas con código y gráficos simples\nUsa Python para demos y apps interactivas\nIdeal para enseñar ciencia, datos e IA"
   },
   {
-    "objectID": "comunidad_2025/presentacion.html#quarto-extensions",
-    "href": "comunidad_2025/presentacion.html#quarto-extensions",
+    "objectID": "comunidad_2025/presentacion.html#section-2",
+    "href": "comunidad_2025/presentacion.html#section-2",
     "title": "Educación Abierta y Comunidad",
-    "section": "Quarto Extensions",
-    "text": "Quarto Extensions\n\nExtensions are a powerful tool to modify and extend the behavior of Quarto."
+    "section": "",
+    "text": "Ejemplo 1Ejemplo 2\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "comunidad_2025/presentacion.html#quarto-webr",
-    "href": "comunidad_2025/presentacion.html#quarto-webr",
+    "objectID": "comunidad_2025/presentacion.html#quarto-python-github",
+    "href": "comunidad_2025/presentacion.html#quarto-python-github",
     "title": "Educación Abierta y Comunidad",
-    "section": "🌐 Quarto WebR",
-    "text": "🌐 Quarto WebR\n\n\n\n\nWebR: Run R code in the browser, no installation required.\n# To install WebR in your environment\nremotes::install_github(\"attiyap/WebR\")\nPyodide: Same, but for Python.\n# To install Pyodide\npip install pyodide"
+    "section": "Quarto + Python + GitHub",
+    "text": "Quarto + Python + GitHub\n\n\n\n\nUsa Quarto para crear contenido reproducible (docs, libros, slides)\nAprovecha Python para visualizaciones y apps interactivas\nPublica y colabora usando GitHub, todo en un mismo flujo"
   },
   {
-    "objectID": "comunidad_2025/presentacion.html#examples-1",
-    "href": "comunidad_2025/presentacion.html#examples-1",
+    "objectID": "comunidad_2025/presentacion.html#section-5",
+    "href": "comunidad_2025/presentacion.html#section-5",
     "title": "Educación Abierta y Comunidad",
-    "section": "Examples",
-    "text": "Examples\n\nWebR - ex1WebR - ex2\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "section": "",
+    "text": "Educación Abierta y Comunidad\nEventos"
   },
   {
-    "objectID": "comunidad_2025/presentacion.html#streamlit",
-    "href": "comunidad_2025/presentacion.html#streamlit",
+    "objectID": "comunidad_2025/presentacion.html#eventos-comunitarios",
+    "href": "comunidad_2025/presentacion.html#eventos-comunitarios",
     "title": "Educación Abierta y Comunidad",
-    "section": "Streamlit",
-    "text": "Streamlit\n\n\n Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python."
+    "section": "Eventos Comunitarios",
+    "text": "Eventos Comunitarios\n\n\n\n\nEstudiantes de enseñanza básica, media y universitaria.\nProfesores y formadores de otras disciplinas.\nComunidad general interesada en programación y matemáticas."
   },
   {
-    "objectID": "comunidad_2025/presentacion.html#streamlit-ejemplo-1",
-    "href": "comunidad_2025/presentacion.html#streamlit-ejemplo-1",
+    "objectID": "comunidad_2025/presentacion.html#lo-que-funcionó-bien",
+    "href": "comunidad_2025/presentacion.html#lo-que-funcionó-bien",
     "title": "Educación Abierta y Comunidad",
-    "section": "Streamlit: Ejemplo",
-    "text": "Streamlit: Ejemplo\n\n\nimport streamlit as st\n\n# Título principal de la aplicación\nst.title(\"Hola Streamlit\")\n\n# Sidebar con descripción y opciones de configuración\nst.sidebar.title(\"Opciones\")\nst.sidebar.write(\"Configura el mensaje principal y el emoticón.\")\n\n# Opciones en el sidebar para personalizar el mensaje\nnombre1 = st.sidebar.text_input(\"Nombre 1\", \"Seth\")\nnombre2 = st.sidebar.text_input(\"Nombre 2\", \"Nut\")\nemoticon = st.sidebar.selectbox(\"Selecciona un emoticón\", [\"😊\", \"❤️\", \"👫\", \"🌟\", \"🐶\"])\n\n# Mensaje principal en la app\nmensaje = f\"{nombre1} y {nombre2} son mejores amigos {emoticon}\"\nst.write(mensaje)\n\n# Agregar una imagen decorativa\nst.image(\n    \"https://media1.thehungryjpeg.com/thumbs2/ori_4312464_ng19gv7ncq8oga7awkf1w72gsvbznzrkc861timx_valentine-couple-of-doberman-pinscher.jpg\",\n    caption=\"Amigos\",\n    use_container_width =False,\n    width=300  # Ajuste del tamaño de la imagen\n)\n\n# Footer\nst.markdown(\n    \"\"\"\n    ---\n    Gracias por usar esta aplicación interactiva 🎈\n    \"\"\"\n)\n\n\n\n\n\n\n\n\n\n(C) Ejemplo en Streamlit - Playground."
+    "section": "✅ Lo que Funcionó Bien",
+    "text": "✅ Lo que Funcionó Bien\n\n\n\n\nEvaluaciones sobresalientes (cercanos a 10).\nEjemplos visuales fueron lo más valorado.\nBuen ambiente e interacción destacada.\nComentarios positivos como:\n\n“Muy claro y entendible”\n“Me gustó todo del taller”"
   },
   {
-    "objectID": "comunidad_2025/presentacion.html#github",
-    "href": "comunidad_2025/presentacion.html#github",
+    "objectID": "comunidad_2025/presentacion.html#desafíos-detectados",
+    "href": "comunidad_2025/presentacion.html#desafíos-detectados",
     "title": "Educación Abierta y Comunidad",
-    "section": "Github",
-    "text": "Github\n\n\n Es un sistema de control de versiones para el desarrollo de software. Permite rastrear los cambios en el código, compartir el código con otros usuarios y colaborar en proyectos."
+    "section": "⚠️ Desafíos Detectados",
+    "text": "⚠️ Desafíos Detectados\n\n\n\n\nFalta de computadores en algunos talleres.\nDiferencias de nivel entre asistentes.\nTiempo insuficiente para profundizar.\nRitmo lento para algunos participantes."
   },
   {
-    "objectID": "comunidad_2025/presentacion.html#más-sobre-github",
-    "href": "comunidad_2025/presentacion.html#más-sobre-github",
+    "objectID": "comunidad_2025/presentacion.html#section-7",
+    "href": "comunidad_2025/presentacion.html#section-7",
     "title": "Educación Abierta y Comunidad",
-    "section": "Más sobre GitHub",
-    "text": "Más sobre GitHub"
+    "section": "",
+    "text": "Educación Abierta y Comunidad\nComunidades"
   },
   {
-    "objectID": "comunidad_2025/presentacion.html#qué-podemos-hacer",
-    "href": "comunidad_2025/presentacion.html#qué-podemos-hacer",
+    "objectID": "comunidad_2025/presentacion.html#por-qué-unirse-a-una-comunidad",
+    "href": "comunidad_2025/presentacion.html#por-qué-unirse-a-una-comunidad",
     "title": "Educación Abierta y Comunidad",
-    "section": "✅ ¿Qué podemos hacer ?",
-    "text": "✅ ¿Qué podemos hacer ?"
+    "section": "🤝 ¿Por qué unirse a una comunidad?",
+    "text": "🤝 ¿Por qué unirse a una comunidad?\n\n\n\n\nAprendes más y acompañado.\nConoces personas con tus mismos intereses.\nEncuentras oportunidades y motivación."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion.html#cómo-puedo-participar",
+    "href": "comunidad_2025/presentacion.html#cómo-puedo-participar",
+    "title": "Educación Abierta y Comunidad",
+    "section": "🌱 ¿Cómo puedo participar?",
+    "text": "🌱 ¿Cómo puedo participar?\n\n\n\n\nAsiste a talleres y eventos.\nÚnete a comunidades como Python Chile.\nComparte, pregunta y apoya."
   },
   {
     "objectID": "comunidad_2025/presentacion.html#gracias-por-participar",
     "href": "comunidad_2025/presentacion.html#gracias-por-participar",
     "title": "Educación Abierta y Comunidad",
     "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
   }
 ]
