@@ -4,7 +4,7 @@ subtitle: "Democratizando el Aprendizaje en Python"
 author: 
 - Francisco Alfaro
 - Valeska Canales
-date: 06 Jun 2025
+date: 13 Jun 2025
 format: 
   revealjs:
     transition: slide
@@ -13,10 +13,9 @@ format:
     slide-attributes:
       data-background-image: images/background.jpg
     logo: images/logo_sn.png
-  
 ---
 
-##  🐍 ¿Por qué enseñar Python?  {background-image="images/background.jpg" background-opacity="0.25"}
+## 🐍 ¿Por qué enseñar Python? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 <br>
@@ -38,29 +37,33 @@ format:
 [Herramientas]{style="font-size: 1.5em"}
 :::
 
-
-
 ------------------------------------------------------------------------
 
 ## Quarto {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
-::: {.column width="60%"}
-<br><br>
+<br>
 
-[Quarto](https://quarto.org/) is an open system for scientific publications with markdown and interactive code (Python/R).
+::::: columns
+::: {.column width="60%"}
+<br>
+
+- Combinar texto, código y visualizaciones
+- Exportar a HTML, PDF, slides y más
+- Extender con plugins y lenguajes como Python y R
 :::
 
 ::: {.column width="40%"}
-![](images/quarto/quarto2.png)
+
+
+![](images/introduccion/quarto-logo.png)
 :::
-:::
+:::::
 
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 [Código: example.qmd]{style="font-size: 0.5em; color: gray"}
 
@@ -97,177 +100,56 @@ format:
 [Slides: example.html]{style="font-size: 0.5em; color: gray"}
 
 ```{=html}
-<iframe width=600 height=400 src="images/quarto/quarto_min.html"></iframe>
+<iframe width=600 height=400 src="images/introduccion/quarto_min.html"></iframe>
 ```
 :::
-:::
+:::::
+
 
 ------------------------------------------------------------------------
 
-## Examples {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: panel-tabset
-## Code
-
-```r
-categories <- c("Yes", "No")
-values <- c(75, 25)
-colors <- c("lightblue", "salmon")
-barplot(
-  values, names.arg = categories, col = colors, 
-  main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9
-)
-```
-
-## Plot
-
-```{r}
-categories <- c("Yes", "No")
-values <- c(75, 25)
-colors <- c("lightblue", "salmon")
-barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
-```
-:::
-
-------------------------------------------------------------------------
-
-## Quarto Extensions {background-image="images/background.jpg" background-opacity="0.25"}
+## Quarto + Python {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-[Extensions](https://quarto.org/docs/extensions/) are a powerful tool to modify and extend the behavior of Quarto.
-
-::: {style="text-align: center;"}
-<img src="images/quarto/quarto-extensions.png" alt="Tachado" style="width: 70%; border-radius: 10px;"/>
-:::
-
-------------------------------------------------------------------------
-
-## 🌐 Quarto WebR {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
+::::: columns
 ::: {.column width="60%"}
 <br>
 
-1.  [WebR](https://docs.r-wasm.org/webr/latest/): Run R code in the browser, no installation required.
-
-    ``` bash
-    # To install WebR in your environment
-    remotes::install_github("attiyap/WebR")
-    ```
-
-2.  [Pyodide](https://quarto.thecoatlessprofessor.com/pyodide/): Same, but for Python.
-
-    ``` bash
-    # To install Pyodide
-    pip install pyodide
-    ```
+- Explica ideas con código y gráficos simples
+- Usa Python para demos y apps interactivas
+- Ideal para enseñar ciencia, datos e IA
 :::
 
 ::: {.column width="40%"}
-![](images/quarto/webr.png)
+
+![](images/introduccion/python-logo.png)
+
 :::
-:::
+:::::
 
 ------------------------------------------------------------------------
 
-## Examples {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: panel-tabset
-## WebR - ex1
 
-```{webr-r}
-x <- c(1, 2, 3, 4, 5)
-y <- c(2, 4, 6, 8, 10)
-par(mfrow = c(2, 1), mar = c(1, 1, 1, 1),  oma = c(1, 10, 1, 1)   )
-plot(x, y, type="o", col="blue", pch=16, lwd=2, xlab="", ylab="", main="Simple Line Plot")
+##  Ejemplo 1
+```{pyodide-python}
+print("Hola mundo!")
 ```
 
-## WebR - ex2
-
-```{webr-r}
-categories <- c("Yes", "No")
-values <- c(75, 25)
-colors <- c("lightblue", "salmon")
-par(mfrow = c(2, 1), mar = c(1, 2, 1, 1),  oma = c(1, 8, 1, 3)   )
-barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
+## Ejemplo 2
+```{pyodide-python}
+import matplotlib.pyplot as plt
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+plt.figure(figsize=(6, 3)) 
+plt.plot(x, y, marker='o', color='blue')
+plt.title("Gráfico Sencillo en Python")
+plt.show()
 ```
 :::
-
-------------------------------------------------------------------------
-
-## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="60%"}
-<br><br> Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python.
-:::
-
-::: {.column width="40%"}
-<br> ![](./images/streamlit/streamlit.png)
-:::
-:::
-
-------------------------------------------------------------------------
-
-### Streamlit: Ejemplo
-
-<img src="./images/streamlit/Streamlit-Prophet.gif" style="width:50%;"/>
-
-------------------------------------------------------------------------
-
-## Streamlit: Ejemplo {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="50%"}
-``` python
-import streamlit as st
-
-# Título principal de la aplicación
-st.title("Hola Streamlit")
-
-# Sidebar con descripción y opciones de configuración
-st.sidebar.title("Opciones")
-st.sidebar.write("Configura el mensaje principal y el emoticón.")
-
-# Opciones en el sidebar para personalizar el mensaje
-nombre1 = st.sidebar.text_input("Nombre 1", "Seth")
-nombre2 = st.sidebar.text_input("Nombre 2", "Nut")
-emoticon = st.sidebar.selectbox("Selecciona un emoticón", ["😊", "❤️", "👫", "🌟", "🐶"])
-
-# Mensaje principal en la app
-mensaje = f"{nombre1} y {nombre2} son mejores amigos {emoticon}"
-st.write(mensaje)
-
-# Agregar una imagen decorativa
-st.image(
-    "https://media1.thehungryjpeg.com/thumbs2/ori_4312464_ng19gv7ncq8oga7awkf1w72gsvbznzrkc861timx_valentine-couple-of-doberman-pinscher.jpg",
-    caption="Amigos",
-    use_container_width =False,
-    width=300  # Ajuste del tamaño de la imagen
-)
-
-# Footer
-st.markdown(
-    """
-    ---
-    Gracias por usar esta aplicación interactiva 🎈
-    """
-)
-```
-:::
-
-::: {.column .fragment width="50%"}
-![](images/streamlit/streamlit_example2.png){fig-align="center" width="65%"}
-:::
-:::
-
-. . .
-
-::: {style="text-align: center; margin-top: -30px;"}
-[(C) Ejemplo en Streamlit - Playground.](https://streamlit.io/playground?example=geospatial&code=H4sIAAAAAAAAA4WTvW4TQRDH-3uK0dI4Us7OOVESkFxESIGGUIQOIWu9Ht-ts1_s7tn5UHqEEB8dDXJDhygQEqLPm_AC5BGYvTuTRBRcs3szN7_9z39vpHbWRwjRI9dKRuCBXrLsHjy7-hprZcF5aYR0XMEUQXHgTknBhbz6brIQ-1FGhT322FLqeE1hG4lwLKc44R6ENVQbhJeuKYMzsLSzBkNiUnomy9rfMENbuGY_7T4m6q3k0stIyYfrakAFGk3gc7yl-SyFUdsoBcH7rbA1ENCkdEcEx4ni0AdruJLnFLlBZsbqiccCRnBbIJ7GsTSujj121HwABdsEdoyxoqPamuF_a4ap5qhOtrVSybA7NQEVijixpz1C0zbJ51Cbm86I8Jxdrz6-Tqhfnz7__vku7a5XH76065tVu77_wV40Jjz5xytyo7lfl619HMGMXXSdX5KX3X54CeQRWTO3nlzkWpY2wMVa-yVL99TeT0dqTjwoPZbkak3apeYlpt9CWM-jXPBU0gR7GdDDqhhdeDAYaJxKXvRjhVVtSn82d1j2hdWDWNV6EoYD6-V4Z7sY7uzujE1Z3C8Xe0a83Lcl3-PLk1mx3BuWYTE5N-f-ROzvFlHq0_GCKzRRGsyFrZ3C3M7yqZ2g19zkTpogKvT9uSvZZiNHcBfJ8xE7aHrtonXAMfUbOYH8eCmnsYLRIVcB23wTGW1vbQFQ9_M6RKSOFUSu-dU32w1Ua0XWWHRobUSfvNDcn0zt0nR2MNaseZ4366M0LTSqNLykIv2pId4ZTZCGQFwka-F69fbVX8xG9gcSs8059AMAAA){style="font-size: 0.75em; color: gray"}
-:::
-
 
 
 ------------------------------------------------------------------------
@@ -275,80 +157,215 @@ st.markdown(
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: {style="text-align: center;"}
-<iframe
-    src="https://llama2.streamlit.app/?embed=true"
-    frameborder="0"
-    width="950"
-    height="650"
-  ></iframe>
+<iframe src="https://ds-cheat-sheets.streamlit.app/?embed=true" frameborder="0" width="1200" height="650">
+
+</iframe>
 :::
 
----
+------------------------------------------------------------------------
 
-## Github {background-image="images/background.jpg" background-opacity="0.25"}
+## Quarto + Python + GitHub {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
-<br><br> Es un sistema de control de versiones para el desarrollo de software. Permite rastrear los cambios en el código, compartir el código con otros usuarios y colaborar en proyectos.
+<br>
+
+- Usa **Quarto** para crear contenido reproducible (docs, libros, slides)
+- Aprovecha **Python** para visualizaciones y apps interactivas
+- Publica y colabora usando **GitHub**, todo en un mismo flujo
 :::
 
 ::: {.column width="40%"}
-<br> ![](./images/github/github.gif)
+
+![](./images/github/github.gif)
+
 :::
-:::
+:::::
 
 
-----
 
-## Más sobre GitHub {background-image="images/background.jpg" background-opacity="0.25"}
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
 ::: r-stack
 <br>
 
+![](images/introduccion/gh_01.png){ .fade-in-then-out fig-align="center" width="100%"}
 
-![](images/github/profile.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+![](images/introduccion/gh_02.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
-
-![](images/github/github_quarto.png){.fragment fig-align="center" width="100%"}
+![](images/introduccion/gh_03.png){.fragment fig-align="center" width="100%"}
 :::
+
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Educación Abierta y Comunidad]{style="font-size: 1em"}
+
+[Eventos]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
+
+## Eventos Comunitarios {background-image="images/background.jpg" background-opacity="0.25"}
+
+::::: columns
+::: {.column width="60%"}
+<br>
+
+- Estudiantes de enseñanza básica, media y universitaria.
+- Profesores y formadores de otras disciplinas.
+- Comunidad general interesada en programación y matemáticas.
+:::
+
+::: {.column width="40%"}
+
+![](./images/eventos/microfono.png)
+
+:::
+:::::
+
 
 ---
 
+##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
-## ✅ ¿Qué podemos hacer ? {background-image="images/background.jpg" background-opacity="0.25" size="50%"} 
+
+<br> <br>
 
 ::: r-stack
-<br>
+
+![](images/eventos/eventos_011.png){ .fade-in-then-out fig-align="center" }
 
 
-![](images/ejemplo_05.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
-
-![](images/ejemplo_07.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
-
-![](images/ejemplo_06.png){.fragment fig-align="center" width="100%"}
+![](images/eventos/eventos_012.png){.fragment fig-align="center"}
 :::
 
+------------------------------------------------------------------------
 
+## ✅ Lo que Funcionó Bien {background-image="images/background.jpg" background-opacity="0.25"}
+
+::::: columns
+::: {.column width="60%"}
+<br>
+
+- Evaluaciones sobresalientes (cercanos a 10).
+- Ejemplos visuales fueron lo más valorado.
+- Buen ambiente e interacción destacada.
+- Comentarios positivos como:
+    - “Muy claro y entendible”
+    - “Me gustó todo del taller”
+
+:::
+
+::: {.column width="40%"}
+
+![](./images/eventos/check.png)
+
+:::
+:::::
+
+---
+
+## ⚠️ Desafíos Detectados {background-image="images/background.jpg" background-opacity="0.25"}
+
+::::: columns
+::: {.column width="60%"}
+<br>
+
+- Falta de computadores en algunos talleres.
+- Diferencias de nivel entre asistentes.
+- Tiempo insuficiente para profundizar.
+- Ritmo lento para algunos participantes.
+
+:::
+
+::: {.column width="40%"}
+
+![](./images/eventos/alert.png)
+
+:::
+:::::
+
+
+---
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Educación Abierta y Comunidad]{style="font-size: 1em"}
+
+[Comunidades]{style="font-size: 1.5em"}
+:::
+
+------
+
+## 🤝 ¿Por qué unirse a una comunidad? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::::: columns
+::: {.column width="60%"}
+<br>
+
+- Aprendes más y acompañado.
+- Conoces personas con tus mismos intereses.
+- Encuentras oportunidades y motivación.
+
+:::
+
+::: {.column width="40%"}
+
+![](./images/eventos/hands.png)
+
+:::
+:::::
+
+---
+
+## 🌱 ¿Cómo puedo participar? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::::: columns
+::: {.column width="60%"}
+<br>
+
+- Asiste a talleres y eventos.
+- Únete a comunidades como Python Chile.
+- Comparte, pregunta y apoya.
+
+:::
+
+::: {.column width="40%"}
+
+![](./images/eventos/plant.png)
+
+:::
+:::::
+
+
+------------------------------------------------------------------------
 
 ## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br>
 
 ❓¿Preguntas?
 
-👏 Responder [encuesta](https://forms.gle/PTczBF9Mk8nYYV88A)
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSfAg1iLo9G7d6v5cdLraneSDVj0pRaE3V89eEAQjjq7iiUnqQ/viewform?usp=header)
 
-🥳 Difrutar del Evento!
+🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_duoc_2024.png){width="400"}
+![](images/qr-pyday2025.png){width="400"}
 :::
-:::
+:::::
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
 
