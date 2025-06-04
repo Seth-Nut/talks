@@ -20,11 +20,16 @@ format:
 ::: r-stack
 <br>
 
-![](images/intro_01.jpeg){.fragment .fade-in-then-out fig-align="center" width="60%"}
+![](images/motivacion/img_01.jpg){.fragment .fade-in-then-out fig-align="center" width="60%"}
 
-![](images/intro_03.jpeg){.fragment .fade-in-then-out fig-align="center" width="60%"}
+![](images/motivacion/img_02.jpg){.fragment .fade-in-then-out fig-align="center" width="80%"}
 
-![](images/intro_04.jpeg){.fragment fig-align="center" width="65%"}
+![](images/motivacion/img_03.jpeg){.fragment .fade-in-then-out fig-align="center" width="60%"}
+
+![](images/motivacion/img_04.jpeg){.fragment .fade-in-then-out fig-align="center" width="60%"}
+
+
+![](images/motivacion/img_05.png){.fragment fig-align="center" width="80%"}
 :::
 
 ------------------------------------------------------------------------
@@ -134,19 +139,25 @@ format:
 
 ::: panel-tabset
 
-##  Ejemplo 1
+## 🧮 Cálculo de IMC
 ```{pyodide-python}
-print("Hola mundo!")
+def calcular_imc(peso, altura):
+    return peso / (altura ** 2)
+
+# Ejemplo de uso
+peso = 70  # kg
+altura = 1.75  # m
+print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}")
 ```
 
-## Ejemplo 2
+## 🐉 Gráfico de Pokémon
 ```{pyodide-python}
+import pandas as pd
 import matplotlib.pyplot as plt
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 6, 8, 10]
-plt.figure(figsize=(6, 3)) 
-plt.plot(x, y, marker='o', color='blue')
-plt.title("Gráfico Sencillo en Python")
+url = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'
+pokemon_data = pd.read_csv(url)
+plt.figure(figsize=(4, 4))
+plt.scatter(pokemon_data['Attack'], pokemon_data['Defense'], alpha=0.6,color='blue')
 plt.show()
 ```
 :::
@@ -155,10 +166,10 @@ plt.show()
 ------------------------------------------------------------------------
 
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+## 🚀 Ejemplo en Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {style="text-align: center;"}
-<iframe src="https://ds-cheat-sheets.streamlit.app/?embed=true" frameborder="0" width="1200" height="650">
+<iframe src="https://prettymapp.streamlit.app/?embed=true" frameborder="0" width="1200" height="650">
 
 </iframe>
 :::
@@ -199,6 +210,10 @@ plt.show()
 ![](images/introduccion/gh_03.png){.fragment fig-align="center" width="100%"}
 :::
 
+. . . 
+
+> **Conoce más en:** 👉 [sethnut.com](https://sethnut.com)  
+
 
 ------------------------------------------------------------------------
 
@@ -237,7 +252,7 @@ plt.show()
 ##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
 
-<br> <br>
+<br> 
 
 ::: r-stack
 
@@ -249,49 +264,23 @@ plt.show()
 
 ------------------------------------------------------------------------
 
-## ✅ Lo que Funcionó Bien {background-image="images/background.jpg" background-opacity="0.25"}
+## ✅ Resultados {background-image="images/background.jpg" background-opacity="0.25"}
 
-::::: columns
-::: {.column width="60%"}
-<br>
 
-- Evaluaciones sobresalientes (cercanos a 10).
-- Ejemplos visuales fueron lo más valorado.
-- Buen ambiente e interacción destacada.
-- Comentarios positivos como:
-    - “Muy claro y entendible”
-    - “Me gustó todo del taller”
+<br> <br>
 
+::: r-stack
+
+![](images/eventos/g1.png){ .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/eventos/g2.png){ fig-align="center" width="100%"}
 :::
 
-::: {.column width="40%"}
 
-![](./images/eventos/check.png)
+## 💬 Comentarios {background-image="images/background.jpg" background-opacity="0.25"}
 
-:::
-:::::
 
----
-
-## ⚠️ Desafíos Detectados {background-image="images/background.jpg" background-opacity="0.25"}
-
-::::: columns
-::: {.column width="60%"}
-<br>
-
-- Falta de computadores en algunos talleres.
-- Diferencias de nivel entre asistentes.
-- Tiempo insuficiente para profundizar.
-- Ritmo lento para algunos participantes.
-
-:::
-
-::: {.column width="40%"}
-
-![](./images/eventos/alert.png)
-
-:::
-:::::
+![](images/eventos/g3.png){.fragment fig-align="center" width="100%"}
 
 
 ---
@@ -327,6 +316,18 @@ plt.show()
 
 ---
 
+##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+
+<br> 
+
+::: r-stack
+
+![](images/eventos/comunidades.png){fig-align="center"}
+:::
+
+---
+
 ## 🌱 ¿Cómo puedo participar? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::::: columns
@@ -345,6 +346,23 @@ plt.show()
 
 :::
 :::::
+
+##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+
+<br> <br>
+
+::: r-stack
+
+![](images/eventos/pc_01.png){ .fade-in-then-out fig-align="center" }
+
+
+![](images/eventos/pc_02.png){.fragment fig-align="center"}
+:::
+
+. . . 
+
+> **Conoce más en:** 👉 [pythonchile.cl](https://pythonchile.cl/)  
 
 
 ------------------------------------------------------------------------
