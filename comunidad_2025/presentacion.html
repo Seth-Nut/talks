@@ -286,7 +286,7 @@
   }
 
   // Store cell data
-  globalThis.qpyodideCellDetails = [{"code":"print(\"Hola mundo!\")","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 6, 8, 10]\nplt.figure(figsize=(6, 3)) \nplt.plot(x, y, marker='o', color='blue')\nplt.title(\"Gráfico Sencillo en Python\")\nplt.show()","id":2,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+  globalThis.qpyodideCellDetails = [{"code":"def calcular_imc(peso, altura):\n    return peso / (altura ** 2)\n\n# Ejemplo de uso\npeso = 70  # kg\naltura = 1.75  # m\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}\")","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"import pandas as pd\nimport matplotlib.pyplot as plt\nurl = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'\npokemon_data = pd.read_csv(url)\nplt.figure(figsize=(4, 4))\nplt.scatter(pokemon_data['Attack'], pokemon_data['Defense'], alpha=0.6,color='blue')\nplt.show()","id":2,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
   </script>
@@ -516,17 +516,27 @@ Valeska Canales
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/intro_01.jpeg" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:60.0%"></p>
+<p><img data-src="images/motivacion/img_01.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:60.0%"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/intro_03.jpeg" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:60.0%"></p>
+<p><img data-src="images/motivacion/img_02.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:80.0%"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/intro_04.jpeg" class="fragment quarto-figure quarto-figure-center" style="width:65.0%"></p>
+<p><img data-src="images/motivacion/img_03.jpeg" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:60.0%"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/motivacion/img_04.jpeg" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:60.0%"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/motivacion/img_05.png" class="fragment quarto-figure quarto-figure-center" style="width:80.0%"></p>
 </figure>
 </div>
 </div>
@@ -606,7 +616,7 @@ format:
 <section id="section-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2></h2>
 <div class="panel-tabset">
-<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Ejemplo 1</a></li><li><a href="#tabset-1-2">Ejemplo 2</a></li></ul>
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">🧮 Cálculo de IMC</a></li><li><a href="#tabset-1-2">🐉 Gráfico de Pokémon</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1">
 <div id="qpyodide-insertion-location-1"></div>
@@ -619,10 +629,10 @@ format:
 </div>
 </div>
 </section>
-<section id="section-3" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
+<section id="ejemplo-en-streamlit" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🚀 Ejemplo en Streamlit</h2>
 <div style="text-align: center;">
-<iframe src="https://ds-cheat-sheets.streamlit.app/?embed=true" frameborder="0" width="1200" height="650">
+<iframe src="https://prettymapp.streamlit.app/?embed=true" frameborder="0" width="1200" height="650">
 </iframe>
 </div>
 </section>
@@ -640,7 +650,7 @@ format:
 <p><img data-src="./images/github/github.gif"></p>
 </div></div>
 </section>
-<section id="section-4" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" size="50%">
+<section id="section-3" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" size="50%">
 <h2></h2>
 <div class="r-stack">
 <p><br></p>
@@ -660,8 +670,13 @@ format:
 </figure>
 </div>
 </div>
+<div class="fragment">
+<blockquote>
+<p><strong>Conoce más en:</strong> 👉 <a href="https://sethnut.com">sethnut.com</a></p>
+</blockquote>
+</div>
 </section>
-<section id="section-5" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<section id="section-4" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
 <p><span style="font-size: 1em">Educación Abierta y Comunidad</span></p>
@@ -682,9 +697,9 @@ format:
 <p><img data-src="./images/eventos/microfono.png"></p>
 </div></div>
 </section>
-<section id="section-6" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" size="50%">
+<section id="section-5" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" size="50%">
 <h2></h2>
-<p><br> <br></p>
+<p><br></p>
 <div class="r-stack">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -698,41 +713,27 @@ format:
 </div>
 </div>
 </section>
-<section id="lo-que-funcionó-bien" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>✅ Lo que Funcionó Bien</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Evaluaciones sobresalientes (cercanos a 10).</li>
-<li>Ejemplos visuales fueron lo más valorado.</li>
-<li>Buen ambiente e interacción destacada.</li>
-<li>Comentarios positivos como:
-<ul>
-<li>“Muy claro y entendible”</li>
-<li>“Me gustó todo del taller”</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:40%;">
-<p><img data-src="./images/eventos/check.png"></p>
-</div></div>
+<section id="resultados" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>✅ Resultados</h2>
+<p><br> <br></p>
+<div class="r-stack">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/eventos/g1.png" class="fade-in-then-out quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/eventos/g2.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
 </section>
-<section id="desafíos-detectados" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>⚠️ Desafíos Detectados</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Falta de computadores en algunos talleres.</li>
-<li>Diferencias de nivel entre asistentes.</li>
-<li>Tiempo insuficiente para profundizar.</li>
-<li>Ritmo lento para algunos participantes.</li>
-</ul>
-</div><div class="column" style="width:40%;">
-<p><img data-src="./images/eventos/alert.png"></p>
-</div></div>
-</section>
-<section id="section-7" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<section id="comentarios" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>💬 Comentarios</h2>
+
+<img data-src="images/eventos/g3.png" class="fragment quarto-figure quarto-figure-center r-stretch" style="width:100.0%"></section>
+<section id="section-6" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
 <p><span style="font-size: 1em">Educación Abierta y Comunidad</span></p>
@@ -753,6 +754,17 @@ format:
 <p><img data-src="./images/eventos/hands.png"></p>
 </div></div>
 </section>
+<section id="section-7" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" size="50%">
+<h2></h2>
+<p><br></p>
+<div class="r-stack">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/eventos/comunidades.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</section>
 <section id="cómo-puedo-participar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>🌱 ¿Cómo puedo participar?</h2>
 <div class="columns">
@@ -766,6 +778,27 @@ format:
 </div><div class="column" style="width:40%;">
 <p><img data-src="./images/eventos/plant.png"></p>
 </div></div>
+</section>
+<section id="section-8" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" size="50%">
+<h2></h2>
+<p><br> <br></p>
+<div class="r-stack">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/eventos/pc_01.png" class="fade-in-then-out quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/eventos/pc_02.png" class="fragment quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+<div class="fragment">
+<blockquote>
+<p><strong>Conoce más en:</strong> 👉 <a href="https://pythonchile.cl/">pythonchile.cl</a></p>
+</blockquote>
+</div>
 </section>
 <section id="gracias-por-participar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>🎉 ¡Gracias por Participar!</h2>
