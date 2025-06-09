@@ -49,10 +49,10 @@ format:
 ::: {.column .fragment width="60%"}
 <br>
 
-- Talleres para estudiantes.
-- Charlas en eventos académicos.
-- Actividades para docentes.
-- Encuentros sobre programación y matemáticas.
+- Talleres para estudiantes
+- Charlas en eventos académicos
+- Actividades para docentes
+- Encuentros sobre programación y matemáticas
   
 :::
 
@@ -128,10 +128,10 @@ format:
 
 <br><br>
 
-- Promover espacios participativos y abiertos.  
-- Usar ejemplos claros y prácticos.  
-- Ajustar el ritmo según la audiencia.  
-- Fomentar el aprendizaje en comunidad.
+- Promover espacios participativos y abiertos 
+- Usar ejemplos claros y prácticos  
+- Ajustar el ritmo según la audiencia  
+- Fomentar el aprendizaje en comunidad
 
 :::
 
@@ -226,9 +226,9 @@ format:
 ::: {.column  .fragment width="60%"}
 <br>
 
--   Explica ideas con código y gráficos simples
--   Usa Python para demos y apps interactivas
--   Ideal para enseñar ciencia, datos e IA
+-   Explicar ideas con código y visualizaciones 
+-   Crear demos y apps con *Streamlit*  
+-   Extensiones quarto: *Pyodide*, *Jupyter*, ...  
 :::
 
 ::: {.column width="40%"}
@@ -332,9 +332,9 @@ plt.show()
 ::: {.column .fragment width="60%"}
 <br><br>
 
--   Aprendes más y acompañado.
--   Conoces personas con tus mismos intereses.
--   Encuentras oportunidades y motivación.
+-   Aprendes más y acompañado
+-   Conoces personas con tus mismos intereses
+-   Encuentras oportunidades y motivación
 :::
 
 ::: {.column width="40%"}
@@ -360,10 +360,10 @@ plt.show()
 ::: {.column  .fragment width="60%"}
 <br><br>
 
--   Participa en talleres y actividades.  
--   Únete a comunidades como Python Chile.  
--   Comparte tus ideas y apoya a otros.  
--   Crea o colabora en proyectos abiertos.
+-   Participa en talleres y actividades  
+-   Únete a comunidades como *Python Chile*
+-   Comparte tus ideas y apoya a otros  
+-   Crea o colabora en proyectos abiertos
 :::
 
 ::: {.column width="40%"}
