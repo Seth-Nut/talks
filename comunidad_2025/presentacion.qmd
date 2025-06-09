@@ -12,7 +12,7 @@ format:
       data-background-image: images/background.jpg
     slide-attributes:
       data-background-image: images/background.jpg
-    logo: images/logo_sn.png
+    logo: images/pc.png
 ---
 
 ## 🐍 ¿Por qué enseñar Python? {background-image="images/background.jpg" background-opacity="0.25"}
@@ -28,8 +28,116 @@ format:
 
 ![](images/motivacion/img_04.jpeg){.fragment .fade-in-then-out fig-align="center" width="60%"}
 
-
 ![](images/motivacion/img_05.png){.fragment fig-align="center" width="80%"}
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Educación Abierta y Comunidad]{style="font-size: 1em"}
+
+[Eventos]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
+## 🎤 Eventos Comunitarios {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br>
+
+- Talleres para estudiantes.
+- Charlas en eventos académicos.
+- Actividades para docentes.
+- Encuentros sobre programación y matemáticas.
+  
+:::
+
+::: {.column width="40%"}
+![](./images/eventos/microfono.png)
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+<br>
+
+::: r-stack
+![](images/eventos/eventos_011.png){.fade-in-then-out fig-align="center"}
+
+![](images/eventos/eventos_012.png){.fragment fig-align="center"}
+:::
+
+
+------------------------------------------------------------------------
+
+## ✅ Datos y Resultados  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+
+::: r-stack
+
+<br><br><br>
+
+![](images/eventos/g1.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
+
+![](images/eventos/g2.png){.fragment  fig-align="center" width="80%"}
+
+:::
+
+---
+
+## 📝 Comentarios de los Participantes  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+<br><br>
+
+::: columns
+::: {.column .fragment width="50%"}
+
+**⭐ Positivos**
+
+- Las actividades prácticas  
+- La claridad de los temas  
+- La dinámica del instructor  
+- Los ejemplos planteados  
+
+:::
+::: {.column .fragment width="50%"}
+
+**😕 Negativos**
+
+- El ritmo fue muy rápido  
+- El contenido teórico extenso  
+- Poco tiempo para preguntas  
+- Necesidad de mayor profundidad  
+
+:::
+:::
+
+---
+
+
+## 💡 Lecciones Aprendidas  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+::: columns
+::: {.column .fragment width="60%"}
+
+<br><br>
+
+- Promover espacios participativos y abiertos.  
+- Usar ejemplos claros y prácticos.  
+- Ajustar el ritmo según la audiencia.  
+- Fomentar el aprendizaje en comunidad.
+
+:::
+
+::: {.column width="40%"}
+![](images/eventos/light.png)
+:::
 :::
 
 ------------------------------------------------------------------------
@@ -48,27 +156,25 @@ format:
 
 <br>
 
-::::: columns
-::: {.column width="60%"}
+::: columns
+::: {.column .fragment width="60%"}
 <br>
 
-- Combinar texto, código y visualizaciones
-- Exportar a HTML, PDF, slides y más
-- Extender con plugins y lenguajes como Python y R
+-   Combinar texto, código y visualizaciones
+-   Exportar a HTML, PDF, slides y más
+-   Soporta extensiones mediante plugins
 :::
 
 ::: {.column width="40%"}
-
-
 ![](images/introduccion/quarto-logo.png)
 :::
-:::::
+:::
 
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 [Código: example.qmd]{style="font-size: 0.5em; color: gray"}
 
@@ -108,8 +214,7 @@ format:
 <iframe width=600 height=400 src="images/introduccion/quarto_min.html"></iframe>
 ```
 :::
-:::::
-
+:::
 
 ------------------------------------------------------------------------
 
@@ -117,29 +222,27 @@ format:
 
 <br>
 
-::::: columns
-::: {.column width="60%"}
+::: columns
+::: {.column  .fragment width="60%"}
 <br>
 
-- Explica ideas con código y gráficos simples
-- Usa Python para demos y apps interactivas
-- Ideal para enseñar ciencia, datos e IA
+-   Explica ideas con código y gráficos simples
+-   Usa Python para demos y apps interactivas
+-   Ideal para enseñar ciencia, datos e IA
 :::
 
 ::: {.column width="40%"}
-
 ![](images/introduccion/python-logo.png)
-
 :::
-:::::
+:::
 
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: panel-tabset
-
 ## 🧮 Cálculo de IMC
+
 ```{pyodide-python}
 def calcular_imc(peso, altura):
     return peso / (altura ** 2)
@@ -151,6 +254,7 @@ print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcula
 ```
 
 ## 🐉 Gráfico de Pokémon
+
 ```{pyodide-python}
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -162,9 +266,7 @@ plt.show()
 ```
 :::
 
-
 ------------------------------------------------------------------------
-
 
 ## 🚀 Ejemplo en Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -178,23 +280,19 @@ plt.show()
 
 ## Quarto + Python + GitHub {background-image="images/background.jpg" background-opacity="0.25"}
 
-::::: columns
-::: {.column width="60%"}
+::: columns
+::: {.column  .fragment width="60%"}
 <br>
 
-- Usa **Quarto** para crear contenido reproducible (docs, libros, slides)
-- Aprovecha **Python** para visualizaciones y apps interactivas
-- Publica y colabora usando **GitHub**, todo en un mismo flujo
+-   Usa **Quarto** para crear contenido reproducible (docs, libros, slides)
+-   Aprovecha **Python** para visualizaciones y apps interactivas
+-   Publica y colabora usando **GitHub**, todo en un mismo flujo
 :::
 
 ::: {.column width="40%"}
-
 ![](./images/github/github.gif)
-
 :::
-:::::
-
-
+:::
 
 ------------------------------------------------------------------------
 
@@ -203,87 +301,20 @@ plt.show()
 ::: r-stack
 <br>
 
-![](images/introduccion/gh_01.png){ .fade-in-then-out fig-align="center" width="100%"}
+![](images/introduccion/gh_01.png){.fade-in-then-out fig-align="center" width="100%"}
 
 ![](images/introduccion/gh_02.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
 ![](images/introduccion/gh_03.png){.fragment fig-align="center" width="100%"}
 :::
 
-. . . 
+. . .
 
-> **Conoce más en:** 👉 [sethnut.com](https://sethnut.com)  
-
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background_slides3.png" background-opacity="0.3"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Educación Abierta y Comunidad]{style="font-size: 1em"}
-
-[Eventos]{style="font-size: 1.5em"}
-:::
+> **Conoce más en:** 👉 [sethnut.com](https://sethnut.com)
 
 ------------------------------------------------------------------------
 
 
-## Eventos Comunitarios {background-image="images/background.jpg" background-opacity="0.25"}
-
-::::: columns
-::: {.column width="60%"}
-<br>
-
-- Estudiantes de enseñanza básica, media y universitaria.
-- Profesores y formadores de otras disciplinas.
-- Comunidad general interesada en programación y matemáticas.
-:::
-
-::: {.column width="40%"}
-
-![](./images/eventos/microfono.png)
-
-:::
-:::::
-
-
----
-
-##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
-
-
-<br> 
-
-::: r-stack
-
-![](images/eventos/eventos_011.png){ .fade-in-then-out fig-align="center" }
-
-
-![](images/eventos/eventos_012.png){.fragment fig-align="center"}
-:::
-
-------------------------------------------------------------------------
-
-## ✅ Resultados {background-image="images/background.jpg" background-opacity="0.25"}
-
-
-<br> <br>
-
-::: r-stack
-
-![](images/eventos/g1.png){ .fade-in-then-out fig-align="center" width="100%"}
-
-![](images/eventos/g2.png){ fig-align="center" width="100%"}
-:::
-
-
-## 💬 Comentarios {background-image="images/background.jpg" background-opacity="0.25"}
-
-
-![](images/eventos/g3.png){.fragment fig-align="center" width="100%"}
-
-
----
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -293,83 +324,72 @@ plt.show()
 [Comunidades]{style="font-size: 1.5em"}
 :::
 
-------
+------------------------------------------------------------------------
 
 ## 🤝 ¿Por qué unirse a una comunidad? {background-image="images/background.jpg" background-opacity="0.25"}
 
-::::: columns
-::: {.column width="60%"}
-<br>
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
 
-- Aprendes más y acompañado.
-- Conoces personas con tus mismos intereses.
-- Encuentras oportunidades y motivación.
-
+-   Aprendes más y acompañado.
+-   Conoces personas con tus mismos intereses.
+-   Encuentras oportunidades y motivación.
 :::
 
 ::: {.column width="40%"}
-
 ![](./images/eventos/hands.png)
-
 :::
-:::::
+:::
 
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
-
-<br> 
+<br>
 
 ::: r-stack
-
 ![](images/eventos/comunidades.png){fig-align="center"}
 :::
 
----
+------------------------------------------------------------------------
 
 ## 🌱 ¿Cómo puedo participar? {background-image="images/background.jpg" background-opacity="0.25"}
 
-::::: columns
-::: {.column width="60%"}
-<br>
+::: columns
+::: {.column  .fragment width="60%"}
+<br><br>
 
-- Asiste a talleres y eventos.
-- Únete a comunidades como Python Chile.
-- Comparte, pregunta y apoya.
-
+-   Participa en talleres y actividades.  
+-   Únete a comunidades como Python Chile.  
+-   Comparte tus ideas y apoya a otros.  
+-   Crea o colabora en proyectos abiertos.
 :::
 
 ::: {.column width="40%"}
-
 ![](./images/eventos/plant.png)
-
 :::
-:::::
+:::
 
 ##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
-
 
 <br> <br>
 
 ::: r-stack
-
-![](images/eventos/pc_01.png){ .fade-in-then-out fig-align="center" }
-
+![](images/eventos/pc_01.png){.fade-in-then-out fig-align="center"}
 
 ![](images/eventos/pc_02.png){.fragment fig-align="center"}
 :::
 
-. . . 
+. . .
 
-> **Conoce más en:** 👉 [pythonchile.cl](https://pythonchile.cl/)  
-
+> **Conoce más en:** 👉 [pythonchile.cl](https://pythonchile.cl/)
 
 ------------------------------------------------------------------------
 
 ## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -383,7 +403,7 @@ plt.show()
 ::: {.column width="50%" align="center"}
 ![](images/qr-pyday2025.png){width="400"}
 :::
-:::::
+:::
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
 
