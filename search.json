@@ -2762,6 +2762,41 @@
     "href": "comunidad_2025/presentacion.html#section",
     "title": "Educación Abierta y Comunidad",
     "section": "",
+    "text": "Educación Abierta y Comunidad\nEventos"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion.html#eventos-comunitarios",
+    "href": "comunidad_2025/presentacion.html#eventos-comunitarios",
+    "title": "Educación Abierta y Comunidad",
+    "section": "🎤 Eventos Comunitarios",
+    "text": "🎤 Eventos Comunitarios\n\n\n\n\nTalleres para estudiantes.\nCharlas en eventos académicos.\nActividades para docentes.\nEncuentros sobre programación y matemáticas."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion.html#datos-y-resultados",
+    "href": "comunidad_2025/presentacion.html#datos-y-resultados",
+    "title": "Educación Abierta y Comunidad",
+    "section": "✅ Datos y Resultados",
+    "text": "✅ Datos y Resultados"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion.html#comentarios-de-los-participantes",
+    "href": "comunidad_2025/presentacion.html#comentarios-de-los-participantes",
+    "title": "Educación Abierta y Comunidad",
+    "section": "📝 Comentarios de los Participantes",
+    "text": "📝 Comentarios de los Participantes\n\n\n\n⭐ Positivos\n\nLas actividades prácticas\n\nLa claridad de los temas\n\nLa dinámica del instructor\n\nLos ejemplos planteados\n\n\n😕 Negativos\n\nEl ritmo fue muy rápido\n\nEl contenido teórico extenso\n\nPoco tiempo para preguntas\n\nNecesidad de mayor profundidad"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion.html#lecciones-aprendidas",
+    "href": "comunidad_2025/presentacion.html#lecciones-aprendidas",
+    "title": "Educación Abierta y Comunidad",
+    "section": "💡 Lecciones Aprendidas",
+    "text": "💡 Lecciones Aprendidas\n\n\n\n\nPromover espacios participativos y abiertos.\n\nUsar ejemplos claros y prácticos.\n\nAjustar el ritmo según la audiencia.\n\nFomentar el aprendizaje en comunidad."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion.html#section-2",
+    "href": "comunidad_2025/presentacion.html#section-2",
+    "title": "Educación Abierta y Comunidad",
+    "section": "",
     "text": "Educación Abierta y Comunidad\nHerramientas"
   },
   {
@@ -2769,11 +2804,11 @@
     "href": "comunidad_2025/presentacion.html#quarto",
     "title": "Educación Abierta y Comunidad",
     "section": "Quarto",
-    "text": "Quarto\n\n\n\n\n\nCombinar texto, código y visualizaciones\nExportar a HTML, PDF, slides y más\nExtender con plugins y lenguajes como Python y R"
+    "text": "Quarto\n\n\n\n\n\nCombinar texto, código y visualizaciones\nExportar a HTML, PDF, slides y más\nSoporta extensiones mediante plugins"
   },
   {
-    "objectID": "comunidad_2025/presentacion.html#section-1",
-    "href": "comunidad_2025/presentacion.html#section-1",
+    "objectID": "comunidad_2025/presentacion.html#section-3",
+    "href": "comunidad_2025/presentacion.html#section-3",
     "title": "Educación Abierta y Comunidad",
     "section": "",
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
@@ -2786,8 +2821,8 @@
     "text": "Quarto + Python\n\n\n\n\n\nExplica ideas con código y gráficos simples\nUsa Python para demos y apps interactivas\nIdeal para enseñar ciencia, datos e IA"
   },
   {
-    "objectID": "comunidad_2025/presentacion.html#section-2",
-    "href": "comunidad_2025/presentacion.html#section-2",
+    "objectID": "comunidad_2025/presentacion.html#section-4",
+    "href": "comunidad_2025/presentacion.html#section-4",
     "title": "Educación Abierta y Comunidad",
     "section": "",
     "text": "🧮 Cálculo de IMC🐉 Gráfico de Pokémon\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
@@ -2807,39 +2842,11 @@
     "text": "Quarto + Python + GitHub\n\n\n\n\nUsa Quarto para crear contenido reproducible (docs, libros, slides)\nAprovecha Python para visualizaciones y apps interactivas\nPublica y colabora usando GitHub, todo en un mismo flujo"
   },
   {
-    "objectID": "comunidad_2025/presentacion.html#section-3",
-    "href": "comunidad_2025/presentacion.html#section-3",
+    "objectID": "comunidad_2025/presentacion.html#section-5",
+    "href": "comunidad_2025/presentacion.html#section-5",
     "title": "Educación Abierta y Comunidad",
     "section": "",
     "text": "Conoce más en: 👉 sethnut.com"
-  },
-  {
-    "objectID": "comunidad_2025/presentacion.html#section-4",
-    "href": "comunidad_2025/presentacion.html#section-4",
-    "title": "Educación Abierta y Comunidad",
-    "section": "",
-    "text": "Educación Abierta y Comunidad\nEventos"
-  },
-  {
-    "objectID": "comunidad_2025/presentacion.html#eventos-comunitarios",
-    "href": "comunidad_2025/presentacion.html#eventos-comunitarios",
-    "title": "Educación Abierta y Comunidad",
-    "section": "Eventos Comunitarios",
-    "text": "Eventos Comunitarios\n\n\n\n\nEstudiantes de enseñanza básica, media y universitaria.\nProfesores y formadores de otras disciplinas.\nComunidad general interesada en programación y matemáticas."
-  },
-  {
-    "objectID": "comunidad_2025/presentacion.html#resultados",
-    "href": "comunidad_2025/presentacion.html#resultados",
-    "title": "Educación Abierta y Comunidad",
-    "section": "✅ Resultados",
-    "text": "✅ Resultados"
-  },
-  {
-    "objectID": "comunidad_2025/presentacion.html#comentarios",
-    "href": "comunidad_2025/presentacion.html#comentarios",
-    "title": "Educación Abierta y Comunidad",
-    "section": "💬 Comentarios",
-    "text": "💬 Comentarios"
   },
   {
     "objectID": "comunidad_2025/presentacion.html#section-6",
@@ -2860,7 +2867,7 @@
     "href": "comunidad_2025/presentacion.html#cómo-puedo-participar",
     "title": "Educación Abierta y Comunidad",
     "section": "🌱 ¿Cómo puedo participar?",
-    "text": "🌱 ¿Cómo puedo participar?\n\n\n\n\nAsiste a talleres y eventos.\nÚnete a comunidades como Python Chile.\nComparte, pregunta y apoya."
+    "text": "🌱 ¿Cómo puedo participar?\n\n\n\n\nParticipa en talleres y actividades.\n\nÚnete a comunidades como Python Chile.\n\nComparte tus ideas y apoya a otros.\n\nCrea o colabora en proyectos abiertos."
   },
   {
     "objectID": "comunidad_2025/presentacion.html#section-8",
