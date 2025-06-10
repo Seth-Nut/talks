@@ -74,20 +74,16 @@ format:
 :::
 
 
-------------------------------------------------------------------------
+---
 
-## ✅ Datos y Resultados  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+## ✅ Datos y Resultados   {background-image="images/background.jpg" background-opacity="0.25" size="50%" }
 
 
-::: r-stack
 
-<br><br><br>
+<div class="fragment" style="display: flex; justify-content: center; align-items: center; padding: 1rem;">
+  <iframe src="images/pyvizzu/mystory3.html" width="1000" height="600" style="border: 4px solid #ccc; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.2);"></iframe>
+</div>
 
-![](images/eventos/g1.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
-
-![](images/eventos/g2.png){.fragment  fig-align="center" width="80%"}
-
-:::
 
 ---
 
@@ -98,22 +94,26 @@ format:
 ::: columns
 ::: {.column .fragment width="50%"}
 
-**⭐ Positivos**
 
+::: {.callout-note  title="Positivos"}
 - Las actividades prácticas  
 - La claridad de los temas  
 - La dinámica del instructor  
 - Los ejemplos planteados  
+- Buen ambiente de aprendizaje
+:::
 
 :::
 ::: {.column .fragment width="50%"}
 
-**😕 Negativos**
 
+::: {.callout-important  title="Negativos"}
 - El ritmo fue muy rápido  
 - El contenido teórico extenso  
 - Poco tiempo para preguntas  
 - Necesidad de mayor profundidad  
+- Instrucciones algo confusas
+::: 
 
 :::
 :::
@@ -243,6 +243,8 @@ format:
 ::: panel-tabset
 ## 🧮 Cálculo de IMC
 
+<div style="max-height: 300px; overflow: auto; border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
+
 ```{pyodide-python}
 def calcular_imc(peso, altura):
     return peso / (altura ** 2)
@@ -253,17 +255,25 @@ altura = 1.75  # m
 print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}")
 ```
 
-## 🐉 Gráfico de Pokémon
+</div>
 
+## 🐉 Gráfico de Pokémon
+<div style="max-height: 400px; overflow: auto; border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
 ```{pyodide-python}
 import pandas as pd
 import matplotlib.pyplot as plt
 url = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'
 pokemon_data = pd.read_csv(url)
 plt.figure(figsize=(4, 4))
-plt.scatter(pokemon_data['Attack'], pokemon_data['Defense'], alpha=0.6,color='blue')
+plt.scatter(pokemon_data['Attack'], pokemon_data['Defense'], alpha=0.6, color='blue')
+plt.xlabel("Attack")
+plt.ylabel("Defense")
+plt.title("Ataque vs Defensa de Pokémon")
+plt.tight_layout()
 plt.show()
 ```
+</div>
+
 :::
 
 ------------------------------------------------------------------------
