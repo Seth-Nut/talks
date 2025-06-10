@@ -281,7 +281,7 @@ plt.show()
 ## 🚀 Ejemplo en Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {style="text-align: center;"}
-<iframe src="https://prettymapp.streamlit.app/?embed=true" frameborder="0" width="1200" height="650">
+<iframe src="https://st-pyday2025.streamlit.app/?embed=true" frameborder="0" width="1200" height="650">
 
 </iframe>
 :::
