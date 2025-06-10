@@ -286,7 +286,7 @@
   }
 
   // Store cell data
-  globalThis.qpyodideCellDetails = [{"code":"def calcular_imc(peso, altura):\n    return peso / (altura ** 2)\n\n# Ejemplo de uso\npeso = 70  # kg\naltura = 1.75  # m\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}\")","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"import pandas as pd\nimport matplotlib.pyplot as plt\nurl = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'\npokemon_data = pd.read_csv(url)\nplt.figure(figsize=(4, 4))\nplt.scatter(pokemon_data['Attack'], pokemon_data['Defense'], alpha=0.6,color='blue')\nplt.show()","id":2,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+  globalThis.qpyodideCellDetails = [{"code":"def calcular_imc(peso, altura):\n    return peso / (altura ** 2)\n\n# Ejemplo de uso\npeso = 70  # kg\naltura = 1.75  # m\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}\")","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"import pandas as pd\nimport matplotlib.pyplot as plt\nurl = 'https://gist.githubusercontent.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6/raw/92200bc0a673d5ce2110aaad4544ed6c4010f687/pokemon.csv'\npokemon_data = pd.read_csv(url)\nplt.figure(figsize=(4, 4))\nplt.scatter(pokemon_data['Attack'], pokemon_data['Defense'], alpha=0.6, color='blue')\nplt.xlabel(\"Attack\")\nplt.ylabel(\"Defense\")\nplt.title(\"Ataque vs Defensa de Pokémon\")\nplt.tight_layout()\nplt.show()","id":2,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
   </script>
@@ -581,18 +581,8 @@ Valeska Canales
 </section>
 <section id="datos-y-resultados" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" size="50%">
 <h2>✅ Datos y Resultados</h2>
-<div class="r-stack">
-<p><br><br><br></p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/eventos/g1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/eventos/g2.png" class="fragment quarto-figure quarto-figure-center" style="width:80.0%"></p>
-</figure>
-</div>
+<div class="fragment" style="display: flex; justify-content: center; align-items: center; padding: 1rem;">
+<p><iframe src="images/pyvizzu/mystory3.html" width="1000" height="600" style="border: 4px solid #ccc; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.2);"></iframe></p>
 </div>
 </section>
 <section id="comentarios-de-los-participantes" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" size="50%">
@@ -600,7 +590,16 @@ Valeska Canales
 <p><br><br></p>
 <div class="columns">
 <div class="column fragment" style="width:50%;">
-<p><strong>⭐ Positivos</strong></p>
+<div title="Positivos">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Positivos</strong></p>
+</div>
+<div class="callout-content">
 <ul>
 <li>Las actividades prácticas<br>
 </li>
@@ -608,10 +607,25 @@ Valeska Canales
 </li>
 <li>La dinámica del instructor<br>
 </li>
-<li>Los ejemplos planteados</li>
+<li>Los ejemplos planteados<br>
+</li>
+<li>Buen ambiente de aprendizaje</li>
 </ul>
+</div>
+</div>
+</div>
+</div>
 </div><div class="column fragment" style="width:50%;">
-<p><strong>😕 Negativos</strong></p>
+<div title="Negativos">
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Negativos</strong></p>
+</div>
+<div class="callout-content">
 <ul>
 <li>El ritmo fue muy rápido<br>
 </li>
@@ -619,8 +633,14 @@ Valeska Canales
 </li>
 <li>Poco tiempo para preguntas<br>
 </li>
-<li>Necesidad de mayor profundidad</li>
+<li>Necesidad de mayor profundidad<br>
+</li>
+<li>Instrucciones algo confusas</li>
 </ul>
+</div>
+</div>
+</div>
+</div>
 </div></div>
 </section>
 <section id="lecciones-aprendidas" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" size="50%">
@@ -720,12 +740,16 @@ format:
 <ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">🧮 Cálculo de IMC</a></li><li><a href="#tabset-1-2">🐉 Gráfico de Pokémon</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1">
+<div style="max-height: 300px; overflow: auto; border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </div>
+</div>
 <div id="tabset-1-2">
+<div style="max-height: 400px; overflow: auto; border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
 <div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
 </div>
 </div>
 </div>
