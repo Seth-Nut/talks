@@ -1,0 +1,819 @@
+---
+title: "Creating, innovating and presenting"
+subtitle: "Data Storytelling + A.I."
+author: 
+  - Francisco Alfaro
+date: 06 Jul 2025
+format: 
+  revealjs:
+    transition: slide
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    logo: images/pc.png
+filters:
+  - quarto-ext/shinylive
+---
+
+## About me {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+![](images/fralfaro.png){fig-align="center"}
+:::
+
+::: {.column width="60%"}
+<br>
+
+-   Francisco Alfaro Medina aka *fralfaro*
+-   Member of Python Chile
+-   Lead Data Scientist at Grupo Security\
+-   Associate Lecturer at UTFSM
+:::
+:::
+
+::: notes
+My name is Francisco Alfaro Medina, also known as *fralfaro*.\
+I'm a member of Python Chile, currently working as Lead Data Scientist at Grupo Security, and I also teach at UTFSM.
+:::
+
+------------------------------------------------------------------------
+
+## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .incremental width="30%"}
+-   
+
+-   No
+
+-   Nope
+
+-   No chance
+:::
+
+::: {.column .fragment width="70%"}
+<img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"/>
+:::
+:::
+
+::: notes
+Most talks start with a detailed agenda slide...\
+But not this one.\
+I want this to feel more like a story we explore together, not a checklist.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #1
+
+Never reveal the ending too soon.\
+[Always build up tension and drama]{.fragment}
+:::
+:::
+
+::: notes
+Lesson #1 of Storytelling. NEVER kill the suspense. Storytelling Tip:\
+Keep your audience curious.\
+Don’t spoil the ending — build tension first!\
+Surprise makes stories memorable.
+:::
+
+------------------------------------------------------------------------
+
+## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: incremental
+1.  Never reveal the [ending]{style="background-color:black;"}\
+2.  Details are important, but [not **all** details are important.]{style="background-color:black;"}\
+3.  Your first draft will be [horrible.]{style="background-color:black;"}\
+4.  Explain less, [show more]{style="background-color:black;"}
+:::
+
+::: notes
+Today’s agenda = storytelling lessons.\
+We’ll uncover each one as we go — no spoilers.\
+Stay curious.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Storytelling]{style="font-size: 1em"}
+
+[Why Storytelling?]{style="font-size: 1.5em"}
+:::
+
+::: notes
+OK, so, why data storytelling?
+:::
+
+------------------------------------------------------------------------
+
+## What is Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+![](images/cave.jpg){fig-align="center" width="90%"}
+:::
+
+::: {.column .fragment width="50%"}
+![](images/fire.jpg){fig-align="center" width="100%"}
+:::
+:::
+
+. . .
+
+::: {style="text-align: center; "}
+🔥 **Stories** are the first human technology.
+:::
+
+::: notes
+Stories are how humans share knowledge.\
+It’s our oldest learning tool — built for memory, connection, and meaning.\
+Use it well.
+:::
+
+------------------------------------------------------------------------
+
+## Ohh, those hackable brains {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/storytelling/sketplanation.png){fig-align="center" width="90%"}\
+*Peak-End Rule*
+:::
+
+::: {.column .fragment width="50%"}
+![](images/storytelling/got.jpg){fig-align="center" width="100%"}\
+*Game of Thrones Rating, by Kelvin Neo*
+:::
+:::
+
+::: notes
+People remember peaks and endings.\
+Strong emotions + a great finale = lasting impact.\
+Plan your story with this in mind.
+:::
+
+------------------------------------------------------------------------
+
+## Narrative {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="60%"}
+<br><br> Use **Storytelling tricks** (narrative) to create presentations that will be **remembered** and make an **impact**
+:::
+
+::: {.column .fragment width="40%"}
+![](images/emotions.png){fig-align="center"}
+:::
+:::
+
+. . .
+
+::: {style="text-align: center;"}
+🎭 Emotions inspire action
+:::
+
+::: notes
+Great ideas need great communication.\
+Storytelling is your toolkit to move people.\
+Facts inform — emotions inspire action.
+:::
+
+------------------------------------------------------------------------
+
+## The best example {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="30%" fragment-index="1"}
+![](images/storytelling/spotify1.png){fig-align="center"}
+:::
+
+::: {.column .center width="40%"}
+<br><br> How to make millions of people share statistics on social media?
+:::
+
+::: {.column .fragment width="30%" fragment-index="1"}
+![](images/storytelling/spotify2.png){fig-align="center"}
+:::
+:::
+
+::: notes
+Spotify Wrapped = storytelling with data.\
+Not just stats — it’s *your* story.\
+That’s why millions share it every year.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Tool #1: Visualization]{style="font-size: 1.5em"}
+:::
+
+::: notes
+So, let me tell you about how visualization and storytelling are related.
+:::
+
+------------------------------------------------------------------------
+
+## Examples {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+![](images/dst_before.png){fig-align="center"} *🔢 Don't share numbers*
+:::
+
+::: {.column .fragment width="50%"}
+![](images/dst_after.png){fig-align="center"} *🪶 Share a story*
+:::
+:::
+
+. . .
+
+<br><br> [(C) Storytelling with Data, by Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
+
+::: notes
+Numbers inform.\
+Stories connect.\
+Show only what matters — everything else is noise.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #2
+
+Details matter, [but not **all** details are important.]{.fragment}
+:::
+:::
+
+::: notes
+Details guide attention.\
+Show less — but better.\
+Focus only on what moves the story forward.
+:::
+
+------------------------------------------------------------------------
+
+## Best Charts for your Data {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/storytelling/plot1.png){.fragment .fade-in-then-out fig-align="left"}
+
+![](images/storytelling/plot2.png){.fragment fig-align="right"}
+:::
+
+. . .
+
+[(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
+
+::: notes
+You don’t need fancy charts.\
+Bar, scatter, box, heatmap, big text — that's 90% of data storytelling.\
+Simple wins.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Tool #2: AI]{style="font-size: 1.5em"}
+:::
+
+::: notes
+AI won’t tell your story for you.\
+But it will help you tell it better — faster, clearer, and more creative.
+:::
+
+------------------------------------------------------------------------
+
+## Examples {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/gh_before.png){fig-align="center"}
+:::
+
+::: {.column .fragment width="50%"}
+![](images/gh_after.png){fig-align="center"}
+:::
+:::
+
+. . .
+
+::: {style="text-align: center;"}
+🥱 1° version $<$ ... $<$ 😊 last version
+:::
+
+::: notes
+First versions are never perfect.\
+Draft → feedback → improve.\
+Storytelling is an iterative process.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #3
+
+Your first draft will [**always** be horrible.]{.fragment}
+:::
+:::
+
+::: notes
+Bad first drafts are normal.\
+Don’t aim for perfect — aim to start.\
+Refining comes later.
+:::
+
+------------------------------------------------------------------------
+
+## From Ideas to Impact... Faster with AI {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br>
+
+-   Faster structure, less effort\
+-   Clearer stories, better impact\
+-   Visuals in seconds\
+-   More time for creativity
+:::
+
+::: {.column .fragment width="40%"}
+![](images/ai/choice.jpeg){fig-align="center"}
+:::
+:::
+
+::: notes
+First drafts are messy — that’s normal.\
+AI helps you go from idea → clarity → impact much faster.\
+Less time stuck, more time creating.
+:::
+
+------------------------------------------------------------------------
+
+## 💡Unlocking Creativity with AI Tools {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br>
+
+-   [ChatGPT (OpenAI)](https://openai.com/chatgpt/)
+-   [Gemini (Google DeepMind)](https://deepmind.google/gemini/)
+-   [Napkin AI](https://www.napkin.one/)
+-   [Midjourney](https://www.midjourney.com/)
+-   [Bolt](https://bolt.new/)
+:::
+
+::: {.column width="40%"}
+<img src="images/ai/ai_images.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: notes
+AI tools = creative shortcuts.\
+They help you write, visualize, and explore ideas faster.\
+Use them as assistants — not replacements.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Tool #3: Presentation]{style="font-size: 1.5em"}
+:::
+
+::: notes
+Your story needs a stage.\
+Presentation tools shape how people feel your message.\
+Design it with care — it’s part of the story.
+:::
+
+------------------------------------------------------------------------
+
+## Examples {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: panel-tabset
+## Code
+
+Let’s see how much code we need to say something as simple as:\
+“Do you like this presentation?”
+
+It may seem like a small question, but turning that into code requires defining categories, assigning values, choosing colors, and setting plot parameters.\
+And that’s just to get a basic bar chart.
+
+``` r
+categories <- c("Yes", "No")
+values <- c(75, 25)
+colors <- c("lightblue", "salmon")
+barplot(
+  values, names.arg = categories, col = colors, 
+  main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9
+)
+```
+
+## Plot
+
+```{r}
+categories <- c("Yes", "No")
+values <- c(75, 25)
+colors <- c("lightblue", "salmon")
+barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
+```
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #4
+
+[Explain less]{style="color: red"}, [show more.]{.fragment style="color: green"}
+:::
+:::
+
+::: notes
+Sometimes we write too much...\
+When a simple image or chart says it all — faster and clearer.\
+Remember: Show, don’t tell.
+:::
+
+------------------------------------------------------------------------
+
+## 📝 Quarto (+ Extensions) {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+[Quarto](https://quarto.org/) is an open system for scientific publications with markdown and interactive code (Python/R).
+
+<br>
+
+> 🔧 Need more power? Use [Extensions](https://quarto.org/docs/extensions/)
+:::
+
+::: {.column width="40%"}
+![](images/quarto/quarto2.png)
+:::
+:::
+
+::: notes
+Quarto makes it easy to write, code, and share.\
+Clean documents by default — more powerful with extensions.\
+One tool for writing, coding, and presenting.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+[Código: example.qmd]{style="font-size: 0.5em; color: gray"}
+
+```         
+---
+title: "Habits"
+author: "John Doe"
+format:
+  revealjs:
+    transition: fade
+    theme: black
+    toc: true
+    center: true
+---
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+---
+
+## Going to sleep 
+::: { .incremental }
+
+- Get in bed
+- Count sheep
+
+:::
+```
+:::
+
+::: {.column width="60%"}
+[Slides: example.html]{style="font-size: 0.5em; color: gray"}
+
+```{=html}
+<iframe width=600 height=400 src="images/quarto/quarto_min.html"></iframe>
+```
+:::
+:::
+
+::: notes
+Write once in Quarto — export everywhere.\
+Same file, clean code, beautiful slides.\
+Focus on content, let Quarto handle the rest.
+:::
+
+------------------------------------------------------------------------
+
+## 🌐 Quarto WebR + Pyodide {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="59%"}
+<br>
+
+1.  [WebR](https://docs.r-wasm.org/webr/latest/): Run R code in the browser, no installation required.
+
+    ``` bash
+    # To install WebR in your environment
+    remotes::install_github("attiyap/WebR")
+    ```
+
+2.  [Pyodide](https://quarto.thecoatlessprofessor.com/pyodide/): Same, but for Python.
+
+    ``` bash
+    # To install Pyodide
+    pip install pyodide
+    ```
+:::
+
+::: {.column width="41%"}
+![](images/quarto/pyodide.png)
+:::
+:::
+
+::: notes
+WebR and Pyodide run code directly in the browser.\
+No setup, no installs — just share and run.\
+Perfect for teaching, demos, and interactive content.
+:::
+
+------------------------------------------------------------------------
+
+## Example {background-image="images/background.jpg" background-opacity="0.25"}
+
+```{pyodide-python}
+import matplotlib.pyplot as plt
+categories = ["Yes", "No"]
+values = [75, 25]
+colors = ["lightblue", "salmon"]
+plt.figure(figsize=(6, 4))
+plt.subplots_adjust(bottom=0.25, left=0.2)
+plt.bar(categories, values, color=colors)
+plt.title("😊 Do you like the presentation so far? 😊", fontsize=12)
+plt.show()
+```
+
+
+
+------------------------------------------------------------------------
+
+## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="60%"}
+<br><br>
+
+[Streamlit](https://streamlit.io) is a Python library that allows you to easily create interactive web applications using only Python code.
+:::
+
+::: {.column width="40%"}
+![](images/streamlit/st.png)
+:::
+:::
+
+::: notes
+Streamlit lets you turn Python scripts into interactive apps.  
+Great for dashboards, machine learning demos, and data exploration.  
+No HTML, CSS or JS needed.
+:::
+
+------------------------------------------------------------------------
+
+## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+
+![](https://blog.streamlit.io/content/images/2021/11/Streamlit-Prophet.gif){width="90%"}
+
+::: notes
+Shiny apps let people interact with your data.\
+Change inputs — see results instantly.\
+Perfect for exploring and communicating insights.
+:::
+
+---
+
+## ☁️ Streamlit Cloud {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: r-stack
+<br>
+
+![](images/streamlit/st_cloud.png){.fragment .fade-in-then-out fig-align="center" width="60%"}
+
+
+
+![](https://blog.streamlit.io/content/images/2021/11/deploy_small.gif){.fragment fig-align="center" width="80%"}
+:::
+
+. . .
+
+> **Learn more at:** 👉 [streamlit.io/cloud](https://streamlit.io/cloud){font-size="0.8em"}
+
+------------------------------------------------------------------------
+
+## 🌐 Quarto + Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+-   Deploy to [Streamlit Cloud](https://streamlit.io/cloud) with one click.
+-   Seamlessly embed your app in a **Quarto presentation or website**.
+-   Perfect for **live demos** and  **data storytelling**.
+:::
+
+::: {.column width="40%"}
+![](images/streamlit/st_quarto2.png)
+:::
+:::
+
+. . .
+
+
+::: {style="text-align: center; font-size: 1.2em;"}
+Stay in your presentation.\
+Stay in the flow. 🎯
+:::
+
+::: notes
+Shinylive runs Shiny apps fully in the browser.
+
+No servers, no install — just share and interact.
+
+Great for live demos without breaking the flow.
+:::
+
+
+
+
+------------------------------------------------------------------------
+
+## Example {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="text-align: center;"}
+<iframe src="https://st-pycon-colombia.streamlit.app/?embed=true" frameborder="0" width="1200" height="650">
+
+</iframe>
+:::
+
+------------------------------------------------------------------------
+
+## 🔗 Useful Links {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .incremental width="60%"}
+<br>
+
+-   🎥 **YouTube Videos**:
+    -   [Reproducible Data Science: WebR + Shinylive](https://www.youtube.com/watch?v=dummy_link)
+    -   [Streamlit 101 - A faster way to build ](https://www.youtube.com/watch?v=UI4f4iiVT6c)
+-   📖 **More**:
+    -   [Pyodide Documentation](https://pyodide.org/en/stable/)
+    -   [Streamlit Documentation](https://docs.streamlit.io/)
+:::
+
+::: {.column width="40%"}
+<br> ![](images/quarto/rwasm.png)
+:::
+:::
+
+::: notes
+If you want to go deeper — here are great resources.
+
+Videos, docs, and examples to explore WebR and Shinylive on your own.
+
+Learn by doing!
+:::
+
+------------------------------------------------------------------------
+
+## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: incremental
+1.  Never reveal the [**ending**]{.fragment style="color:grey;"}\
+2.  Details are important, but [not **all** details are important]{.fragment style="color:grey;"}\
+3.  Your first draft will be [**horrible**]{.fragment style="color:grey;"}\
+4.  Explain less, [**show more**]{.fragment style="color:grey;"}
+:::
+
+::: notes
+A mysterious agenda — like a good story.
+
+Now you’ve seen how each point connects.
+
+Simple rules to tell better stories with data.
+:::
+
+------------------------------------------------------------------------
+
+## 🎉 Thank You for Participating! {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓ Questions?
+
+👏 Fill out the [survey](https://forms.gle/NCUjzXYyDoXETTfZ8)
+
+🥳 Thank You Again!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr_pycon.png){width="400"}
+:::
+:::
+
+> 🔗 Visit our official site: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+
+::: notes
+Thank you so much for being here!
+
+Feel free to ask questions — and please fill out the survey.
+
+Let’s keep learning and creating great stories with data.\
+See you next time!
+:::
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+
+}
+
+.reveal .slide-logo {
+   max-height: 3em !important;
+}
+
+
+</style>
+```
