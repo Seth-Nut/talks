@@ -560,6 +560,34 @@
     "text": "Presentation Tools\n\n\n\n\nClassic: PowerPoint\n\n“Show, don’t tell”:\n\nQuarto\n\nStreamlit\n\n\nBusiness Intelligence (BI):\n\nPower BI, Tableau\n\nLooker Studio\n\n\nOthers: Canva, Reveal.js, Prezi"
   },
   {
+    "objectID": "shiny_2025/presentacion_ext.html#classic-presentation-tools",
+    "href": "shiny_2025/presentacion_ext.html#classic-presentation-tools",
+    "title": "Creating, innovating and presenting",
+    "section": "Classic Presentation Tools",
+    "text": "Classic Presentation Tools\n\n\n\n\nMain tools:\n\nPowerPoint\n\nGoogle Slides\n\n\nStrengths:\n\nEasy to use\n\nWidely supported\n\nGreat for static content"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_ext.html#classic-presentation-tools-1",
+    "href": "shiny_2025/presentacion_ext.html#classic-presentation-tools-1",
+    "title": "Creating, innovating and presenting",
+    "section": "Classic Presentation Tools",
+    "text": "Classic Presentation Tools"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_ext.html#business-intelligence-tools",
+    "href": "shiny_2025/presentacion_ext.html#business-intelligence-tools",
+    "title": "Creating, innovating and presenting",
+    "section": "Business Intelligence Tools",
+    "text": "Business Intelligence Tools\n\n\n\n\nTop tools:\n\nPower BI,Tableau\n\nLooker Studio\n\n\nStrengths:\n\nInteractive dashboards\n\nData connectivity\n\nReal-time insights"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_ext.html#business-intelligence-tools-1",
+    "href": "shiny_2025/presentacion_ext.html#business-intelligence-tools-1",
+    "title": "Creating, innovating and presenting",
+    "section": "Business Intelligence Tools",
+    "text": "Business Intelligence Tools"
+  },
+  {
     "objectID": "shiny_2025/presentacion_ext.html#quarto-extensions",
     "href": "shiny_2025/presentacion_ext.html#quarto-extensions",
     "title": "Creating, innovating and presenting",
@@ -623,11 +651,25 @@
     "text": "Example"
   },
   {
+    "objectID": "shiny_2025/presentacion_ext.html#html-webapps",
+    "href": "shiny_2025/presentacion_ext.html#html-webapps",
+    "title": "Creating, innovating and presenting",
+    "section": "HTML & webapps",
+    "text": "HTML & webapps\n\n\n🛠️ Choose a tool\n\n💡 Innovation stands out"
+  },
+  {
     "objectID": "shiny_2025/presentacion_ext.html#useful-links",
     "href": "shiny_2025/presentacion_ext.html#useful-links",
     "title": "Creating, innovating and presenting",
     "section": "🔗 Useful Links",
-    "text": "🔗 Useful Links\n\n\n\n\n🎥 YouTube Videos:\n\nReproducible Data Science: WebR + Shinylive\nStreamlit 101 - A faster way to build\n\n📖 More:\n\nPyodide Documentation\nStreamlit Documentation\n\n\n\n \n\n\nIf you want to go deeper — here are great resources.\nVideos, docs, and examples to explore WebR and Shinylive on your own.\nLearn by doing!"
+    "text": "🔗 Useful Links\n\n\n\n\n🎥 YouTube Videos:\n\nReproducible Data Science: WebR + Shinylive\nStreamlit 101 - A faster way to build\nLooker Studio Tutorial - Create Your First Report\n\n📖 More:\n\nPyodide Documentation\nStreamlit Documentation\nLooker Studio Documentation\n\n\n\n \n\n\nIf you want to go deeper — here are great resources.\nVideos, docs, and examples to explore WebR and Shinylive on your own.\nLearn by doing!"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_ext.html#section-9",
+    "href": "shiny_2025/presentacion_ext.html#section-9",
+    "title": "Creating, innovating and presenting",
+    "section": "",
+    "text": "Storytelling\nConclusion"
   },
   {
     "objectID": "shiny_2025/presentacion_ext.html#agenda-v2-1",
@@ -635,6 +677,20 @@
     "title": "Creating, innovating and presenting",
     "section": "Agenda (v2)",
     "text": "Agenda (v2)\n\nNever reveal the ending\n\nDetails are important, but not all details are important\n\nYour first draft will be horrible\n\nExplain less, show more\n\n\nA mysterious agenda — like a good story.\nNow you’ve seen how each point connects.\nSimple rules to tell better stories with data."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_ext.html#section-10",
+    "href": "shiny_2025/presentacion_ext.html#section-10",
+    "title": "Creating, innovating and presenting",
+    "section": "",
+    "text": "Storytelling\nActivity\n\n\nOK, so, why data storytelling?"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_ext.html#activity-your-first-dashboard",
+    "href": "shiny_2025/presentacion_ext.html#activity-your-first-dashboard",
+    "title": "Creating, innovating and presenting",
+    "section": "🧪 Activity: Your First Dashboard",
+    "text": "🧪 Activity: Your First Dashboard\n\n🎯 Goal🔹 Part 1🔸 Part 2✅ Evaluation\n\n\n\nLearn how to build a simple dashboard using Google Looker Studio with data from Google Sheets and share it with your classmates.\n\n\nSuggested time: 30–40 minutes\n\nGo to lookerstudio.google.com\n\nConnect a Google Sheet\n📄 Example dataset\n\nAdd:\n\nTable with filter, Bar chart, Scorecards (KPIs)\n\n\nCustomize design\n\nShare the link with view access\n\n\n\nSuggested time: 30–45 minutes\nInstructions:\n\nChoose your own dataset\n\nCreate a new dashboard\n\nAt least 3 visualizations\n\nAdd filters and custom style\n\n\nShare the link and give feedback to one peer\n\n\n\n\n\n\n\nCriteria\nCompleted ✔\n\n\n\n\nAt least 3 different visualizations\n\n\n\nTitle and custom design\n\n\n\nProper data source connection\n\n\n\nCommented on a classmate’s dashboard"
   },
   {
     "objectID": "shiny_2025/presentacion_ext.html#thank-you-for-participating",
