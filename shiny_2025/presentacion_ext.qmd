@@ -4,7 +4,7 @@ subtitle: "Data Storytelling + A.I."
 author: 
   - Francisco Alfaro
   - Valeska Canales
-date: 26 JuN 2025
+date: 26 Jun 2025
 format: 
   revealjs:
     transition: slide
@@ -587,8 +587,69 @@ Remember: Show, don’t tell.
 :::
 :::
 
+------------------------------------------------------------------------
+
+## Classic Presentation Tools {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column width="60%" .fragment}
+- **Main tools**:  
+  - PowerPoint  
+  - Google Slides    
+- **Strengths**:  
+  - Easy to use  
+  - Widely supported  
+  - Great for static content  
+:::
+
+::: {.column width="40%"}
+![](images/quarto/pp.png){fig-align="center"}
+:::
+:::
+
+
 
 ------------------------------------------------------------------------
+
+## Classic Presentation Tools {background-image="images/background.jpg" background-size="cover" background-opacity="0.5"}
+
+![](https://media.slidesgo.com/storage/113800/02.gif){width="80%"}
+
+
+--------------------------
+
+
+## Business Intelligence Tools {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column width="60%" .fragment}
+- **Top tools**:  
+  - Power BI,Tableau  
+  - Looker Studio  
+- **Strengths**:  
+  - Interactive dashboards  
+  - Data connectivity  
+  - Real-time insights  
+:::
+
+::: {.column width="40%"}
+![](images/quarto/pbi.png){fig-align="center"}
+:::
+:::
+
+---
+
+## Business Intelligence Tools {background-image="images/background.jpg" background-opacity="0.25"}
+
+![](https://www.googlecloudcommunity.com/gc/image/serverpage/image-id/115316iDCBDC47D3F634116/image-size/large/is-moderation-mode/true?v=v2&px=999){width="80%"}
+
+
+
+----
 
 ## 📝 Quarto (+ Extensions) {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -809,6 +870,23 @@ Great for live demos without breaking the flow.
 </iframe>
 :::
 
+
+------------------------------------------------------------------------
+
+## HTML & webapps {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="50%"}
+🛠️ Choose a tool
+:::
+
+::: {.column .fragment width="50%"}
+💡 Innovation stands out
+:::
+:::
+
+![](images/tools2.webp){fig-align="center"}
+
 ------------------------------------------------------------------------
 
 ## 🔗 Useful Links {background-image="images/background.jpg" background-opacity="0.25"}
@@ -820,13 +898,15 @@ Great for live demos without breaking the flow.
 -   🎥 **YouTube Videos**:
     -   [Reproducible Data Science: WebR + Shinylive](https://www.youtube.com/watch?v=dummy_link)
     -   [Streamlit 101 - A faster way to build](https://www.youtube.com/watch?v=UI4f4iiVT6c)
+    -   [Looker Studio Tutorial - Create Your First Report ](https://www.youtube.com/watch?v=_VxYaOn98-s)
 -   📖 **More**:
     -   [Pyodide Documentation](https://pyodide.org/en/stable/)
     -   [Streamlit Documentation](https://docs.streamlit.io/)
+    -   [Looker Studio Documentation](https://cloud.google.com/looker/docs/studio)
 :::
 
 ::: {.column width="40%"}
-<br> ![](images/quarto/rwasm.png)
+<br> ![](images/video.png)
 :::
 :::
 
@@ -836,6 +916,17 @@ If you want to go deeper — here are great resources.
 Videos, docs, and examples to explore WebR and Shinylive on your own.
 
 Learn by doing!
+:::
+
+---
+
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Storytelling]{style="font-size: 1em"}
+
+[Conclusion]{style="font-size: 1.5em"}
 :::
 
 ------------------------------------------------------------------------
@@ -857,6 +948,78 @@ Now you’ve seen how each point connects.
 Simple rules to tell better stories with data.
 :::
 
+
+---
+
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Storytelling]{style="font-size: 1em"}
+
+[Activity]{style="font-size: 1.5em"}
+:::
+
+::: notes
+OK, so, why data storytelling?
+:::
+
+---
+
+
+## 🧪 Activity: Your First Dashboard {background-image="images/background.jpg" background-opacity="0.15"}
+
+::: {.panel-tabset}
+
+### 🎯 Goal
+
+<br>
+
+Learn how to build a simple dashboard using **Google Looker Studio** with data from Google Sheets and share it with your classmates.
+
+
+### 🔹 Part 1
+
+**Suggested time:** 30–40 minutes
+
+* Go to [lookerstudio.google.com](https://lookerstudio.google.com)  
+* Connect a Google Sheet  
+   [📄 Example dataset](https://docs.google.com/spreadsheets/d/1dZ94l2MPnA9I0A6hWlt5O1ZMg64DKJ6dL1hf9T3zEf4/edit?usp=sharing)  
+*  Add:
+   - Table with filter, Bar chart, Scorecards (KPIs)  
+*  Customize design  
+*  Share the link with view access
+
+
+
+### 🔸 Part 2
+
+**Suggested time:** 30–45 minutes
+
+**Instructions:**
+
+* Choose your own dataset  
+* Create a new dashboard  
+   - At least 3 visualizations  
+   - Add filters and custom style  
+*  Share the link and give feedback to one peer
+
+
+
+### ✅ Evaluation 
+
+<br>
+
+| Criteria                                  | Completed ✔ |
+|-------------------------------------------|-------------|
+| At least 3 different visualizations       |             |
+| Title and custom design                   |             |
+| Proper data source connection             |             |
+| Commented on a classmate’s dashboard      |             |
+
+
+:::
+
 ------------------------------------------------------------------------
 
 ## 🎉 Thank You for Participating! {background-image="images/background.jpg" background-opacity="0.25"}
@@ -867,13 +1030,13 @@ Simple rules to tell better stories with data.
 
 ❓ Questions?
 
-👏 Fill out the [survey](https://forms.gle/NCUjzXYyDoXETTfZ8)
+👏 Fill out the [survey](https://forms.gle/M7X199uhkCDpURdJ8)
 
 🥳 Thank You Again!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_pycon.png){width="400"}
+![](images/qr_otec.png){width="400"}
 :::
 :::
 
@@ -887,6 +1050,7 @@ Feel free to ask questions — and please fill out the survey.
 Let’s keep learning and creating great stories with data.\
 See you next time!
 :::
+
 
 ```{=html}
 <style>
