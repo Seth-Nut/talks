@@ -1,0 +1,159 @@
+---
+title: "Tu Primer Dashboard"
+subtitle: "Actividad en Looker Studio"
+author: 
+  - Francisco Alfaro
+  - Valeska Canales
+date: 26 Jun 2025
+format: 
+  revealjs:
+    transition: slide
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    logo: images/bdo.png
+filters:
+  - quarto-ext/shinylive
+---
+
+
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Actividad]{style="font-size: 1em"}
+
+[Creando nuestro primer Dashboard]{style="font-size: 1.5em"}
+:::
+
+
+
+------------------------------------------------------------------------
+
+## Actividad  {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: r-stack
+<br>
+
+![](images/actividad/act_011.png){.fragment .fade-in-then-out fig-align="center" width="80%"}
+
+
+![](images/actividad/act_012.png){.fragment fig-align="center" width="100%"}
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #1
+
+Never reveal the ending too soon.\
+[Always build up tension and drama]{.fragment}
+:::
+:::
+
+::: notes
+Lesson #1 of Storytelling. NEVER kill the suspense. Storytelling Tip:\
+Keep your audience curious.\
+Don’t spoil the ending — build tension first!\
+Surprise makes stories memorable.
+:::
+
+------------------------------------------------------------------------
+
+## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: incremental
+1.  Never reveal the [ending]{style="background-color:black;"}\
+2.  Details are important, but [not **all** details are important.]{style="background-color:black;"}\
+3.  Your first draft will be [horrible.]{style="background-color:black;"}\
+4.  Explain less, [show more]{style="background-color:black;"}
+:::
+
+::: notes
+Today’s agenda = storytelling lessons.\
+We’ll uncover each one as we go — no spoilers.\
+Stay curious.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Storytelling]{style="font-size: 1em"}
+
+[Why Storytelling?]{style="font-size: 1.5em"}
+:::
+
+
+
+------------------------------------------------------------------------
+
+## 🎉 Thank You for Participating! {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓ Questions?
+
+👏 Fill out the [survey](https://forms.gle/M7X199uhkCDpURdJ8)
+
+🥳 Thank You Again!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr_otec.png){width="400"}
+:::
+:::
+
+> 🔗 Visit our official site: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+
+::: notes
+Thank you so much for being here!
+
+Feel free to ask questions — and please fill out the survey.
+
+Let’s keep learning and creating great stories with data.\
+See you next time!
+:::
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+
+}
+
+.reveal .slide-logo {
+   max-height: 2em !important;
+}
+
+
+</style>
+```

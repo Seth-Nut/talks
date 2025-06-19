@@ -10,7 +10,7 @@ format:
     transition: slide
     title-slide-attributes: 
       data-background-image: images/background.jpg
-    logo: images/logo_sn.png
+    logo: images/bdo.png
 filters:
   - quarto-ext/shinylive
 ---
@@ -920,7 +920,6 @@ Learn by doing!
 
 ---
 
-
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
@@ -951,76 +950,6 @@ Simple rules to tell better stories with data.
 
 ---
 
-
-##  {background-image="images/background_slides3.png" background-opacity="0.3"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Storytelling]{style="font-size: 1em"}
-
-[Activity]{style="font-size: 1.5em"}
-:::
-
-::: notes
-OK, so, why data storytelling?
-:::
-
----
-
-
-## 🧪 Activity: Your First Dashboard {background-image="images/background.jpg" background-opacity="0.15"}
-
-::: {.panel-tabset}
-
-### 🎯 Goal
-
-<br>
-
-Learn how to build a simple dashboard using **Google Looker Studio** with data from Google Sheets and share it with your classmates.
-
-
-### 🔹 Part 1
-
-**Suggested time:** 30–40 minutes
-
-* Go to [lookerstudio.google.com](https://lookerstudio.google.com)  
-* Connect a Google Sheet  
-   [📄 Example dataset](https://docs.google.com/spreadsheets/d/1dZ94l2MPnA9I0A6hWlt5O1ZMg64DKJ6dL1hf9T3zEf4/edit?usp=sharing)  
-*  Add:
-   - Table with filter, Bar chart, Scorecards (KPIs)  
-*  Customize design  
-*  Share the link with view access
-
-
-
-### 🔸 Part 2
-
-**Suggested time:** 30–45 minutes
-
-**Instructions:**
-
-* Choose your own dataset  
-* Create a new dashboard  
-   - At least 3 visualizations  
-   - Add filters and custom style  
-*  Share the link and give feedback to one peer
-
-
-
-### ✅ Evaluation 
-
-<br>
-
-| Criteria                                  | Completed ✔ |
-|-------------------------------------------|-------------|
-| At least 3 different visualizations       |             |
-| Title and custom design                   |             |
-| Proper data source connection             |             |
-| Commented on a classmate’s dashboard      |             |
-
-
-:::
-
-------------------------------------------------------------------------
 
 ## 🎉 Thank You for Participating! {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -1082,7 +1011,7 @@ See you next time!
 }
 
 .reveal .slide-logo {
-   max-height: 3em !important;
+   max-height: 2em !important;
 }
 
 

@@ -12,7 +12,7 @@ output: html_document
 -   🎤 [Uso de Quarto para crear clases interactivas](latinr_2024/presentacion.html) - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.
 
 -   🎤 [Crea, Innova y Presenta: Data Storytelling con A.I.](visualization_2024/presentacion.html) - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.
-    -   [Versión OTEC](shiny_2025/presentacion_ext.html)
+    -   [Versión OTEC](shiny_2025/presentacion_ext.html) ([actividad práctica](shiny_2025/presentacion_ext2.qmd))
     -   [Pycon Colombia 2025](shiny_2025/presentacion_pc.html)
 
 -   🎤 [Más allá del Infinito](infinity_2024/presentacion.html) - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.
