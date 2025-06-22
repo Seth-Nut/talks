@@ -598,8 +598,6 @@ plt.title("😊 Do you like the presentation so far? 😊", fontsize=12)
 plt.show()
 ```
 
-
-
 ------------------------------------------------------------------------
 
 ## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
@@ -617,16 +615,14 @@ plt.show()
 :::
 
 ::: notes
-Streamlit lets you turn Python scripts into interactive apps.  
-Great for dashboards, machine learning demos, and data exploration.  
+Streamlit lets you turn Python scripts into interactive apps.\
+Great for dashboards, machine learning demos, and data exploration.\
 No HTML, CSS or JS needed.
 :::
 
 ------------------------------------------------------------------------
 
 ## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
-
-
 
 ![](https://blog.streamlit.io/content/images/2021/11/Streamlit-Prophet.gif){width="90%"}
 
@@ -636,17 +632,14 @@ Change inputs — see results instantly.\
 Perfect for exploring and communicating insights.
 :::
 
----
+------------------------------------------------------------------------
 
 ## ☁️ Streamlit Cloud {background-image="images/background.jpg" background-opacity="0.25"}
-
 
 ::: r-stack
 <br>
 
 ![](images/streamlit/st_cloud.png){.fragment .fade-in-then-out fig-align="center" width="60%"}
-
-
 
 ![](https://blog.streamlit.io/content/images/2021/11/deploy_small.gif){.fragment fig-align="center" width="80%"}
 :::
@@ -665,7 +658,7 @@ Perfect for exploring and communicating insights.
 
 -   Deploy to [Streamlit Cloud](https://streamlit.io/cloud) with one click.
 -   Seamlessly embed your app in a **Quarto presentation or website**.
--   Perfect for **live demos** and  **data storytelling**.
+-   Perfect for **live demos** and **data storytelling**.
 :::
 
 ::: {.column width="40%"}
@@ -674,7 +667,6 @@ Perfect for exploring and communicating insights.
 :::
 
 . . .
-
 
 ::: {style="text-align: center; font-size: 1.2em;"}
 Stay in your presentation.\
@@ -688,9 +680,6 @@ No servers, no install — just share and interact.
 
 Great for live demos without breaking the flow.
 :::
-
-
-
 
 ------------------------------------------------------------------------
 
@@ -712,7 +701,7 @@ Great for live demos without breaking the flow.
 
 -   🎥 **YouTube Videos**:
     -   [Reproducible Data Science: WebR + Shinylive](https://www.youtube.com/watch?v=dummy_link)
-    -   [Streamlit 101 - A faster way to build ](https://www.youtube.com/watch?v=UI4f4iiVT6c)
+    -   [Streamlit 101 - A faster way to build](https://www.youtube.com/watch?v=UI4f4iiVT6c)
 -   📖 **More**:
     -   [Pyodide Documentation](https://pyodide.org/en/stable/)
     -   [Streamlit Documentation](https://docs.streamlit.io/)
