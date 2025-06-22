@@ -15,8 +15,6 @@ filters:
   - quarto-ext/shinylive
 ---
 
-
-
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
@@ -25,18 +23,14 @@ filters:
 [Creando nuestro primer Dashboard]{style="font-size: 1.5em"}
 :::
 
-
-
 ------------------------------------------------------------------------
 
-## Actividad  {background-image="images/background.jpg" background-opacity="0.25"}
-
+## Actividad {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 <br>
 
 ![](images/actividad/act_011.png){.fragment .fade-in-then-out fig-align="center" width="80%"}
-
 
 ![](images/actividad/act_012.png){.fragment fig-align="center" width="100%"}
 :::
@@ -86,6 +80,17 @@ Stay curious.
 [Storytelling]{style="font-size: 1em"}
 
 [Why Storytelling?]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
+## Example {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="text-align: center;"}
+<a href="https://lookerstudio.google.com/reporting/7508205d-9aec-4ecd-a1c2-afd775fafabb" target="_blank" style="display:inline-block;padding:10px 20px;background-color:#3367D6;color:#fff;text-decoration:none;border-radius:5px;">
+  Ver informe interactivo
+</a>
+
 :::
 
 

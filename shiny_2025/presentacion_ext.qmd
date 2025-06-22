@@ -270,13 +270,12 @@ Show less — but better.\
 Focus only on what moves the story forward.
 :::
 
-
 ------------------------------------------------------------------------
 
 ## Visualization... {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%" .fragment}
+::: {.column .fragment width="60%"}
 <br>
 
 -   Turn data into charts to make it easier to understand.
@@ -296,9 +295,7 @@ Focus only on what moves the story forward.
 ::: {.column width="50%" style="text-align: center;"}
 ![](images/viz/vis_01.png){fig-align="center" width="90%"}
 
-
-<br>
-*❌ Bad Chart*
+<br> *❌ Bad Chart*
 :::
 
 ::: {.column .fragment width="50%" style="text-align: center;"}
@@ -307,7 +304,6 @@ Focus only on what moves the story forward.
 *✅ Good Chart*
 :::
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -329,15 +325,11 @@ Focus only on what moves the story forward.
 :::
 :::
 
-
 ------------------------------------------------------------------------
-
-
 
 ### Datasaurus {background-image="images/background.jpg" background-size="cover" background-opacity="0.5"}
 
 ![](./images/viz/anscombe.gif){width="80%"}
-
 
 ------------------------------------------------------------------------
 
@@ -347,10 +339,10 @@ Focus only on what moves the story forward.
 ::: {.column .fragment width="60%"}
 <br>
 
-1.  **Purpose**: Define the goal.  
-2.  **Content**: Relevant data.  
-3.  **Structure**: Clear organization.  
-4.  **Format**: Appropriate chart type.  
+1.  **Purpose**: Define the goal.\
+2.  **Content**: Relevant data.\
+3.  **Structure**: Clear organization.\
+4.  **Format**: Appropriate chart type.\
 :::
 
 ::: {.column width="40%"}
@@ -361,7 +353,6 @@ Focus only on what moves the story forward.
 . . .
 
 [(C) Noah Iliinsky: "Four Pillars of Visualization" - YouTube.]{style="font-size: 0.75em; color: gray"}
-
 
 ------------------------------------------------------------------------
 
@@ -571,15 +562,15 @@ Remember: Show, don’t tell.
 <br>
 
 ::: columns
-::: {.column width="60%" .fragment}
--   **Classic**: PowerPoint  
--   **"Show, don’t tell"**:  
-    -   Quarto  
-    -   Streamlit  
--   **Business Intelligence (BI)**:  
-    -   Power BI, Tableau  
-    -   Looker Studio  
--   **Others**: Canva, Reveal.js, Prezi  
+::: {.column .fragment width="60%"}
+-   **Classic**: PowerPoint\
+-   **"Show, don’t tell"**:
+    -   Quarto\
+    -   Streamlit\
+-   **Business Intelligence (BI)**:
+    -   Power BI, Tableau\
+    -   Looker Studio\
+-   **Others**: Canva, Reveal.js, Prezi\
 :::
 
 ::: {.column width="40%"}
@@ -594,14 +585,14 @@ Remember: Show, don’t tell.
 <br>
 
 ::: columns
-::: {.column width="60%" .fragment}
-- **Main tools**:  
-  - PowerPoint  
-  - Google Slides    
-- **Strengths**:  
-  - Easy to use  
-  - Widely supported  
-  - Great for static content  
+::: {.column .fragment width="60%"}
+-   **Main tools**:
+    -   PowerPoint\
+    -   Google Slides\
+-   **Strengths**:
+    -   Easy to use\
+    -   Widely supported\
+    -   Great for static content\
 :::
 
 ::: {.column width="40%"}
@@ -609,31 +600,27 @@ Remember: Show, don’t tell.
 :::
 :::
 
-
-
 ------------------------------------------------------------------------
 
 ## Classic Presentation Tools {background-image="images/background.jpg" background-size="cover" background-opacity="0.5"}
 
 ![](https://media.slidesgo.com/storage/113800/02.gif){width="80%"}
 
-
---------------------------
-
+------------------------------------------------------------------------
 
 ## Business Intelligence Tools {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
 ::: columns
-::: {.column width="60%" .fragment}
-- **Top tools**:  
-  - Power BI,Tableau  
-  - Looker Studio  
-- **Strengths**:  
-  - Interactive dashboards  
-  - Data connectivity  
-  - Real-time insights  
+::: {.column .fragment width="60%"}
+-   **Top tools**:
+    -   Power BI,Tableau\
+    -   Looker Studio\
+-   **Strengths**:
+    -   Interactive dashboards\
+    -   Data connectivity\
+    -   Real-time insights\
 :::
 
 ::: {.column width="40%"}
@@ -641,15 +628,13 @@ Remember: Show, don’t tell.
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ## Business Intelligence Tools {background-image="images/background.jpg" background-opacity="0.25"}
 
 ![](https://www.googlecloudcommunity.com/gc/image/serverpage/image-id/115316iDCBDC47D3F634116/image-size/large/is-moderation-mode/true?v=v2&px=999){width="80%"}
 
-
-
-----
+------------------------------------------------------------------------
 
 ## 📝 Quarto (+ Extensions) {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -870,7 +855,6 @@ Great for live demos without breaking the flow.
 </iframe>
 :::
 
-
 ------------------------------------------------------------------------
 
 ## HTML & webapps {background-image="images/background.jpg" background-opacity="0.25"}
@@ -898,7 +882,7 @@ Great for live demos without breaking the flow.
 -   🎥 **YouTube Videos**:
     -   [Reproducible Data Science: WebR + Shinylive](https://www.youtube.com/watch?v=dummy_link)
     -   [Streamlit 101 - A faster way to build](https://www.youtube.com/watch?v=UI4f4iiVT6c)
-    -   [Looker Studio Tutorial - Create Your First Report ](https://www.youtube.com/watch?v=_VxYaOn98-s)
+    -   [Looker Studio Tutorial - Create Your First Report](https://www.youtube.com/watch?v=_VxYaOn98-s)
 -   📖 **More**:
     -   [Pyodide Documentation](https://pyodide.org/en/stable/)
     -   [Streamlit Documentation](https://docs.streamlit.io/)
@@ -918,7 +902,7 @@ Videos, docs, and examples to explore WebR and Shinylive on your own.
 Learn by doing!
 :::
 
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -947,9 +931,7 @@ Now you’ve seen how each point connects.
 Simple rules to tell better stories with data.
 :::
 
-
----
-
+------------------------------------------------------------------------
 
 ## 🎉 Thank You for Participating! {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -979,7 +961,6 @@ Feel free to ask questions — and please fill out the survey.
 Let’s keep learning and creating great stories with data.\
 See you next time!
 :::
-
 
 ```{=html}
 <style>
