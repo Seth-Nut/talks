@@ -4,7 +4,7 @@ subtitle: "Actividad en Looker Studio"
 author: 
   - Francisco Alfaro
   - Valeska Canales
-date: 26 Jun 2025
+date: 24 Jun 2025
 format: 
   revealjs:
     transition: slide
@@ -25,89 +25,141 @@ filters:
 
 ------------------------------------------------------------------------
 
-## Actividad {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: r-stack
+
+## Herramientas de BI {background-image="images/background.jpg" background-opacity="0.25"}
+
 <br>
 
-![](images/actividad/act_011.png){.fragment .fade-in-then-out fig-align="center" width="80%"}
+::: columns
+::: {.column .fragment width="60%"}
+* **Principales herramientas**:
 
-![](images/actividad/act_012.png){.fragment fig-align="center" width="100%"}
+  * Power BI, Tableau
+  * Looker Studio
+* **Fortalezas**:
+
+  * Paneles interactivos
+  * Conectividad con datos
+  * Información en tiempo real
 :::
 
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Storytelling principle #1
-
-Never reveal the ending too soon.\
-[Always build up tension and drama]{.fragment}
+::: {.column width="40%"}
+![](images/quarto/ls.png){fig-align="center" width="50%"}
 :::
-:::
-
-::: notes
-Lesson #1 of Storytelling. NEVER kill the suspense. Storytelling Tip:\
-Keep your audience curious.\
-Don’t spoil the ending — build tension first!\
-Surprise makes stories memorable.
-:::
-
-------------------------------------------------------------------------
-
-## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: incremental
-1.  Never reveal the [ending]{style="background-color:black;"}\
-2.  Details are important, but [not **all** details are important.]{style="background-color:black;"}\
-3.  Your first draft will be [horrible.]{style="background-color:black;"}\
-4.  Explain less, [show more]{style="background-color:black;"}
-:::
-
-::: notes
-Today’s agenda = storytelling lessons.\
-We’ll uncover each one as we go — no spoilers.\
-Stay curious.
-:::
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background_slides3.png" background-opacity="0.3"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Storytelling]{style="font-size: 1em"}
-
-[Why Storytelling?]{style="font-size: 1.5em"}
-:::
-
-------------------------------------------------------------------------
-
-## Example {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="text-align: center;"}
-<a href="https://lookerstudio.google.com/reporting/7508205d-9aec-4ecd-a1c2-afd775fafabb" target="_blank" style="display:inline-block;padding:10px 20px;background-color:#3367D6;color:#fff;text-decoration:none;border-radius:5px;">
-  Ver informe interactivo
-</a>
-
 :::
 
 
 
 ------------------------------------------------------------------------
 
-## 🎉 Thank You for Participating! {background-image="images/background.jpg" background-opacity="0.25"}
+## Herramientas de BI {background-image="images/background.jpg" background-opacity="0.25"}
+
+![](https://www.googlecloudcommunity.com/gc/image/serverpage/image-id/115316iDCBDC47D3F634116/image-size/large/is-moderation-mode/true?v=v2&px=999){width="80%"}
+
+
+---
+
+## 🧪 Actividad: Looker Studio + GA4 {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.panel-tabset}
+
+### 🎯 Objetivo
+
+
+Diseña un dashboard en **Looker Studio** con datos reales de [**GA4 - Google Merchandise Store**](https://www.googlemerchandisestore.com/) para ayudar al equipo de marketing a analizar el rendimiento digital.
+
+Debe responder preguntas clave como:
+
+* ¿El tráfico está creciendo?
+* ¿Qué canales traen más usuarios?
+* ¿Qué páginas convierten mejor?
+* ¿Cuál es la tasa de conversión por canal?
+
+
+
+### 📊 Datos
+
+<br>
+
+Usaremos la cuenta demo de Google Analytics:
+
+👉 [https://analytics.google.com/analytics/index/demoaccount?appstate=/p213025502](https://analytics.google.com/analytics/index/demoaccount?appstate=/p213025502)
+
+Selecciona la propiedad:
+
+> **[GA4] Google Merchandise Store**
+
+
+
+### 🧩 Prototipo
+
+::: r-stack
+
+![](images/actividad/act_011.png){.fragment .fade-in-then-out fig-align="center" width="70%"}
+
+![](images/actividad/act_012.png){.fragment .fade-in-then-out fig-align="center" width="80%"}
+
+![](images/actividad/act_013.png){.fragment fig-align="center" width="90%"}
+:::
+
+
+
+### 🛠️ Paso a Paso
+
+1. **Abre Looker Studio**: [https://lookerstudio.google.com](https://lookerstudio.google.com)
+2. **Crea un nuevo informe** y conecta la propiedad
+   **\[GA4] Google Merchandise Store** desde la cuenta demo de Google Analytics.
+3. **Agrega visualizaciones** con las siguientes métricas:
+
+   * Total de usuarios
+   * Usuarios nuevos
+   * Conversiones
+   * Canales y páginas más relevantes
+
+
+### 📎 Links
+
+<br>
+
+::: {.callout-tip icon="🎯"}
+### Ejemplo de Dashboard
+[https://lookerstudio.google.com/reporting/7508205d-9aec-4ecd-a1c2-afd775fafabb](https://lookerstudio.google.com/reporting/7508205d-9aec-4ecd-a1c2-afd775fafabb)
+:::
+
+::: {.callout-note icon="▶️"}
+### Video explicativo 
+[https://youtu.be/_VxYaOn98-s?si=w_FoL3BZ3sAGRSzr](https://youtu.be/_VxYaOn98-s?si=w_FoL3BZ3sAGRSzr)
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+## 🧠 Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: fragment
+- 📊 Looker Studio ayuda a entender datos fácilmente.  
+- 🔗 GA4 entrega información real y útil.  
+- 🎯 Mejora tus decisiones con métricas claras.  
+- 🧰 Aprendes haciendo, con herramientas reales.
+:::
+
+------------------------------------------------------------------------
+
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="50%"}
 <br>
 
-❓ Questions?
+❓ ¿Preguntas?
 
-👏 Fill out the [survey](https://forms.gle/M7X199uhkCDpURdJ8)
+👏 Completa la [encuesta](https://forms.gle/M7X199uhkCDpURdJ8)
 
-🥳 Thank You Again!
+🥳 ¡Gracias nuevamente!
 :::
 
 ::: {.column width="50%" align="center"}
@@ -115,7 +167,7 @@ Stay curious.
 :::
 :::
 
-> 🔗 Visit our official site: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+> 🔗 Visita nuestro sitio oficial: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
 
 ::: notes
 Thank you so much for being here!

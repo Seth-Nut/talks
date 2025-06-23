@@ -4,7 +4,7 @@ subtitle: "Data Storytelling + A.I."
 author: 
   - Francisco Alfaro
   - Valeska Canales
-date: 26 Jun 2025
+date: 24 Jun 2025
 format: 
   revealjs:
     transition: slide
@@ -517,14 +517,16 @@ Let’s see how much code we need to say something as simple as:\
 It may seem like a small question, but turning that into code requires defining categories, assigning values, choosing colors, and setting plot parameters.\
 And that’s just to get a basic bar chart.
 
-``` r
-categories <- c("Yes", "No")
-values <- c(75, 25)
-colors <- c("lightblue", "salmon")
-barplot(
-  values, names.arg = categories, col = colors, 
-  main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9
-)
+```python
+import matplotlib.pyplot as plt
+categories = ["Yes", "No"]
+values = [75, 25]
+colors = ["lightblue", "salmon"]
+plt.figure(figsize=(6, 4))
+plt.subplots_adjust(bottom=0.25, left=0.2)
+plt.bar(categories, values, color=colors)
+plt.title("😊 Do you like the presentation so far? 😊", fontsize=12)
+plt.show()
 ```
 
 ## Plot
