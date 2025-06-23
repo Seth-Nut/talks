@@ -12,7 +12,7 @@ format:
       data-background-image: images/background.jpg
     slide-attributes:
       data-background-image: images/background.jpg
-    logo: images/emma.png
+    logo: images/dmat.png
 ---
 
 ## 🖼️ ¿Te ha pasado esto? {background-image="images/background.jpg" background-opacity="0.25"}

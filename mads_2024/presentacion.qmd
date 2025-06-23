@@ -11,7 +11,7 @@ format:
       data-background-image: images/background.jpg
     slide-attributes:
       data-background-image: images/background.jpg
-    logo: images/logo_sn.png
+    logo: images/mads.png
 ---
 
 ## 🔄 Aprender, Adaptar, Innovar {background-image="images/background.jpg" background-opacity="0.25"}
@@ -46,7 +46,7 @@ format:
 
 -   🎓 Charlas y Talleres
 -   📚 Mini Cursos
--   🌟  Capacitaciones
+-   🌟 Capacitaciones
 :::
 
 ::: {.column width="35%"}
@@ -56,8 +56,7 @@ format:
 
 . . .
 
-> 🔗 Nuestro Sitio Web: [https://seth-nut.github.io/website/](https://seth-nut.github.io/website/)
-
+> 🔗 Nuestro Sitio Web: <https://seth-nut.github.io/website/>
 
 ------------------------------------------------------------------------
 
@@ -84,9 +83,8 @@ format:
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [Inteligencia Aritifical]{style="font-size: 1em"}
 
-[¿ Qué hacemos  con la Inteligencia Artificial?]{style="font-size: 2em"}
+[¿ Qué hacemos con la Inteligencia Artificial?]{style="font-size: 2em"}
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -196,8 +194,6 @@ plt.show()
 :::
 :::
 
-
-
 ------------------------------------------------------------------------
 
 ## Streamlit: Ejemplo {background-image="images/background.jpg" background-opacity="0.25"}
@@ -248,7 +244,6 @@ st.markdown(
 
 <img src="./images/Streamlit-Prophet.gif" style="width:50%;"/>
 
-
 ------------------------------------------------------------------------
 
 ## 🚀 Aplicaciones {background-image="images/background.jpg" background-opacity="0.25"}
@@ -267,7 +262,6 @@ st.markdown(
 :::
 :::
 
-
 ------------------------------------------------------------------------
 
 ## Usar chatbots de IA para: {background-image="images/background.jpg" background-opacity="0.25"}
@@ -282,7 +276,7 @@ st.markdown(
 -   Adaptación al estilo y preferencias
 :::
 
-::: {.column  width="35%"}
+::: {.column width="35%"}
 ![](images/template.png){fig-align="center"}
 :::
 :::
@@ -301,7 +295,7 @@ st.markdown(
 -   No busques imágenes, créalas!
 :::
 
-::: {.column  width="40%"}
+::: {.column width="40%"}
 ![](images/choice.jpeg){fig-align="center"}
 :::
 :::
@@ -320,7 +314,6 @@ st.markdown(
 
 ------------------------------------------------------------------------
 
-
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
@@ -331,7 +324,6 @@ st.markdown(
 
 ------------------------------------------------------------------------
 
-
 ## 💡 Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
@@ -340,23 +332,19 @@ st.markdown(
 ::: {.column .fragment width="65%"}
 <br>
 
-✅ **Aprendizaje Personalizado**.  
+✅ **Aprendizaje Personalizado**.
 
-✅ **Herramientas Dinámicas**.  
+✅ **Herramientas Dinámicas**.
 
-✅ **Eficiencia en Acción**.  
+✅ **Eficiencia en Acción**.
 
-✅ **Innovación Inspiradora**.  
+✅ **Innovación Inspiradora**.
 :::
 
 ::: {.column width="35%"}
 <img src="images/pencil2.png" alt="Tachado" style="width: 100%; align: center;"/>
 :::
 :::
-
-
-
-
 
 ------------------------------------------------------------------------
 
@@ -379,3 +367,41 @@ st.markdown(
 :::
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+
+}
+
+.reveal .slide-logo {
+   max-height: 2em !important;
+}
+
+
+</style>
+```

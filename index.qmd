@@ -7,38 +7,36 @@ output: html_document
 
 ¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con [Quarto](https://quarto.org/), una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.
 
-¡Ahora, sin más preámbulos, aquí tienes nuestras presentaciones!
+- 🎤 [Crea, Innova y Presenta: Data Storytelling con A.I.](visualization_2024/presentacion.html): Transforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.  
+  - [OTEC BDO 2025](shiny_2025/presentacion_ext.html) ([actividad práctica](shiny_2025/presentacion_ext2.qmd))   
+  - [Pycon Colombia 2025](shiny_2025/presentacion_pc.html)
 
--   🎤 [Uso de Quarto para crear clases interactivas](latinr_2024/presentacion.html) - Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador. Ideal para crear experiencias educativas dinámicas y accesibles.
+- 🎤 [Del Dato a la Narrativa: Visualización Interactiva con Shiny](shiny_2025/presentacion_es.html): Aprende a crear paneles interactivos y visualizaciones narrativas con Shiny.  
+  - [ShinyConf 2025](shiny_2025/presentacion.html)  
+  - [UserR 2025](shiny_2025/presentacion_user.html)
 
--   🎤 [Crea, Innova y Presenta: Data Storytelling con A.I.](visualization_2024/presentacion.html) - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.
-    -   [Versión OTEC](shiny_2025/presentacion_ext.html) ([actividad práctica](shiny_2025/presentacion_ext2.qmd))
-    -   [Pycon Colombia 2025](shiny_2025/presentacion_pc.html)
+- 🎤 [No es Magia, es Ciencia](prompts_chatgpt/presentacion.html): Aprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.
+  - [TechSchool 2025](prompts_chatgpt/presentacion.html) 
+  - [EMMA Agosto 2025](prompts_chatgpt/presentacion.html)
 
--   🎤 [Más allá del Infinito](infinity_2024/presentacion.html) - Explora los fascinantes conceptos del infinito en matemáticas con ejemplos interactivos. Desde el Hotel Infinito de Hilbert hasta los infinitos de Cantor, descubre cómo estos conceptos desafían nuestras nociones tradicionales de tamaño y cantidad.
+- 🎤 [DMAT USM 2025 - ¡Adiós Word, Hola LaTeX!](latex_2025/presentacion.html): Crea documentos académicos profesionales con LaTeX, automatizando referencias y ecuaciones.
 
--   🎤 [De los Números a la Narrativa](narrativas_2024/presentacion.html) - Este taller profundiza en cómo transformar datos en visualizaciones impactantes, utilizando Python y herramientas de visualización para contar historias claras y persuasivas.
+- 🎤 [Pyday 2025 - Educación Abierta y Comunidad](comunidad_2025/presentacion.html): Crea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.
 
--   🎤 [Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero](computacion_2024/presentacion.html) - Este taller está diseñado para guiar a las personas mayores en sus primeros pasos en el uso de la tecnología, proporcionando una introducción accesible a la computación y herramientas digitales.
+- 🎤 [LatinR 2024 - Uso de Quarto para crear clases interactivas](latinr_2024/presentacion.html): Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador.
 
--   🎤 [Innovación en MAT281: Colab y Evaluaciones Dinámicas](uc_2024/presentacion.html) - Descubre cómo Google Colab y nuevas evaluaciones transformaron el curso MAT281, mejorando el acceso y la motivación de los estudiantes a través de un enfoque dinámico y colaborativo.
+- 🎤 [MADS USM 2024- Inteligencia Artificial en la Educación](mads_2024/presentacion.html): Aplicaciones prácticas de la IA en la enseñanza para experiencias más personalizadas y enriquecedoras.
 
--   🎤 [Inteligencia Artificial en la Educación](mads_2024/presentacion.html) - Aprende cómo la Inteligencia Artificial está transformando el aprendizaje, desde la personalización de contenidos hasta el análisis de datos educativos. Esta presentación explora aplicaciones prácticas de la IA en la enseñanza para crear experiencias más enriquecedoras y adaptativas.
+- 🎤 [DMAT USM 2024 - Más allá del Infinito](infinity_2024/presentacion.html): Explora los conceptos del infinito en matemáticas con ejemplos interactivos, como el Hotel Infinito de Hilbert y los infinitos de Cantor.
 
--   🎤 [¿Y Ahora Qué? Del Aula al Trabajo](profesional_2024/presentacion.html) - Descubre cómo prepararte para el mundo laboral al finalizar tus estudios. Esta charla aborda habilidades clave, herramientas prácticas y estrategias para destacarte en tu transición profesional y adaptarte a un entorno laboral competitivo.
+- 🎤 [II Encuentro Docencia Matemática Universitaria - Innovación en el curso MAT281 ](uc_2024/presentacion.html): Cómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso MAT281.
 
--   🎤 [Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub](pycon_usa_2025/presentacion.html) - Aprende a automatizar y versionar tus materiales educativos interactivos utilizando Quarto y GitHub. Descubre cómo estas herramientas te permiten crear, actualizar y compartir contenidos de forma eficiente, facilitando la colaboración y el acceso a recursos dinámicos en cualquier lugar del mundo.
+- 🎤 [Narrativas con Datos](narrativas_2024/presentacion.html): Aprende a contar historias persuasivas con datos usando Python y herramientas de visualización.
 
--   🎤 [From Data to Narrative: Interactive Storytelling with Shiny](shiny_2025/presentacion_es.html) - Esta presentación te mostrará cómo transformar datos en historias interactivas atractivas utilizando Shiny. Aprende a crear paneles dinámicos y visualizaciones que cautiven a tu audiencia y den vida a los insights de los datos.
+- 🎤 [Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero](computacion_2024/presentacion.html): Introducción accesible al uso de la tecnología para personas mayores.
 
-    -   [Versión en Español](shiny_2025/presentacion_es.html)
-    -   **Versión en Inglés**:
-        -   [ShinyConf](shiny_2025/presentacion.html)
-        -   [UserR](shiny_2025/presentacion_user.html)
+- 🎤 [¿Y Ahora Qué? Del Aula al Trabajo](profesional_2024/presentacion.html): Habilidades clave y herramientas para la transición del mundo académico al laboral.
+
+- 🎤 [Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub](pycon_usa_2025/presentacion.html): Automatiza y comparte tus materiales educativos de forma eficiente con GitHub y Quarto.
 
 
--   🎤 [¡Adiós Word, Hola LaTeX!](latex_2025/presentacion.html) - Aprende a crear documentos académicos y científicos con formato profesional utilizando LaTeX. Descubre cómo esta herramienta te permite automatizar referencias y ecuaciones, ofreciendo una experiencia de escritura profesional y dinámica.
-
--   🎤 [No es Magia, es Ciencia](prompts_chatgpt/presentacion.html) - Diseña preguntas y comandos efectivos para interactuar con herramientas de inteligencia artificial como ChatGPT. Aprende a estructurar prompts que resuelvan problemas académicos, generen ideas y mejoren tus resultados de manera precisa y ética.
-
--   🎤 [Educación Abierta y Comunidad](comunidad_2025/presentacion.html) - Aprende a crear contenidos educativos y colaborar con otros profesionales en el área de la educación. Descubre cómo utilizar herramientas como GitHub y Quarto para automatizar y compartir tus materiales educativos, y cómo colaborar con otros profesionales para mejorar tus conocimientos y habilidades.

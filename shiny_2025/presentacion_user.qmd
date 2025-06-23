@@ -32,7 +32,7 @@ filters:
 :::
 
 ::: notes
-My name is Francisco Alfaro Medina, also known as *fralfaro*.  
+My name is Francisco Alfaro Medina, also known as *fralfaro*.\
 I'm a member of Python Chile, currently working as Lead Data Scientist at Grupo Security, and I also teach at UTFSM.
 :::
 
@@ -57,8 +57,8 @@ I'm a member of Python Chile, currently working as Lead Data Scientist at Grupo 
 :::
 
 ::: notes
-Most talks start with a detailed agenda slide...  
-But not this one.  
+Most talks start with a detailed agenda slide...\
+But not this one.\
 I want this to feel more like a story we explore together, not a checklist.
 :::
 
@@ -75,12 +75,10 @@ Never reveal the ending too soon.\
 :::
 :::
 
-::: {.notes}
-Lesson #1 of Storytelling.
-NEVER kill the suspense. 
-Storytelling Tip:  
-Keep your audience curious.  
-Don’t spoil the ending — build tension first!  
+::: notes
+Lesson #1 of Storytelling. NEVER kill the suspense. Storytelling Tip:\
+Keep your audience curious.\
+Don’t spoil the ending — build tension first!\
 Surprise makes stories memorable.
 :::
 
@@ -95,9 +93,9 @@ Surprise makes stories memorable.
 4.  Explain less, [show more]{style="background-color:black;"}
 :::
 
-::: {.notes}
-Today’s agenda = storytelling lessons.  
-We’ll uncover each one as we go — no spoilers.  
+::: notes
+Today’s agenda = storytelling lessons.\
+We’ll uncover each one as we go — no spoilers.\
 Stay curious.
 :::
 
@@ -111,11 +109,9 @@ Stay curious.
 [Why Storytelling?]{style="font-size: 1.5em"}
 :::
 
-
-::: {.notes}
+::: notes
 OK, so, why data storytelling?
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -137,9 +133,9 @@ OK, so, why data storytelling?
 🔥 **Stories** are the first human technology.
 :::
 
-::: {.notes}
-Stories are how humans share knowledge.  
-It’s our oldest learning tool — built for memory, connection, and meaning.  
+::: notes
+Stories are how humans share knowledge.\
+It’s our oldest learning tool — built for memory, connection, and meaning.\
 Use it well.
 :::
 
@@ -161,9 +157,9 @@ Use it well.
 :::
 :::
 
-::: {.notes}
-People remember peaks and endings.  
-Strong emotions + a great finale = lasting impact.  
+::: notes
+People remember peaks and endings.\
+Strong emotions + a great finale = lasting impact.\
 Plan your story with this in mind.
 :::
 
@@ -187,13 +183,11 @@ Plan your story with this in mind.
 🎭 Emotions inspire action
 :::
 
-
-::: {.notes}
-Great ideas need great communication.  
-Storytelling is your toolkit to move people.  
+::: notes
+Great ideas need great communication.\
+Storytelling is your toolkit to move people.\
 Facts inform — emotions inspire action.
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -213,9 +207,9 @@ Facts inform — emotions inspire action.
 :::
 :::
 
-::: {.notes}
-Spotify Wrapped = storytelling with data.  
-Not just stats — it’s *your* story.  
+::: notes
+Spotify Wrapped = storytelling with data.\
+Not just stats — it’s *your* story.\
 That’s why millions share it every year.
 :::
 
@@ -229,11 +223,9 @@ That’s why millions share it every year.
 [Tool #1: Visualization]{style="font-size: 1.5em"}
 :::
 
-:::{.notes}
+::: notes
 So, let me tell you about how visualization and storytelling are related.
 :::
-
-
 
 ------------------------------------------------------------------------
 
@@ -253,13 +245,11 @@ So, let me tell you about how visualization and storytelling are related.
 
 <br><br> [(C) Storytelling with Data, by Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
 
-
-::: {.notes}
-Numbers inform.  
-Stories connect.  
+::: notes
+Numbers inform.\
+Stories connect.\
 Show only what matters — everything else is noise.
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -273,9 +263,9 @@ Details matter, [but not **all** details are important.]{.fragment}
 :::
 :::
 
-::: {.notes}
-Details guide attention.  
-Show less — but better.  
+::: notes
+Details guide attention.\
+Show less — but better.\
 Focus only on what moves the story forward.
 :::
 
@@ -293,11 +283,11 @@ Focus only on what moves the story forward.
 
 . . .
 
-[(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
+[(C) Essential chart types for data visualization, by Atlassian.]{style="font-size: 0.75em; color: gray"}
 
-::: {.notes}
-You don’t need fancy charts.  
-Bar, scatter, box, heatmap, big text — that's 90% of data storytelling.  
+::: notes
+You don’t need fancy charts.\
+Bar, scatter, box, heatmap, big text — that's 90% of data storytelling.\
 Simple wins.
 :::
 
@@ -311,12 +301,10 @@ Simple wins.
 [Tool #2: AI]{style="font-size: 1.5em"}
 :::
 
-
-::: {.notes}
-AI won’t tell your story for you.  
+::: notes
+AI won’t tell your story for you.\
 But it will help you tell it better — faster, clearer, and more creative.
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -340,9 +328,9 @@ But it will help you tell it better — faster, clearer, and more creative.
 🥱 1° version $<$ ... $<$ 😊 last version
 :::
 
-::: {.notes}
-First versions are never perfect.  
-Draft → feedback → improve.  
+::: notes
+First versions are never perfect.\
+Draft → feedback → improve.\
 Storytelling is an iterative process.
 :::
 
@@ -358,25 +346,24 @@ Your first draft will [**always** be horrible.]{.fragment}
 :::
 :::
 
-
-::: {.notes}
-Bad first drafts are normal.  
-Don’t aim for perfect — aim to start.  
+::: notes
+Bad first drafts are normal.\
+Don’t aim for perfect — aim to start.\
 Refining comes later.
 :::
 
 ------------------------------------------------------------------------
 
-##  From Ideas to Impact... Faster with AI {background-image="images/background.jpg" background-opacity="0.25"}
+## From Ideas to Impact... Faster with AI {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%" .fragment}
+::: {.column .fragment width="60%"}
 <br>
 
-- Faster structure, less effort  
-- Clearer stories, better impact  
-- Visuals in seconds  
-- More time for creativity 
+-   Faster structure, less effort\
+-   Clearer stories, better impact\
+-   Visuals in seconds\
+-   More time for creativity
 :::
 
 ::: {.column .fragment width="40%"}
@@ -388,13 +375,11 @@ Refining comes later.
 
 > 🤖 **tools**: [ChatGPT](https://openai.com/chatgpt/), [Gemini](https://deepmind.google/gemini/), [Napkin AI](https://www.napkin.one/), [Midjourney](https://www.midjourney.com/), [Bolt](https://bolt.new/)
 
-
-::: {.notes}
-First drafts are messy — that’s normal.  
-AI helps you go from idea → clarity → impact much faster.  
+::: notes
+First drafts are messy — that’s normal.\
+AI helps you go from idea → clarity → impact much faster.\
 Less time stuck, more time creating.
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -406,9 +391,9 @@ Less time stuck, more time creating.
 [Tool #3: Presentation]{style="font-size: 1.5em"}
 :::
 
-::: {.notes}
-Your story needs a stage.  
-Presentation tools shape how people feel your message.  
+::: notes
+Your story needs a stage.\
+Presentation tools shape how people feel your message.\
 Design it with care — it’s part of the story.
 :::
 
@@ -416,16 +401,14 @@ Design it with care — it’s part of the story.
 
 ## Examples {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: panel-tabset
 ## Code
 
-Let’s see how much code we need to say something as simple as:  
+Let’s see how much code we need to say something as simple as:\
 “Do you like this presentation?”
 
-It may seem like a small question, but turning that into code requires defining categories, assigning values, choosing colors, and setting plot parameters.  
+It may seem like a small question, but turning that into code requires defining categories, assigning values, choosing colors, and setting plot parameters.\
 And that’s just to get a basic bar chart.
-
 
 ``` r
 categories <- c("Yes", "No")
@@ -459,9 +442,9 @@ barplot(values, names.arg = categories, col = colors, main = "😊 Do you like t
 :::
 :::
 
-::: {.notes}
-Sometimes we write too much...  
-When a simple image or chart says it all — faster and clearer.  
+::: notes
+Sometimes we write too much...\
+When a simple image or chart says it all — faster and clearer.\
 Remember: Show, don’t tell.
 :::
 
@@ -470,7 +453,7 @@ Remember: Show, don’t tell.
 ## 📝 Quarto (+ Extensions) {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%" .fragment}
+::: {.column .fragment width="60%"}
 <br><br>
 
 [Quarto](https://quarto.org/) is an open system for scientific publications with markdown and interactive code (Python/R).
@@ -478,8 +461,6 @@ Remember: Show, don’t tell.
 <br>
 
 > 🔧 Need more power? Use [Extensions](https://quarto.org/docs/extensions/)
-
-
 :::
 
 ::: {.column width="40%"}
@@ -487,14 +468,11 @@ Remember: Show, don’t tell.
 :::
 :::
 
-::: {.notes}
-Quarto makes it easy to write, code, and share.  
-Clean documents by default — more powerful with extensions.  
+::: notes
+Quarto makes it easy to write, code, and share.\
+Clean documents by default — more powerful with extensions.\
 One tool for writing, coding, and presenting.
 :::
-
-
-
 
 ------------------------------------------------------------------------
 
@@ -542,14 +520,11 @@ format:
 :::
 :::
 
-
-
-::: {.notes}
-Write once in Quarto — export everywhere.  
-Same file, clean code, beautiful slides.  
+::: notes
+Write once in Quarto — export everywhere.\
+Same file, clean code, beautiful slides.\
 Focus on content, let Quarto handle the rest.
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -579,9 +554,9 @@ Focus on content, let Quarto handle the rest.
 :::
 :::
 
-::: {.notes}
-WebR and Pyodide run code directly in the browser.  
-No setup, no installs — just share and run.  
+::: notes
+WebR and Pyodide run code directly in the browser.\
+No setup, no installs — just share and run.\
 Perfect for teaching, demos, and interactive content.
 :::
 
@@ -597,14 +572,13 @@ par(mfrow = c(1, 1), mar = c(7, 4, 1, 1),  oma = c(1, 6, 1, 1)   )
 barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
 ```
 
+::: notes
+This is a live R example.
 
-::: {.notes}
-This is a live R example.  
+Why run it live?
 
-Why run it live?  
-
-Because people learn better when they see and try.  
-No setup, no install — just code and results.  
+Because people learn better when they see and try.\
+No setup, no install — just code and results.\
 That’s the power of WebR.
 :::
 
@@ -624,9 +598,9 @@ That’s the power of WebR.
 :::
 :::
 
-::: {.notes}
-Shiny lets you turn R code into interactive apps.  
-Great for dashboards, reports, and data exploration.  
+::: notes
+Shiny lets you turn R code into interactive apps.\
+Great for dashboards, reports, and data exploration.\
 No web dev skills needed.
 :::
 
@@ -638,9 +612,9 @@ No web dev skills needed.
 
 ![](https://shiny.posit.co/r/articles/improve/debugging/kmeans-showcase.gif){width="80%"}
 
-::: {.notes}
-Shiny apps let people interact with your data.  
-Change inputs — see results instantly.  
+::: notes
+Shiny apps let people interact with your data.\
+Change inputs — see results instantly.\
 Perfect for exploring and communicating insights.
 :::
 
@@ -649,11 +623,11 @@ Perfect for exploring and communicating insights.
 ## 🌐 Quarto Shinylive {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%" .fragment}
+::: {.column .fragment width="60%"}
 <br>
 
-* Deploy **Shiny** apps that run 100% in the browser — with **Python** & **R** (via WebAssembly).
-* No servers. No setup. Just code & run. 
+-   Deploy **Shiny** apps that run 100% in the browser — with **Python** & **R** (via WebAssembly).
+-   No servers. No setup. Just code & run.
 :::
 
 ::: {.column width="40%"}
@@ -666,14 +640,14 @@ Perfect for exploring and communicating insights.
 <br>
 
 ::: {style="text-align: center; font-size: 1.2em;"}
-Stay in your presentation.  
+Stay in your presentation.\
 Stay in the flow. 🎯
 :::
 
-::: {.notes}
-Shinylive runs Shiny apps fully in the browser.  
+::: notes
+Shinylive runs Shiny apps fully in the browser.
 
-No servers, no install — just share and interact.  
+No servers, no install — just share and interact.
 
 Great for live demos without breaking the flow.
 :::
@@ -732,10 +706,10 @@ app = App(app_ui, server)
 
 ```
 
-::: {.notes}
-This is a full Shiny app — running in the browser.  
+::: notes
+This is a full Shiny app — running in the browser.
 
-Change values → update plot instantly.  
+Change values → update plot instantly.
 
 Great for interactive presentations, surveys, or dashboards — without leaving the slides.
 :::
@@ -761,10 +735,10 @@ Great for interactive presentations, surveys, or dashboards — without leaving 
 :::
 :::
 
-::: {.notes}
-If you want to go deeper — here are great resources.  
+::: notes
+If you want to go deeper — here are great resources.
 
-Videos, docs, and examples to explore WebR and Shinylive on your own.  
+Videos, docs, and examples to explore WebR and Shinylive on your own.
 
 Learn by doing!
 :::
@@ -780,10 +754,10 @@ Learn by doing!
 4.  Explain less, [**show more**]{.fragment style="color:grey;"}
 :::
 
-::: {.notes}
-A mysterious agenda — like a good story.  
+::: notes
+A mysterious agenda — like a good story.
 
-Now you’ve seen how each point connects.  
+Now you’ve seen how each point connects.
 
 Simple rules to tell better stories with data.
 :::
@@ -810,15 +784,14 @@ Simple rules to tell better stories with data.
 
 > 🔗 Visit our official site: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
 
-::: {.notes}
-Thank you so much for being here!  
+::: notes
+Thank you so much for being here!
 
-Feel free to ask questions — and please fill out the survey.  
+Feel free to ask questions — and please fill out the survey.
 
-Let’s keep learning and creating great stories with data.  
+Let’s keep learning and creating great stories with data.\
 See you next time!
 :::
-
 
 ```{=html}
 <style>

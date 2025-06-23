@@ -368,7 +368,7 @@ Focus only on what moves the story forward.
 
 . . .
 
-[(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
+[(C) Essential chart types for data visualization, by Atlassian.]{style="font-size: 0.75em; color: gray"}
 
 ::: notes
 You don’t need fancy charts.\
@@ -517,7 +517,7 @@ Let’s see how much code we need to say something as simple as:\
 It may seem like a small question, but turning that into code requires defining categories, assigning values, choosing colors, and setting plot parameters.\
 And that’s just to get a basic bar chart.
 
-```python
+``` python
 import matplotlib.pyplot as plt
 categories = ["Yes", "No"]
 values = [75, 25]
