@@ -543,7 +543,7 @@
     "href": "shiny_2025/presentacion_ext.html#examples-3",
     "title": "Creating, innovating and presenting",
     "section": "Examples",
-    "text": "Examples\n\nCodePlot\n\n\nLet’s see how much code we need to say something as simple as:\n“Do you like this presentation?”\nIt may seem like a small question, but turning that into code requires defining categories, assigning values, choosing colors, and setting plot parameters.\nAnd that’s just to get a basic bar chart.\ncategories &lt;- c(\"Yes\", \"No\")\nvalues &lt;- c(75, 25)\ncolors &lt;- c(\"lightblue\", \"salmon\")\nbarplot(\n  values, names.arg = categories, col = colors, \n  main = \"😊 Do you like the presentation so far? 😊\", cex.main = 0.9\n)"
+    "text": "Examples\n\nCodePlot\n\n\nLet’s see how much code we need to say something as simple as:\n“Do you like this presentation?”\nIt may seem like a small question, but turning that into code requires defining categories, assigning values, choosing colors, and setting plot parameters.\nAnd that’s just to get a basic bar chart.\nimport matplotlib.pyplot as plt\ncategories = [\"Yes\", \"No\"]\nvalues = [75, 25]\ncolors = [\"lightblue\", \"salmon\"]\nplt.figure(figsize=(6, 4))\nplt.subplots_adjust(bottom=0.25, left=0.2)\nplt.bar(categories, values, color=colors)\nplt.title(\"😊 Do you like the presentation so far? 😊\", fontsize=12)\nplt.show()"
   },
   {
     "objectID": "shiny_2025/presentacion_ext.html#section-7",
@@ -2786,46 +2786,39 @@
     "text": "Actividad\nCreando nuestro primer Dashboard"
   },
   {
-    "objectID": "shiny_2025/presentacion_ext2.html#actividad",
-    "href": "shiny_2025/presentacion_ext2.html#actividad",
+    "objectID": "shiny_2025/presentacion_ext2.html#herramientas-de-bi",
+    "href": "shiny_2025/presentacion_ext2.html#herramientas-de-bi",
     "title": "Tu Primer Dashboard",
-    "section": "Actividad",
-    "text": "Actividad"
+    "section": "Herramientas de BI",
+    "text": "Herramientas de BI\n\n\n\n\nPrincipales herramientas:\n\nPower BI, Tableau\nLooker Studio\n\nFortalezas:\n\nPaneles interactivos\nConectividad con datos\nInformación en tiempo real"
   },
   {
-    "objectID": "shiny_2025/presentacion_ext2.html#section-1",
-    "href": "shiny_2025/presentacion_ext2.html#section-1",
+    "objectID": "shiny_2025/presentacion_ext2.html#herramientas-de-bi-1",
+    "href": "shiny_2025/presentacion_ext2.html#herramientas-de-bi-1",
     "title": "Tu Primer Dashboard",
-    "section": "",
-    "text": "Storytelling principle #1\n\n\nNever reveal the ending too soon.\nAlways build up tension and drama\n\n\n\n\n\nLesson #1 of Storytelling. NEVER kill the suspense. Storytelling Tip:\nKeep your audience curious.\nDon’t spoil the ending — build tension first!\nSurprise makes stories memorable."
+    "section": "Herramientas de BI",
+    "text": "Herramientas de BI"
   },
   {
-    "objectID": "shiny_2025/presentacion_ext2.html#agenda-v2",
-    "href": "shiny_2025/presentacion_ext2.html#agenda-v2",
+    "objectID": "shiny_2025/presentacion_ext2.html#actividad-looker-studio-ga4",
+    "href": "shiny_2025/presentacion_ext2.html#actividad-looker-studio-ga4",
     "title": "Tu Primer Dashboard",
-    "section": "Agenda (v2)",
-    "text": "Agenda (v2)\n\nNever reveal the ending\n\nDetails are important, but not all details are important.\n\nYour first draft will be horrible.\n\nExplain less, show more\n\n\nToday’s agenda = storytelling lessons.\nWe’ll uncover each one as we go — no spoilers.\nStay curious."
+    "section": "🧪 Actividad: Looker Studio + GA4",
+    "text": "🧪 Actividad: Looker Studio + GA4\n\n🎯 Objetivo📊 Datos🧩 Prototipo🛠️ Paso a Paso📎 Links\n\n\nDiseña un dashboard en Looker Studio con datos reales de GA4 - Google Merchandise Store para ayudar al equipo de marketing a analizar el rendimiento digital.\nDebe responder preguntas clave como:\n\n¿El tráfico está creciendo?\n¿Qué canales traen más usuarios?\n¿Qué páginas convierten mejor?\n¿Cuál es la tasa de conversión por canal?\n\n\n\n\nUsaremos la cuenta demo de Google Analytics:\n👉 https://analytics.google.com/analytics/index/demoaccount?appstate=/p213025502\nSelecciona la propiedad:\n\n[GA4] Google Merchandise Store\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbre Looker Studio: https://lookerstudio.google.com\nCrea un nuevo informe y conecta la propiedad [GA4] Google Merchandise Store desde la cuenta demo de Google Analytics.\nAgrega visualizaciones con las siguientes métricas:\n\nTotal de usuarios\nUsuarios nuevos\nConversiones\nCanales y páginas más relevantes\n\n\n\n\n\n\n\n\n\n\n\nEjemplo de Dashboard\n\n\nhttps://lookerstudio.google.com/reporting/7508205d-9aec-4ecd-a1c2-afd775fafabb\n\n\n\n\n\n\n\n\n\nVideo explicativo\n\n\nhttps://youtu.be/_VxYaOn98-s?si=w_FoL3BZ3sAGRSzr"
   },
   {
-    "objectID": "shiny_2025/presentacion_ext2.html#section-2",
-    "href": "shiny_2025/presentacion_ext2.html#section-2",
+    "objectID": "shiny_2025/presentacion_ext2.html#conclusiones",
+    "href": "shiny_2025/presentacion_ext2.html#conclusiones",
     "title": "Tu Primer Dashboard",
-    "section": "",
-    "text": "Storytelling\nWhy Storytelling?"
+    "section": "🧠 Conclusiones",
+    "text": "🧠 Conclusiones\n\n\n\n📊 Looker Studio ayuda a entender datos fácilmente.\n\n🔗 GA4 entrega información real y útil.\n\n🎯 Mejora tus decisiones con métricas claras.\n\n🧰 Aprendes haciendo, con herramientas reales."
   },
   {
-    "objectID": "shiny_2025/presentacion_ext2.html#example",
-    "href": "shiny_2025/presentacion_ext2.html#example",
+    "objectID": "shiny_2025/presentacion_ext2.html#gracias-por-participar",
+    "href": "shiny_2025/presentacion_ext2.html#gracias-por-participar",
     "title": "Tu Primer Dashboard",
-    "section": "Example",
-    "text": "Example\n\n Ver informe interactivo"
-  },
-  {
-    "objectID": "shiny_2025/presentacion_ext2.html#thank-you-for-participating",
-    "href": "shiny_2025/presentacion_ext2.html#thank-you-for-participating",
-    "title": "Tu Primer Dashboard",
-    "section": "🎉 Thank You for Participating!",
-    "text": "🎉 Thank You for Participating!\n\n\n\n❓ Questions?\n👏 Fill out the survey\n🥳 Thank You Again!\n\n\n\n\n🔗 Visit our official site: seth-nut.github.io/resources\n\n\nThank you so much for being here!\nFeel free to ask questions — and please fill out the survey.\nLet’s keep learning and creating great stories with data.\nSee you next time!"
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Completa la encuesta\n🥳 ¡Gracias nuevamente!\n\n\n\n\n🔗 Visita nuestro sitio oficial: seth-nut.github.io/resources\n\n\nThank you so much for being here!\nFeel free to ask questions — and please fill out the survey.\nLet’s keep learning and creating great stories with data.\nSee you next time!"
   },
   {
     "objectID": "shiny_2025/presentacion.html#about-me",
