@@ -419,29 +419,18 @@ Less time stuck, more time creating.
 
 ------------------------------------------------------------------------
 
-## 💡Unlocking Creativity with AI Tools {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-::::: columns
-::: {.column .fragment width="60%"}
-<br>
+::: r-stack
+![](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*_3AM0Yhc7qgCvZ_X1L8mhw.gif){.fragment .fade-in-then-out fig-align="center" width="80%"}
 
--   [ChatGPT (OpenAI)](https://openai.com/chatgpt/)
--   [Gemini (Google DeepMind)](https://deepmind.google/gemini/)
--   [Napkin AI](https://www.napkin.one/)
--   [Midjourney](https://www.midjourney.com/)
--   [Bolt](https://bolt.new/)
+![](https://aijourney.so/_next/image?url=https%3A%2F%2Faijourney-stores-prod.s3.ap-southeast-1.amazonaws.com%2Ftool-105%2F1726140585723-napkin-ai-review.gif&w=640&q=75){.fragment .fade-in-then-out fig-align="center" width="70%"}
+
+![](https://freight.cargo.site/w/1024/q/94/i/ade715581e7533554249adf217361ca30f527701ec402edd68c612055818f20a/infinite_text_v3.gif){.fragment .fade-in-then-out fig-align="center" width="60%"}
+
+![](https://miro.medium.com/v2/resize:fit:2000/1*1QYJswFs8FWN9zLcX3vIYg.gif){.fragment fig-align="center" width="95%"}
 :::
 
-::: {.column width="40%"}
-<img src="images/ai/ai_images.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
-:::
-:::::
-
-::: notes
-AI tools = creative shortcuts.\
-They help you write, visualize, and explore ideas faster.\
-Use them as assistants — not replacements.
-:::
 
 ------------------------------------------------------------------------
 
