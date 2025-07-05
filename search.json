@@ -3157,15 +3157,8 @@
     "text": "From Ideas to Impact… Faster with AI\n\n\n\n\nFaster structure, less effort\n\nClearer stories, better impact\n\nVisuals in seconds\n\nMore time for creativity\n\n\n\n\n\n\n\n\n\n\n🤖 tools: ChatGPT, Gemini, Napkin AI, Midjourney, Bolt\n\n\nFirst drafts are messy — that’s normal.\nAI helps you go from idea → clarity → impact much faster.\nLess time stuck, more time creating."
   },
   {
-    "objectID": "shiny_2025/presentacion_pc.html#unlocking-creativity-with-ai-tools",
-    "href": "shiny_2025/presentacion_pc.html#unlocking-creativity-with-ai-tools",
-    "title": "Creating, innovating and presenting",
-    "section": "💡Unlocking Creativity with AI Tools",
-    "text": "💡Unlocking Creativity with AI Tools\n\n\n\n\nChatGPT (OpenAI)\nGemini (Google DeepMind)\nNapkin AI\nMidjourney\nBolt\n\n\n\n\n\nAI tools = creative shortcuts.\nThey help you write, visualize, and explore ideas faster.\nUse them as assistants — not replacements."
-  },
-  {
-    "objectID": "shiny_2025/presentacion_pc.html#section-6",
-    "href": "shiny_2025/presentacion_pc.html#section-6",
+    "objectID": "shiny_2025/presentacion_pc.html#section-7",
+    "href": "shiny_2025/presentacion_pc.html#section-7",
     "title": "Creating, innovating and presenting",
     "section": "",
     "text": "Data Storytelling\nTool #3: Presentation\n\n\nYour story needs a stage.\nPresentation tools shape how people feel your message.\nDesign it with care — it’s part of the story."
@@ -3178,8 +3171,8 @@
     "text": "Examples\n\nCodePlot\n\n\nLet’s see how much code we need to say something as simple as:\n“Do you like this presentation?”\nIt may seem like a small question, but turning that into code requires defining categories, assigning values, choosing colors, and setting plot parameters.\nAnd that’s just to get a basic bar chart.\nimport matplotlib.pyplot as plt\ncategories = [\"Yes\", \"No\"]\nvalues = [75, 25]\ncolors = [\"lightblue\", \"salmon\"]\nplt.figure(figsize=(6, 4))\nplt.subplots_adjust(bottom=0.25, left=0.2)\nplt.bar(categories, values, color=colors)\nplt.title(\"😊 Do you like the presentation so far? 😊\", fontsize=12)\nplt.show()"
   },
   {
-    "objectID": "shiny_2025/presentacion_pc.html#section-7",
-    "href": "shiny_2025/presentacion_pc.html#section-7",
+    "objectID": "shiny_2025/presentacion_pc.html#section-8",
+    "href": "shiny_2025/presentacion_pc.html#section-8",
     "title": "Creating, innovating and presenting",
     "section": "",
     "text": "Storytelling principle #4\n\n\nExplain less, show more.\n\n\n\n\n\nSometimes we write too much…\nWhen a simple image or chart says it all — faster and clearer.\nRemember: Show, don’t tell."
@@ -3192,8 +3185,8 @@
     "text": "📝 Quarto (+ Extensions)\n\n\n\nQuarto is an open system for scientific publications with markdown and interactive code (Python/R).\n\n\n🔧 Need more power? Use Extensions\n\n\n\n\n\nQuarto makes it easy to write, code, and share.\nClean documents by default — more powerful with extensions.\nOne tool for writing, coding, and presenting."
   },
   {
-    "objectID": "shiny_2025/presentacion_pc.html#section-8",
-    "href": "shiny_2025/presentacion_pc.html#section-8",
+    "objectID": "shiny_2025/presentacion_pc.html#section-9",
+    "href": "shiny_2025/presentacion_pc.html#section-9",
     "title": "Creating, innovating and presenting",
     "section": "",
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html\n\n\n\nWrite once in Quarto — export everywhere.\nSame file, clean code, beautiful slides.\nFocus on content, let Quarto handle the rest."
@@ -3255,8 +3248,8 @@
     "text": "🔗 Useful Links\n\n\n\n\n🎥 YouTube Videos:\n\nReproducible Data Science: WebR + Shinylive\nStreamlit 101 - A faster way to build\n\n📖 More:\n\nPyodide Documentation\nStreamlit Documentation\n\n\n\n \n\n\nIf you want to go deeper — here are great resources.\nVideos, docs, and examples to explore WebR and Shinylive on your own.\nLearn by doing!"
   },
   {
-    "objectID": "shiny_2025/presentacion_pc.html#section-9",
-    "href": "shiny_2025/presentacion_pc.html#section-9",
+    "objectID": "shiny_2025/presentacion_pc.html#section-10",
+    "href": "shiny_2025/presentacion_pc.html#section-10",
     "title": "Creating, innovating and presenting",
     "section": "",
     "text": "Storytelling\nConclusion"
