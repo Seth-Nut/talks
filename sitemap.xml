@@ -1,87 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>fralfaro.github.io/blog/computacion_2024/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:34.542Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/comunidad_2025/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:34.580Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/narrativas_2024/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:34.924Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/shiny_2025/presentacion_ext2.html</loc>
-    <lastmod>2025-07-05T05:15:35.313Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/shiny_2025/presentacion_es.html</loc>
-    <lastmod>2025-07-05T05:15:35.313Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/shiny_2025/presentacion_js.html</loc>
-    <lastmod>2025-07-05T05:15:35.313Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/profesional_2024/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:34.993Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/prompts_chatgpt/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:35.024Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/infinity_2024/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:34.605Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/latinr_2024/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:34.639Z</lastmod>
+    <loc>fralfaro.github.io/blog/uc_2024/presentacion.html</loc>
+    <lastmod>2025-07-22T02:00:22.983Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/latex_2025/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:34.634Z</lastmod>
+    <lastmod>2025-07-22T02:00:22.278Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/computacion_2024/presentacion.html</loc>
+    <lastmod>2025-07-22T02:00:22.186Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/profesional_2024/presentacion.html</loc>
+    <lastmod>2025-07-22T02:00:22.635Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/visualization_2024/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:35.605Z</lastmod>
+    <lastmod>2025-07-22T02:00:23.251Z</lastmod>
   </url>
   <url>
-    <loc>fralfaro.github.io/blog/citt_2025/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:34.293Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/uc_2024/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:35.343Z</lastmod>
-  </url>
-  <url>
-    <loc>fralfaro.github.io/blog/index.html</loc>
-    <lastmod>2025-07-05T05:15:34.589Z</lastmod>
+    <loc>fralfaro.github.io/blog/shiny_2025/presentacion_ext2.html</loc>
+    <lastmod>2025-07-22T02:00:22.956Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/shiny_2025/presentacion_ext.html</loc>
-    <lastmod>2025-07-05T05:15:35.313Z</lastmod>
+    <lastmod>2025-07-22T02:00:22.956Z</lastmod>
   </url>
   <url>
-    <loc>fralfaro.github.io/blog/shiny_2025/presentacion_user.html</loc>
-    <lastmod>2025-07-05T05:15:35.313Z</lastmod>
+    <loc>fralfaro.github.io/blog/shiny_2025/presentacion_js.html</loc>
+    <lastmod>2025-07-22T02:00:22.956Z</lastmod>
   </url>
   <url>
-    <loc>fralfaro.github.io/blog/shiny_2025/presentacion_pc.html</loc>
-    <lastmod>2025-07-05T05:15:35.313Z</lastmod>
+    <loc>fralfaro.github.io/blog/shiny_2025/presentacion_es.html</loc>
+    <lastmod>2025-07-22T02:00:22.956Z</lastmod>
   </url>
   <url>
-    <loc>fralfaro.github.io/blog/shiny_2025/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:35.313Z</lastmod>
+    <loc>fralfaro.github.io/blog/prompts_chatgpt/presentacion.html</loc>
+    <lastmod>2025-07-22T02:00:22.666Z</lastmod>
   </url>
   <url>
-    <loc>fralfaro.github.io/blog/pycon_usa_2025/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:35.029Z</lastmod>
+    <loc>fralfaro.github.io/blog/infinity_2024/presentacion.html</loc>
+    <lastmod>2025-07-22T02:00:22.249Z</lastmod>
   </url>
   <url>
     <loc>fralfaro.github.io/blog/mads_2024/presentacion.html</loc>
-    <lastmod>2025-07-05T05:15:34.694Z</lastmod>
+    <lastmod>2025-07-22T02:00:22.334Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/narrativas_2024/presentacion.html</loc>
+    <lastmod>2025-07-22T02:00:22.566Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/index.html</loc>
+    <lastmod>2025-07-22T02:00:22.232Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/prompts_chatgpt/presentacion_emma.html</loc>
+    <lastmod>2025-07-22T02:00:22.666Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/shiny_2025/presentacion.html</loc>
+    <lastmod>2025-07-22T02:00:22.956Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/shiny_2025/presentacion_pc.html</loc>
+    <lastmod>2025-07-22T02:00:22.956Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/shiny_2025/presentacion_user.html</loc>
+    <lastmod>2025-07-22T02:00:22.956Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/visualization_2024/presentacion_pyladies.html</loc>
+    <lastmod>2025-07-22T02:00:23.252Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/comunidad_2025/presentacion.html</loc>
+    <lastmod>2025-07-22T02:00:22.225Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/latinr_2024/presentacion.html</loc>
+    <lastmod>2025-07-22T02:00:22.283Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/pycon_usa_2025/presentacion.html</loc>
+    <lastmod>2025-07-22T02:00:22.671Z</lastmod>
+  </url>
+  <url>
+    <loc>fralfaro.github.io/blog/citt_2025/presentacion.html</loc>
+    <lastmod>2025-07-22T02:00:21.935Z</lastmod>
   </url>
 </urlset>

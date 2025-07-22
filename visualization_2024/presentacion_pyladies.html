@@ -10,9 +10,9 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.32">
 
-  <meta name="author" content="Francisco Alfaro">
-  <meta name="dcterms.date" content="2024-11-29">
-  <title>Seth&amp;Nut – Innovación en MAT281: Colab y Evaluaciones Dinámicas</title>
+  <meta name="author" content="Valeska Canales">
+  <meta name="dcterms.date" content="2025-12-05">
+  <title>Seth&amp;Nut – Crea, Innova y Presenta Data Storytelling + A.I.</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,6 +30,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -285,7 +351,7 @@
   }
 
   // Store cell data
-  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\ncategorias = ['Sí', 'No']\nvalores = [20, 10]\nplt.figure(figsize=(5, 3))\nplt.bar(categorias, valores, color=['lightblue', 'salmon'])\nplt.title('😊 ¿Te gusta la presentación hasta ahora? 😊')\nplt.show()","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\nplt.figure(figsize=(5, 3))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.grid(True)\nplt.show()","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
   </script>
@@ -491,407 +557,578 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="images/background.jpg" class="quarto-title-block center">
-  <h1 class="title">Innovación en MAT281: Colab y Evaluaciones Dinámicas</h1>
+  <h1 class="title">Crea, Innova y Presenta Data Storytelling + A.I.</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Francisco Alfaro 
+Valeska Canales 
 </div>
 </div>
 </div>
 
-  <p class="date">2024-11-29</p>
+  <p class="date">2025-12-05</p>
 </section>
-<section id="aprender-adaptar-innovar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🔄 Aprender, Adaptar, Innovar</h2>
-<div class="r-stack">
-<p><br></p>
-<div class="quarto-figure quarto-figure-left">
-<figure>
-<p><img data-src="images/online.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-left"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/techs.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="images/activa2.jpg" class="fragment quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div>
+<section id="agenda" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Agenda</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li class="fragment"></li>
+<li class="fragment"><p>No</p></li>
+<li class="fragment"><p>Nope</p></li>
+<li class="fragment"><p>Jamás</p></li>
+</ul>
+</div><div class="column fragment" style="width:70%;">
+<p><img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"></p>
+</div></div>
 </section>
-<section id="section" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<section id="section" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Curso MAT281</span></p>
-<p><span style="font-size: 2em">Aplicaciones de la matemática en la ingeniería</span></p>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-</section>
-<section id="malla-curricular---icmat" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Malla Curricular - ICMAT</h2>
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-left">
-<figure>
-<p><img data-src="images/malla_01.png" class="fragment fade-in-then-out quarto-figure quarto-figure-left" style="width:100.0%"></p>
-</figure>
+<p><strong>Regla de Storytelling #1</strong></p>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/mat281_2.png" class="fragment quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
+<div class="callout-content">
+<p>Nunca reveles el final antes de tiempo.<br>
+<span class="fragment">Siempre eleva la tensión y el dramatismo</span></p>
 </div>
-<div class="fragment" style="text-align: right; font-size: 0.8em; color: gray; margin-top: 30px;">
-<p><a href="https://github.com/fralfaro/portfolio/blob/main/docs/files/teaching/mat281.pdf">🌐 Más detalles del curso MAT281</a></p>
+</div>
 </div>
 </div>
 </section>
-<section id="mat281---matemáticas-aplicadas" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>MAT281 - Matemáticas Aplicadas</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<div style="text-align: center;">
-<p><img src="images/paper2.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
-</div>
-</div><div class="column" style="width:60%;">
-<ul>
-<li class="fragment">🎯 <strong>Objetivo</strong>: Desarrollar competencias como Data Scientist</li>
-<li class="fragment">📚 <strong>Requisitos</strong>: Python y cursos básicos de matemáticas</li>
-<li class="fragment">📝 <strong>Contenidos</strong>: Toolkit, Data Manipulation, Machine Learning</li>
-<li class="fragment">📊 <strong>Evaluaciones</strong>: Laboratorios, Tareas, Proyecto</li>
-</ul>
-</div></div>
-<div class="fragment">
-<p><a href="https://github.com/fralfaro/MAT281_2024" style="font-size: 0.75em; color: gray align: center;">🌐 Repositorio: github.com/fralfaro/MAT281_2024</a></p>
-</div>
+<section id="agenda-v2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Agenda (v2)</h2>
+<ol type="1">
+<li class="fragment">Nunca reveles el <span style="background-color:black;">final</span></li>
+<li class="fragment">Los detalles son importantes, pero <span style="background-color:black;">no <strong>todos</strong> los detalles son importantes.</span></li>
+<li class="fragment">Tu primera versión será <span style="background-color:black;">horrible.</span></li>
+<li class="fragment">Muestra, no <span style="background-color:black;">cuentes.</span></li>
+</ol>
 </section>
-<section id="historia-del-curso" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>📅 Historia del curso</h2>
-
-<img src="images/historia3.png" style="margin-left: 120px;" class="r-stretch"></section>
 <section id="section-1" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Conceptos Claves</span></p>
-<p><span style="font-size: 2em">Tecnologías y Aprendizajes</span></p>
+<p><span style="font-size: 1em">Data Storytelling</span></p>
+<p><span style="font-size: 1.5em">¿Por qué Data Storytelling?</span></p>
 </div>
 </section>
-<section id="google-colab" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Google Colab</h2>
+<section id="qué-es-el-storytelling" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>¿Qué es el Storytelling?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/cave.jpg" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+</div><div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/fire.jpg" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+</div></div>
+<div class="fragment">
+<div style="text-align: center; ">
+<p>🔥 Las <strong>historias</strong> son la primera tecnología humana</p>
+</div>
+</div>
+</section>
+<section id="esos-cerebros-tan-hackables" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Esos cerebros tan hackables…</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/storytelling/sketplanation.png" class="quarto-figure quarto-figure-center" style="width:90.0%"><br>
+<em>Regla del máximo y final (Peak-End Rule)</em></p>
+</div><div class="column fragment" style="width:50%;">
+<p><img data-src="images/storytelling/got.jpg" class="quarto-figure quarto-figure-center" style="width:100.0%"><br>
+<em>Rating de Game of Thrones, por Kelvin Neo</em></p>
+</div></div>
+</section>
+<section id="narrativa" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Narrativa</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br><br> Usar <strong>trucos</strong> de Storytelling (narrativa) para crear presentaciones que serán <strong>recordadas</strong> y que causarán <strong>impacto</strong></p>
+</div><div class="column fragment" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/emotions.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+<div class="fragment">
+<div style="text-align: center;">
+<p>🎭 Las <strong>emociones</strong> generan acciones</p>
+</div>
+</div>
+</section>
+<section id="el-mejor-ejemplo" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>El mejor ejemplo</h2>
+<div class="columns">
+<div class="column fragment" data-fragment-index="1" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/storytelling/spotify1.jpeg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column center" style="width:40%;">
+<p><br><br> ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?</p>
+</div><div class="column fragment" data-fragment-index="1" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/storytelling/spotify2.jpeg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="section-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Regla de Storytelling #2</strong></p>
+</div>
+<div class="callout-content">
+<p>Los detalles son importantes, <span class="fragment">pero no <strong>todos</strong> los detalles son importantes.</span></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="ejemplos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Ejemplos</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/dst_before.png" class="quarto-figure quarto-figure-center"> <em>🔢 No compartas números</em></p>
+</div><div class="column fragment" style="width:50%;">
+<p><img data-src="images/dst_after.png" class="quarto-figure quarto-figure-center"> <em>🪶Comparte una historia</em></p>
+</div></div>
+<div class="fragment">
+<p><br><br> <span style="font-size: 0.75em; color: gray">(C) Storytelling with Data, por Cole Nussbaumer Knaflic.</span></p>
+</div>
+</section>
+<section id="section-3" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Regla de Storytelling #3</strong></p>
+</div>
+<div class="callout-content">
+<p>Tu primera versión <strong>siempre</strong> será horrible.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="ejemplos-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Ejemplos</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/gh_before.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/gh_after.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+<div class="fragment">
+<div style="text-align: center;">
+<p>🥱 1° versión <span class="math inline">\(&lt;\)</span> … <span class="math inline">\(&lt;\)</span> 😊 última versión</p>
+</div>
+</div>
+</section>
+<section id="usar-chatbots-de-ia-para" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Usar chatbots de IA para:</h2>
 <div class="columns">
 <div class="column" style="width:65%;">
 <p><br></p>
 <ul>
-<li class="fragment">🖥️ Entorno en la nube (Python)</li>
-<li class="fragment">📊 Ejecución de código interactivo</li>
-<li class="fragment">🌐 Acceso desde internet</li>
+<li>Plantillas personalizadas a medida</li>
+<li>Automatizar estructura del contenido</li>
+<li>Ahorro de tiempo en diseño</li>
+<li>Adaptación al estilo y preferencias</li>
 </ul>
-</div><div class="column" style="width:35%;">
-<p><img src="images/colab.png" alt="Tachado" style="width: 100%; align: center;"></p>
+</div><div class="column fragment" style="width:35%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/ai/template.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
 </div></div>
 </section>
-<section id="google-colab-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Google Colab</h2>
-<p><br></p>
-
-<img src="images/colab2.png" class="r-stretch"><div class="fragment">
-<p><a href="https://colab.research.google.com" style="font-size: 0.75em; align: center;">🌐 Link: colab.research.google.com</a></p>
-</div>
-</section>
-<section id="ejemplo-python" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>📊 Ejemplo Python</h2>
-<div id="qpyodide-insertion-location-1"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="más-herramientas" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🎓 Más Herramientas</h2>
-<p><br></p>
+<section id="usar-chatbots-de-ia-para-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Usar chatbots de IA para:</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/github.png" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<em>Github versionar código</em></p>
-</div><div class="column fragment" style="width:50%;">
-<p><img data-src="images/mkdocks.png" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<em>Mkdocs publicar sitios</em></p>
-</div></div>
-<div class="fragment">
-<p><a href="https://www.youtube.com/watch?v=1a-3qqlMcQA" style="font-size: 0.75em; color: gray align: center;">🌐 PyLatam 2022: Clases Interactivas con Google Colab, Mkdocs y Github Actions</a></p>
-</div>
-</section>
-<section id="aprendizajes-claves" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>Aprendizajes Claves</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><img src="images/learning.png" alt="Tachado" style="width: 100%; align: center;"></p>
-</div><div class="column fragment" style="width:60%;">
-<p><br><br></p>
+<div class="column" style="width:60%;">
+<p><br></p>
 <ul>
-<li><strong>Motivación</strong>: Fomentar interés.</li>
-<li><strong>Activo</strong>: Involucra a los estudiantes.</li>
-<li><strong>Proyectos</strong>: Problemas reales.</li>
-<li><strong>Constructivismo</strong>: Experiencia.</li>
+<li>Analogías y ejemplos</li>
+<li>Mejores traducciones</li>
+<li>Prompts para crear imágenes</li>
+<li>No busques imágenes, créalas!</li>
 </ul>
-</div></div>
-<div class="fragment">
-<p><a href="https://firstliteracy.org/wp-content/uploads/2015/07/How-Learning-Works.pdf" style="font-size: 0.75em; color: gray align: center;">📄 (C) How Learning Works (Ambrose, 2010)</a></p>
+</div><div class="column fragment" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/ai/choice.jpeg" class="quarto-figure quarto-figure-center"></p>
+</figure>
 </div>
+</div></div>
 </section>
-<section id="section-2" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<section id="section-4" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Innovación Educativa</span></p>
-<p><span style="font-size: 2em">Innovación en la Enseñanza y Evaluación en MAT281</span></p>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-</section>
-<section id="p1-google-colab" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P1: Google Colab</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><br></p>
-<p><img src="images/p1.png" alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;"></p>
-</div><div class="column fragment" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Acceso sin instalación</li>
-<li>Interactivo y colaborativo</li>
-<li>Aprendizaje activo</li>
-</ul>
-</div></div>
-</section>
-<section id="p1-google-colab-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P1: Google Colab</h2>
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/numpy2.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
+<p><strong>Regla de Storytelling #4</strong></p>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/colab_011.png" class="fragment quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
+<div class="callout-content">
+<p><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></p>
+</div>
+</div>
 </div>
 </div>
 </section>
-<section id="p2-github" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P2: Github</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><br></p>
-<p><img src="images/p22.jpg" alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;"></p>
-</div><div class="column fragment" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Control de versiones</li>
-<li>Facilita Seguimiento</li>
-<li>Plantilla inicial</li>
-<li>Primer portafolio</li>
-</ul>
-</div></div>
-</section>
-<section id="p2-github-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P2: Github</h2>
+<section id="explicar-menos-y-mostrar-más" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><img data-src="images/repos_02.png" class="quarto-figure quarto-figure-center" style="width:93.0%"><br>
-<a href="https://github.com/fralfaro/MAT281_2024">Repositorio del Curso</a></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a><span class="co"># Datos de ejemplo</span></span>
+<span id="cb1-4"><a></a>x <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<span id="cb1-5"><a></a>y <span class="op">=</span> [<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">7</span>]</span>
+<span id="cb1-6"><a></a></span>
+<span id="cb1-7"><a></a><span class="co"># Generamos el gráfico</span></span>
+<span id="cb1-8"><a></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb1-9"><a></a>plt.plot(x, y, marker<span class="op">=</span><span class="st">'o'</span>)</span>
+<span id="cb1-10"><a></a>plt.title(<span class="st">"Gráfico de Ejemplo"</span>)</span>
+<span id="cb1-11"><a></a>plt.xlabel(<span class="st">"Eje X"</span>)</span>
+<span id="cb1-12"><a></a>plt.ylabel(<span class="st">"Eje Y"</span>)</span>
+<span id="cb1-13"><a></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb1-14"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column fragment" style="width:50%;">
-<p><img data-src="images/repos_03.png" class="quarto-figure quarto-figure-center" style="width:80.0%"><br>
-<a href="https://github.com/fralfaro/MAT281-Portfolio">Portafolio Estudiantes</a></p>
-</div></div>
-</section>
-<section id="p3-evaluaciones-innovadoras" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P3: Evaluaciones Innovadoras</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><img src="images/p4.png" alt="Tachado" style="width: 100%; align: center;"></p>
-</div><div class="column fragment" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Evaluaciones prácticas</li>
-<li>Enfoque en colaboración</li>
-<li>Preparación mercado laboral</li>
-</ul>
-</div></div>
-</section>
-<section id="p3-evaluaciones-innovadoras-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P3: Evaluaciones Innovadoras</h2>
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-left">
-<figure>
-<p><img data-src="images/eval_01.png" class="fragment fade-in-then-out quarto-figure quarto-figure-left" style="width:100.0%"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/evaluacion_01.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="images/repos_01.png" class="fragment quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div>
-</section>
-<section id="p4evaluación-externa" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P4:Evaluación Externa</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><img src="images/p3.png" alt="Tachado" style="width: 100%; align: center;"></p>
-</div><div class="column fragment" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Feedback por pares</li>
-<li>Evaluación de proyectos</li>
-<li>Desarrolla habilidades blandas</li>
-</ul>
-</div></div>
-</section>
-<section id="p4evaluación-externa-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P4:Evaluación Externa</h2>
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/proyectos_01.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/proyectos_02.png" class="fragment quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-</div>
-</section>
-<section id="p5-impacto-formación-profesional" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P5: Impacto Formación Profesional</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><img src="images/p5.png" alt="Tachado" style="width: 100%; align: center;"></p>
-</div><div class="column fragment" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Motivación por la programación</li>
-<li>Preparación para prácticas</li>
-<li>Memorías Innovadoras</li>
-</ul>
-</div></div>
-</section>
-<section id="p5-impacto-formación-profesional-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P5: Impacto Formación Profesional</h2>
-
-<img data-src="images/memoria.png" class="quarto-figure quarto-figure-center r-stretch" style="width:90.0%"></section>
-<section id="section-3" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Retroalimentación</span></p>
-<p><span style="font-size: 2em">Perspectiva de los Estudiantes del Curso MAT281</span></p>
-</div>
-</section>
-<section id="comentarios-negativos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>👎 Comentarios Negativos</h2>
-<div class="fragment">
-<ul>
-<li>❌ “El profesor jamás respondió los correos cuando se le hacían dudas, lo que considero una enorme falta de respeto hacia los estudiantes.”</li>
-<li>📉 “Nunca se entregaron calificaciones ni retroalimentación, así que nunca supe si estaba haciendo bien las cosas o no.”</li>
-<li>❓ “El curso fue confuso en la manera de evaluar, me costó entender qué había que hacer en las evaluaciones y cuáles iban a ser las pruebas o tareas.”</li>
-</ul>
-</div>
-</section>
-<section id="comentarios-positivos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>👍 Comentarios Positivos</h2>
-<div class="fragment">
-<ul>
-<li>✅ “Buen profesor, con buena disposición para consultas. Es ordenado, presenta bien el contenido y llega bien al alumno.”</li>
-<li>🌟 “El profesor explica muy bien, de una forma clara. Tiene muy buena disposición y transmite confianza.”</li>
-<li>📚 “Es un curso muy bueno, ayuda a aprender mucho sobre el área de Data Science, las aplicaciones que tiene y las diferentes herramientas disponibles en Python.”</li>
-</ul>
-</div>
-</section>
-<section id="encuesta-docente" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Encuesta Docente</h2>
-<div id="bad65aef" class="cell" data-execution_count="1">
+<div id="b24d2672" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
-<p><img data-src="presentacion_files/figure-revealjs/cell-2-output-1.png" width="887" height="450"></p>
+<p><img data-src="presentacion_pyladies_files/figure-revealjs/cell-2-output-1.png" width="502" height="377"></p>
 </figure>
 </div>
 </div>
 </div>
-<div class="fragment">
-<p><span style="font-size: 0.7em; color: gray">(C) La evaluó: contenidos, cercanía, y fomarlidades del curso.</span></p>
-</div>
+</div></div>
 </section>
-<section id="section-4" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<section id="explicar-menos-y-mostrar-más-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
+<div id="qpyodide-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="agenda-v2-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Agenda (v2)</h2>
+<ol type="1">
+<li class="fragment">Nunca reveles el <span class="fragment" style="color:grey;"><strong>final</strong></span></li>
+<li class="fragment">Los detalles son importantes, pero <span class="fragment" style="color:grey;">no <strong>todos</strong> los detalles son importantes</span></li>
+<li class="fragment">Tu primera versión será <span class="fragment" style="color:grey;"><strong>horrible</strong></span></li>
+<li class="fragment">Muestra, no <span class="fragment" style="color:grey;"><strong>cuentes</strong></span></li>
+</ol>
+<aside class="notes">
+<p>Opción 2: Una agenda misteriosa.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-5" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Conclusiones</span></p>
-<p><span style="font-size: 2em">Resultados y Reflexiones del Curso MAT281</span></p>
+<p><span style="font-size: 1em">Visualización</span></p>
+<p><span style="font-size: 2em">¿Qué es la Visualización?</span></p>
 </div>
 </section>
-<section id="conclusiones" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🎓 Conclusiones</h2>
-<p><br></p>
-<div class="fragment">
-<p>✅ Google Colab tiene un impacto positivo</p>
-<p>✅ Aumenta motivación y participación</p>
-<p>✅ Mejora la comprensión práctica</p>
-<p>✅ Flexibilidad en la enseñanza y aprendizaje remoto</p>
-</div>
-</section>
-<section id="trabajos-futuros" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🎓 Trabajos Futuros</h2>
-<p><br></p>
-<div class="fragment">
-<p>💡 Integrar tecnologías nuevas (IA)</p>
-<p>💡 Fomentar proyectos con la industria</p>
-<p>💡 Expandir la metodología a otros cursos</p>
-<p>💡 Implementar evaluaciones automatizadas</p>
-</div>
-</section>
-<section id="agradecimientos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🎉 Agradecimientos</h2>
+<section id="visualización" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Visualización…</h2>
 <div class="columns">
-<div class="column" style="width:33%;">
-<p><img data-src="images/seba_flores.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<strong>Sebastián Flores</strong></p>
-</div><div class="column" style="width:33%;">
-<p><img data-src="images/alonso_ogueda.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<strong>Alonso Ogueda</strong></p>
-</div><div class="column" style="width:33%;">
-<p><img data-src="images/alberto_rubio.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<strong>Alberto Rubio</strong></p>
-</div></div>
-<div class="columns">
-<div class="column" style="width:33%;">
-<p><img data-src="images/eric_zepeda.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<strong>Eric Zepeda</strong></p>
-</div><div class="column" style="width:33%;">
-<p><img data-src="images/sebastian_torres.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<strong>Sebastián Torres</strong></p>
-</div><div class="column" style="width:33%;">
-<p><img data-src="images/lecaros3.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<strong>Rodrigo Lecaros</strong></p>
-</div></div>
-</section>
-<section id="agradecimientos-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🎉 Agradecimientos</h2>
-<div class="r-stack">
+<div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li>Convierte datos en gráficos para facilitar su comprensión.</li>
+<li>Destaca patrones y tendencias de forma clara.</li>
+</ul>
+</div><div class="column fragment" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/dmat.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:100.0%"></p>
+<p><img data-src="images/viz/ojo.png" class="quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
+</div></div>
+</section>
+<section id="ejemplos-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Ejemplos</h2>
+<div class="columns">
+<div class="column" style="text-align: center;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/proyectos_03.jpg" class="fragment quarto-figure quarto-figure-center" style="width:65.0%"></p>
+<p><img data-src="images/viz/vis_01.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
+<p><em>❌ Mal Gráfico</em></p>
+</div><div class="column fragment" style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/viz/vis_02.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
 </div>
+<p><em>✅ Buen Gráfico</em></p>
+</div></div>
+</section>
+<section id="cuarteto-de-anscombe" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Cuarteto de ANSCOMBE</h2>
+<div class="columns">
+<div class="column" style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/viz/canscombe_01.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div><div class="column fragment" style="text-align: center;">
+<p><br> <img data-src="images/viz/canscombe_02.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</div></div>
+<div class="fragment" style="text-align:center">
+<p>📋 Tablas vs 📊 Gráficos</p>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 data-background-image="images/background.jpg" data-background-size="cover" data-background-opacity="0.5" id="datasaurus">Datasaurus</h3>
+
+<img data-src="./images/viz/anscombe.gif" style="width:80.0%" class="r-stretch"></section>
+<section id="teoría-de-visualización" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Teoría de Visualización</h2>
+
+<img data-src="images/viz/teoria_vis2.webp" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%"></section>
+<section id="pilares-visualización---noah-iliinsky" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>4 Pilares Visualización - Noah Iliinsky</h2>
+<div class="columns">
+<div class="column fragment" style="width:60%;">
+<p><br></p>
+<ol type="1">
+<li><strong>Propósito</strong>: Define la meta.</li>
+<li><strong>Contenido</strong>: Datos relevantes.</li>
+<li><strong>Estructura</strong>: Organización clara.</li>
+<li><strong>Formato</strong>: Gráfico adecuado.</li>
+</ol>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/viz/pilar2.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+<div class="fragment">
+<p><span style="font-size: 0.75em; color: gray">(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube.</span></p>
+</div>
+</section>
+<section id="qué-gráficos-son-buenos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Qué Gráficos son buenos?</h2>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+<p><img src="images/viz/chart_01.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_04.png" style="width: 75%; height: auto;"></p>
+<p><img src="images/viz/chart_03.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_05.png" style="width: 70%; height: auto;"></p>
+<p><img src="images/viz/chart_02.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_07.png" style="width: 85%; height: auto;"></p>
+</div>
+<div class="fragment">
+<p><span style="font-size: 0.75em; color: gray">(C) Essential chart types for data visualization, por Atlassian.</span></p>
+</div>
+</section>
+<section id="section-6" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">Herramientas</span></p>
+<p><span style="font-size: 2em">Herramientas de Visualización</span></p>
+</div>
+</section>
+<section id="herramientas-para-presentación" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Herramientas para presentación</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li><strong>Clásica</strong>: PowerPoint</li>
+<li><strong>“Show don’t tell”</strong>:
+<ul>
+<li>Quarto</li>
+<li>Streamlit</li>
+</ul></li>
+<li><strong>Otros</strong>: Canvas, Revealjs, Prezi</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/presentacion2.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="quarto" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Quarto</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br></p>
+<p>Un sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R).</p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/quarto/quarto2.png"></p>
+</div></div>
+</section>
+<section id="section-7" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><span style="font-size: 0.5em; color: gray">Código: example.qmd</span></p>
+<pre><code>---
+title: "Habits"
+author: "John Doe"
+format:
+  revealjs:
+    transition: fade
+    theme: black
+    toc: true
+    center: true
+---
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+---
+
+## Going to sleep 
+::: { .incremental }
+
+- Get in bed
+- Count sheep
+
+:::</code></pre>
+</div><div class="column" style="width:60%;">
+<p><span style="font-size: 0.5em; color: gray">Slides: example.html</span></p>
+<iframe width="600" height="400" src="images/quarto/quarto_min.html"></iframe>
+</div></div>
+</section>
+<section id="streamlit" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Streamlit</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br><br> Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python.</p>
+</div><div class="column" style="width:40%;">
+<p><br> <img data-src="./images/streamlit/streamlit.png"></p>
+</div></div>
+</section>
+<section id="streamlit-ejemplo" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Streamlit: Ejemplo</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb3-2"><a></a></span>
+<span id="cb3-3"><a></a><span class="co"># Título principal de la aplicación</span></span>
+<span id="cb3-4"><a></a>st.title(<span class="st">"Hola Streamlit"</span>)</span>
+<span id="cb3-5"><a></a></span>
+<span id="cb3-6"><a></a><span class="co"># Mensaje principal con nombres y emoticón fijos</span></span>
+<span id="cb3-7"><a></a>mensaje <span class="op">=</span> <span class="st">"Darwin y Patricia son mejores amigos 😊"</span></span>
+<span id="cb3-8"><a></a>st.write(mensaje)</span>
+<span id="cb3-9"><a></a></span>
+<span id="cb3-10"><a></a><span class="co"># Imagen decorativa</span></span>
+<span id="cb3-11"><a></a>st.image(</span>
+<span id="cb3-12"><a></a>    <span class="st">"https://www.svgrepo.com/show/397758/people-hugging.svg"</span>,</span>
+<span id="cb3-13"><a></a>    caption<span class="op">=</span><span class="st">"Amigos"</span>,</span>
+<span id="cb3-14"><a></a>    width<span class="op">=</span><span class="dv">200</span>  <span class="co"># Ajuste del tamaño de la imagen</span></span>
+<span id="cb3-15"><a></a>)</span>
+<span id="cb3-16"><a></a></span>
+<span id="cb3-17"><a></a><span class="co"># Footer</span></span>
+<span id="cb3-18"><a></a>st.markdown(</span>
+<span id="cb3-19"><a></a>    <span class="st">"""</span></span>
+<span id="cb3-20"><a></a><span class="st">    ---</span></span>
+<span id="cb3-21"><a></a><span class="st">    Gracias por usar esta aplicación interactiva 🎈</span></span>
+<span id="cb3-22"><a></a><span class="st">    """</span></span>
+<span id="cb3-23"><a></a>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/streamlit_example.png" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+</figure>
+</div>
+</div></div>
+<div class="fragment">
+<div style="text-align: center; margin-top: -30px;">
+<p><a href="https://streamlit.io/playground?example=geospatial&amp;code=H4sIAAAAAAAAA4VTPY8TMRDt91eMTJOTLsldEDpASnECHTR8SKFDKJo4cxsHr23Z3ts7TunRCfHR0aA0dIgCISH6_BP-APkJjHc3JCcKtpnZGb_n52ePKpz1EUL0hIVWETDwT5bdgGerr7HUFpxXRiqHGqYEGgGdVhKlWn03WYi9qKKmjnhouTXasIi9xDBSU5qgB2kNY4P0ytUwuADLmTUUEie3T1Ve-i1naIAb7iftYmbdaVZeRW7e26CBNBRkAs5pR_NFKlNho5JM3muEbQiBTGq3jOCQWRz5YA1q9YorW8rM2GLi6RCGsCuQzuNYGVfGjnhcL4BDsQ_iPvpKGd6sQQ3-ixok1FOMXkmFjGsUs2_XgIE0yTix5x0xSmk6BUJptgdkmudivfx4lfh-ffr8--e7lK2XH7408c2yie9_iBe1F4_-sYxNqa_ZZRs7h3AqLlsDFmxpmw8WwFaxQ3Pr2UwsVG4DXG60L0S6ruaaWqZ6x-PcU87mlqxdFZhTeh3SeozqDBOkLnYy4E_MYnThbr9fVVUvnDHS2Z60RT_MbNW_eefo6NbtviPrNHVnZZ4rk6dlYr9GS3SRLRqK41paWy0DjaXVZWHGlZrG2fAEdaCm1xQGBwcALHRehkgsTkPEAlffbDsCjeqsPs2JtZF8kl2gfzm1lWmVC1HHbrdbxwfpffNw8bixgvS2Qrw2TKAME6FMLsB6-fb1X5q97A_oi2bFpgMAAA" style="font-size: 0.75em; color: gray">(C) Ejemplo en Streamlit - Playground.</a></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="streamlit-ejemplo-1">Streamlit: Ejemplo</h3>
+
+<img src="./images/streamlit/Streamlit-Prophet.gif" style="width:50%;" class="r-stretch"></section>
+<section id="html-webapps" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>HTML &amp; webapps</h2>
+<div class="columns">
+<div class="column fragment" style="width:50%;">
+<p>🛠️ Elige una herramienta</p>
+</div><div class="column fragment" style="width:50%;">
+<p>💡 La innovación destaca</p>
+</div></div>
+
+<img data-src="images/tools2.webp" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="flujo-de-decisión" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Flujo de decisión</h2>
+<p><br></p>
+<ul>
+<li class="fragment">🎤 <strong>PowerPoint</strong>: Presentación sin código de un solo uso</li>
+<li class="fragment">📚 <strong>Quarto</strong>: Charlas a partir de documentos relacionados</li>
+<li class="fragment">💻 <strong>Streamlit</strong>: Presentaciones interactivas (Python)</li>
+<li class="fragment">🎨 <strong>Más</strong>: Canvas, Revealjs, Prezi</li>
+</ul>
+</section>
+<section id="conclusión" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Conclusión</h2>
+<p><br></p>
+<ul>
+<li class="fragment"><strong>📖 Storytelling</strong>: Narrativas que cautivan a través de datos.<br>
+</li>
+<li class="fragment"><strong>📊 Visualización</strong>: Gráficos claros y atractivos.<br>
+</li>
+<li class="fragment"><strong>🛠️ Herramientas</strong>: Streamlit, Quarto, y más.</li>
+</ul>
 </section>
 <section id="gracias-por-participar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>🎉 ¡Gracias por Participar!</h2>
@@ -899,10 +1136,10 @@ Francisco Alfaro
 <div class="column" style="width:50%;">
 <p><br></p>
 <p>❓¿Preguntas?</p>
-<p>👏 Responder <a href="https://docs.google.com/forms/d/e/1FAIpQLScS7eVbBPaKw6XhVonosCL_4nP4t9AbJAM03bdSfbsoSDFntg/viewform?usp=sf_link">encuesta</a></p>
+<p>👏 Responder <a href="https://docs.google.com/forms/d/e/1FAIpQLScdkSSY40VsN_uEXsNK5LYP-qngUVvaO-c8qItr163zzvpzZA/viewform?usp=sf_link">encuesta</a></p>
 <p>🥳 Gracias de Nuevo</p>
 </div><div class="column" data-align="center" style="width:50%;">
-<p><img data-src="images/qr_uc.png" width="400"></p>
+<p><img data-src="images/qr_visualizacion.png" width="400"></p>
 </div></div>
 <blockquote>
 <p>🔗 Nuestro Sitio Web: <a href="https://seth-nut.github.io/resources/">seth-nut.github.io/resources</a>.</p>
@@ -936,7 +1173,7 @@ Francisco Alfaro
 }
 
 .reveal .slide-logo {
-   max-height: 2em !important;
+   max-height: 3em !important;
 }
 
 
@@ -946,7 +1183,7 @@ Francisco Alfaro
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="images/uc.png" class="slide-logo"></p>
+<p><img src="images/pyladies.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>
