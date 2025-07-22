@@ -10,6 +10,7 @@ output: html_document
 - 🎤 [Crea, Innova y Presenta: Data Storytelling con A.I.](visualization_2024/presentacion.html): Transforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.  
   - [OTEC BDO 2025](shiny_2025/presentacion_ext.html) ([actividad práctica](shiny_2025/presentacion_ext2.qmd))   
   - [Pycon Colombia 2025](shiny_2025/presentacion_pc.html)
+  - [PyLadiesCon 2025](visualization_2024/presentacion_pyladies.html)
 
 - 🎤 [Del Dato a la Narrativa: Visualización Interactiva con Shiny](shiny_2025/presentacion_es.html): Aprende a crear paneles interactivos y visualizaciones narrativas con Shiny.  
   - [ShinyConf 2025](shiny_2025/presentacion.html)  
@@ -17,7 +18,7 @@ output: html_document
 
 - 🎤 [No es Magia, es Ciencia](prompts_chatgpt/presentacion.html): Aprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.
   - [TechSchool 2025](prompts_chatgpt/presentacion.html) 
-  - [EMMA Agosto 2025](prompts_chatgpt/presentacion.html)
+  - [EMMA Agosto 2025](prompts_chatgpt/presentacion_emma.html)
 
 - 🎤 [DMAT USM 2025 - ¡Adiós Word, Hola LaTeX!](latex_2025/presentacion.html): Crea documentos académicos profesionales con LaTeX, automatizando referencias y ecuaciones.
 
