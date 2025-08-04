@@ -33,7 +33,7 @@ E = mc^2
 
 \end{document}
 """,
-        "imagen": "images/example1.png"
+        "imagen": "https://raw.githubusercontent.com/Seth-Nut/talks/refs/heads/main/latex_2025/images/example1.png"
     },
     "Tablas Bonitas": {
         "teoria": "LaTeX permite crear tablas con precisión usando `booktabs` para una presentación profesional.",
@@ -56,7 +56,7 @@ Valeska & 28 & Concepción \\
 
 \end{document}
 """,
-        "imagen": "images/example2.png"
+        "imagen": "https://raw.githubusercontent.com/Seth-Nut/talks/refs/heads/main/latex_2025/images/example2.png"
     },
     "Colores y Texto": {
         "teoria": "Con `xcolor` puedes aplicar colores a textos, definir tonos personalizados y mejorar la presentación.",
@@ -75,7 +75,7 @@ También se pueden definir colores personalizados:
 
 \end{document}
 """,
-        "imagen": "images/example3.png"
+        "imagen": "https://raw.githubusercontent.com/Seth-Nut/talks/refs/heads/main/latex_2025/images/example3.png"
     },
     "Lógica Matemática": {
         "teoria": "LaTeX es ideal para escribir fórmulas matemáticas complejas, especialmente en lógica y teoría de conjuntos, gracias a `amsmath`.",
@@ -102,7 +102,7 @@ F & F & V \\
 
 \end{document}
 """,
-        "imagen": "images/example4.png"
+        "imagen": "https://raw.githubusercontent.com/Seth-Nut/talks/refs/heads/main/latex_2025/images/example4.png"
     },
     "Listas Personalizadas": {
         "teoria": "Las listas ordenadas y no ordenadas se personalizan con `enumitem`, permitiendo cambiar símbolos, márgenes o mezclar listas anidadas.",
@@ -122,7 +122,7 @@ F & F & V \\
 
 \end{document}
 """,
-        "imagen": "images/example5.png"
+        "imagen": "https://raw.githubusercontent.com/Seth-Nut/talks/refs/heads/main/latex_2025/images/example5.png"
     }
 }
 
@@ -157,7 +157,7 @@ E = mc^2
 
 \end{document}
 """,
-        "imagen": "images/example61.png"
+        "imagen": "https://raw.githubusercontent.com/Seth-Nut/talks/refs/heads/main/latex_2025/images/example61.png"
     },
     "Currículum con moderncv": {
         "teoria": "Con `moderncv` puedes diseñar CVs elegantes usando estilos, colores y secciones personalizadas.",
@@ -186,7 +186,7 @@ Cofundadora de una iniciativa educativa enfocada en democratizar el acceso al ap
 
 \end{document}
 """,
-        "imagen": "images/example71.png"
+        "imagen": "https://raw.githubusercontent.com/Seth-Nut/talks/refs/heads/main/latex_2025/images/example71.png"
     },
     "Póster con tikzposter": {
         "teoria": "`tikzposter` es ideal para pósteres científicos en gran formato. Permite bloques, colores y diseños precisos.",
@@ -230,7 +230,7 @@ E = mc^2
 
 \end{document}
 """,
-        "imagen": "images/example8.png"
+        "imagen": "https://raw.githubusercontent.com/Seth-Nut/talks/refs/heads/main/latex_2025/images/example8.png"
     }
 }
 
@@ -253,7 +253,7 @@ with tab1:
         st.markdown("### 🖼️ Salida")
         st.image(datos["imagen"], width=700)
     
-    st.success("📂 Puedes encontrar todos estos ejemplos en Overleaf: [Ver proyecto en línea](https://www.overleaf.com/project/68347a46c09a1b7708ccf48a)")
+    st.success("📂 Puedes encontrar todos estos ejemplos en Overleaf: [Ver proyecto en línea](https://www.overleaf.com/read/ypdqgxpmzpzv#b87019)")
 
 
 with tab2:
@@ -270,12 +270,12 @@ with tab2:
 
     with col2:
         st.markdown("### 🖼️ Salida")
-        if datos["imagen"] == "images/example8.png":
+        if datos["imagen"] == "https://raw.githubusercontent.com/Seth-Nut/talks/refs/heads/main/latex_2025/images/example8.png":
             st.image(datos["imagen"], width=1000)
         else:
             st.image(datos["imagen"], width=700)
     
-    st.success("📂 Puedes encontrar todos estos ejemplos en Overleaf: [Ver proyecto en línea](https://www.overleaf.com/project/68347a46c09a1b7708ccf48a)")
+    st.success("📂 Puedes encontrar todos estos ejemplos en Overleaf: [Ver proyecto en línea](https://www.overleaf.com/read/ypdqgxpmzpzv#b87019)")
 
 
 
