@@ -2,9 +2,8 @@
 title: "No es Magia, es Ciencia"
 subtitle: "Cómo conversar mejor con asistentes de IA"
 author: 
-  - Francisco Alfaro
   - Valeska Canales
-date: 12 aug 2025
+date: 12 Aug 2025
 format: 
   revealjs:
     transition: slide
@@ -213,7 +212,6 @@ UTF-8
 
 ## Ejemplo
 
-
 ```{pyodide-python}
 def mostrar_codificacion(texto):
     print(f"{'Char':<5} {'ASCII':<6} {'ASCII Bin':<10} {'UTF-32 Bin'}")
@@ -225,8 +223,6 @@ def mostrar_codificacion(texto):
 # Prueba
 mostrar_codificacion("emma 25")
 ```
-
-
 :::
 
 ------------------------------------------------------------------------
@@ -769,13 +765,13 @@ Ejemplos:
 
 ❓¿Preguntas?
 
-👏 Responder [encuesta](https://forms.gle/eod326WVezb6vz2X7)
+👏 Responder [encuesta](https://forms.gle/cmvFgv2fiseizrC39)
 
 🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_emma.png){width="400"}
+![](images/qr_sj.png){width="400"}
 :::
 :::
 

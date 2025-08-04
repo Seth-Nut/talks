@@ -1,0 +1,224 @@
+# Reimagine {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png" aria-label="Two excited penguins diving off of an iceberg into the ocean. A Quarto logo moon in the sky is reflected in the water that they're diving into."}
+
+::: notes
+**Mine:** So Julie will now tell us a bit about reimagining with Quarto.
+
+**Julie:** Thanks Mine. We've seen already how much Quarto enables with teach/collab/share
+
+And now I want to push it a bit further. What if we could reimagine open science and open source as part of the climate movement. We know what this R community is capable of, what if
+:::
+
+##  {#nasa-blue-marble-hemi data-menu-title="NASA Blue Marble Hemisphere" background-image="images/4-reimagine/NASAEarthTwitter_1500x500.jpg"}
+
+::: quotebox-transparent-bottom-right
+To address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver.
+
+::: quote-source
+Ayana Elizabeth Johnson & Katharine Wilkinson\
+All We Can Save
+:::
+:::
+
+::: notes
+Because **we are in a climate emergency**. We must rapidly, radically reshape society. We need every solution and every solver. Hard, big. My hope lies in what we have here and what we can do with it. This is a big movement -
+
+Let's think about this with 3 user groups if you will
+
+scientist working direct w climate - hard and stuck. Openscapes
+
+R/open source - stuck, Posit 100 yrs
+
+extensible beyond
+
+Every solution, every solver. Across all facets and geographies, skills, expertise. We need more women. We need more people of color. We need more perspectives on every level. Dial up inclusion and culture change and welcome at an unprecedented level
+
+Requires slowing to speed up
+
+But when it speeds up it's like a flywheel
+
+My colleague Ileana Fenwick is a marine ecologist who particpated in Openscapes last year and beautifully describes this
+:::
+
+##  {#quote-ileana-fenwick data-menu-title="Quote: Ileana Fenwick" background-image="images/4-reimagine/fenwick-scuba.jpg"}
+
+::: quotebox-transparent-bottom-right
+Because of Openscapes, I have renewed hope in how we can bring about a kinder future in science. I see a commitment in the open science community to bridging the gaps where we've left members of our community behind, and it inspires me.
+
+::: quote-source
+Ileana Fenwick\
+University of North Carolina, Openscapes
+:::
+:::
+
+::: notes
+Because of Openscapes, I have renewed hope in how we can bring about a kinder future in science. I see a commitment in the open science community to bridging the gaps where we've left members of our community behind, and it inspires me.
+:::
+
+##  {#culture-shifts .centered data-menu-title="Culture Shifts" background-color="#0F1620"}
+
+::: {style="margin-top: 150px; font-size: 3em; color: #75AADB;"}
+Culture shifts: <br> technical + human
+:::
+
+::: notes
+We're talking about a **profound culture shift** that involves real deliberate work on the tech and human side
+
+Let's focus on the human side: We can **build inclusion into our daily work**. Let's think about your team and collagues because I bet they're not different from the teams we mentor
+
+This means **talking** and reflecting with your colleagues: how do we work? shared workflows, where is friction? who contributes, how do they contributes? Handoffs?
+
+This means asking **questions** and really listening. might not have the language to describe where they're stuck. Not assuming, not solutioneering. But listening for understanding to meet them where they are
+
+This means being **braver** to say I don't know, I need help
+
+A practice, not a checklist.
+
+A practical example -
+:::
+
+##  {#faylab-manual-1 data-menu-title="FayLab Manual 1" background-color="#0F1620"}
+
+::: columns
+::: {.column width="60%"}
+::: borderbox
+[![](images/4-reimagine/faylab-labmanual.png){fig-alt="Screenshot of a Quarto site that is a lab manual of shared practices"}](https://thefaylab.github.io/lab-manual/)
+:::
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+::: notes
+Fay Lab Manual is a site created by Gavin Fay's Group UMass D They are quant fisheries ecologists: data and code: work with managers: food systems and climate Bc formal training in data science is uncommon in env, range of skills incoming This site: lab culture, code of conduct, info about how they name files, how to learn the software they use
+
+It's a living doc online, and it's imperfect
+
+It is radical in many ways, here are 3:
+:::
+
+##  {#faylab-manual-2 data-menu-title="FayLab Manual 2" background-color="#0F1620"}
+
+::: columns
+::: {.column width="60%"}
+::: borderbox
+[![](images/4-reimagine/faylab-labmanual.png){fig-alt="Screenshot of a Quarto site that is a lab manual of shared practices"}](https://thefaylab.github.io/lab-manual/)
+:::
+:::
+
+::: {.column width="40%"}
+\
+\
+\
+
+::: {style="color: white;"}
+[**1. Make the implicit explicit**]{.midi}
+:::
+
+\
+
+::: fragment
+::: {style="color: white;"}
+[**2. Onboard learners as contributors**]{.midi}
+:::
+:::
+
+\
+
+::: fragment
+::: {style="color: white;"}
+[**3. Psychological safety & growth mindset**]{.midi}
+:::
+:::
+:::
+:::
+
+::: notes
+**Makes the implicit explicit** all be clear on how their group works together and it also puts the values forward and to welcome people who might be interested in joining the
+
+**onboards learners as contributors** As you read the manual you're also instructed how to contribute. So it's through learning tools like Quarto to fix a typo that empowers learners in a lasting way.
+
+**psychological safety & growth mindset** deliberately for example prioritzing time to check in during meetings and screensharing/live coding.
+
+Reimagining within one lab and that idea is catching at bigger scales -
+:::
+
+##  {#approach-guide .centered data-menu-title="Approach Guide" background-color="#0F1620"}
+
+::: columns
+::: {.column width="50%"}
+\
+\
+\
+
+::: borderbox
+[![](images/4-reimagine/approach-guide.png){fig-alt="Screenshot of a Quarto site that is a guide of the Openscapes Approach"}](https://openscapes.github.io/approach-guide/)
+:::
+:::
+
+::: {.column width="50%"}
+::: borderbox
+\
+\
+\
+
+[![](images/4-reimagine/nmfs-openscapes.png){fig-alt="Screenshot of a Quarto site that is community building and teaching platform for NOAA Fisheries"}](https://nmfs-openscapes.github.io/)
+:::
+:::
+:::
+
+::: notes
+We forked this idea back Here are 2 more examples: our Approach Guide which is how we onboard ourselves and others to grow the movement
+
+And NOAA Fisheries is using Quarto to building open science community across their science centers
+
+Using quarto for culture change
+:::
+
+## Quarto enables collaborating <br>across coding comfort levels {.takeaway .center}
+
+::: borderbox
+![](images/4-reimagine/visual_editor.png){fig-align="center" width="70%" fig-alt="RStudio IDE"}
+:::
+
+::: notes
+Quarto enables collaborating across coding comfort levels, which means it's a friendly tool Also means we can broaden our idea of collaborators substantially and earlier.
+
+And, then RStudio IDE Visual Editor further lowers barriers
+
+I'll do one final demo here - Friendly for new learners, also for experienced users.
+
+Think about how you might use this yourself, and teach a colleague
+:::
+
+##  {#demo-reimagine .center data-menu-title="Demo: Reimagine" background-video="videos/demo-4-reimagine.mp4" background-size="contain" background-color="#FFFFFF"}
+
+::: notes
+-   i can write and paste formatted text
+-   Add image, caption, alt text
+-   source editor
+-   citations 2 ways: \@ from my Zotero, forward-slash citation for doi
+-   Also: Call-outs
+-   Add extension:
+
+transition: throughtout talk, focus on quarto enables teach/collab/sharing. culture. Let's end with what we can all enable -
+:::
+
+## We all can enable reimagining {background-image="images/4-reimagine/NASA_earth_space_twitter_UNOOSA_803692453358424064.jpg"}
+
+::: quotebox-transparent-bottom-right
+"We" speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis...will take everyone.
+
+We cannot, we must not, go it alone.
+
+::: quote-source
+Ayana Elizabeth Johnson & Katharine Wilkinson\
+All We Can Save
+:::
+:::
+
+::: notes
+We can all enable reimagining at levels. We can all play our part We can do this in our daily work, with teams, scale it beyond. We invite you to reimagine too -
+
+And we cannot, we must not go it alone.
+:::

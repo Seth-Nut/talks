@@ -7,37 +7,40 @@ output: html_document
 
 ¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con [Quarto](https://quarto.org/), una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.
 
-- 🎤 [Crea, Innova y Presenta: Data Storytelling con A.I.](visualization_2024/presentacion.html): Transforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.  
-  - [OTEC BDO 2025](shiny_2025/presentacion_ext.html) ([actividad práctica](shiny_2025/presentacion_ext2.qmd))   
-  - [Pycon Colombia 2025](shiny_2025/presentacion_pc.html)
-  - [PyLadiesCon 2025](visualization_2024/presentacion_pyladies.html)
+-   🎤 [Crea, Innova y Presenta: Data Storytelling con A.I.](visualization_2024/presentacion.html): Transforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.
 
-- 🎤 [Del Dato a la Narrativa: Visualización Interactiva con Shiny](shiny_2025/presentacion_es.html): Aprende a crear paneles interactivos y visualizaciones narrativas con Shiny.  
-  - [ShinyConf 2025](shiny_2025/presentacion.html)  
-  - [UserR 2025](shiny_2025/presentacion_user.html)
+    -   [OTEC BDO 2025](shiny_2025/presentacion_ext.html) ([actividad práctica](shiny_2025/presentacion_ext2.qmd))\
+    -   [Pycon Colombia 2025](shiny_2025/presentacion_pc.html)
+    -   [PyLadiesCon 2025](visualization_2024/presentacion_pyladies.html)
 
-- 🎤 [No es Magia, es Ciencia](prompts_chatgpt/presentacion.html): Aprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.
-  - [TechSchool 2025](prompts_chatgpt/presentacion.html) 
-  - [EMMA Agosto 2025](prompts_chatgpt/presentacion_emma.html)
+-   🎤 [Del Dato a la Narrativa: Visualización Interactiva con Shiny](shiny_2025/presentacion_es.html): Aprende a crear paneles interactivos y visualizaciones narrativas con Shiny.
 
-- 🎤 [DMAT USM 2025 - ¡Adiós Word, Hola LaTeX!](latex_2025/presentacion.html): Crea documentos académicos profesionales con LaTeX, automatizando referencias y ecuaciones.
+    -   [ShinyConf 2025](shiny_2025/presentacion.html)\
+    -   [UserR 2025](shiny_2025/presentacion_user.html)
 
-- 🎤 [Pyday 2025 - Educación Abierta y Comunidad](comunidad_2025/presentacion.html): Crea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.
+-   🎤 [No es Magia, es Ciencia](prompts_chatgpt/presentacion.html): Aprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.
 
-- 🎤 [LatinR 2024 - Uso de Quarto para crear clases interactivas](latinr_2024/presentacion.html): Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador.
+    -   [TechSchool 2025](prompts_chatgpt/presentacion.html)
+    -   [EMMA Agosto 2025](prompts_chatgpt/presentacion_emma.html)
 
-- 🎤 [MADS USM 2024- Inteligencia Artificial en la Educación](mads_2024/presentacion.html): Aplicaciones prácticas de la IA en la enseñanza para experiencias más personalizadas y enriquecedoras.
+-   🎤 [DMAT USM 2025 - ¡Adiós Word, Hola LaTeX!](latex_2025/presentacion.html): Crea documentos académicos profesionales con LaTeX, automatizando referencias y ecuaciones.
+    
+    -   [EMMA Agosto 2025](latex_2025/presentacion_emma.html)
 
-- 🎤 [DMAT USM 2024 - Más allá del Infinito](infinity_2024/presentacion.html): Explora los conceptos del infinito en matemáticas con ejemplos interactivos, como el Hotel Infinito de Hilbert y los infinitos de Cantor.
+-   🎤 [Pyday 2025 - Educación Abierta y Comunidad](comunidad_2025/presentacion.html): Crea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.
 
-- 🎤 [II Encuentro Docencia Matemática Universitaria - Innovación en el curso MAT281 ](uc_2024/presentacion.html): Cómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso MAT281.
+-   🎤 [LatinR 2024 - Uso de Quarto para crear clases interactivas](latinr_2024/presentacion.html): Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador.
 
-- 🎤 [Narrativas con Datos](narrativas_2024/presentacion.html): Aprende a contar historias persuasivas con datos usando Python y herramientas de visualización.
+-   🎤 [MADS USM 2024- Inteligencia Artificial en la Educación](mads_2024/presentacion.html): Aplicaciones prácticas de la IA en la enseñanza para experiencias más personalizadas y enriquecedoras.
 
-- 🎤 [Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero](computacion_2024/presentacion.html): Introducción accesible al uso de la tecnología para personas mayores.
+-   🎤 [DMAT USM 2024 - Más allá del Infinito](infinity_2024/presentacion.html): Explora los conceptos del infinito en matemáticas con ejemplos interactivos, como el Hotel Infinito de Hilbert y los infinitos de Cantor.
 
-- 🎤 [¿Y Ahora Qué? Del Aula al Trabajo](profesional_2024/presentacion.html): Habilidades clave y herramientas para la transición del mundo académico al laboral.
+-   🎤 [II Encuentro Docencia Matemática Universitaria - Innovación en el curso MAT281](uc_2024/presentacion.html): Cómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso MAT281.
 
-- 🎤 [Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub](pycon_usa_2025/presentacion.html): Automatiza y comparte tus materiales educativos de forma eficiente con GitHub y Quarto.
+-   🎤 [Narrativas con Datos](narrativas_2024/presentacion.html): Aprende a contar historias persuasivas con datos usando Python y herramientas de visualización.
 
+-   🎤 [Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero](computacion_2024/presentacion.html): Introducción accesible al uso de la tecnología para personas mayores.
 
+-   🎤 [¿Y Ahora Qué? Del Aula al Trabajo](profesional_2024/presentacion.html): Habilidades clave y herramientas para la transición del mundo académico al laboral.
+
+-   🎤 [Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub](pycon_usa_2025/presentacion.html): Automatiza y comparte tus materiales educativos de forma eficiente con GitHub y Quarto.
