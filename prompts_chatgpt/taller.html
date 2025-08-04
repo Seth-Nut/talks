@@ -1,0 +1,2472 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Matemáticas Divertidas – Seth&amp;Nut</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/logo_sn.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-0cfb12eff26f0bacc27a5c13067a423e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/editor/editor.main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+<style type="text/css">
+.monaco-editor pre {
+  background-color: unset !important;
+}
+
+.qpyodide-editor-toolbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.qpyodide-editor-toolbar-left-buttons, .qpyodide-editor-toolbar-right-buttons {
+  display: flex;
+}
+
+.qpyodide-non-interactive-loading-container.qpyodide-cell-needs-evaluation, .qpyodide-non-interactive-loading-container.qpyodide-cell-evaluated {
+  justify-content: center;
+  display: flex;
+  background-color: rgba(250, 250, 250, 0.65);
+  border: 1px solid rgba(233, 236, 239, 0.65);
+  border-radius: 0.5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.qpyodide-r-project-logo {
+  color: #2767B0; /* R Project's blue color */
+}
+
+.qpyodide-icon-status-spinner {
+  color: #7894c4;
+}
+
+.qpyodide-icon-run-code {
+  color: #0d9c29
+}
+
+.qpyodide-output-code-stdout {
+  color: #111;
+}
+
+.qpyodide-output-code-stderr {
+  color: #db4133;
+}
+
+.qpyodide-editor {
+  border: 1px solid #EEEEEE;
+}
+
+.qpyodide-editor-toolbar {
+  background-color: #EEEEEE;
+  padding: 0.2rem 0.5rem;
+}
+
+.qpyodide-button {
+  background-color: #EEEEEE;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  border-color: #dee2e6;
+  border: 1px solid rgba(0,0,0,0);
+  padding: 0.375rem 0.75rem;
+  font-size: .9rem;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.qpyodide-button:hover {
+  color: #000;
+  background-color: #d9dce0;
+  border-color: #c8ccd0;
+}
+
+.qpyodide-button:disabled,.qpyodide-button.disabled,fieldset:disabled .qpyodide-button {
+  pointer-events: none;
+  opacity: .65
+}
+
+.qpyodide-button-reset {
+  color: #696969; /*#4682b4;*/
+}
+
+.qpyodide-button-copy {
+  color: #696969;
+}
+
+
+/* Custom styling for RevealJS Presentations*/
+
+/* Reset the style of the interactive area */
+.reveal div.qpyodide-interactive-area {
+  display: block;
+  box-shadow: none;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+} 
+
+/* Provide space to entries */
+.reveal div.qpyodide-output-code-area pre div {
+  margin: 1px 2px 1px 10px;
+}
+
+/* Collapse the inside code tags to avoid extra space between line outputs */
+.reveal pre div code.qpyodide-output-code-stdout, .reveal pre div code.qpyodide-output-code-stderr {
+  padding: 0;
+  display: contents;
+}
+
+.reveal pre div code.qpyodide-output-code-stdout {
+  color: #111;
+}
+
+.reveal pre div code.qpyodide-output-code-stderr {
+  color: #db4133;
+}
+
+
+/* Create a border around console and output (does not effect graphs) */
+.reveal div.qpyodide-console-area {
+  border: 1px solid #EEEEEE;
+  box-shadow: 2px 2px 10px #EEEEEE;
+}
+
+/* Cap output height and allow text to scroll */
+/* TODO: Is there a better way to fit contents/max it parallel to the monaco editor size? */
+.reveal div.qpyodide-output-code-area pre {
+  max-height: 400px;
+  overflow: scroll;
+}
+</style>
+<script type="module">
+// Document level settings ----
+
+// Determine if we need to install python packages
+globalThis.qpyodideInstallPythonPackagesList = [''];
+
+// Check to see if we have an empty array, if we do set to skip the installation.
+globalThis.qpyodideSetupPythonPackages = !(qpyodideInstallPythonPackagesList.indexOf("") !== -1);
+
+// Display a startup message?
+globalThis.qpyodideShowStartupMessage = true;
+
+// Describe the webR settings that should be used
+globalThis.qpyodideCustomizedPyodideOptions = {
+  "indexURL": "https://cdn.jsdelivr.net/pyodide/v0.27.2/full/",
+  "env": {
+    "HOME": "/home/pyodide",
+  }, 
+  stdout: (text) => {qpyodideAddToOutputArray(text, "out");},
+  stderr: (text) => {qpyodideAddToOutputArray(text, "error");}
+}
+
+// Store cell data
+globalThis.qpyodideCellDetails = [{"code":"def celsius_a_fahrenheit(celsius):\n    return (celsius * 9/5) + 32\n\n# Ejemplo de uso\ncelsius = 25\nfahrenheit = celsius_a_fahrenheit(celsius)\nprint(f\"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit\")","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"celsius = # escribir aquí el valor de celsius\nfahrenheit = celsius_a_fahrenheit(celsius)\nprint(f\"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit\")","id":2,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"celsius = 0\nfahrenheit = celsius_a_fahrenheit(celsius)\nprint(f\"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit\")","id":3,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"celsius = # escribir aquí el valor de celsius\nfahrenheit = celsius_a_fahrenheit(celsius)\nprint(f\"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit\")","id":4,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"celsius = -10\nfahrenheit = celsius_a_fahrenheit(celsius)\nprint(f\"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit\")","id":5,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"celsius = # escribir aquí el valor de celsius\nfahrenheit = celsius_a_fahrenheit(celsius)\nprint(f\"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit\")","id":6,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"celsius = 100\nfahrenheit = celsius_a_fahrenheit(celsius)\nprint(f\"{celsius} grados Celsius son {fahrenheit} grados Fahrenheit\")","id":7,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"def calcular_imc(peso, altura):\n    return None  # Reemplaza esto con tu código\n\n# Ejemplo de uso\npeso = 70  # kg\naltura = 1.75  # m\nimc = calcular_imc(peso, altura)\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}\")","id":8,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"peso = # escribir aquí el valor de peso\naltura = # escribir aquí el valor de altura\nimc = calcular_imc(peso, altura)\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}\")","id":9,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"peso = 80  # kg\naltura = 1.80  # m\nimc = calcular_imc(peso, altura)\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}\")","id":10,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"peso = # escribir aquí el valor de peso\naltura = # escribir aquí el valor de altura\nimc = calcular_imc(peso, altura)\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}\")","id":11,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"peso = 60  # kg\naltura = 1.60  # m\nimc = calcular_imc(peso, altura)\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}\")","id":12,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"peso = # escribir aquí el valor de peso\naltura = # escribir aquí el valor de altura\nimc = calcular_imc(peso, altura)\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}\")","id":13,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"peso = 90  # kg\naltura = 1.70  # m\nimc = calcular_imc(peso, altura)\nprint(f\"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {imc:.2f}\")","id":14,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"def verificar_paridad(numero):\n    return None  # Reemplaza esto con tu código\n\n# Ejemplo de uso\nnumero = 7\nresultado = verificar_paridad(numero)\nprint(f\"{numero} es {resultado}\")","id":15,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = # escribir aquí el valor de numero\nresultado = verificar_paridad(numero)\nprint(f\"{numero} es {resultado}\")","id":16,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = 10\nresultado = verificar_paridad(numero)\nprint(f\"{numero} es {resultado}\")","id":17,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = # escribir aquí el valor de numero\nresultado = verificar_paridad(numero)\nprint(f\"{numero} es {resultado}\")","id":18,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = 15\nresultado = verificar_paridad(numero)\nprint(f\"{numero} es {resultado}\")","id":19,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = # escribir aquí el valor de numero\nresultado = verificar_paridad(numero)\nprint(f\"{numero} es {resultado}\")","id":20,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = 22\nresultado = verificar_paridad(numero)\nprint(f\"{numero} es {resultado}\")","id":21,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"def es_bisiesto(anio):\n    return None  # Reemplaza esto con tu código\n\n# Ejemplo de uso\nanio = 2024\nresultado = es_bisiesto(anio)\nprint(f\"{anio} es {resultado}\")","id":22,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"anio = # escribir aquí el valor de anio\nresultado = es_bisiesto(anio)\nprint(f\"{anio} es {resultado}\")","id":23,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"anio = 2025\nresultado = es_bisiesto(anio)\nprint(f\"{anio} es {resultado}\")","id":24,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"anio = # escribir aquí el valor de anio\nresultado = es_bisiesto(anio)\nprint(f\"{anio} es {resultado}\")","id":25,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"anio = 1900\nresultado = es_bisiesto(anio)\nprint(f\"{anio} es {resultado}\")","id":26,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"anio = # escribir aquí el valor de anio\nresultado = es_bisiesto(anio)\nprint(f\"{anio} es {resultado}\")","id":27,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"anio = 2000\nresultado = es_bisiesto(anio)\nprint(f\"{anio} es {resultado}\")","id":28,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"def calculadora(operacion, num1, num2):\n    return None  # Reemplaza esto con tu código\n\n# Ejemplo de uso\noperacion = '+'\nnum1 = 10\nnum2 = 5\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":29,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"operacion = '+'\nnum1 = # escribir aquí el valor de num1\nnum2 = # escribir aquí el valor de num2\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":30,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"operacion = '+'\nnum1 = 10\nnum2 = 5\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":31,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"operacion = '-'\nnum1 = # escribir aquí el valor de num1\nnum2 = # escribir aquí el valor de num2\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":32,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"operacion = '-'\nnum1 = 20\nnum2 = 10\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":33,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"operacion = '*'\nnum1 = # escribir aquí el valor de num1\nnum2 = # escribir aquí el valor de num2\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":34,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"operacion = '*'\nnum1 = 3\nnum2 = 4\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":35,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"operacion = '/'\nnum1 = # escribir aquí el valor de num1\nnum2 = # escribir aquí el valor de num2\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":36,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"operacion = '/'\nnum1 = 10\nnum2 = 2\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":37,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"operacion = '/'\nnum1 = # escribir aquí el valor de num1\nnum2 = # escribir aquí el valor de num2\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":38,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"operacion = '/'\nnum1 = 10\nnum2 = 0\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":39,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"operacion = '+-'\nnum1 = # escribir aquí el valor de num1\nnum2 = # escribir aquí el valor de num2\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":40,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"operacion = '+-'\nnum1 = 5\nnum2 = 7\nresultado = calculadora(operacion, num1, num2)\nprint(f\"Para la operación {num1} {operacion} {num2} ... {resultado}\")","id":41,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"def es_primo(n):\n    return None  # Reemplaza esto con tu código\n\n# Ejemplo de uso\nnumero = 29\nresultado = es_primo(numero)\nprint(f\"{numero} es {resultado}\")","id":42,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = # escribir aquí el valor de numero\nresultado = es_primo(numero)\nprint(f\"{numero} es {resultado}\")","id":43,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = 39\nresultado = es_primo(numero)\nprint(f\"{numero} es {resultado}\")","id":44,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = # escribir aquí el valor de numero\nresultado = es_primo(numero)\nprint(f\"{numero} es {resultado}\")","id":45,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = 15\nresultado = es_primo(numero)\nprint(f\"{numero} es {resultado}\")","id":46,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = # escribir aquí el valor de numero\nresultado = es_primo(numero)\nprint(f\"{numero} es {resultado}\")","id":47,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = 2\nresultado = es_primo(numero)\nprint(f\"{numero} es {resultado}\")","id":48,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = # escribir aquí el valor de numero\nresultado = es_primo(numero)\nprint(f\"{numero} es {resultado}\")","id":49,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = 17\nresultado = es_primo(numero)\nprint(f\"{numero} es {resultado}\")","id":50,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"def conjetura_de_collatz(n):\n    return None  # Reemplaza esto con tu código\n\n# Ejemplo de uso\nnumero = 6\nsecuencia = \" -> \".join(map(str, conjetura_de_collatz(numero)))\nprint(f\"La secuencia de Collatz para {numero} es: {secuencia}\")","id":51,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = # escribir aquí el valor de numero\nsecuencia = \" -> \".join(map(str, conjetura_de_collatz(numero)))\nprint(f\"La secuencia de Collatz para {numero} es: {secuencia}\")","id":52,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = 5\nsecuencia = \" -> \".join(map(str, conjetura_de_collatz(numero)))\nprint(f\"La secuencia de Collatz para {numero} es: {secuencia}\")","id":53,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = # escribir aquí el valor de numero\nsecuencia = \" -> \".join(map(str, conjetura_de_collatz(numero)))\nprint(f\"La secuencia de Collatz para {numero} es: {secuencia}\")","id":54,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = 7\nsecuencia = \" -> \".join(map(str, conjetura_de_collatz(numero)))\nprint(f\"La secuencia de Collatz para {numero} es: {secuencia}\")","id":55,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = # escribir aquí el valor de numero\nsecuencia = \" -> \".join(map(str, conjetura_de_collatz(numero)))\nprint(f\"La secuencia de Collatz para {numero} es: {secuencia}\")","id":56,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = 15\nsecuencia = \" -> \".join(map(str, conjetura_de_collatz(numero)))\nprint(f\"La secuencia de Collatz para {numero} es: {secuencia}\")","id":57,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = # escribir aquí el valor de numero\nsecuencia = \" -> \".join(map(str, conjetura_de_collatz(numero)))\nprint(f\"La secuencia de Collatz para {numero} es: {secuencia}\")","id":58,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"numero = 27\nsecuencia = \" -> \".join(map(str, conjetura_de_collatz(numero)))\nprint(f\"La secuencia de Collatz para {numero} es: {secuencia}\")","id":59,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+
+
+</script>
+<script type="module">
+// Declare startupMessageqpyodide globally
+globalThis.qpyodideStartupMessage = document.createElement("p");
+
+// Function to set the button text
+globalThis.qpyodideSetInteractiveButtonState = function(buttonText, enableCodeButton = true) {
+  document.querySelectorAll(".qpyodide-button-run").forEach((btn) => {
+    btn.innerHTML = buttonText;
+    btn.disabled = !enableCodeButton;
+  });
+}
+
+// Function to update the status message in non-interactive cells
+globalThis.qpyodideUpdateStatusMessage = function(message) {
+  document.querySelectorAll(".qpyodide-status-text.qpyodide-cell-needs-evaluation").forEach((elem) => {
+    elem.innerText = message;
+  });
+}
+
+// Function to update the status message
+globalThis.qpyodideUpdateStatusHeader = function(message) {
+
+  if (!qpyodideShowStartupMessage) return;
+
+  qpyodideStartupMessage.innerHTML = message;
+}
+
+// Status header update with customized spinner message
+globalThis.qpyodideUpdateStatusHeaderSpinner = function(message) {
+
+  qpyodideUpdateStatusHeader(`
+    <i class="fa-solid fa-spinner fa-spin qpyodide-icon-status-spinner"></i>
+    <span>${message}</span>
+  `);
+}
+
+
+// Function that attaches the document status message
+function qpyodideDisplayStartupMessage(showStartupMessage) {
+  if (!showStartupMessage) {
+    return;
+  }
+
+  // Get references to header elements
+  const headerHTML = document.getElementById("title-block-header");
+  const headerRevealJS = document.getElementById("title-slide");
+
+  // Create the outermost div element for metadata
+  const quartoTitleMeta = document.createElement("div");
+  quartoTitleMeta.classList.add("quarto-title-meta");
+
+  // Create the first inner div element
+  const firstInnerDiv = document.createElement("div");
+  firstInnerDiv.setAttribute("id", "qpyodide-status-message-area");
+
+  // Create the second inner div element for "Pyodide Status" heading and contents
+  const secondInnerDiv = document.createElement("div");
+  secondInnerDiv.setAttribute("id", "qpyodide-status-message-title");
+  secondInnerDiv.classList.add("quarto-title-meta-heading");
+  secondInnerDiv.innerText = "Pyodide Status";
+
+  // Create another inner div for contents
+  const secondInnerDivContents = document.createElement("div");
+  secondInnerDivContents.setAttribute("id", "qpyodide-status-message-body");
+  secondInnerDivContents.classList.add("quarto-title-meta-contents");
+
+  // Describe the Pyodide state
+  qpyodideStartupMessage.innerText = "🟡 Loading...";
+  qpyodideStartupMessage.setAttribute("id", "qpyodide-status-message-text");
+  // Add `aria-live` to auto-announce the startup status to screen readers
+  qpyodideStartupMessage.setAttribute("aria-live", "assertive");
+
+  // Append the startup message to the contents
+  secondInnerDivContents.appendChild(qpyodideStartupMessage);
+
+  // Combine the inner divs and contents
+  firstInnerDiv.appendChild(secondInnerDiv);
+  firstInnerDiv.appendChild(secondInnerDivContents);
+  quartoTitleMeta.appendChild(firstInnerDiv);
+
+  // Determine where to insert the quartoTitleMeta element
+  if (headerHTML || headerRevealJS) {
+    // Append to the existing "title-block-header" element or "title-slide" div
+    (headerHTML || headerRevealJS).appendChild(quartoTitleMeta);
+  } else {
+    // If neither headerHTML nor headerRevealJS is found, insert after "Pyodide-monaco-editor-init" script
+    const monacoScript = document.getElementById("qpyodide-monaco-editor-init");
+    const header = document.createElement("header");
+    header.setAttribute("id", "title-block-header");
+    header.appendChild(quartoTitleMeta);
+    monacoScript.after(header);
+  }
+}
+
+qpyodideDisplayStartupMessage(qpyodideShowStartupMessage);
+</script>
+<script type="module">
+// Create a logging setup
+globalThis.qpyodideMessageArray = []
+
+// Add messages to array
+globalThis.qpyodideAddToOutputArray = function(message, type) {
+  qpyodideMessageArray.push({ message, type });
+}
+
+// Function to reset the output array
+globalThis.qpyodideResetOutputArray = function() {
+  qpyodideMessageArray = [];
+}
+
+globalThis.qpyodideRetrieveOutput = function() {
+  return qpyodideMessageArray.map(entry => entry.message).join('\n');
+}
+
+// Start a timer
+const initializePyodideTimerStart = performance.now();
+
+// Encase with a dynamic import statement
+globalThis.qpyodideInstance = await import(
+  qpyodideCustomizedPyodideOptions.indexURL + "pyodide.mjs").then(
+   async({ loadPyodide }) => {
+
+    console.log("Start loading Pyodide");
+    
+    // Populate Pyodide options with defaults or new values based on `pyodide`` meta
+    let mainPyodide = await loadPyodide(
+      qpyodideCustomizedPyodideOptions
+    );
+    
+    // Setup a namespace for global scoping
+    // await loadedPyodide.runPythonAsync("globalScope = {}"); 
+    
+    // Update status to reflect the next stage of the procedure
+    qpyodideUpdateStatusHeaderSpinner("Initializing Python Packages");
+
+    // Load the `micropip` package to allow installation of packages.
+    await mainPyodide.loadPackage("micropip");
+    await mainPyodide.runPythonAsync(`import micropip`);
+
+    // Load the `pyodide_http` package to shim uses of `requests` and `urllib3`.
+    // This allows for `pd.read_csv(url)` to work flawlessly.
+    // Details: https://github.com/coatless-quarto/pyodide/issues/9
+    await mainPyodide.loadPackage("pyodide_http");
+    await mainPyodide.runPythonAsync(`
+    import pyodide_http
+    pyodide_http.patch_all()  # Patch all libraries
+    `);
+
+    // Load the `matplotlib` package with necessary environment hook
+    await mainPyodide.loadPackage("matplotlib");
+
+    // Set the backend for matplotlib to be interactive.
+    await mainPyodide.runPythonAsync(`
+    import matplotlib
+    matplotlib.use("module://matplotlib_pyodide.html5_canvas_backend")
+    from matplotlib import pyplot as plt
+    `);
+
+    // Unlock interactive buttons
+    qpyodideSetInteractiveButtonState(
+      `<i class="fa-solid fa-play qpyodide-icon-run-code"></i> <span>Run Code</span>`, 
+      true
+    );
+
+    // Set document status to viable
+    qpyodideUpdateStatusHeader(
+      "🟢 Ready!"
+    );
+
+    // Assign Pyodide into the global environment
+    globalThis.mainPyodide = mainPyodide;
+
+    console.log("Completed loading Pyodide");
+    return mainPyodide;
+  }
+);
+
+// Stop timer
+const initializePyodideTimerEnd = performance.now();
+
+// Create a function to retrieve the promise object.
+globalThis._qpyodideGetInstance = function() {
+    return qpyodideInstance;
+}
+
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/doberman.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Seth&amp;Nut</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Seth-Nut"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/Seth-Nut/"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://seth-nut.github.io/website/"> <i class="bi bi-globe" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#conversión-de-temperatura" id="toc-conversión-de-temperatura" class="nav-link active" data-scroll-target="#conversión-de-temperatura">🌡️ Conversión de Temperatura</a>
+  <ul class="collapse">
+  <li><a href="#contexto" id="toc-contexto" class="nav-link" data-scroll-target="#contexto">Contexto</a></li>
+  <li><a href="#fórmula-de-conversión" id="toc-fórmula-de-conversión" class="nav-link" data-scroll-target="#fórmula-de-conversión">Fórmula de Conversión</a></li>
+  <li><a href="#objetivos-del-ejercicio" id="toc-objetivos-del-ejercicio" class="nav-link" data-scroll-target="#objetivos-del-ejercicio">Objetivos del Ejercicio</a></li>
+  <li><a href="#código-para-conversión-de-temperatura" id="toc-código-para-conversión-de-temperatura" class="nav-link" data-scroll-target="#código-para-conversión-de-temperatura">Código para Conversión de Temperatura</a></li>
+  <li><a href="#explicación-del-código" id="toc-explicación-del-código" class="nav-link" data-scroll-target="#explicación-del-código">Explicación del Código</a></li>
+  <li><a href="#ejemplo-de-uso" id="toc-ejemplo-de-uso" class="nav-link" data-scroll-target="#ejemplo-de-uso">Ejemplo de Uso</a></li>
+  <li><a href="#prueba-y-modificación" id="toc-prueba-y-modificación" class="nav-link" data-scroll-target="#prueba-y-modificación">Prueba y Modificación</a></li>
+  </ul></li>
+  <li><a href="#cálculo-del-índice-de-masa-corporal-imc" id="toc-cálculo-del-índice-de-masa-corporal-imc" class="nav-link" data-scroll-target="#cálculo-del-índice-de-masa-corporal-imc">🏋️‍♂️ Cálculo del Índice de Masa Corporal (IMC)</a>
+  <ul class="collapse">
+  <li><a href="#contexto-1" id="toc-contexto-1" class="nav-link" data-scroll-target="#contexto-1">Contexto</a></li>
+  <li><a href="#objetivos-del-ejercicio-1" id="toc-objetivos-del-ejercicio-1" class="nav-link" data-scroll-target="#objetivos-del-ejercicio-1">Objetivos del Ejercicio</a></li>
+  <li><a href="#código-para-el-cálculo-del-imc" id="toc-código-para-el-cálculo-del-imc" class="nav-link" data-scroll-target="#código-para-el-cálculo-del-imc">Código para el Cálculo del IMC</a></li>
+  <li><a href="#explicación-del-código-1" id="toc-explicación-del-código-1" class="nav-link" data-scroll-target="#explicación-del-código-1">Explicación del Código</a></li>
+  <li><a href="#ejemplo-de-uso-1" id="toc-ejemplo-de-uso-1" class="nav-link" data-scroll-target="#ejemplo-de-uso-1">Ejemplo de Uso</a></li>
+  <li><a href="#prueba-y-modificación-1" id="toc-prueba-y-modificación-1" class="nav-link" data-scroll-target="#prueba-y-modificación-1">Prueba y Modificación</a></li>
+  </ul></li>
+  <li><a href="#verificación-de-números-pares-e-impares" id="toc-verificación-de-números-pares-e-impares" class="nav-link" data-scroll-target="#verificación-de-números-pares-e-impares">2️⃣ Verificación de Números Pares e Impares</a>
+  <ul class="collapse">
+  <li><a href="#contexto-2" id="toc-contexto-2" class="nav-link" data-scroll-target="#contexto-2">Contexto</a></li>
+  <li><a href="#objetivos-del-ejercicio-2" id="toc-objetivos-del-ejercicio-2" class="nav-link" data-scroll-target="#objetivos-del-ejercicio-2">Objetivos del Ejercicio</a></li>
+  <li><a href="#código-para-la-verificación-de-números-pares-e-impares" id="toc-código-para-la-verificación-de-números-pares-e-impares" class="nav-link" data-scroll-target="#código-para-la-verificación-de-números-pares-e-impares">Código para la Verificación de Números Pares e Impares</a></li>
+  <li><a href="#explicación-del-código-2" id="toc-explicación-del-código-2" class="nav-link" data-scroll-target="#explicación-del-código-2">Explicación del Código</a></li>
+  <li><a href="#ejemplo-de-uso-2" id="toc-ejemplo-de-uso-2" class="nav-link" data-scroll-target="#ejemplo-de-uso-2">Ejemplo de Uso</a></li>
+  <li><a href="#prueba-y-modificación-2" id="toc-prueba-y-modificación-2" class="nav-link" data-scroll-target="#prueba-y-modificación-2">Prueba y Modificación</a></li>
+  </ul></li>
+  <li><a href="#ejercicio-7" id="toc-ejercicio-7" class="nav-link" data-scroll-target="#ejercicio-7">Ejercicio</a></li>
+  <li><a href="#solución-7" id="toc-solución-7" class="nav-link" data-scroll-target="#solución-7">Solución</a></li>
+  <li><a href="#verificación-de-año-bisiesto" id="toc-verificación-de-año-bisiesto" class="nav-link" data-scroll-target="#verificación-de-año-bisiesto">📅 Verificación de Año Bisiesto</a>
+  <ul class="collapse">
+  <li><a href="#contexto-3" id="toc-contexto-3" class="nav-link" data-scroll-target="#contexto-3">Contexto</a></li>
+  <li><a href="#objetivos-del-ejercicio-3" id="toc-objetivos-del-ejercicio-3" class="nav-link" data-scroll-target="#objetivos-del-ejercicio-3">Objetivos del Ejercicio</a></li>
+  <li><a href="#código-para-verificación-de-año-bisiesto" id="toc-código-para-verificación-de-año-bisiesto" class="nav-link" data-scroll-target="#código-para-verificación-de-año-bisiesto">Código para Verificación de Año Bisiesto</a></li>
+  <li><a href="#explicación-del-código-3" id="toc-explicación-del-código-3" class="nav-link" data-scroll-target="#explicación-del-código-3">Explicación del Código</a></li>
+  <li><a href="#ejemplo-de-uso-3" id="toc-ejemplo-de-uso-3" class="nav-link" data-scroll-target="#ejemplo-de-uso-3">Ejemplo de Uso</a></li>
+  <li><a href="#prueba-y-modificación-3" id="toc-prueba-y-modificación-3" class="nav-link" data-scroll-target="#prueba-y-modificación-3">Prueba y Modificación</a></li>
+  </ul></li>
+  <li><a href="#calculadora-básica" id="toc-calculadora-básica" class="nav-link" data-scroll-target="#calculadora-básica">🧮 Calculadora Básica</a>
+  <ul class="collapse">
+  <li><a href="#contexto-4" id="toc-contexto-4" class="nav-link" data-scroll-target="#contexto-4">Contexto</a></li>
+  <li><a href="#objetivos-del-ejercicio-4" id="toc-objetivos-del-ejercicio-4" class="nav-link" data-scroll-target="#objetivos-del-ejercicio-4">Objetivos del Ejercicio</a></li>
+  <li><a href="#código-de-la-calculadora" id="toc-código-de-la-calculadora" class="nav-link" data-scroll-target="#código-de-la-calculadora">Código de la Calculadora</a></li>
+  <li><a href="#explicación-del-código-4" id="toc-explicación-del-código-4" class="nav-link" data-scroll-target="#explicación-del-código-4">Explicación del Código</a></li>
+  <li><a href="#ejemplo-de-uso-4" id="toc-ejemplo-de-uso-4" class="nav-link" data-scroll-target="#ejemplo-de-uso-4">Ejemplo de Uso</a></li>
+  <li><a href="#prueba-y-modificación-4" id="toc-prueba-y-modificación-4" class="nav-link" data-scroll-target="#prueba-y-modificación-4">Prueba y Modificación</a></li>
+  </ul></li>
+  <li><a href="#número-primo" id="toc-número-primo" class="nav-link" data-scroll-target="#número-primo">🔢 Número Primo</a>
+  <ul class="collapse">
+  <li><a href="#contexto-5" id="toc-contexto-5" class="nav-link" data-scroll-target="#contexto-5">Contexto</a></li>
+  <li><a href="#objetivos-del-ejercicio-5" id="toc-objetivos-del-ejercicio-5" class="nav-link" data-scroll-target="#objetivos-del-ejercicio-5">Objetivos del Ejercicio</a></li>
+  <li><a href="#código-para-verificación-de-número-primo" id="toc-código-para-verificación-de-número-primo" class="nav-link" data-scroll-target="#código-para-verificación-de-número-primo">Código para Verificación de Número Primo</a></li>
+  <li><a href="#explicación-del-código-5" id="toc-explicación-del-código-5" class="nav-link" data-scroll-target="#explicación-del-código-5">Explicación del Código</a></li>
+  <li><a href="#ejemplo-de-uso-5" id="toc-ejemplo-de-uso-5" class="nav-link" data-scroll-target="#ejemplo-de-uso-5">Ejemplo de Uso</a></li>
+  <li><a href="#prueba-y-modificación-5" id="toc-prueba-y-modificación-5" class="nav-link" data-scroll-target="#prueba-y-modificación-5">Prueba y Modificación</a></li>
+  </ul></li>
+  <li><a href="#conjetura-de-collatz" id="toc-conjetura-de-collatz" class="nav-link" data-scroll-target="#conjetura-de-collatz">📜 Conjetura de Collatz</a>
+  <ul class="collapse">
+  <li><a href="#contexto-6" id="toc-contexto-6" class="nav-link" data-scroll-target="#contexto-6">Contexto</a></li>
+  <li><a href="#objetivos-del-ejercicio-6" id="toc-objetivos-del-ejercicio-6" class="nav-link" data-scroll-target="#objetivos-del-ejercicio-6">Objetivos del Ejercicio</a></li>
+  <li><a href="#código-para-la-conjetura-de-collatz" id="toc-código-para-la-conjetura-de-collatz" class="nav-link" data-scroll-target="#código-para-la-conjetura-de-collatz">Código para la Conjetura de Collatz</a></li>
+  <li><a href="#explicación-del-código-6" id="toc-explicación-del-código-6" class="nav-link" data-scroll-target="#explicación-del-código-6">Explicación del Código</a></li>
+  <li><a href="#ejemplo-de-uso-6" id="toc-ejemplo-de-uso-6" class="nav-link" data-scroll-target="#ejemplo-de-uso-6">Ejemplo de Uso</a></li>
+  <li><a href="#prueba-y-modificación-6" id="toc-prueba-y-modificación-6" class="nav-link" data-scroll-target="#prueba-y-modificación-6">Prueba y Modificación</a></li>
+  </ul></li>
+  <li><a href="#conclusiones" id="toc-conclusiones" class="nav-link" data-scroll-target="#conclusiones">Conclusiones</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/loader.js"></script>
+<script type="module" id="qpyodide-monaco-editor-init">
+
+  // Configure the Monaco Editor's loader
+  require.config({
+    paths: {
+      'vs': 'https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs'
+    }
+  });
+</script>
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Matemáticas Divertidas</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<center>
+<img src="images/math.png" width="500">
+</center>
+<p><br></p>
+<p>En este capítulo, vamos a explorar cómo podemos utilizar Python para hacer las matemáticas más divertidas y accesibles. Con Python, no solo podemos resolver problemas matemáticos, sino también crear simulaciones, visualizar datos y entender conceptos complejos de una manera más interactiva.</p>
+<p>🎯 <strong>Objetivos del capítulo</strong></p>
+<p>Explorar cómo la inteligencia artificial puede apoyar la resolución de problemas matemáticos utilizando programación en Python. A través de ejemplos prácticos, aprenderemos a combinar lógica matemática con herramientas de IA para analizar, resolver y visualizar problemas de manera innovadora y eficiente.</p>
+<section id="conversión-de-temperatura" class="level2">
+<h2 class="anchored" data-anchor-id="conversión-de-temperatura">🌡️ Conversión de Temperatura</h2>
+<p>Un programa para convertir grados Celsius a Fahrenheit. Este ejercicio es ideal para practicar operaciones matemáticas básicas y el uso de funciones en Python.</p>
+<section id="contexto" class="level3">
+<h3 class="anchored" data-anchor-id="contexto">Contexto</h3>
+<p>La conversión de temperatura es una operación común en muchos campos científicos, desde la meteorología hasta la física y la química. Conocer cómo convertir entre diferentes unidades de temperatura es esencial en muchas aplicaciones. En este ejercicio, utilizaremos la fórmula de conversión para transformar una temperatura dada en grados Celsius a su equivalente en grados Fahrenheit.</p>
+</section>
+<section id="fórmula-de-conversión" class="level3">
+<h3 class="anchored" data-anchor-id="fórmula-de-conversión">Fórmula de Conversión</h3>
+<p>La fórmula para convertir grados Celsius a Fahrenheit es:</p>
+<p><span class="math display">\[ \text{Fahrenheit} = \left( \text{Celsius} \times \frac{9}{5} \right) + 32 \]</span></p>
+</section>
+<section id="objetivos-del-ejercicio" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-del-ejercicio">Objetivos del Ejercicio</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es escribir una función en Python que convierta grados Celsius a Fahrenheit y pruebe la función con un ejemplo.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Definir una función</strong>: Crearemos una función llamada <code>celsius_a_fahrenheit</code> que tome un parámetro: la temperatura en grados Celsius (<code>celsius</code>).</li>
+<li><strong>Implementar la conversión</strong>: Usaremos la fórmula de conversión para calcular la temperatura en grados Fahrenheit.</li>
+<li><strong>Probar la función</strong>: Probaremos la función con un valor de ejemplo y mostraremos el resultado.</li>
+</ol>
+</section>
+<section id="código-para-conversión-de-temperatura" class="level3">
+<h3 class="anchored" data-anchor-id="código-para-conversión-de-temperatura">Código para Conversión de Temperatura</h3>
+<div id="qpyodide-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="explicación-del-código" class="level3">
+<h3 class="anchored" data-anchor-id="explicación-del-código">Explicación del Código</h3>
+<ol type="1">
+<li><strong>Parámetro de Entrada</strong>:
+<ul>
+<li><code>celsius</code>: Un número que representa la temperatura en grados Celsius.</li>
+</ul></li>
+<li><strong>Fórmula de Conversión</strong>:
+<ul>
+<li>La función utiliza la fórmula <span class="math inline">\((celsius \times \frac{9}{5}) + 32\)</span> para convertir la temperatura a grados Fahrenheit y devuelve el resultado.</li>
+</ul></li>
+</ol>
+</section>
+<section id="ejemplo-de-uso" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-de-uso">Ejemplo de Uso</h3>
+<p>El código de ejemplo muestra cómo usar la función <code>celsius_a_fahrenheit</code> con un valor de temperatura de ejemplo (25 grados Celsius). Al ejecutar este ejemplo, se imprimirá <code>25 grados Celsius son 77.0 grados Fahrenheit</code>.</p>
+</section>
+<section id="prueba-y-modificación" class="level3">
+<h3 class="anchored" data-anchor-id="prueba-y-modificación">Prueba y Modificación</h3>
+<p>Los estudiantes pueden modificar los valores de <code>celsius</code> para probar diferentes temperaturas y explorar cómo funciona la función. A continuación, se presentan tres ejercicios de ejemplo:</p>
+<p><strong>Ejercicio 1: Convertir 0 Grados Celsius a Fahrenheit</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div id="qpyodide-insertion-location-2"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div id="qpyodide-insertion-location-3"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 2: Convertir -10 Grados Celsius a Fahrenheit</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<div id="qpyodide-insertion-location-4"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<div id="qpyodide-insertion-location-5"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 3: Convertir 100 Grados Celsius a Fahrenheit</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<div id="qpyodide-insertion-location-6"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<div id="qpyodide-insertion-location-7"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="cálculo-del-índice-de-masa-corporal-imc" class="level2">
+<h2 class="anchored" data-anchor-id="cálculo-del-índice-de-masa-corporal-imc">🏋️‍♂️ Cálculo del Índice de Masa Corporal (IMC)</h2>
+<p>Un programa para calcular el IMC de una persona. Este ejercicio es útil para practicar operaciones matemáticas y el uso de funciones en Python.</p>
+<section id="contexto-1" class="level3">
+<h3 class="anchored" data-anchor-id="contexto-1">Contexto</h3>
+<p>El Índice de Masa Corporal (IMC) es una medida de la grasa corporal basada en la altura y el peso de una persona. La fórmula para calcular el IMC es:</p>
+<p><span class="math display">\[ \text{IMC} = \frac{\text{peso}}{\text{altura}^2} \]</span></p>
+</section>
+<section id="objetivos-del-ejercicio-1" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-del-ejercicio-1">Objetivos del Ejercicio</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es escribir una función en Python que calcule el IMC de una persona y pruebe la función con un ejemplo.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Definir una función</strong>: Crearemos una función llamada <code>calcular_imc</code> que tome dos parámetros: el peso (<code>peso</code>) y la altura (<code>altura</code>).</li>
+<li><strong>Implementar el cálculo</strong>: Usaremos la fórmula del IMC para calcular el índice y devolver el resultado.</li>
+<li><strong>Probar la función</strong>: Probaremos la función con valores de ejemplo y mostraremos el resultado.</li>
+</ol>
+</section>
+<section id="código-para-el-cálculo-del-imc" class="level3">
+<h3 class="anchored" data-anchor-id="código-para-el-cálculo-del-imc">Código para el Cálculo del IMC</h3>
+<div id="qpyodide-insertion-location-8"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="explicación-del-código-1" class="level3">
+<h3 class="anchored" data-anchor-id="explicación-del-código-1">Explicación del Código</h3>
+<ol type="1">
+<li><strong>Parámetros de Entrada</strong>:
+<ul>
+<li><code>peso</code>: Un número que representa el peso de la persona en kilogramos.</li>
+<li><code>altura</code>: Un número que representa la altura de la persona en metros.</li>
+</ul></li>
+<li><strong>Fórmula del IMC</strong>:
+<ul>
+<li>La función utiliza la fórmula <span class="math inline">\(\frac{peso}{altura^2}\)</span> para calcular el IMC y devuelve el resultado.</li>
+</ul></li>
+</ol>
+</section>
+<section id="ejemplo-de-uso-1" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-de-uso-1">Ejemplo de Uso</h3>
+<p>El código de ejemplo muestra cómo usar la función <code>calcular_imc</code> con valores de ejemplo (70 kg de peso y 1.75 m de altura). Al ejecutar este ejemplo, se imprimirá <code>Para un peso de 70 kg y una altura de 1.75 m, el IMC es 22.86</code>.</p>
+</section>
+<section id="prueba-y-modificación-1" class="level3">
+<h3 class="anchored" data-anchor-id="prueba-y-modificación-1">Prueba y Modificación</h3>
+<p>Los estudiantes pueden modificar los valores de <code>peso</code> y <code>altura</code> para probar diferentes combinaciones y explorar cómo funciona la función. A continuación, se presentan tres ejercicios de ejemplo:</p>
+<p><strong>Ejercicio 1: Calcular el IMC para un peso de 80 kg y una altura de 1.80 m</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<div id="qpyodide-insertion-location-9"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<div id="qpyodide-insertion-location-10"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 2: Calcular el IMC para un peso de 60 kg y una altura de 1.60 m</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<div id="qpyodide-insertion-location-11"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<div id="qpyodide-insertion-location-12"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 3: Calcular el IMC para un peso de 90 kg y una altura de 1.70 m</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-6-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-6-1-tab">
+<div id="qpyodide-insertion-location-13"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-6-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-2-tab">
+<div id="qpyodide-insertion-location-14"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="verificación-de-números-pares-e-impares" class="level2">
+<h2 class="anchored" data-anchor-id="verificación-de-números-pares-e-impares">2️⃣ Verificación de Números Pares e Impares</h2>
+<p>Un programa para verificar si un número es par o impar. Este ejercicio es útil para practicar operaciones matemáticas y el uso de funciones en Python.</p>
+<section id="contexto-2" class="level3">
+<h3 class="anchored" data-anchor-id="contexto-2">Contexto</h3>
+<p>Un número es considerado par si es divisible por 2, y es impar si no lo es. La condición para verificar esto se puede expresar como:</p>
+<p><span class="math display">\[
+\text{Número es par} \iff \text{Número} \% 2 = 0
+\]</span></p>
+</section>
+<section id="objetivos-del-ejercicio-2" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-del-ejercicio-2">Objetivos del Ejercicio</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es escribir una función en Python que determine si un número es par o impar y probar la función con ejemplos.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Definir una función</strong>: Crearemos una función llamada <code>verificar_paridad</code> que tome un parámetro: el número (<code>numero</code>).</li>
+<li><strong>Implementar la verificación</strong>: Usaremos el operador módulo (<code>%</code>) para verificar si el número es par o impar y mostrar el resultado correspondiente.</li>
+<li><strong>Probar la función</strong>: Probaremos la función con varios números y mostraremos los resultados.</li>
+</ol>
+</section>
+<section id="código-para-la-verificación-de-números-pares-e-impares" class="level3">
+<h3 class="anchored" data-anchor-id="código-para-la-verificación-de-números-pares-e-impares">Código para la Verificación de Números Pares e Impares</h3>
+<div id="qpyodide-insertion-location-15"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="explicación-del-código-2" class="level3">
+<h3 class="anchored" data-anchor-id="explicación-del-código-2">Explicación del Código</h3>
+<ol type="1">
+<li><strong>Parámetro de Entrada</strong>:
+<ul>
+<li><code>numero</code>: Un número entero que se desea verificar.</li>
+</ul></li>
+<li><strong>Verificación de Paridad</strong>:
+<ul>
+<li>La función utiliza el operador módulo <code>%</code> para determinar si el número es divisible por 2. Si es par, se imprime un mensaje indicando que el número es par; de lo contrario, se imprime que es impar.</li>
+</ul></li>
+</ol>
+</section>
+<section id="ejemplo-de-uso-2" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-de-uso-2">Ejemplo de Uso</h3>
+<p>El código de ejemplo muestra cómo usar la función <code>verificar_paridad</code> con el número 7. Al ejecutar este ejemplo, se imprimirá <code>El número 7 es impar.</code>.</p>
+</section>
+<section id="prueba-y-modificación-2" class="level3">
+<h3 class="anchored" data-anchor-id="prueba-y-modificación-2">Prueba y Modificación</h3>
+<p>Los estudiantes pueden modificar el valor de <code>numero</code> para probar si es par o impar y explorar cómo funciona la función. A continuación, se presentan tres ejercicios de ejemplo:</p>
+<p><strong>Ejercicio 1: Verificar la paridad de 10</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-7-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-1" role="tab" aria-controls="tabset-7-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-7-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-2" role="tab" aria-controls="tabset-7-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-7-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-7-1-tab">
+<div id="qpyodide-insertion-location-16"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-7-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-7-2-tab">
+<div id="qpyodide-insertion-location-17"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 2: Verificar la paridad de 15</strong> ::: {.panel-tabset}</p>
+</section>
+</section>
+<section id="ejercicio-7" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-7">Ejercicio</h2>
+<div id="qpyodide-insertion-location-18"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="solución-7" class="level2">
+<h2 class="anchored" data-anchor-id="solución-7">Solución</h2>
+<div id="qpyodide-insertion-location-19"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>:::</p>
+<p><strong>Ejercicio 3: Verificar la paridad de 22</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-8-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-1" role="tab" aria-controls="tabset-8-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-8-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-2" role="tab" aria-controls="tabset-8-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-8-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-8-1-tab">
+<div id="qpyodide-insertion-location-20"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-8-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-8-2-tab">
+<div id="qpyodide-insertion-location-21"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+</section>
+<section id="verificación-de-año-bisiesto" class="level2">
+<h2 class="anchored" data-anchor-id="verificación-de-año-bisiesto">📅 Verificación de Año Bisiesto</h2>
+<p>En este ejercicio, vamos a crear un programa que determine si un año es <a href="https://es.wikipedia.org/wiki/A%C3%B1o_bisiesto">bisiesto</a>. Este ejercicio es excelente para practicar el uso de operadores lógicos y condicionales en Python.</p>
+<section id="contexto-3" class="level3">
+<h3 class="anchored" data-anchor-id="contexto-3">Contexto</h3>
+<p>Un año bisiesto es un año que tiene 366 días en lugar de los 365 días habituales. Este día adicional se añade en febrero, que tiene 29 días en lugar de 28. Las reglas para determinar si un año es bisiesto son las siguientes:</p>
+<ol type="1">
+<li>Un año es bisiesto si es divisible por 4.</li>
+<li>Sin embargo, si el año es divisible por 100, no es un año bisiesto a menos que también sea divisible por 400.</li>
+</ol>
+</section>
+<section id="objetivos-del-ejercicio-3" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-del-ejercicio-3">Objetivos del Ejercicio</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es escribir una función en Python que determine si un año es bisiesto o no, utilizando las reglas mencionadas anteriormente.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Definir una función</strong>: Crearemos una función llamada <code>es_bisiesto</code> que tome un parámetro: el año (<code>anio</code>) a verificar.</li>
+<li><strong>Implementar la lógica</strong>: Usaremos operadores lógicos (<code>and</code>, <code>or</code>) y estructuras condicionales (<code>if</code>, <code>else</code>) para determinar si el año es bisiesto.</li>
+<li><strong>Probar la función</strong>: Probaremos la función con diferentes años para asegurarnos de que funcione correctamente.</li>
+</ol>
+</section>
+<section id="código-para-verificación-de-año-bisiesto" class="level3">
+<h3 class="anchored" data-anchor-id="código-para-verificación-de-año-bisiesto">Código para Verificación de Año Bisiesto</h3>
+<div id="qpyodide-insertion-location-22"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="explicación-del-código-3" class="level3">
+<h3 class="anchored" data-anchor-id="explicación-del-código-3">Explicación del Código</h3>
+<p>Este código define una función llamada <code>es_bisiesto</code> que realiza lo siguiente:</p>
+<ol type="1">
+<li><strong>Parámetro de Entrada</strong>:
+<ul>
+<li><code>anio</code>: Un entero que representa el año a verificar.</li>
+</ul></li>
+<li><strong>Lógica para Determinar Año Bisiesto</strong>:
+<ul>
+<li>Utiliza operadores lógicos y condicionales para verificar las reglas de un año bisiesto.</li>
+<li><strong>Regla 1</strong>: <code>(anio % 4 == 0 and anio % 100 != 0)</code> - Un año es bisiesto si es divisible por 4 y no es divisible por 100.</li>
+<li><strong>Regla 2</strong>: <code>(anio % 400 == 0)</code> - Un año es bisiesto si es divisible por 400.</li>
+<li>Si alguna de las reglas es verdadera, la función devuelve <code>True</code>, indicando que el año es bisiesto. De lo contrario, devuelve <code>False</code>.</li>
+</ul></li>
+</ol>
+</section>
+<section id="ejemplo-de-uso-3" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-de-uso-3">Ejemplo de Uso</h3>
+<p>El código de ejemplo muestra cómo usar la función <code>es_bisiesto</code> para verificar si el año 2024 es bisiesto. Al ejecutar este ejemplo, se imprimirá <code>2024 es un año bisiesto</code>.</p>
+</section>
+<section id="prueba-y-modificación-3" class="level3">
+<h3 class="anchored" data-anchor-id="prueba-y-modificación-3">Prueba y Modificación</h3>
+<p>Los estudiantes pueden modificar el valor de <code>anio</code> para comprobar si es un año bisiesto y explorar cómo funciona la función. A continuación, se presentan tres ejercicios de ejemplo:</p>
+<p><strong>Ejercicio 1: Verificar si el año 2025 es bisiesto</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-9-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-1" role="tab" aria-controls="tabset-9-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-2" role="tab" aria-controls="tabset-9-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-9-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-9-1-tab">
+<div id="qpyodide-insertion-location-23"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-9-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-9-2-tab">
+<div id="qpyodide-insertion-location-24"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 2: Verificar si el año 1900 es bisiesto</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-10-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-1" role="tab" aria-controls="tabset-10-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-2" role="tab" aria-controls="tabset-10-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-10-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-10-1-tab">
+<div id="qpyodide-insertion-location-25"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-10-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-10-2-tab">
+<div id="qpyodide-insertion-location-26"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 3: Verificar si el año 2000 es bisiesto</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-11-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-1" role="tab" aria-controls="tabset-11-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-11-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-2" role="tab" aria-controls="tabset-11-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-11-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-11-1-tab">
+<div id="qpyodide-insertion-location-27"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-11-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-11-2-tab">
+<div id="qpyodide-insertion-location-28"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="calculadora-básica" class="level2">
+<h2 class="anchored" data-anchor-id="calculadora-básica">🧮 Calculadora Básica</h2>
+<p>En este ejercicio, vamos a crear una simple calculadora que puede realizar operaciones básicas como suma, resta, multiplicación y división. Esta actividad es ideal para que los principiantes practiquen el uso de funciones, operadores aritméticos y estructuras condicionales en Python.</p>
+<section id="contexto-4" class="level3">
+<h3 class="anchored" data-anchor-id="contexto-4">Contexto</h3>
+<p>Una calculadora es una herramienta fundamental que permite realizar cálculos matemáticos básicos y complejos. En este ejercicio, nos centraremos en construir una calculadora que pueda manejar cuatro operaciones básicas: suma (<code>+</code>), resta (<code>-</code>), multiplicación (<code>*</code>) y división (<code>/</code>). Además, nos aseguraremos de manejar casos especiales como la división por cero, que no es una operación válida en matemáticas y debe ser tratada con cuidado en nuestro código.</p>
+</section>
+<section id="objetivos-del-ejercicio-4" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-del-ejercicio-4">Objetivos del Ejercicio</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es escribir una función en Python que pueda realizar las operaciones básicas de una calculadora y manejar casos especiales como la división por cero.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Definir una función</strong>: Crearemos una función llamada <code>calculadora</code> que tome tres parámetros: la operación a realizar (<code>operacion</code>) y dos números (<code>num1</code> y <code>num2</code>).</li>
+<li><strong>Implementar las operaciones</strong>: Usaremos estructuras condicionales (<code>if</code>, <code>elif</code>, <code>else</code>) para definir las operaciones aritméticas básicas.</li>
+<li><strong>Manejo de errores</strong>: Incluiremos una verificación para la división por cero y devolveremos un mensaje de error apropiado.</li>
+<li><strong>Probar la función</strong>: Probaremos la función con diferentes operaciones y valores para asegurarnos de que funcione correctamente.</li>
+</ol>
+</section>
+<section id="código-de-la-calculadora" class="level3">
+<h3 class="anchored" data-anchor-id="código-de-la-calculadora">Código de la Calculadora</h3>
+<div id="qpyodide-insertion-location-29"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="explicación-del-código-4" class="level3">
+<h3 class="anchored" data-anchor-id="explicación-del-código-4">Explicación del Código</h3>
+<p>Este código define una función llamada <code>calculadora</code> que realiza lo siguiente:</p>
+<ol type="1">
+<li><strong>Parámetros de Entrada</strong>:
+<ul>
+<li><code>operacion</code>: Un string que indica la operación a realizar (<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>).</li>
+<li><code>num1</code>: El primer número para la operación.</li>
+<li><code>num2</code>: El segundo número para la operación.</li>
+</ul></li>
+<li><strong>Estructura Condicional</strong>:
+<ul>
+<li>Usa <code>if</code>, <code>elif</code>, y <code>else</code> para verificar qué operación se debe realizar.</li>
+<li>Realiza la operación correspondiente y devuelve el resultado en un formato de cadena que incluye el texto “Resultado:”.</li>
+</ul></li>
+<li><strong>Manejo de Errores</strong>:
+<ul>
+<li>Para la operación de división (<code>/</code>), verifica si <code>num2</code> es diferente de cero antes de realizar la división. Si <code>num2</code> es cero, devuelve un mensaje de error “Error: División por cero”.</li>
+<li>Si se proporciona una operación no válida, devuelve “Operación no válida”.</li>
+</ul></li>
+</ol>
+</section>
+<section id="ejemplo-de-uso-4" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-de-uso-4">Ejemplo de Uso</h3>
+<p>El código de ejemplo muestra cómo usar la función <code>calculadora</code> con una operación de suma (<code>+</code>), y los números <code>10</code> y <code>5</code>. Al ejecutar este ejemplo, se imprimirá <code>Para la operación 10 + 5, el resultado es Resultado: 15</code>.</p>
+</section>
+<section id="prueba-y-modificación-4" class="level3">
+<h3 class="anchored" data-anchor-id="prueba-y-modificación-4">Prueba y Modificación</h3>
+<p>Los estudiantes pueden modificar los valores de <code>operacion</code>, <code>num1</code>, y <code>num2</code> para probar diferentes operaciones y explorar cómo funciona la función de calculadora. A continuación, se presentan seis ejercicios de ejemplo:</p>
+<p><strong>Ejercicio 1: Suma de 10 + 5</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-12-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-1" role="tab" aria-controls="tabset-12-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-12-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-2" role="tab" aria-controls="tabset-12-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-12-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-12-1-tab">
+<div id="qpyodide-insertion-location-30"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-12-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-12-2-tab">
+<div id="qpyodide-insertion-location-31"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 2: Resta de 20 - 10</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-13-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-13-1" role="tab" aria-controls="tabset-13-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-13-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-13-2" role="tab" aria-controls="tabset-13-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-13-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-13-1-tab">
+<div id="qpyodide-insertion-location-32"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-13-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-13-2-tab">
+<div id="qpyodide-insertion-location-33"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 3: Multiplicación de 3 * 4</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-14-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-14-1" role="tab" aria-controls="tabset-14-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-14-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-14-2" role="tab" aria-controls="tabset-14-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-14-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-14-1-tab">
+<div id="qpyodide-insertion-location-34"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-14-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-14-2-tab">
+<div id="qpyodide-insertion-location-35"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 4: División de 10 / 2</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-15-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-15-1" role="tab" aria-controls="tabset-15-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-15-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-15-2" role="tab" aria-controls="tabset-15-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-15-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-15-1-tab">
+<div id="qpyodide-insertion-location-36"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-15-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-15-2-tab">
+<div id="qpyodide-insertion-location-37"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 5: División de 10 / 0 (División por cero)</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-16-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-16-1" role="tab" aria-controls="tabset-16-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-16-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-16-2" role="tab" aria-controls="tabset-16-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-16-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-16-1-tab">
+<div id="qpyodide-insertion-location-38"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-16-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-16-2-tab">
+<div id="qpyodide-insertion-location-39"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 6: Operación no válida “+-” con 5 y 7</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-17-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-17-1" role="tab" aria-controls="tabset-17-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-17-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-17-2" role="tab" aria-controls="tabset-17-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-17-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-17-1-tab">
+<div id="qpyodide-insertion-location-40"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-17-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-17-2-tab">
+<div id="qpyodide-insertion-location-41"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="número-primo" class="level2">
+<h2 class="anchored" data-anchor-id="número-primo">🔢 Número Primo</h2>
+<p>Un programa para verificar si un número es <a href="https://es.wikipedia.org/wiki/N%C3%BAmero_primo">primo</a>. Este ejercicio es útil para practicar el uso de bucles, estructuras condicionales y funciones en Python.</p>
+<section id="contexto-5" class="level3">
+<h3 class="anchored" data-anchor-id="contexto-5">Contexto</h3>
+<p>Un número primo es un número mayor que 1 que no tiene divisores positivos además de 1 y sí mismo. Este ejercicio consiste en determinar si un número dado es primo.</p>
+</section>
+<section id="objetivos-del-ejercicio-5" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-del-ejercicio-5">Objetivos del Ejercicio</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es escribir una función en Python que verifique si un número es primo y pruebe la función con un ejemplo.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Definir una función</strong>: Crearemos una función llamada <code>es_primo</code> que tome un parámetro: el número a verificar (<code>n</code>).</li>
+<li><strong>Implementar la verificación</strong>: Usaremos un bucle para comprobar si el número tiene divisores distintos de 1 y sí mismo.</li>
+<li><strong>Probar la función</strong>: Probaremos la función con un valor de ejemplo y mostraremos el resultado.</li>
+</ol>
+</section>
+<section id="código-para-verificación-de-número-primo" class="level3">
+<h3 class="anchored" data-anchor-id="código-para-verificación-de-número-primo">Código para Verificación de Número Primo</h3>
+<div id="qpyodide-insertion-location-42"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="explicación-del-código-5" class="level3">
+<h3 class="anchored" data-anchor-id="explicación-del-código-5">Explicación del Código</h3>
+<p>Este código define una función llamada <code>es_primo</code> que realiza lo siguiente:</p>
+<ol type="1">
+<li><strong>Parámetro de Entrada</strong>:
+<ul>
+<li><code>n</code>: Un entero que representa el número a verificar.</li>
+</ul></li>
+<li><strong>Lógica de Verificación</strong>:
+<ul>
+<li>Si <code>n</code> es menor o igual a <code>1</code>, la función devuelve <code>False</code> indicando que no es un número primo.</li>
+<li>Usa un bucle <code>for</code> para iterar desde <code>2</code> hasta <code>n-1</code>. Si <code>n</code> es divisible por cualquier número en este rango, la función devuelve <code>False</code> indicando que no es un número primo.</li>
+<li>Si el bucle termina sin encontrar divisores, la función devuelve <code>True</code> indicando que el número es primo.</li>
+</ul></li>
+</ol>
+</section>
+<section id="ejemplo-de-uso-5" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-de-uso-5">Ejemplo de Uso</h3>
+<p>El código de ejemplo muestra cómo usar la función <code>es_primo</code> con un valor de ejemplo (29). Al ejecutar este ejemplo, se imprimirá <code>29 es un número primo</code>.</p>
+</section>
+<section id="prueba-y-modificación-5" class="level3">
+<h3 class="anchored" data-anchor-id="prueba-y-modificación-5">Prueba y Modificación</h3>
+<p>Los estudiantes pueden modificar el valor de <code>numero</code> para probar si es un número primo y explorar cómo funciona la función. A continuación, se presentan cuatro ejercicios de ejemplo:</p>
+<p><strong>Ejercicio 1: Verificar si 39 es un número primo</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-18-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-18-1" role="tab" aria-controls="tabset-18-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-18-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-18-2" role="tab" aria-controls="tabset-18-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-18-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-18-1-tab">
+<div id="qpyodide-insertion-location-43"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-18-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-18-2-tab">
+<div id="qpyodide-insertion-location-44"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 2: Verificar si 15 es un número primo</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-19-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-19-1" role="tab" aria-controls="tabset-19-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-19-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-19-2" role="tab" aria-controls="tabset-19-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-19-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-19-1-tab">
+<div id="qpyodide-insertion-location-45"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-19-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-19-2-tab">
+<div id="qpyodide-insertion-location-46"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 3: Verificar si 2 es un número primo</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-20-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-20-1" role="tab" aria-controls="tabset-20-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-20-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-20-2" role="tab" aria-controls="tabset-20-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-20-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-20-1-tab">
+<div id="qpyodide-insertion-location-47"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-20-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-20-2-tab">
+<div id="qpyodide-insertion-location-48"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 4: Verificar si 17 es un número primo</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-21-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-21-1" role="tab" aria-controls="tabset-21-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-21-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-21-2" role="tab" aria-controls="tabset-21-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-21-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-21-1-tab">
+<div id="qpyodide-insertion-location-49"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-21-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-21-2-tab">
+<div id="qpyodide-insertion-location-50"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="conjetura-de-collatz" class="level2">
+<h2 class="anchored" data-anchor-id="conjetura-de-collatz">📜 Conjetura de Collatz</h2>
+<p>En este ejercicio, vamos a crear un programa que implemente la <a href="https://es.wikipedia.org/wiki/Conjetura_de_Collatz">Conjetura de Collatz</a>, también conocida como la conjetura 3n + 1. Este ejercicio es excelente para practicar el uso de bucles, listas y estructuras condicionales en Python.</p>
+<section id="contexto-6" class="level3">
+<h3 class="anchored" data-anchor-id="contexto-6">Contexto</h3>
+<p>La Conjetura de Collatz es un problema matemático no resuelto que involucra una secuencia de números. Comienza con cualquier número positivo entero <code>n</code> y aplica las siguientes reglas repetidamente:</p>
+<ol type="1">
+<li>Si <code>n</code> es par, se divide por 2.</li>
+<li>Si <code>n</code> es impar, se multiplica por 3 y se le suma 1.</li>
+</ol>
+<p>La conjetura afirma que, no importa qué valor inicial se elija, la secuencia siempre llegará a 1.</p>
+</section>
+<section id="objetivos-del-ejercicio-6" class="level3">
+<h3 class="anchored" data-anchor-id="objetivos-del-ejercicio-6">Objetivos del Ejercicio</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El objetivo de este ejercicio es escribir una función en Python que implemente la Conjetura de Collatz y genere la secuencia de números hasta llegar a 1.</p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><strong>Definir una función</strong>: Crearemos una función llamada <code>conjetura_de_collatz</code> que tome un parámetro: el número inicial (<code>n</code>).</li>
+<li><strong>Implementar la lógica</strong>: Usaremos un bucle <code>while</code> para generar la secuencia de números aplicando las reglas de la conjetura.</li>
+<li><strong>Probar la función</strong>: Probaremos la función con un número inicial y mostraremos la secuencia generada.</li>
+</ol>
+</section>
+<section id="código-para-la-conjetura-de-collatz" class="level3">
+<h3 class="anchored" data-anchor-id="código-para-la-conjetura-de-collatz">Código para la Conjetura de Collatz</h3>
+<div id="qpyodide-insertion-location-51"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="explicación-del-código-6" class="level3">
+<h3 class="anchored" data-anchor-id="explicación-del-código-6">Explicación del Código</h3>
+<p>Este código define una función llamada <code>conjetura_de_collatz</code> que realiza lo siguiente:</p>
+<ol type="1">
+<li><strong>Parámetro de Entrada</strong>:
+<ul>
+<li><code>n</code>: Un entero positivo que representa el número inicial de la secuencia.</li>
+</ul></li>
+<li><strong>Lista de Resultados</strong>:
+<ul>
+<li><code>resultado</code>: Una lista que almacenará la secuencia de números generada por la conjetura.</li>
+</ul></li>
+<li><strong>Lógica del Bucle</strong>:
+<ul>
+<li>Usa un bucle <code>while</code> que continúa hasta que <code>n</code> sea igual a 1.</li>
+<li>En cada iteración, añade el valor actual de <code>n</code> a la lista <code>resultado</code>.</li>
+<li>Si <code>n</code> es par, lo divide por 2 usando <code>n // 2</code>.</li>
+<li>Si <code>n</code> es impar, lo multiplica por 3 y le suma 1 usando <code>3 * n + 1</code>.</li>
+</ul></li>
+<li><strong>Añadir el Valor Final</strong>:
+<ul>
+<li>Después de salir del bucle, añade el valor final 1 a la lista <code>resultado</code>.</li>
+</ul></li>
+<li><strong>Devolver la Secuencia</strong>:
+<ul>
+<li>La función devuelve la lista <code>resultado</code> que contiene la secuencia completa de números.</li>
+</ul></li>
+</ol>
+</section>
+<section id="ejemplo-de-uso-6" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplo-de-uso-6">Ejemplo de Uso</h3>
+<p>El código de ejemplo muestra cómo usar la función <code>conjetura_de_collatz</code> con un número inicial de 6. Al ejecutar este ejemplo, se imprimirá la secuencia generada, mostrando cada número en la secuencia hasta llegar a 1.</p>
+<pre><code>6 -&gt; 3 -&gt; 10 -&gt; 5 -&gt; 16 -&gt; 8 -&gt; 4 -&gt; 2 -&gt; 1</code></pre>
+</section>
+<section id="prueba-y-modificación-6" class="level3">
+<h3 class="anchored" data-anchor-id="prueba-y-modificación-6">Prueba y Modificación</h3>
+<p>Los estudiantes pueden modificar el valor de <code>numero</code> para explorar la secuencia generada por la Conjetura de Collatz y observar cómo funciona la función. A continuación, se presentan cuatro ejercicios de ejemplo:</p>
+<p><strong>Ejercicio 1: Generar la secuencia de Collatz para el número 5</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-22-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-22-1" role="tab" aria-controls="tabset-22-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-22-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-22-2" role="tab" aria-controls="tabset-22-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-22-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-22-1-tab">
+<div id="qpyodide-insertion-location-52"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-22-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-22-2-tab">
+<div id="qpyodide-insertion-location-53"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 2: Generar la secuencia de Collatz para el número 7</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-23-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-23-1" role="tab" aria-controls="tabset-23-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-23-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-23-2" role="tab" aria-controls="tabset-23-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-23-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-23-1-tab">
+<div id="qpyodide-insertion-location-54"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-23-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-23-2-tab">
+<div id="qpyodide-insertion-location-55"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 3: Generar la secuencia de Collatz para el número 15</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-24-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-24-1" role="tab" aria-controls="tabset-24-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-24-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-24-2" role="tab" aria-controls="tabset-24-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-24-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-24-1-tab">
+<div id="qpyodide-insertion-location-56"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-24-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-24-2-tab">
+<div id="qpyodide-insertion-location-57"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+<p><strong>Ejercicio 4: Generar la secuencia de Collatz para el número 27</strong></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-25-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-25-1" role="tab" aria-controls="tabset-25-1" aria-selected="true">Ejercicio</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-25-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-25-2" role="tab" aria-controls="tabset-25-2" aria-selected="false">Solución</a></li></ul>
+<div class="tab-content">
+<div id="tabset-25-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-25-1-tab">
+<div id="qpyodide-insertion-location-58"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+<div id="tabset-25-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-25-2-tab">
+<div id="qpyodide-insertion-location-59"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="conclusiones" class="level2">
+<h2 class="anchored" data-anchor-id="conclusiones">Conclusiones</h2>
+<p>El uso de Python en la enseñanza de las matemáticas no solo moderniza el aprendizaje, sino que también lo vuelve más interactivo y entretenido. A través de ejercicios prácticos como la conversión de temperatura, el cálculo del IMC y la exploración de secuencias matemáticas, los estudiantes adquieren habilidades clave para el mundo tecnológico.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Desafío para Estudiantes:">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Desafío para Estudiantes:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>El desafío para los estudiantes es seguir explorando y practicando con Python para hacer las matemáticas más divertidas y comprensibles. ¡Atrévete a resolver problemas, experimentar con nuevas ideas y descubrir cómo la programación puede mejorar tu comprensión de la ciencia y la tecnología!</p>
+</div>
+</div>
+</div>
+<blockquote class="blockquote">
+<p>🔑 <strong>Nota</strong>: Para aquellos interesados en continuar su aprendizaje, pueden visitar <a href="https://seth-nut.github.io/resources/">este sitio de recursos</a> para acceder a material educativo adicional.</p>
+</blockquote>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("fralfaro\.github\.io\/blog\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "Seth-Nut/talks";
+    script.dataset.repoId = "R_kgDOM_kl2g";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "DIC_kwDOM_kl2s4CjYAh";
+    script.dataset.mapping = "title";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Website creado con <a href="https://quarto.org/">Quarto</a> por Francisco Alfaro. Licencia: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Seth-Nut">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/company/Seth-Nut/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://seth-nut.github.io/website/">
+      <i class="bi bi-globe" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+<script type="module">
+/**
+ * Factory function to create different types of cells based on options.
+ * @param {Object} cellData - JSON object containing code, id, and options.
+ * @returns {BaseCell} Instance of the appropriate cell class.
+ */
+globalThis.qpyodideCreateCell = function(cellData) {
+    switch (cellData.options.context) {
+        case 'interactive':
+            return new InteractiveCell(cellData);
+        case 'output':
+            return new OutputCell(cellData);
+        case 'setup':
+            return new SetupCell(cellData);
+        default:
+            return new InteractiveCell(cellData);
+            // throw new Error('Invalid cell type specified in options.');
+    }
+}  
+
+/**
+ * CellContainer class for managing a collection of cells.
+ * @class
+ */
+class CellContainer {
+    /**
+     * Constructor for CellContainer.
+     * Initializes an empty array to store cells.
+     * @constructor
+     */
+    constructor() {
+        this.cells = [];
+    }
+
+    /**
+     * Add a cell to the container.
+     * @param {BaseCell} cell - Instance of a cell (BaseCell or its subclasses).
+     */
+    addCell(cell) {
+        this.cells.push(cell);
+    }
+
+    /**
+     * Execute all cells in the container.
+     */
+    async executeAllCells() {
+        for (const cell of this.cells) {
+            await cell.executeCode();
+        }
+    }
+
+    /**
+     * Execute all cells in the container.
+     */
+    async autoRunExecuteAllCells() {
+        for (const cell of this.cells) {
+            await cell.autoRunExecuteCode();
+        }
+    }
+}
+  
+
+/**
+ * BaseCell class for handling code execution using Pyodide.
+ * @class
+ */
+class BaseCell {
+    /**
+     * Constructor for BaseCell.
+     * @constructor
+     * @param {Object} cellData - JSON object containing code, id, and options.
+     */
+    constructor(cellData) {
+        this.code = cellData.code;
+        this.id = cellData.id;
+        this.options = cellData.options;
+        this.insertionLocation = document.getElementById(`qpyodide-insertion-location-${this.id}`);
+        this.executionLock = false;
+    }
+
+    cellOptions() {
+        // Subclass this? 
+        console.log(this.options);
+        return this.options;
+    }
+
+    /**
+     * Execute the Python code using Pyodide.
+     * @returns {*} Result of the code execution.
+     */
+    async executeCode() {
+        // Execute code using Pyodide
+        const result = getPyodide().runPython(this.code);
+        return result;
+    }
+};
+
+/**
+ * InteractiveCell class for creating editable code editor with Monaco Editor.
+ * @class
+ * @extends BaseCell
+ */
+class InteractiveCell extends BaseCell {
+
+    /**
+     * Constructor for InteractiveCell.
+     * @constructor
+     * @param {Object} cellData - JSON object containing code, id, and options.
+     */
+    constructor(cellData) {
+        super(cellData);
+        this.editor = null;
+        this.setupElement();
+        this.setupMonacoEditor();
+    }
+
+    /**
+     * Set up the interactive cell elements
+     */
+    setupElement() {
+
+        // Create main div element
+        var mainDiv = document.createElement('div');
+        mainDiv.id = `qpyodide-interactive-area-${this.id}`;
+        mainDiv.className = `qpyodide-interactive-area`;
+        if (this.options.classes) {
+            mainDiv.className += " " + this.options.classes
+        }
+
+        // Add a unique cell identifier that users can customize
+        if (this.options.label) {
+            mainDiv.setAttribute('data-id', this.options.label);
+        }
+
+        // Create toolbar div
+        var toolbarDiv = document.createElement('div');
+        toolbarDiv.className = 'qpyodide-editor-toolbar';
+        toolbarDiv.id = `qpyodide-editor-toolbar-${this.id}`;
+
+        // Create a div to hold the left buttons
+        var leftButtonsDiv = document.createElement('div');
+        leftButtonsDiv.className = 'qpyodide-editor-toolbar-left-buttons';
+
+        // Create a div to hold the right buttons
+        var rightButtonsDiv = document.createElement('div');
+        rightButtonsDiv.className = 'qpyodide-editor-toolbar-right-buttons';
+
+        // Create Run Code button
+        var runCodeButton = document.createElement('button');
+        runCodeButton.className = 'btn btn-default qpyodide-button qpyodide-button-run';
+        runCodeButton.disabled = true;
+        runCodeButton.type = 'button';
+        runCodeButton.id = `qpyodide-button-run-${this.id}`;
+        runCodeButton.textContent = '🟡 Loading Pyodide...';
+        runCodeButton.title = `Run code (Shift + Enter)`;
+
+        // Append buttons to the leftButtonsDiv
+        leftButtonsDiv.appendChild(runCodeButton);
+
+        // Create Reset button
+        var resetButton = document.createElement('button');
+        resetButton.className = 'btn btn-light btn-xs qpyodide-button qpyodide-button-reset';
+        resetButton.type = 'button';
+        resetButton.id = `qpyodide-button-reset-${this.id}`;
+        resetButton.title = 'Start over';
+        resetButton.innerHTML = '<i class="fa-solid fa-arrows-rotate"></i>';
+
+        // Create Copy button
+        var copyButton = document.createElement('button');
+        copyButton.className = 'btn btn-light btn-xs qpyodide-button qpyodide-button-copy';
+        copyButton.type = 'button';
+        copyButton.id = `qpyodide-button-copy-${this.id}`;
+        copyButton.title = 'Copy code';
+        copyButton.innerHTML = '<i class="fa-regular fa-copy"></i>';
+
+        // Append buttons to the rightButtonsDiv
+        rightButtonsDiv.appendChild(resetButton);
+        rightButtonsDiv.appendChild(copyButton);
+
+        // Create console area div
+        var consoleAreaDiv = document.createElement('div');
+        consoleAreaDiv.id = `qpyodide-console-area-${this.id}`;
+        consoleAreaDiv.className = 'qpyodide-console-area';
+
+        // Create editor div
+        var editorDiv = document.createElement('div');
+        editorDiv.id = `qpyodide-editor-${this.id}`;
+        editorDiv.className = 'qpyodide-editor';
+
+        // Create output code area div
+        var outputCodeAreaDiv = document.createElement('div');
+        outputCodeAreaDiv.id = `qpyodide-output-code-area-${this.id}`;
+        outputCodeAreaDiv.className = 'qpyodide-output-code-area';
+        outputCodeAreaDiv.setAttribute('aria-live', 'assertive');
+
+        // Create pre element inside output code area
+        var preElement = document.createElement('pre');
+        preElement.style.visibility = 'hidden';
+        outputCodeAreaDiv.appendChild(preElement);
+
+        // Create output graph area div
+        var outputGraphAreaDiv = document.createElement('div');
+        outputGraphAreaDiv.id = `qpyodide-output-graph-area-${this.id}`;
+        outputGraphAreaDiv.className = 'qpyodide-output-graph-area';
+
+        // Append buttons to the toolbar
+        toolbarDiv.appendChild(leftButtonsDiv);
+        toolbarDiv.appendChild(rightButtonsDiv);
+
+        // Append all elements to the main div
+        mainDiv.appendChild(toolbarDiv);
+        consoleAreaDiv.appendChild(editorDiv);
+        consoleAreaDiv.appendChild(outputCodeAreaDiv);
+        mainDiv.appendChild(consoleAreaDiv);
+        mainDiv.appendChild(outputGraphAreaDiv);
+
+        // Insert the dynamically generated object at the document location.
+        this.insertionLocation.appendChild(mainDiv);
+    }
+
+    /**
+     * Set up Monaco Editor for code editing.
+     */
+    setupMonacoEditor() {
+
+        // Retrieve the previously created document elements
+        this.runButton = document.getElementById(`qpyodide-button-run-${this.id}`);
+        this.resetButton = document.getElementById(`qpyodide-button-reset-${this.id}`);
+        this.copyButton = document.getElementById(`qpyodide-button-copy-${this.id}`);
+        this.editorDiv = document.getElementById(`qpyodide-editor-${this.id}`);
+        this.outputCodeDiv = document.getElementById(`qpyodide-output-code-area-${this.id}`);
+        this.outputGraphDiv = document.getElementById(`qpyodide-output-graph-area-${this.id}`);
+        
+        // Store reference to the object
+        var thiz = this;
+
+        // Load the Monaco Editor and create an instance
+        require(['vs/editor/editor.main'], function () {
+            thiz.editor = monaco.editor.create(
+                thiz.editorDiv, {
+                    value: thiz.code,
+                    language: 'python',
+                    theme: 'vs-light',
+                    automaticLayout: true,           // Works wonderfully with RevealJS
+                    scrollBeyondLastLine: false,
+                    minimap: {
+                        enabled: false
+                    },
+                    fontSize: '17.5pt',              // Bootstrap is 1 rem
+                    renderLineHighlight: "none",     // Disable current line highlighting
+                    hideCursorInOverviewRuler: true,  // Remove cursor indictor in right hand side scroll bar
+                    readOnly: thiz.options['read-only'] ?? false
+                }
+            );
+        
+            // Store the official counter ID to be used in keyboard shortcuts
+            thiz.editor.__qpyodideCounter = thiz.id;
+        
+            // Store the official div container ID
+            thiz.editor.__qpyodideEditorId = `qpyodide-editor-${thiz.id}`;
+        
+            // Store the initial code value and options
+            thiz.editor.__qpyodideinitialCode = thiz.code;
+            thiz.editor.__qpyodideOptions = thiz.options;
+        
+            // Set at the model level the preferred end of line (EOL) character to LF.
+            // This prevent `\r\n` from being given to the Pyodide engine if the user is on Windows.
+            // See details in: https://github.com/coatless/quarto-Pyodide/issues/94
+            // Associated error text: 
+            // Error: <text>:1:7 unexpected input
+        
+            // Retrieve the underlying model
+            const model = thiz.editor.getModel();
+            // Set EOL for the model
+            model.setEOL(monaco.editor.EndOfLineSequence.LF);
+        
+            // Dynamically modify the height of the editor window if new lines are added.
+            let ignoreEvent = false;
+            const updateHeight = () => {
+            const contentHeight = thiz.editor.getContentHeight();
+            // We're avoiding a width change
+            //editorDiv.style.width = `${width}px`;
+            thiz.editorDiv.style.height = `${contentHeight}px`;
+                try {
+                    ignoreEvent = true;
+            
+                    // The key to resizing is this call
+                    thiz.editor.layout();
+                } finally {
+                    ignoreEvent = false;
+                }
+            };
+        
+            // Helper function to check if selected text is empty
+            function isEmptyCodeText(selectedCodeText) {
+                return (selectedCodeText === null || selectedCodeText === undefined || selectedCodeText === "");
+            }
+        
+            // Registry of keyboard shortcuts that should be re-added to each editor window
+            // when focus changes.
+            const addPyodideKeyboardShortCutCommands = () => {
+            // Add a keydown event listener for Shift+Enter to run all code in cell
+            thiz.editor.addCommand(monaco.KeyMod.Shift | monaco.KeyCode.Enter, () => {
+                // Retrieve all text inside the editor
+                thiz.runCode(thiz.editor.getValue());
+            });
+        
+            // Add a keydown event listener for CMD/Ctrl+Enter to run selected code
+            thiz.editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.Enter, () => {
+                    // Get the selected text from the editor
+                    const selectedText = thiz.editor.getModel().getValueInRange(thiz.editor.getSelection());
+                    // Check if no code is selected
+                    if (isEmptyCodeText(selectedText)) {
+                        // Obtain the current cursor position
+                        let currentPosition = thiz.editor.getPosition();
+                        // Retrieve the current line content
+                        let currentLine = thiz.editor.getModel().getLineContent(currentPosition.lineNumber);
+                
+                        // Propose a new position to move the cursor to
+                        let newPosition = new monaco.Position(currentPosition.lineNumber + 1, 1);
+                
+                        // Check if the new position is beyond the last line of the editor
+                        if (newPosition.lineNumber > thiz.editor.getModel().getLineCount()) {
+                            // Add a new line at the end of the editor
+                            thiz.editor.executeEdits("addNewLine", [{
+                            range: new monaco.Range(newPosition.lineNumber, 1, newPosition.lineNumber, 1),
+                            text: "\n", 
+                            forceMoveMarkers: true,
+                            }]);
+                        }
+                        
+                        // Run the entire line of code.
+                        thiz.runCode(currentLine);
+                
+                        // Move cursor to new position
+                        thiz.editor.setPosition(newPosition);
+                    } else {
+                        // Code to run when Ctrl+Enter is pressed with selected code
+                        thiz.runCode(selectedText);
+                    }
+                });
+            }
+        
+            // Register an on focus event handler for when a code cell is selected to update
+            // what keyboard shortcut commands should work.
+            // This is a workaround to fix a regression that happened with multiple
+            // editor windows since Monaco 0.32.0 
+            // https://github.com/microsoft/monaco-editor/issues/2947
+            thiz.editor.onDidFocusEditorText(addPyodideKeyboardShortCutCommands);
+        
+            // Register an on change event for when new code is added to the editor window
+            thiz.editor.onDidContentSizeChange(updateHeight);
+        
+            // Manually re-update height to account for the content we inserted into the call
+            updateHeight();
+                
+        });
+
+        
+        // Add a click event listener to the run button
+        thiz.runButton.onclick = function () {
+            thiz.runCode(
+                thiz.editor.getValue()
+            );
+        };
+        
+        // Add a click event listener to the reset button
+        thiz.copyButton.onclick = function () {
+            // Retrieve current code data
+            const data = thiz.editor.getValue();
+            
+            // Write code data onto the clipboard.
+            navigator.clipboard.writeText(data || "");
+        };
+        
+        // Add a click event listener to the copy button
+        thiz.resetButton.onclick = function () {
+            thiz.editor.setValue(thiz.editor.__qpyodideinitialCode);
+        };
+    }
+
+    disableInteractiveCells() {
+        // Enable locking of execution for the cell
+        this.executionLock = true;
+
+        // Disallowing execution of other code cells
+        document.querySelectorAll(".qpyodide-button-run").forEach((btn) => {
+            btn.disabled = true;
+        });
+    }
+
+    enableInteractiveCells() {
+        // Remove locking of execution for the cell
+        this.executionLock = false;
+
+        // All execution of other code cells
+        document.querySelectorAll(".qpyodide-button-run").forEach((btn) => {
+            btn.disabled = false;
+        });
+    }
+
+    /**
+     * Execute the Python code inside the editor.
+     */
+    async runCode(code) {
+        
+        // Check if we have an execution lock
+        if (this.executeLock) return; 
+        
+        this.disableInteractiveCells();
+
+        // Force wait procedure
+        await mainPyodide;
+
+        // Clear the output stock
+        qpyodideResetOutputArray();
+
+        // Generate a new canvas element, avoid attaching until the end
+        let graphFigure = document.createElement("figure");
+        document.pyodideMplTarget = graphFigure;
+
+        console.log("Running code!");
+        // Obtain results from the base class
+        try {
+            // Always check to see if the user adds new packages
+            await mainPyodide.loadPackagesFromImports(code);
+
+            // Process result
+            const output = await mainPyodide.runPythonAsync(code);
+
+            // Add output
+            qpyodideAddToOutputArray(output, "stdout");
+        } catch (err) {
+            // Add error message
+            qpyodideAddToOutputArray(err, "stderr");
+            // TODO: There has to be a way to remove the Pyodide portion of the errors... 
+        }
+
+        const result = qpyodideRetrieveOutput();
+
+        // Nullify the output area of content
+        this.outputCodeDiv.innerHTML = "";
+        this.outputGraphDiv.innerHTML = "";        
+
+        // Design an output object for messages
+        const pre = document.createElement("pre");
+        if (/\S/.test(result)) {
+            // Display results as HTML elements to retain output styling
+            const div = document.createElement("div");
+            div.innerHTML = result;
+            pre.appendChild(div);
+        } else {
+            // If nothing is present, hide the element.
+            pre.style.visibility = "hidden";
+        }
+
+        // Add output under interactive div
+        this.outputCodeDiv.appendChild(pre);
+
+        // Place the graphics onto the page
+        if (graphFigure) {
+
+            if (this.options['fig-cap']) {
+                // Create figcaption element
+                const figcaptionElement = document.createElement('figcaption');
+                figcaptionElement.innerText = this.options['fig-cap'];
+                // Append figcaption to figure
+                graphFigure.appendChild(figcaptionElement);    
+            }
+
+            this.outputGraphDiv.appendChild(graphFigure);
+        }
+
+        // Re-enable execution
+        this.enableInteractiveCells();
+    }
+};
+
+/**
+ * OutputCell class for customizing and displaying output.
+ * @class
+ * @extends BaseCell
+ */
+class OutputCell extends BaseCell {
+    /**
+     * Constructor for OutputCell.
+     * @constructor
+     * @param {Object} cellData - JSON object containing code, id, and options.
+     */
+    constructor(cellData) {
+      super(cellData);
+    }
+  
+    /**
+     * Display customized output on the page.
+     * @param {*} output - Result to be displayed.
+     */
+    displayOutput(output) {
+        const results = this.executeCode();
+        return results;
+    }
+  }
+
+/**
+ * SetupCell class for suppressed output.
+ * @class
+ * @extends BaseCell
+ */
+class SetupCell extends BaseCell {
+    /**
+     * Constructor for SetupCell.
+     * @constructor
+     * @param {Object} cellData - JSON object containing code, id, and options.
+     */
+    constructor(cellData) {
+        super(cellData);
+    }
+
+    /**
+     * Execute the Python code without displaying the results.
+     */
+    runSetupCode() {
+        // Execute code without displaying output
+        this.executeCode();
+    }
+};
+</script>
+<script type="module">
+// Handle cell initialization initialization
+qpyodideCellDetails.map(
+    (entry) => {
+      // Handle the creation of the element
+      qpyodideCreateCell(entry);
+    }
+  );
+</script>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
