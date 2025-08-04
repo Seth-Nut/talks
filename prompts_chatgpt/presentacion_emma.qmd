@@ -396,6 +396,19 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 <img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"/>
 :::
 
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: {style="text-align: center;"}
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
+
+</iframe>
+:::
+
+
 ------------------------------------------------------------------------
 
 ## [🎯 Actividad: ¡Probemos algunos Prompts!]{style="font-size:0.8em;"} {background-image="images/background.jpg" background-opacity="0.25"}
@@ -484,88 +497,12 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 ------------------------------------------------------------------------
 
-## ♟️Técnicas para Mejorar los Prompts {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: panel-tabset
-## Zero-shot
+::: {style="text-align: center;"}
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
 
-**Definición:** Se da un **prompt sin ejemplos previos**, y se espera que el modelo genere una respuesta basada en su conocimiento previo.
-
-::: columns
-::: {.column width="50%"}
-✨ **Ejemplo de prompt:**
-
-> "¿Qué es la fotosíntesis?"
-:::
-
-::: {.column .incremental width="50%"}
-✅ **Esperado:**
-
-> "La fotosíntesis es el proceso por el cual las plantas convierten la luz solar en energía química utilizando dióxido de carbono y agua."
-:::
-:::
-
-## ♟️ Few-shot
-
-**Definición:** Se proporcionan **pocos ejemplos** en el prompt para ayudar al modelo a generar una respuesta más precisa.
-
-::: columns
-::: {.column width="50%"}
-✨ **Ejemplo de prompt:**
-
-> "Traduce las siguientes frases al francés:\
-> - Hello → Bonjour\
-> - Thank you → Merci\
-> - Good morning → ?"
-:::
-
-::: {.column .incremental width="50%"}
-✅ **Esperado:**
-
-> "Good morning → Bonjour"
-:::
-:::
-
-## ♟️ CoT
-
-**Definición:** Se fomenta el **razonamiento paso a paso** (*Chain-of-Thought* ) para obtener respuestas más estructuradas y detalladas.
-
-::: columns
-::: {.column width="50%"}
-✨ **Ejemplo de prompt:**
-
-> "Si un tren viaja a 80 km/h y recorre 240 km, ¿cuánto tiempo tarda en llegar? Explica tu razonamiento."
-:::
-
-::: {.column .incremental width="50%"}
-✅ **Esperado:**
-
-> "El tren viaja a 80 km/h y debe recorrer 240 km. Para calcular el tiempo, usamos la fórmula:\
-> **tiempo = distancia / velocidad**\
-> **240 km ÷ 80 km/h = 3 horas.**\
-> Por lo tanto, el tren tarda 3 horas en llegar."
-:::
-:::
-
-## ♟️ Chaining
-
-**Definición:** Se descompone una tarea compleja en **múltiples prompts encadenados**, donde la salida de un prompt se usa como entrada para el siguiente.
-
-::: columns
-::: {.column width="50%"}
-✨ **Ejemplo de prompt:**
-
-> **Paso 1:** "Resume en 3 frases la Revolución Industrial."\
-> **Paso 2:** (Usando la respuesta del primer prompt) "Ahora expande cada frase en un párrafo detallado."
-:::
-
-::: {.column .incremental width="50%"}
-✅ **Esperado:**
-
-> **Paso 1:** "La Revolución Industrial marcó el inicio de la producción mecanizada, el crecimiento de las ciudades y el avance del transporte."\
-> **Paso 2:** Se genera un desarrollo más detallado de cada punto.
-:::
-:::
+</iframe>
 :::
 
 ------------------------------------------------------------------------
@@ -588,16 +525,13 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 ------------------------------------------------------------------------
 
-## ⚠️ Problemas Comunes con los LLM {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-<br>
+::: {style="text-align: center;"}
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
 
-| 🚨 **Error**               | 💬 **Prompt**                           | ❌ **Respuesta Incorrecta**           |
-|----------------------------|-----------------------------------------|---------------------------------------|
-| **Información Incorrecta** | *¿Cuántos continentes hay?*             | *Hay 4 continentes.*                  |
-| **Datos Obsoletos**        | *¿Quién es el presidente de Argentina?* | *Mauricio Macri.*                     |
-| **Respuesta Ambigua**      | *¿País más grande?*                     | *Podría ser China o EE.UU.*           |
-| **Sesgo o Estereotipo**    | *¿Quién programa mejor?*                | *Los hombres, por su lógica natural.* |
+</iframe>
+:::
 
 ------------------------------------------------------------------------
 
@@ -613,64 +547,12 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 ------------------------------------------------------------------------
 
-## ⚖️ Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: panel-tabset
-## ⚠️ Credenciales
+::: {style="text-align: center;"}
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
 
-**Definición:** Se debe evitar compartir información sensible como contraseñas, tokens de acceso o datos privados en prompts de IA.
-
-::: columns
-::: {.column width="50%"}
-❌ **Mal prompt:**
-
-> "Mi API key es `1234-5678`, y mi contraseña es `mypassword123`. ¿Puedes conectarte por mí?"
-:::
-
-::: {.column .incremental width="50%"}
-✅ **Buen prompt:**
-
-> "¿Cómo guardar credenciales en un archivo `.env` y cargarlas de forma segura en Python?"
-:::
-:::
-
-## 🔒 Privacidad
-
-**Definición:** Los prompts no deben solicitar ni exponer datos personales. Es esencial proteger la identidad y privacidad de las personas al interactuar con modelos de lenguaje.
-
-::: columns
-::: {.column width="50%"}
-❌ **Prompt inadecuado:**
-
-> "Tengo el RUT y dirección de una persona. ¿Puedes decirme su número de teléfono o redes sociales?"
-:::
-
-::: {.column .incremental width="50%"}
-✅ **Prompt recomendado:**
-
-> "Explícame cómo anonimizar datos sensibles correctamente."
-:::
-:::
-
-## 📐 Tareas {background-image="images/background.jpg" background-opacity="0.25"}
-
-**Definición:** Los prompts deben promover el **razonamiento y aprendizaje**, evitando solicitudes que generen respuestas incorrectas o superficiales.
-
-::: columns
-::: {.column width="50%"}
-❌ **Prompt inadecuado:**
-
-> **Paso 1:** "Resuelve esta ecuación sin explicaciones: \$x\^2 + 5x + 6 = 0\$."\
-> **Paso 2:** "Solo quiero la respuesta final."
-:::
-
-::: {.column .incremental width="50%"}
-✅ **Prompt recomendado:**
-
-> **Paso 1:** "Resuelve paso a paso la ecuación \$x\^2 + 5x + 6 = 0\$ usando factorización."\
-> **Paso 2:** "Explica por qué se eligen esos factores y sugiere otro método de resolución."
-:::
-:::
+</iframe>
 :::
 
 ------------------------------------------------------------------------
@@ -685,53 +567,18 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 ------------------------------------------------------------------------
 
-## 🤖 Actividad: ¡Crea tu chatbot! {background-image="images/background_slides3.png" background-opacity="0.3"}
+## 🤖 Actividad: Matemáticas + Python {background-image="images/background_slides3.png" background-opacity="0.3"}
 
-::: panel-tabset
-## 🎯 ¿Qué haremos?
-
-<br>
-
-Vamos a crear un chatbot divertido en [NUT-AI](https://cittripio-v2.streamlit.app/) que responda preguntas sobre un tema.
-
-Ejemplos:
-
--   🧙 Un mago que enseña matemáticas
--   🧑‍🍳 Un chef que habla como robot
--   🦸 Un superhéroe que da consejos de salud
-
-## 🛠️ Pasos
-
-<br>
-
--   Júntate en grupo (2 a 4 personas)
--   Elige un tema
--   Escribe cómo debe hablar el bot
--   Prueba hacerle preguntas
--   Muestra tu bot a los demás 🎉
-
-## 📦 Entrega
-
-<br>
-
--   El texto que le da personalidad
--   5 preguntas + respuestas
--   Una imagen del bot funcionando
--   Una idea o reflexión (opcional)
-
-## 🏆 Evaluación
-
-<br>
-
-| ✅ Qué se evalúa     | Puntos  |
-|----------------------|---------|
-| Creatividad 🎨       | 20      |
-| Claridad 🧠          | 20      |
-| Funciona bien ⚙️     | 20      |
-| Buenas respuestas 💬 | 20      |
-| Presentación 🎤      | 20      |
-| **Total**            | **100** |
+::: {.callout-tip title="Objetivo"}
+Usar un chatbot como ChatGPT para resolver problemas de matemáticas programados en Python.
 :::
+
+* Lee el enunciado y trata de resolverlo en código.
+* Pregunta a una IA como ChatGPT:  
+   * *"¿Cómo puedo resolver este problema en Python?"*
+* Compara tu solución con la de la IA y analiza posibles mejoras.
+
+> 👉 [Ver actividad completa](./taller.html)
 
 ------------------------------------------------------------------------
 

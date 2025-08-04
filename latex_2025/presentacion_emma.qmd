@@ -138,10 +138,10 @@ format:
 
 ------------------------------------------------------------------------
 
-## 📝 Ejemplos: Conceptos Básicos {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {style="text-align: center;"}
-<iframe src="https://emma2025-latex.streamlit.app/?embed=true" frameborder="0" width="1500" height="650">
+<iframe src="https://emma2025-latex.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
 
 </iframe>
 :::
@@ -194,154 +194,12 @@ format:
 
 ------------------------------------------------------------------------
 
-## 🎤 Ejemplo 6: Presentación con Beamer
-
-::: panel-tabset
-## Teoría
-
-El paquete `beamer` permite crear presentaciones elegantes y profesionales en PDF. Puedes agregar títulos, viñetas, ecuaciones, imágenes, animaciones paso a paso, y más.
-
-## Código
-
-``` latex
-\documentclass{beamer}
-\usetheme{Madrid}
-\usepackage{amsmath}
-
-\title{Introducción a \LaTeX}
-\author{Francisco Alfaro}
-\date{\today}
-
-\begin{document}
-
-\frame{\titlepage}
-
-\begin{frame}{Ecuación Clásica}
-\begin{itemize}
-  \item Física y matemáticas se ven mejor en LaTeX.
-  \item Por ejemplo:
-\end{itemize}
-
-\[
-E = mc^2
-\]
-
-\end{frame}
-
-\end{document}
-```
-
-## Salida
+##  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {style="text-align: center;"}
-<img src="images/example6.png" alt="Escribir Informe" width="60%"/>
-:::
-:::
+<iframe src="https://emma2025-latex.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
 
-------------------------------------------------------------------------
-
-## 👔 Ejemplo 7: Currículum con ModernCV
-
-::: panel-tabset
-## Teoría
-
-Con `moderncv`, puedes generar currículums elegantes y completamente personalizables, controlando estilos, secciones, colores y tipografías.
-
-## Código
-
-``` latex
-\documentclass[11pt,a4paper]{moderncv}
-\moderncvstyle{classic}
-\moderncvcolor{blue}
-
-\name{Francisco}{Alfaro}
-\title{Data Scientist}
-\email{francisco@example.com}
-\phone[mobile]{+56~9~1234~5678}
-
-\begin{document}
-
-\makecvtitle
-
-\section{Educación}
-\cventry{2016--2018}{Magíster en Ciencia de Datos}{Universidad Técnica Federico Santa María}{Chile}{}{}
-
-\section{Experiencia}
-\cventry{2020--2024}{Head of Advanced Analytics}{Grupo Security}{Chile}{}{
-  \begin{itemize}
-    \item Lideré proyectos de ciencia de datos para distintas empresas del grupo.
-    \item Automatización de pipelines y generación de modelos predictivos.
-  \end{itemize}
-}
-
-\end{document}
-```
-
-## Salida
-
-::: {style="text-align: center;"}
-<img src="images/example7.png" alt="Escribir Informe" width="60%"/>
-:::
-:::
-
-------------------------------------------------------------------------
-
-## 🖼️ Ejemplo 8: Póster con `tikzposter`
-
-::: panel-tabset
-## Teoría
-
-`tikzposter` es una clase moderna para hacer pósteres científicos. Usa `TikZ` para controlar el diseño visual.
-
-## Código
-
-``` latex
-\documentclass[a0paper,landscape,blockverticalspace=5mm]{tikzposter}
-
-\title{Título del Póster}
-\author{Francisco Alfaro, Valeska Canales}
-\institute{Universidad Técnica Federico Santa María}
-
-\usetheme{Default}
-\usecolorstyle{Germany}
-
-\begin{document}
-
-\maketitle
-
-\block{Introducción}{
-LaTeX es un sistema ideal para preparar pósteres científicos. Su control tipográfico permite generar documentos de alta calidad.
-}
-
-\block{Objetivos}{
-\begin{itemize}
-  \item Aprender a usar LaTeX para crear pósteres.
-  \item Personalizar colores, bloques y disposición.
-  \item Combinar texto, imágenes y ecuaciones.
-\end{itemize}
-}
-
-\block{Ejemplo de ecuación}{
-\[
-E = mc^2
-\]
-}
-
-\block{Conclusiones}{
-\begin{itemize}
-  \item Fácil de compilar en Overleaf.
-  \item Permite diseños elegantes y profesionales.
-\end{itemize}
-}
-
-\end{document}
-```
-
-## Salida
-
-::: {style="text-align: center;"}
-<img src="images/example8.png" alt="Escribir Informe" width="70%"/>
-:::
+</iframe>
 :::
 
 ------------------------------------------------------------------------
@@ -510,6 +368,84 @@ f(x) = \int_0^\infty e^-x^2 dx
 ![](images/mathgpt.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
 
 ![](images/mathgpt2.png){.fragment fig-align="center" width="90%"}
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[LaTeX]{style="font-size: 1em"}
+
+[Actividad]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
+## 🎯 Actividad 1: Guía de ejercicios {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: panel-tabset
+### 📝 Instrucciones
+
+-   Elige un tema de tu especialidad (Matemáticas, Física, Química, etc.).
+-   Crea **3 ejercicios** con apoyo de un chatbot (ChatGPT, Gemini, etc.).
+-   Usa el [template en Overleaf](https://www.overleaf.com/read/qfrqrpxfqhkj#f66dd7) para escribir tu guía.
+-   Incluye **tablas**, **gráficos** y **notación matemática**.
+-   Entrega el PDF final o el link público de Overleaf.
+
+### 💡 Ejemplos
+
+> "Genera 3 ejercicios sobre cinemática con gráficos de velocidad y una tabla de datos."
+
+> "Crea preguntas de funciones cuadráticas con gráficos y justificación paso a paso en LaTeX."
+
+### 🔗 Herramientas
+
+-   [ChatGPT](https://chat.openai.com)
+-   [Gemini](https://gemini.google.com)
+-   [Meta AI](https://www.meta.ai/)
+-   [Perplexity](https://www.perplexity.ai)
+
+::: success
+📂 Revisa ejemplos listos en Overleaf: [Ver proyecto en línea](https://www.overleaf.com/read/qfrqrpxfqhkj#f66dd7)
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 🧑‍💼 Actividad 2: Crea tu currículum {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: panel-tabset
+### 📝 Instrucciones
+
+-   Usa el siguiente [template en Overleaf](https://www.overleaf.com/read/gxqqsjhzfvdc#f623dc) para crear tu CV.
+-   Completa las secciones básicas:
+    -   Nombre, título, contacto.
+    -   Educación.
+    -   Experiencia laboral o académica.
+    -   Habilidades o certificaciones.
+-   Personaliza con tu estilo y, si quieres, apóyate en un chatbot (como ChatGPT) para mejorar la redacción.
+
+### 💡 Ejemplos
+
+> "Ayúdame a redactar una descripción breve de mi rol como ayudante de laboratorio de física."
+
+> "Escribe una versión profesional de mi experiencia como profesor particular de matemáticas."
+
+### 🔗 Herramientas
+
+-   [ChatGPT](https://chat.openai.com)\
+-   [Gemini](https://gemini.google.com)\
+-   [Meta AI](https://www.meta.ai/)\
+-   [Perplexity](https://www.perplexity.ai)
+
+::: success
+📂 Revisa un ejemplo de currículum en Overleaf: [Ver proyecto en línea](https://www.overleaf.com/read/gxqqsjhzfvdc#f623dc)
+:::
 :::
 
 ------------------------------------------------------------------------

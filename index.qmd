@@ -24,7 +24,7 @@ output: html_document
     -   [EMMA Agosto 2025](prompts_chatgpt/presentacion_emma.html)
 
 -   🎤 [DMAT USM 2025 - ¡Adiós Word, Hola LaTeX!](latex_2025/presentacion.html): Crea documentos académicos profesionales con LaTeX, automatizando referencias y ecuaciones.
-    
+
     -   [EMMA Agosto 2025](latex_2025/presentacion_emma.html)
 
 -   🎤 [Pyday 2025 - Educación Abierta y Comunidad](comunidad_2025/presentacion.html): Crea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.
