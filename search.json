@@ -280,39 +280,11 @@
     "text": "LaTeX\nManos a la Obra"
   },
   {
-    "objectID": "latex_2025/presentacion_emma.html#ejemplo-1-conceptos-básicos",
-    "href": "latex_2025/presentacion_emma.html#ejemplo-1-conceptos-básicos",
+    "objectID": "latex_2025/presentacion_emma.html#ejemplos-conceptos-básicos",
+    "href": "latex_2025/presentacion_emma.html#ejemplos-conceptos-básicos",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "📝 Ejemplo 1: Conceptos Básicos",
-    "text": "📝 Ejemplo 1: Conceptos Básicos\n\nTeoríaCódigoSalida\n\n\nTodo documento LaTeX comienza con la declaración de clase (\\documentclass) y el uso de paquetes necesarios. Luego se definen el título, autor, fecha y el contenido del documento dentro del entorno \\begin{document} … \\end{document}.\n\n\n\\documentclass{article}\n\\usepackage{amsmath}\n\n\\begin{document}\n\\title{Ejemplo de Documento en \\LaTeX}\n\\author{Francisco Alfaro, Valeska Canales}\n\\date{\\today}\n\\maketitle\n\n\\section{Ecuaciones en \\LaTeX}\nEjemplo de una ecuación matemática:\n\n\\begin{equation}\nE = mc^2\n\\end{equation}\n\n\\end{document}"
-  },
-  {
-    "objectID": "latex_2025/presentacion_emma.html#ejemplo-2-tablas-bonitas",
-    "href": "latex_2025/presentacion_emma.html#ejemplo-2-tablas-bonitas",
-    "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "📚 Ejemplo 2: Tablas Bonitas",
-    "text": "📚 Ejemplo 2: Tablas Bonitas\n\nTeoríaCódigoSalida\n\n\nLaTeX permite crear tablas con gran precisión, controlando alineación, bordes, estilos y hasta fórmulas dentro de las celdas con paquetes como booktabs o array.\n\n\n\\documentclass{article}\n\\usepackage{booktabs}\n\n\\begin{document}\n\\section{Tabla con Estilo}\n\n\\begin{tabular}{lcr}\n\\toprule\nNombre & Edad & Ciudad \\\\\n\\midrule\nAna & 23 & Valparaíso \\\\\nLuis & 31 & Santiago \\\\\nValeska & 28 & Concepción \\\\\n\\bottomrule\n\\end{tabular}\n\n\\end{document}"
-  },
-  {
-    "objectID": "latex_2025/presentacion_emma.html#ejemplo-3-colores-y-texto",
-    "href": "latex_2025/presentacion_emma.html#ejemplo-3-colores-y-texto",
-    "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "🎨 Ejemplo 3: Colores y Texto",
-    "text": "🎨 Ejemplo 3: Colores y Texto\n\nTeoríaCódigoSalida\n\n\nCon el paquete xcolor, puedes usar colores en textos, resaltar conceptos o crear estilos visuales atractivos para presentaciones o informes.\n\n\n\\documentclass{article}\n\\usepackage{xcolor}\n\n\\begin{document}\n\n\\section*{Texto con Colores}\n\nEl texto puede ser \\textcolor{blue}{azul}, \\textcolor{red}{rojo}, o \\textbf{\\textcolor{orange}{resaltado}}.\n\nTambién se pueden definir colores personalizados:\n\\textcolor[rgb]{0.1,0.6,0.1}{Verde especial.}\n\n\\end{document}"
-  },
-  {
-    "objectID": "latex_2025/presentacion_emma.html#ejemplo-4-lógica-matemática",
-    "href": "latex_2025/presentacion_emma.html#ejemplo-4-lógica-matemática",
-    "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "🧠 Ejemplo 4: Lógica Matemática",
-    "text": "🧠 Ejemplo 4: Lógica Matemática\n\nTeoríaCódigoSalida\n\n\nLaTeX es ideal para escribir fórmulas matemáticas complejas, especialmente en lógica, álgebra o teoría de conjuntos, gracias a amsmath.\n\n\n\\documentclass{article}\n\\usepackage{amsmath}\n\n\\begin{document}\n\n\\section*{Lógica Proposicional}\n\nSea $P \\Rightarrow Q$ la implicación. Podemos expresar su tabla de verdad como:\n\n\\[\n\\begin{array}{c|c|c}\nP & Q & P \\Rightarrow Q \\\\\n\\hline\nV & V & V \\\\\nV & F & F \\\\\nF & V & V \\\\\nF & F & V \\\\\n\\end{array}\n\\]\n\n\\end{document}"
-  },
-  {
-    "objectID": "latex_2025/presentacion_emma.html#ejemplo-5-listas-personalizadas",
-    "href": "latex_2025/presentacion_emma.html#ejemplo-5-listas-personalizadas",
-    "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "📄 Ejemplo 5: Listas Personalizadas",
-    "text": "📄 Ejemplo 5: Listas Personalizadas\n\nTeoríaCódigoSalida\n\n\nLas listas ordenadas y no ordenadas se personalizan fácilmente con enumitem, permitiendo cambiar símbolos, márgenes, o incluso mezclar listas anidadas.\n\n\n\\documentclass{article}\n\\usepackage{enumitem}\n\n\\begin{document}\n\n\\section*{Lista con símbolo personalizado}\n\n\\begin{itemize}[label=\\textbullet] % También puedes usar: \\textendash, \\textasteriskcentered, etc.\n  \\item Primera tarea completada\n  \\item Segunda tarea pendiente\n  \\item Tercera tarea en progreso\n\\end{itemize}\n\n\\end{document}"
+    "section": "📝 Ejemplos: Conceptos Básicos",
+    "text": "📝 Ejemplos: Conceptos Básicos"
   },
   {
     "objectID": "latex_2025/presentacion_emma.html#section-2",
