@@ -251,7 +251,7 @@ with tab1:
 
     with col2:
         st.markdown("### 🖼️ Salida")
-        st.image(datos["imagen"], width=700)
+        st.image(datos["imagen"], width=650)
     
     st.success("📂 Puedes encontrar todos estos ejemplos en Overleaf: [Ver proyecto en línea](https://www.overleaf.com/read/ypdqgxpmzpzv#b87019)")
 
@@ -273,7 +273,7 @@ with tab2:
         if datos["imagen"] == "https://raw.githubusercontent.com/Seth-Nut/talks/refs/heads/main/latex_2025/images/example8.png":
             st.image(datos["imagen"], width=1000)
         else:
-            st.image(datos["imagen"], width=700)
+            st.image(datos["imagen"], width=650)
     
     st.success("📂 Puedes encontrar todos estos ejemplos en Overleaf: [Ver proyecto en línea](https://www.overleaf.com/read/ypdqgxpmzpzv#b87019)")
 
