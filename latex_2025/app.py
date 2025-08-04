@@ -2,13 +2,13 @@ import streamlit as st
 
 # Configuración general
 st.set_page_config(
-    page_title="EMMA USM 2025 - Ejemplos LaTeX",
+    page_title="EMMA USM 2025 - LaTeX",
     layout="wide",
     initial_sidebar_state="expanded",
     page_icon="📄",
 )
 
-st.title("👑 EMMA USM 2025 - Explorador de Prompts")
+st.title("👑 EMMA USM 2025 - LaTeX")
 
 # --- Ejemplos básicos ---
 ejemplos_basicos = {

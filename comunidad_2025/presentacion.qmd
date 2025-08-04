@@ -49,11 +49,10 @@ format:
 ::: {.column .fragment width="60%"}
 <br>
 
-- Talleres para estudiantes
-- Charlas en eventos académicos
-- Actividades para docentes
-- Encuentros sobre programación y matemáticas
-  
+-   Talleres para estudiantes
+-   Charlas en eventos académicos
+-   Actividades para docentes
+-   Encuentros sobre programación y matemáticas
 :::
 
 ::: {.column width="40%"}
@@ -73,66 +72,54 @@ format:
 ![](images/eventos/eventos_012.png){.fragment fig-align="center"}
 :::
 
+------------------------------------------------------------------------
 
----
+## ✅ Datos y Resultados {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
-## ✅ Datos y Resultados   {background-image="images/background.jpg" background-opacity="0.25" size="50%" }
+::: {.fragment style="display: flex; justify-content: center; align-items: center; padding: 1rem;"}
+<iframe src="images/pyvizzu/mystory3.html" width="1000" height="600" style="border: 4px solid #ccc; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.2);"></iframe>
+:::
 
+------------------------------------------------------------------------
 
-
-<div class="fragment" style="display: flex; justify-content: center; align-items: center; padding: 1rem;">
-  <iframe src="images/pyvizzu/mystory3.html" width="1000" height="600" style="border: 4px solid #ccc; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.2);"></iframe>
-</div>
-
-
----
-
-## 📝 Comentarios de los Participantes  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+## 📝 Comentarios de los Participantes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
 <br><br>
 
 ::: columns
 ::: {.column .fragment width="50%"}
-
-
-::: {.callout-note  title="Positivos"}
-- Las actividades prácticas  
-- La claridad de los temas  
-- La dinámica del instructor  
-- Los ejemplos planteados  
-- Buen ambiente de aprendizaje
+::: {.callout-note title="Positivos"}
+-   Las actividades prácticas\
+-   La claridad de los temas\
+-   La dinámica del instructor\
+-   Los ejemplos planteados\
+-   Buen ambiente de aprendizaje
+:::
 :::
 
-:::
 ::: {.column .fragment width="50%"}
-
-
-::: {.callout-important  title="Negativos"}
-- El ritmo fue muy rápido  
-- El contenido teórico extenso  
-- Poco tiempo para preguntas  
-- Necesidad de mayor profundidad  
-- Instrucciones algo confusas
-::: 
-
+::: {.callout-important title="Negativos"}
+-   El ritmo fue muy rápido\
+-   El contenido teórico extenso\
+-   Poco tiempo para preguntas\
+-   Necesidad de mayor profundidad\
+-   Instrucciones algo confusas
+:::
 :::
 :::
 
----
+------------------------------------------------------------------------
 
-
-## 💡 Lecciones Aprendidas  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+## 💡 Lecciones Aprendidas {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
 ::: columns
 ::: {.column .fragment width="60%"}
-
 <br><br>
 
-- Promover espacios participativos y abiertos 
-- Usar ejemplos claros y prácticos  
-- Ajustar el ritmo según la audiencia  
-- Fomentar el aprendizaje en comunidad
-
+-   Promover espacios participativos y abiertos
+-   Usar ejemplos claros y prácticos\
+-   Ajustar el ritmo según la audiencia\
+-   Fomentar el aprendizaje en comunidad
 :::
 
 ::: {.column width="40%"}
@@ -223,12 +210,12 @@ format:
 <br>
 
 ::: columns
-::: {.column  .fragment width="60%"}
+::: {.column .fragment width="60%"}
 <br>
 
--   Explicar ideas con código y visualizaciones 
--   Crear demos y apps con *Streamlit*  
--   Extensiones quarto: *Pyodide*, *Jupyter*, ...  
+-   Explicar ideas con código y visualizaciones
+-   Crear demos y apps con *Streamlit*\
+-   Extensiones quarto: *Pyodide*, *Jupyter*, ...\
 :::
 
 ::: {.column width="40%"}
@@ -243,8 +230,7 @@ format:
 ::: panel-tabset
 ## 🧮 Cálculo de IMC
 
-<div style="max-height: 300px; overflow: auto; border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
-
+::: {style="max-height: 300px; overflow: auto; border: 1px solid #ccc; padding: 1em; border-radius: 8px;"}
 ```{pyodide-python}
 def calcular_imc(peso, altura):
     return peso / (altura ** 2)
@@ -254,11 +240,11 @@ peso = 70  # kg
 altura = 1.75  # m
 print(f"Para un peso de {peso} kg y una altura de {altura} m, el IMC es {calcular_imc(peso, altura):.2f}")
 ```
-
-</div>
+:::
 
 ## 🐉 Gráfico de Pokémon
-<div style="max-height: 400px; overflow: auto; border: 1px solid #ccc; padding: 1em; border-radius: 8px;">
+
+::: {style="max-height: 400px; overflow: auto; border: 1px solid #ccc; padding: 1em; border-radius: 8px;"}
 ```{pyodide-python}
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -272,8 +258,7 @@ plt.title("Ataque vs Defensa de Pokémon")
 plt.tight_layout()
 plt.show()
 ```
-</div>
-
+:::
 :::
 
 ------------------------------------------------------------------------
@@ -291,7 +276,7 @@ plt.show()
 ## Quarto + Python + GitHub {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column  .fragment width="60%"}
+::: {.column .fragment width="60%"}
 <br>
 
 -   Usa **Quarto** para crear contenido reproducible (docs, libros, slides)
@@ -323,8 +308,6 @@ plt.show()
 > **Conoce más en:** 👉 [sethnut.com](https://sethnut.com)
 
 ------------------------------------------------------------------------
-
-
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -367,12 +350,12 @@ plt.show()
 ## 🌱 ¿Cómo puedo participar? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column  .fragment width="60%"}
+::: {.column .fragment width="60%"}
 <br><br>
 
--   Participa en talleres y actividades  
+-   Participa en talleres y actividades\
 -   Únete a comunidades como *Python Chile*
--   Comparte tus ideas y apoya a otros  
+-   Comparte tus ideas y apoya a otros\
 -   Crea o colabora en proyectos abiertos
 :::
 
