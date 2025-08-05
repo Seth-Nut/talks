@@ -309,7 +309,9 @@ print(f"{numero} es {resultado}")
 ```
 :::
 
-**Ejercicio 2: Verificar la paridad de 15** ::: {.panel-tabset}
+**Ejercicio 2: Verificar la paridad de 15**
+
+::: {.panel-tabset}
 
 ## Ejercicio
 
