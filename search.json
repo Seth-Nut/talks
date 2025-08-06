@@ -2800,60 +2800,11 @@
     "text": "📖 Large language Model\n\n\n\n\n🧠 Los LLMs generan lenguaje natural tras entrenarse con grandes volúmenes de texto.\n🤖 Se usan en chatbots, asistentes virtuales y tareas de procesamiento de lenguaje."
   },
   {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#características-llm",
-    "href": "prompts_chatgpt/presentacion_emma.html#características-llm",
-    "title": "No es Magia, es Ciencia",
-    "section": "📖 Características LLM",
-    "text": "📖 Características LLM\n\n\n\n\n📦 Entrenados con billones de parámetros y textos masivos\n🛠️ Adaptables a múltiples tareas (traducción, resumen, Q&A, etc.)\n🌍 Aplicables en dominios diversos: salud, educación, negocios"
-  },
-  {
     "objectID": "prompts_chatgpt/presentacion_emma.html#historia-de-los-llm",
     "href": "prompts_chatgpt/presentacion_emma.html#historia-de-los-llm",
     "title": "No es Magia, es Ciencia",
     "section": "⏳ Historia de los LLM",
     "text": "⏳ Historia de los LLM"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#desafío",
-    "href": "prompts_chatgpt/presentacion_emma.html#desafío",
-    "title": "No es Magia, es Ciencia",
-    "section": "🔥 Desafío",
-    "text": "🔥 Desafío\n\n¿Qué contiene la siguiente cadena de bits?\n00000000 00101010"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#section-1",
-    "href": "prompts_chatgpt/presentacion_emma.html#section-1",
-    "title": "No es Magia, es Ciencia",
-    "section": "",
-    "text": "00000000 00101010\nPodría ser el número 42 escrito en binario…"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#section-2",
-    "href": "prompts_chatgpt/presentacion_emma.html#section-2",
-    "title": "No es Magia, es Ciencia",
-    "section": "",
-    "text": "00000000 00101010\nPodría ser el carácter * en la convención ascii…"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#section-3",
-    "href": "prompts_chatgpt/presentacion_emma.html#section-3",
-    "title": "No es Magia, es Ciencia",
-    "section": "",
-    "text": "00000000 00101010 00000101 00000101 00000101 00000101\nPodría ser parte de un número decimal, 0.4523 o \\(\\pi\\)…"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#section-4",
-    "href": "prompts_chatgpt/presentacion_emma.html#section-4",
-    "title": "No es Magia, es Ciencia",
-    "section": "",
-    "text": "10000101 00100001 01000111 00001000 00101010 01000101 11111111 11001101 01000111 00000101 00000101 01110111\nPodría ser parte de un archivo multimedia (video, imagen, audio, etc.)…"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#representación",
-    "href": "prompts_chatgpt/presentacion_emma.html#representación",
-    "title": "No es Magia, es Ciencia",
-    "section": "Representación",
-    "text": "Representación\n\n\n\n\nTODO en el computador son bits\nrepresentación = bits + contexto"
   },
   {
     "objectID": "prompts_chatgpt/presentacion_emma.html#cómo-representar-una-palabra",
@@ -2877,36 +2828,22 @@
     "text": "🧠 Representación semántica\n\n\n\n\nSemántica significa el sentido o significado de las palabras.\nNecesitamos guardarla como un todo o dividirla en partes con sentido (tokens)."
   },
   {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#aprendizajes",
-    "href": "prompts_chatgpt/presentacion_emma.html#aprendizajes",
-    "title": "No es Magia, es Ciencia",
-    "section": "💡 Aprendizajes",
-    "text": "💡 Aprendizajes\n\n\nPalabra ≠ Token\nCada token tiene un ID único\n\nEn inglés, 100 tokens ≈ 75 palabras\n\nDos palabras iguales pueden tener tokens distintos, según el contexto"
-  },
-  {
     "objectID": "prompts_chatgpt/presentacion_emma.html#diagrama-técnico-de-un-llm",
     "href": "prompts_chatgpt/presentacion_emma.html#diagrama-técnico-de-un-llm",
-    "title": "No es Magia, es Ciencia",
-    "section": "⚙️ Diagrama técnico de un LLM",
-    "text": "⚙️ Diagrama técnico de un LLM\nDiagrama de funcionamiento de un LLM que se filtró de OpenAI:\n¡¡¡No difundir!!!"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#diagrama-técnico-de-un-llm-1",
-    "href": "prompts_chatgpt/presentacion_emma.html#diagrama-técnico-de-un-llm-1",
     "title": "No es Magia, es Ciencia",
     "section": "⚙️ Diagrama técnico de un LLM",
     "text": "⚙️ Diagrama técnico de un LLM"
   },
   {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#aprendizajes-1",
-    "href": "prompts_chatgpt/presentacion_emma.html#aprendizajes-1",
+    "objectID": "prompts_chatgpt/presentacion_emma.html#aprendizajes",
+    "href": "prompts_chatgpt/presentacion_emma.html#aprendizajes",
     "title": "No es Magia, es Ciencia",
     "section": "💡 Aprendizajes",
-    "text": "💡 Aprendizajes\n\n\nEl LLM no reflexiona, solo predice el token más probable.\n\nLa predicción es secuencial, token por token.\n\nNo tiene memoria: siempre parte desde cero."
+    "text": "💡 Aprendizajes\n\n\n✅ El texto se convierte en bits con ASCII o UTF-8. ✅ Las palabras se representan con tokens. ✅ Los LLM aprenden patrones del lenguaje. ✅ Predicen palabras una por una, sin entender. ✅ Se usan en asistentes y chatbots."
   },
   {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#section-7",
-    "href": "prompts_chatgpt/presentacion_emma.html#section-7",
+    "objectID": "prompts_chatgpt/presentacion_emma.html#section-3",
+    "href": "prompts_chatgpt/presentacion_emma.html#section-3",
     "title": "No es Magia, es Ciencia",
     "section": "",
     "text": "No es Magia, es Ciencia\n¿Qué son los Prompts?"
@@ -2975,8 +2912,8 @@
     "text": "♟️Técnicas para Mejorar los Prompts"
   },
   {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#section-10",
-    "href": "prompts_chatgpt/presentacion_emma.html#section-10",
+    "objectID": "prompts_chatgpt/presentacion_emma.html#section-6",
+    "href": "prompts_chatgpt/presentacion_emma.html#section-6",
     "title": "No es Magia, es Ciencia",
     "section": "",
     "text": "No es Magia, es Ciencia\nUna mirada crítica a los LLMs"
@@ -2996,8 +2933,8 @@
     "text": "⚖️ Ética en el Uso de la A.I."
   },
   {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#section-13",
-    "href": "prompts_chatgpt/presentacion_emma.html#section-13",
+    "objectID": "prompts_chatgpt/presentacion_emma.html#section-9",
+    "href": "prompts_chatgpt/presentacion_emma.html#section-9",
     "title": "No es Magia, es Ciencia",
     "section": "",
     "text": "No es Magia, es Ciencia\nActividad"
@@ -3010,8 +2947,8 @@
     "text": "🤖 Actividad: Matemáticas + Python\n\n\n\n\n\n\n\nObjetivo\n\n\nUsar un chatbot como ChatGPT para resolver problemas de matemáticas programados en Python.\n\n\n\n\n\nLee el enunciado y trata de resolverlo en código.\nPregunta a una IA como ChatGPT:\n\n“¿Cómo puedo resolver este problema en Python?”\n\nCompara tu solución con la de la IA y analiza posibles mejoras.\n\n\n👉 Ver actividad completa"
   },
   {
-    "objectID": "prompts_chatgpt/presentacion_emma.html#section-14",
-    "href": "prompts_chatgpt/presentacion_emma.html#section-14",
+    "objectID": "prompts_chatgpt/presentacion_emma.html#section-10",
+    "href": "prompts_chatgpt/presentacion_emma.html#section-10",
     "title": "No es Magia, es Ciencia",
     "section": "",
     "text": "No es Magia, es Ciencia\nConclusiones"
@@ -3021,7 +2958,7 @@
     "href": "prompts_chatgpt/presentacion_emma.html#conclusiones",
     "title": "No es Magia, es Ciencia",
     "section": "💡Conclusiones",
-    "text": "💡Conclusiones\n\n\n🤔 Entender la importancia de los prompts: Un buen diseño de prompts es clave para obtener respuestas más precisas y útiles al interactuar con modelos de lenguaje como ChatGPT.\n🌱 Aplicaciones y uso responsable: Los modelos de lenguaje tienen un gran potencial, pero es crucial utilizarlos de manera ética y responsable.\n🚀 Evolución y futuro de los LLM: La IA conversacional sigue mejorando, y los avances esperados tendrán un gran impacto en cómo interactuamos con la tecnología en el futuro."
+    "text": "💡Conclusiones\n\n\n\n🤔 Entender la importancia de los prompts: Un buen diseño de prompts es clave para obtener respuestas más precisas y útiles al interactuar con modelos de lenguaje como ChatGPT.\n🌱 Aplicaciones y uso responsable: Los modelos de lenguaje tienen un gran potencial, pero es crucial utilizarlos de manera ética y responsable.\n🚀 Evolución y futuro de los LLM: La IA conversacional sigue mejorando, y los avances esperados tendrán un gran impacto en cómo interactuamos con la tecnología en el futuro."
   },
   {
     "objectID": "prompts_chatgpt/presentacion_emma.html#gracias-por-participar",
