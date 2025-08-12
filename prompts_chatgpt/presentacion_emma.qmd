@@ -216,13 +216,58 @@ mostrar_codificacion("emma 25")
 [¿Qué son los Prompts?]{style="font-size: 1.5em"}
 :::
 
+
+------------------------------------------------------------------------
+
+## 📝 Qué son los Prompts? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.fragment }
+Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje, como **ChatGPT**, para generar una **respuesta** o realizar una **tarea específica**. Pueden ser preguntas, frases o directrices que guían el modelo hacia el resultado deseado.
+:::
+
+
+::: {style="text-align: center;"}
+<img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+## 📝 Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.fragment }
+**Pregunta directa**: "¿Qué es la inteligencia artificial?"
+
+**Instrucción**: "Escribe una historia corta sobre un viaje al espacio."
+
+**Comando**: "Genera un código Python para calcular el promedio de una lista."
+:::
+
+::: {style="text-align: center;"}
+<img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"/>
+:::
+
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: {style="text-align: center;"}
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
+
+</iframe>
+:::
+
+
 ------------------------------------------------------------------------
 
 ## 🤖 Asistentes Virtuales Inteligentes {background-image="images/background.jpg" background-opacity="0.25"}
 
-<br><br>
+<br>
 
-Los **asistentes virtuales** impulsados por **IA** facilitan la comunicación, automatización y soporte en diversas industrias.
+::: {.fragment }
+Los **asistentes virtuales** impulsados por **IA** suelen usar **LLMs** para comprender y generar lenguaje natural, lo que mejora su capacidad de comunicación, automatización y soporte en distintas industrias.
+::: 
 
 ::: {style="text-align: center;"}
 <img src="images/chat_013.png" alt="Tachado" style="width: 30%; border-radius: 10px;"/>
@@ -233,7 +278,7 @@ Los **asistentes virtuales** impulsados por **IA** facilitan la comunicación, a
 ## 🤖 Asistentes Virtuales Inteligentes {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column .incremental width="60%"}
+::: {.column .fragment width="60%"}
 <br><br>
 
 **Asistentes más destacados**:
@@ -265,50 +310,15 @@ Los **asistentes virtuales** impulsados por **IA** facilitan la comunicación, a
 ::: {.column .incremental width="60%"}
 <br>
 
--   🎓 **Educación**: Tutor virtual.\
+-   🎓 **Educación**: Tutor virtual.
 -   🩺 **Salud**: Asistencia en consultas.\
 -   📝 **Contenido**: Redacción y resumen.\
 -   💻 **Software**: Generación/corrección código.\
 -   💬 **Cliente**: Respuestas automáticas.
+
+
 :::
 :::
-
-------------------------------------------------------------------------
-
-## 📝 Prompts en ChatGPT {background-image="images/background.jpg" background-opacity="0.25"}
-
-Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje, como **ChatGPT**, para generar una **respuesta** o realizar una **tarea específica**. Pueden ser preguntas, frases o directrices que guían el modelo hacia el resultado deseado.
-
-::: {style="text-align: center;"}
-<img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"/>
-:::
-
-------------------------------------------------------------------------
-
-## 📝 Prompts en ChatGPT {background-image="images/background.jpg" background-opacity="0.25"}
-
-**Pregunta directa**: "¿Qué es la inteligencia artificial?"
-
-**Instrucción**: "Escribe una historia corta sobre un viaje al espacio."
-
-**Comando**: "Genera un código Python para calcular el promedio de una lista."
-
-::: {style="text-align: center;"}
-<img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"/>
-:::
-
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-
-::: {style="text-align: center;"}
-<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
-
-</iframe>
-:::
-
 
 ------------------------------------------------------------------------
 
@@ -498,11 +508,11 @@ Usar un chatbot como ChatGPT para resolver problemas de matemáticas programados
 <br>
 
 ::: {.fragment }
--   🤔 **Entender la importancia de los prompts**: Un buen diseño de prompts es clave para obtener respuestas más precisas y útiles al interactuar con modelos de lenguaje como ChatGPT.
+-   ✅  **Entender la importancia de los prompts**: Un buen diseño de prompts es clave para obtener respuestas más precisas y útiles al interactuar con modelos de lenguaje como ChatGPT.
 
--   🌱 **Aplicaciones y uso responsable**: Los modelos de lenguaje tienen un gran potencial, pero es crucial utilizarlos de manera ética y responsable.
+-   ✅ **Aplicaciones y uso responsable**: Los modelos de lenguaje tienen un gran potencial, pero es crucial utilizarlos de manera ética y responsable.
 
--   🚀 **Evolución y futuro de los LLM**: La IA conversacional sigue mejorando, y los avances esperados tendrán un gran impacto en cómo interactuamos con la tecnología en el futuro.
+-   ✅  **Evolución y futuro de los LLM**: La IA conversacional sigue mejorando, y los avances esperados tendrán un gran impacto en cómo interactuamos con la tecnología en el futuro.
 :::
 
 ------------------------------------------------------------------------
