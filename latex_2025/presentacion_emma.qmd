@@ -19,11 +19,32 @@ format:
 ::: r-stack
 <br>
 
-![](images/demo1.jpeg){.fragment .fade-in-then-out fig-align="center" width="50%"}
+![](images/intro1.jpeg){.fragment .fade-in-then-out fig-align="center" width="50%"}
 
-![](images/demo2.jpeg){.fragment .fade-in-then-out fig-align="center" width="50%"}
+![](images/intro2.jpeg){.fragment .fade-in-then-out fig-align="center" width="50%"}
 
-![](images/demo3.jpeg){.fragment fig-align="center" width="50%"}
+![](images/latexword2.jpg){.fragment fig-align="center" width="75%"}
+:::
+
+------------------------------------------------------------------------
+
+## 🎯 Objetivos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/intro3.jpeg" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+- **Conocer LaTeX**: Qué es y por qué usarlo frente a otros editores.\
+- **Primeros pasos**: Crear, compilar y estructurar un documento básico.\
+- **Elementos clave**: Texto, secciones, listas, imágenes y fórmulas.\
+- **Buenas prácticas**: Organización, plantillas y recursos recomendados.
+:::
 :::
 
 ------------------------------------------------------------------------
@@ -33,7 +54,7 @@ format:
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [LaTeX]{style="font-size: 1em"}
 
-[¿ Qué es LaTeX?]{style="font-size: 1.5em"}
+[¿Qué es y por qué usarlo?]{style="font-size: 1.5em"}
 :::
 
 ------------------------------------------------------------------------
@@ -52,9 +73,10 @@ format:
 
 -   **¿Qué es LaTeX?**
     -   Sistema para crear documentos académicos y científicos con formato profesional.
--   **¿Por qué usarlo?**
-    -   Automatiza referencias y ecuaciones.\
-    -   Ofrece mayor control sobre formato y estructura.
+- **Ventajas**:  
+    - Automatiza referencias, citas y ecuaciones.  
+    - Control total sobre formato y estructura.  
+    - Ideal para documentos extensos y complejos.
 :::
 :::
 
@@ -62,23 +84,34 @@ format:
 
 ## Ejemplos de LaTeX {background-image="images/background.jpg" background-opacity="0.25"}
 
-<br> <br>
 
 ::: r-stack
-![](images/latex1.svg){.fragment .fade-in-then-out fig-align="center" style="width: 100%;" height="auto"}
 
-![](images/latex2.svg){.fragment .fade-in-then-out fig-align="center" style="width: 100%;"}
-
-![](images/latex3.svg){.fragment fig-align="center" style="width: 100%;"}
+::: {.fragment .fade-in-then-out}
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/6iH5QPCL3w1qwm?startSlide=1"
+        width="960" height="600" frameborder="0" scrolling="no"
+        style="max-width:100%; border:1px solid #CCC; border-radius:10px;"
+        allowfullscreen></iframe>
 :::
 
-------------------------------------------------------------------------
-
-## Word vs LaTeX {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: r-stack
-![](images/latexword2.jpg){.fragment fig-align="center" width="75%"}
+::: {.fragment .fade-in-then-out}
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/eUNDWTAdYMfD7M?hostedIn=slideshare&page=upload"
+        width="960" height="600" frameborder="0" scrolling="no"
+        style="max-width:100%; border:1px solid #CCC; border-radius:10px;"
+        allowfullscreen></iframe>
 :::
+
+
+::: {.fragment}
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/tkQohqCfNlexT1?startSlide=1"
+        width="960" height="600" frameborder="0" scrolling="no"
+        style="max-width:100%; border:1px solid #CCC; border-radius:10px;"
+        allowfullscreen></iframe>
+:::
+:::
+
+
+
 
 ------------------------------------------------------------------------
 
@@ -94,14 +127,20 @@ format:
 ::: {.column .incremental width="60%"}
 <br>
 
--   **Editor recomendado:**
-    -   Overleaf (en línea, sin instalación)
--   **Instalaciones locales:**
-    -   TeXLive, MiKTeX, MacTeX
--   **Editores útiles:**
-    -   TeXstudio, VSCode + LaTeX Workshop
+- **Editor recomendado:**
+  - [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*  
+
+- **Instalaciones locales:**
+  - [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)  
+
+- **Editores útiles:**
+  - [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)  
 :::
 :::
+
+. . .
+
+> 🌿 En este taller nos centraremos en [Overleaf](https://www.overleaf.com/), fácil y en línea.
 
 ------------------------------------------------------------------------
 
@@ -124,6 +163,23 @@ format:
     -   Integración con GitHub y la nube.\
     -   Compilación y previsualización instantánea.\
 :::
+:::
+
+. . .
+
+> 🌿 Para este taller, crea tu cuenta gratuita en [Overleaf](https://www.overleaf.com/).
+
+------------------------------------------------------------------------
+
+## Ejemplos en Overleaf {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/overleaf1.jpg){.fragment .fade-in-then-out fig-align="center" width="90%"}
+
+
+![](images/ovealeaf2.png){.fragment fig-align="center" width="75%"}
 :::
 
 ------------------------------------------------------------------------

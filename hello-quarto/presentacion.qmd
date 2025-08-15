@@ -1,0 +1,127 @@
+---
+pagetitle: "Hola Quarto"
+format: 
+  revealjs: 
+    theme: style.scss
+    transition: fade
+    height: 900
+    width: 1600
+    fontcolor: "#262d36"
+    highlight-style: a11y
+    code-line-numbers: false
+    logo: images/usm.png
+editor: visual
+---
+
+##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
+
+[Hola Quarto]{.custom-title}
+
+[compartir • colaborar • enseñar • reimaginar]{.custom-subtitle}
+
+[Francisco Alfaro Medina <br> Valeska Canales Pozo]{.custom-author} 
+
+[[https://sethnut.com/talks/](https://sethnut.com/talks/)]{.custom-url}
+
+
+
+
+# Hola, Quarto ? {.title-top-light background-image="images/horst-quarto-meteor-transparent.png" }
+
+##  {#collaborate-intro .center data-menu-title="Collaborate Intro"}
+
+::: columns
+::: {.column width="20%"}
+![](images/horst_penguins_nametag_julie.png){fig-alt="Penguin with nametag that says \"Julie\""}
+:::
+
+::: {.column width="80%"}
+![](images/2-collaborate/lowndes_venn_science.svg)
+:::
+:::
+
+##  {#share-intro .center data-menu-title="Share Intro"}
+
+::: columns
+::: {.column width="70%"}
+![](images/1-share/mine-venn.svg){fig-alt="A Venn diagram with three circles -- education, research, and development. At the intersection is a blue heart with the word compassion."}
+:::
+
+::: {.column width="30%"}
+![](images/horst_penguins_nametag_mine.png){fig-alt="Penguin with nametag that says \"Mine\""}
+:::
+:::
+
+
+##  {#publishing-system-1 .centered data-menu-title="Sistema de publicación 1" background-color="#0F1620" auto-animate="true"}
+
+::: {style="margin-top: 100px; font-size: 2.5em; color: #75AADB;"}
+Quarto es un sistema abierto de<br> publicación científica y técnica
+:::
+
+
+##  {#publishing-system-2 .centered data-menu-title="Sistema de publicación 2" background-color="#0F1620" auto-animate="true"}
+
+::: {style="margin-top: 50px; font-size: 2em; color: #75AADB"}
+Quarto es un sistema abierto de<br> publicación científica y técnica
+:::
+
+::: midi
+**el objetivo es hacer que el proceso de creación**<br> y colaboración sea drásticamente mejor
+:::
+
+::: {.fragment .fade-up}
+![](images/horst_quarto_schematic.png){fig-align="center" width="1100px" fig-alt="Un esquema que representa la versatilidad de Quarto para entrada multilenguaje (por ejemplo, Python, R, Observable, Julia) y salida multi-formato (por ejemplo, PDF, HTML, documentos Word y más)."}
+:::
+
+
+##  {#outline-1 .centered data-menu-title="Esquema 1" auto-animate="true"}
+
+![](images/outline-1.png){fig-alt="Logo de Quarto con dos cuadrantes etiquetados como Compartir y Enseñar, con un pingüino azul al lado."}
+
+
+##  {#outline-2 .centered data-menu-title="Esquema 2" auto-animate="true"}
+
+![](images/outline-2.png){fig-alt="Logo de Quarto con dos cuadrantes etiquetados como Colaborar y Reimaginar, con un pingüino naranja al lado."}
+
+
+##  {#outline-3 .centered data-menu-title="Esquema 3" auto-animate="true"}
+
+![](images/outline-3.png){fig-alt="Logo de Quarto con los cuatro cuadrantes etiquetados como Compartir, Colaborar, Enseñar y Reimaginar."}
+
+
+# Compartir {.title-middle-dark background-image="images/horst_quarto_penguins_share.png"  data-state="no-logo"}
+
+
+# Colaborar {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo" }
+
+
+# Enseñar {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
+
+# Reimaginar {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo" }
+
+
+# ¡Gracias! {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
+
+## 🎉 ¡Gracias por Participar! 
+
+
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓¿Preguntas?
+
+👏 Responder [encuesta](https://forms.gle/WMYcViob6Z6WbPZD7)
+
+🥳 Disfrutar del Evento!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr.png){width="400"}
+:::
+:::
+
+
+> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)

@@ -24,7 +24,7 @@ $code-block-font-size: 0.9em;
 .reveal .custom-subtitle {
   font-family: 'Delius Unicase', cursive;
   color: #d2e3f3;
-  font-size: 1.2em;
+  font-size: 1em;
   position: absolute; 
   left: 20px; 
   top: 200px
@@ -111,7 +111,7 @@ $code-block-font-size: 0.9em;
 
 .reveal .title-top-dark h1 {
   font-family: 'Delius Unicase', cursive;
-  color: #0F1620;
+  color: #18488b;
   font-size: 3em;
   position: absolute; 
   left: 20px; 
@@ -120,10 +120,20 @@ $code-block-font-size: 0.9em;
 
 .reveal .title-middle-dark h1 {
   font-family: 'Delius Unicase', cursive;
-  color: #0F1620;
+  color: #18488b;
   font-size: 3em;
   position: absolute; 
   left: 5px; 
+  top: 0px
+}
+
+
+.reveal .title-middle-dark2 h1 {
+  font-family: 'Delius Unicase', cursive;
+  color: #18488b;
+  font-size: 5em;
+  position: absolute; 
+  left: 8px; 
   top: 0px
 }
 
@@ -307,4 +317,12 @@ $code-block-font-size: 0.9em;
   font-size: 0.35em !important;
   margin-left: 0.5em;
   text-align: right !important;
+}
+
+.reveal .slide-logo {
+   max-height: 2.5em !important;
+}
+
+.no-logo .slide-logo {
+  display: none !important;
 }
