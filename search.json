@@ -4119,8 +4119,8 @@
     "objectID": "latex_2025/presentacion_emma.html#te-ha-pasado-esto",
     "href": "latex_2025/presentacion_emma.html#te-ha-pasado-esto",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "🖼️ ¿Te ha pasado esto?",
-    "text": "🖼️ ¿Te ha pasado esto?"
+    "section": "📝 ¿Te ha pasado esto?",
+    "text": "📝 ¿Te ha pasado esto?"
   },
   {
     "objectID": "latex_2025/presentacion_emma.html#objetivos",
@@ -4161,8 +4161,8 @@
     "objectID": "latex_2025/presentacion_emma.html#overleaf-latex-online",
     "href": "latex_2025/presentacion_emma.html#overleaf-latex-online",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "📝 Overleaf: LaTeX Online",
-    "text": "📝 Overleaf: LaTeX Online\n\n\n\n\n\n\n\n\n¿Qué es?\n\nPlataforma en línea para escribir y compilar documentos en LaTeX sin instalación.\n\n¿Por qué usarlo?\n\nEdición colaborativa en tiempo real.\n\nIntegración con GitHub y la nube.\n\nCompilación y previsualización instantánea.\n\n\n\n\n\n\n🌿 Para este taller, crea tu cuenta gratuita en Overleaf."
+    "section": "Overleaf: LaTeX Online",
+    "text": "Overleaf: LaTeX Online\n\n\n\n\n\n\n\n\n¿Qué es?\n\nPlataforma en línea para escribir y compilar documentos en LaTeX sin instalación.\n\n¿Por qué usarlo?\n\nEdición colaborativa en tiempo real.\n\nIntegración con GitHub y la nube.\n\nCompilación y previsualización instantánea.\n\n\n\n\n\n\n🌿 Para este taller, crea tu cuenta gratuita en Overleaf."
   },
   {
     "objectID": "latex_2025/presentacion_emma.html#ejemplos-en-overleaf",
@@ -4179,29 +4179,36 @@
     "text": "LaTeX\nManos a la Obra"
   },
   {
-    "objectID": "latex_2025/presentacion_emma.html#section-3",
-    "href": "latex_2025/presentacion_emma.html#section-3",
+    "objectID": "latex_2025/presentacion_emma.html#actividad-proyecto-en-overleaf",
+    "href": "latex_2025/presentacion_emma.html#actividad-proyecto-en-overleaf",
+    "title": "¡Adiós Word, Hola LaTeX!",
+    "section": "📄 Actividad: Proyecto en Overleaf",
+    "text": "📄 Actividad: Proyecto en Overleaf\n\n\n\n\n\n\n\n\nNuevo proyecto en Overleaf.\nCopia la plantilla.\nEdita: título, sección, imagen, ecuación y tabla.\nCompila y revisa.\n(Extra) Añade cita y bibliografía."
+  },
+  {
+    "objectID": "latex_2025/presentacion_emma.html#section-2",
+    "href": "latex_2025/presentacion_emma.html#section-2",
     "title": "¡Adiós Word, Hola LaTeX!",
     "section": "",
-    "text": "LaTeX\n¿Qué más se puede hacer con LaTeX?"
+    "text": "LaTeX\nExplora y aprende con plantillas"
   },
   {
-    "objectID": "latex_2025/presentacion_emma.html#qué-más-se-puede-hacer-con-latex",
-    "href": "latex_2025/presentacion_emma.html#qué-más-se-puede-hacer-con-latex",
+    "objectID": "latex_2025/presentacion_emma.html#overleaf-gallery",
+    "href": "latex_2025/presentacion_emma.html#overleaf-gallery",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "¿Qué más se puede hacer con LaTeX?",
-    "text": "¿Qué más se puede hacer con LaTeX?\n\n\n\n\n\n\n\n\nMucho más que informes:\n\nPresentaciones profesionales (beamer)\nCarteles científicos (beamerposter)\nCurrículums vitae (moderncv, awesome-cv)\nTesis, libros, cartas y exámenes\nDiagramas con TikZ\nCertificados y pósters personalizados"
+    "section": "Overleaf Gallery",
+    "text": "Overleaf Gallery\n\n\n\n\n\n\n\n\nPlantillas listas para usar:\n\nArtículos, tesis, pósters y presentaciones.\n\nAprende explorando:\n\nAbre una plantilla y estudia su código.\n\nPersonaliza y reutiliza:\n\nCambia texto, imágenes y estilo.\n\n\n\n\n\n🌿 Veamos algunos ejemplos en Overleaf Gallery."
   },
   {
-    "objectID": "latex_2025/presentacion_emma.html#qué-más-se-puede-hacer-con-latex-1",
-    "href": "latex_2025/presentacion_emma.html#qué-más-se-puede-hacer-con-latex-1",
+    "objectID": "latex_2025/presentacion_emma.html#ejemplos-de-plantillas",
+    "href": "latex_2025/presentacion_emma.html#ejemplos-de-plantillas",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "¿Qué más se puede hacer con LaTeX?",
-    "text": "¿Qué más se puede hacer con LaTeX?"
+    "section": "Ejemplos de plantillas",
+    "text": "Ejemplos de plantillas"
   },
   {
-    "objectID": "latex_2025/presentacion_emma.html#section-5",
-    "href": "latex_2025/presentacion_emma.html#section-5",
+    "objectID": "latex_2025/presentacion_emma.html#section-3",
+    "href": "latex_2025/presentacion_emma.html#section-3",
     "title": "¡Adiós Word, Hola LaTeX!",
     "section": "",
     "text": "LaTeX\nMás Herramientas"
@@ -4210,61 +4217,47 @@
     "objectID": "latex_2025/presentacion_emma.html#herramientas-útiles",
     "href": "latex_2025/presentacion_emma.html#herramientas-útiles",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "🛠️ Herramientas Útiles",
-    "text": "🛠️ Herramientas Útiles\n\n\n\n\n\n\n\n\n📊 Tables Generator\nCrea y exporta fácilmente tablas en formato LaTeX, HTML o Markdown.\n🔢 LaTeX Equation Editor\nGenera ecuaciones LaTeX con vista previa en tiempo real.\n🧾 BibTeX Editor\nCrea referencias bibliográficas en formato BibTeX.\n🧠 Detexify\nDibuja un símbolo y encuentra su comando LaTeX."
+    "section": "Herramientas Útiles",
+    "text": "Herramientas Útiles\n\n\n\n\n\n\n\n\n\n📊 Tables Generator\nCrea y exporta fácilmente tablas en formato LaTeX.\n🔢 LaTeX Equation Editor\nGenera ecuaciones LaTeX en tiempo real.\n🧾 BibTeX Editor\nCrea referencias bibliográficas en formato BibTeX.\n🧠 Detexify\nDibuja un símbolo y encuentra su comando LaTeX."
   },
   {
-    "objectID": "latex_2025/presentacion_emma.html#herramientas-útiles-1",
-    "href": "latex_2025/presentacion_emma.html#herramientas-útiles-1",
+    "objectID": "latex_2025/presentacion_emma.html#ejemplos-de-herramientas-útiles",
+    "href": "latex_2025/presentacion_emma.html#ejemplos-de-herramientas-útiles",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "🛠️ Herramientas Útiles",
-    "text": "🛠️ Herramientas Útiles"
+    "section": "Ejemplos de herramientas útiles",
+    "text": "Ejemplos de herramientas útiles"
   },
   {
     "objectID": "latex_2025/presentacion_emma.html#latex-inteligencia-artificial",
     "href": "latex_2025/presentacion_emma.html#latex-inteligencia-artificial",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "🤖 LaTeX + Inteligencia Artificial",
-    "text": "🤖 LaTeX + Inteligencia Artificial\n\n\n\n\n\n\n\n\n💬 ChatGPT te ayuda a:\n\nEscribir y corregir código LaTeX.\nCorregir errores y mejorar el formato.\nGenerar ecuaciones, tablas, referencias y figuras.\n\n🧠 Modelos como MathGPT:\n\nInterpretan LaTeX\nResuelven matemáticas paso a paso."
+    "section": "LaTeX + Inteligencia Artificial",
+    "text": "LaTeX + Inteligencia Artificial\n\n\n\n\n\n\n\n\nChatGPT, Gemini, Claude:\n\nGeneran y corrigen código LaTeX.\nCrean ecuaciones, tablas y bibliografía.\nExplican comandos y paquetes.\nMejoran el formato y detectan errores.\n\n\n\n\n\n🤖 Consejo: usa prompts claros, incluye tu código y pide explicaciones paso a paso."
   },
   {
-    "objectID": "latex_2025/presentacion_emma.html#latex-inteligencia-artificial-1",
-    "href": "latex_2025/presentacion_emma.html#latex-inteligencia-artificial-1",
+    "objectID": "latex_2025/presentacion_emma.html#ejemplos-de-prompts",
+    "href": "latex_2025/presentacion_emma.html#ejemplos-de-prompts",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "🤖 LaTeX + Inteligencia Artificial",
-    "text": "🤖 LaTeX + Inteligencia Artificial\n\nPrompt 1Prompt 2Prompt 3\n\n\n\n\n✨ Ejemplo de prompt:\n“Escríbeme la fórmula cuadrática”\n\n✅ Esperado:\n¡Por supuesto! Aquí tienes la fórmula cuadrática escrita en LaTeX:\nx = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n\n\n\n\n\n✨ Ejemplo de prompt:\n\n“Haz una tabla de derivadas básicas en latex”\n\n\n✅ Esperado:\n\\begin{tabular}{|c|c|}\n\\hline\n\\textbf{Función} & \\textbf{Derivada} \\\\\n\\hline\n$c$ & $0$ \\\\\n$x$ & $1$ \\\\\n$x^n$ & $nx^{n-1}$ \\\\\n$\\sqrt{x}$ & $\\dfrac{1}{2\\sqrt{x}}$ \\\\\n...\n\\hline\n\\end{tabular}\n\n\n\n\n\n✨ Ejemplo de prompt:\n“Estoy tratando de compilar esta ecuación en LaTeX, pero me da error. ¿Me puedes ayudar?”\n\\begin{equation}\nf(x) = \\int_0^\\infty e^-x^2 dx\n\\end{equation}\n\n✅ Esperado:\n❌ e^-x^2 está mal escrito. Falta agrupar el exponente con llaves.\n❌ Se recomienda escribir \\,dx para buena tipografía."
+    "section": "Ejemplos de Prompts",
+    "text": "Ejemplos de Prompts\n\nPrompt 1Prompt 2Prompt 3\n\n\n\n\n✨ Ejemplo de prompt:\n“Escríbeme la fórmula cuadrática”\n\n✅ Esperado:\n¡Por supuesto! Aquí tienes la fórmula cuadrática escrita en LaTeX:\nx = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n\n\n\n\n\n✨ Ejemplo de prompt:\n\n“Haz una tabla de derivadas básicas en latex”\n\n\n✅ Esperado:\n\\begin{tabular}{|c|c|}\n\\hline\n\\textbf{Función} & \\textbf{Derivada} \\\\\n\\hline\n$c$ & $0$ \\\\\n$x$ & $1$ \\\\\n$x^n$ & $nx^{n-1}$ \\\\\n$\\sqrt{x}$ & $\\dfrac{1}{2\\sqrt{x}}$ \\\\\n...\n\\hline\n\\end{tabular}\n\n\n\n\n\n✨ Ejemplo de prompt:\n“Estoy tratando de compilar esta ecuación en LaTeX, pero me da error. ¿Me puedes ayudar?”\n\\begin{equation}\nf(x) = \\int_0^\\infty e^-x^2 dx\n\\end{equation}\n\n✅ Esperado:\n❌ e^-x^2 está mal escrito. Falta agrupar el exponente con llaves.\n❌ Se recomienda escribir \\,dx para buena tipografía."
   },
   {
-    "objectID": "latex_2025/presentacion_emma.html#latex-inteligencia-artificial-2",
-    "href": "latex_2025/presentacion_emma.html#latex-inteligencia-artificial-2",
-    "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "🤖 LaTeX + Inteligencia Artificial",
-    "text": "🤖 LaTeX + Inteligencia Artificial"
-  },
-  {
-    "objectID": "latex_2025/presentacion_emma.html#section-6",
-    "href": "latex_2025/presentacion_emma.html#section-6",
+    "objectID": "latex_2025/presentacion_emma.html#section-4",
+    "href": "latex_2025/presentacion_emma.html#section-4",
     "title": "¡Adiós Word, Hola LaTeX!",
     "section": "",
-    "text": "LaTeX\nActividad"
+    "text": "LaTeX\nManos a la Obra"
   },
   {
-    "objectID": "latex_2025/presentacion_emma.html#actividad-1-guía-de-ejercicios",
-    "href": "latex_2025/presentacion_emma.html#actividad-1-guía-de-ejercicios",
+    "objectID": "latex_2025/presentacion_emma.html#actividad-cv-en-overleaf",
+    "href": "latex_2025/presentacion_emma.html#actividad-cv-en-overleaf",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "🎯 Actividad 1: Guía de ejercicios",
-    "text": "🎯 Actividad 1: Guía de ejercicios\n\n\n📝 Instrucciones💡 Ejemplos🔗 Herramientas\n\n\n\nElige un tema de tu especialidad (Matemáticas, Física, Química, etc.).\nCrea 3 ejercicios con apoyo de un chatbot (ChatGPT, Gemini, etc.).\nUsa el template en Overleaf para escribir tu guía.\nIncluye tablas, gráficos y notación matemática.\nEntrega el PDF final o el link público de Overleaf.\n\n\n\n\n“Genera 3 ejercicios sobre cinemática con gráficos de velocidad y una tabla de datos.”\n\n\n“Crea preguntas de funciones cuadráticas con gráficos y justificación paso a paso en LaTeX.”\n\n\n\n\nChatGPT\nGemini\nMeta AI\nPerplexity\n\n\n📂 Revisa ejemplos listos en Overleaf: Ver proyecto en línea"
+    "section": "📄 Actividad: CV en Overleaf",
+    "text": "📄 Actividad: CV en Overleaf\n\n\n\n\n\n\n\n\nAbre la plantilla de CV en Overleaf.\nCompleta y personaliza datos, experiencia y habilidades.\n(Opcional) Mejora el texto con ChatGPT o Gemini.\nCompila y revisa."
   },
   {
-    "objectID": "latex_2025/presentacion_emma.html#actividad-2-crea-tu-currículum",
-    "href": "latex_2025/presentacion_emma.html#actividad-2-crea-tu-currículum",
-    "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "🧑‍💼 Actividad 2: Crea tu currículum",
-    "text": "🧑‍💼 Actividad 2: Crea tu currículum\n\n\n📝 Instrucciones💡 Ejemplos🔗 Herramientas\n\n\n\nUsa el siguiente template en Overleaf para crear tu CV.\nCompleta las secciones básicas:\n\nNombre, título, contacto.\nEducación.\nExperiencia laboral o académica.\nHabilidades o certificaciones.\n\nPersonaliza con tu estilo y, si quieres, apóyate en un chatbot (como ChatGPT) para mejorar la redacción.\n\n\n\n\n“Ayúdame a redactar una descripción breve de mi rol como ayudante de laboratorio de física.”\n\n\n“Escribe una versión profesional de mi experiencia como profesor particular de matemáticas.”\n\n\n\n\nChatGPT\n\nGemini\n\nMeta AI\n\nPerplexity\n\n\n📂 Revisa un ejemplo de currículum en Overleaf: Ver proyecto en línea"
-  },
-  {
-    "objectID": "latex_2025/presentacion_emma.html#section-7",
-    "href": "latex_2025/presentacion_emma.html#section-7",
+    "objectID": "latex_2025/presentacion_emma.html#section-5",
+    "href": "latex_2025/presentacion_emma.html#section-5",
     "title": "¡Adiós Word, Hola LaTeX!",
     "section": "",
     "text": "LaTeX\nConclusiones"
@@ -4273,15 +4266,8 @@
     "objectID": "latex_2025/presentacion_emma.html#conclusiones",
     "href": "latex_2025/presentacion_emma.html#conclusiones",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "✅ Conclusiones",
-    "text": "✅ Conclusiones\n \n\n🎯 LaTeX permite crear documentos académicos con formato profesional.\n\n💡 Ofrece control total sobre estilo y estructura.\n\n🛠️ Hay muchas herramientas que lo hacen más fácil de usar.\n\n🤖 Con IA, escribir en LaTeX es aún más eficiente.\n\n🚀 Overleaf permite comenzar sin instalar nada."
-  },
-  {
-    "objectID": "latex_2025/presentacion_emma.html#referencias-y-recursos",
-    "href": "latex_2025/presentacion_emma.html#referencias-y-recursos",
-    "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "📚 Referencias y Recursos",
-    "text": "📚 Referencias y Recursos\n\n\n\n📄 LaTeX\n\nManual de LaTeX\nOverleaf - Editor en línea\nDocumentación oficial de LaTeX\n\n\n\n🤖 Inteligencia Artificial\n\nChatGPT\nMathGPT\nPrompts Perfectos ChatGPT\n\n\n\n\n🚀 Ejemplos en Overleaf: https://www.overleaf.com/project/68347a46c09a1b7708ccf48a"
+    "section": "🧾 Conclusiones",
+    "text": "🧾 Conclusiones\n \n\n✅ LaTeX permite crear documentos académicos con formato profesional.  ✅ Ofrece control total sobre estilo y estructura. ✅ Hay muchas herramientas que lo hacen más fácil de usar. ✅ Con IA, escribir en LaTeX es aún más eficiente. ✅ Overleaf permite comenzar sin instalar nada."
   },
   {
     "objectID": "latex_2025/presentacion_emma.html#gracias-por-participar",
