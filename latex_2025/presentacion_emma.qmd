@@ -194,14 +194,14 @@ format:
 
 ------------------------------------------------------------------------
 
-## 📄 Actividad: Proyecto en Overleaf {background-image="images/background.jpg" background-opacity="0.25"}
+## 📄 Actividad: Artículo en Overleaf {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
 ::: columns
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<img src="images/overleaf.png" alt="Overleaf Logo" style="width: 80%; border-radius: 10px;"/>
+<img src="images/ejercicio.png" alt="Overleaf Logo" style="width: 80%; border-radius: 10px;"/>
 :::
 :::
 
@@ -211,13 +211,16 @@ format:
 
 1. **Nuevo proyecto en Overleaf**.
 2. **Copia** la [plantilla](https://www.overleaf.com/read/qfrqrpxfqhkj#f66dd7).
-3. **Edita**: título, sección, imagen, ecuación y tabla.
+3. **Edita**: título, texto e imágenes.
 4. **Compila** y revisa.
 5. *(Extra)* Añade cita y bibliografía.
 
 :::
 :::
 
+. . .
+
+> ⏱️ Tiempo de la actividad: 10–15 minutos.
 
 
 
@@ -289,12 +292,11 @@ format:
 
 ## Herramientas Útiles {background-image="images/background.jpg" background-opacity="0.25"}
 
-<br>
 
 ::: columns
 ::: {.column width="45%"}
 ::: {style="text-align: center;"}
-<img src="images/tool.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
+<img src="images/tools.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
@@ -344,12 +346,13 @@ format:
 ::: {.column .incremental width="60%"}
 <br><br>
 
-- **ChatGPT, Gemini, Claude**:
-  - Generan y corrigen código LaTeX.
-  - Crean ecuaciones, tablas y bibliografía.
-  - Explican comandos y paquetes.
-  - Mejoran el formato y detectan errores.
-  
+* **[ChatGPT](https://chat.openai.com/)**, **[Gemini](https://gemini.google.com/)**, **[DeepSeek](https://www.deepseek.com/)**:
+
+  * Generan y corrigen código LaTeX.
+  * Crean ecuaciones, tablas y bibliografía.
+  * Explican comandos y paquetes.
+  * Mejoran el formato y detectan errores.
+
 :::
 :::
 
@@ -450,29 +453,34 @@ f(x) = \int_0^\infty e^-x^2 dx
 
 ------------------------------------------------------------------------
 
-## 📄 Actividad: CV en Overleaf {background-image="images/background.jpg" background-opacity="0.25"}
+## 📄 Actividad: Beamer en Overleaf {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
 ::: columns
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<img src="images/overleaf.png" alt="Overleaf Logo" style="width: 80%; border-radius: 10px;"/>
+<img src="images/ejercicio.png" alt="Overleaf Logo" style="width: 80%; border-radius: 10px;"/>
 :::
 :::
 
 ::: {.column .incremental width="60%"}
 
 
-
-1. **Abre** la [plantilla de CV](https://www.overleaf.com/read/gxqqsjhzfvdc#f623dc) en Overleaf.
-2. **Completa y personaliza** datos, experiencia y habilidades.
-3. *(Opcional)* Mejora el texto con ChatGPT o Gemini.
+1. **Nuevo proyecto en Overleaf**.
+2. **Copia** la [plantilla](https://www.overleaf.com/read/gxqqsjhzfvdc#f623dc).
+3. **Edita**: título, texto e imágenes.
 4. **Compila** y revisa.
+5. *(Extra)* Añade cita y bibliografía.
+
 
 
 :::
 :::
+
+. . .
+
+> ⏱️ Tiempo de la actividad: 10–15 minutos.
 
 
 ------------------------------------------------------------------------
