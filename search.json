@@ -4179,11 +4179,11 @@
     "text": "LaTeX\nManos a la Obra"
   },
   {
-    "objectID": "latex_2025/presentacion_emma.html#actividad-proyecto-en-overleaf",
-    "href": "latex_2025/presentacion_emma.html#actividad-proyecto-en-overleaf",
+    "objectID": "latex_2025/presentacion_emma.html#actividad-artículo-en-overleaf",
+    "href": "latex_2025/presentacion_emma.html#actividad-artículo-en-overleaf",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "📄 Actividad: Proyecto en Overleaf",
-    "text": "📄 Actividad: Proyecto en Overleaf\n\n\n\n\n\n\n\n\nNuevo proyecto en Overleaf.\nCopia la plantilla.\nEdita: título, sección, imagen, ecuación y tabla.\nCompila y revisa.\n(Extra) Añade cita y bibliografía."
+    "section": "📄 Actividad: Artículo en Overleaf",
+    "text": "📄 Actividad: Artículo en Overleaf\n\n\n\n\n\n\n\n\nNuevo proyecto en Overleaf.\nCopia la plantilla.\nEdita: título, texto e imágenes.\nCompila y revisa.\n(Extra) Añade cita y bibliografía.\n\n\n\n\n⏱️ Tiempo de la actividad: 10–15 minutos."
   },
   {
     "objectID": "latex_2025/presentacion_emma.html#section-2",
@@ -4218,7 +4218,7 @@
     "href": "latex_2025/presentacion_emma.html#herramientas-útiles",
     "title": "¡Adiós Word, Hola LaTeX!",
     "section": "Herramientas Útiles",
-    "text": "Herramientas Útiles\n\n\n\n\n\n\n\n\n\n📊 Tables Generator\nCrea y exporta fácilmente tablas en formato LaTeX.\n🔢 LaTeX Equation Editor\nGenera ecuaciones LaTeX en tiempo real.\n🧾 BibTeX Editor\nCrea referencias bibliográficas en formato BibTeX.\n🧠 Detexify\nDibuja un símbolo y encuentra su comando LaTeX."
+    "text": "Herramientas Útiles\n\n\n\n\n\n\n\n\n📊 Tables Generator\nCrea y exporta fácilmente tablas en formato LaTeX.\n🔢 LaTeX Equation Editor\nGenera ecuaciones LaTeX en tiempo real.\n🧾 BibTeX Editor\nCrea referencias bibliográficas en formato BibTeX.\n🧠 Detexify\nDibuja un símbolo y encuentra su comando LaTeX."
   },
   {
     "objectID": "latex_2025/presentacion_emma.html#ejemplos-de-herramientas-útiles",
@@ -4232,7 +4232,7 @@
     "href": "latex_2025/presentacion_emma.html#latex-inteligencia-artificial",
     "title": "¡Adiós Word, Hola LaTeX!",
     "section": "LaTeX + Inteligencia Artificial",
-    "text": "LaTeX + Inteligencia Artificial\n\n\n\n\n\n\n\n\nChatGPT, Gemini, Claude:\n\nGeneran y corrigen código LaTeX.\nCrean ecuaciones, tablas y bibliografía.\nExplican comandos y paquetes.\nMejoran el formato y detectan errores.\n\n\n\n\n\n🤖 Consejo: usa prompts claros, incluye tu código y pide explicaciones paso a paso."
+    "text": "LaTeX + Inteligencia Artificial\n\n\n\n\n\n\n\n\nChatGPT, Gemini, DeepSeek:\n\nGeneran y corrigen código LaTeX.\nCrean ecuaciones, tablas y bibliografía.\nExplican comandos y paquetes.\nMejoran el formato y detectan errores.\n\n\n\n\n\n🤖 Consejo: usa prompts claros, incluye tu código y pide explicaciones paso a paso."
   },
   {
     "objectID": "latex_2025/presentacion_emma.html#ejemplos-de-prompts",
@@ -4249,11 +4249,11 @@
     "text": "LaTeX\nManos a la Obra"
   },
   {
-    "objectID": "latex_2025/presentacion_emma.html#actividad-cv-en-overleaf",
-    "href": "latex_2025/presentacion_emma.html#actividad-cv-en-overleaf",
+    "objectID": "latex_2025/presentacion_emma.html#actividad-beamer-en-overleaf",
+    "href": "latex_2025/presentacion_emma.html#actividad-beamer-en-overleaf",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "📄 Actividad: CV en Overleaf",
-    "text": "📄 Actividad: CV en Overleaf\n\n\n\n\n\n\n\n\nAbre la plantilla de CV en Overleaf.\nCompleta y personaliza datos, experiencia y habilidades.\n(Opcional) Mejora el texto con ChatGPT o Gemini.\nCompila y revisa."
+    "section": "📄 Actividad: Beamer en Overleaf",
+    "text": "📄 Actividad: Beamer en Overleaf\n\n\n\n\n\n\n\n\nNuevo proyecto en Overleaf.\nCopia la plantilla.\nEdita: título, texto e imágenes.\nCompila y revisa.\n(Extra) Añade cita y bibliografía.\n\n\n\n\n⏱️ Tiempo de la actividad: 10–15 minutos."
   },
   {
     "objectID": "latex_2025/presentacion_emma.html#section-5",
