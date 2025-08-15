@@ -14,7 +14,7 @@ format:
     logo: images/usm.png
 ---
 
-## 🖼️ ¿Te ha pasado esto? {background-image="images/background.jpg" background-opacity="0.25"}
+## 📝 ¿Te ha pasado esto? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 <br>
@@ -144,7 +144,7 @@ format:
 
 ------------------------------------------------------------------------
 
-## 📝 Overleaf: LaTeX Online {background-image="images/background.jpg" background-opacity="0.25"}
+## Overleaf: LaTeX Online {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="40%"}
@@ -194,13 +194,33 @@ format:
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+## 📄 Actividad: Proyecto en Overleaf {background-image="images/background.jpg" background-opacity="0.25"}
 
+<br>
+
+::: columns
+::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<iframe src="https://emma2025-latex.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
-
-</iframe>
+<img src="images/overleaf.png" alt="Overleaf Logo" style="width: 80%; border-radius: 10px;"/>
 :::
+:::
+
+::: {.column .incremental width="60%"}
+
+
+
+1. **Nuevo proyecto en Overleaf**.
+2. **Copia** la [plantilla](https://www.overleaf.com/read/qfrqrpxfqhkj#f66dd7).
+3. **Edita**: título, sección, imagen, ecuación y tabla.
+4. **Compila** y revisa.
+5. *(Extra)* Añade cita y bibliografía.
+
+:::
+:::
+
+
+
+
 
 ------------------------------------------------------------------------
 
@@ -209,54 +229,51 @@ format:
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [LaTeX]{style="font-size: 1em"}
 
-[¿Qué más se puede hacer con LaTeX?]{style="font-size: 1.5em"}
+[Explora y aprende con plantillas]{style="font-size: 1.5em"}
 :::
 
 ------------------------------------------------------------------------
 
-## ¿Qué más se puede hacer con LaTeX? {background-image="images/background.jpg" background-opacity="0.25"}
+## Overleaf Gallery{background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<img src="images/latex.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
+<img src="images/gallery.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
 ::: {.column .incremental width="60%"}
 <br>
 
--   **Mucho más que informes:**
-    -   Presentaciones profesionales (`beamer`)
-    -   Carteles científicos (`beamerposter`)
-    -   Currículums vitae (`moderncv`, `awesome-cv`)
-    -   Tesis, libros, cartas y exámenes
-    -   Diagramas con `TikZ`
-    -   Certificados y pósters personalizados
+- **Plantillas listas para usar**:
+  - Artículos, tesis, pósters y presentaciones.
+- **Aprende explorando**:
+  - Abre una plantilla y estudia su código.
+- **Personaliza y reutiliza**:
+  - Cambia texto, imágenes y estilo.
+
 :::
 :::
+
+. . .
+
+> 🌿 Veamos algunos ejemplos en [Overleaf Gallery](https://www.overleaf.com/gallery).
+
 
 ------------------------------------------------------------------------
 
-## ¿Qué más se puede hacer con LaTeX? {background-image="images/background.jpg" background-opacity="0.25"}
+##  Ejemplos de plantillas {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.r-stack style="margin-top: 20px;"}
-![](images/img011.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
+::: r-stack
+<br>
 
-![](images/img02.png){.fragment .fade-in-then-out fig-align="center" width="40%"}
+![](images/templates1.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
 
-![](images/img03.png){.fragment fig-align="center" width="60%"}
+
+![](images/templates2.png){.fragment fig-align="center" width="75%"}
 :::
 
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="text-align: center;"}
-<iframe src="https://emma2025-latex.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
-
-</iframe>
-:::
 
 ------------------------------------------------------------------------
 
@@ -270,23 +287,26 @@ format:
 
 ------------------------------------------------------------------------
 
-## 🛠️ Herramientas Útiles {background-image="images/background.jpg" background-opacity="0.25"}
+## Herramientas Útiles {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="45%"}
 ::: {style="text-align: center;"}
-<img src="images/latex.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
+<img src="images/tool.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
-::: {.column .incremental width="60%"}
+::: {.column .incremental width="55%"}
+
 <br>
 
 -   📊 [**Tables Generator**](https://www.tablesgenerator.com/)\
-    Crea y exporta fácilmente tablas en formato LaTeX, HTML o Markdown.
+    Crea y exporta fácilmente tablas en formato LaTeX.
 
 -   🔢 [**LaTeX Equation Editor**](https://latexeditor.lagrida.com/)\
-    Genera ecuaciones LaTeX con vista previa en tiempo real.
+    Genera ecuaciones LaTeX en tiempo real.
 
 -   🧾 [**BibTeX Editor**](https://truben.no/latex/bibtex/)\
     Crea referencias bibliográficas en formato BibTeX.
@@ -298,47 +318,49 @@ format:
 
 ------------------------------------------------------------------------
 
-## 🛠️ Herramientas Útiles {background-image="images/background.jpg" background-opacity="0.25"}
+## Ejemplos de herramientas útiles {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
-<br>
+![](images/tool2.png){.fragment .fade-in-then-out fig-align="center" width="85%"}
 
-![](images/tool1.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+![](images/tool3.png){.fragment .fade-in-then-out fig-align="center" width="85%"}
 
-![](images/tool2.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+![](images/tool4.png){.fragment .fade-in-then-out fig-align="center" width="85%"}
 
-![](images/tool3.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
-
-![](images/tool4.png){.fragment fig-align="center" width="100%"}
+![](images/tool1.png){.fragment fig-align="center" width="85%"}
 :::
 
 ------------------------------------------------------------------------
 
-## 🤖 LaTeX + Inteligencia Artificial {background-image="images/background.jpg" background-opacity="0.25"}
+## LaTeX + Inteligencia Artificial {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<img src="images/latex.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
+<img src="images/chatgpt.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
 ::: {.column .incremental width="60%"}
-<br>
+<br><br>
 
--   💬 **ChatGPT** te ayuda a:
-    -   Escribir y corregir código LaTeX.
-    -   Corregir errores y mejorar el formato.
-    -   Generar ecuaciones, tablas, referencias y figuras.
--   🧠 Modelos como **MathGPT**:
-    -   Interpretan LaTeX
-    -   Resuelven matemáticas paso a paso.
+- **ChatGPT, Gemini, Claude**:
+  - Generan y corrigen código LaTeX.
+  - Crean ecuaciones, tablas y bibliografía.
+  - Explican comandos y paquetes.
+  - Mejoran el formato y detectan errores.
+  
 :::
 :::
+
+. . .
+
+> <span style="font-size:0.85em;">🤖 **Consejo**: usa prompts claros, incluye tu código y pide explicaciones paso a paso.</span>
+
 
 ------------------------------------------------------------------------
 
-## 🤖 LaTeX + Inteligencia Artificial {background-image="images/background.jpg" background-opacity="0.25"}
+## Ejemplos de Prompts {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: panel-tabset
 ## Prompt 1
@@ -414,17 +436,7 @@ f(x) = \int_0^\infty e^-x^2 dx
 :::
 :::
 
-------------------------------------------------------------------------
 
-## 🤖 LaTeX + Inteligencia Artificial {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: r-stack
-<br>
-
-![](images/mathgpt.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
-
-![](images/mathgpt2.png){.fragment fig-align="center" width="90%"}
-:::
 
 ------------------------------------------------------------------------
 
@@ -433,76 +445,35 @@ f(x) = \int_0^\infty e^-x^2 dx
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [LaTeX]{style="font-size: 1em"}
 
-[Actividad]{style="font-size: 1.5em"}
+[Manos a la Obra]{style="font-size: 1.5em"}
 :::
 
 ------------------------------------------------------------------------
 
-## 🎯 Actividad 1: Guía de ejercicios {background-image="images/background.jpg" background-opacity="0.25"}
+## 📄 Actividad: CV en Overleaf {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-::: panel-tabset
-### 📝 Instrucciones
-
--   Elige un tema de tu especialidad (Matemáticas, Física, Química, etc.).
--   Crea **3 ejercicios** con apoyo de un chatbot (ChatGPT, Gemini, etc.).
--   Usa el [template en Overleaf](https://www.overleaf.com/read/qfrqrpxfqhkj#f66dd7) para escribir tu guía.
--   Incluye **tablas**, **gráficos** y **notación matemática**.
--   Entrega el PDF final o el link público de Overleaf.
-
-### 💡 Ejemplos
-
-> "Genera 3 ejercicios sobre cinemática con gráficos de velocidad y una tabla de datos."
-
-> "Crea preguntas de funciones cuadráticas con gráficos y justificación paso a paso en LaTeX."
-
-### 🔗 Herramientas
-
--   [ChatGPT](https://chat.openai.com)
--   [Gemini](https://gemini.google.com)
--   [Meta AI](https://www.meta.ai/)
--   [Perplexity](https://www.perplexity.ai)
-
-::: success
-📂 Revisa ejemplos listos en Overleaf: [Ver proyecto en línea](https://www.overleaf.com/read/qfrqrpxfqhkj#f66dd7)
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/overleaf.png" alt="Overleaf Logo" style="width: 80%; border-radius: 10px;"/>
 :::
 :::
 
-------------------------------------------------------------------------
+::: {.column .incremental width="60%"}
 
-## 🧑‍💼 Actividad 2: Crea tu currículum {background-image="images/background.jpg" background-opacity="0.25"}
 
-<br>
 
-::: panel-tabset
-### 📝 Instrucciones
+1. **Abre** la [plantilla de CV](https://www.overleaf.com/read/gxqqsjhzfvdc#f623dc) en Overleaf.
+2. **Completa y personaliza** datos, experiencia y habilidades.
+3. *(Opcional)* Mejora el texto con ChatGPT o Gemini.
+4. **Compila** y revisa.
 
--   Usa el siguiente [template en Overleaf](https://www.overleaf.com/read/gxqqsjhzfvdc#f623dc) para crear tu CV.
--   Completa las secciones básicas:
-    -   Nombre, título, contacto.
-    -   Educación.
-    -   Experiencia laboral o académica.
-    -   Habilidades o certificaciones.
--   Personaliza con tu estilo y, si quieres, apóyate en un chatbot (como ChatGPT) para mejorar la redacción.
 
-### 💡 Ejemplos
-
-> "Ayúdame a redactar una descripción breve de mi rol como ayudante de laboratorio de física."
-
-> "Escribe una versión profesional de mi experiencia como profesor particular de matemáticas."
-
-### 🔗 Herramientas
-
--   [ChatGPT](https://chat.openai.com)\
--   [Gemini](https://gemini.google.com)\
--   [Meta AI](https://www.meta.ai/)\
--   [Perplexity](https://www.perplexity.ai)
-
-::: success
-📂 Revisa un ejemplo de currículum en Overleaf: [Ver proyecto en línea](https://www.overleaf.com/read/gxqqsjhzfvdc#f623dc)
 :::
 :::
+
 
 ------------------------------------------------------------------------
 
@@ -514,45 +485,18 @@ f(x) = \int_0^\infty e^-x^2 dx
 [Conclusiones]{style="font-size: 1.5em"}
 :::
 
-## ✅ Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
+## 🧾 Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br> <br>
 
--   🎯 **LaTeX** permite crear documentos académicos con formato profesional.\
--   💡 Ofrece **control total** sobre estilo y estructura.\
--   🛠️ Hay muchas **herramientas** que lo hacen más fácil de usar.\
--   🤖 Con **IA**, escribir en LaTeX es aún más eficiente.\
--   🚀 **Overleaf** permite comenzar sin instalar nada.
+::: {.fragment}
+✅ **LaTeX** permite crear documentos académicos con formato profesional. <br>
+✅ Ofrece **control total** sobre estilo y estructura.<br>
+✅ Hay muchas **herramientas** que lo hacen más fácil de usar.<br>
+✅ Con **IA**, escribir en LaTeX es aún más eficiente.<br>
+✅ **Overleaf** permite comenzar sin instalar nada.<br>
+::: 
 
-------------------------------------------------------------------------
-
-## 📚 Referencias y Recursos {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="50%"}
-<br>
-
-📄 LaTeX
-
--   [Manual de LaTeX](https://aprendeconalf.es/latex-manual/)
--   [Overleaf - Editor en línea](https://www.overleaf.com/)
--   [Documentación oficial de LaTeX](https://www.latex-project.org/)
-:::
-
-::: {.column width="50%"}
-<br>
-
-🤖 Inteligencia Artificial
-
--   [ChatGPT](https://chat.openai.com/)
--   [MathGPT](https://www.wolframalpha.com/)
--   [Prompts Perfectos ChatGPT](https://sethnut.com/ceemat_2025/prompts_chatgpt/presentacion.html#/title-slide)
-:::
-:::
-
-. . .
-
-> 🚀 **Ejemplos en Overleaf:** <https://www.overleaf.com/project/68347a46c09a1b7708ccf48a>
 
 ------------------------------------------------------------------------
 
