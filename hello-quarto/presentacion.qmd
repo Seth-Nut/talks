@@ -19,38 +19,23 @@ editor: visual
 
 [compartir • colaborar • enseñar • reimaginar]{.custom-subtitle}
 
-[Francisco Alfaro Medina <br> Valeska Canales Pozo]{.custom-author} 
+[Francisco Alfaro Medina <br> Valeska Canales Pozo]{.custom-author}
 
-[[https://sethnut.com/talks/](https://sethnut.com/talks/)]{.custom-url}
-
-
+[<https://sethnut.com/talks/>]{.custom-url}
 
 
-# Hola, Quarto ? {.title-top-light background-image="images/horst-quarto-meteor-transparent.png" }
+# Motivación {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
-##  {#collaborate-intro .center data-menu-title="Collaborate Intro"}
+::: r-stack
+![](images/intro1.jpg){.fragment .fade-in-then-out fig-align="center" width="70%"}
 
-::: columns
-::: {.column width="20%"}
-![](images/horst_penguins_nametag_julie.png){fig-alt="Penguin with nametag that says \"Julie\""}
+![](images/intro2.gif){.fragment .fade-in-then-out fig-align="center" width="80%"}
+
+![](images/horst-quarto-meteor-transparent.png){.fragment fig-align="center" width="90%"}
 :::
 
-::: {.column width="80%"}
-![](images/2-collaborate/lowndes_venn_science.svg)
-:::
-:::
 
-##  {#share-intro .center data-menu-title="Share Intro"}
-
-::: columns
-::: {.column width="70%"}
-![](images/1-share/mine-venn.svg){fig-alt="A Venn diagram with three circles -- education, research, and development. At the intersection is a blue heart with the word compassion."}
-:::
-
-::: {.column width="30%"}
-![](images/horst_penguins_nametag_mine.png){fig-alt="Penguin with nametag that says \"Mine\""}
-:::
-:::
+## ¿Qué es Quarto ? {.title-top-light background-image="images/horst-quarto-meteor-transparent.png"}
 
 
 ##  {#publishing-system-1 .centered data-menu-title="Sistema de publicación 1" background-color="#0F1620" auto-animate="true"}
@@ -58,7 +43,6 @@ editor: visual
 ::: {style="margin-top: 100px; font-size: 2.5em; color: #75AADB;"}
 Quarto es un sistema abierto de<br> publicación científica y técnica
 :::
-
 
 ##  {#publishing-system-2 .centered data-menu-title="Sistema de publicación 2" background-color="#0F1620" auto-animate="true"}
 
@@ -74,38 +58,532 @@ Quarto es un sistema abierto de<br> publicación científica y técnica
 ![](images/horst_quarto_schematic.png){fig-align="center" width="1100px" fig-alt="Un esquema que representa la versatilidad de Quarto para entrada multilenguaje (por ejemplo, Python, R, Observable, Julia) y salida multi-formato (por ejemplo, PDF, HTML, documentos Word y más)."}
 :::
 
-
 ##  {#outline-1 .centered data-menu-title="Esquema 1" auto-animate="true"}
 
 ![](images/outline-1.png){fig-alt="Logo de Quarto con dos cuadrantes etiquetados como Compartir y Enseñar, con un pingüino azul al lado."}
-
 
 ##  {#outline-2 .centered data-menu-title="Esquema 2" auto-animate="true"}
 
 ![](images/outline-2.png){fig-alt="Logo de Quarto con dos cuadrantes etiquetados como Colaborar y Reimaginar, con un pingüino naranja al lado."}
 
-
 ##  {#outline-3 .centered data-menu-title="Esquema 3" auto-animate="true"}
 
 ![](images/outline-3.png){fig-alt="Logo de Quarto con los cuatro cuadrantes etiquetados como Compartir, Colaborar, Enseñar y Reimaginar."}
 
+# Compartir {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
 
-# Compartir {.title-middle-dark background-image="images/horst_quarto_penguins_share.png"  data-state="no-logo"}
+## Quarto: Next generation R Markdown {transition="zoom"}
+
+![](images/horst_quarto_ball_straight.png){fig-align="center" width="50%" fig-alt="Quarto logo."}
+
+::: notes
+Quarto unifies the functionality from these packages,
+
+building on Pandoc on the technical side
+
+and on the human side -- over a decade of experience developing, maintaining, and tweaking these packages as well as community feedback R Markdown extension packages.
+
+Such a unification effort presents a fantastic opportunity to identify and address gaps functionality and inefficiencies in user experience, and the process of building Quarto has been no different.
+:::
+
+## Quarto highlights
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-1_4.png){width="50px" fig-alt="One quadrant of the Quarto logo."} Consistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Two quadrants of the Quarto logo."} More accessible defaults as well as better support for accessibility
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-3_4.png){width="50px" fig-alt="Three quadrants of the Quarto logo."} Guardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-4_4.png){width="50px" fig-alt="Four quadrants of the Quarto logo."} Support for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+## Ejemplos 
+
+<br>
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+<iframe src="https://quarto-dev.github.io/quarto-gallery/articles/html/html.html" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: {.fragment .fade-in-then-out}
+<iframe src="https://quarto.org/docs/presentations/revealjs/demo/#/title-slide" width="1200" height="700" frameborder="0" scrolling="no" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fragment
+<iframe src="https://jjallaire.github.io/stock-explorer-dashboard/" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+:::
+
+## Quarto CLI orchestrates<br>each step of rendering {.takeaway .center}
+
+::: {.fragment .fade-up}
+![](images/horst_qmd_render_schema.png){fig-alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document." fig-align="center"}
+:::
+
+::: notes
+Now that you've all had a chance to see Quarto in action, you might be wondering, "how are R Markdown and Quarto different"?
+
+The main difference is that with R Markdown, the R package rmarkdown does the heavy lifting of going from the source Rmd file to the the output, using knitr for evaluating the code chunks.
+
+--\> With Quarto, on the other hand, the Quarto command line interface, or the Quarto CLI, does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output.
+
+While this is technically impressive, I'll be honest, it's not exactly what sparked my interest in Quarto in the first place.
+:::
+
+## Quarto makes moving between formats straightforward {.takeaway .center}
+
+::: columns
+::: {.column width="33%"}
+::: fragment
+Document
+
+::: {.code-file .sourceCode .cell-code}
+{{< fa file >}} lesson-1.qmd
+:::
+
+``` yaml
+title: "Lesson 1"
+format: html
+```
+:::
+:::
+
+::: {.column width="33%"}
+::: fragment
+Presentation
+
+::: {.code-file .sourceCode .cell-code}
+{{< fa file >}} lesson-1.qmd
+:::
+
+``` yaml
+title: "Lesson 1"
+format: revealjs
+```
+:::
+:::
+
+::: {.column width="33%"}
+::: fragment
+Website
+
+::: {.code-file .sourceCode .cell-code}
+{{< fa file >}} \_quarto.yml
+:::
+
+``` yaml
+project:
+  type: website
+
+website: 
+  navbar: 
+    left:
+      - lesson-1.qmd
+```
+:::
+:::
+:::
 
 
-# Colaborar {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo" }
+
+# Colaborar {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
+
+## Instalar y configurar Quarto
+
+<br>
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+-   **Editor recomendado:**
+    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
+-   **Instalaciones locales:**
+    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
+-   **Editores útiles:**
+    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
+:::
+:::
+
+## De un archivo a un proyecto colaborativo
+
+<br>
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+-   **Editor recomendado:**
+    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
+-   **Instalaciones locales:**
+    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
+-   **Editores útiles:**
+    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
+:::
+:::
+
+## Un lenguaje común: Markdown + Quarto
+
+<br>
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+-   **Editor recomendado:**
+    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
+-   **Instalaciones locales:**
+    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
+-   **Editores útiles:**
+    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
+:::
+:::
+
 
 
 # Enseñar {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
-# Reimaginar {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo" }
+## Instalar y configurar Quarto
 
+<br>
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+-   **Editor recomendado:**
+    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
+-   **Instalaciones locales:**
+    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
+-   **Editores útiles:**
+    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
+:::
+:::
+
+## De un archivo a un proyecto colaborativo
+
+<br>
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+-   **Editor recomendado:**
+    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
+-   **Instalaciones locales:**
+    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
+-   **Editores útiles:**
+    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
+:::
+:::
+
+## Un lenguaje común: Markdown + Quarto
+
+<br>
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+-   **Editor recomendado:**
+    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
+-   **Instalaciones locales:**
+    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
+-   **Editores útiles:**
+    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
+:::
+:::
+
+# Reimaginar {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo"}
+
+## Instalar y configurar Quarto
+
+<br>
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+-   **Editor recomendado:**
+    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
+-   **Instalaciones locales:**
+    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
+-   **Editores útiles:**
+    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
+:::
+:::
+
+## De un archivo a un proyecto colaborativo
+
+<br>
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+-   **Editor recomendado:**
+    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
+-   **Instalaciones locales:**
+    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
+-   **Editores útiles:**
+    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
+:::
+:::
+
+## Un lenguaje común: Markdown + Quarto
+
+<br>
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+-   **Editor recomendado:**
+    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
+-   **Instalaciones locales:**
+    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
+-   **Editores útiles:**
+    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
+:::
+:::
 
 # ¡Gracias! {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
-## 🎉 ¡Gracias por Participar! 
+## Conclusiones
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-1_4.png){width="50px"}  
+**Compartir**: De lo estático a lo interactivo; un mismo `.qmd` produce HTML, PDF, slides o sitios web.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-2_4.png){width="50px"}  
+**Colaborar**: Proyectos ordenados y control de versiones con GitHub permiten construir materiales abiertos en equipo.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-3_4.png){width="50px"}  
+**Enseñar**: Presentaciones reveal.js, dashboards y libros en línea integran texto, código y visualizaciones para el aula.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-4_4.png){width="50px"}  
+**Reimaginar**: Tecnologías como WebR, Pyodide, Shiny y Observable JS abren nuevas formas de innovar en educación matemática.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+## Referencias y Recursos
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-4_4.png){width="50px"}  
+**Documentación oficial**  
+👉 [quarto.org](https://quarto.org)  
+Guías, tutoriales y ejemplos para empezar.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/youtube.png){width="50px"}  
+**Aprendizaje en video**  
+👉 [Crash Course en YouTube](https://youtu.be/_VKxTPWDhA4)  
+Introducción práctica a Quarto y sus usos.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/github.png){width="50px"}  
+**Recursos de la comunidad**  
+👉 [seth-nut.github.io/resources](https://seth-nut.github.io/resources)  
+Ejemplos de proyectos, presentaciones y libros en Quarto.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/hat.png){width="50px"}  
+**Aplicaciones en educación**  
+Olimpiada Matemática, Verano Matemático, EMMA y mini cursos DMAT con materiales en línea.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
 
 
+## 🎉 ¡Gracias por Participar!
 
 ::: columns
 ::: {.column width="50%"}
@@ -122,6 +600,5 @@ Quarto es un sistema abierto de<br> publicación científica y técnica
 ![](images/qr.png){width="400"}
 :::
 :::
-
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
