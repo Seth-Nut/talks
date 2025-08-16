@@ -7,7 +7,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-c2894b54f4b00a27b9651b11dcf5df54.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-c2894b54f4b00a27b9651b11dcf5df54.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.33">
 
   <title>Seth&amp;Nut – Hola Quarto</title>
@@ -28,6 +29,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #767676;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #767676;  padding-left: 4px; }
+    div.sourceCode
+      { color: #545454; background-color: #fefefe; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #545454; } /* Normal */
+    code span.al { color: #7928a1; } /* Alert */
+    code span.an { color: #696969; } /* Annotation */
+    code span.at { color: #a55a00; } /* Attribute */
+    code span.bn { color: #7928a1; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #d91e18; } /* ControlFlow */
+    code span.ch { color: #008000; } /* Char */
+    code span.cn { color: #d91e18; } /* Constant */
+    code span.co { color: #696969; } /* Comment */
+    code span.cv { color: #696969; font-style: italic; } /* CommentVar */
+    code span.do { color: #696969; font-style: italic; } /* Documentation */
+    code span.dt { color: #7928a1; } /* DataType */
+    code span.dv { color: #7928a1; } /* DecVal */
+    code span.er { color: #7928a1; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #a55a00; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #696969; } /* Information */
+    code span.kw { color: #d91e18; } /* Keyword */
+    code span.op { color: #00769e; } /* Operator */
+    code span.ot { color: #d91e18; } /* Other */
+    code span.pp { color: #7928a1; } /* Preprocessor */
+    code span.sc { color: #00769e; } /* SpecialChar */
+    code span.ss { color: #008000; } /* SpecialString */
+    code span.st { color: #008000; } /* String */
+    code span.va { color: #a55a00; } /* Variable */
+    code span.vs { color: #008000; } /* VerbatimString */
+    code span.wa { color: #696969; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-16d9210af857588262818d3257a22bc4.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -132,30 +199,31 @@
 <p><span class="custom-title">Hola Quarto</span></p>
 <p><span class="custom-subtitle">compartir • colaborar • enseñar • reimaginar</span></p>
 <p><span class="custom-author">Francisco Alfaro Medina <br> Valeska Canales Pozo</span></p>
-<p><span class="custom-url"><a href="https://sethnut.com/talks/">https://sethnut.com/talks/</a></span></p>
+<p><span class="custom-url"><a href="https://sethnut.com/talks/" class="uri">https://sethnut.com/talks/</a></span></p>
 </section>
 <section>
-<section id="hola-quarto" class="title-slide slide level1 title-top-light center" data-background-image="images/horst-quarto-meteor-transparent.png">
-<h1>Hola, Quarto ?</h1>
-
+<section id="motivación" class="title-slide slide level1 center" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="zoom">
+<h1>Motivación</h1>
+<div class="r-stack">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/intro1.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:70.0%"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/intro2.gif" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/horst-quarto-meteor-transparent.png" class="fragment quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+</div>
 </section>
-<section id="collaborate-intro" class="slide level2 center" data-menu-title="Collaborate Intro">
-<h2></h2>
-<div class="columns">
-<div class="column" style="width:20%;">
-<p><img data-src="images/horst_penguins_nametag_julie.png" alt="Penguin with nametag that says &quot;Julie&quot;"></p>
-</div><div class="column" style="width:80%;">
-<p><img data-src="images/2-collaborate/lowndes_venn_science.svg"></p>
-</div></div>
-</section>
-<section id="share-intro" class="slide level2 center" data-menu-title="Share Intro">
-<h2></h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><img data-src="images/1-share/mine-venn.svg" alt="A Venn diagram with three circles -- education, research, and development. At the intersection is a blue heart with the word compassion."></p>
-</div><div class="column" style="width:30%;">
-<p><img data-src="images/horst_penguins_nametag_mine.png" alt="Penguin with nametag that says &quot;Mine&quot;"></p>
-</div></div>
+<section id="qué-es-quarto" class="slide level2 title-top-light" data-background-image="images/horst-quarto-meteor-transparent.png">
+<h2>¿Qué es Quarto ?</h2>
 </section>
 <section id="publishing-system-1" class="slide level2 centered" data-menu-title="Sistema de publicación 1" data-background-color="#0F1620" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"></h2>
@@ -191,30 +259,518 @@
 <h2 data-id="quarto-animate-title"></h2>
 
 <img data-src="images/outline-3.png" alt="Logo de Quarto con los cuatro cuadrantes etiquetados como Compartir, Colaborar, Enseñar y Reimaginar." class="r-stretch"></section></section>
+<section>
 <section id="compartir" class="title-slide slide level1 title-middle-dark center" data-background-image="images/horst_quarto_penguins_share.png" data-state="no-logo">
 <h1>Compartir</h1>
 
 </section>
+<section id="quarto-next-generation-r-markdown" class="slide level2" data-transition="zoom">
+<h2>Quarto: Next generation R Markdown</h2>
 
+<img data-src="images/horst_quarto_ball_straight.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%" alt="Quarto logo."><aside class="notes">
+<p>Quarto unifies the functionality from these packages,</p>
+<p>building on Pandoc on the technical side</p>
+<p>and on the human side – over a decade of experience developing, maintaining, and tweaking these packages as well as community feedback R Markdown extension packages.</p>
+<p>Such a unification effort presents a fantastic opportunity to identify and address gaps functionality and inefficiencies in user experience, and the process of building Quarto has been no different.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="quarto-highlights" class="slide level2">
+<h2>Quarto highlights</h2>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-1_4.png" alt="One quadrant of the Quarto logo." width="50"> Consistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-2_4.png" alt="Two quadrants of the Quarto logo." width="50"> More accessible defaults as well as better support for accessibility</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div></div>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-3_4.png" alt="Three quadrants of the Quarto logo." width="50"> Guardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-4_4.png" alt="Four quadrants of the Quarto logo." width="50"> Support for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div></div>
+</section>
+<section id="ejemplos" class="slide level2">
+<h2>Ejemplos</h2>
+<p><br></p>
+<div class="r-stack">
+<div class="fragment fade-in-then-out">
+<iframe src="https://quarto-dev.github.io/quarto-gallery/articles/html/html.html" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen="">
+</iframe>
+</div>
+<div class="fragment fade-in-then-out">
+<iframe src="https://quarto.org/docs/presentations/revealjs/demo/#/title-slide" width="1200" height="700" frameborder="0" scrolling="no" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen="">
+</iframe>
+</div>
+<div class="fragment">
+<iframe src="https://jjallaire.github.io/stock-explorer-dashboard/" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen="">
+</iframe>
+</div>
+</div>
+</section>
+<section id="quarto-cli-orchestrates-each-step-of-rendering" class="slide level2 takeaway center">
+<h2>Quarto CLI orchestrates<br>each step of rendering</h2>
+<div class="fragment fade-up">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/horst_qmd_render_schema.png" class="quarto-figure quarto-figure-center" alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document."></p>
+</figure>
+</div>
+</div>
+<aside class="notes">
+<p>Now that you’ve all had a chance to see Quarto in action, you might be wondering, “how are R Markdown and Quarto different”?</p>
+<p>The main difference is that with R Markdown, the R package rmarkdown does the heavy lifting of going from the source Rmd file to the the output, using knitr for evaluating the code chunks.</p>
+<p>–&gt; With Quarto, on the other hand, the Quarto command line interface, or the Quarto CLI, does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output.</p>
+<p>While this is technically impressive, I’ll be honest, it’s not exactly what sparked my interest in Quarto in the first place.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="quarto-makes-moving-between-formats-straightforward" class="slide level2 takeaway center">
+<h2>Quarto makes moving between formats straightforward</h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<div class="fragment">
+<p>Document</p>
+<div class="code-file sourceCode cell-code">
+<p><i class="fa-solid fa-file"></i> lesson-1.qmd</p>
+</div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Lesson 1"</span></span>
+<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p>Presentation</p>
+<div class="code-file sourceCode cell-code">
+<p><i class="fa-solid fa-file"></i> lesson-1.qmd</p>
+</div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Lesson 1"</span></span>
+<span id="cb2-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> revealjs</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p>Website</p>
+<div class="code-file sourceCode cell-code">
+<p><i class="fa-solid fa-file"></i> _quarto.yml</p>
+</div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span></span>
+<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
+<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a aria-hidden="true" tabindex="-1"></a><span class="fu">website</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb3-5"><a aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">navbar</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb3-6"><a aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">left</span><span class="kw">:</span></span>
+<span id="cb3-7"><a aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> lesson-1.qmd</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div></div>
+</section></section>
+<section>
 <section id="colaborar" class="title-slide slide level1 title-top-ice center" data-background-image="images/horst_penguins_telescope.png" data-state="no-logo">
 <h1>Colaborar</h1>
 
 </section>
-
+<section id="instalar-y-configurar-quarto" class="slide level2">
+<h2>Instalar y configurar Quarto</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Editor recomendado:</strong>
+<ul>
+<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
+</ul></li>
+<li class="fragment"><strong>Instalaciones locales:</strong>
+<ul>
+<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
+</ul></li>
+<li class="fragment"><strong>Editores útiles:</strong>
+<ul>
+<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
+</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="de-un-archivo-a-un-proyecto-colaborativo" class="slide level2">
+<h2>De un archivo a un proyecto colaborativo</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Editor recomendado:</strong>
+<ul>
+<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
+</ul></li>
+<li class="fragment"><strong>Instalaciones locales:</strong>
+<ul>
+<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
+</ul></li>
+<li class="fragment"><strong>Editores útiles:</strong>
+<ul>
+<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
+</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="un-lenguaje-común-markdown-quarto" class="slide level2">
+<h2>Un lenguaje común: Markdown + Quarto</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Editor recomendado:</strong>
+<ul>
+<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
+</ul></li>
+<li class="fragment"><strong>Instalaciones locales:</strong>
+<ul>
+<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
+</ul></li>
+<li class="fragment"><strong>Editores útiles:</strong>
+<ul>
+<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
+</li>
+</ul></li>
+</ul>
+</div></div>
+</section></section>
+<section>
 <section id="enseñar" class="title-slide slide level1 title-middle-ice center" data-background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo">
 <h1>Enseñar</h1>
 
 </section>
-
+<section id="instalar-y-configurar-quarto-1" class="slide level2">
+<h2>Instalar y configurar Quarto</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Editor recomendado:</strong>
+<ul>
+<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
+</ul></li>
+<li class="fragment"><strong>Instalaciones locales:</strong>
+<ul>
+<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
+</ul></li>
+<li class="fragment"><strong>Editores útiles:</strong>
+<ul>
+<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
+</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="de-un-archivo-a-un-proyecto-colaborativo-1" class="slide level2">
+<h2>De un archivo a un proyecto colaborativo</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Editor recomendado:</strong>
+<ul>
+<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
+</ul></li>
+<li class="fragment"><strong>Instalaciones locales:</strong>
+<ul>
+<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
+</ul></li>
+<li class="fragment"><strong>Editores útiles:</strong>
+<ul>
+<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
+</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="un-lenguaje-común-markdown-quarto-1" class="slide level2">
+<h2>Un lenguaje común: Markdown + Quarto</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Editor recomendado:</strong>
+<ul>
+<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
+</ul></li>
+<li class="fragment"><strong>Instalaciones locales:</strong>
+<ul>
+<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
+</ul></li>
+<li class="fragment"><strong>Editores útiles:</strong>
+<ul>
+<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
+</li>
+</ul></li>
+</ul>
+</div></div>
+</section></section>
+<section>
 <section id="reimaginar" class="title-slide slide level1 title-top-ice center" data-background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo">
 <h1>Reimaginar</h1>
 
 </section>
-
+<section id="instalar-y-configurar-quarto-2" class="slide level2">
+<h2>Instalar y configurar Quarto</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Editor recomendado:</strong>
+<ul>
+<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
+</ul></li>
+<li class="fragment"><strong>Instalaciones locales:</strong>
+<ul>
+<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
+</ul></li>
+<li class="fragment"><strong>Editores útiles:</strong>
+<ul>
+<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
+</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="de-un-archivo-a-un-proyecto-colaborativo-2" class="slide level2">
+<h2>De un archivo a un proyecto colaborativo</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Editor recomendado:</strong>
+<ul>
+<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
+</ul></li>
+<li class="fragment"><strong>Instalaciones locales:</strong>
+<ul>
+<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
+</ul></li>
+<li class="fragment"><strong>Editores útiles:</strong>
+<ul>
+<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
+</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="un-lenguaje-común-markdown-quarto-2" class="slide level2">
+<h2>Un lenguaje común: Markdown + Quarto</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Editor recomendado:</strong>
+<ul>
+<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
+</ul></li>
+<li class="fragment"><strong>Instalaciones locales:</strong>
+<ul>
+<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
+</ul></li>
+<li class="fragment"><strong>Editores útiles:</strong>
+<ul>
+<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
+</li>
+</ul></li>
+</ul>
+</div></div>
+</section></section>
 <section>
 <section id="gracias" class="title-slide slide level1 title-top-dark center" data-background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo">
 <h1>¡Gracias!</h1>
 
+</section>
+<section id="conclusiones" class="slide level2">
+<h2>Conclusiones</h2>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-1_4.png" width="50"><br>
+<strong>Compartir</strong>: De lo estático a lo interactivo; un mismo <code>.qmd</code> produce HTML, PDF, slides o sitios web.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-2_4.png" width="50"><br>
+<strong>Colaborar</strong>: Proyectos ordenados y control de versiones con GitHub permiten construir materiales abiertos en equipo.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div></div>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-3_4.png" width="50"><br>
+<strong>Enseñar</strong>: Presentaciones reveal.js, dashboards y libros en línea integran texto, código y visualizaciones para el aula.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-4_4.png" width="50"><br>
+<strong>Reimaginar</strong>: Tecnologías como WebR, Pyodide, Shiny y Observable JS abren nuevas formas de innovar en educación matemática.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div></div>
+</section>
+<section id="referencias-y-recursos" class="slide level2">
+<h2>Referencias y Recursos</h2>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-4_4.png" width="50"><br>
+<strong>Documentación oficial</strong><br>
+👉 <a href="https://quarto.org">quarto.org</a><br>
+Guías, tutoriales y ejemplos para empezar.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/youtube.png" width="50"><br>
+<strong>Aprendizaje en video</strong><br>
+👉 <a href="https://youtu.be/_VKxTPWDhA4">Crash Course en YouTube</a><br>
+Introducción práctica a Quarto y sus usos.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div></div>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/github.png" width="50"><br>
+<strong>Recursos de la comunidad</strong><br>
+👉 <a href="https://seth-nut.github.io/resources">seth-nut.github.io/resources</a><br>
+Ejemplos de proyectos, presentaciones y libros en Quarto.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/hat.png" width="50"><br>
+<strong>Aplicaciones en educación</strong><br>
+Olimpiada Matemática, Verano Matemático, EMMA y mini cursos DMAT con materiales en línea.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div></div>
 </section>
 <section id="gracias-por-participar" class="slide level2">
 <h2>🎉 ¡Gracias por Participar!</h2>
