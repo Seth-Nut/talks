@@ -366,13 +366,13 @@ format:
 ## Ejemplos de Prompts {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: panel-tabset
-## Prompt 1
+## Fórmulas
 
 ::: columns
 ::: {.column width="50%"}
-✨ **Ejemplo de prompt:**
+✨ **Prompt:**
 
-"Escríbeme la fórmula cuadrática"
+"Escríbeme la fórmula de la función cuadrática en LaTeX."
 :::
 
 ::: {.column .incremental width="50%"}
@@ -386,13 +386,14 @@ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 :::
 :::
 
-## Prompt 2
+## Estructuración
 
 ::: columns
 ::: {.column width="50%"}
-✨ **Ejemplo de prompt:**
+✨ **Prompt:**
 
-> "Haz una tabla de derivadas básicas en latex"
+“Haz una tabla de derivadas básicas en LaTeX (función vs. derivada)."
+
 :::
 
 ::: {.column .incremental width="50%"}
@@ -414,11 +415,11 @@ $\sqrt{x}$ & $\dfrac{1}{2\sqrt{x}}$ \\
 :::
 :::
 
-## Prompt 3
+## Corrección
 
 ::: columns
 ::: {.column width="50%"}
-✨ **Ejemplo de prompt:**
+✨ **Prompt:**
 
 “Estoy tratando de compilar esta ecuación en LaTeX, pero me da error. ¿Me puedes ayudar?”
 
