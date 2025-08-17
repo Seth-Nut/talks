@@ -3378,7 +3378,7 @@
     "href": "hello-quarto/presentacion.html#hello-quarto-title",
     "title": "Seth&Nut",
     "section": "",
-    "text": "Hola Quarto\ncompartir • colaborar • enseñar • reimaginar\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://sethnut.com/talks/"
+    "text": "Hola Quarto\ncompartir • colaborar • enseñar • reimaginar\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://sethnut.com/talks"
   },
   {
     "objectID": "hello-quarto/presentacion.html#qué-es-quarto",
@@ -3402,18 +3402,11 @@
     "text": "Quarto es un sistema abierto de publicación científica y técnica\n\n\nel objetivo es hacer que el proceso de creación y colaboración sea drásticamente mejor"
   },
   {
-    "objectID": "hello-quarto/presentacion.html#quarto-next-generation-r-markdown",
-    "href": "hello-quarto/presentacion.html#quarto-next-generation-r-markdown",
+    "objectID": "hello-quarto/presentacion.html#por-qué-quarto",
+    "href": "hello-quarto/presentacion.html#por-qué-quarto",
     "title": "Seth&Nut",
-    "section": "Quarto: Next generation R Markdown",
-    "text": "Quarto: Next generation R Markdown\n\n\nQuarto unifies the functionality from these packages,\nbuilding on Pandoc on the technical side\nand on the human side – over a decade of experience developing, maintaining, and tweaking these packages as well as community feedback R Markdown extension packages.\nSuch a unification effort presents a fantastic opportunity to identify and address gaps functionality and inefficiencies in user experience, and the process of building Quarto has been no different."
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#quarto-highlights",
-    "href": "hello-quarto/presentacion.html#quarto-highlights",
-    "title": "Seth&Nut",
-    "section": "Quarto highlights",
-    "text": "Quarto highlights\n\n\n\n\n\n\n Consistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.\n\n\n\n\n\n\n\n More accessible defaults as well as better support for accessibility\n\n\n\n\n\n\n\n\n\n\n\n Guardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.\n\n\n\n\n\n\n\n Support for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks."
+    "section": "¿Por qué Quarto?",
+    "text": "¿Por qué Quarto?\n\n\n\n\n\n\n\n Un solo documento, múltiples formatos: HTML, PDF, presentaciones o sitios web.\n\n\n\n\n\n\n\n Materiales más accesibles y fáciles de usar, con soporte para la enseñanza y la inclusión.\n\n\n\n\n\n\n\n\n\n\n\n Fácil de aprender: usa Markdown simple y cuenta con ayudas para empezar rápido.\n\n\n\n\n\n\n\n Flexibilidad total: integra texto, imágenes y código en R, Python, Julia u otros lenguajes."
   },
   {
     "objectID": "hello-quarto/presentacion.html#ejemplos",
@@ -3423,18 +3416,18 @@
     "text": "Ejemplos"
   },
   {
-    "objectID": "hello-quarto/presentacion.html#quarto-cli-orchestrates-each-step-of-rendering",
-    "href": "hello-quarto/presentacion.html#quarto-cli-orchestrates-each-step-of-rendering",
+    "objectID": "hello-quarto/presentacion.html#el-cli-de-quarto-organiza-cada-paso-del-renderizado",
+    "href": "hello-quarto/presentacion.html#el-cli-de-quarto-organiza-cada-paso-del-renderizado",
     "title": "Seth&Nut",
-    "section": "Quarto CLI orchestrateseach step of rendering",
-    "text": "Quarto CLI orchestrateseach step of rendering\n\n\n\n\n\n\n\n\nNow that you’ve all had a chance to see Quarto in action, you might be wondering, “how are R Markdown and Quarto different”?\nThe main difference is that with R Markdown, the R package rmarkdown does the heavy lifting of going from the source Rmd file to the the output, using knitr for evaluating the code chunks.\n–&gt; With Quarto, on the other hand, the Quarto command line interface, or the Quarto CLI, does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output.\nWhile this is technically impressive, I’ll be honest, it’s not exactly what sparked my interest in Quarto in the first place."
+    "section": "El CLI de Quarto organizacada paso del renderizado",
+    "text": "El CLI de Quarto organizacada paso del renderizado"
   },
   {
-    "objectID": "hello-quarto/presentacion.html#quarto-makes-moving-between-formats-straightforward",
-    "href": "hello-quarto/presentacion.html#quarto-makes-moving-between-formats-straightforward",
+    "objectID": "hello-quarto/presentacion.html#quarto-facilita-el-cambio-entre-formatos",
+    "href": "hello-quarto/presentacion.html#quarto-facilita-el-cambio-entre-formatos",
     "title": "Seth&Nut",
-    "section": "Quarto makes moving between formats straightforward",
-    "text": "Quarto makes moving between formats straightforward\n\n\n\nDocument\n\n lesson-1.qmd\n\ntitle: \"Lesson 1\"\nformat: html\n\n\n\nPresentation\n\n lesson-1.qmd\n\ntitle: \"Lesson 1\"\nformat: revealjs\n\n\n\nWebsite\n\n _quarto.yml\n\nproject:\n  type: website\n\nwebsite: \n  navbar: \n    left:\n      - lesson-1.qmd"
+    "section": "Quarto facilita el cambio entre formatos",
+    "text": "Quarto facilita el cambio entre formatos\n\n\n\nDocument\n\n lesson-1.qmd\n\ntitle: \"Lesson 1\"\nformat: html\n\n\n\nPresentation\n\n lesson-1.qmd\n\ntitle: \"Lesson 1\"\nformat: revealjs\n\n\n\nWebsite\n\n _quarto.yml\n\nproject:\n  type: website\n\nwebsite: \n  navbar: \n    left:\n      - lesson-1.qmd"
   },
   {
     "objectID": "hello-quarto/presentacion.html#instalar-y-configurar-quarto",
@@ -3504,14 +3497,14 @@
     "href": "hello-quarto/presentacion.html#conclusiones",
     "title": "Seth&Nut",
     "section": "Conclusiones",
-    "text": "Conclusiones\n\n\n\n\n\n\n\nCompartir: De lo estático a lo interactivo; un mismo .qmd produce HTML, PDF, slides o sitios web.\n\n\n\n\n\n\n\n\nColaborar: Proyectos ordenados y control de versiones con GitHub permiten construir materiales abiertos en equipo.\n\n\n\n\n\n\n\n\n\n\n\n\nEnseñar: Presentaciones reveal.js, dashboards y libros en línea integran texto, código y visualizaciones para el aula.\n\n\n\n\n\n\n\n\nReimaginar: Tecnologías como WebR, Pyodide, Shiny y Observable JS abren nuevas formas de innovar en educación matemática."
+    "text": "Conclusiones\n\n\n\n\n\n\n\nCompartir: De lo estático a lo interactivo; un mismo .qmd produce HTML, PDF, slides o sitios web.\n\n\n\n\n\n\n\n\nColaborar: Proyectos ordenados y control de versiones con GitHub permiten construir materiales abiertos en equipo.\n\n\n\n\n\n\n\n\n\n\n\n\nEnseñar: Presentaciones reveal.js, dashboards y libros en línea integran texto, código y visualizaciones para el aula.\n\n\n\n\n\n\n\n\nReimaginar: Tecnologías como WebR, Pyodide, Shiny y Observable JS abren nuevas formas de innovar en educación."
   },
   {
     "objectID": "hello-quarto/presentacion.html#referencias-y-recursos",
     "href": "hello-quarto/presentacion.html#referencias-y-recursos",
     "title": "Seth&Nut",
     "section": "Referencias y Recursos",
-    "text": "Referencias y Recursos\n\n\n\n\n\n\n\nDocumentación oficial\n👉 quarto.org\nGuías, tutoriales y ejemplos para empezar.\n\n\n\n\n\n\n\n\nAprendizaje en video\n👉 Crash Course en YouTube\nIntroducción práctica a Quarto y sus usos.\n\n\n\n\n\n\n\n\n\n\n\n\nRecursos de la comunidad\n👉 seth-nut.github.io/resources\nEjemplos de proyectos, presentaciones y libros en Quarto.\n\n\n\n\n\n\n\n\nAplicaciones en educación\nOlimpiada Matemática, Verano Matemático, EMMA y mini cursos DMAT con materiales en línea."
+    "text": "Referencias y Recursos\n\n\n\n\n\n\n\nDocumentación oficial\n🔗 quarto.org\nGuías y ejemplos prácticos para comenzar de inmediato.\n\n\n\n\n\n\n\n\nAprendizaje en video\n🔗 Crash Course en YouTube\nIntroducción práctica a Quarto y sus distintos usos.\n\n\n\n\n\n\n\n\n\n\n\n\nRecursos de la comunidad\n🔗 Mine Cetinkaya-Rundel\nCursos, libros y presentaciones en Quarto en GitHub.\n\n\n\n\n\n\n\n\nAplicaciones en educación\n🔗 sethnut.com/resources\nOlimpiada Matemática, Verano Matemático, EMMA y más!"
   },
   {
     "objectID": "hello-quarto/presentacion.html#gracias-por-participar",
@@ -4385,8 +4378,8 @@
     "objectID": "latex_2025/presentacion_emma.html#conclusiones",
     "href": "latex_2025/presentacion_emma.html#conclusiones",
     "title": "¡Adiós Word, Hola LaTeX!",
-    "section": "🧾 Conclusiones",
-    "text": "🧾 Conclusiones\n \n\n✅ LaTeX permite crear documentos académicos con formato profesional.  ✅ Ofrece control total sobre estilo y estructura. ✅ Hay muchas herramientas que lo hacen más fácil de usar. ✅ Con IA, escribir en LaTeX es aún más eficiente. ✅ Overleaf permite comenzar sin instalar nada."
+    "section": "Conclusiones",
+    "text": "Conclusiones\n \n\n✅ LaTeX permite crear documentos académicos con formato profesional.  ✅ Ofrece control total sobre estilo y estructura. ✅ Hay muchas herramientas que lo hacen más fácil de usar. ✅ Con IA, escribir en LaTeX es aún más eficiente. ✅ Overleaf permite comenzar sin instalar nada."
   },
   {
     "objectID": "latex_2025/presentacion_emma.html#gracias-por-participar",

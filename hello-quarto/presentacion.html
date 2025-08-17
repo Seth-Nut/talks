@@ -199,7 +199,7 @@
 <p><span class="custom-title">Hola Quarto</span></p>
 <p><span class="custom-subtitle">compartir • colaborar • enseñar • reimaginar</span></p>
 <p><span class="custom-author">Francisco Alfaro Medina <br> Valeska Canales Pozo</span></p>
-<p><span class="custom-url"><a href="https://sethnut.com/talks/" class="uri">https://sethnut.com/talks/</a></span></p>
+<p><span class="custom-url"><a href="https://sethnut.com/talks" class="uri">https://sethnut.com/talks</a></span></p>
 </section>
 <section>
 <section id="motivación" class="title-slide slide level1 center" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="zoom">
@@ -264,35 +264,20 @@
 <h1>Compartir</h1>
 
 </section>
-<section id="quarto-next-generation-r-markdown" class="slide level2" data-transition="zoom">
-<h2>Quarto: Next generation R Markdown</h2>
+<section id="section" class="slide level2" data-transition="zoom">
+<h2></h2>
 
-<img data-src="images/horst_quarto_ball_straight.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%" alt="Quarto logo."><aside class="notes">
-<p>Quarto unifies the functionality from these packages,</p>
-<p>building on Pandoc on the technical side</p>
-<p>and on the human side – over a decade of experience developing, maintaining, and tweaking these packages as well as community feedback R Markdown extension packages.</p>
-<p>Such a unification effort presents a fantastic opportunity to identify and address gaps functionality and inefficiencies in user experience, and the process of building Quarto has been no different.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="quarto-highlights" class="slide level2">
-<h2>Quarto highlights</h2>
+<img data-src="images/horst_quarto_ball_straight.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%" alt="Quarto logo."></section>
+<section id="por-qué-quarto" class="slide level2" data-transition="zoom">
+<h2>¿Por qué Quarto?</h2>
+<p><br></p>
 <div class="columns">
 <div class="column" style="width:5%;">
 
 </div><div class="column" style="width:40%;">
 <div class="bulletbox">
 <div class="fragment fade-in-then-semi-out">
-<p><img data-src="images/horst_quarto_ball-1_4.png" alt="One quadrant of the Quarto logo." width="50"> Consistent implementation of attractive and handy features across outputs: tabsets, code-folding, syntax highlighting, etc.</p>
+<p><img data-src="images/horst_quarto_ball-1_4.png" alt="Un cuadrante del logo de Quarto." width="50"> Un solo documento, múltiples formatos: HTML, PDF, presentaciones o sitios web.</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
@@ -300,7 +285,7 @@
 </div><div class="column" style="width:40%;">
 <div class="bulletbox">
 <div class="fragment fade-in-then-semi-out">
-<p><img data-src="images/horst_quarto_ball-2_4.png" alt="Two quadrants of the Quarto logo." width="50"> More accessible defaults as well as better support for accessibility</p>
+<p><img data-src="images/horst_quarto_ball-2_4.png" alt="Dos cuadrantes del logo de Quarto." width="50"> Materiales más accesibles y fáciles de usar, con soporte para la enseñanza y la inclusión.</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
@@ -312,7 +297,7 @@
 </div><div class="column" style="width:40%;">
 <div class="bulletbox">
 <div class="fragment fade-in-then-semi-out">
-<p><img data-src="images/horst_quarto_ball-3_4.png" alt="Three quadrants of the Quarto logo." width="50"> Guardrails, particularly helpful for new learners: YAML completion, informative syntax errors, etc.</p>
+<p><img data-src="images/horst_quarto_ball-3_4.png" alt="Tres cuadrantes del logo de Quarto." width="50"> Fácil de aprender: usa Markdown simple y cuenta con ayudas para empezar rápido.</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
@@ -320,7 +305,7 @@
 </div><div class="column" style="width:40%;">
 <div class="bulletbox">
 <div class="fragment fade-in-then-semi-out">
-<p><img data-src="images/horst_quarto_ball-4_4.png" alt="Four quadrants of the Quarto logo." width="50"> Support for other languages like Python, Julia, Observable, and more via Jupyter engine for executable code chunks.</p>
+<p><img data-src="images/horst_quarto_ball-4_4.png" alt="Cuatro cuadrantes del logo de Quarto." width="50"> Flexibilidad total: integra texto, imágenes y código en R, Python, Julia u otros lenguajes.</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
@@ -345,34 +330,18 @@
 </div>
 </div>
 </section>
-<section id="quarto-cli-orchestrates-each-step-of-rendering" class="slide level2 takeaway center">
-<h2>Quarto CLI orchestrates<br>each step of rendering</h2>
+<section id="el-cli-de-quarto-organiza-cada-paso-del-renderizado" class="slide level2 takeaway center">
+<h2>El CLI de Quarto organiza<br>cada paso del renderizado</h2>
 <div class="fragment fade-up">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/horst_qmd_render_schema.png" class="quarto-figure quarto-figure-center" alt="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document."></p>
+<p><img data-src="images/horst_qmd_render_schema.png" class="quarto-figure quarto-figure-center" alt="Esquema que representa el proceso de renderizado de documentos Quarto: desde .qmd, pasando por knitr o jupyter, a Markdown en texto plano, y luego convertido con pandoc a múltiples formatos de salida como HTML, PDF o Word."></p>
 </figure>
 </div>
 </div>
-<aside class="notes">
-<p>Now that you’ve all had a chance to see Quarto in action, you might be wondering, “how are R Markdown and Quarto different”?</p>
-<p>The main difference is that with R Markdown, the R package rmarkdown does the heavy lifting of going from the source Rmd file to the the output, using knitr for evaluating the code chunks.</p>
-<p>–&gt; With Quarto, on the other hand, the Quarto command line interface, or the Quarto CLI, does the orchestration of processing executable code chunks with either knitr or jupyter and then converting the resulting markdown file to the desired output.</p>
-<p>While this is technically impressive, I’ll be honest, it’s not exactly what sparked my interest in Quarto in the first place.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
-<section id="quarto-makes-moving-between-formats-straightforward" class="slide level2 takeaway center">
-<h2>Quarto makes moving between formats straightforward</h2>
+<section id="quarto-facilita-el-cambio-entre-formatos" class="slide level2 takeaway center">
+<h2>Quarto facilita el cambio entre formatos</h2>
 <div class="columns">
 <div class="column" style="width:33%;">
 <div class="fragment">
@@ -711,14 +680,14 @@
 <div class="bulletbox">
 <div class="fragment fade-in-then-semi-out">
 <p><img data-src="images/horst_quarto_ball-4_4.png" width="50"><br>
-<strong>Reimaginar</strong>: Tecnologías como WebR, Pyodide, Shiny y Observable JS abren nuevas formas de innovar en educación matemática.</p>
+<strong>Reimaginar</strong>: Tecnologías como WebR, Pyodide, Shiny y Observable JS abren nuevas formas de innovar en educación.</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
 
 </div></div>
 </section>
-<section id="referencias-y-recursos" class="slide level2">
+<section id="referencias-y-recursos" class="slide level2" data-transition="zoom">
 <h2>Referencias y Recursos</h2>
 <div class="columns">
 <div class="column" style="width:5%;">
@@ -728,8 +697,8 @@
 <div class="fragment fade-in-then-semi-out">
 <p><img data-src="images/horst_quarto_ball-4_4.png" width="50"><br>
 <strong>Documentación oficial</strong><br>
-👉 <a href="https://quarto.org">quarto.org</a><br>
-Guías, tutoriales y ejemplos para empezar.</p>
+🔗 <a href="https://quarto.org">quarto.org</a><br>
+Guías y ejemplos prácticos para comenzar de inmediato.</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
@@ -739,8 +708,8 @@ Guías, tutoriales y ejemplos para empezar.</p>
 <div class="fragment fade-in-then-semi-out">
 <p><img data-src="images/youtube.png" width="50"><br>
 <strong>Aprendizaje en video</strong><br>
-👉 <a href="https://youtu.be/_VKxTPWDhA4">Crash Course en YouTube</a><br>
-Introducción práctica a Quarto y sus usos.</p>
+🔗 <a href="https://www.youtube.com/watch?v=_VKxTPWDhA4&amp;t=3677s">Crash Course en YouTube</a><br>
+Introducción práctica a Quarto y sus distintos usos.</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
@@ -754,8 +723,8 @@ Introducción práctica a Quarto y sus usos.</p>
 <div class="fragment fade-in-then-semi-out">
 <p><img data-src="images/github.png" width="50"><br>
 <strong>Recursos de la comunidad</strong><br>
-👉 <a href="https://seth-nut.github.io/resources">seth-nut.github.io/resources</a><br>
-Ejemplos de proyectos, presentaciones y libros en Quarto.</p>
+🔗 <a href="https://github.com/mine-cetinkaya-rundel">Mine Cetinkaya-Rundel</a><br>
+Cursos, libros y presentaciones en Quarto en GitHub.</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
@@ -765,7 +734,8 @@ Ejemplos de proyectos, presentaciones y libros en Quarto.</p>
 <div class="fragment fade-in-then-semi-out">
 <p><img data-src="images/hat.png" width="50"><br>
 <strong>Aplicaciones en educación</strong><br>
-Olimpiada Matemática, Verano Matemático, EMMA y mini cursos DMAT con materiales en línea.</p>
+🔗 <a href="https://sethnut.com/resources/">sethnut.com/resources</a><br>
+Olimpiada Matemática, Verano Matemático, EMMA y más!</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
