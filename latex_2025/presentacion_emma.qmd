@@ -40,10 +40,10 @@ format:
 ::: {.column .incremental width="60%"}
 <br>
 
-- **Conocer LaTeX**: Qué es y por qué usarlo frente a otros editores.\
-- **Primeros pasos**: Crear, compilar y estructurar un documento básico.\
-- **Elementos clave**: Texto, secciones, listas, imágenes y fórmulas.\
-- **Buenas prácticas**: Organización, plantillas y recursos recomendados.
+-   **Conocer LaTeX**: Qué es y por qué usarlo frente a otros editores.\
+-   **Primeros pasos**: Crear, compilar y estructurar un documento básico.\
+-   **Elementos clave**: Texto, secciones, listas, imágenes y fórmulas.\
+-   **Buenas prácticas**: Organización, plantillas y recursos recomendados.
 :::
 :::
 
@@ -73,10 +73,10 @@ format:
 
 -   **¿Qué es LaTeX?**
     -   Sistema para crear documentos académicos y científicos con formato profesional.
-- **Ventajas**:  
-    - Automatiza referencias, citas y ecuaciones.  
-    - Control total sobre formato y estructura.  
-    - Ideal para documentos extensos y complejos.
+-   **Ventajas**:
+    -   Automatiza referencias, citas y ecuaciones.\
+    -   Control total sobre formato y estructura.\
+    -   Ideal para documentos extensos y complejos.
 :::
 :::
 
@@ -84,34 +84,25 @@ format:
 
 ## Ejemplos de LaTeX {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: r-stack
-
 ::: {.fragment .fade-in-then-out}
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/6iH5QPCL3w1qwm?startSlide=1"
-        width="960" height="600" frameborder="0" scrolling="no"
-        style="max-width:100%; border:1px solid #CCC; border-radius:10px;"
-        allowfullscreen></iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/6iH5QPCL3w1qwm?startSlide=1" width="960" height="600" frameborder="0" scrolling="no" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
 :::
 
 ::: {.fragment .fade-in-then-out}
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/eUNDWTAdYMfD7M?hostedIn=slideshare&page=upload"
-        width="960" height="600" frameborder="0" scrolling="no"
-        style="max-width:100%; border:1px solid #CCC; border-radius:10px;"
-        allowfullscreen></iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/eUNDWTAdYMfD7M?hostedIn=slideshare&amp;page=upload" width="960" height="600" frameborder="0" scrolling="no" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
 :::
 
+::: fragment
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/tkQohqCfNlexT1?startSlide=1" width="960" height="600" frameborder="0" scrolling="no" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
-::: {.fragment}
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/tkQohqCfNlexT1?startSlide=1"
-        width="960" height="600" frameborder="0" scrolling="no"
-        style="max-width:100%; border:1px solid #CCC; border-radius:10px;"
-        allowfullscreen></iframe>
+</iframe>
 :::
 :::
-
-
-
 
 ------------------------------------------------------------------------
 
@@ -127,14 +118,12 @@ format:
 ::: {.column .incremental width="60%"}
 <br>
 
-- **Editor recomendado:**
-  - [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*  
-
-- **Instalaciones locales:**
-  - [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)  
-
-- **Editores útiles:**
-  - [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)  
+-   **Editor recomendado:**
+    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
+-   **Instalaciones locales:**
+    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
+-   **Editores útiles:**
+    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
 :::
 :::
 
@@ -178,7 +167,6 @@ format:
 
 ![](images/overleaf1.jpg){.fragment .fade-in-then-out fig-align="center" width="90%"}
 
-
 ![](images/ovealeaf2.png){.fragment fig-align="center" width="75%"}
 :::
 
@@ -206,24 +194,17 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
-
-
-
-1. **Nuevo proyecto en Overleaf**.
-2. **Copia** la [plantilla](https://www.overleaf.com/read/qfrqrpxfqhkj#f66dd7).
-3. **Edita**: título, texto e imágenes.
-4. **Compila** y revisa.
-5. *(Extra)* Añade cita y bibliografía.
-
+1.  **Nuevo proyecto en Overleaf**.
+2.  **Copia** la [plantilla](https://www.overleaf.com/read/qfrqrpxfqhkj#f66dd7).
+3.  **Edita**: título, texto e imágenes.
+4.  **Compila** y revisa.
+5.  *(Extra)* Añade cita y bibliografía.
 :::
 :::
 
 . . .
 
 > ⏱️ Tiempo de la actividad: 10–15 minutos.
-
-
-
 
 ------------------------------------------------------------------------
 
@@ -237,7 +218,7 @@ format:
 
 ------------------------------------------------------------------------
 
-## Overleaf Gallery{background-image="images/background.jpg" background-opacity="0.25"}
+## Overleaf Gallery {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="40%"}
@@ -249,13 +230,12 @@ format:
 ::: {.column .incremental width="60%"}
 <br>
 
-- **Plantillas listas para usar**:
-  - Artículos, tesis, pósters y presentaciones.
-- **Aprende explorando**:
-  - Abre una plantilla y estudia su código.
-- **Personaliza y reutiliza**:
-  - Cambia texto, imágenes y estilo.
-
+-   **Plantillas listas para usar**:
+    -   Artículos, tesis, pósters y presentaciones.
+-   **Aprende explorando**:
+    -   Abre una plantilla y estudia su código.
+-   **Personaliza y reutiliza**:
+    -   Cambia texto, imágenes y estilo.
 :::
 :::
 
@@ -263,20 +243,17 @@ format:
 
 > 🌿 Veamos algunos ejemplos en [Overleaf Gallery](https://www.overleaf.com/gallery).
 
-
 ------------------------------------------------------------------------
 
-##  Ejemplos de plantillas {background-image="images/background.jpg" background-opacity="0.25"}
+## Ejemplos de plantillas {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 <br>
 
 ![](images/templates1.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
 
-
 ![](images/templates2.png){.fragment fig-align="center" width="75%"}
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -292,7 +269,6 @@ format:
 
 ## Herramientas Útiles {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: columns
 ::: {.column width="45%"}
 ::: {style="text-align: center;"}
@@ -301,7 +277,6 @@ format:
 :::
 
 ::: {.column .incremental width="55%"}
-
 <br>
 
 -   📊 [**Tables Generator**](https://www.tablesgenerator.com/)\
@@ -346,20 +321,18 @@ format:
 ::: {.column .incremental width="60%"}
 <br><br>
 
-* **[ChatGPT](https://chat.openai.com/)**, **[Gemini](https://gemini.google.com/)**, **[DeepSeek](https://www.deepseek.com/)**:
+-   [**ChatGPT**](https://chat.openai.com/), [**Gemini**](https://gemini.google.com/), [**DeepSeek**](https://www.deepseek.com/):
 
-  * Generan y corrigen código LaTeX.
-  * Crean ecuaciones, tablas y bibliografía.
-  * Explican comandos y paquetes.
-  * Mejoran el formato y detectan errores.
-
+    -   Generan y corrigen código LaTeX.
+    -   Crean ecuaciones, tablas y bibliografía.
+    -   Explican comandos y paquetes.
+    -   Mejoran el formato y detectan errores.
 :::
 :::
 
 . . .
 
-> <span style="font-size:0.85em;">🤖 **Consejo**: usa prompts claros, incluye tu código y pide explicaciones paso a paso.</span>
-
+> [🤖 **Consejo**: usa prompts claros, incluye tu código y pide explicaciones paso a paso.]{style="font-size:0.85em;"}
 
 ------------------------------------------------------------------------
 
@@ -393,7 +366,6 @@ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 ✨ **Prompt:**
 
 “Haz una tabla de derivadas básicas en LaTeX (función vs. derivada)."
-
 :::
 
 ::: {.column .incremental width="50%"}
@@ -440,8 +412,6 @@ f(x) = \int_0^\infty e^-x^2 dx
 :::
 :::
 
-
-
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
@@ -466,23 +436,17 @@ f(x) = \int_0^\infty e^-x^2 dx
 :::
 
 ::: {.column .incremental width="60%"}
-
-
-1. **Nuevo proyecto en Overleaf**.
-2. **Copia** la [plantilla](https://www.overleaf.com/read/gxqqsjhzfvdc#f623dc).
-3. **Edita**: título, texto e imágenes.
-4. **Compila** y revisa.
-5. *(Extra)* Añade cita y bibliografía.
-
-
-
+1.  **Nuevo proyecto en Overleaf**.
+2.  **Copia** la [plantilla](https://www.overleaf.com/read/gxqqsjhzfvdc#f623dc).
+3.  **Edita**: título, texto e imágenes.
+4.  **Compila** y revisa.
+5.  *(Extra)* Añade cita y bibliografía.
 :::
 :::
 
 . . .
 
 > ⏱️ Tiempo de la actividad: 10–15 minutos.
-
 
 ------------------------------------------------------------------------
 
@@ -494,18 +458,13 @@ f(x) = \int_0^\infty e^-x^2 dx
 [Conclusiones]{style="font-size: 1.5em"}
 :::
 
-## 🧾 Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
+## Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br> <br>
 
-::: {.fragment}
-✅ **LaTeX** permite crear documentos académicos con formato profesional. <br>
-✅ Ofrece **control total** sobre estilo y estructura.<br>
-✅ Hay muchas **herramientas** que lo hacen más fácil de usar.<br>
-✅ Con **IA**, escribir en LaTeX es aún más eficiente.<br>
-✅ **Overleaf** permite comenzar sin instalar nada.<br>
-::: 
-
+::: fragment
+✅ **LaTeX** permite crear documentos académicos con formato profesional. <br> ✅ Ofrece **control total** sobre estilo y estructura.<br> ✅ Hay muchas **herramientas** que lo hacen más fácil de usar.<br> ✅ Con **IA**, escribir en LaTeX es aún más eficiente.<br> ✅ **Overleaf** permite comenzar sin instalar nada.<br>
+:::
 
 ------------------------------------------------------------------------
 
