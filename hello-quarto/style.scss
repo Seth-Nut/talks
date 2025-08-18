@@ -42,7 +42,7 @@ $code-block-font-size: 0.9em;
 
 .reveal .custom-url a {
   color: #9CE0F6;
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: right;
   position: absolute; 
   right: 0px; 
@@ -325,4 +325,22 @@ $code-block-font-size: 0.9em;
 
 .no-logo .slide-logo {
   display: none !important;
+}
+
+.img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* Centra la imagen y el texto */
+  justify-content: center;
+}
+
+.img-box img {
+  max-width: 350px;      /* Tamaño fijo de ancho */
+  height: auto;          /* Mantiene proporción */
+}
+
+.img-box p {
+  text-align: center;    /* Centra el caption */
+  margin-top: 5px;
+  font-style: italic;    /* Estilo tipo caption */
 }

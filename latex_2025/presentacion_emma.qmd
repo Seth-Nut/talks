@@ -282,7 +282,7 @@ format:
 -   📊 [**Tables Generator**](https://www.tablesgenerator.com/)\
     Crea y exporta fácilmente tablas en formato LaTeX.
 
--   🔢 [**LaTeX Equation Editor**](https://latexeditor.lagrida.com/)\
+-   🔢 [**LaTeX Equation Editor**](https://editor.codecogs.com/)\
     Genera ecuaciones LaTeX en tiempo real.
 
 -   🧾 [**BibTeX Editor**](https://truben.no/latex/bibtex/)\
@@ -300,9 +300,9 @@ format:
 ::: r-stack
 ![](images/tool2.png){.fragment .fade-in-then-out fig-align="center" width="85%"}
 
-![](images/tool3.png){.fragment .fade-in-then-out fig-align="center" width="85%"}
+![](images/tools3.png){.fragment .fade-in-then-out fig-align="center" width="80%"}
 
-![](images/tool4.png){.fragment .fade-in-then-out fig-align="center" width="85%"}
+![](images/tool4.png){.fragment .fade-in-then-out fig-align="center" width="80%"}
 
 ![](images/tool1.png){.fragment fig-align="center" width="85%"}
 :::
