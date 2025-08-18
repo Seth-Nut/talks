@@ -3406,6 +3406,13 @@
     "href": "hello-quarto/presentacion.html#por-qué-quarto",
     "title": "Seth&Nut",
     "section": "¿Por qué Quarto?",
+    "text": "¿Por qué Quarto?"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#por-qué-quarto-1",
+    "href": "hello-quarto/presentacion.html#por-qué-quarto-1",
+    "title": "Seth&Nut",
+    "section": "¿Por qué Quarto?",
     "text": "¿Por qué Quarto?\n\n\n\n\n\n\n\n Un solo documento, múltiples formatos: HTML, PDF, presentaciones o sitios web.\n\n\n\n\n\n\n\n Materiales más accesibles y fáciles de usar, con soporte para la enseñanza y la inclusión.\n\n\n\n\n\n\n\n\n\n\n\n Fácil de aprender: usa Markdown simple y cuenta con ayudas para empezar rápido.\n\n\n\n\n\n\n\n Flexibilidad total: integra texto, imágenes y código en R, Python, Julia u otros lenguajes."
   },
   {
@@ -3434,6 +3441,146 @@
     "href": "hello-quarto/presentacion.html#instalar-y-configurar-quarto",
     "title": "Seth&Nut",
     "section": "Instalar y configurar Quarto",
+    "text": "Instalar y configurar Quarto\n\n\n\n\n\n\n\n\n\nDescarga e instalación:\n\nQuarto.org (Windows, macOS y Linux)\n\nVerificación:\n\nEjecutar quarto check en la terminal\n\nEditores recomendados:\n\nRStudio , VSCode + Quarto Extension"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-1",
+    "href": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-1",
+    "title": "Seth&Nut",
+    "section": "Instalar y configurar Quarto",
+    "text": "Instalar y configurar Quarto"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#section-1",
+    "href": "hello-quarto/presentacion.html#section-1",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "🌐 Asegúrate de tener instalado R (RStudio) y/o Python (Jupyter)"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#section-2",
+    "href": "hello-quarto/presentacion.html#section-2",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Código: hello.qmd\n---\ntitle: \"Hello, Quarto\"\nformat: html\neditor: visual\n---\n\n## Meet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see &lt;https://quarto.org&gt;.\n\n## Meet the penguins\n\n![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png){style=\"float:right;\" fig-alt=\"Illustration of three species of Palmer Archipelago penguins: Chinstrap, Gentoo, and Adelie. Artwork by @allison_horst.\" width=\"401\"}\n\nThe `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins \"palmerpenguins R package\") package contains size measurements for `{r} nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.\n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\n\nHTML: hello.htmlcd"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#section-3",
+    "href": "hello-quarto/presentacion.html#section-3",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#markdown-r-python-y-más",
+    "href": "hello-quarto/presentacion.html#markdown-r-python-y-más",
+    "title": "Seth&Nut",
+    "section": "Markdown, R, Python y más!",
+    "text": "Markdown, R, Python y más!"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#pretty-code",
+    "href": "hello-quarto/presentacion.html#pretty-code",
+    "title": "Seth&Nut",
+    "section": "Pretty Code",
+    "text": "Pretty Code\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n  })\n}\n\nLearn more: Syntax Highlighting"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#code-animations",
+    "href": "hello-quarto/presentacion.html#code-animations",
+    "title": "Seth&Nut",
+    "section": "Code Animations",
+    "text": "Code Animations\n\nOver 20 syntax highlighting themes available\nDefault theme optimized for accessibility\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n    barplot(WorldPhones[,input$region]*1000, \n            main=input$region,\n            ylab=\"Number of Telephones\",\n            xlab=\"Year\")\n  })\n}\n\nLearn more: Code Animations"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#line-highlighting",
+    "href": "hello-quarto/presentacion.html#line-highlighting",
+    "title": "Seth&Nut",
+    "section": "Line Highlighting",
+    "text": "Line Highlighting\n\nHighlight specific lines for emphasis\nIncrementally highlight additional lines\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\nLearn more: Line Highlighting"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#executable-code",
+    "href": "hello-quarto/presentacion.html#executable-code",
+    "title": "Seth&Nut",
+    "section": "Executable Code",
+    "text": "Executable Code\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nmpg = sns.load_dataset(\"mpg\")\nsns.scatterplot(data=mpg, x=\"horsepower\", y=\"mpg\")\nplt.show()\n\n\n\n\n\n\n\n\n\nLearn more: Executable Code"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#latex-equations",
+    "href": "hello-quarto/presentacion.html#latex-equations",
+    "title": "Seth&Nut",
+    "section": "LaTeX Equations",
+    "text": "LaTeX Equations\n\nMathJax rendering of equations to HTML\n\n\n\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\n\n\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\n\n\\[\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\\]\n\\[\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\\]\n\n\nLearn more: LaTeX Equations"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#column-layout",
+    "href": "hello-quarto/presentacion.html#column-layout",
+    "title": "Seth&Nut",
+    "section": "Column Layout",
+    "text": "Column Layout\nArrange content into columns of varying widths:\n\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\nwt\n\n\n\n\n18.000000\n8\n307.000000\n130.000000\n3504\n\n\n15.000000\n8\n350.000000\n165.000000\n3693\n\n\n18.000000\n8\n318.000000\n150.000000\n3436\n\n\n16.000000\n8\n304.000000\n150.000000\n3433\n\n\n17.000000\n8\n302.000000\n140.000000\n3449\n\n\n\n\n\n\n\nLearn more: Multiple Columns"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#incremental-lists",
+    "href": "hello-quarto/presentacion.html#incremental-lists",
+    "title": "Seth&Nut",
+    "section": "Incremental Lists",
+    "text": "Incremental Lists\nLists can optionally be displayed incrementally:\n\nFirst item\nSecond item\nThird item\n\n\n Insert pauses to make other types of content display incrementally.\n\nLearn more: Incremental Lists"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#fragments",
+    "href": "hello-quarto/presentacion.html#fragments",
+    "title": "Seth&Nut",
+    "section": "Fragments",
+    "text": "Fragments\nIncremental text display and animation with fragments:\n\n\nFade in\n\n\nSlide up while fading in\n\n\nSlide left while fading in\n\n\nFade in then semi out\n\n\n\nStrike\n\n\nHighlight red\n\n\nLearn more: Fragments"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#slide-backgrounds",
+    "href": "hello-quarto/presentacion.html#slide-backgrounds",
+    "title": "Seth&Nut",
+    "section": "Slide Backgrounds",
+    "text": "Slide Backgrounds\nSet the background attribute on a slide to change the background color (all CSS color formats are supported).\nDifferent background transitions are available via the background-transition option.\n\nLearn more: Slide Backgrounds"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#media-backgrounds",
+    "href": "hello-quarto/presentacion.html#media-backgrounds",
+    "title": "Seth&Nut",
+    "section": "Media Backgrounds",
+    "text": "Media Backgrounds\nYou can also use the following as a slide background:\n\nAn image: background-image\nA video: background-video\nAn iframe: background-iframe\n\n\nLearn more: Media Backgrounds"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#absolute-position",
+    "href": "hello-quarto/presentacion.html#absolute-position",
+    "title": "Seth&Nut",
+    "section": "Absolute Position",
+    "text": "Absolute Position\nPosition images or other elements at precise locations\n\n\n\n\nLearn more: Absolute Position"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#auto-animate",
+    "href": "hello-quarto/presentacion.html#auto-animate",
+    "title": "Seth&Nut",
+    "section": "Auto-Animate",
+    "text": "Auto-Animate\nAutomatically animate matching elements across slides with Auto-Animate.\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Auto-Animate"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#auto-animate-1",
+    "href": "hello-quarto/presentacion.html#auto-animate-1",
+    "title": "Seth&Nut",
+    "section": "Auto-Animate",
+    "text": "Auto-Animate\nAutomatically animate matching elements across slides with Auto-Animate.\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Auto-Animate"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#slide-transitions",
+    "href": "hello-quarto/presentacion.html#slide-transitions",
+    "title": "Seth&Nut",
+    "section": "Slide Transitions",
+    "text": "Slide Transitions\nThe next few slides will transition using the slide transition\n\n\n\n\n\n\n\nTransition\nDescription\n\n\n\n\nnone\nNo transition (default, switch instantly)\n\n\nfade\nCross fade\n\n\nslide\nSlide horizontally\n\n\nconvex\nSlide at a convex angle\n\n\nconcave\nSlide at a concave angle\n\n\nzoom\nScale the incoming slide so it grows in from the center of the screen.\n\n\n\n\nLearn more: Slide Transitions"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-2",
+    "href": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-2",
+    "title": "Seth&Nut",
+    "section": "Instalar y configurar Quarto",
     "text": "Instalar y configurar Quarto\n\n\n\n\n\n\n\n\n\nEditor recomendado:\n\nOverleaf (en línea, sin instalación)\n\nInstalaciones locales:\n\nTeX Live, MiKTeX, MacTeX\n\nEditores útiles:\n\nTeXstudio, VSCode + LaTeX Workshop"
   },
   {
@@ -3446,48 +3593,6 @@
   {
     "objectID": "hello-quarto/presentacion.html#un-lenguaje-común-markdown-quarto",
     "href": "hello-quarto/presentacion.html#un-lenguaje-común-markdown-quarto",
-    "title": "Seth&Nut",
-    "section": "Un lenguaje común: Markdown + Quarto",
-    "text": "Un lenguaje común: Markdown + Quarto\n\n\n\n\n\n\n\n\n\nEditor recomendado:\n\nOverleaf (en línea, sin instalación)\n\nInstalaciones locales:\n\nTeX Live, MiKTeX, MacTeX\n\nEditores útiles:\n\nTeXstudio, VSCode + LaTeX Workshop"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-1",
-    "href": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-1",
-    "title": "Seth&Nut",
-    "section": "Instalar y configurar Quarto",
-    "text": "Instalar y configurar Quarto\n\n\n\n\n\n\n\n\n\nEditor recomendado:\n\nOverleaf (en línea, sin instalación)\n\nInstalaciones locales:\n\nTeX Live, MiKTeX, MacTeX\n\nEditores útiles:\n\nTeXstudio, VSCode + LaTeX Workshop"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#de-un-archivo-a-un-proyecto-colaborativo-1",
-    "href": "hello-quarto/presentacion.html#de-un-archivo-a-un-proyecto-colaborativo-1",
-    "title": "Seth&Nut",
-    "section": "De un archivo a un proyecto colaborativo",
-    "text": "De un archivo a un proyecto colaborativo\n\n\n\n\n\n\n\n\n\nEditor recomendado:\n\nOverleaf (en línea, sin instalación)\n\nInstalaciones locales:\n\nTeX Live, MiKTeX, MacTeX\n\nEditores útiles:\n\nTeXstudio, VSCode + LaTeX Workshop"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#un-lenguaje-común-markdown-quarto-1",
-    "href": "hello-quarto/presentacion.html#un-lenguaje-común-markdown-quarto-1",
-    "title": "Seth&Nut",
-    "section": "Un lenguaje común: Markdown + Quarto",
-    "text": "Un lenguaje común: Markdown + Quarto\n\n\n\n\n\n\n\n\n\nEditor recomendado:\n\nOverleaf (en línea, sin instalación)\n\nInstalaciones locales:\n\nTeX Live, MiKTeX, MacTeX\n\nEditores útiles:\n\nTeXstudio, VSCode + LaTeX Workshop"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-2",
-    "href": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-2",
-    "title": "Seth&Nut",
-    "section": "Instalar y configurar Quarto",
-    "text": "Instalar y configurar Quarto\n\n\n\n\n\n\n\n\n\nEditor recomendado:\n\nOverleaf (en línea, sin instalación)\n\nInstalaciones locales:\n\nTeX Live, MiKTeX, MacTeX\n\nEditores útiles:\n\nTeXstudio, VSCode + LaTeX Workshop"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#de-un-archivo-a-un-proyecto-colaborativo-2",
-    "href": "hello-quarto/presentacion.html#de-un-archivo-a-un-proyecto-colaborativo-2",
-    "title": "Seth&Nut",
-    "section": "De un archivo a un proyecto colaborativo",
-    "text": "De un archivo a un proyecto colaborativo\n\n\n\n\n\n\n\n\n\nEditor recomendado:\n\nOverleaf (en línea, sin instalación)\n\nInstalaciones locales:\n\nTeX Live, MiKTeX, MacTeX\n\nEditores útiles:\n\nTeXstudio, VSCode + LaTeX Workshop"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#un-lenguaje-común-markdown-quarto-2",
-    "href": "hello-quarto/presentacion.html#un-lenguaje-común-markdown-quarto-2",
     "title": "Seth&Nut",
     "section": "Un lenguaje común: Markdown + Quarto",
     "text": "Un lenguaje común: Markdown + Quarto\n\n\n\n\n\n\n\n\n\nEditor recomendado:\n\nOverleaf (en línea, sin instalación)\n\nInstalaciones locales:\n\nTeX Live, MiKTeX, MacTeX\n\nEditores útiles:\n\nTeXstudio, VSCode + LaTeX Workshop"

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es"><head>
 <link href="../images/logo_sn.png" rel="icon" type="image/png">
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -96,7 +96,7 @@
     code span.vs { color: #008000; } /* VerbatimString */
     code span.wa { color: #696969; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-16d9210af857588262818d3257a22bc4.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-60bc00ac093dffa25d15ace46f292686.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -188,6 +188,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+  
+  <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -247,28 +250,20 @@
 </div>
 </div>
 </section>
-<section id="outline-1" class="slide level2 centered" data-menu-title="Esquema 1" data-auto-animate="true">
+<section id="section" class="slide level2 centered" data-auto-animate="true">
 <h2 data-id="quarto-animate-title"></h2>
 
-<img data-src="images/outline-1.png" alt="Logo de Quarto con dos cuadrantes etiquetados como Compartir y Enseñar, con un pingüino azul al lado." class="r-stretch"></section>
-<section id="outline-2" class="slide level2 centered" data-menu-title="Esquema 2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title"></h2>
-
-<img data-src="images/outline-2.png" alt="Logo de Quarto con dos cuadrantes etiquetados como Colaborar y Reimaginar, con un pingüino naranja al lado." class="r-stretch"></section>
-<section id="outline-3" class="slide level2 centered" data-menu-title="Esquema 3" data-auto-animate="true">
-<h2 data-id="quarto-animate-title"></h2>
-
-<img data-src="images/outline-3.png" alt="Logo de Quarto con los cuatro cuadrantes etiquetados como Compartir, Colaborar, Enseñar y Reimaginar." class="r-stretch"></section></section>
+<img data-src="images/toc.svg" alt="Logo de Quarto con los cuatro cuadrantes etiquetados como Compartir, Colaborar, Enseñar y Reimaginar." class="r-stretch"></section></section>
 <section>
 <section id="compartir" class="title-slide slide level1 title-middle-dark center" data-background-image="images/horst_quarto_penguins_share.png" data-state="no-logo">
 <h1>Compartir</h1>
 
 </section>
-<section id="section" class="slide level2" data-transition="zoom">
-<h2></h2>
+<section id="por-qué-quarto" class="slide level2" data-transition="zoom">
+<h2>¿Por qué Quarto?</h2>
 
 <img data-src="images/horst_quarto_ball_straight.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%" alt="Quarto logo."></section>
-<section id="por-qué-quarto" class="slide level2" data-transition="zoom">
+<section id="por-qué-quarto-1" class="slide level2" data-transition="zoom">
 <h2>¿Por qué Quarto?</h2>
 <p><br></p>
 <div class="columns">
@@ -382,7 +377,498 @@
 <h1>Colaborar</h1>
 
 </section>
-<section id="instalar-y-configurar-quarto" class="slide level2">
+<section id="instalar-y-configurar-quarto" class="slide level2" data-transition="zoom">
+<h2>Instalar y configurar Quarto</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment"><strong>Descarga e instalación:</strong>
+<ul>
+<li class="fragment"><a href="https://quarto.org/docs/get-started/">Quarto.org</a> (Windows, macOS y Linux)</li>
+</ul></li>
+<li class="fragment"><strong>Verificación:</strong>
+<ul>
+<li class="fragment">Ejecutar <code>quarto check</code> en la terminal</li>
+</ul></li>
+<li class="fragment"><strong>Editores recomendados:</strong>
+<ul>
+<li class="fragment"><a href="https://posit.co/download/rstudio/">RStudio</a> , <a href="https://marketplace.visualstudio.com/items?itemName=quarto.quarto">VSCode + Quarto Extension</a></li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="instalar-y-configurar-quarto-1" class="slide level2" data-transition="fade">
+<h2>Instalar y configurar Quarto</h2>
+<p><br></p>
+<div class="r-stack">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/inst1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/inst4.png" class="fragment quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="section-1" class="slide level2 center" data-transition="zoom">
+<h2></h2>
+<div class="centered">
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="borderbox">
+<p><img data-src="images/2-collaborate/tools-rstudio-ide.png" style="width:100.0%" alt="Screenshot of RStudio IDE"></p>
+</div>
+</div><div class="column" style="width:45%;">
+<div class="borderbox">
+<p><img data-src="images/2-collaborate/tools-vscode-ide.png" style="width:100.0%" alt="Screenshot of VS Code IDE"></p>
+</div>
+</div></div>
+</div>
+<div class="fragment">
+<div style="text-align: center;">
+<p>🌐 Asegúrate de tener instalado <a href="https://cran.r-project.org/">R</a> (<a href="https://posit.co/download/rstudio-desktop/">RStudio</a>) y/o <a href="https://www.python.org/">Python</a> (<a href="https://jupyter.org/">Jupyter</a>)</p>
+</div>
+</div>
+</section>
+<section id="section-2" class="slide level2 takeaway center">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><span style="font-size: 0.5em; color: gray">Código: hello.qmd</span></p>
+<pre><code>---
+title: "Hello, Quarto"
+format: html
+editor: visual
+---
+
+## Meet Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see &lt;https://quarto.org&gt;.
+
+## Meet the penguins
+
+![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png){style="float:right;" fig-alt="Illustration of three species of Palmer Archipelago penguins: Chinstrap, Gentoo, and Adelie. Artwork by @allison_horst." width="401"}
+
+The `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins "palmerpenguins R package") package contains size measurements for `{r} nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.
+
+The plot below shows the relationship between flipper and bill lengths of these penguins.
+</code></pre>
+</div><div class="column" style="width:60%;">
+<p><span style="font-size: 0.5em; color: gray">HTML: hello.html</span>cd</p>
+<iframe width="900" height="750" src="images/hello2.png"></iframe>
+</div></div>
+</section>
+<section id="section-3" class="slide level2 takeaway center">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><span style="font-size: 0.5em; color: gray">Código: example.qmd</span></p>
+<pre><code>---
+title: "Habits"
+author: "John Doe"
+format:
+  revealjs:
+    transition: fade
+    theme: black
+    toc: true
+    center: true
+---
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+---
+
+## Going to sleep 
+::: { .incremental }
+
+- Get in bed
+- Count sheep
+
+:::</code></pre>
+</div><div class="column" style="width:60%;">
+<p><span style="font-size: 0.5em; color: gray">Slides: example.html</span></p>
+<iframe width="800" height="600" src="images/quarto_min.html"></iframe>
+</div></div>
+</section></section>
+<section>
+<section id="enseñar" class="title-slide slide level1 title-middle-ice center" data-background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo">
+<h1>Enseñar</h1>
+
+</section>
+<section id="markdown-r-python-y-más" class="slide level2">
+<h2>Markdown, R, Python y más!</h2>
+<div class="r-stack">
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/3-teach/many-qmd-to-output.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:70.0%"></p>
+</figure>
+</div>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/3-teach/many-lang-qmd-to-output.png" class="fragment quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="pretty-code" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Pretty Code</h2>
+<ul>
+<li>Over 20 syntax highlighting themes available</li>
+<li>Default theme optimized for accessibility</li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb6-1" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Define a server for the Shiny app</span></span>
+<span id="cb6-2" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a><span class="cf">function</span>(input, output) {</span>
+<span id="cb6-3" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-4" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  <span class="co"># Fill in the spot we created for a plot</span></span>
+<span id="cb6-5" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  output<span class="sc">$</span>phonePlot <span class="ot">&lt;-</span> <span class="fu">renderPlot</span>({</span>
+<span id="cb6-6" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>    <span class="co"># Render a barplot</span></span>
+<span id="cb6-7" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb6-8" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/output-formats/html-code.html#highlighting">Syntax Highlighting</a></p>
+</div>
+</section>
+<section id="code-animations" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Code Animations</h2>
+<ul>
+<li>Over 20 syntax highlighting themes available</li>
+<li>Default theme optimized for accessibility</li>
+</ul>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb7-1" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Define a server for the Shiny app</span></span>
+<span id="cb7-2" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a><span class="cf">function</span>(input, output) {</span>
+<span id="cb7-3" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb7-4" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  <span class="co"># Fill in the spot we created for a plot</span></span>
+<span id="cb7-5" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  output<span class="sc">$</span>phonePlot <span class="ot">&lt;-</span> <span class="fu">renderPlot</span>({</span>
+<span id="cb7-6" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>    <span class="co"># Render a barplot</span></span>
+<span id="cb7-7" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">barplot</span>(WorldPhones[,input<span class="sc">$</span>region]<span class="sc">*</span><span class="dv">1000</span>, </span>
+<span id="cb7-8" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>            <span class="at">main=</span>input<span class="sc">$</span>region,</span>
+<span id="cb7-9" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>            <span class="at">ylab=</span><span class="st">"Number of Telephones"</span>,</span>
+<span id="cb7-10" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>            <span class="at">xlab=</span><span class="st">"Year"</span>)</span>
+<span id="cb7-11" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb7-12" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/presentations/revealjs/advanced.html#code-animations">Code Animations</a></p>
+</div>
+</section>
+<section id="line-highlighting" class="slide level2">
+<h2>Line Highlighting</h2>
+<ul>
+<li>Highlight specific lines for emphasis</li>
+<li>Incrementally highlight additional lines</li>
+</ul>
+<div class="sourceCode" id="cb8" data-code-line-numbers="4-5|7|10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb8-2"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb8-3"><a></a></span>
+<span id="cb8-4"><a></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
+<span id="cb8-5"><a></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
+<span id="cb8-6"><a></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">'projection'</span>: <span class="st">'polar'</span>})</span>
+<span id="cb8-7"><a></a>ax.plot(theta, r)</span>
+<span id="cb8-8"><a></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
+<span id="cb8-9"><a></a>ax.grid(<span class="va">True</span>)</span>
+<span id="cb8-10"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/presentations/revealjs/#line-highlighting">Line Highlighting</a></p>
+</div>
+</section>
+<section id="executable-code" class="slide level2">
+<h2>Executable Code</h2>
+<div id="d2d91ff4" class="cell" data-fig-height="4.5" data-fig-width="10" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb9-2"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb9-3"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a aria-hidden="true" tabindex="-1"></a>mpg <span class="op">=</span> sns.load_dataset(<span class="st">"mpg"</span>)</span>
+<span id="cb9-5"><a aria-hidden="true" tabindex="-1"></a>sns.scatterplot(data<span class="op">=</span>mpg, x<span class="op">=</span><span class="st">"horsepower"</span>, y<span class="op">=</span><span class="st">"mpg"</span>)</span>
+<span id="cb9-6"><a aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure>
+<p><img data-src="presentacion_files/figure-revealjs/cell-2-output-1.png" width="808" height="429"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/presentations/revealjs/#executable-code">Executable Code</a></p>
+</div>
+</section>
+<section id="latex-equations" class="slide level2">
+<h2>LaTeX Equations</h2>
+<p><br></p>
+<p><a href="https://www.mathjax.org/">MathJax</a> rendering of equations to HTML</p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="sourceCode" id="cb10"><pre class="sourceCode tex code-with-copy"><code class="sourceCode latex"><span id="cb10-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">gather*</span>}</span>
+<span id="cb10-2"><a aria-hidden="true" tabindex="-1"></a><span class="ss">a_1=b_1+c_1</span><span class="sc">\\</span></span>
+<span id="cb10-3"><a aria-hidden="true" tabindex="-1"></a><span class="ss">a_2=b_2+c_2-d_2+e_2</span></span>
+<span id="cb10-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">gather*</span>}</span>
+<span id="cb10-5"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">align</span>}</span>
+<span id="cb10-7"><a aria-hidden="true" tabindex="-1"></a><span class="ss">a_{11}&amp; =b_{11}&amp;</span></span>
+<span id="cb10-8"><a aria-hidden="true" tabindex="-1"></a><span class="ss">  a_{12}&amp; =b_{12}</span><span class="sc">\\</span></span>
+<span id="cb10-9"><a aria-hidden="true" tabindex="-1"></a><span class="ss">a_{21}&amp; =b_{21}&amp;</span></span>
+<span id="cb10-10"><a aria-hidden="true" tabindex="-1"></a><span class="ss">  a_{22}&amp; =b_{22}+c_{22}</span></span>
+<span id="cb10-11"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">align</span>}</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:60%;">
+<span class="math display">\[\begin{gather*}
+a_1=b_1+c_1\\
+a_2=b_2+c_2-d_2+e_2
+\end{gather*}\]</span>
+<span class="math display">\[\begin{align}
+a_{11}&amp; =b_{11}&amp;
+  a_{12}&amp; =b_{12}\\
+a_{21}&amp; =b_{21}&amp;
+  a_{22}&amp; =b_{22}+c_{22}
+\end{align}\]</span>
+</div></div>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/authoring/markdown-basics.html#equations">LaTeX Equations</a></p>
+</div>
+</section>
+<section id="column-layout" class="slide level2">
+<h2>Column Layout</h2>
+<p>Arrange content into columns of varying widths:</p>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:35%;">
+<h4 id="motor-trend-car-road-tests">Motor Trend Car Road Tests</h4>
+<p>The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.</p>
+</div><div class="column" style="width:3%;">
+
+</div><div class="column" style="width:62%;">
+<div id="11fc939c" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display" data-execution_count="2">
+<style type="text/css">
+</style>
+
+<table id="T_bda6b" class="caption-top" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th id="T_bda6b_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">mpg</th>
+<th id="T_bda6b_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">cyl</th>
+<th id="T_bda6b_level0_col2" class="col_heading level0 col2" data-quarto-table-cell-role="th">disp</th>
+<th id="T_bda6b_level0_col3" class="col_heading level0 col3" data-quarto-table-cell-role="th">hp</th>
+<th id="T_bda6b_level0_col4" class="col_heading level0 col4" data-quarto-table-cell-role="th">wt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td id="T_bda6b_row0_col0" class="data row0 col0">18.000000</td>
+<td id="T_bda6b_row0_col1" class="data row0 col1">8</td>
+<td id="T_bda6b_row0_col2" class="data row0 col2">307.000000</td>
+<td id="T_bda6b_row0_col3" class="data row0 col3">130.000000</td>
+<td id="T_bda6b_row0_col4" class="data row0 col4">3504</td>
+</tr>
+<tr class="even">
+<td id="T_bda6b_row1_col0" class="data row1 col0">15.000000</td>
+<td id="T_bda6b_row1_col1" class="data row1 col1">8</td>
+<td id="T_bda6b_row1_col2" class="data row1 col2">350.000000</td>
+<td id="T_bda6b_row1_col3" class="data row1 col3">165.000000</td>
+<td id="T_bda6b_row1_col4" class="data row1 col4">3693</td>
+</tr>
+<tr class="odd">
+<td id="T_bda6b_row2_col0" class="data row2 col0">18.000000</td>
+<td id="T_bda6b_row2_col1" class="data row2 col1">8</td>
+<td id="T_bda6b_row2_col2" class="data row2 col2">318.000000</td>
+<td id="T_bda6b_row2_col3" class="data row2 col3">150.000000</td>
+<td id="T_bda6b_row2_col4" class="data row2 col4">3436</td>
+</tr>
+<tr class="even">
+<td id="T_bda6b_row3_col0" class="data row3 col0">16.000000</td>
+<td id="T_bda6b_row3_col1" class="data row3 col1">8</td>
+<td id="T_bda6b_row3_col2" class="data row3 col2">304.000000</td>
+<td id="T_bda6b_row3_col3" class="data row3 col3">150.000000</td>
+<td id="T_bda6b_row3_col4" class="data row3 col4">3433</td>
+</tr>
+<tr class="odd">
+<td id="T_bda6b_row4_col0" class="data row4 col0">17.000000</td>
+<td id="T_bda6b_row4_col1" class="data row4 col1">8</td>
+<td id="T_bda6b_row4_col2" class="data row4 col2">302.000000</td>
+<td id="T_bda6b_row4_col3" class="data row4 col3">140.000000</td>
+<td id="T_bda6b_row4_col4" class="data row4 col4">3449</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div></div>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/presentations/revealjs/#multiple-columns">Multiple Columns</a></p>
+</div>
+</section>
+<section id="incremental-lists" class="slide level2">
+<h2>Incremental Lists</h2>
+<p>Lists can optionally be displayed incrementally:</p>
+<ul>
+<li class="fragment">First item</li>
+<li class="fragment">Second item</li>
+<li class="fragment">Third item</li>
+</ul>
+<div class="fragment">
+<p><br> Insert pauses to make other types of content display incrementally.</p>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/presentations/revealjs/#incremental-lists">Incremental Lists</a></p>
+</div>
+</div>
+</section>
+<section id="fragments" class="slide level2">
+<h2>Fragments</h2>
+<p>Incremental text display and animation with fragments:</p>
+<p><br></p>
+<div class="fragment fade-in">
+<p>Fade in</p>
+</div>
+<div class="fragment fade-up">
+<p>Slide up while fading in</p>
+</div>
+<div class="fragment fade-left">
+<p>Slide left while fading in</p>
+</div>
+<div class="fragment fade-in-then-semi-out">
+<p>Fade in then semi out</p>
+</div>
+<div class="fragment">
+<div class="fragment strike">
+<p>Strike</p>
+</div>
+<div class="fragment highlight-red">
+<p>Highlight red</p>
+</div>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/presentations/revealjs/advanced.html#fragments">Fragments</a></p>
+</div>
+</div>
+</section>
+<section id="slide-backgrounds" class="slide level2" data-background="#43464B">
+<h2>Slide Backgrounds</h2>
+<p>Set the <code>background</code> attribute on a slide to change the background color (all CSS color formats are supported).</p>
+<p>Different background transitions are available via the <code>background-transition</code> option.</p>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/presentations/revealjs/#color-backgrounds">Slide Backgrounds</a></p>
+</div>
+</section>
+<section id="media-backgrounds" class="slide level2" data-background="#43464B" data-background-image="images/milky-way.jpeg">
+<h2>Media Backgrounds</h2>
+<p>You can also use the following as a slide background:</p>
+<ul>
+<li><p>An image: <code>background-image</code></p></li>
+<li><p>A video: <code>background-video</code></p></li>
+<li><p>An iframe: <code>background-iframe</code></p></li>
+</ul>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/presentations/revealjs/#image-backgrounds">Media Backgrounds</a></p>
+</div>
+</section>
+<section id="absolute-position" class="slide level2">
+<h2>Absolute Position</h2>
+<p>Position images or other elements at precise locations</p>
+<p><img data-src="images/mini/images/kitten-400-350.jpeg" class="absolute" style="top: 170px; left: 30px; width: 400px; height: 400px; "></p>
+<p><img data-src="images/mini/images/kitten-450-250.jpeg" class="absolute fragment" style="top: 150px; right: 80px; width: 450px; "></p>
+<p><img data-src="images/mini/images/kitten-300-200.jpeg" class="absolute fragment" style="bottom: 110px; right: 130px; width: 300px; "></p>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/presentations/revealjs/advanced.html#absolute-position">Absolute Position</a></p>
+</div>
+</section>
+<section id="auto-animate" class="slide level2" data-auto-animate="true" data-auto-animate-easing="ease-in-out">
+<h2 data-id="quarto-animate-title">Auto-Animate</h2>
+<p>Automatically animate matching elements across slides with Auto-Animate.</p>
+<div class="r-hstack">
+<div data-id="box1" data-auto-animate-delay="0" style="background: #2780e3; width: 200px; height: 150px; margin: 10px;">
+
+</div>
+<div data-id="box2" data-auto-animate-delay="0.1" style="background: #3fb618; width: 200px; height: 150px; margin: 10px;">
+
+</div>
+<div data-id="box3" data-auto-animate-delay="0.2" style="background: #e83e8c; width: 200px; height: 150px; margin: 10px;">
+
+</div>
+</div>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/presentations/revealjs/advanced.html#auto-animate">Auto-Animate</a></p>
+</div>
+</section>
+<section id="auto-animate-1" class="slide level2" data-auto-animate="true" data-auto-animate-easing="ease-in-out">
+<h2 data-id="quarto-animate-title">Auto-Animate</h2>
+<p>Automatically animate matching elements across slides with Auto-Animate.</p>
+<div class="r-stack">
+<div data-id="box1" style="background: #2780e3; width: 350px; height: 350px; border-radius: 200px;">
+
+</div>
+<div data-id="box2" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px;">
+
+</div>
+<div data-id="box3" style="background: #e83e8c; width: 150px; height: 150px; border-radius: 200px;">
+
+</div>
+</div>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/presentations/revealjs/advanced.html#auto-animate">Auto-Animate</a></p>
+</div>
+</section>
+<section id="slide-transitions" class="slide level2 smaller">
+<h2>Slide Transitions</h2>
+<p>The next few slides will transition using the <code>slide</code> transition</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 85%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Transition</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>none</code></td>
+<td>No transition (default, switch instantly)</td>
+</tr>
+<tr class="even">
+<td><code>fade</code></td>
+<td>Cross fade</td>
+</tr>
+<tr class="odd">
+<td><code>slide</code></td>
+<td>Slide horizontally</td>
+</tr>
+<tr class="even">
+<td><code>convex</code></td>
+<td>Slide at a convex angle</td>
+</tr>
+<tr class="odd">
+<td><code>concave</code></td>
+<td>Slide at a concave angle</td>
+</tr>
+<tr class="even">
+<td><code>zoom</code></td>
+<td>Scale the incoming slide so it grows in from the center of the screen.</td>
+</tr>
+</tbody>
+</table>
+<div class="footer">
+<p>Learn more: <a href="https://?meta:prerelease-subdomainquarto.org/docs/presentations/revealjs/advanced.html#slide-transitions">Slide Transitions</a></p>
+</div>
+</section></section>
+<section>
+<section id="reimaginar" class="title-slide slide level1 title-top-ice center" data-background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo">
+<h1>Reimaginar</h1>
+
+</section>
+<section id="instalar-y-configurar-quarto-2" class="slide level2">
 <h2>Instalar y configurar Quarto</h2>
 <p><br></p>
 <div class="columns">
@@ -437,178 +923,6 @@
 </div></div>
 </section>
 <section id="un-lenguaje-común-markdown-quarto" class="slide level2">
-<h2>Un lenguaje común: Markdown + Quarto</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:40%;">
-<div style="text-align: center;">
-<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
-</div>
-</div><div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li class="fragment"><strong>Editor recomendado:</strong>
-<ul>
-<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
-</ul></li>
-<li class="fragment"><strong>Instalaciones locales:</strong>
-<ul>
-<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
-</ul></li>
-<li class="fragment"><strong>Editores útiles:</strong>
-<ul>
-<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
-</li>
-</ul></li>
-</ul>
-</div></div>
-</section></section>
-<section>
-<section id="enseñar" class="title-slide slide level1 title-middle-ice center" data-background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo">
-<h1>Enseñar</h1>
-
-</section>
-<section id="instalar-y-configurar-quarto-1" class="slide level2">
-<h2>Instalar y configurar Quarto</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:40%;">
-<div style="text-align: center;">
-<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
-</div>
-</div><div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li class="fragment"><strong>Editor recomendado:</strong>
-<ul>
-<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
-</ul></li>
-<li class="fragment"><strong>Instalaciones locales:</strong>
-<ul>
-<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
-</ul></li>
-<li class="fragment"><strong>Editores útiles:</strong>
-<ul>
-<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
-</li>
-</ul></li>
-</ul>
-</div></div>
-</section>
-<section id="de-un-archivo-a-un-proyecto-colaborativo-1" class="slide level2">
-<h2>De un archivo a un proyecto colaborativo</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:40%;">
-<div style="text-align: center;">
-<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
-</div>
-</div><div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li class="fragment"><strong>Editor recomendado:</strong>
-<ul>
-<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
-</ul></li>
-<li class="fragment"><strong>Instalaciones locales:</strong>
-<ul>
-<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
-</ul></li>
-<li class="fragment"><strong>Editores útiles:</strong>
-<ul>
-<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
-</li>
-</ul></li>
-</ul>
-</div></div>
-</section>
-<section id="un-lenguaje-común-markdown-quarto-1" class="slide level2">
-<h2>Un lenguaje común: Markdown + Quarto</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:40%;">
-<div style="text-align: center;">
-<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
-</div>
-</div><div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li class="fragment"><strong>Editor recomendado:</strong>
-<ul>
-<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
-</ul></li>
-<li class="fragment"><strong>Instalaciones locales:</strong>
-<ul>
-<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
-</ul></li>
-<li class="fragment"><strong>Editores útiles:</strong>
-<ul>
-<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
-</li>
-</ul></li>
-</ul>
-</div></div>
-</section></section>
-<section>
-<section id="reimaginar" class="title-slide slide level1 title-top-ice center" data-background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo">
-<h1>Reimaginar</h1>
-
-</section>
-<section id="instalar-y-configurar-quarto-2" class="slide level2">
-<h2>Instalar y configurar Quarto</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:40%;">
-<div style="text-align: center;">
-<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
-</div>
-</div><div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li class="fragment"><strong>Editor recomendado:</strong>
-<ul>
-<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
-</ul></li>
-<li class="fragment"><strong>Instalaciones locales:</strong>
-<ul>
-<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
-</ul></li>
-<li class="fragment"><strong>Editores útiles:</strong>
-<ul>
-<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
-</li>
-</ul></li>
-</ul>
-</div></div>
-</section>
-<section id="de-un-archivo-a-un-proyecto-colaborativo-2" class="slide level2">
-<h2>De un archivo a un proyecto colaborativo</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:40%;">
-<div style="text-align: center;">
-<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
-</div>
-</div><div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li class="fragment"><strong>Editor recomendado:</strong>
-<ul>
-<li class="fragment"><a href="https://www.overleaf.com/">Overleaf</a> <em>(en línea, sin instalación)</em></li>
-</ul></li>
-<li class="fragment"><strong>Instalaciones locales:</strong>
-<ul>
-<li class="fragment"><a href="https://www.tug.org/texlive/">TeX Live</a>, <a href="https://miktex.org/">MiKTeX</a>, <a href="https://tug.org/mactex/">MacTeX</a></li>
-</ul></li>
-<li class="fragment"><strong>Editores útiles:</strong>
-<ul>
-<li class="fragment"><a href="https://www.texstudio.org/">TeXstudio</a>, <a href="https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop">VSCode + LaTeX Workshop</a><br>
-</li>
-</ul></li>
-</ul>
-</div></div>
-</section>
-<section id="un-lenguaje-común-markdown-quarto-2" class="slide level2">
 <h2>Un lenguaje común: Markdown + Quarto</h2>
 <p><br></p>
 <div class="columns">
