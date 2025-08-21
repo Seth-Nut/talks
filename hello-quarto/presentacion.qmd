@@ -131,19 +131,19 @@ Quarto es un sistema abierto de<br> publicación científica y técnica
 
 ::: r-stack
 ::: {.fragment .fade-in-then-out}
-<iframe src="https://quarto-dev.github.io/quarto-gallery/articles/html/html.html" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://sethnut.com/resources/talks/es/2025-emma-cc/index.html" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 :::
 
 ::: {.fragment .fade-in-then-out}
-<iframe src="https://quarto.org/docs/presentations/revealjs/demo/#/title-slide" width="1200" height="700" frameborder="0" scrolling="no" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://sethnut.com/talks/latex_2025/presentacion_emma.html#/title-slide" width="1200" height="700" frameborder="0" scrolling="no" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 :::
 
 ::: fragment
-<iframe src="https://jjallaire.github.io/stock-explorer-dashboard/" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://sethnut.com/ws-usm_uchile-2025/" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 :::
