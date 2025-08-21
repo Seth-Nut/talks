@@ -354,7 +354,7 @@
     "href": "index.html",
     "title": "🎉 Presentaciones",
     "section": "",
-    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n\n🎤 Crea, Innova y Presenta: Data Storytelling con A.I.: Transforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.\n\nOTEC BDO 2025 (actividad práctica)\n\nPycon Colombia 2025\nPyLadiesCon 2025\n\n🎤 Del Dato a la Narrativa: Visualización Interactiva con Shiny: Aprende a crear paneles interactivos y visualizaciones narrativas con Shiny.\n\nShinyConf 2025\n\nUserR 2025\n\n🎤 No es Magia, es Ciencia: Aprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.\n\nTechSchool 2025\nEMMA Agosto 2025\n\n🎤 DMAT USM 2025 - ¡Adiós Word, Hola LaTeX!: Crea documentos académicos profesionales con LaTeX, automatizando referencias y ecuaciones.\n\nEMMA Agosto 2025\n\n🎤 Pyday 2025 - Educación Abierta y Comunidad: Crea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.\n🎤 LatinR 2024 - Uso de Quarto para crear clases interactivas: Quarto te permite diseñar contenidos interactivos en R y Python, ofreciendo una plataforma que facilita la enseñanza y la ejecución de código directamente en el navegador.\n🎤 MADS USM 2024- Inteligencia Artificial en la Educación: Aplicaciones prácticas de la IA en la enseñanza para experiencias más personalizadas y enriquecedoras.\n🎤 DMAT USM 2024 - Más allá del Infinito: Explora los conceptos del infinito en matemáticas con ejemplos interactivos, como el Hotel Infinito de Hilbert y los infinitos de Cantor.\n🎤 II Encuentro Docencia Matemática Universitaria - Innovación en el curso MAT281: Cómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso MAT281.\n🎤 Narrativas con Datos: Aprende a contar historias persuasivas con datos usando Python y herramientas de visualización.\n🎤 Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero: Introducción accesible al uso de la tecnología para personas mayores.\n🎤 ¿Y Ahora Qué? Del Aula al Trabajo: Habilidades clave y herramientas para la transición del mundo académico al laboral.\n🎤 Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub: Automatiza y comparte tus materiales educativos de forma eficiente con GitHub y Quarto."
+    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n\n\n\nTítulo\nDescripción\nPresentaciones\n\n\n\n\nCrea, Innova y Presenta: Data Storytelling con A.I.\nTransforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.\nOTEC BDO 2025,  Pycon Colombia 2025,  PyLadiesCon 2025\n\n\nDel Dato a la Narrativa: Visualización Interactiva con Shiny\nAprende a crear paneles interactivos y visualizaciones narrativas con Shiny.\nShinyConf 2025,  UserR 2025\n\n\nNo es Magia, es Ciencia\nAprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.\nTechSchool 2025, EMMA Agosto 2025\n\n\nHola Quarto - compartir • colaborar • enseñar • reimaginar\nTaller introductorio a Quarto, una herramienta para crear documentos, presentaciones y sitios web interactivos.\nSumemos Ideas: Seminarios, Talleres y Educación Matemática USM\n\n\n¡Adiós Word, Hola LaTeX!\nTaller práctico para descubrir LaTeX como alternativa profesional a Word.\nEMMA Agosto 2025\n\n\nPyday 2025 - Educación Abierta y Comunidad\nCrea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.\nPresetación\n\n\nLatinR 2024 - Uso de Quarto para crear clases interactivas\nQuarto permite diseñar contenidos interactivos en R y Python.\nPresetación\n\n\nMADS USM 2024 - Inteligencia Artificial en la Educación\nAplicaciones prácticas de la IA en la enseñanza para experiencias personalizadas.\nPresetación\n\n\nDMAT USM 2024 - Más allá del Infinito\nExplora los conceptos del infinito en matemáticas con ejemplos interactivos.\nPresetación\n\n\nII Encuentro Docencia Matemática Universitaria - Innovación en el curso MAT281\nCómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso.\nPresetación\n\n\nNarrativas con Datos\nAprende a contar historias persuasivas con datos usando Python y visualización.\nPresetación\n\n\nConéctate al Mundo Digital: Computación para Personas Mayores desde Cero\nIntroducción accesible al uso de la tecnología para personas mayores.\nPresetación\n\n\n¿Y Ahora Qué? Del Aula al Trabajo\nHabilidades clave y herramientas para la transición al mundo laboral.\nPresetación\n\n\nEducación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub\nAutomatiza y comparte materiales educativos con GitHub y Quarto.\nPresetación"
   },
   {
     "objectID": "pycon_usa_2025/presentacion.html#innovar-en-la-enseñanza",
@@ -3462,7 +3462,7 @@
     "href": "hello-quarto/presentacion.html#section-2",
     "title": "Seth&Nut",
     "section": "",
-    "text": "Código: hello.qmd\n---\ntitle: \"Hello, Quarto\"\nformat: html\neditor: visual\n---\n\n## Meet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see &lt;https://quarto.org&gt;.\n\n## Meet the penguins\n\n![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png){style=\"float:right;\" fig-alt=\"Illustration of three species of Palmer Archipelago penguins: Chinstrap, Gentoo, and Adelie. Artwork by @allison_horst.\" width=\"401\"}\n\nThe `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins \"palmerpenguins R package\") package contains size measurements for `{r} nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.\n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\n\nHTML: hello.htmlcd"
+    "text": "Código: hello.qmd\n---\ntitle: \"Hello, Quarto\"\nformat: html\neditor: visual\n---\n\n## Meet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see &lt;https://quarto.org&gt;.\n\n## Meet the penguins\n\n![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png){style=\"float:right;\" fig-alt=\"Illustration of three species of Palmer Archipelago penguins: Chinstrap, Gentoo, and Adelie. Artwork by @allison_horst.\" width=\"401\"}\n\nThe `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins \"palmerpenguins R package\") package contains size measurements for `{r} nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.\n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\nHTML: hello.htmlcd"
   },
   {
     "objectID": "hello-quarto/presentacion.html#section-3",
@@ -3472,11 +3472,11 @@
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
   },
   {
-    "objectID": "hello-quarto/presentacion.html#markdown-r-python-y-más",
-    "href": "hello-quarto/presentacion.html#markdown-r-python-y-más",
+    "objectID": "hello-quarto/presentacion.html#quarto-aplana-la-curva-de-aprendizaje",
+    "href": "hello-quarto/presentacion.html#quarto-aplana-la-curva-de-aprendizaje",
     "title": "Seth&Nut",
-    "section": "Markdown, R, Python y más!",
-    "text": "Markdown, R, Python y más!"
+    "section": "Quarto aplana la curva de aprendizaje",
+    "text": "Quarto aplana la curva de aprendizaje"
   },
   {
     "objectID": "hello-quarto/presentacion.html#pretty-code",
@@ -3577,25 +3577,67 @@
     "text": "Slide Transitions\nThe next few slides will transition using the slide transition\n\n\n\n\n\n\n\nTransition\nDescription\n\n\n\n\nnone\nNo transition (default, switch instantly)\n\n\nfade\nCross fade\n\n\nslide\nSlide horizontally\n\n\nconvex\nSlide at a convex angle\n\n\nconcave\nSlide at a concave angle\n\n\nzoom\nScale the incoming slide so it grows in from the center of the screen.\n\n\n\n\nLearn more: Slide Transitions"
   },
   {
-    "objectID": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-2",
-    "href": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-2",
+    "objectID": "hello-quarto/presentacion.html#ejemplo-de-tabset",
+    "href": "hello-quarto/presentacion.html#ejemplo-de-tabset",
     "title": "Seth&Nut",
-    "section": "Instalar y configurar Quarto",
-    "text": "Instalar y configurar Quarto\n\n\n\n\n\n\n\n\n\nEditor recomendado:\n\nOverleaf (en línea, sin instalación)\n\nInstalaciones locales:\n\nTeX Live, MiKTeX, MacTeX\n\nEditores útiles:\n\nTeXstudio, VSCode + LaTeX Workshop"
+    "section": "Ejemplo de Tabset",
+    "text": "Ejemplo de Tabset\n\nPythonRJulia\n\n\nprint(\"Hola desde Python\")\n\n\nprint(\"Hola desde R\")\n\n\nprintln(\"Hola desde Julia\")"
   },
   {
-    "objectID": "hello-quarto/presentacion.html#de-un-archivo-a-un-proyecto-colaborativo",
-    "href": "hello-quarto/presentacion.html#de-un-archivo-a-un-proyecto-colaborativo",
+    "objectID": "hello-quarto/presentacion.html#quarto-puede-crecer-junto-con-los-estudiantes-de-una-manera-profunda",
+    "href": "hello-quarto/presentacion.html#quarto-puede-crecer-junto-con-los-estudiantes-de-una-manera-profunda",
     "title": "Seth&Nut",
-    "section": "De un archivo a un proyecto colaborativo",
-    "text": "De un archivo a un proyecto colaborativo\n\n\n\n\n\n\n\n\n\nEditor recomendado:\n\nOverleaf (en línea, sin instalación)\n\nInstalaciones locales:\n\nTeX Live, MiKTeX, MacTeX\n\nEditores útiles:\n\nTeXstudio, VSCode + LaTeX Workshop"
+    "section": "Quarto puede crecer junto con los estudiantes de una manera profunda",
+    "text": "Quarto puede crecer junto con los estudiantes de una manera profunda"
   },
   {
-    "objectID": "hello-quarto/presentacion.html#un-lenguaje-común-markdown-quarto",
-    "href": "hello-quarto/presentacion.html#un-lenguaje-común-markdown-quarto",
+    "objectID": "hello-quarto/presentacion.html#quarto-extensions",
+    "href": "hello-quarto/presentacion.html#quarto-extensions",
     "title": "Seth&Nut",
-    "section": "Un lenguaje común: Markdown + Quarto",
-    "text": "Un lenguaje común: Markdown + Quarto\n\n\n\n\n\n\n\n\n\nEditor recomendado:\n\nOverleaf (en línea, sin instalación)\n\nInstalaciones locales:\n\nTeX Live, MiKTeX, MacTeX\n\nEditores útiles:\n\nTeXstudio, VSCode + LaTeX Workshop"
+    "section": "📝 Quarto (+ Extensions)",
+    "text": "📝 Quarto (+ Extensions)\n\n\n\nQuarto is an open system for scientific publications with markdown and interactive code (Python/R).\n\n\n🔧 Need more power? Use Extensions\n\n\n\n\n\nQuarto makes it easy to write, code, and share.\nClean documents by default — more powerful with extensions.\nOne tool for writing, coding, and presenting."
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#quarto-webr",
+    "href": "hello-quarto/presentacion.html#quarto-webr",
+    "title": "Seth&Nut",
+    "section": "🌐 Quarto WebR",
+    "text": "🌐 Quarto WebR\n\n\n\n\nWebR: Run R code in the browser, no installation required.\n# To install WebR in your environment\nremotes::install_github(\"attiyap/WebR\")\nPyodide: Same, but for Python.\n# To install Pyodide\npip install pyodide\n\n\n\n\n\nWebR and Pyodide run code directly in the browser.\nNo setup, no installs — just share and run.\nPerfect for teaching, demos, and interactive content."
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#example",
+    "href": "hello-quarto/presentacion.html#example",
+    "title": "Seth&Nut",
+    "section": "Example",
+    "text": "Example\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThis is a live R example.\nWhy run it live?\nBecause people learn better when they see and try.\nNo setup, no install — just code and results.\nThat’s the power of WebR."
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#shiny",
+    "href": "hello-quarto/presentacion.html#shiny",
+    "title": "Seth&Nut",
+    "section": "Shiny",
+    "text": "Shiny\n\n\n\nShiny is an R package that allows you to easily create interactive web applications using R (also available for Python).\n\n\n\n\nShiny lets you turn R code into interactive apps.\nGreat for dashboards, reports, and data exploration.\nNo web dev skills needed."
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#shiny-1",
+    "href": "hello-quarto/presentacion.html#shiny-1",
+    "title": "Seth&Nut",
+    "section": "Shiny",
+    "text": "Shiny\n\n\n\nShiny apps let people interact with your data.\nChange inputs — see results instantly.\nPerfect for exploring and communicating insights."
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#quarto-shinylive",
+    "href": "hello-quarto/presentacion.html#quarto-shinylive",
+    "title": "Seth&Nut",
+    "section": "🌐 Quarto Shinylive",
+    "text": "🌐 Quarto Shinylive\n\n\n\n\nDeploy Shiny apps that run 100% in the browser — with Python & R (via WebAssembly).\nNo servers. No setup. Just code & run.\n\n\n\n\n\n\n\nStay in your presentation.\nStay in the flow. 🎯\n\n\nShinylive runs Shiny apps fully in the browser.\nNo servers, no install — just share and interact.\nGreat for live demos without breaking the flow."
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#quarto-shiny",
+    "href": "hello-quarto/presentacion.html#quarto-shiny",
+    "title": "Seth&Nut",
+    "section": "Quarto & Shiny",
+    "text": "Quarto & Shiny\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 550\n\nfrom shiny import App, ui, render, reactive\nimport matplotlib.pyplot as plt\nimport io\nimport base64\n\n# Function to generate the plot dynamically based on input values\ndef create_plot(yes_value, no_value):\n    categories = ['Yes', 'No']\n    values = [yes_value, no_value]\n\n    fig, ax = plt.subplots(figsize=(10, 3))\n    ax.bar(categories, values, color=['lightblue', 'salmon'])\n    ax.set_title('😊 Do you like the presentation so far? 😊')\n\n    # Convert the image to base64 for display in Shiny\n    buf = io.BytesIO()\n    plt.savefig(buf, format=\"png\")\n    plt.close(fig)\n    buf.seek(0)\n    encoded_image = base64.b64encode(buf.getvalue()).decode()\n    return f'&lt;img src=\"data:image/png;base64,{encoded_image}\" style=\"max-width:100%;\"&gt;'\n\n# UI definition\napp_ui = ui.page_fluid(\n    ui.h2(\"Interactive Survey\"),\n    \n    # Sliders to change values dynamically\n    ui.input_slider(\"yes_value\", \"Yes responses:\", min=0, max=50, value=20),\n    ui.input_slider(\"no_value\", \"No responses:\", min=0, max=50, value=10),\n    \n    # Output area for the plot\n    ui.output_ui(\"plot_output\")\n)\n\n# Server function\ndef server(input, output, session):\n    @output\n    @render.ui\n    def plot_output():\n        return ui.HTML(create_plot(input.yes_value(), input.no_value()))\n\n# Create the Shiny app\napp = App(app_ui, server)"
   },
   {
     "objectID": "hello-quarto/presentacion.html#conclusiones",
