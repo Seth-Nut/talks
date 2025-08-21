@@ -344,3 +344,17 @@ $code-block-font-size: 0.9em;
   margin-top: 5px;
   font-style: italic;    /* Estilo tipo caption */
 }
+
+/* 1) Oculta el bloque de estado */
+#qwebr-status-message-area {
+  display: none !important;
+}
+
+/* 2) Colapsa el header cuando solo está ese bloque */
+#title-block-header:has(#qwebr-status-message-area) {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  border: 0 !important;
+  line-height: 0 !important;
+}

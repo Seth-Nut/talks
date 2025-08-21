@@ -10,6 +10,8 @@ format:
     highlight-style: a11y
     code-line-numbers: false
     logo: images/usm.png
+filters:
+  - quarto-ext/shinylive
 editor: visual
 ---
 
@@ -23,7 +25,6 @@ editor: visual
 
 [<https://sethnut.com/talks>]{.custom-url}
 
-
 # Motivación {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
 ::: r-stack
@@ -34,9 +35,7 @@ editor: visual
 ![](images/horst-quarto-meteor-transparent.png){.fragment fig-align="center" width="90%"}
 :::
 
-
 ## ¿Qué es Quarto ? {.title-top-light background-image="images/horst-quarto-meteor-transparent.png"}
-
 
 ##  {#publishing-system-1 .centered data-menu-title="Sistema de publicación 1" background-color="#0F1620" auto-animate="true"}
 
@@ -58,19 +57,15 @@ Quarto es un sistema abierto de<br> publicación científica y técnica
 ![](images/horst_quarto_schematic.png){fig-align="center" width="1100px" fig-alt="Un esquema que representa la versatilidad de Quarto para entrada multilenguaje (por ejemplo, Python, R, Observable, Julia) y salida multi-formato (por ejemplo, PDF, HTML, documentos Word y más)."}
 :::
 
-
-##  {.centered  auto-animate="true"}
+##  {.centered auto-animate="true"}
 
 ![](images/toc.svg){fig-alt="Logo de Quarto con los cuatro cuadrantes etiquetados como Compartir, Colaborar, Enseñar y Reimaginar."}
-
-
 
 # Compartir {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
 
 ## ¿Por qué Quarto? {transition="zoom"}
 
 ![](images/horst_quarto_ball_straight.png){fig-align="center" width="50%" fig-alt="Quarto logo."}
-
 
 ## ¿Por qué Quarto? {transition="zoom"}
 
@@ -130,9 +125,7 @@ Quarto es un sistema abierto de<br> publicación científica y técnica
 :::
 :::
 
-
-
-## Ejemplos 
+## Ejemplos
 
 <br>
 
@@ -216,11 +209,9 @@ website:
 :::
 :::
 
-
-
 # Colaborar {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
 
-## Instalar y configurar Quarto  {transition="zoom"}
+## Instalar y configurar Quarto {transition="zoom"}
 
 <br>
 
@@ -232,32 +223,28 @@ website:
 :::
 
 ::: {.column .incremental width="60%"}
-
 <br>
 
-- **Descarga e instalación:**
-  - [Quarto.org](https://quarto.org/docs/get-started/) (Windows, macOS y Linux)
-- **Verificación:**
-  - Ejecutar `quarto check` en la terminal
-- **Editores recomendados:**
-  - [RStudio](https://posit.co/download/rstudio/) , [VSCode + Quarto Extension](https://marketplace.visualstudio.com/items?itemName=quarto.quarto)
-
+-   **Descarga e instalación:**
+    -   [Quarto.org](https://quarto.org/docs/get-started/) (Windows, macOS y Linux)
+-   **Verificación:**
+    -   Ejecutar `quarto check` en la terminal
+-   **Editores recomendados:**
+    -   [RStudio](https://posit.co/download/rstudio/) , [VSCode + Quarto Extension](https://marketplace.visualstudio.com/items?itemName=quarto.quarto)
 :::
 :::
 
 ## Instalar y configurar Quarto {transition="fade"}
 
-
-<br>    
+<br>
 
 ::: r-stack
 ![](images/inst1.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
 ![](images/inst4.png){.fragment fig-align="center" width="100%"}
-
 :::
 
-## {.center transition="zoom"}
+##  {.center transition="zoom"}
 
 ::: centered
 ::: columns
@@ -266,7 +253,6 @@ website:
 ![](images/2-collaborate/tools-rstudio-ide.png){fig-alt="Screenshot of RStudio IDE" width="100%"}
 :::
 :::
-
 
 ::: {.column width="45%"}
 ::: borderbox
@@ -278,11 +264,9 @@ website:
 
 . . .
 
-
-<div style="text-align: center;">
-🌐  Asegúrate de tener instalado [R](https://cran.r-project.org/) ([RStudio](https://posit.co/download/rstudio-desktop/)) y/o [Python](https://www.python.org/) ([Jupyter](https://jupyter.org/))
-</div>
-
+::: {style="text-align: center;"}
+🌐 Asegúrate de tener instalado [R](https://cran.r-project.org/) ([RStudio](https://posit.co/download/rstudio-desktop/)) y/o [Python](https://www.python.org/) ([Jupyter](https://jupyter.org/))
+:::
 
 ##  {.takeaway .center}
 
@@ -308,7 +292,6 @@ Quarto enables you to weave together content and executable code into a finished
 The `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins "palmerpenguins R package") package contains size measurements for `{r} nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.
 
 The plot below shows the relationship between flipper and bill lengths of these penguins.
-
 ```
 :::
 
@@ -365,27 +348,12 @@ format:
 :::
 :::
 
-
-
-
-
-
-
-
 # Enseñar {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
+## Quarto aplana la curva de aprendizaje
 
-## Markdown, R, Python y más! 
+![](images/3-teach/many-qmd-to-output.png)
 
-::: r-stack
-<br>
-
-![](images/3-teach/many-qmd-to-output.png){.fragment .fade-in-then-out fig-align="center" width="70%"}
-
-<br>
-
-![](images/3-teach/many-lang-qmd-to-output.png){.fragment fig-align="center" width="90%"}
-:::
 
 
 ## Pretty Code {auto-animate="true"}
@@ -472,8 +440,7 @@ plt.show()
 Learn more: [Executable Code](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/#executable-code)
 :::
 
-
-## LaTeX Equations 
+## LaTeX Equations
 
 <br>
 
@@ -518,7 +485,7 @@ a_{21}& =b_{21}&
 Learn more: [LaTeX Equations](https://{{< meta prerelease-subdomain >}}quarto.org/docs/authoring/markdown-basics.html#equations)
 :::
 
-## Column Layout 
+## Column Layout
 
 Arrange content into columns of varying widths:
 
@@ -716,80 +683,251 @@ The next few slides will transition using the `slide` transition
 Learn more: [Slide Transitions](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/advanced.html#slide-transitions)
 :::
 
+## Ejemplo de Tabset 
+
+::: panel-tabset
+
+### Python
+
+```python
+print("Hola desde Python")
+````
+
+### R
+
+```r
+print("Hola desde R")
+```
+
+### Julia
+
+```julia
+println("Hola desde Julia")
+```
+:::
+
+
 # Reimaginar {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo"}
 
-## Instalar y configurar Quarto
 
-<br>
+## Quarto puede crecer junto con los estudiantes de una manera profunda
 
-::: columns
-::: {.column width="40%"}
-::: {style="text-align: center;"}
-<img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
-:::
-:::
+![](images/3-teach/many-lang-qmd-to-output.png)
 
-::: {.column .incremental width="60%"}
-<br>
 
--   **Editor recomendado:**
-    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
--   **Instalaciones locales:**
-    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
--   **Editores útiles:**
-    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
-:::
-:::
 
-## De un archivo a un proyecto colaborativo
 
-<br>
+## 📝 Quarto (+ Extensions)
 
 ::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+[Quarto](https://quarto.org/) is an open system for scientific publications with markdown and interactive code (Python/R).
+
+<br>
+
+> 🔧 Need more power? Use [Extensions](https://quarto.org/docs/extensions/)
+:::
+
 ::: {.column width="40%"}
-::: {style="text-align: center;"}
-<img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
+![](images/quarto2.png)
 :::
 :::
 
-::: {.column .incremental width="60%"}
-<br>
-
--   **Editor recomendado:**
-    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
--   **Instalaciones locales:**
-    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
--   **Editores útiles:**
-    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
-:::
+::: notes
+Quarto makes it easy to write, code, and share.\
+Clean documents by default — more powerful with extensions.\
+One tool for writing, coding, and presenting.
 :::
 
-## Un lenguaje común: Markdown + Quarto
 
-<br>
+------------------------------------------------------------------------
+
+## 🌐 Quarto WebR
 
 ::: columns
-::: {.column width="40%"}
-::: {style="text-align: center;"}
-<img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"/>
-:::
-:::
-
-::: {.column .incremental width="60%"}
+::: {.column width="60%"}
 <br>
 
--   **Editor recomendado:**
-    -   [Overleaf](https://www.overleaf.com/) *(en línea, sin instalación)*
--   **Instalaciones locales:**
-    -   [TeX Live](https://www.tug.org/texlive/), [MiKTeX](https://miktex.org/), [MacTeX](https://tug.org/mactex/)
--   **Editores útiles:**
-    -   [TeXstudio](https://www.texstudio.org/), [VSCode + LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)\
+1.  [WebR](https://docs.r-wasm.org/webr/latest/): Run R code in the browser, no installation required.
+
+    ``` bash
+    # To install WebR in your environment
+    remotes::install_github("attiyap/WebR")
+    ```
+
+2.  [Pyodide](https://quarto.thecoatlessprofessor.com/pyodide/): Same, but for Python.
+
+    ``` bash
+    # To install Pyodide
+    pip install pyodide
+    ```
+:::
+
+::: {.column width="40%"}
+![](images/webr.png)
 :::
 :::
+
+::: notes
+WebR and Pyodide run code directly in the browser.\
+No setup, no installs — just share and run.\
+Perfect for teaching, demos, and interactive content.
+:::
+
+------------------------------------------------------------------------
+
+## Example
+
+```{webr-r}
+categories <- c("Yes", "No")
+values <- c(75, 25)
+colors <- c("lightblue", "salmon")
+par(mfrow = c(1, 1), mar = c(7, 4, 1, 1),  oma = c(1, 6, 1, 1)   )
+barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
+```
+
+::: notes
+This is a live R example.
+
+Why run it live?
+
+Because people learn better when they see and try.\
+No setup, no install — just code and results.\
+That’s the power of WebR.
+:::
+
+------------------------------------------------------------------------
+
+## Shiny
+
+::: columns
+::: {.column width="60%"}
+<br><br>
+
+[Shiny](https://shiny.posit.co/) is an R package that allows you to easily create interactive web applications using R (also available for Python).
+:::
+
+::: {.column width="40%"}
+![](images/shiny.png)
+:::
+:::
+
+::: notes
+Shiny lets you turn R code into interactive apps.\
+Great for dashboards, reports, and data exploration.\
+No web dev skills needed.
+:::
+
+------------------------------------------------------------------------
+
+## Shiny
+
+<br>
+
+![](https://shiny.posit.co/r/articles/improve/debugging/kmeans-showcase.gif){width="80%"}
+
+::: notes
+Shiny apps let people interact with your data.\
+Change inputs — see results instantly.\
+Perfect for exploring and communicating insights.
+:::
+
+------------------------------------------------------------------------
+
+## 🌐 Quarto Shinylive
+
+::: columns
+::: {.column .fragment width="60%"}
+<br>
+
+-   Deploy **Shiny** apps that run 100% in the browser — with **Python** & **R** (via WebAssembly).
+-   No servers. No setup. Just code & run.
+:::
+
+::: {.column width="40%"}
+![](images/shinylive.png)
+:::
+:::
+
+. . .
+
+<br>
+
+::: {style="text-align: center; font-size: 1.2em;"}
+Stay in your presentation.\
+Stay in the flow. 🎯
+:::
+
+::: notes
+Shinylive runs Shiny apps fully in the browser.
+
+No servers, no install — just share and interact.
+
+Great for live demos without breaking the flow.
+:::
+
+
+
+## Quarto & Shiny 
+
+```{shinylive-python}
+#| standalone: true
+#| viewerHeight: 550
+
+from shiny import App, ui, render, reactive
+import matplotlib.pyplot as plt
+import io
+import base64
+
+# Function to generate the plot dynamically based on input values
+def create_plot(yes_value, no_value):
+    categories = ['Yes', 'No']
+    values = [yes_value, no_value]
+
+    fig, ax = plt.subplots(figsize=(10, 3))
+    ax.bar(categories, values, color=['lightblue', 'salmon'])
+    ax.set_title('😊 Do you like the presentation so far? 😊')
+
+    # Convert the image to base64 for display in Shiny
+    buf = io.BytesIO()
+    plt.savefig(buf, format="png")
+    plt.close(fig)
+    buf.seek(0)
+    encoded_image = base64.b64encode(buf.getvalue()).decode()
+    return f'<img src="data:image/png;base64,{encoded_image}" style="max-width:100%;">'
+
+# UI definition
+app_ui = ui.page_fluid(
+    ui.h2("Interactive Survey"),
+    
+    # Sliders to change values dynamically
+    ui.input_slider("yes_value", "Yes responses:", min=0, max=50, value=20),
+    ui.input_slider("no_value", "No responses:", min=0, max=50, value=10),
+    
+    # Output area for the plot
+    ui.output_ui("plot_output")
+)
+
+# Server function
+def server(input, output, session):
+    @output
+    @render.ui
+    def plot_output():
+        return ui.HTML(create_plot(input.yes_value(), input.no_value()))
+
+# Create the Shiny app
+app = App(app_ui, server)
+
+```
+
+
+
 
 # ¡Gracias! {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
-## Conclusiones 
+## Conclusiones
 
 ::: columns
 ::: {.column width="5%"}
@@ -798,7 +936,7 @@ Learn more: [Slide Transitions](https://{{< meta prerelease-subdomain >}}quarto.
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-1_4.png){width="50px"}  
+![](images/horst_quarto_ball-1_4.png){width="50px"}\
 **Compartir**: De lo estático a lo interactivo; un mismo `.qmd` produce HTML, PDF, slides o sitios web.
 :::
 :::
@@ -810,7 +948,7 @@ Learn more: [Slide Transitions](https://{{< meta prerelease-subdomain >}}quarto.
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-2_4.png){width="50px"}  
+![](images/horst_quarto_ball-2_4.png){width="50px"}\
 **Colaborar**: Proyectos ordenados y control de versiones con GitHub permiten construir materiales abiertos en equipo.
 :::
 :::
@@ -827,7 +965,7 @@ Learn more: [Slide Transitions](https://{{< meta prerelease-subdomain >}}quarto.
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-3_4.png){width="50px"}  
+![](images/horst_quarto_ball-3_4.png){width="50px"}\
 **Enseñar**: Presentaciones reveal.js, dashboards y libros en línea integran texto, código y visualizaciones para el aula.
 :::
 :::
@@ -839,7 +977,7 @@ Learn more: [Slide Transitions](https://{{< meta prerelease-subdomain >}}quarto.
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-4_4.png){width="50px"}  
+![](images/horst_quarto_ball-4_4.png){width="50px"}\
 **Reimaginar**: Tecnologías como WebR, Pyodide, Shiny y Observable JS abren nuevas formas de innovar en educación.
 :::
 :::
@@ -858,9 +996,9 @@ Learn more: [Slide Transitions](https://{{< meta prerelease-subdomain >}}quarto.
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-4_4.png){width="50px"}  
-**Documentación oficial**  
-🔗  [quarto.org](https://quarto.org)  
+![](images/horst_quarto_ball-4_4.png){width="50px"}\
+**Documentación oficial**\
+🔗 [quarto.org](https://quarto.org)\
 Guías y ejemplos prácticos para comenzar de inmediato.
 :::
 :::
@@ -872,9 +1010,9 @@ Guías y ejemplos prácticos para comenzar de inmediato.
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/youtube.png){width="50px"}  
-**Aprendizaje en video**  
-🔗  [Crash Course en YouTube](https://www.youtube.com/watch?v=_VKxTPWDhA4&t=3677s)  
+![](images/youtube.png){width="50px"}\
+**Aprendizaje en video**\
+🔗 [Crash Course en YouTube](https://www.youtube.com/watch?v=_VKxTPWDhA4&t=3677s)\
 Introducción práctica a Quarto y sus distintos usos.
 :::
 :::
@@ -891,9 +1029,9 @@ Introducción práctica a Quarto y sus distintos usos.
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/github.png){width="50px"}  
-**Recursos de la comunidad**  
-🔗 [Mine Cetinkaya-Rundel](https://github.com/mine-cetinkaya-rundel)  
+![](images/github.png){width="50px"}\
+**Recursos de la comunidad**\
+🔗 [Mine Cetinkaya-Rundel](https://github.com/mine-cetinkaya-rundel)\
 Cursos, libros y presentaciones en Quarto en GitHub.
 :::
 :::
@@ -905,9 +1043,9 @@ Cursos, libros y presentaciones en Quarto en GitHub.
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/hat.png){width="50px"}  
-**Aplicaciones en educación**  
-🔗 [sethnut.com/resources](https://sethnut.com/resources/)  
+![](images/hat.png){width="50px"}\
+**Aplicaciones en educación**\
+🔗 [sethnut.com/resources](https://sethnut.com/resources/)\
 Olimpiada Matemática, Verano Matemático, EMMA y más!
 :::
 :::
@@ -916,7 +1054,6 @@ Olimpiada Matemática, Verano Matemático, EMMA y más!
 ::: {.column width="5%"}
 :::
 :::
-
 
 ## 🎉 ¡Gracias por Participar!
 
