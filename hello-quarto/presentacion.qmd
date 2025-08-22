@@ -430,48 +430,6 @@ sns.scatterplot(data=mpg, x="horsepower", y="mpg")
 plt.show()
 ```
 
-## Ecuaciones en LaTeX
-
-Renderizado de ecuaciones a HTML con [MathJax](https://www.mathjax.org/).
-
-::: columns
-::: {.column width="40%"}
-
-```tex
-\begin{gather*}
-a_1=b_1+c_1\\
-a_2=b_2+c_2-d_2+e_2
-\end{gather*}
-
-\begin{align}
-a_{11}& =b_{11}&
-  a_{12}& =b_{12}\\
-a_{21}& =b_{21}&
-  a_{22}& =b_{22}+c_{22}
-\end{align}
-````
-
-:::
-::: {.column width="60%"}
-
-```{=tex}
-\begin{gather*}
-a_1=b_1+c_1\\
-a_2=b_2+c_2-d_2+e_2
-\end{gather*}
-```
-
-```{=tex}
-\begin{align}
-a_{11}& =b_{11}&
-  a_{12}& =b_{12}\\
-a_{21}& =b_{21}&
-  a_{22}& =b_{22}+c_{22}
-\end{align}
-```
-
-:::
-:::
 
 ## Ecuaciones en LaTeX
 
@@ -479,8 +437,7 @@ Renderizado de ecuaciones a HTML con [MathJax](https://www.mathjax.org/).
 
 ::: columns
 ::: {.column width="40%"}
-
-```tex
+``` tex
 \begin{gather*}
 a_1=b_1+c_1\\
 a_2=b_2+c_2-d_2+e_2
@@ -492,18 +449,16 @@ a_{11}& =b_{11}&
 a_{21}& =b_{21}&
   a_{22}& =b_{22}+c_{22}
 \end{align}
-````
-
+```
 :::
-::: {.column width="60%"}
 
+::: {.column width="60%"}
 ```{=tex}
 \begin{gather*}
 a_1=b_1+c_1\\
 a_2=b_2+c_2-d_2+e_2
 \end{gather*}
 ```
-
 ```{=tex}
 \begin{align}
 a_{11}& =b_{11}&
@@ -512,7 +467,6 @@ a_{21}& =b_{21}&
   a_{22}& =b_{22}+c_{22}
 \end{align}
 ```
-
 :::
 :::
 
