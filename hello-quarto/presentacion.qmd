@@ -10,7 +10,6 @@ format:
     highlight-style: a11y
     code-line-numbers: false
     logo: images/usm.png
-    math: mathjax
 filters:
   - quarto-ext/shinylive
 revealjs-plugins:
@@ -214,7 +213,7 @@ website:
 
 # Colaborar {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
 
-## Primeros Pasos  con Quarto {transition="zoom"}
+## Primeros Pasos con Quarto {transition="zoom"}
 
 ![](images/horst_quarto_ball_straight.png){fig-align="center" width="50%" fig-alt="Quarto logo."}
 
@@ -359,16 +358,14 @@ format:
 
 ## ¿ Qué podemos hacer con Quarto? {transition="zoom"}
 
-:::{.fragment}
+::: fragment
 ![](images/3-teach/many-qmd-to-output.png){width="70%" fig-align="center"}
 :::
 
-
-
 ## Código con Estilo {auto-animate="true"}
 
-- Más de 20 temas para resaltar tu código  
-- El tema por defecto está optimizado para accesibilidad  
+-   Más de 20 temas para resaltar tu código\
+-   El tema por defecto está optimizado para accesibilidad
 
 ``` r
 # Define a server for the Shiny app
@@ -381,12 +378,10 @@ function(input, output) {
 }
 ```
 
-
-
 ## Código en Movimiento {auto-animate="true"}
 
-- Más de 20 estilos de resaltado listos para usar  
-- Tema por defecto diseñado para máxima accesibilidad  
+-   Más de 20 estilos de resaltado listos para usar\
+-   Tema por defecto diseñado para máxima accesibilidad
 
 ``` r
 # Define a server for the Shiny app
@@ -403,12 +398,10 @@ function(input, output) {
 }
 ```
 
-
-
 ## Enfoque en Líneas
 
-- Señala las líneas clave para mayor claridad  
-- Agrega resaltados paso a paso 
+-   Señala las líneas clave para mayor claridad\
+-   Agrega resaltados paso a paso
 
 ``` {.python code-line-numbers="4-5|7|10"}
 import numpy as np
@@ -422,8 +415,6 @@ ax.set_rticks([0.5, 1, 1.5, 2])
 ax.grid(True)
 plt.show()
 ```
-
-
 
 ## Código Ejecutable
 
@@ -439,19 +430,16 @@ sns.scatterplot(data=mpg, x="horsepower", y="mpg")
 plt.show()
 ```
 
-
-
-## Ecuaciones en LaTeX
+## Ecuaciones 
 
 <br>
 
-Renderizado de ecuaciones a HTML con [MathJax](https://www.mathjax.org/).  
-
-
+Renderizado de ecuaciones a HTML con [MathJax](https://www.mathjax.org/).
 
 ::: columns
 ::: {.column width="40%"}
-``` tex
+
+```tex
 \begin{gather*}
 a_1=b_1+c_1\\
 a_2=b_2+c_2-d_2+e_2
@@ -467,7 +455,6 @@ a_{21}& =b_{21}&
 :::
 
 ::: {.column width="60%"}
-
 <br>
 
 $$
@@ -488,11 +475,9 @@ $$
 :::
 :::
 
-
-
 ## Columnas Flexibles
 
-Acomoda texto, imágenes o código en columnas de varios tamaños.  
+Acomoda texto, imágenes o código en columnas de varios tamaños.
 
 <br>
 
@@ -537,12 +522,9 @@ df.style.hide(axis="index")
 :::
 :::
 
-
-
 ## Tabsets
 
-Crea bloques con pestañas que permiten alternar entre distintos contenidos.  
-
+Crea bloques con pestañas que permiten alternar entre distintos contenidos.
 
 ::: panel-tabset
 ### Plot
@@ -583,15 +565,13 @@ df.head(5)  # primeras 10 filas
 
 ## Gráficos Interactivos
 
+::: {align="center"}
+<iframe src="images/demo.html" width="1400" height="750" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;">
 
-<div align="center">
-
-<iframe src="images/demo.html" width="1400" height="750" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;"></iframe>
-
-</div>
+</iframe>
+:::
 
 # Reimaginar {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo"}
-
 
 ## El poder de las extensiones en Quarto
 
@@ -599,16 +579,13 @@ df.head(5)  # primeras 10 filas
 
 ![](images/3-teach/many-lang-qmd-to-output.png)
 
-
-
-##  Extensiones de Quarto
+## Extensiones de Quarto
 
 ::: columns
 ::: {.column .fragment width="60%"}
 <br><br>
 
 Las **extensiones** de Quarto son paquetes de R que agregan funcionalidad a Quarto.
-
 
 <br>
 
@@ -622,13 +599,13 @@ Las **extensiones** de Quarto son paquetes de R que agregan funcionalidad a Quar
 
 ------------------------------------------------------------------------
 
-##  Quarto Quiz
+## Quarto Quiz
 
 ::: columns
 ::: {.column .fragment width="60%"}
 <br><br>
 
-La extensión **Quarto Quiz** permite crear preguntas directamente en tus presentaciones.  
+La extensión **Quarto Quiz** permite crear preguntas directamente en tus presentaciones.
 
 <br>
 
@@ -640,8 +617,6 @@ La extensión **Quarto Quiz** permite crear preguntas directamente en tus presen
 :::
 :::
 
-
-
 ------------------------------------------------------------------------
 
 ## Ejemplo {.quiz-question}
@@ -650,12 +625,10 @@ La extensión **Quarto Quiz** permite crear preguntas directamente en tus presen
 
 ¿Cómo te ha parecido la presentación hasta ahora?
 
-- [Me encantó 😍]{.correct} 
-- Más o menos 🤔  
-- Tal vez podría mejorar 🙂  
-- No me gustó mucho 😕  
-
-
+-   [Me encantó 😍]{.correct}
+-   Más o menos 🤔\
+-   Tal vez podría mejorar 🙂\
+-   No me gustó mucho 😕
 
 ------------------------------------------------------------------------
 
@@ -721,26 +694,21 @@ That’s the power of WebR.
 ## Shiny
 
 ::: columns
-::: {.column width="60%" .fragment}
+::: {.column .fragment width="60%"}
 <br>
 
-**Shiny** es un paquete de R que permite crear de manera sencilla aplicaciones interactivas usando R  
+**Shiny** es un paquete de R que permite crear de manera sencilla aplicaciones interactivas usando R\
 (también disponible para Python).
-
 
 <br>
 
 > 📚 Más info: [Shiny - Posit](https://shiny.posit.co/)
-
-
 :::
 
 ::: {.column width="40%"}
 ![](images/shiny.png)
 :::
 :::
-
-
 
 ------------------------------------------------------------------------
 
@@ -764,8 +732,8 @@ Perfect for exploring and communicating insights.
 ::: {.column .fragment width="60%"}
 <br>
 
--   Despliega aplicaciones **Shiny** que se ejecutan 100% en el navegador — con **Python** y **R**.  
--   Sin servidores. Sin configuraciones. Solo escribe código y ejecútalo.  
+-   Despliega aplicaciones **Shiny** que se ejecutan 100% en el navegador — con **Python** y **R**.\
+-   Sin servidores. Sin configuraciones. Solo escribe código y ejecútalo.\
 :::
 
 ::: {.column width="40%"}
@@ -781,11 +749,6 @@ Perfect for exploring and communicating insights.
 Sigue en tu presentación.\
 No pierdas el ritmo 🎯
 :::
-
-
-
-
-
 
 ## Ejemplo
 
@@ -838,9 +801,6 @@ def server(input, output, session):
 app = App(app_ui, server)
 
 ```
-
-
-
 
 # ¡Gracias! {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
