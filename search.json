@@ -3514,6 +3514,13 @@
     "text": "Código Ejecutable\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nmpg = sns.load_dataset(\"mpg\")\nsns.scatterplot(data=mpg, x=\"horsepower\", y=\"mpg\")\nplt.show()\n\n\n\n\n\n\n\n\nRenderizado de ecuaciones a HTML con MathJax.\n\n\n\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\n\n\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\n\n\\[\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\\]\n\\[\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\\]"
   },
   {
+    "objectID": "hello-quarto/presentacion.html#ecuaciones-en-latex",
+    "href": "hello-quarto/presentacion.html#ecuaciones-en-latex",
+    "title": "Ecuaciones en LaTeX",
+    "section": "Ecuaciones en LaTeX",
+    "text": "Ecuaciones en LaTeX\nRenderizado de ecuaciones a HTML con MathJax.\n\n\n\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\n\n\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\n\n\\[\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\\]\n\\[\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\\]"
+  },
+  {
     "objectID": "hello-quarto/presentacion.html#columnas-flexibles",
     "href": "hello-quarto/presentacion.html#columnas-flexibles",
     "title": "Ecuaciones en LaTeX",
