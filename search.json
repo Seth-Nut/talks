@@ -3376,252 +3376,245 @@
   {
     "objectID": "hello-quarto/presentacion.html#hello-quarto-title",
     "href": "hello-quarto/presentacion.html#hello-quarto-title",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "",
     "text": "Hola Quarto\ncompartir • colaborar • enseñar • reimaginar\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://sethnut.com/talks"
   },
   {
     "objectID": "hello-quarto/presentacion.html#qué-es-quarto",
     "href": "hello-quarto/presentacion.html#qué-es-quarto",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "¿Qué es Quarto ?",
     "text": "¿Qué es Quarto ?"
   },
   {
     "objectID": "hello-quarto/presentacion.html#publishing-system-1",
     "href": "hello-quarto/presentacion.html#publishing-system-1",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "",
     "text": "Quarto es un sistema abierto de publicación científica y técnica"
   },
   {
     "objectID": "hello-quarto/presentacion.html#publishing-system-2",
     "href": "hello-quarto/presentacion.html#publishing-system-2",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "",
     "text": "Quarto es un sistema abierto de publicación científica y técnica\n\n\nel objetivo es hacer que el proceso de creación y colaboración sea drásticamente mejor"
   },
   {
     "objectID": "hello-quarto/presentacion.html#por-qué-quarto",
     "href": "hello-quarto/presentacion.html#por-qué-quarto",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "¿Por qué Quarto?",
     "text": "¿Por qué Quarto?"
   },
   {
     "objectID": "hello-quarto/presentacion.html#por-qué-quarto-1",
     "href": "hello-quarto/presentacion.html#por-qué-quarto-1",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "¿Por qué Quarto?",
     "text": "¿Por qué Quarto?\n\n\n\n\n\n\n\n Un solo documento, múltiples formatos: HTML, PDF, presentaciones o sitios web.\n\n\n\n\n\n\n\n Materiales más accesibles y fáciles de usar, con soporte para la enseñanza y la inclusión.\n\n\n\n\n\n\n\n\n\n\n\n Fácil de aprender: usa Markdown simple y cuenta con ayudas para empezar rápido.\n\n\n\n\n\n\n\n Flexibilidad total: integra texto, imágenes y código en R, Python, Julia u otros lenguajes."
   },
   {
     "objectID": "hello-quarto/presentacion.html#ejemplos",
     "href": "hello-quarto/presentacion.html#ejemplos",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Ejemplos",
     "text": "Ejemplos"
   },
   {
     "objectID": "hello-quarto/presentacion.html#quarto-organiza-cada-paso-del-renderizado",
     "href": "hello-quarto/presentacion.html#quarto-organiza-cada-paso-del-renderizado",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Quarto organizacada paso del renderizado",
     "text": "Quarto organizacada paso del renderizado"
   },
   {
     "objectID": "hello-quarto/presentacion.html#quarto-facilita-el-cambio-entre-formatos",
     "href": "hello-quarto/presentacion.html#quarto-facilita-el-cambio-entre-formatos",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Quarto facilita el cambio entre formatos",
     "text": "Quarto facilita el cambio entre formatos\n\n\n\nDocument\n\n lesson-1.qmd\n\ntitle: \"Lesson 1\"\nformat: html\n\n\n\nPresentation\n\n lesson-1.qmd\n\ntitle: \"Lesson 1\"\nformat: revealjs\n\n\n\nWebsite\n\n _quarto.yml\n\nproject:\n  type: website\n\nwebsite: \n  navbar: \n    left:\n      - lesson-1.qmd"
   },
   {
     "objectID": "hello-quarto/presentacion.html#primeros-pasos-con-quarto",
     "href": "hello-quarto/presentacion.html#primeros-pasos-con-quarto",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Primeros Pasos con Quarto",
     "text": "Primeros Pasos con Quarto"
   },
   {
     "objectID": "hello-quarto/presentacion.html#instalar-y-configurar-quarto",
     "href": "hello-quarto/presentacion.html#instalar-y-configurar-quarto",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Instalar y configurar Quarto",
     "text": "Instalar y configurar Quarto\n\n\n\n\n\n\n\n\n\nDescarga e instalación:\n\nQuarto.org (Windows, macOS y Linux)\n\nVerificación:\n\nEjecutar quarto check en la terminal\n\nEditores recomendados:\n\nRStudio , VSCode + Quarto Extension"
   },
   {
     "objectID": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-1",
     "href": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-1",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Instalar y configurar Quarto",
     "text": "Instalar y configurar Quarto"
   },
   {
     "objectID": "hello-quarto/presentacion.html#section-1",
     "href": "hello-quarto/presentacion.html#section-1",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "",
     "text": "🌐 Asegúrate de tener instalado R (RStudio) y/o Python (Jupyter)"
   },
   {
     "objectID": "hello-quarto/presentacion.html#section-2",
     "href": "hello-quarto/presentacion.html#section-2",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "",
     "text": "Código: hello.qmd\n---\ntitle: \"Hello, Quarto\"\nformat: html\neditor: visual\n---\n\n## Meet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see &lt;https://quarto.org&gt;.\n\n## Meet the penguins\n\n![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png){style=\"float:right;\" fig-alt=\"Illustration of three species of Palmer Archipelago penguins: Chinstrap, Gentoo, and Adelie. Artwork by @allison_horst.\" width=\"401\"}\n\nThe `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins \"palmerpenguins R package\") package contains size measurements for `{r} nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.\n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\nHTML: hello.htmlcd"
   },
   {
     "objectID": "hello-quarto/presentacion.html#section-3",
     "href": "hello-quarto/presentacion.html#section-3",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "",
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
   },
   {
     "objectID": "hello-quarto/presentacion.html#qué-podemos-hacer-con-quarto",
     "href": "hello-quarto/presentacion.html#qué-podemos-hacer-con-quarto",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "¿ Qué podemos hacer con Quarto?",
     "text": "¿ Qué podemos hacer con Quarto?"
   },
   {
     "objectID": "hello-quarto/presentacion.html#código-con-estilo",
     "href": "hello-quarto/presentacion.html#código-con-estilo",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Código con Estilo",
     "text": "Código con Estilo\n\nMás de 20 temas para resaltar tu código\n\nEl tema por defecto está optimizado para accesibilidad\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n  })\n}"
   },
   {
     "objectID": "hello-quarto/presentacion.html#código-en-movimiento",
     "href": "hello-quarto/presentacion.html#código-en-movimiento",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Código en Movimiento",
     "text": "Código en Movimiento\n\nMás de 20 estilos de resaltado listos para usar\n\nTema por defecto diseñado para máxima accesibilidad\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n    barplot(WorldPhones[,input$region]*1000, \n            main=input$region,\n            ylab=\"Number of Telephones\",\n            xlab=\"Year\")\n  })\n}"
   },
   {
     "objectID": "hello-quarto/presentacion.html#enfoque-en-líneas",
     "href": "hello-quarto/presentacion.html#enfoque-en-líneas",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Enfoque en Líneas",
     "text": "Enfoque en Líneas\n\nSeñala las líneas clave para mayor claridad\n\nAgrega resaltados paso a paso\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
   },
   {
     "objectID": "hello-quarto/presentacion.html#código-ejecutable",
     "href": "hello-quarto/presentacion.html#código-ejecutable",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Código Ejecutable",
-    "text": "Código Ejecutable\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nmpg = sns.load_dataset(\"mpg\")\nsns.scatterplot(data=mpg, x=\"horsepower\", y=\"mpg\")\nplt.show()\n\n\n\n\n\n\n\n\n\nRenderizado de ecuaciones a HTML con MathJax.\n\n\n\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\n\n\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\n\n\n\\[\n\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\n\\]\n\\[\n\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\n\\]"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#columnas-flexibles",
-    "href": "hello-quarto/presentacion.html#columnas-flexibles",
-    "title": "Ecuaciones",
-    "section": "Columnas Flexibles",
-    "text": "Columnas Flexibles\nAcomoda texto, imágenes o código en columnas de varios tamaños.\n\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\nwt\n\n\n\n\n18.000000\n8\n307.000000\n130.000000\n3504\n\n\n15.000000\n8\n350.000000\n165.000000\n3693\n\n\n18.000000\n8\n318.000000\n150.000000\n3436\n\n\n16.000000\n8\n304.000000\n150.000000\n3433\n\n\n17.000000\n8\n302.000000\n140.000000\n3449"
+    "text": "Código Ejecutable\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nmpg = sns.load_dataset(\"mpg\")\nsns.scatterplot(data=mpg, x=\"horsepower\", y=\"mpg\")\nplt.show()\n\n\n\n\n\n\n\n\nAcomoda texto, imágenes o código en columnas de varios tamaños.\n\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\nwt\n\n\n\n\n18.000000\n8\n307.000000\n130.000000\n3504\n\n\n15.000000\n8\n350.000000\n165.000000\n3693\n\n\n18.000000\n8\n318.000000\n150.000000\n3436\n\n\n16.000000\n8\n304.000000\n150.000000\n3433\n\n\n17.000000\n8\n302.000000\n140.000000\n3449"
   },
   {
     "objectID": "hello-quarto/presentacion.html#tabsets",
     "href": "hello-quarto/presentacion.html#tabsets",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Tabsets",
     "text": "Tabsets\nCrea bloques con pestañas que permiten alternar entre distintos contenidos.\n\nPlotData\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n-2.000000\n12.000000\n\n\n1\n-1.929293\n11.510050\n\n\n2\n-1.858586\n11.030099\n\n\n3\n-1.787879\n10.560147\n\n\n4\n-1.717172\n10.100194"
   },
   {
     "objectID": "hello-quarto/presentacion.html#gráficos-interactivos",
     "href": "hello-quarto/presentacion.html#gráficos-interactivos",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Gráficos Interactivos",
     "text": "Gráficos Interactivos"
   },
   {
     "objectID": "hello-quarto/presentacion.html#el-poder-de-las-extensiones-en-quarto",
     "href": "hello-quarto/presentacion.html#el-poder-de-las-extensiones-en-quarto",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "El poder de las extensiones en Quarto",
     "text": "El poder de las extensiones en Quarto"
   },
   {
     "objectID": "hello-quarto/presentacion.html#extensiones-de-quarto",
     "href": "hello-quarto/presentacion.html#extensiones-de-quarto",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Extensiones de Quarto",
     "text": "Extensiones de Quarto\n\n\n\nLas extensiones de Quarto son paquetes de R que agregan funcionalidad a Quarto.\n\n\n🔧Necesitas más poder? Usa Extensions"
   },
   {
     "objectID": "hello-quarto/presentacion.html#quarto-quiz",
     "href": "hello-quarto/presentacion.html#quarto-quiz",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Quarto Quiz",
     "text": "Quarto Quiz\n\n\n\nLa extensión Quarto Quiz permite crear preguntas directamente en tus presentaciones.\n\n\n📚 Más info: Quarto Quiz Extension"
   },
   {
     "objectID": "hello-quarto/presentacion.html#ejemplo",
     "href": "hello-quarto/presentacion.html#ejemplo",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Ejemplo",
     "text": "Ejemplo\n\n¿Cómo te ha parecido la presentación hasta ahora?\n\nMe encantó 😍\nMás o menos 🤔\n\nTal vez podría mejorar 🙂\n\nNo me gustó mucho 😕"
   },
   {
     "objectID": "hello-quarto/presentacion.html#quarto-webr-pyodide",
     "href": "hello-quarto/presentacion.html#quarto-webr-pyodide",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Quarto WebR + Pyodide",
     "text": "Quarto WebR + Pyodide\n\n\n\n\nWebR: Run R code in the browser, no installation required.\n# To install WebR in your environment\nremotes::install_github(\"attiyap/WebR\")\nPyodide: Same, but for Python.\n# To install Pyodide\npip install pyodide\n\n\n\n\n\nWebR and Pyodide run code directly in the browser.\nNo setup, no installs — just share and run.\nPerfect for teaching, demos, and interactive content."
   },
   {
     "objectID": "hello-quarto/presentacion.html#ejemplo-1",
     "href": "hello-quarto/presentacion.html#ejemplo-1",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Ejemplo",
     "text": "Ejemplo\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThis is a live R example.\nWhy run it live?\nBecause people learn better when they see and try.\nNo setup, no install — just code and results.\nThat’s the power of WebR."
   },
   {
     "objectID": "hello-quarto/presentacion.html#shiny",
     "href": "hello-quarto/presentacion.html#shiny",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Shiny",
     "text": "Shiny\n\n\n\nShiny es un paquete de R que permite crear de manera sencilla aplicaciones interactivas usando R\n(también disponible para Python).\n\n\n📚 Más info: Shiny - Posit"
   },
   {
     "objectID": "hello-quarto/presentacion.html#ejemplo-2",
     "href": "hello-quarto/presentacion.html#ejemplo-2",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Ejemplo",
     "text": "Ejemplo\n\n\n\nShiny apps let people interact with your data.\nChange inputs — see results instantly.\nPerfect for exploring and communicating insights."
   },
   {
     "objectID": "hello-quarto/presentacion.html#quarto-shinylive",
     "href": "hello-quarto/presentacion.html#quarto-shinylive",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Quarto Shinylive",
     "text": "Quarto Shinylive\n\n\n\n\nDespliega aplicaciones Shiny que se ejecutan 100% en el navegador — con Python y R.\n\nSin servidores. Sin configuraciones. Solo escribe código y ejecútalo.\n\n\n\n\n\n\n\n\nSigue en tu presentación.\nNo pierdas el ritmo 🎯"
   },
   {
     "objectID": "hello-quarto/presentacion.html#ejemplo-3",
     "href": "hello-quarto/presentacion.html#ejemplo-3",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Ejemplo",
     "text": "Ejemplo\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 800\n\nfrom shiny import App, ui, render, reactive\nimport matplotlib.pyplot as plt\nimport io\nimport base64\n\n# Function to generate the plot dynamically based on input values\ndef create_plot(yes_value, no_value):\n    categories = ['Yes', 'No']\n    values = [yes_value, no_value]\n\n    fig, ax = plt.subplots(figsize=(14, 5))\n    ax.bar(categories, values, color=['lightblue', 'salmon'])\n    ax.set_title('¿Cómo te ha parecido la presentación hasta ahora?')\n\n    # Convert the image to base64 for display in Shiny\n    buf = io.BytesIO()\n    plt.savefig(buf, format=\"png\")\n    plt.close(fig)\n    buf.seek(0)\n    encoded_image = base64.b64encode(buf.getvalue()).decode()\n    return f'&lt;img src=\"data:image/png;base64,{encoded_image}\" style=\"max-width:100%;\"&gt;'\n\n# UI definition\napp_ui = ui.page_fluid(\n    ui.h2(\"Encuesta Interactiva\"),\n    \n    # Sliders to change values dynamically\n    ui.input_slider(\"yes_value\", \"Respuestas 'Sí':\", min=0, max=50, value=20),\n    ui.input_slider(\"no_value\", \"Respuestas 'No'\", min=0, max=50, value=10),\n    \n    # Output area for the plot\n    ui.output_ui(\"plot_output\")\n)\n\n# Server function\ndef server(input, output, session):\n    @output\n    @render.ui\n    def plot_output():\n        return ui.HTML(create_plot(input.yes_value(), input.no_value()))\n\n# Create the Shiny app\napp = App(app_ui, server)"
   },
   {
     "objectID": "hello-quarto/presentacion.html#conclusiones",
     "href": "hello-quarto/presentacion.html#conclusiones",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Conclusiones",
     "text": "Conclusiones\n\n\n\n\n\n\n\nCompartir: De lo estático a lo interactivo; un mismo .qmd produce HTML, PDF, slides o sitios web.\n\n\n\n\n\n\n\n\nColaborar: Proyectos ordenados y control de versiones con GitHub permiten construir materiales abiertos en equipo.\n\n\n\n\n\n\n\n\n\n\n\n\nEnseñar: Presentaciones reveal.js, dashboards y libros en línea integran texto, código y visualizaciones para el aula.\n\n\n\n\n\n\n\n\nReimaginar: Tecnologías como WebR, Pyodide, Shiny y Observable JS abren nuevas formas de innovar en educación."
   },
   {
     "objectID": "hello-quarto/presentacion.html#referencias-y-recursos",
     "href": "hello-quarto/presentacion.html#referencias-y-recursos",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "Referencias y Recursos",
     "text": "Referencias y Recursos\n\n\n\n\n\n\n\nDocumentación oficial\n🔗 quarto.org\nGuías y ejemplos prácticos para comenzar de inmediato.\n\n\n\n\n\n\n\n\nAprendizaje en video\n🔗 Crash Course en YouTube\nIntroducción práctica a Quarto y sus distintos usos.\n\n\n\n\n\n\n\n\n\n\n\n\nRecursos de la comunidad\n🔗 Mine Cetinkaya-Rundel\nCursos, libros y presentaciones en Quarto en GitHub.\n\n\n\n\n\n\n\n\nAplicaciones en educación\n🔗 sethnut.com/resources\nOlimpiada Matemática, Verano Matemático, EMMA y más!"
   },
   {
     "objectID": "hello-quarto/presentacion.html#gracias-por-participar",
     "href": "hello-quarto/presentacion.html#gracias-por-participar",
-    "title": "Ecuaciones",
+    "title": "Columnas Flexibles",
     "section": "🎉 ¡Gracias por Participar!",
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
   },
