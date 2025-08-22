@@ -565,7 +565,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Columnas Flexibles</h1>
+  <h1 class="title">Ecuaciones en LaTeX</h1>
 
 <div class="quarto-title-authors">
 </div>
@@ -950,7 +950,7 @@ format:
 </section>
 <section id="código-ejecutable" class="slide level2">
 <h2>Código Ejecutable</h2>
-<div id="3d2558fa" class="cell" data-fig-height="4.5" data-fig-width="10" data-execution_count="1">
+<div id="2065470c" class="cell" data-fig-height="4.5" data-fig-width="10" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
 <span id="cb9-2"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb9-3"><a aria-hidden="true" tabindex="-1"></a></span>
@@ -965,6 +965,35 @@ format:
 </div>
 </div>
 </div>
+<p>Renderizado de ecuaciones a HTML con <a href="https://www.mathjax.org/">MathJax</a>.</p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="sourceCode" id="cb10"><pre class="sourceCode tex code-with-copy"><code class="sourceCode latex"><span id="cb10-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">gather*</span>}</span>
+<span id="cb10-2"><a aria-hidden="true" tabindex="-1"></a><span class="ss">a_1=b_1+c_1</span><span class="sc">\\</span></span>
+<span id="cb10-3"><a aria-hidden="true" tabindex="-1"></a><span class="ss">a_2=b_2+c_2-d_2+e_2</span></span>
+<span id="cb10-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">gather*</span>}</span>
+<span id="cb10-5"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">align</span>}</span>
+<span id="cb10-7"><a aria-hidden="true" tabindex="-1"></a><span class="ss">a_{11}&amp; =b_{11}&amp;</span></span>
+<span id="cb10-8"><a aria-hidden="true" tabindex="-1"></a><span class="ss">  a_{12}&amp; =b_{12}</span><span class="sc">\\</span></span>
+<span id="cb10-9"><a aria-hidden="true" tabindex="-1"></a><span class="ss">a_{21}&amp; =b_{21}&amp;</span></span>
+<span id="cb10-10"><a aria-hidden="true" tabindex="-1"></a><span class="ss">  a_{22}&amp; =b_{22}+c_{22}</span></span>
+<span id="cb10-11"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">align</span>}</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column" style="width:60%;">
+<span class="math display">\[\begin{gather*}
+a_1=b_1+c_1\\
+a_2=b_2+c_2-d_2+e_2
+\end{gather*}\]</span>
+<span class="math display">\[\begin{align}
+a_{11}&amp; =b_{11}&amp;
+  a_{12}&amp; =b_{12}\\
+a_{21}&amp; =b_{21}&amp;
+  a_{22}&amp; =b_{22}+c_{22}
+\end{align}\]</span>
+</div></div>
+</section>
+<section id="columnas-flexibles" class="slide level2">
+<h2>Columnas Flexibles</h2>
 <p>Acomoda texto, imágenes o código en columnas de varios tamaños.</p>
 <p><br></p>
 <div class="columns">
@@ -974,56 +1003,56 @@ format:
 </div><div class="column" style="width:3%;">
 
 </div><div class="column" style="width:62%;">
-<div id="66a19cc9" class="cell" data-execution_count="2">
+<div id="53d8a2bf" class="cell" data-execution_count="2">
 <div class="cell-output cell-output-display" data-execution_count="2">
 <style type="text/css">
 </style>
 
-<table id="T_4007a" class="caption-top" data-quarto-postprocess="true">
+<table id="T_de5a9" class="caption-top" data-quarto-postprocess="true">
 <thead>
 <tr class="header">
-<th id="T_4007a_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">mpg</th>
-<th id="T_4007a_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">cyl</th>
-<th id="T_4007a_level0_col2" class="col_heading level0 col2" data-quarto-table-cell-role="th">disp</th>
-<th id="T_4007a_level0_col3" class="col_heading level0 col3" data-quarto-table-cell-role="th">hp</th>
-<th id="T_4007a_level0_col4" class="col_heading level0 col4" data-quarto-table-cell-role="th">wt</th>
+<th id="T_de5a9_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">mpg</th>
+<th id="T_de5a9_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">cyl</th>
+<th id="T_de5a9_level0_col2" class="col_heading level0 col2" data-quarto-table-cell-role="th">disp</th>
+<th id="T_de5a9_level0_col3" class="col_heading level0 col3" data-quarto-table-cell-role="th">hp</th>
+<th id="T_de5a9_level0_col4" class="col_heading level0 col4" data-quarto-table-cell-role="th">wt</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td id="T_4007a_row0_col0" class="data row0 col0">18.000000</td>
-<td id="T_4007a_row0_col1" class="data row0 col1">8</td>
-<td id="T_4007a_row0_col2" class="data row0 col2">307.000000</td>
-<td id="T_4007a_row0_col3" class="data row0 col3">130.000000</td>
-<td id="T_4007a_row0_col4" class="data row0 col4">3504</td>
+<td id="T_de5a9_row0_col0" class="data row0 col0">18.000000</td>
+<td id="T_de5a9_row0_col1" class="data row0 col1">8</td>
+<td id="T_de5a9_row0_col2" class="data row0 col2">307.000000</td>
+<td id="T_de5a9_row0_col3" class="data row0 col3">130.000000</td>
+<td id="T_de5a9_row0_col4" class="data row0 col4">3504</td>
 </tr>
 <tr class="even">
-<td id="T_4007a_row1_col0" class="data row1 col0">15.000000</td>
-<td id="T_4007a_row1_col1" class="data row1 col1">8</td>
-<td id="T_4007a_row1_col2" class="data row1 col2">350.000000</td>
-<td id="T_4007a_row1_col3" class="data row1 col3">165.000000</td>
-<td id="T_4007a_row1_col4" class="data row1 col4">3693</td>
+<td id="T_de5a9_row1_col0" class="data row1 col0">15.000000</td>
+<td id="T_de5a9_row1_col1" class="data row1 col1">8</td>
+<td id="T_de5a9_row1_col2" class="data row1 col2">350.000000</td>
+<td id="T_de5a9_row1_col3" class="data row1 col3">165.000000</td>
+<td id="T_de5a9_row1_col4" class="data row1 col4">3693</td>
 </tr>
 <tr class="odd">
-<td id="T_4007a_row2_col0" class="data row2 col0">18.000000</td>
-<td id="T_4007a_row2_col1" class="data row2 col1">8</td>
-<td id="T_4007a_row2_col2" class="data row2 col2">318.000000</td>
-<td id="T_4007a_row2_col3" class="data row2 col3">150.000000</td>
-<td id="T_4007a_row2_col4" class="data row2 col4">3436</td>
+<td id="T_de5a9_row2_col0" class="data row2 col0">18.000000</td>
+<td id="T_de5a9_row2_col1" class="data row2 col1">8</td>
+<td id="T_de5a9_row2_col2" class="data row2 col2">318.000000</td>
+<td id="T_de5a9_row2_col3" class="data row2 col3">150.000000</td>
+<td id="T_de5a9_row2_col4" class="data row2 col4">3436</td>
 </tr>
 <tr class="even">
-<td id="T_4007a_row3_col0" class="data row3 col0">16.000000</td>
-<td id="T_4007a_row3_col1" class="data row3 col1">8</td>
-<td id="T_4007a_row3_col2" class="data row3 col2">304.000000</td>
-<td id="T_4007a_row3_col3" class="data row3 col3">150.000000</td>
-<td id="T_4007a_row3_col4" class="data row3 col4">3433</td>
+<td id="T_de5a9_row3_col0" class="data row3 col0">16.000000</td>
+<td id="T_de5a9_row3_col1" class="data row3 col1">8</td>
+<td id="T_de5a9_row3_col2" class="data row3 col2">304.000000</td>
+<td id="T_de5a9_row3_col3" class="data row3 col3">150.000000</td>
+<td id="T_de5a9_row3_col4" class="data row3 col4">3433</td>
 </tr>
 <tr class="odd">
-<td id="T_4007a_row4_col0" class="data row4 col0">17.000000</td>
-<td id="T_4007a_row4_col1" class="data row4 col1">8</td>
-<td id="T_4007a_row4_col2" class="data row4 col2">302.000000</td>
-<td id="T_4007a_row4_col3" class="data row4 col3">140.000000</td>
-<td id="T_4007a_row4_col4" class="data row4 col4">3449</td>
+<td id="T_de5a9_row4_col0" class="data row4 col0">17.000000</td>
+<td id="T_de5a9_row4_col1" class="data row4 col1">8</td>
+<td id="T_de5a9_row4_col2" class="data row4 col2">302.000000</td>
+<td id="T_de5a9_row4_col3" class="data row4 col3">140.000000</td>
+<td id="T_de5a9_row4_col4" class="data row4 col4">3449</td>
 </tr>
 </tbody>
 </table>
@@ -1038,7 +1067,7 @@ format:
 <ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Plot</a></li><li><a href="#tabset-1-2">Data</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1">
-<div id="ef97fb62" class="cell" data-execution_count="3">
+<div id="f0fe483a" class="cell" data-execution_count="3">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -1049,7 +1078,7 @@ format:
 </div>
 </div>
 <div id="tabset-1-2">
-<div id="65a61c50" class="cell" data-execution_count="4">
+<div id="7a2a93d6" class="cell" data-execution_count="4">
 <div class="cell-output cell-output-display" data-execution_count="4">
 <div>
 <style scoped="">
@@ -1175,11 +1204,11 @@ format:
 <p><br></p>
 <ol type="1">
 <li><p><a href="https://docs.r-wasm.org/webr/latest/">WebR</a>: Run R code in the browser, no installation required.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># To install WebR in your environment</span></span>
-<span id="cb10-2"><a aria-hidden="true" tabindex="-1"></a><span class="ex">remotes::install_github</span><span class="er">(</span><span class="st">"attiyap/WebR"</span><span class="kw">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># To install WebR in your environment</span></span>
+<span id="cb11-2"><a aria-hidden="true" tabindex="-1"></a><span class="ex">remotes::install_github</span><span class="er">(</span><span class="st">"attiyap/WebR"</span><span class="kw">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 <li><p><a href="https://quarto.thecoatlessprofessor.com/pyodide/">Pyodide</a>: Same, but for Python.</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># To install Pyodide</span></span>
-<span id="cb11-2"><a aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install pyodide</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># To install Pyodide</span></span>
+<span id="cb12-2"><a aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install pyodide</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ol>
 </div><div class="column" style="width:40%;">
 <p><img data-src="images/webr.png"></p>
