@@ -430,6 +430,8 @@ sns.scatterplot(data=mpg, x="horsepower", y="mpg")
 plt.show()
 ```
 
+---
+
 
 ## Ecuaciones en LaTeX
 
@@ -469,6 +471,8 @@ a_{21}& =b_{21}&
 ```
 :::
 :::
+
+---
 
 
 ## Columnas Flexibles
