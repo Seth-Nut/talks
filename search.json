@@ -3423,11 +3423,11 @@
     "text": "Ejemplos"
   },
   {
-    "objectID": "hello-quarto/presentacion.html#el-cli-de-quarto-organiza-cada-paso-del-renderizado",
-    "href": "hello-quarto/presentacion.html#el-cli-de-quarto-organiza-cada-paso-del-renderizado",
+    "objectID": "hello-quarto/presentacion.html#quarto-organiza-cada-paso-del-renderizado",
+    "href": "hello-quarto/presentacion.html#quarto-organiza-cada-paso-del-renderizado",
     "title": "Seth&Nut",
-    "section": "El CLI de Quarto organizacada paso del renderizado",
-    "text": "El CLI de Quarto organizacada paso del renderizado"
+    "section": "Quarto organizacada paso del renderizado",
+    "text": "Quarto organizacada paso del renderizado"
   },
   {
     "objectID": "hello-quarto/presentacion.html#quarto-facilita-el-cambio-entre-formatos",
@@ -3472,11 +3472,11 @@
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
   },
   {
-    "objectID": "hello-quarto/presentacion.html#quarto-aplana-la-curva-de-aprendizaje",
-    "href": "hello-quarto/presentacion.html#quarto-aplana-la-curva-de-aprendizaje",
+    "objectID": "hello-quarto/presentacion.html#quarto-simplifica-tu-flujo-de-trabajo",
+    "href": "hello-quarto/presentacion.html#quarto-simplifica-tu-flujo-de-trabajo",
     "title": "Seth&Nut",
-    "section": "Quarto aplana la curva de aprendizaje",
-    "text": "Quarto aplana la curva de aprendizaje"
+    "section": "Quarto simplifica tu flujo de trabajo",
+    "text": "Quarto simplifica tu flujo de trabajo"
   },
   {
     "objectID": "hello-quarto/presentacion.html#pretty-code",
@@ -3521,67 +3521,18 @@
     "text": "Column Layout\nArrange content into columns of varying widths:\n\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\nwt\n\n\n\n\n18.000000\n8\n307.000000\n130.000000\n3504\n\n\n15.000000\n8\n350.000000\n165.000000\n3693\n\n\n18.000000\n8\n318.000000\n150.000000\n3436\n\n\n16.000000\n8\n304.000000\n150.000000\n3433\n\n\n17.000000\n8\n302.000000\n140.000000\n3449\n\n\n\n\n\n\n\nLearn more: Multiple Columns"
   },
   {
-    "objectID": "hello-quarto/presentacion.html#incremental-lists",
-    "href": "hello-quarto/presentacion.html#incremental-lists",
+    "objectID": "hello-quarto/presentacion.html#tabsets",
+    "href": "hello-quarto/presentacion.html#tabsets",
     "title": "Seth&Nut",
-    "section": "Incremental Lists",
-    "text": "Incremental Lists\nLists can optionally be displayed incrementally:\n\nFirst item\nSecond item\nThird item\n\n\n Insert pauses to make other types of content display incrementally.\n\nLearn more: Incremental Lists"
+    "section": "Tabsets",
+    "text": "Tabsets\n\nPlotData\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n-2.000000\n12.000000\n\n\n1\n-1.929293\n11.510050\n\n\n2\n-1.858586\n11.030099\n\n\n3\n-1.787879\n10.560147\n\n\n4\n-1.717172\n10.100194"
   },
   {
-    "objectID": "hello-quarto/presentacion.html#fragments",
-    "href": "hello-quarto/presentacion.html#fragments",
+    "objectID": "hello-quarto/presentacion.html#interactive-plots",
+    "href": "hello-quarto/presentacion.html#interactive-plots",
     "title": "Seth&Nut",
-    "section": "Fragments",
-    "text": "Fragments\nIncremental text display and animation with fragments:\n\n\nFade in\n\n\nSlide up while fading in\n\n\nSlide left while fading in\n\n\nFade in then semi out\n\n\n\nStrike\n\n\nHighlight red\n\n\nLearn more: Fragments"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#slide-backgrounds",
-    "href": "hello-quarto/presentacion.html#slide-backgrounds",
-    "title": "Seth&Nut",
-    "section": "Slide Backgrounds",
-    "text": "Slide Backgrounds\nSet the background attribute on a slide to change the background color (all CSS color formats are supported).\nDifferent background transitions are available via the background-transition option.\n\nLearn more: Slide Backgrounds"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#media-backgrounds",
-    "href": "hello-quarto/presentacion.html#media-backgrounds",
-    "title": "Seth&Nut",
-    "section": "Media Backgrounds",
-    "text": "Media Backgrounds\nYou can also use the following as a slide background:\n\nAn image: background-image\nA video: background-video\nAn iframe: background-iframe\n\n\nLearn more: Media Backgrounds"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#absolute-position",
-    "href": "hello-quarto/presentacion.html#absolute-position",
-    "title": "Seth&Nut",
-    "section": "Absolute Position",
-    "text": "Absolute Position\nPosition images or other elements at precise locations\n\n\n\n\nLearn more: Absolute Position"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#auto-animate",
-    "href": "hello-quarto/presentacion.html#auto-animate",
-    "title": "Seth&Nut",
-    "section": "Auto-Animate",
-    "text": "Auto-Animate\nAutomatically animate matching elements across slides with Auto-Animate.\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Auto-Animate"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#auto-animate-1",
-    "href": "hello-quarto/presentacion.html#auto-animate-1",
-    "title": "Seth&Nut",
-    "section": "Auto-Animate",
-    "text": "Auto-Animate\nAutomatically animate matching elements across slides with Auto-Animate.\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more: Auto-Animate"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#slide-transitions",
-    "href": "hello-quarto/presentacion.html#slide-transitions",
-    "title": "Seth&Nut",
-    "section": "Slide Transitions",
-    "text": "Slide Transitions\nThe next few slides will transition using the slide transition\n\n\n\n\n\n\n\nTransition\nDescription\n\n\n\n\nnone\nNo transition (default, switch instantly)\n\n\nfade\nCross fade\n\n\nslide\nSlide horizontally\n\n\nconvex\nSlide at a convex angle\n\n\nconcave\nSlide at a concave angle\n\n\nzoom\nScale the incoming slide so it grows in from the center of the screen.\n\n\n\n\nLearn more: Slide Transitions"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#ejemplo-de-tabset",
-    "href": "hello-quarto/presentacion.html#ejemplo-de-tabset",
-    "title": "Seth&Nut",
-    "section": "Ejemplo de Tabset",
-    "text": "Ejemplo de Tabset\n\nPythonRJulia\n\n\nprint(\"Hola desde Python\")\n\n\nprint(\"Hola desde R\")\n\n\nprintln(\"Hola desde Julia\")"
+    "section": "Interactive Plots",
+    "text": "Interactive Plots"
   },
   {
     "objectID": "hello-quarto/presentacion.html#quarto-puede-crecer-junto-con-los-estudiantes-de-una-manera-profunda",
