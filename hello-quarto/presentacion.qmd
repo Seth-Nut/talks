@@ -12,6 +12,8 @@ format:
     logo: images/usm.png
 filters:
   - quarto-ext/shinylive
+revealjs-plugins:
+  - quiz
 editor: visual
 ---
 
@@ -211,6 +213,10 @@ website:
 
 # Colaborar {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
 
+## Primeros Pasos  con Quarto {transition="zoom"}
+
+![](images/horst_quarto_ball_straight.png){fig-align="center" width="50%" fig-alt="Quarto logo."}
+
 ## Instalar y configurar Quarto {transition="zoom"}
 
 <br>
@@ -350,7 +356,7 @@ format:
 
 # Enseñar {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
-## Quarto simplifica tu flujo de trabajo
+## ¿ Qué podemos hacer con Quarto? {transition="zoom"}
 
 :::{.fragment}
 ![](images/3-teach/many-qmd-to-output.png){width="70%" fig-align="center"}
@@ -358,10 +364,10 @@ format:
 
 
 
-## Pretty Code {auto-animate="true"}
+## Código con Estilo {auto-animate="true"}
 
--   Over 20 syntax highlighting themes available
--   Default theme optimized for accessibility
+- Más de 20 temas para resaltar tu código  
+- El tema por defecto está optimizado para accesibilidad  
 
 ``` r
 # Define a server for the Shiny app
@@ -374,14 +380,12 @@ function(input, output) {
 }
 ```
 
-::: footer
-Learn more: [Syntax Highlighting](https://{{< meta prerelease-subdomain >}}quarto.org/docs/output-formats/html-code.html#highlighting)
-:::
 
-## Code Animations {auto-animate="true"}
 
--   Over 20 syntax highlighting themes available
--   Default theme optimized for accessibility
+## Código en Movimiento {auto-animate="true"}
+
+- Más de 20 estilos de resaltado listos para usar  
+- Tema por defecto diseñado para máxima accesibilidad  
 
 ``` r
 # Define a server for the Shiny app
@@ -398,14 +402,12 @@ function(input, output) {
 }
 ```
 
-::: footer
-Learn more: [Code Animations](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/advanced.html#code-animations)
-:::
 
-## Line Highlighting
 
--   Highlight specific lines for emphasis
--   Incrementally highlight additional lines
+## Enfoque en Líneas
+
+- Señala las líneas clave para mayor claridad  
+- Agrega resaltados paso a paso 
 
 ``` {.python code-line-numbers="4-5|7|10"}
 import numpy as np
@@ -420,11 +422,9 @@ ax.grid(True)
 plt.show()
 ```
 
-::: footer
-Learn more: [Line Highlighting](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/#line-highlighting)
-:::
 
-## Executable Code
+
+## Código Ejecutable
 
 ```{python}
 #| echo: true
@@ -438,15 +438,15 @@ sns.scatterplot(data=mpg, x="horsepower", y="mpg")
 plt.show()
 ```
 
-::: footer
-Learn more: [Executable Code](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/#executable-code)
-:::
 
-## LaTeX Equations
+
+## Ecuaciones en LaTeX
 
 <br>
 
-[MathJax](https://www.mathjax.org/) rendering of equations to HTML
+Renderizado de ecuaciones a HTML con [MathJax](https://www.mathjax.org/).  
+
+
 
 ::: columns
 ::: {.column width="40%"}
@@ -483,13 +483,11 @@ a_{21}& =b_{21}&
 :::
 :::
 
-::: footer
-Learn more: [LaTeX Equations](https://{{< meta prerelease-subdomain >}}quarto.org/docs/authoring/markdown-basics.html#equations)
-:::
 
-## Column Layout
 
-Arrange content into columns of varying widths:
+## Columnas Flexibles
+
+Acomoda texto, imágenes o código en columnas de varios tamaños.  
 
 <br>
 
@@ -534,12 +532,12 @@ df.style.hide(axis="index")
 :::
 :::
 
-::: footer
-Learn more: [Multiple Columns](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/#multiple-columns)
-:::
 
 
 ## Tabsets
+
+Crea bloques con pestañas que permiten alternar entre distintos contenidos.  
+
 
 ::: panel-tabset
 ### Plot
@@ -578,52 +576,85 @@ df.head(5)  # primeras 10 filas
 ```
 :::
 
-## Interactive Plots
+## Gráficos Interactivos
 
 
-```{=html}
-<iframe width=1000 height=600 src="images/demo.html"></iframe> 
-```
+<div align="center">
 
+<iframe src="images/demo.html" width="1400" height="750" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;"></iframe>
+
+</div>
 
 # Reimaginar {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo"}
 
 
-## Quarto puede crecer junto con los estudiantes de una manera profunda
+## El poder de las extensiones en Quarto
+
+<br>
 
 ![](images/3-teach/many-lang-qmd-to-output.png)
 
 
 
-
-## 📝 Quarto (+ Extensions)
+##  Extensiones de Quarto
 
 ::: columns
-::: {.column .fragment width="50%"}
+::: {.column .fragment width="60%"}
 <br><br>
 
-[Quarto](https://quarto.org/) is an open system for scientific publications with markdown and interactive code (Python/R).
+Las **extensiones** de Quarto son paquetes de R que agregan funcionalidad a Quarto.
+
 
 <br>
 
-> 🔧 Need more power? Use [Extensions](https://quarto.org/docs/extensions/)
+> 🔧Necesitas más poder? Usa [Extensions](https://quarto.org/docs/extensions/)
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 ![](images/quarto-ext.png)
 :::
 :::
 
-::: notes
-Quarto makes it easy to write, code, and share.\
-Clean documents by default — more powerful with extensions.\
-One tool for writing, coding, and presenting.
+------------------------------------------------------------------------
+
+##  Quarto Quiz
+
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+La extensión **Quarto Quiz** permite crear preguntas directamente en tus presentaciones.  
+
+<br>
+
+> 📚 Más info: [Quarto Quiz Extension](https://github.com/quarto-ext/quiz)
 :::
+
+::: {.column width="40%"}
+![](images/quiz.png)
+:::
+:::
+
 
 
 ------------------------------------------------------------------------
 
-## 🌐 Quarto WebR
+## Ejemplo {.quiz-question}
+
+<br>
+
+¿Cómo te ha parecido la presentación hasta ahora?
+
+- [Me encantó 😍]{.correct} 
+- Más o menos 🤔  
+- Tal vez podría mejorar 🙂  
+- No me gustó mucho 😕  
+
+
+
+------------------------------------------------------------------------
+
+## Quarto WebR + Pyodide
 
 ::: columns
 ::: {.column width="60%"}
@@ -657,14 +688,17 @@ Perfect for teaching, demos, and interactive content.
 
 ------------------------------------------------------------------------
 
-## Example
+## Ejemplo
 
-```{webr-r}
-categories <- c("Yes", "No")
-values <- c(75, 25)
-colors <- c("lightblue", "salmon")
-par(mfrow = c(1, 1), mar = c(7, 4, 1, 1),  oma = c(1, 6, 1, 1)   )
-barplot(values, names.arg = categories, col = colors, main = "😊 Do you like the presentation so far? 😊", cex.main = 0.9)
+```{pyodide-python}
+import matplotlib.pyplot as plt
+categorias = ["Sí", "No"]
+valores = [75, 25]
+colores = ["lightblue", "salmon"]
+plt.figure(figsize=(10, 6))
+plt.bar(categorias, valores, color=colores)
+plt.title("¿Cómo te ha parecido la presentación hasta ahora?", fontsize=11)
+plt.show()
 ```
 
 ::: notes
@@ -682,10 +716,18 @@ That’s the power of WebR.
 ## Shiny
 
 ::: columns
-::: {.column width="60%"}
-<br><br>
+::: {.column width="60%" .fragment}
+<br>
 
-[Shiny](https://shiny.posit.co/) is an R package that allows you to easily create interactive web applications using R (also available for Python).
+**Shiny** es un paquete de R que permite crear de manera sencilla aplicaciones interactivas usando R  
+(también disponible para Python).
+
+
+<br>
+
+> 📚 Más info: [Shiny - Posit](https://shiny.posit.co/)
+
+
 :::
 
 ::: {.column width="40%"}
@@ -693,15 +735,11 @@ That’s the power of WebR.
 :::
 :::
 
-::: notes
-Shiny lets you turn R code into interactive apps.\
-Great for dashboards, reports, and data exploration.\
-No web dev skills needed.
-:::
+
 
 ------------------------------------------------------------------------
 
-## Shiny
+## Ejemplo
 
 <br>
 
@@ -715,14 +753,14 @@ Perfect for exploring and communicating insights.
 
 ------------------------------------------------------------------------
 
-## 🌐 Quarto Shinylive
+## Quarto Shinylive
 
 ::: columns
 ::: {.column .fragment width="60%"}
 <br>
 
--   Deploy **Shiny** apps that run 100% in the browser — with **Python** & **R** (via WebAssembly).
--   No servers. No setup. Just code & run.
+-   Despliega aplicaciones **Shiny** que se ejecutan 100% en el navegador — con **Python** y **R**.  
+-   Sin servidores. Sin configuraciones. Solo escribe código y ejecútalo.  
 :::
 
 ::: {.column width="40%"}
@@ -735,25 +773,20 @@ Perfect for exploring and communicating insights.
 <br>
 
 ::: {style="text-align: center; font-size: 1.2em;"}
-Stay in your presentation.\
-Stay in the flow. 🎯
-:::
-
-::: notes
-Shinylive runs Shiny apps fully in the browser.
-
-No servers, no install — just share and interact.
-
-Great for live demos without breaking the flow.
+Sigue en tu presentación.\
+No pierdas el ritmo 🎯
 :::
 
 
 
-## Quarto & Shiny 
+
+
+
+## Ejemplo
 
 ```{shinylive-python}
 #| standalone: true
-#| viewerHeight: 550
+#| viewerHeight: 800
 
 from shiny import App, ui, render, reactive
 import matplotlib.pyplot as plt
@@ -765,9 +798,9 @@ def create_plot(yes_value, no_value):
     categories = ['Yes', 'No']
     values = [yes_value, no_value]
 
-    fig, ax = plt.subplots(figsize=(10, 3))
+    fig, ax = plt.subplots(figsize=(14, 5))
     ax.bar(categories, values, color=['lightblue', 'salmon'])
-    ax.set_title('😊 Do you like the presentation so far? 😊')
+    ax.set_title('¿Cómo te ha parecido la presentación hasta ahora?')
 
     # Convert the image to base64 for display in Shiny
     buf = io.BytesIO()
@@ -779,11 +812,11 @@ def create_plot(yes_value, no_value):
 
 # UI definition
 app_ui = ui.page_fluid(
-    ui.h2("Interactive Survey"),
+    ui.h2("Encuesta Interactiva"),
     
     # Sliders to change values dynamically
-    ui.input_slider("yes_value", "Yes responses:", min=0, max=50, value=20),
-    ui.input_slider("no_value", "No responses:", min=0, max=50, value=10),
+    ui.input_slider("yes_value", "Respuestas 'Sí':", min=0, max=50, value=20),
+    ui.input_slider("no_value", "Respuestas 'No'", min=0, max=50, value=10),
     
     # Output area for the plot
     ui.output_ui("plot_output")
@@ -942,13 +975,13 @@ Olimpiada Matemática, Verano Matemático, EMMA y más!
 
 ❓¿Preguntas?
 
-👏 Responder [encuesta](https://forms.gle/WMYcViob6Z6WbPZD7)
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSfZFRSlQ-uKpao44w0ODL6Tqvh8yZV_BZyfmVV6DOMINvGHwQ/viewform?usp=sharing&ouid=101387375267916178365)
 
 🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr.png){width="400"}
+![](images/qr-quarto.png){width="400"}
 :::
 :::
 
