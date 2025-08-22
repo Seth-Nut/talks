@@ -149,7 +149,7 @@ Quarto es un sistema abierto de<br> publicación científica y técnica
 :::
 :::
 
-## El CLI de Quarto organiza<br>cada paso del renderizado {.takeaway .center}
+## Quarto organiza<br>cada paso del renderizado {.takeaway .center}
 
 ::: {.fragment .fade-up}
 ![](images/horst_qmd_render_schema.png){fig-alt="Esquema que representa el proceso de renderizado de documentos Quarto: desde .qmd, pasando por knitr o jupyter, a Markdown en texto plano, y luego convertido con pandoc a múltiples formatos de salida como HTML, PDF o Word." fig-align="center"}
@@ -350,9 +350,11 @@ format:
 
 # Enseñar {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
-## Quarto aplana la curva de aprendizaje
+## Quarto simplifica tu flujo de trabajo
 
-![](images/3-teach/many-qmd-to-output.png)
+:::{.fragment}
+![](images/3-teach/many-qmd-to-output.png){width="70%" fig-align="center"}
+:::
 
 
 
@@ -536,175 +538,52 @@ df.style.hide(axis="index")
 Learn more: [Multiple Columns](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/#multiple-columns)
 :::
 
-## Incremental Lists
 
-Lists can optionally be displayed incrementally:
-
-::: incremental
--   First item
--   Second item
--   Third item
-:::
-
-. . .
-
-<br/> Insert pauses to make other types of content display incrementally.
-
-::: footer
-Learn more: [Incremental Lists](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/#incremental-lists)
-:::
-
-## Fragments
-
-Incremental text display and animation with fragments:
-
-<br/>
-
-::: {.fragment .fade-in}
-Fade in
-:::
-
-::: {.fragment .fade-up}
-Slide up while fading in
-:::
-
-::: {.fragment .fade-left}
-Slide left while fading in
-:::
-
-::: {.fragment .fade-in-then-semi-out}
-Fade in then semi out
-:::
-
-. . .
-
-::: {.fragment .strike}
-Strike
-:::
-
-::: {.fragment .highlight-red}
-Highlight red
-:::
-
-::: footer
-Learn more: [Fragments](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/advanced.html#fragments)
-:::
-
-## Slide Backgrounds {background="#43464B"}
-
-Set the `background` attribute on a slide to change the background color (all CSS color formats are supported).
-
-Different background transitions are available via the `background-transition` option.
-
-::: footer
-Learn more: [Slide Backgrounds](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/#color-backgrounds)
-:::
-
-## Media Backgrounds {background="#43464B" background-image="images/milky-way.jpeg"}
-
-You can also use the following as a slide background:
-
--   An image: `background-image`
-
--   A video: `background-video`
-
--   An iframe: `background-iframe`
-
-::: footer
-Learn more: [Media Backgrounds](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/#image-backgrounds)
-:::
-
-## Absolute Position
-
-Position images or other elements at precise locations
-
-![](images/mini/images/kitten-400-350.jpeg){.absolute top="170" left="30" width="400" height="400"}
-
-![](images/mini/images/kitten-450-250.jpeg){.absolute .fragment top="150" right="80" width="450"}
-
-![](images/mini/images/kitten-300-200.jpeg){.absolute .fragment bottom="110" right="130" width="300"}
-
-::: footer
-Learn more: [Absolute Position](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/advanced.html#absolute-position)
-:::
-
-## Auto-Animate {auto-animate="true" auto-animate-easing="ease-in-out"}
-
-Automatically animate matching elements across slides with Auto-Animate.
-
-::: r-hstack
-::: {data-id="box1" auto-animate-delay="0" style="background: #2780e3; width: 200px; height: 150px; margin: 10px;"}
-:::
-
-::: {data-id="box2" auto-animate-delay="0.1" style="background: #3fb618; width: 200px; height: 150px; margin: 10px;"}
-:::
-
-::: {data-id="box3" auto-animate-delay="0.2" style="background: #e83e8c; width: 200px; height: 150px; margin: 10px;"}
-:::
-:::
-
-::: footer
-Learn more: [Auto-Animate](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/advanced.html#auto-animate)
-:::
-
-## Auto-Animate {auto-animate="true" auto-animate-easing="ease-in-out"}
-
-Automatically animate matching elements across slides with Auto-Animate.
-
-::: r-stack
-::: {data-id="box1" style="background: #2780e3; width: 350px; height: 350px; border-radius: 200px;"}
-:::
-
-::: {data-id="box2" style="background: #3fb618; width: 250px; height: 250px; border-radius: 200px;"}
-:::
-
-::: {data-id="box3" style="background: #e83e8c; width: 150px; height: 150px; border-radius: 200px;"}
-:::
-:::
-
-::: footer
-Learn more: [Auto-Animate](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/advanced.html#auto-animate)
-:::
-
-## Slide Transitions {.smaller}
-
-The next few slides will transition using the `slide` transition
-
-| Transition | Description                                                            |
-|------------|------------------------------------------------------------------------|
-| `none`     | No transition (default, switch instantly)                              |
-| `fade`     | Cross fade                                                             |
-| `slide`    | Slide horizontally                                                     |
-| `convex`   | Slide at a convex angle                                                |
-| `concave`  | Slide at a concave angle                                               |
-| `zoom`     | Scale the incoming slide so it grows in from the center of the screen. |
-
-::: footer
-Learn more: [Slide Transitions](https://{{< meta prerelease-subdomain >}}quarto.org/docs/presentations/revealjs/advanced.html#slide-transitions)
-:::
-
-## Ejemplo de Tabset 
+## Tabsets
 
 ::: panel-tabset
+### Plot
 
-### Python
+```{python}
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
-```python
-print("Hola desde Python")
-````
+# Ecuación cuadrática: y = ax^2 + bx + c
+a, b, c = 1, -3, 2   # ejemplo: y = x^2 - 3x + 2
 
-### R
+# Crear datos
+x = np.linspace(-2, 5, 100)
+y = a*x**2 + b*x + c
 
-```r
-print("Hola desde R")
+# Graficar
+plt.figure(figsize=(12,6))
+plt.plot(x, y, label=f"${a}x^2 {b:+}x {c:+}$", color="blue")
+plt.axhline(0, color="black", linewidth=0.8)
+plt.axvline(0, color="black", linewidth=0.8)
+plt.title("Ecuación cuadrática")
+plt.xlabel("x")
+plt.ylabel("y")
+plt.legend()
+plt.grid(True)
+plt.show()
 ```
 
-### Julia
+### Data
 
-```julia
-println("Hola desde Julia")
+```{python}
+# Mostrar los primeros valores en tabla
+df = pd.DataFrame({"x": x, "y": y})
+df.head(5)  # primeras 10 filas
 ```
 :::
+
+## Interactive Plots
+
+
+```{=html}
+<iframe width=1000 height=600 src="images/demo.html"></iframe> 
+```
 
 
 # Reimaginar {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo"}
@@ -720,7 +599,7 @@ println("Hola desde Julia")
 ## 📝 Quarto (+ Extensions)
 
 ::: columns
-::: {.column .fragment width="60%"}
+::: {.column .fragment width="50%"}
 <br><br>
 
 [Quarto](https://quarto.org/) is an open system for scientific publications with markdown and interactive code (Python/R).
@@ -730,8 +609,8 @@ println("Hola desde Julia")
 > 🔧 Need more power? Use [Extensions](https://quarto.org/docs/extensions/)
 :::
 
-::: {.column width="40%"}
-![](images/quarto2.png)
+::: {.column width="50%"}
+![](images/quarto-ext.png)
 :::
 :::
 
