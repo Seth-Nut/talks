@@ -638,14 +638,14 @@ La extensión **Quarto Quiz** permite crear preguntas directamente en tus presen
 ::: {.column width="60%"}
 <br>
 
-1.  [WebR](https://docs.r-wasm.org/webr/latest/): Run R code in the browser, no installation required.
+1.  [WebR](https://docs.r-wasm.org/webr/latest/): Ejecuta código R en el navegador, sin necesidad de instalación.
 
     ``` bash
     # To install WebR in your environment
     remotes::install_github("attiyap/WebR")
     ```
 
-2.  [Pyodide](https://quarto.thecoatlessprofessor.com/pyodide/): Same, but for Python.
+2.  [Pyodide](https://quarto.thecoatlessprofessor.com/pyodide/): Lo mismo, pero para Python.
 
     ``` bash
     # To install Pyodide
@@ -814,7 +814,7 @@ app = App(app_ui, server)
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
 ![](images/horst_quarto_ball-1_4.png){width="50px"}\
-**Compartir**: De lo estático a lo interactivo; un mismo `.qmd` produce HTML, PDF, slides o sitios web.
+**Compartir**: Un mismo `.qmd` genera HTML, PDF, slides o sitios web, pasando de lo estático a lo interactivo.
 :::
 :::
 :::
@@ -826,7 +826,7 @@ app = App(app_ui, server)
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
 ![](images/horst_quarto_ball-2_4.png){width="50px"}\
-**Colaborar**: Proyectos ordenados y control de versiones con GitHub permiten construir materiales abiertos en equipo.
+**Colaborar**: Con un archivo sencillo ya se puede crear y publicar material reproducible, iniciando el trabajo en equipo.
 :::
 :::
 :::
@@ -843,7 +843,7 @@ app = App(app_ui, server)
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
 ![](images/horst_quarto_ball-3_4.png){width="50px"}\
-**Enseñar**: Presentaciones reveal.js, dashboards y libros en línea integran texto, código y visualizaciones para el aula.
+**Enseñar**: Sus features integran texto, código y visualizaciones, mejorando la enseñanza con recursos dinámicos.
 :::
 :::
 :::
@@ -855,7 +855,7 @@ app = App(app_ui, server)
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
 ![](images/horst_quarto_ball-4_4.png){width="50px"}\
-**Reimaginar**: Tecnologías como WebR, Pyodide, Shiny y Observable JS abren nuevas formas de innovar en educación.
+**Reimaginar**: Tecnologías como WebR, Pyodide o Shiny abren nuevas formas de aprender e innovar en educación.
 :::
 :::
 :::
@@ -863,6 +863,7 @@ app = App(app_ui, server)
 ::: {.column width="5%"}
 :::
 :::
+
 
 ## Referencias y Recursos {transition="zoom"}
 
