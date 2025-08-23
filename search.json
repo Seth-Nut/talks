@@ -3574,7 +3574,7 @@
     "href": "hello-quarto/presentacion.html#quarto-webr-pyodide",
     "title": "Seth&Nut",
     "section": "Quarto WebR + Pyodide",
-    "text": "Quarto WebR + Pyodide\n\n\n\n\nWebR: Run R code in the browser, no installation required.\n# To install WebR in your environment\nremotes::install_github(\"attiyap/WebR\")\nPyodide: Same, but for Python.\n# To install Pyodide\npip install pyodide\n\n\n\n\n\nWebR and Pyodide run code directly in the browser.\nNo setup, no installs — just share and run.\nPerfect for teaching, demos, and interactive content."
+    "text": "Quarto WebR + Pyodide\n\n\n\n\nWebR: Ejecuta código R en el navegador, sin necesidad de instalación.\n# To install WebR in your environment\nremotes::install_github(\"attiyap/WebR\")\nPyodide: Lo mismo, pero para Python.\n# To install Pyodide\npip install pyodide\n\n\n\n\n\nWebR and Pyodide run code directly in the browser.\nNo setup, no installs — just share and run.\nPerfect for teaching, demos, and interactive content."
   },
   {
     "objectID": "hello-quarto/presentacion.html#ejemplo-1",
@@ -3616,7 +3616,7 @@
     "href": "hello-quarto/presentacion.html#conclusiones",
     "title": "Seth&Nut",
     "section": "Conclusiones",
-    "text": "Conclusiones\n\n\n\n\n\n\n\nCompartir: De lo estático a lo interactivo; un mismo .qmd produce HTML, PDF, slides o sitios web.\n\n\n\n\n\n\n\n\nColaborar: Proyectos ordenados y control de versiones con GitHub permiten construir materiales abiertos en equipo.\n\n\n\n\n\n\n\n\n\n\n\n\nEnseñar: Presentaciones reveal.js, dashboards y libros en línea integran texto, código y visualizaciones para el aula.\n\n\n\n\n\n\n\n\nReimaginar: Tecnologías como WebR, Pyodide, Shiny y Observable JS abren nuevas formas de innovar en educación."
+    "text": "Conclusiones\n\n\n\n\n\n\n\nCompartir: Un mismo .qmd genera HTML, PDF, slides o sitios web, pasando de lo estático a lo interactivo.\n\n\n\n\n\n\n\n\nColaborar: Con un archivo sencillo ya se puede crear y publicar material reproducible, iniciando el trabajo en equipo.\n\n\n\n\n\n\n\n\n\n\n\n\nEnseñar: Sus features integran texto, código y visualizaciones, mejorando la enseñanza con recursos dinámicos.\n\n\n\n\n\n\n\n\nReimaginar: Tecnologías como WebR, Pyodide o Shiny abren nuevas formas de aprender e innovar en educación."
   },
   {
     "objectID": "hello-quarto/presentacion.html#referencias-y-recursos",
