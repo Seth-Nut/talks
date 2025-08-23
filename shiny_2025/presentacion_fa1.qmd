@@ -1,16 +1,17 @@
 ---
-title: "Creating, innovating and presenting"
-subtitle: "Data Storytelling + A.I."
+title: "Narrativas con Datos"
+subtitle: "Del storytelling a la acción"
 author: 
   - Francisco Alfaro
   - Valeska Canales
-date: 24 Jun 2025
+date: 04 sep 2025
 format: 
   revealjs:
+    theme: style.scss
     transition: slide
     title-slide-attributes: 
       data-background-image: images/background.jpg
-    logo: images/na.png
+    logo: images/fe.png
 filters:
   - quarto-ext/shinylive
 ---
@@ -26,16 +27,13 @@ filters:
 <br>
 
 -   Francisco Alfaro Medina aka *fralfaro*
--   Member of Python Chile
--   Lead Data Scientist at Grupo Security\
--   Associate Lecturer at UTFSM
+-   Miembro Python Chile, TechSchool
+-   Lead Data Scientist en Grupo Security\
+-   Docente/Investigador en UTFSM
 :::
 :::
 
-::: notes
-My name is Francisco Alfaro Medina, also known as *fralfaro*.\
-I'm a member of Python Chile, currently working as Lead Data Scientist at Grupo Security, and I also teach at UTFSM.
-:::
+
 
 ------------------------------------------------------------------------
 
@@ -71,27 +69,22 @@ I want this to feel more like a story we explore together, not a checklist.
 ::: callout-note
 ## Storytelling principle #1
 
-Never reveal the ending too soon.\
-[Always build up tension and drama]{.fragment}
+Nunca revelar el final antes de tiempo.\
+[Siempre eleva la tensión y el drama]{.fragment}
 :::
 :::
 
-::: notes
-Lesson #1 of Storytelling. NEVER kill the suspense. Storytelling Tip:\
-Keep your audience curious.\
-Don’t spoil the ending — build tension first!\
-Surprise makes stories memorable.
-:::
 
 ------------------------------------------------------------------------
 
 ## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: incremental
-1.  Never reveal the [ending]{style="background-color:black;"}\
-2.  Details are important, but [not **all** details are important.]{style="background-color:black;"}\
-3.  Your first draft will be [horrible.]{style="background-color:black;"}\
-4.  Explain less, [show more]{style="background-color:black;"}
+1.  Nunca reveles [el final]{style="background-color:black;"}\
+2.  Los detalles son importantes, pero [no **todos** los detalles son importantes.]{style="background-color:black;"}\
+3.  Explicar menos, [Mostrar más]{style="background-color:black;"}
+4.  Tu primera versión será [horrible.]{style="background-color:black;"}\
+
 :::
 
 ::: notes
@@ -105,9 +98,9 @@ Stay curious.
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Storytelling]{style="font-size: 1em"}
+[Data Storytelling]{style="font-size: 1em"}
 
-[Why Storytelling?]{style="font-size: 1.5em"}
+[¿Por qué Data Storytelling?]{style="font-size: 1.5em"}
 :::
 
 ::: notes
@@ -116,7 +109,7 @@ OK, so, why data storytelling?
 
 ------------------------------------------------------------------------
 
-## What is Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
+## Qué es Data Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="50%"}
@@ -131,7 +124,7 @@ OK, so, why data storytelling?
 . . .
 
 ::: {style="text-align: center; "}
-🔥 **Stories** are the first human technology.
+🔥 Las **historias** son la primera tecnología humana.
 :::
 
 ::: notes
@@ -142,35 +135,27 @@ Use it well.
 
 ------------------------------------------------------------------------
 
-## Ohh, those hackable brains {background-image="images/background.jpg" background-opacity="0.25"}
+## Ohh, nuestros cerebos son hackables... {background-image="images/background.jpg" background-opacity="0.25"}
 
-<br>
 
-::: columns
-::: {.column width="50%"}
-![](images/storytelling/sketplanation.png){fig-align="center" width="90%"}\
-*Peak-End Rule*
-:::
 
-::: {.column .fragment width="50%"}
-![](images/storytelling/got.jpg){fig-align="center" width="100%"}\
-*Game of Thrones Rating, by Kelvin Neo*
-:::
-:::
+::: r-stack
+![](images/storytelling/sketplanation2.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
 
-::: notes
-People remember peaks and endings.\
-Strong emotions + a great finale = lasting impact.\
-Plan your story with this in mind.
+
+![](images/storytelling/got.jpg){.fragment fig-align="center" width="100%"}
 :::
 
 ------------------------------------------------------------------------
 
-## Narrative {background-image="images/background.jpg" background-opacity="0.25"}
+## Narrativa {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="60%"}
-<br><br> Use **Storytelling tricks** (narrative) to create presentations that will be **remembered** and make an **impact**
+<br><br> 
+
+Usa **trucos** de Storytelling (narrativa) para crear presentaciones que serán **recordadas** y que causarán **impacto**
+
 :::
 
 ::: {.column .fragment width="40%"}
@@ -181,7 +166,7 @@ Plan your story with this in mind.
 . . .
 
 ::: {style="text-align: center;"}
-🎭 Emotions inspire action
+🎭 Emociones inspiran acción
 :::
 
 ::: notes
@@ -190,9 +175,22 @@ Storytelling is your toolkit to move people.\
 Facts inform — emotions inspire action.
 :::
 
+------
+
+
+## Ejemplo: StackOverflow Survey {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+![](images/storytelling/stack.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+
+![](images/storytelling/stack2.png){.fragment fig-align="center" width="90%"}
+:::
+
+
 ------------------------------------------------------------------------
 
-## The best example {background-image="images/background.jpg" background-opacity="0.25"}
+## Ejemplo: Spotify Wrapped {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column .fragment width="30%" fragment-index="1"}
@@ -200,7 +198,9 @@ Facts inform — emotions inspire action.
 :::
 
 ::: {.column .center width="40%"}
-<br><br> How to make millions of people share statistics on social media?
+<br><br> 
+Cómo hacer millones de personas compartir estadísticas en redes sociales?
+
 :::
 
 ::: {.column .fragment width="30%" fragment-index="1"}
@@ -214,6 +214,9 @@ Not just stats — it’s *your* story.\
 That’s why millions share it every year.
 :::
 
+
+
+
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
@@ -226,30 +229,6 @@ That’s why millions share it every year.
 
 ::: notes
 So, let me tell you about how visualization and storytelling are related.
-:::
-
-------------------------------------------------------------------------
-
-## Examples {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="50%"}
-![](images/dst_before.png){fig-align="center"} *🔢 Don't share numbers*
-:::
-
-::: {.column .fragment width="50%"}
-![](images/dst_after.png){fig-align="center"} *🪶 Share a story*
-:::
-:::
-
-. . .
-
-<br><br> [(C) Storytelling with Data, by Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
-
-::: notes
-Numbers inform.\
-Stories connect.\
-Show only what matters — everything else is noise.
 :::
 
 ------------------------------------------------------------------------
@@ -994,7 +973,7 @@ See you next time!
 }
 
 .reveal .slide-logo {
-   max-height: 2.5em !important;
+   max-height: 1.5em !important;
 }
 
 

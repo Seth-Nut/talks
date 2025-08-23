@@ -25,23 +25,22 @@ filters:
 
 ------------------------------------------------------------------------
 
-
-
 ## Herramientas de BI {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
 ::: columns
 ::: {.column .fragment width="60%"}
-* **Principales herramientas**:
+-   **Principales herramientas**:
 
-  * Power BI, Tableau
-  * Looker Studio
-* **Fortalezas**:
+    -   Power BI, Tableau
+    -   Looker Studio
 
-  * Paneles interactivos
-  * Conectividad con datos
-  * Información en tiempo real
+-   **Fortalezas**:
+
+    -   Paneles interactivos
+    -   Conectividad con datos
+    -   Información en tiempo real
 :::
 
 ::: {.column width="40%"}
@@ -49,34 +48,27 @@ filters:
 :::
 :::
 
-
-
 ------------------------------------------------------------------------
 
 ## Herramientas de BI {background-image="images/background.jpg" background-opacity="0.25"}
 
 ![](https://www.googlecloudcommunity.com/gc/image/serverpage/image-id/115316iDCBDC47D3F634116/image-size/large/is-moderation-mode/true?v=v2&px=999){width="80%"}
 
-
----
+------------------------------------------------------------------------
 
 ## 🧪 Actividad: Looker Studio + GA4 {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ### 🎯 Objetivo
-
 
 Diseña un dashboard en **Looker Studio** con datos reales de [**GA4 - Google Merchandise Store**](https://www.googlemerchandisestore.com/) para ayudar al equipo de marketing a analizar el rendimiento digital.
 
 Debe responder preguntas clave como:
 
-* ¿El tráfico está creciendo?
-* ¿Qué canales traen más usuarios?
-* ¿Qué páginas convierten mejor?
-* ¿Cuál es la tasa de conversión por canal?
-
-
+-   ¿El tráfico está creciendo?
+-   ¿Qué canales traen más usuarios?
+-   ¿Qué páginas convierten mejor?
+-   ¿Cuál es la tasa de conversión por canal?
 
 ### 📊 Datos
 
@@ -84,18 +76,15 @@ Debe responder preguntas clave como:
 
 Usaremos la cuenta demo de Google Analytics:
 
-👉 [https://analytics.google.com/analytics/index/demoaccount?appstate=/p213025502](https://analytics.google.com/analytics/index/demoaccount?appstate=/p213025502)
+👉 <https://analytics.google.com/analytics/index/demoaccount?appstate=/p213025502>
 
 Selecciona la propiedad:
 
-> **[GA4] Google Merchandise Store**
-
-
+> **\[GA4\] Google Merchandise Store**
 
 ### 🧩 Prototipo
 
 ::: r-stack
-
 ![](images/actividad/act_011.png){.fragment .fade-in-then-out fig-align="center" width="70%"}
 
 ![](images/actividad/act_012.png){.fragment .fade-in-then-out fig-align="center" width="80%"}
@@ -103,20 +92,18 @@ Selecciona la propiedad:
 ![](images/actividad/act_013.png){.fragment fig-align="center" width="90%"}
 :::
 
-
-
 ### 🛠️ Paso a Paso
 
-1. **Abre Looker Studio**: [https://lookerstudio.google.com](https://lookerstudio.google.com)
-2. **Crea un nuevo informe** y conecta la propiedad
-   **\[GA4] Google Merchandise Store** desde la cuenta demo de Google Analytics.
-3. **Agrega visualizaciones** con las siguientes métricas:
+1.  **Abre Looker Studio**: <https://lookerstudio.google.com>
 
-   * Total de usuarios
-   * Usuarios nuevos
-   * Conversiones
-   * Canales y páginas más relevantes
+2.  **Crea un nuevo informe** y conecta la propiedad **\[GA4\] Google Merchandise Store** desde la cuenta demo de Google Analytics.
 
+3.  **Agrega visualizaciones** con las siguientes métricas:
+
+    -   Total de usuarios
+    -   Usuarios nuevos
+    -   Conversiones
+    -   Canales y páginas más relevantes
 
 ### 📎 Links
 
@@ -124,14 +111,15 @@ Selecciona la propiedad:
 
 ::: {.callout-tip icon="🎯"}
 ### Ejemplo de Dashboard
-[https://lookerstudio.google.com/reporting/7508205d-9aec-4ecd-a1c2-afd775fafabb](https://lookerstudio.google.com/reporting/7508205d-9aec-4ecd-a1c2-afd775fafabb)
+
+<https://lookerstudio.google.com/reporting/7508205d-9aec-4ecd-a1c2-afd775fafabb>
 :::
 
 ::: {.callout-note icon="▶️"}
-### Video explicativo 
-[https://youtu.be/_VxYaOn98-s?si=w_FoL3BZ3sAGRSzr](https://youtu.be/_VxYaOn98-s?si=w_FoL3BZ3sAGRSzr)
-:::
+### Video explicativo
 
+<https://youtu.be/_VxYaOn98-s?si=w_FoL3BZ3sAGRSzr>
+:::
 :::
 
 ------------------------------------------------------------------------
@@ -141,10 +129,10 @@ Selecciona la propiedad:
 <br>
 
 ::: fragment
-- 📊 Looker Studio ayuda a entender datos fácilmente.  
-- 🔗 GA4 entrega información real y útil.  
-- 🎯 Mejora tus decisiones con métricas claras.  
-- 🧰 Aprendes haciendo, con herramientas reales.
+-   📊 Looker Studio ayuda a entender datos fácilmente.\
+-   🔗 GA4 entrega información real y útil.\
+-   🎯 Mejora tus decisiones con métricas claras.\
+-   🧰 Aprendes haciendo, con herramientas reales.
 :::
 
 ------------------------------------------------------------------------

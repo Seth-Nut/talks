@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+
+
+
+
+/* 1) Oculta el bloque de estado */
+#qwebr-status-message-area {
+  display: none !important;
+}
+
+#qpyodide-status-message-area {
+  display: none !important;
+}
+
+/* 2) Colapsa el header cuando solo está ese bloque */
+#title-block-header:has(#qwebr-status-message-area) {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  border: 0 !important;
+  line-height: 0 !important;
+}
+
+
+#title-block-header:has(#qpyodide-status-message-area) {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  border: 0 !important;
+  line-height: 0 !important;
+}
+

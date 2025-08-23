@@ -30,9 +30,9 @@ editor: visual
 # Motivación {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
 ::: r-stack
-![](images/intro1.jpg){.fragment .fade-in-then-out fig-align="center" width="70%"}
+![](images/intro_01.jpg){.fragment .fade-in-then-out fig-align="center" width="75%"}
 
-![](images/intro2.gif){.fragment .fade-in-then-out fig-align="center" width="80%"}
+![](images/intro_022.gif){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
 ![](images/horst-quarto-meteor-transparent.png){.fragment fig-align="center" width="90%"}
 :::
@@ -358,7 +358,7 @@ format:
 
 ## ¿ Qué podemos hacer con Quarto? {transition="zoom"}
 
-::: {.fragment}
+::: fragment
 ![](images/3-teach/many-qmd-to-output.png){width="70%" fig-align="center"}
 :::
 
@@ -430,8 +430,7 @@ sns.scatterplot(data=mpg, x="horsepower", y="mpg")
 plt.show()
 ```
 
----
-
+------------------------------------------------------------------------
 
 ## Ecuaciones en LaTeX
 
@@ -472,8 +471,7 @@ a_{21}& =b_{21}&
 :::
 :::
 
----
-
+------------------------------------------------------------------------
 
 ## Columnas Flexibles
 
@@ -863,7 +861,6 @@ app = App(app_ui, server)
 ::: {.column width="5%"}
 :::
 :::
-
 
 ## Referencias y Recursos {transition="zoom"}
 
