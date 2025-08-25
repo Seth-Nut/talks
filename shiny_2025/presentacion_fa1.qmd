@@ -20,7 +20,7 @@ filters:
 
 ::: columns
 ::: {.column width="40%"}
-![](images/fralfaro.png){fig-align="center"}
+![](images/fralfaro2.png){fig-align="center"}
 :::
 
 ::: {.column width="60%"}
@@ -32,8 +32,6 @@ filters:
 -   Docente/Investigador en UTFSM
 :::
 :::
-
-
 
 ------------------------------------------------------------------------
 
@@ -74,7 +72,6 @@ Nunca revelar el final antes de tiempo.\
 :::
 :::
 
-
 ------------------------------------------------------------------------
 
 ## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
@@ -84,7 +81,6 @@ Nunca revelar el final antes de tiempo.\
 2.  Los detalles son importantes, pero [no **todos** los detalles son importantes.]{style="background-color:black;"}\
 3.  Explicar menos, [Mostrar más]{style="background-color:black;"}
 4.  Tu primera versión será [horrible.]{style="background-color:black;"}\
-
 :::
 
 ::: notes
@@ -137,11 +133,8 @@ Use it well.
 
 ## Ohh, nuestros cerebos son hackables... {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-
 ::: r-stack
 ![](images/storytelling/sketplanation2.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
-
 
 ![](images/storytelling/got.jpg){.fragment fig-align="center" width="100%"}
 :::
@@ -152,10 +145,9 @@ Use it well.
 
 ::: columns
 ::: {.column width="60%"}
-<br><br> 
+<br><br>
 
 Usa **trucos** de Storytelling (narrativa) para crear presentaciones que serán **recordadas** y que causarán **impacto**
-
 :::
 
 ::: {.column .fragment width="40%"}
@@ -175,18 +167,15 @@ Storytelling is your toolkit to move people.\
 Facts inform — emotions inspire action.
 :::
 
-------
-
+------------------------------------------------------------------------
 
 ## Ejemplo: StackOverflow Survey {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 ![](images/storytelling/stack.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
-
 ![](images/storytelling/stack2.png){.fragment fig-align="center" width="90%"}
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -198,9 +187,7 @@ Facts inform — emotions inspire action.
 :::
 
 ::: {.column .center width="40%"}
-<br><br> 
-Cómo hacer millones de personas compartir estadísticas en redes sociales?
-
+<br><br> Cómo hacer millones de personas compartir estadísticas en redes sociales?
 :::
 
 ::: {.column .fragment width="30%" fragment-index="1"}
@@ -213,9 +200,6 @@ Spotify Wrapped = storytelling with data.\
 Not just stats — it’s *your* story.\
 That’s why millions share it every year.
 :::
-
-
-
 
 ------------------------------------------------------------------------
 

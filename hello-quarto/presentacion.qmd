@@ -302,7 +302,7 @@ The plot below shows the relationship between flipper and bill lengths of these 
 :::
 
 ::: {.column width="60%"}
-[HTML: hello.html]{style="font-size: 0.5em; color: gray"}cd
+[HTML: hello.html]{style="font-size: 0.5em; color: gray"}
 
 ```{=html}
 <iframe width=900 height=750 src="images/hello2.png"></iframe>
