@@ -358,8 +358,10 @@ format:
 
 ## ¿ Qué podemos hacer con Quarto? {transition="zoom"}
 
+<br><br>
+
 ::: fragment
-![](images/3-teach/many-qmd-to-output.png){width="70%" fig-align="center"}
+![](images/3-teach/many-lang-qmd-to-output.png){width="90%" fig-align="center"}
 :::
 
 ## Código con Estilo {auto-animate="true"}
@@ -573,9 +575,13 @@ df.head(5)  # primeras 10 filas
 
 ## El poder de las extensiones en Quarto
 
-<br>
 
-![](images/3-teach/many-lang-qmd-to-output.png)
+
+::: fragment
+![](images/3-teach/many-qmd-to-output.svg){width="85%" fig-align="center"}
+:::
+
+
 
 ## Extensiones de Quarto
 
