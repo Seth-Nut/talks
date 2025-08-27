@@ -4144,11 +4144,25 @@
     "text": "Data Storytelling\n¿Por qué Data Storytelling?\n\n\nOK, so, why data storytelling?"
   },
   {
+    "objectID": "shiny_2025/presentacion_fa1.html#qué-es-storytelling",
+    "href": "shiny_2025/presentacion_fa1.html#qué-es-storytelling",
+    "title": "Narrativas con Datos",
+    "section": "Qué es Storytelling?",
+    "text": "Qué es Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana.\n\n\nStories are how humans share knowledge.\nIt’s our oldest learning tool — built for memory, connection, and meaning.\nUse it well."
+  },
+  {
     "objectID": "shiny_2025/presentacion_fa1.html#qué-es-data-storytelling",
     "href": "shiny_2025/presentacion_fa1.html#qué-es-data-storytelling",
     "title": "Narrativas con Datos",
     "section": "Qué es Data Storytelling?",
-    "text": "Qué es Data Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana.\n\n\nStories are how humans share knowledge.\nIt’s our oldest learning tool — built for memory, connection, and meaning.\nUse it well."
+    "text": "Qué es Data Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n📊 Data Storytelling es una forma de comunicar con datos."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_fa1.html#cuarteto-de-anscombe",
+    "href": "shiny_2025/presentacion_fa1.html#cuarteto-de-anscombe",
+    "title": "Narrativas con Datos",
+    "section": "Cuarteto de Anscombe",
+    "text": "Cuarteto de Anscombe\n\n\n\n\n\n\n\n📋 Tablas\n\n \n\n📊 Gráficos"
   },
   {
     "objectID": "shiny_2025/presentacion_fa1.html#ohh-nuestros-cerebos-son-hackables",
@@ -4158,11 +4172,53 @@
     "text": "Ohh, nuestros cerebos son hackables…"
   },
   {
+    "objectID": "shiny_2025/presentacion_fa1.html#atención-y-memoria",
+    "href": "shiny_2025/presentacion_fa1.html#atención-y-memoria",
+    "title": "Narrativas con Datos",
+    "section": "Atención y memoria",
+    "text": "Atención y memoria\n\n\n\n\n¿PIB del país el año pasado?\n¿marcador del último clásico?\n¿número de transistores del primer iPhone?\n\n\n\n\n\n\n\n\n\n\n\n🧠 La gente no recuerda el número exacto, pero sí la historia detrás."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_fa1.html#ejemplos",
+    "href": "shiny_2025/presentacion_fa1.html#ejemplos",
+    "title": "Narrativas con Datos",
+    "section": "Ejemplos",
+    "text": "Ejemplos"
+  },
+  {
     "objectID": "shiny_2025/presentacion_fa1.html#narrativa",
     "href": "shiny_2025/presentacion_fa1.html#narrativa",
     "title": "Narrativas con Datos",
     "section": "Narrativa",
     "text": "Narrativa\n\n\n\nUsa trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n🎭 Emociones inspiran acción\n\n\nGreat ideas need great communication.\nStorytelling is your toolkit to move people.\nFacts inform — emotions inspire action."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_fa1.html#contexto-conflicto-y-resolución",
+    "href": "shiny_2025/presentacion_fa1.html#contexto-conflicto-y-resolución",
+    "title": "Narrativas con Datos",
+    "section": "Contexto, Conflicto y Resolución",
+    "text": "Contexto, Conflicto y Resolución"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_fa1.html#más-que-gráficos-bonitos",
+    "href": "shiny_2025/presentacion_fa1.html#más-que-gráficos-bonitos",
+    "title": "Narrativas con Datos",
+    "section": "Más que gráficos bonitos",
+    "text": "Más que gráficos bonitos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n👁️ Visualizar es parte del proceso, no el proceso completo."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_fa1.html#ejemplos-1",
+    "href": "shiny_2025/presentacion_fa1.html#ejemplos-1",
+    "title": "Narrativas con Datos",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_fa1.html#section-2",
+    "href": "shiny_2025/presentacion_fa1.html#section-2",
+    "title": "Narrativas con Datos",
+    "section": "",
+    "text": "Storytelling principle #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes.\n\n\n\n\n\nDetails guide attention.\nShow less — but better.\nFocus only on what moves the story forward."
   },
   {
     "objectID": "shiny_2025/presentacion_fa1.html#ejemplo-stackoverflow-survey",
@@ -4179,235 +4235,144 @@
     "text": "Ejemplo: Spotify Wrapped\n\n\n\n\n\n\n\n\n Cómo hacer millones de personas compartir estadísticas en redes sociales?\n\n\n\n\n\n\n\n\nSpotify Wrapped = storytelling with data.\nNot just stats — it’s your story.\nThat’s why millions share it every year."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#section-2",
-    "href": "shiny_2025/presentacion_fa1.html#section-2",
-    "title": "Narrativas con Datos",
-    "section": "",
-    "text": "Data Storytelling\nTool #1: Visualization\n\n\nSo, let me tell you about how visualization and storytelling are related."
-  },
-  {
     "objectID": "shiny_2025/presentacion_fa1.html#section-3",
     "href": "shiny_2025/presentacion_fa1.html#section-3",
     "title": "Narrativas con Datos",
     "section": "",
-    "text": "Storytelling principle #2\n\n\nDetails matter, but not all details are important.\n\n\n\n\n\nDetails guide attention.\nShow less — but better.\nFocus only on what moves the story forward."
+    "text": "Data Storytelling\nVisualización y Gráficos\n\n\nSo, let me tell you about how visualization and storytelling are related."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#visualization",
-    "href": "shiny_2025/presentacion_fa1.html#visualization",
+    "objectID": "shiny_2025/presentacion_fa1.html#visualización",
+    "href": "shiny_2025/presentacion_fa1.html#visualización",
     "title": "Narrativas con Datos",
-    "section": "Visualization…",
-    "text": "Visualization…\n\n\n\n\nTurn data into charts to make it easier to understand.\nHighlight patterns and trends clearly."
+    "section": "Visualización …",
+    "text": "Visualización …\n\n\n\n\nConvierte datos en gráficos claros y legibles.\n\nResalta patrones, tendencias y outliers.\n\nElige el gráfico correcto para tu idea.\n\n\n\n\n\n\n\n\n\n\n⌛ Si no se entiende en 5-7 segundos, simplifica o cambia el título."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#examples",
-    "href": "shiny_2025/presentacion_fa1.html#examples",
+    "objectID": "shiny_2025/presentacion_fa1.html#ejemplos-2",
+    "href": "shiny_2025/presentacion_fa1.html#ejemplos-2",
     "title": "Narrativas con Datos",
-    "section": "Examples",
-    "text": "Examples\n\n\n\n\n\n\n\n ❌ Bad Chart\n\n\n\n\n\n\n✅ Good Chart"
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#anscombes-quartet",
-    "href": "shiny_2025/presentacion_fa1.html#anscombes-quartet",
-    "title": "Narrativas con Datos",
-    "section": "ANSCOMBE’s Quartet",
-    "text": "ANSCOMBE’s Quartet\n\n\n\n\n\n\n\n📋 Tables\n\n \n\n📊 Charts"
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#pillars-of-visualization---noah-iliinsky",
-    "href": "shiny_2025/presentacion_fa1.html#pillars-of-visualization---noah-iliinsky",
-    "title": "Narrativas con Datos",
-    "section": "4 Pillars of Visualization - Noah Iliinsky",
-    "text": "4 Pillars of Visualization - Noah Iliinsky\n\n\n\n\nPurpose: Define the goal.\n\nContent: Relevant data.\n\nStructure: Clear organization.\n\nFormat: Appropriate chart type.\n\n\n\n\n\n\n\n\n\n\n(C) Noah Iliinsky: “Four Pillars of Visualization” - YouTube."
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#best-charts-for-your-data",
-    "href": "shiny_2025/presentacion_fa1.html#best-charts-for-your-data",
-    "title": "Narrativas con Datos",
-    "section": "Best Charts for your Data",
-    "text": "Best Charts for your Data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C) Essential chart types for data visualization, by Atlassian.\n\nYou don’t need fancy charts.\nBar, scatter, box, heatmap, big text — that’s 90% of data storytelling.\nSimple wins."
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#section-4",
-    "href": "shiny_2025/presentacion_fa1.html#section-4",
-    "title": "Narrativas con Datos",
-    "section": "",
-    "text": "Data Storytelling\nTool #2: AI\n\n\nAI won’t tell your story for you.\nBut it will help you tell it better — faster, clearer, and more creative."
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#examples-1",
-    "href": "shiny_2025/presentacion_fa1.html#examples-1",
-    "title": "Narrativas con Datos",
-    "section": "Examples",
-    "text": "Examples\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🥱 1° version \\(&lt;\\) … \\(&lt;\\) 😊 last version\n\n\nFirst versions are never perfect.\nDraft → feedback → improve.\nStorytelling is an iterative process."
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n\n ❌ Chartjunk\n\n\n\n\n\n\n✅ Good Chart"
   },
   {
     "objectID": "shiny_2025/presentacion_fa1.html#section-5",
     "href": "shiny_2025/presentacion_fa1.html#section-5",
     "title": "Narrativas con Datos",
     "section": "",
-    "text": "Storytelling principle #3\n\n\nYour first draft will always be horrible.\n\n\n\n\n\nBad first drafts are normal.\nDon’t aim for perfect — aim to start.\nRefining comes later."
+    "text": "Storytelling principle #3\n\n\nExplicar Menos, Mostrar Más"
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#from-ideas-to-impact-faster-with-ai",
-    "href": "shiny_2025/presentacion_fa1.html#from-ideas-to-impact-faster-with-ai",
+    "objectID": "shiny_2025/presentacion_fa1.html#mejores-gráficos-para-tus-datos",
+    "href": "shiny_2025/presentacion_fa1.html#mejores-gráficos-para-tus-datos",
     "title": "Narrativas con Datos",
-    "section": "From Ideas to Impact… Faster with AI",
-    "text": "From Ideas to Impact… Faster with AI\n\n\n\n\nFaster structure, less effort\n\nClearer stories, better impact\n\nVisuals in seconds\n\nMore time for creativity\n\n\n\n\n\n\n\n\n\nFirst drafts are messy — that’s normal.\nAI helps you go from idea → clarity → impact much faster.\nLess time stuck, more time creating."
+    "section": "Mejores Gráficos para tus Datos",
+    "text": "Mejores Gráficos para tus Datos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C) Essential chart types for data visualization, by Atlassian.\n\nYou don’t need fancy charts.\nBar, scatter, box, heatmap, big text — that’s 90% of data storytelling.\nSimple wins."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#unlocking-creativity-with-ai-tools",
-    "href": "shiny_2025/presentacion_fa1.html#unlocking-creativity-with-ai-tools",
+    "objectID": "shiny_2025/presentacion_fa1.html#gramática-de-gráficos",
+    "href": "shiny_2025/presentacion_fa1.html#gramática-de-gráficos",
     "title": "Narrativas con Datos",
-    "section": "💡Unlocking Creativity with AI Tools",
-    "text": "💡Unlocking Creativity with AI Tools\n\n\n\n\nChatGPT (OpenAI)\nGemini (Google DeepMind)\nNapkin AI\nMidjourney\nBolt\n\n\n\n\n\nAI tools = creative shortcuts.\nThey help you write, visualize, and explore ideas faster.\nUse them as assistants — not replacements."
+    "section": "Gramática de Gráficos",
+    "text": "Gramática de Gráficos"
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#section-6",
-    "href": "shiny_2025/presentacion_fa1.html#section-6",
+    "objectID": "shiny_2025/presentacion_fa1.html#gráfico-de-barras",
+    "href": "shiny_2025/presentacion_fa1.html#gráfico-de-barras",
     "title": "Narrativas con Datos",
-    "section": "",
-    "text": "Data Storytelling\nTool #3: Presentation\n\n\nYour story needs a stage.\nPresentation tools shape how people feel your message.\nDesign it with care — it’s part of the story."
+    "section": "Gráfico de Barras",
+    "text": "Gráfico de Barras\n\n\n\n\nIdeal para comparaciones categóricas.\n\nClaro y directo: quién tiene más o menos.\n\nOrdena de mayor a menor para mejor lectura.\n\n\n\n\n\n\n\n\n\n\n📌 Úsalo cuando quieras comparar categorías entre sí."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#examples-2",
-    "href": "shiny_2025/presentacion_fa1.html#examples-2",
+    "objectID": "shiny_2025/presentacion_fa1.html#gráfico-de-dispersión",
+    "href": "shiny_2025/presentacion_fa1.html#gráfico-de-dispersión",
     "title": "Narrativas con Datos",
-    "section": "Examples",
-    "text": "Examples\n\nCodePlot\n\n\nLet’s see how much code we need to say something as simple as:\n“Do you like this presentation?”\nIt may seem like a small question, but turning that into code requires defining categories, assigning values, choosing colors, and setting plot parameters.\nAnd that’s just to get a basic bar chart.\nimport matplotlib.pyplot as plt\ncategories = [\"Yes\", \"No\"]\nvalues = [75, 25]\ncolors = [\"lightblue\", \"salmon\"]\nplt.figure(figsize=(6, 4))\nplt.subplots_adjust(bottom=0.25, left=0.2)\nplt.bar(categories, values, color=colors)\nplt.title(\"😊 Do you like the presentation so far? 😊\", fontsize=12)\nplt.show()"
+    "section": "Gráfico de Dispersión",
+    "text": "Gráfico de Dispersión\n\n\n\n\nRelación entre dos variables numéricas.\n\nDetecta patrones, correlaciones o outliers.\n\nAgregar línea de tendencia ayuda a interpretar."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#section-7",
-    "href": "shiny_2025/presentacion_fa1.html#section-7",
+    "objectID": "shiny_2025/presentacion_fa1.html#úsalo-cuando-quieras-mostrar-relaciones-entre-variables.",
+    "href": "shiny_2025/presentacion_fa1.html#úsalo-cuando-quieras-mostrar-relaciones-entre-variables.",
     "title": "Narrativas con Datos",
-    "section": "",
-    "text": "Storytelling principle #4\n\n\nExplain less, show more.\n\n\n\n\n\nSometimes we write too much…\nWhen a simple image or chart says it all — faster and clearer.\nRemember: Show, don’t tell."
+    "section": "> 📌 Úsalo cuando quieras mostrar relaciones entre variables.",
+    "text": "&gt; 📌 Úsalo cuando quieras mostrar relaciones entre variables."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#presentation-tools",
-    "href": "shiny_2025/presentacion_fa1.html#presentation-tools",
+    "objectID": "shiny_2025/presentacion_fa1.html#gráfico-de-líneas",
+    "href": "shiny_2025/presentacion_fa1.html#gráfico-de-líneas",
     "title": "Narrativas con Datos",
-    "section": "Presentation Tools",
-    "text": "Presentation Tools\n\n\n\n\nClassic: PowerPoint\n\n“Show, don’t tell”:\n\nQuarto\n\nStreamlit\n\n\nBusiness Intelligence (BI):\n\nPower BI, Tableau\n\nLooker Studio\n\n\nOthers: Canva, Reveal.js, Prezi"
+    "section": "Gráfico de Líneas",
+    "text": "Gráfico de Líneas\n\n\n\n\nMuestra tendencias en el tiempo.\n\nEvita usar demasiadas líneas juntas.\nÚtil para ver aumentos, caídas y estacionalidad."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#classic-presentation-tools",
-    "href": "shiny_2025/presentacion_fa1.html#classic-presentation-tools",
+    "objectID": "shiny_2025/presentacion_fa1.html#úsalo-para-mostrar-evolución-temporal.",
+    "href": "shiny_2025/presentacion_fa1.html#úsalo-para-mostrar-evolución-temporal.",
     "title": "Narrativas con Datos",
-    "section": "Classic Presentation Tools",
-    "text": "Classic Presentation Tools\n\n\n\n\nMain tools:\n\nPowerPoint\n\nGoogle Slides\n\n\nStrengths:\n\nEasy to use\n\nWidely supported\n\nGreat for static content"
+    "section": "> 📌 Úsalo para mostrar evolución temporal.",
+    "text": "&gt; 📌 Úsalo para mostrar evolución temporal."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#classic-presentation-tools-1",
-    "href": "shiny_2025/presentacion_fa1.html#classic-presentation-tools-1",
+    "objectID": "shiny_2025/presentacion_fa1.html#heatmap-mapa-de-calor",
+    "href": "shiny_2025/presentacion_fa1.html#heatmap-mapa-de-calor",
     "title": "Narrativas con Datos",
-    "section": "Classic Presentation Tools",
-    "text": "Classic Presentation Tools"
+    "section": "Heatmap (Mapa de Calor)",
+    "text": "Heatmap (Mapa de Calor)\n\n\n\n\nColores = intensidad de valores.\nÚtil para ver patrones y áreas clave.\nPaleta clara y accesible.\n\n\n\n\n\n\n\n\n\n\n📌 Úsalo para resaltar patrones en tablas de datos o correlaciones."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#business-intelligence-tools",
-    "href": "shiny_2025/presentacion_fa1.html#business-intelligence-tools",
+    "objectID": "shiny_2025/presentacion_fa1.html#otros-gráficos",
+    "href": "shiny_2025/presentacion_fa1.html#otros-gráficos",
     "title": "Narrativas con Datos",
-    "section": "Business Intelligence Tools",
-    "text": "Business Intelligence Tools\n\n\n\n\nTop tools:\n\nPower BI,Tableau\n\nLooker Studio\n\n\nStrengths:\n\nInteractive dashboards\n\nData connectivity\n\nReal-time insights"
+    "section": "Otros Gráficos",
+    "text": "Otros Gráficos\n\n\n\n\nTreemap: proporciones en jerarquías.\nSankey: flujos o transiciones.\nWaffle: porcentajes.\nViolin: distribución y densidad.\nWord cloud: palabras frecuentes.\n\n\n\n\n\n\n\n\n\n\n📌 Úsalos en casos especiales, cuando un gráfico simple no alcanza."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#business-intelligence-tools-1",
-    "href": "shiny_2025/presentacion_fa1.html#business-intelligence-tools-1",
-    "title": "Narrativas con Datos",
-    "section": "Business Intelligence Tools",
-    "text": "Business Intelligence Tools"
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#quarto-extensions",
-    "href": "shiny_2025/presentacion_fa1.html#quarto-extensions",
-    "title": "Narrativas con Datos",
-    "section": "📝 Quarto (+ Extensions)",
-    "text": "📝 Quarto (+ Extensions)\n\n\n\nQuarto is an open system for scientific publications with markdown and interactive code (Python/R).\n\n\n🔧 Need more power? Use Extensions\n\n\n\n\n\nQuarto makes it easy to write, code, and share.\nClean documents by default — more powerful with extensions.\nOne tool for writing, coding, and presenting."
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#section-8",
-    "href": "shiny_2025/presentacion_fa1.html#section-8",
+    "objectID": "shiny_2025/presentacion_fa1.html#section-11",
+    "href": "shiny_2025/presentacion_fa1.html#section-11",
     "title": "Narrativas con Datos",
     "section": "",
-    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html\n\n\n\nWrite once in Quarto — export everywhere.\nSame file, clean code, beautiful slides.\nFocus on content, let Quarto handle the rest."
+    "text": "Data Storytelling\nInteligencia Artificial + Data Storytelling\n\n\nAI won’t tell your story for you.\nBut it will help you tell it better — faster, clearer, and more creative."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa1.html#quarto-webr-pyodide",
-    "href": "shiny_2025/presentacion_fa1.html#quarto-webr-pyodide",
-    "title": "Narrativas con Datos",
-    "section": "🌐 Quarto WebR + Pyodide",
-    "text": "🌐 Quarto WebR + Pyodide\n\n\n\n\nWebR: Run R code in the browser, no installation required.\n# To install WebR in your environment\nremotes::install_github(\"attiyap/WebR\")\nPyodide: Same, but for Python.\n# To install Pyodide\npip install pyodide\n\n\n\n\n\nWebR and Pyodide run code directly in the browser.\nNo setup, no installs — just share and run.\nPerfect for teaching, demos, and interactive content."
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#example",
-    "href": "shiny_2025/presentacion_fa1.html#example",
-    "title": "Narrativas con Datos",
-    "section": "Example",
-    "text": "Example\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#streamlit",
-    "href": "shiny_2025/presentacion_fa1.html#streamlit",
-    "title": "Narrativas con Datos",
-    "section": "Streamlit",
-    "text": "Streamlit\n\n\n\nStreamlit is a Python library that allows you to easily create interactive web applications using only Python code.\n\n\n\n\nStreamlit lets you turn Python scripts into interactive apps.\nGreat for dashboards, machine learning demos, and data exploration.\nNo HTML, CSS or JS needed."
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#streamlit-1",
-    "href": "shiny_2025/presentacion_fa1.html#streamlit-1",
-    "title": "Narrativas con Datos",
-    "section": "Streamlit",
-    "text": "Streamlit\n\n\nShiny apps let people interact with your data.\nChange inputs — see results instantly.\nPerfect for exploring and communicating insights."
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#streamlit-cloud",
-    "href": "shiny_2025/presentacion_fa1.html#streamlit-cloud",
-    "title": "Narrativas con Datos",
-    "section": "☁️ Streamlit Cloud",
-    "text": "☁️ Streamlit Cloud\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLearn more at: 👉 streamlit.io/cloud"
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#quarto-streamlit",
-    "href": "shiny_2025/presentacion_fa1.html#quarto-streamlit",
-    "title": "Narrativas con Datos",
-    "section": "🌐 Quarto + Streamlit",
-    "text": "🌐 Quarto + Streamlit\n\n\n\n\nDeploy to Streamlit Cloud with one click.\nSeamlessly embed your app in a Quarto presentation or website.\nPerfect for live demos and data storytelling.\n\n\n\n\n\n\nStay in your presentation.\nStay in the flow. 🎯\n\n\nShinylive runs Shiny apps fully in the browser.\nNo servers, no install — just share and interact.\nGreat for live demos without breaking the flow."
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#example-1",
-    "href": "shiny_2025/presentacion_fa1.html#example-1",
-    "title": "Narrativas con Datos",
-    "section": "Example",
-    "text": "Example"
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#html-webapps",
-    "href": "shiny_2025/presentacion_fa1.html#html-webapps",
-    "title": "Narrativas con Datos",
-    "section": "HTML & webapps",
-    "text": "HTML & webapps\n\n\n🛠️ Choose a tool\n\n💡 Innovation stands out"
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#useful-links",
-    "href": "shiny_2025/presentacion_fa1.html#useful-links",
-    "title": "Narrativas con Datos",
-    "section": "🔗 Useful Links",
-    "text": "🔗 Useful Links\n\n\n\n\n🎥 YouTube Videos:\n\nReproducible Data Science: WebR + Shinylive\nStreamlit 101 - A faster way to build\nLooker Studio Tutorial - Create Your First Report\n\n📖 More:\n\nPyodide Documentation\nStreamlit Documentation\nLooker Studio Documentation\n\n\n\n \n\n\nIf you want to go deeper — here are great resources.\nVideos, docs, and examples to explore WebR and Shinylive on your own.\nLearn by doing!"
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa1.html#section-9",
-    "href": "shiny_2025/presentacion_fa1.html#section-9",
+    "objectID": "shiny_2025/presentacion_fa1.html#section-12",
+    "href": "shiny_2025/presentacion_fa1.html#section-12",
     "title": "Narrativas con Datos",
     "section": "",
-    "text": "Storytelling\nConclusion"
+    "text": "🥱 1° version \\(&lt;\\) … \\(&lt;\\) 😊 última version\n\n\nFirst versions are never perfect.\nDraft → feedback → improve.\nStorytelling is an iterative process."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_fa1.html#section-13",
+    "href": "shiny_2025/presentacion_fa1.html#section-13",
+    "title": "Narrativas con Datos",
+    "section": "",
+    "text": "Storytelling principle #4\n\n\nTu primera versión será siempre horrible.\n\n\n\n\n\nBad first drafts are normal.\nDon’t aim for perfect — aim to start.\nRefining comes later."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_fa1.html#de-las-ideas-al-impacto-con-ia",
+    "href": "shiny_2025/presentacion_fa1.html#de-las-ideas-al-impacto-con-ia",
+    "title": "Narrativas con Datos",
+    "section": "De las Ideas al Impacto … con IA",
+    "text": "De las Ideas al Impacto … con IA\n\n\n\n\nEstructura más rápida, menos esfuerzo\n\nHistorias más claras, mayor impacto\n\nVisuales en segundos\n\nMás tiempo para la creatividad\n\n\n\n\n\n\n\n\n\n\n🤖 tools: ChatGPT, Gemini, Napkin AI, Midjourney, Bolt\n\n\nFirst drafts are messy — that’s normal.\nAI helps you go from idea → clarity → impact much faster.\nLess time stuck, more time creating."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_fa1.html#flujo-de-trabajo",
+    "href": "shiny_2025/presentacion_fa1.html#flujo-de-trabajo",
+    "title": "Narrativas con Datos",
+    "section": "Flujo de Trabajo",
+    "text": "Flujo de Trabajo\n\n\n✍️ Idea → escribe 1 frase-insight (máx. 12 palabras).\n\n🧱 Estructura → Contexto–Conflicto–Resolución en 3 bullets.\n\n📈 Gráfico → elige el tipo más claro (barra/línea/puntos).\n\n🤖 IA → pide 3 títulos alternativos y 2 mejoras del gráfico.\n\n🔁 Feedback → elimina algo y ajusta el título.\n\n\n\nTiempo acotado obliga a priorizar. Pide compartir 1 ejemplo en voz alta."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_fa1.html#section-15",
+    "href": "shiny_2025/presentacion_fa1.html#section-15",
+    "title": "Narrativas con Datos",
+    "section": "",
+    "text": "Storytelling\nConclusiones"
   },
   {
     "objectID": "shiny_2025/presentacion_fa1.html#agenda-v2-1",
     "href": "shiny_2025/presentacion_fa1.html#agenda-v2-1",
     "title": "Narrativas con Datos",
     "section": "Agenda (v2)",
-    "text": "Agenda (v2)\n\nNever reveal the ending\n\nDetails are important, but not all details are important\n\nYour first draft will be horrible\n\nExplain less, show more\n\n\nA mysterious agenda — like a good story.\nNow you’ve seen how each point connects.\nSimple rules to tell better stories with data."
+    "text": "Agenda (v2)\n\nNunca reveles el final\n\nLos detalles son importantes, pero no todos los detalles\n\nExplica menos, muestra más\n\nTu primer borrador será horrible\n\n\n\nA mysterious agenda — like a good story.\nNow you’ve seen how each point connects.\nSimple rules to tell better stories with data."
   },
   {
     "objectID": "shiny_2025/presentacion_fa1.html#thank-you-for-participating",
