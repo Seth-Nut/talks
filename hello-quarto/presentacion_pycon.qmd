@@ -9,7 +9,7 @@ format:
     fontcolor: "#262d36"
     highlight-style: a11y
     code-line-numbers: false
-    logo: images/usm.png
+    logo: images/pc.png
 filters:
   - quarto-ext/shinylive
 revealjs-plugins:
@@ -236,7 +236,7 @@ website:
 -   **Verificación:**
     -   Ejecutar `quarto check` en la terminal
 -   **Editores recomendados:**
-    -   [RStudio](https://posit.co/download/rstudio/) , [VSCode + Quarto Extension](https://marketplace.visualstudio.com/items?itemName=quarto.quarto)
+    -   [Jupyter Notebook](https://jupyter.org/install) , [VSCode + Quarto Extension](https://marketplace.visualstudio.com/items?itemName=quarto.quarto)
 :::
 :::
 
@@ -256,7 +256,7 @@ website:
 ::: columns
 ::: {.column width="45%"}
 ::: borderbox
-![](images/2-collaborate/tools-rstudio-ide.png){fig-alt="Screenshot of RStudio IDE" width="100%"}
+![](images/2-collaborate/tools-jupyterhub.png){fig-alt="Screenshot of RStudio IDE" width="100%"}
 :::
 :::
 
@@ -274,41 +274,7 @@ website:
 🌐 Asegúrate de tener instalado [R](https://cran.r-project.org/) ([RStudio](https://posit.co/download/rstudio-desktop/)) y/o [Python](https://www.python.org/) ([Jupyter](https://jupyter.org/))
 :::
 
-##  {.takeaway .center}
 
-::: columns
-::: {.column width="40%"}
-[Código: hello.qmd]{style="font-size: 0.5em; color: gray"}
-
-```         
----
-title: "Hello, Quarto"
-format: html
-editor: visual
----
-
-## Meet Quarto
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-## Meet the penguins
-
-![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png){style="float:right;" fig-alt="Illustration of three species of Palmer Archipelago penguins: Chinstrap, Gentoo, and Adelie. Artwork by @allison_horst." width="401"}
-
-The `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins "palmerpenguins R package") package contains size measurements for `{r} nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.
-
-The plot below shows the relationship between flipper and bill lengths of these penguins.
-```
-:::
-
-::: {.column width="60%"}
-[HTML: hello.html]{style="font-size: 0.5em; color: gray"}
-
-```{=html}
-<iframe width=900 height=750 src="images/hello2.png"></iframe>
-```
-:::
-:::
 
 ##  {.takeaway .center}
 
@@ -589,7 +555,7 @@ Las **extensiones** de Quarto permiten añadir nuevas características y potenci
 
 <br>
 
-> 🔧Necesitas más poder? Usa [Extensions](https://quarto.org/docs/extensions/)
+> 🔧 Necesitas más poder? Usa [Extensions](https://quarto.org/docs/extensions/)
 :::
 
 ::: {.column width="40%"}
@@ -654,7 +620,8 @@ La extensión **Quarto Quiz** permite crear preguntas directamente en tus presen
 :::
 
 ::: {.column width="40%"}
-![](images/webr.png)
+<br>
+![](images/pyodide.png)
 :::
 :::
 
@@ -940,13 +907,13 @@ Olimpiada Matemática, Verano Matemático, EMMA y más!
 
 ❓¿Preguntas?
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSfZFRSlQ-uKpao44w0ODL6Tqvh8yZV_BZyfmVV6DOMINvGHwQ/viewform?usp=sharing&ouid=101387375267916178365)
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSdDGQbMq5AW4d865lobGviPDZG5QizpCCTUghAP9bNJ0sjGoQ/viewform?usp=dialog)
 
 🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr-quarto.png){width="400"}
+![](images/qr-pycon.png){width="400"}
 :::
 :::
 
