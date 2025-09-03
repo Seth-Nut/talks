@@ -7,7 +7,7 @@ date: 04 sep 2025
 format: 
   revealjs:
     theme: style.scss
-    transition: slide
+    transition: fade
     title-slide-attributes: 
       data-background-image: images/background.jpg
     logo: images/fe.png
@@ -253,7 +253,7 @@ Facts inform — emotions inspire action.
 
 ## Los 4 pilares del Storytelling {background-image="images/background.jpg" background-opacity="0.25" }
 
-<br>
+<br><br>
 
 ::: { .fragment align="center"}
 ![](images/storytelling/4i4.png){width="100%" fig-align="center"}
@@ -271,6 +271,43 @@ Facts inform — emotions inspire action.
 ![](images/storytelling/ccr_04.png){.fragment fig-align="center" width="85%"}
 :::
 
+
+----------------------------------------------
+
+### 🎭 Actividad: Construyendo una narrativa  {background-image="images/background.jpg" background-opacity="0.2"}
+
+::: panel-tabset
+### Dataset
+| Mes        | Ventas (M$) | Reclamos | Seguidores en RRSS |
+|------------|-------------|----------|---------------------|
+| Ene 2024   | 100         | 15       | 1000                |
+| Feb 2024   | 110         | 18       | 1200                |
+| Mar 2024   | 120         | 20       | 1400                |
+| Abr 2024   | 125         | 25       | 1600                |
+| May 2024   | 90          | 35       | 1700                |
+| Jun 2024   | 80          | 40       | 1900                |
+| Jul 2024   | 85          | 38       | 2100                |
+| Ago 2024   | 95          | 30       | 2500                |
+
+
+### Instrucción
+
+<br>
+
+1. Formen grupos  
+2. Revisen el dataset  
+3. Escriban **3 frases**: Contexto → Conflicto → Resolución  
+4. Tiempo: 10 min  
+5. Presentación: 1 min por grupo  
+
+### Ejemplo (Ventas)
+
+<br>
+
+- **Contexto:** “En el primer trimestre, las ventas crecieron un 25% respecto a enero.”  
+- **Conflicto:** “Sin embargo, desde mayo vemos una caída sostenida, llegando a un mínimo de 80M en junio.”  
+- **Resolución:** “Necesitamos revisar nuestra estrategia comercial para recuperar el nivel de ventas.”  
+:::
 
 
 
@@ -339,7 +376,7 @@ Focus only on what moves the story forward.
 
 ------------------------------------------------------------------------
 
-## Ejemplo: Spotify Wrapped {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+## Ejemplo: Spotify Wrapped {background-image="images/background.jpg" background-opacity="0.25" }
 
 ::: columns
 ::: {.column .fragment width="30%" fragment-index="1"}
@@ -358,8 +395,33 @@ Focus only on what moves the story forward.
 
 ------------------------------------------------------------------------
 
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
-##  {background-image="images/continue.webp" }
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Conclusiones]{style="font-size: 2.5em"}
+:::
+
+
+-------------
+
+## 📝 Conclusiones {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+<br>
+
+:::{.incremental}
+- Contexto → Conflicto → Resolución  
+- Selecciona lo esencial  
+- Visualiza para contar, no adornar   
+- Los datos sin narrativa se olvidan  
+- Diferentes enfoques generan distintas historias  
+- La práctica es clave para mejorar  
+:::
+
+-------------
+
+##  {background-image="images/continue.webp" data-state="no-logo" }
 
 
 
@@ -396,6 +458,10 @@ Focus only on what moves the story forward.
 
 .reveal .slide-logo {
    max-height: 1.5em !important;
+}
+
+.no-logo .slide-logo {
+  display: none !important;
 }
 
 

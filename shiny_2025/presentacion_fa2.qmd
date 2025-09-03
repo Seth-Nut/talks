@@ -7,82 +7,57 @@ date: 09 sep 2025
 format: 
   revealjs:
     theme: style.scss
-    transition: slide
+    transition: fade
     title-slide-attributes: 
       data-background-image: images/background.jpg
     logo: images/fe.png
-filters:
-  - quarto-ext/shinylive
+revealjs-plugins:
+  - quiz
+editor: visual
 ---
 
-## About me {background-image="images/background.jpg" background-opacity="0.25"}
+## 🎓 About me {background-image="images/background.jpg" background-opacity="0.25" .quiz-question}
 
-::: columns
-::: {.column width="40%"}
-![](images/fralfaro2.png){fig-align="center"}
-:::
-
-::: {.column width="60%"}
 <br>
 
--   Francisco Alfaro Medina aka *fralfaro*
--   Miembro Python Chile, TechSchool
--   Lead Data Scientist en Grupo Security\
--   Docente/Investigador en UTFSM
-:::
-:::
+¿Cómo se llama el profesor?
+
+
+- Fernando Alvarado 
+- [Francisco Alfaro]{.correct}
+- Alfredo Fernández 
+- Alfonso Ramírez 
 
 ------------------------------------------------------------------------
 
-## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
+## 1️⃣ Principios de Storytelling {background-image="images/background.jpg" background-opacity="0.25" .quiz-question}
 
-::: columns
-::: {.column .incremental width="30%"}
--   
+<br>
 
--   No
+¿Cuál es el primer principio del Storytelling?
 
--   Nope
+- Mostrar todo en la primera slide 
+- Hacer que los números hablen  
+- [Nunca revelar el final antes de tiempo]{.correct} 
+- Guiar al público con un hilo narrativo 
 
--   No chance
-:::
 
-::: {.column .fragment width="70%"}
-<img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"/>
-:::
-:::
 
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Storytelling principle #1
+## 2️⃣ Principios de Storytelling {background-image="images/background.jpg" background-opacity="0.25" .quiz-question}
 
-Nunca revelar el final antes de tiempo.\
-[Siempre eleva la tensión y el drama]{.fragment}
-:::
-:::
+<br>
 
-------------------------------------------------------------------------
+¿Cuál es el segundo principio del Storytelling?
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Storytelling principle #2
-
-Los detalles son importantes, [pero no **todos** los detalles son importantes.]{.fragment}
-:::
-:::
-
-::: notes
-Details guide attention.\
-Show less — but better.\
-Focus only on what moves the story forward.
-:::
+ 
+- Incluir la mayor cantidad de información posible
+- Mostrar todos los datos con el mismo nivel de detalle
+- [Los detalles son importantes, pero no todos los detalles]{.correct}
+- Presentar únicamente conclusiones sin explicar el contexto
 
 ------------------------------------------------------------------------
 
@@ -368,6 +343,47 @@ Simple wins.
 
 </iframe>
 
+-----------------------------
+
+
+### 📊 Actividad: Visualiza tu narrativa {background-image="images/background.jpg" background-opacity="0.2"}
+
+::: panel-tabset
+### Dataset
+
+<br><br>
+
+| Región      | Ventas 2023 (M)  | Ventas 2024 (M) | Reclamos 2024 |
+|-------------|------------------|------------------|---------------|
+| Norte       | 120              | 140              | 45            |
+| Centro      | 200              | 150              | 70            |
+| Sur         | 90               | 110              | 30            |
+
+
+
+### Instrucción
+
+<br>
+
+1. Formen grupos  
+2. Elijan **un gráfico** para contar la historia 
+3. Escriban **3 frases**: Contexto → Conflicto → Resolución  
+4. Integren la visualización en el pitch  
+5. Tiempo: 15 min  
+6. Presentación: 2 min por grupo  
+
+
+### Ejemplo
+
+<br>
+
+- **Contexto:** “La zona Centro lideraba en ventas en 2023 con 200M.”  
+- **Conflicto:** “Pero en 2024 cayó un 25%, mientras el Norte creció un 17%.”  
+- **Resolución:** “Necesitamos investigar la caída en Centro y reforzar estrategias en esa región.”  
+
+💡 *Sugerencia: gráfico de barras comparando 2023 vs 2024 por región*  
+:::
+
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
@@ -375,7 +391,7 @@ Simple wins.
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [Data Storytelling]{style="font-size: 1em"}
 
-[Inteligencia Artificial  + Data Storytelling]{style="font-size: 1em"}
+[Inteligencia Artificial  + Data Storytelling]{style="font-size: 1.5em"}
 :::
 
 ::: notes
@@ -479,20 +495,29 @@ Less time stuck, more time creating.
 
 ------------------------------------------------------------------------
 
-## Flujo de Trabajo {background-image="images/background.jpg" background-opacity="0.25"}
+## 🤖 Caso de Estudio {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.callout-note title="Problemática"}
+Tienes un dataset de ventas por región y trimestre y debes presentar un pitch rápido a gerencia. El reto es identificar la historia clave y convertir los datos en un mensaje claro, visual y accionable en poco tiempo.
+:::
+
+
+::: columns
+::: {.column .fragment width="65%"}
 
 <br>
 
-::: incremental
-1. ✍️ **Idea** → escribe 1 frase-insight (máx. 12 palabras).  
-2. 🧱 **Estructura** → *Contexto–Conflicto–Resolución* en 3 bullets.  
-3. 📈 **Gráfico** → elige el tipo más claro (barra/línea/puntos).  
-4. 🤖 **IA** → pide 3 títulos alternativos y 2 mejoras del gráfico.  
-5. 🔁 **Feedback** → elimina algo y ajusta el título.  
+- **ChatGPT / Gemini** → genera un guion narrativo.  
+- **Napkin AI** → propone visualizaciones efectivas.  
+- **Midjourney** → crea una imagen de portada.  
+- **Bolt** → crea aplicativo (powerbi, python ,etc.).  
+
+
 :::
 
-::: notes
-Tiempo acotado obliga a priorizar. Pide compartir 1 ejemplo en voz alta.
+::: {.column width="35%"}
+![](https://static.vecteezy.com/system/resources/previews/020/687/909/non_2x/mix-icon-for-problem-dilemma-complication-trouble-issue-obstacle-depression-mental-antidepressant-logo-symbol-shape-sign-logotype-icon-illustration-vector.jpg){fig-align="center"}
+:::
 :::
 
 
@@ -503,7 +528,7 @@ Tiempo acotado obliga a priorizar. Pide compartir 1 ejemplo en voz alta.
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Storytelling]{style="font-size: 1em"}
+[Data Storytelling]{style="font-size: 1em"}
 
 [Conclusiones]{style="font-size: 1.5em"}
 :::
