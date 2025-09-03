@@ -878,29 +878,22 @@
     "objectID": "shiny_2025/presentacion_fa2.html#about-me",
     "href": "shiny_2025/presentacion_fa2.html#about-me",
     "title": "Narrativas con Datos",
-    "section": "About me",
-    "text": "About me\n\n\n\n\n\n\n\n\n\n\nFrancisco Alfaro Medina aka fralfaro\nMiembro Python Chile, TechSchool\nLead Data Scientist en Grupo Security\n\nDocente/Investigador en UTFSM"
+    "section": "🎓 About me",
+    "text": "🎓 About me\n\n¿Cómo se llama el profesor?\n\nFernando Alvarado\nFrancisco Alfaro\nAlfredo Fernández\nAlfonso Ramírez"
   },
   {
-    "objectID": "shiny_2025/presentacion_fa2.html#agenda",
-    "href": "shiny_2025/presentacion_fa2.html#agenda",
+    "objectID": "shiny_2025/presentacion_fa2.html#principios-de-storytelling",
+    "href": "shiny_2025/presentacion_fa2.html#principios-de-storytelling",
     "title": "Narrativas con Datos",
-    "section": "Agenda",
-    "text": "Agenda\n\n\n\n\nNo\nNope\nNo chance"
+    "section": "1️⃣ Principios de Storytelling",
+    "text": "1️⃣ Principios de Storytelling\n\n¿Cuál es el primer principio del Storytelling?\n\nMostrar todo en la primera slide\nHacer que los números hablen\n\nNunca revelar el final antes de tiempo\nGuiar al público con un hilo narrativo"
   },
   {
-    "objectID": "shiny_2025/presentacion_fa2.html#section",
-    "href": "shiny_2025/presentacion_fa2.html#section",
+    "objectID": "shiny_2025/presentacion_fa2.html#principios-de-storytelling-1",
+    "href": "shiny_2025/presentacion_fa2.html#principios-de-storytelling-1",
     "title": "Narrativas con Datos",
-    "section": "",
-    "text": "Storytelling principle #1\n\n\nNunca revelar el final antes de tiempo.\nSiempre eleva la tensión y el drama"
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa2.html#section-1",
-    "href": "shiny_2025/presentacion_fa2.html#section-1",
-    "title": "Narrativas con Datos",
-    "section": "",
-    "text": "Storytelling principle #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes.\n\n\n\n\n\nDetails guide attention.\nShow less — but better.\nFocus only on what moves the story forward."
+    "section": "2️⃣ Principios de Storytelling",
+    "text": "2️⃣ Principios de Storytelling\n\n¿Cuál es el segundo principio del Storytelling?\n\nIncluir la mayor cantidad de información posible\nMostrar todos los datos con el mismo nivel de detalle\nLos detalles son importantes, pero no todos los detalles\nPresentar únicamente conclusiones sin explicar el contexto"
   },
   {
     "objectID": "shiny_2025/presentacion_fa2.html#agenda-v2",
@@ -910,8 +903,8 @@
     "text": "Agenda (v2)\n\nNunca reveles el final\n\nLos detalles son importantes, pero no todos los detalles.\n\nExplicar menos, Mostrar más\nTu primera versión será horrible."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa2.html#section-2",
-    "href": "shiny_2025/presentacion_fa2.html#section-2",
+    "objectID": "shiny_2025/presentacion_fa2.html#section",
+    "href": "shiny_2025/presentacion_fa2.html#section",
     "title": "Narrativas con Datos",
     "section": "",
     "text": "Data Storytelling\nVisualización y Gráficos"
@@ -931,8 +924,8 @@
     "text": "Ejemplos\n\n\n\n\n\n\n\n\n ❌ Chartjunk\n\n\n\n\n\n\n✅ Good Chart"
   },
   {
-    "objectID": "shiny_2025/presentacion_fa2.html#section-4",
-    "href": "shiny_2025/presentacion_fa2.html#section-4",
+    "objectID": "shiny_2025/presentacion_fa2.html#section-2",
+    "href": "shiny_2025/presentacion_fa2.html#section-2",
     "title": "Narrativas con Datos",
     "section": "",
     "text": "Storytelling principle #3\n\n\nExplicar Menos, Mostrar Más"
@@ -1001,22 +994,22 @@
     "text": "Otros Gráficos\n\n\n\n\nTreemap: proporciones en jerarquías.\nSankey: flujos o transiciones.\nWaffle: porcentajes.\nViolin: distribución y densidad.\nWord cloud: palabras frecuentes.\n\n\n\n\n\n\n\n\n\n\n📌 Úsalos en casos especiales, cuando un gráfico simple no alcanza."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa2.html#section-10",
-    "href": "shiny_2025/presentacion_fa2.html#section-10",
+    "objectID": "shiny_2025/presentacion_fa2.html#section-8",
+    "href": "shiny_2025/presentacion_fa2.html#section-8",
     "title": "Narrativas con Datos",
     "section": "",
     "text": "Data Storytelling\nInteligencia Artificial + Data Storytelling\n\n\nAI won’t tell your story for you.\nBut it will help you tell it better — faster, clearer, and more creative."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa2.html#section-11",
-    "href": "shiny_2025/presentacion_fa2.html#section-11",
+    "objectID": "shiny_2025/presentacion_fa2.html#section-9",
+    "href": "shiny_2025/presentacion_fa2.html#section-9",
     "title": "Narrativas con Datos",
     "section": "",
     "text": "🥱 1° version \\(&lt;\\) … \\(&lt;\\) 😊 última version\n\n\nFirst versions are never perfect.\nDraft → feedback → improve.\nStorytelling is an iterative process."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa2.html#section-12",
-    "href": "shiny_2025/presentacion_fa2.html#section-12",
+    "objectID": "shiny_2025/presentacion_fa2.html#section-10",
+    "href": "shiny_2025/presentacion_fa2.html#section-10",
     "title": "Narrativas con Datos",
     "section": "",
     "text": "Storytelling principle #4\n\n\nTu primera versión será siempre horrible.\n\n\n\n\n\nBad first drafts are normal.\nDon’t aim for perfect — aim to start.\nRefining comes later."
@@ -1029,18 +1022,18 @@
     "text": "De las Ideas al Impacto … con IA\n\n\n\n\nEstructura más rápida, menos esfuerzo\n\nHistorias más claras, mayor impacto\n\nVisuales en segundos\n\nMás tiempo para la creatividad\n\n\n\n\n\n\n\n\n\n\n🤖 Tools: ChatGPT, Gemini, Napkin AI, Midjourney, Bolt\n\n\nFirst drafts are messy — that’s normal.\nAI helps you go from idea → clarity → impact much faster.\nLess time stuck, more time creating."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa2.html#flujo-de-trabajo",
-    "href": "shiny_2025/presentacion_fa2.html#flujo-de-trabajo",
+    "objectID": "shiny_2025/presentacion_fa2.html#caso-de-estudio",
+    "href": "shiny_2025/presentacion_fa2.html#caso-de-estudio",
     "title": "Narrativas con Datos",
-    "section": "Flujo de Trabajo",
-    "text": "Flujo de Trabajo\n\n\n✍️ Idea → escribe 1 frase-insight (máx. 12 palabras).\n\n🧱 Estructura → Contexto–Conflicto–Resolución en 3 bullets.\n\n📈 Gráfico → elige el tipo más claro (barra/línea/puntos).\n\n🤖 IA → pide 3 títulos alternativos y 2 mejoras del gráfico.\n\n🔁 Feedback → elimina algo y ajusta el título.\n\n\n\nTiempo acotado obliga a priorizar. Pide compartir 1 ejemplo en voz alta."
+    "section": "🤖 Caso de Estudio",
+    "text": "🤖 Caso de Estudio\n\n\n\n\n\n\n\nProblemática\n\n\nTienes un dataset de ventas por región y trimestre y debes presentar un pitch rápido a gerencia. El reto es identificar la historia clave y convertir los datos en un mensaje claro, visual y accionable en poco tiempo.\n\n\n\n\n\n\n\n\nChatGPT / Gemini → genera un guion narrativo.\n\nNapkin AI → propone visualizaciones efectivas.\n\nMidjourney → crea una imagen de portada.\n\nBolt → crea aplicativo (powerbi, python ,etc.)."
   },
   {
-    "objectID": "shiny_2025/presentacion_fa2.html#section-14",
-    "href": "shiny_2025/presentacion_fa2.html#section-14",
+    "objectID": "shiny_2025/presentacion_fa2.html#section-12",
+    "href": "shiny_2025/presentacion_fa2.html#section-12",
     "title": "Narrativas con Datos",
     "section": "",
-    "text": "Storytelling\nConclusiones"
+    "text": "Data Storytelling\nConclusiones"
   },
   {
     "objectID": "shiny_2025/presentacion_fa2.html#agenda-v2-1",
@@ -1195,6 +1188,20 @@
     "title": "Narrativas con Datos",
     "section": "Ejemplo: Spotify Wrapped",
     "text": "Ejemplo: Spotify Wrapped\n\n\n\n\n\n\n\n\n Cómo hacer millones de personas compartir estadísticas en redes sociales?"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_fa1.html#section-3",
+    "href": "shiny_2025/presentacion_fa1.html#section-3",
+    "title": "Narrativas con Datos",
+    "section": "",
+    "text": "Data Storytelling\nConclusiones"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_fa1.html#conclusiones",
+    "href": "shiny_2025/presentacion_fa1.html#conclusiones",
+    "title": "Narrativas con Datos",
+    "section": "📝 Conclusiones",
+    "text": "📝 Conclusiones\n\n\nContexto → Conflicto → Resolución\n\nSelecciona lo esencial\n\nVisualiza para contar, no adornar\n\nLos datos sin narrativa se olvidan\n\nDiferentes enfoques generan distintas historias\n\nLa práctica es clave para mejorar"
   },
   {
     "objectID": "shiny_2025/presentacion_pc.html#about-me",
