@@ -1,0 +1,589 @@
+---
+title: "Narrativas con Datos"
+subtitle: "Del storytelling a la acción"
+author: 
+  - Francisco Alfaro
+date: 09 sep 2025
+format: 
+  revealjs:
+    theme: style.scss
+    transition: slide
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    logo: images/fe.png
+filters:
+  - quarto-ext/shinylive
+---
+
+## About me {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+![](images/fralfaro2.png){fig-align="center"}
+:::
+
+::: {.column width="60%"}
+<br>
+
+-   Francisco Alfaro Medina aka *fralfaro*
+-   Miembro Python Chile, TechSchool
+-   Lead Data Scientist en Grupo Security\
+-   Docente/Investigador en UTFSM
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .incremental width="30%"}
+-   
+
+-   No
+
+-   Nope
+
+-   No chance
+:::
+
+::: {.column .fragment width="70%"}
+<img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"/>
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #1
+
+Nunca revelar el final antes de tiempo.\
+[Siempre eleva la tensión y el drama]{.fragment}
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #2
+
+Los detalles son importantes, [pero no **todos** los detalles son importantes.]{.fragment}
+:::
+:::
+
+::: notes
+Details guide attention.\
+Show less — but better.\
+Focus only on what moves the story forward.
+:::
+
+------------------------------------------------------------------------
+
+## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: incremental
+1.  Nunca reveles [el final]{style="background-color:black;"}\
+2.  Los detalles son importantes, pero [no **todos** los detalles.]{style="background-color:black;"}\
+3.  Explicar menos, [Mostrar más]{style="background-color:black;"}
+4.  Tu primera versión será [horrible.]{style="background-color:black;"}\
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Visualización y Gráficos]{style="font-size: 1.5em"}
+:::
+
+
+
+
+------------------------------------------------------------------------
+
+## Visualización ... {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+- Convierte datos en gráficos claros y legibles.  
+- Resalta patrones, tendencias y outliers.  
+- Elige el gráfico correcto para tu idea.
+
+:::
+
+::: {.column width="40%"}
+![](images/viz/ojo.png){fig-align="center"}
+:::
+:::
+
+. . .
+
+> ⌛ Si no se entiende en 5-7 segundos, simplifica o cambia el título.
+
+------------------------------------------------------------------------
+
+
+##   {background-image="images/background.jpg" background-opacity="0.25" }
+
+
+![](images/viz/tasks2.png){fig-align="center" width="65%"}
+
+
+------------------------------------------------------------------------
+
+## Ejemplos {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+<br>
+
+::: columns
+::: {.column width="50%" style="text-align: center;"}
+![](images/viz/monster.jpg){fig-align="center" width="82%"}
+
+<br> *❌ Chartjunk*
+:::
+
+::: {.column .fragment width="50%" style="text-align: center;"}
+![](images/viz/viz_03.png){fig-align="center" width="100%"}
+
+*✅ Good Chart*
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #3
+
+[Explicar Menos]{style="color: red"}, [Mostrar Más]{style="color: green" .fragment}
+:::
+:::
+
+
+
+------------------------------------------------------------------------
+
+## Mejores Gráficos para tus Datos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/storytelling/plot1.png){.fragment .fade-in-then-out fig-align="left"}
+
+![](images/storytelling/plot2.png){.fragment fig-align="right"}
+:::
+
+. . .
+
+[(C) Essential chart types for data visualization, by Atlassian.]{style="font-size: 0.75em; color: gray"}
+
+::: notes
+You don’t need fancy charts.\
+Bar, scatter, box, heatmap, big text — that's 90% of data storytelling.\
+Simple wins.
+:::
+
+
+------------------------------------------------------------------------
+
+## Gramática de Gráficos {background-image="images/background.jpg" background-opacity="0.25" }
+
+
+::: r-stack
+![](images/viz/gg.png){.fragment .fade-in-then-out fig-align="center" width="75%"}
+
+![](images/viz/ggplot3.png){.fragment fig-align="center"}
+:::
+
+
+
+------------------------------------------------------------------------
+
+## Gráfico de Barras {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+- Ideal para **comparaciones categóricas**.  
+- Claro y directo: quién tiene más o menos.  
+- Ordena de mayor a menor para mejor lectura.
+
+:::
+
+::: {.column width="40%"}
+![](images/viz/bar.png){fig-align="center"}
+:::
+:::
+
+. . .
+
+> 📌 Úsalo cuando quieras comparar categorías entre sí.
+
+
+---
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<iframe src="https://seaborn.pydata.org/generated/seaborn.barplot.html" width="1200" height="700" sidebar=0 frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+
+---
+
+## Gráfico de Dispersión {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+- Relación entre **dos variables numéricas**.  
+- Detecta patrones, correlaciones o outliers.  
+- Agregar línea de tendencia ayuda a interpretar.
+
+:::
+
+::: {.column width="40%"}
+![](images/viz/scatter.png){fig-align="center"}
+:::
+:::
+
+. . .
+
+> 📌 Úsalo cuando quieras mostrar relaciones entre variables.
+---
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<iframe src="https://seaborn.pydata.org/generated/seaborn.scatterplot.html" width="1200" height="700" sidebar=0 frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+
+---
+
+## Gráfico de Líneas {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+- Muestra **tendencias en el tiempo**.  
+- Evita usar demasiadas líneas juntas.
+- Útil para ver aumentos, caídas y estacionalidad.  
+
+:::
+
+::: {.column width="40%"}
+![](images/viz/line.svg){fig-align="center"}
+:::
+:::
+
+. . .
+
+> 📌 Úsalo para mostrar evolución temporal.
+---
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<iframe src="https://seaborn.pydata.org/generated/seaborn.lineplot.html" width="1200" height="700" sidebar=0 frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+---
+
+## Heatmap (Mapa de Calor) {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+- Colores = intensidad de valores.
+- Útil para ver patrones y áreas clave.
+- Paleta clara y accesible.
+
+:::
+
+::: {.column width="40%"}
+![](images/viz/heat.svg){fig-align="center"}
+:::
+:::
+
+. . .
+
+> 📌 Úsalo para resaltar patrones en tablas de datos o correlaciones.
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<iframe src="https://seaborn.pydata.org/generated/seaborn.heatmap.html" width="1200" height="700" sidebar=0 frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+
+---
+
+## Otros Gráficos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+
+<br>
+
+* **Treemap:** proporciones en jerarquías.
+* **Sankey:** flujos o transiciones.
+* **Waffle:** porcentajes.
+* **Violin:** distribución y densidad.
+* **Word cloud:** palabras frecuentes.
+
+
+:::
+
+::: {.column width="40%"}
+![](images/viz/treemap2.png){fig-align="center"}
+:::
+:::
+
+. . .
+
+> 📌 Úsalos en casos especiales, cuando un gráfico simple no alcanza.
+
+
+---
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<iframe src="https://seaborn.pydata.org/examples/index.html" width="1200" height="700" sidebar=0 frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Inteligencia Artificial  + Data Storytelling]{style="font-size: 1em"}
+:::
+
+::: notes
+AI won’t tell your story for you.\
+But it will help you tell it better — faster, clearer, and more creative.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br><br>
+
+::: columns
+::: {.column width="35%"}
+![](images/gh_before.png){fig-align="center" .fragment }
+:::
+
+::: {.column width="30%"}
+![](images/proceso.svg){fig-align="center" .fragment width="100%"}
+:::
+
+::: {.column width="35%"}
+![](images/gh_after.png){fig-align="center" .fragment}
+:::
+:::
+
+. . .
+
+::: {style="text-align: center;"}
+🥱 1° version $<$ ... $<$ 😊 última version
+:::
+
+::: notes
+First versions are never perfect.\
+Draft → feedback → improve.\
+Storytelling is an iterative process.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #4
+
+Tu primera versión será [**siempre** horrible.]{.fragment}
+:::
+:::
+
+::: notes
+Bad first drafts are normal.\
+Don’t aim for perfect — aim to start.\
+Refining comes later.
+:::
+
+------------------------------------------------------------------------
+
+## De las Ideas al Impacto ... con IA {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br>
+
+-   Estructura más rápida, menos esfuerzo\
+-   Historias más claras, mayor impacto\
+-   Visuales en segundos\
+-   Más tiempo para la creatividad
+:::
+
+::: {.column .fragment width="40%"}
+![](images/ai/choice.jpeg){fig-align="center"}
+:::
+:::
+
+. . .
+
+> 🤖 **Tools**: [ChatGPT](https://openai.com/chatgpt/), [Gemini](https://deepmind.google/gemini/), [Napkin AI](https://www.napkin.one/), [Midjourney](https://www.midjourney.com/), [Bolt](https://bolt.new/)
+
+::: notes
+First drafts are messy — that’s normal.\
+AI helps you go from idea → clarity → impact much faster.\
+Less time stuck, more time creating.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+![](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*_3AM0Yhc7qgCvZ_X1L8mhw.gif){.fragment .fade-in-then-out fig-align="center" width="80%"}
+
+![](https://aijourney.so/_next/image?url=https%3A%2F%2Faijourney-stores-prod.s3.ap-southeast-1.amazonaws.com%2Ftool-105%2F1726140585723-napkin-ai-review.gif&w=640&q=75){.fragment .fade-in-then-out fig-align="center" width="70%"}
+
+![](https://freight.cargo.site/w/1024/q/94/i/ade715581e7533554249adf217361ca30f527701ec402edd68c612055818f20a/infinite_text_v3.gif){.fragment .fade-in-then-out fig-align="center" width="60%"}
+
+![](https://miro.medium.com/v2/resize:fit:2000/1*1QYJswFs8FWN9zLcX3vIYg.gif){.fragment fig-align="center" width="95%"}
+:::
+
+
+------------------------------------------------------------------------
+
+## Flujo de Trabajo {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: incremental
+1. ✍️ **Idea** → escribe 1 frase-insight (máx. 12 palabras).  
+2. 🧱 **Estructura** → *Contexto–Conflicto–Resolución* en 3 bullets.  
+3. 📈 **Gráfico** → elige el tipo más claro (barra/línea/puntos).  
+4. 🤖 **IA** → pide 3 títulos alternativos y 2 mejoras del gráfico.  
+5. 🔁 **Feedback** → elimina algo y ajusta el título.  
+:::
+
+::: notes
+Tiempo acotado obliga a priorizar. Pide compartir 1 ejemplo en voz alta.
+:::
+
+
+
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Storytelling]{style="font-size: 1em"}
+
+[Conclusiones]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
+## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: incremental
+1.  Nunca reveles el [**final**]{.fragment style="color:grey;"}\
+2.  Los detalles son importantes, pero [no **todos** los detalles]{.fragment style="color:grey;"}\
+3.  Explica menos, [**muestra más**]{.fragment style="color:grey;"}\
+4.  Tu primer borrador será [**horrible**]{.fragment style="color:grey;"}\
+:::
+
+::: notes
+A mysterious agenda — like a good story.
+
+Now you’ve seen how each point connects.
+
+Simple rules to tell better stories with data.
+:::
+
+------------------------------------------------------------------------
+
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓ ¿Preguntas?
+
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSfVCSFAGX9uERgtxXn_gbmdkq7H3URW_TBgMOBP_akbHf9a0w/viewform?usp=dialog)
+
+🥳 Disfrutar del Curso!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr_fe.png){width="400"}
+:::
+:::
+
+> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+
+
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+
+}
+
+.reveal .slide-logo {
+   max-height: 1.5em !important;
+}
+
+
+</style>
+```
