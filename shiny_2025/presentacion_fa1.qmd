@@ -317,10 +317,12 @@ Facts inform — emotions inspire action.
 
 ## Más que gráficos bonitos {background-image="images/background.jpg" background-opacity="0.25" }
 
+<br>
+
 ::: r-stack
 ![](images/storytelling/dst_03.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
-![](images/storytelling/dst2.png){.fragment fig-align="center" width="60%"}
+![](images/storytelling/dst2.png){.fragment fig-align="center" width="70%"}
 :::
 
 

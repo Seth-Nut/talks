@@ -16,48 +16,42 @@ revealjs-plugins:
 editor: visual
 ---
 
-## 🎓 About me {background-image="images/background.jpg" background-opacity="0.25" .quiz-question}
+## 🎓 About me {.quiz-question background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
 ¿Cómo se llama el profesor?
 
-
-- Fernando Alvarado 
-- [Francisco Alfaro]{.correct}
-- Alfredo Fernández 
-- Alfonso Ramírez 
+-   Fernando Alvarado
+-   [Francisco Alfaro]{.correct}
+-   Alfredo Fernández
+-   Alfonso Ramírez
 
 ------------------------------------------------------------------------
 
-## 1️⃣ Principios de Storytelling {background-image="images/background.jpg" background-opacity="0.25" .quiz-question}
+## 1️⃣ Principios de Storytelling {.quiz-question background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
 ¿Cuál es el primer principio del Storytelling?
 
-- Mostrar todo en la primera slide 
-- Hacer que los números hablen  
-- [Nunca revelar el final antes de tiempo]{.correct} 
-- Guiar al público con un hilo narrativo 
-
-
-
+-   Mostrar todo en la primera slide
+-   Hacer que los números hablen\
+-   [Nunca revelar el final antes de tiempo]{.correct}
+-   Guiar al público con un hilo narrativo
 
 ------------------------------------------------------------------------
 
-
-## 2️⃣ Principios de Storytelling {background-image="images/background.jpg" background-opacity="0.25" .quiz-question}
+## 2️⃣ Principios de Storytelling {.quiz-question background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
 ¿Cuál es el segundo principio del Storytelling?
 
- 
-- Incluir la mayor cantidad de información posible
-- Mostrar todos los datos con el mismo nivel de detalle
-- [Los detalles son importantes, pero no todos los detalles]{.correct}
-- Presentar únicamente conclusiones sin explicar el contexto
+-   Incluir la mayor cantidad de información posible
+-   Mostrar todos los datos con el mismo nivel de detalle
+-   [Los detalles son importantes, pero no todos los detalles]{.correct}
+-   Presentar únicamente conclusiones sin explicar el contexto
 
 ------------------------------------------------------------------------
 
@@ -80,9 +74,6 @@ editor: visual
 [Visualización y Gráficos]{style="font-size: 1.5em"}
 :::
 
-
-
-
 ------------------------------------------------------------------------
 
 ## Visualización ... {background-image="images/background.jpg" background-opacity="0.25"}
@@ -91,10 +82,9 @@ editor: visual
 ::: {.column .fragment width="60%"}
 <br><br>
 
-- Convierte datos en gráficos claros y legibles.  
-- Resalta patrones, tendencias y outliers.  
-- Elige el gráfico correcto para tu idea.
-
+-   Convierte datos en gráficos claros y legibles.\
+-   Resalta patrones, tendencias y outliers.\
+-   Elige el gráfico correcto para tu idea.
 :::
 
 ::: {.column width="40%"}
@@ -108,12 +98,9 @@ editor: visual
 
 ------------------------------------------------------------------------
 
-
-##   {background-image="images/background.jpg" background-opacity="0.25" }
-
+##  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ![](images/viz/tasks2.png){fig-align="center" width="65%"}
-
 
 ------------------------------------------------------------------------
 
@@ -143,11 +130,9 @@ editor: visual
 ::: callout-note
 ## Storytelling principle #3
 
-[Explicar Menos]{style="color: red"}, [Mostrar Más]{style="color: green" .fragment}
+[Explicar Menos]{style="color: red"}, [Mostrar Más]{.fragment style="color: green"}
 :::
 :::
-
-
 
 ------------------------------------------------------------------------
 
@@ -171,19 +156,15 @@ Bar, scatter, box, heatmap, big text — that's 90% of data storytelling.\
 Simple wins.
 :::
 
-
 ------------------------------------------------------------------------
 
-## Gramática de Gráficos {background-image="images/background.jpg" background-opacity="0.25" }
-
+## Gramática de Gráficos {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 ![](images/viz/gg.png){.fragment .fade-in-then-out fig-align="center" width="75%"}
 
 ![](images/viz/ggplot3.png){.fragment fig-align="center"}
 :::
-
-
 
 ------------------------------------------------------------------------
 
@@ -193,10 +174,9 @@ Simple wins.
 ::: {.column .fragment width="60%"}
 <br><br>
 
-- Ideal para **comparaciones categóricas**.  
-- Claro y directo: quién tiene más o menos.  
-- Ordena de mayor a menor para mejor lectura.
-
+-   Ideal para **comparaciones categóricas**.\
+-   Claro y directo: quién tiene más o menos.\
+-   Ordena de mayor a menor para mejor lectura.
 :::
 
 ::: {.column width="40%"}
@@ -208,16 +188,15 @@ Simple wins.
 
 > 📌 Úsalo cuando quieras comparar categorías entre sí.
 
-
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-<iframe src="https://seaborn.pydata.org/generated/seaborn.barplot.html" width="1200" height="700" sidebar=0 frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://seaborn.pydata.org/generated/seaborn.barplot.html" width="1200" height="700" sidebar="0" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 
----
+------------------------------------------------------------------------
 
 ## Gráfico de Dispersión {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -225,10 +204,9 @@ Simple wins.
 ::: {.column .fragment width="60%"}
 <br><br>
 
-- Relación entre **dos variables numéricas**.  
-- Detecta patrones, correlaciones o outliers.  
-- Agregar línea de tendencia ayuda a interpretar.
-
+-   Relación entre **dos variables numéricas**.\
+-   Detecta patrones, correlaciones o outliers.\
+-   Agregar línea de tendencia ayuda a interpretar.
 :::
 
 ::: {.column width="40%"}
@@ -238,16 +216,15 @@ Simple wins.
 
 . . .
 
-> 📌 Úsalo cuando quieras mostrar relaciones entre variables.
----
+## \> 📌 Úsalo cuando quieras mostrar relaciones entre variables.
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-<iframe src="https://seaborn.pydata.org/generated/seaborn.scatterplot.html" width="1200" height="700" sidebar=0 frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://seaborn.pydata.org/generated/seaborn.scatterplot.html" width="1200" height="700" sidebar="0" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 
----
+------------------------------------------------------------------------
 
 ## Gráfico de Líneas {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -255,10 +232,9 @@ Simple wins.
 ::: {.column .fragment width="60%"}
 <br><br>
 
-- Muestra **tendencias en el tiempo**.  
-- Evita usar demasiadas líneas juntas.
-- Útil para ver aumentos, caídas y estacionalidad.  
-
+-   Muestra **tendencias en el tiempo**.\
+-   Evita usar demasiadas líneas juntas.
+-   Útil para ver aumentos, caídas y estacionalidad.
 :::
 
 ::: {.column width="40%"}
@@ -268,15 +244,15 @@ Simple wins.
 
 . . .
 
-> 📌 Úsalo para mostrar evolución temporal.
----
+## \> 📌 Úsalo para mostrar evolución temporal.
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-<iframe src="https://seaborn.pydata.org/generated/seaborn.lineplot.html" width="1200" height="700" sidebar=0 frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://seaborn.pydata.org/generated/seaborn.lineplot.html" width="1200" height="700" sidebar="0" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
----
+
+------------------------------------------------------------------------
 
 ## Heatmap (Mapa de Calor) {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -284,10 +260,9 @@ Simple wins.
 ::: {.column .fragment width="60%"}
 <br><br>
 
-- Colores = intensidad de valores.
-- Útil para ver patrones y áreas clave.
-- Paleta clara y accesible.
-
+-   Colores = intensidad de valores.
+-   Útil para ver patrones y áreas clave.
+-   Paleta clara y accesible.
 :::
 
 ::: {.column width="40%"}
@@ -303,26 +278,23 @@ Simple wins.
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-<iframe src="https://seaborn.pydata.org/generated/seaborn.heatmap.html" width="1200" height="700" sidebar=0 frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://seaborn.pydata.org/generated/seaborn.heatmap.html" width="1200" height="700" sidebar="0" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 
----
+------------------------------------------------------------------------
 
 ## Otros Gráficos {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column .fragment width="60%"}
-
 <br>
 
-* **Treemap:** proporciones en jerarquías.
-* **Sankey:** flujos o transiciones.
-* **Waffle:** porcentajes.
-* **Violin:** distribución y densidad.
-* **Word cloud:** palabras frecuentes.
-
-
+-   **Treemap:** proporciones en jerarquías.
+-   **Sankey:** flujos o transiciones.
+-   **Waffle:** porcentajes.
+-   **Violin:** distribución y densidad.
+-   **Word cloud:** palabras frecuentes.
 :::
 
 ::: {.column width="40%"}
@@ -334,17 +306,15 @@ Simple wins.
 
 > 📌 Úsalos en casos especiales, cuando un gráfico simple no alcanza.
 
-
----
+------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-<iframe src="https://seaborn.pydata.org/examples/index.html" width="1200" height="700" sidebar=0 frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://seaborn.pydata.org/examples/index.html" width="1200" height="700" sidebar="0" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 
------------------------------
-
+------------------------------------------------------------------------
 
 ### 📊 Actividad: Visualiza tu narrativa {background-image="images/background.jpg" background-opacity="0.2"}
 
@@ -353,35 +323,32 @@ Simple wins.
 
 <br><br>
 
-| Región      | Ventas 2023 (M)  | Ventas 2024 (M) | Reclamos 2024 |
-|-------------|------------------|------------------|---------------|
-| Norte       | 120              | 140              | 45            |
-| Centro      | 200              | 150              | 70            |
-| Sur         | 90               | 110              | 30            |
-
-
+| Región | Ventas 2023 (M) | Ventas 2024 (M) | Reclamos 2024 |
+|--------|-----------------|-----------------|---------------|
+| Norte  | 120             | 140             | 45            |
+| Centro | 200             | 150             | 70            |
+| Sur    | 90              | 110             | 30            |
 
 ### Instrucción
 
 <br>
 
-1. Formen grupos  
-2. Elijan **un gráfico** para contar la historia 
-3. Escriban **3 frases**: Contexto → Conflicto → Resolución  
-4. Integren la visualización en el pitch  
-5. Tiempo: 15 min  
-6. Presentación: 2 min por grupo  
-
+1.  Formen grupos\
+2.  Elijan **un gráfico** para contar la historia
+3.  Escriban **3 frases**: Contexto → Conflicto → Resolución\
+4.  Integren la visualización en el pitch\
+5.  Tiempo: 15 min\
+6.  Presentación: 2 min por grupo
 
 ### Ejemplo
 
 <br>
 
-- **Contexto:** “La zona Centro lideraba en ventas en 2023 con 200M.”  
-- **Conflicto:** “Pero en 2024 cayó un 25%, mientras el Norte creció un 17%.”  
-- **Resolución:** “Necesitamos investigar la caída en Centro y reforzar estrategias en esa región.”  
+-   **Contexto:** “La zona Centro lideraba en ventas en 2023 con 200M.”\
+-   **Conflicto:** “Pero en 2024 cayó un 25%, mientras el Norte creció un 17%.”\
+-   **Resolución:** “Necesitamos investigar la caída en Centro y reforzar estrategias en esa región.”
 
-💡 *Sugerencia: gráfico de barras comparando 2023 vs 2024 por región*  
+💡 *Sugerencia: gráfico de barras comparando 2023 vs 2024 por región*
 :::
 
 ------------------------------------------------------------------------
@@ -391,7 +358,7 @@ Simple wins.
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [Data Storytelling]{style="font-size: 1em"}
 
-[Inteligencia Artificial  + Data Storytelling]{style="font-size: 1.5em"}
+[Inteligencia Artificial + Data Storytelling]{style="font-size: 1.5em"}
 :::
 
 ::: notes
@@ -407,15 +374,15 @@ But it will help you tell it better — faster, clearer, and more creative.
 
 ::: columns
 ::: {.column width="35%"}
-![](images/gh_before.png){fig-align="center" .fragment }
+![](images/gh_before.png){.fragment fig-align="center"}
 :::
 
 ::: {.column width="30%"}
-![](images/proceso.svg){fig-align="center" .fragment width="100%"}
+![](images/proceso.svg){.fragment fig-align="center" width="100%"}
 :::
 
 ::: {.column width="35%"}
-![](images/gh_after.png){fig-align="center" .fragment}
+![](images/gh_after.png){.fragment fig-align="center"}
 :::
 :::
 
@@ -492,7 +459,6 @@ Less time stuck, more time creating.
 ![](https://miro.medium.com/v2/resize:fit:2000/1*1QYJswFs8FWN9zLcX3vIYg.gif){.fragment fig-align="center" width="95%"}
 :::
 
-
 ------------------------------------------------------------------------
 
 ## 🤖 Caso de Estudio {background-image="images/background.jpg" background-opacity="0.25"}
@@ -501,27 +467,20 @@ Less time stuck, more time creating.
 Tienes un dataset de ventas por región y trimestre y debes presentar un pitch rápido a gerencia. El reto es identificar la historia clave y convertir los datos en un mensaje claro, visual y accionable en poco tiempo.
 :::
 
-
 ::: columns
 ::: {.column .fragment width="65%"}
-
 <br>
 
-- **ChatGPT / Gemini** → genera un guion narrativo.  
-- **Napkin AI** → propone visualizaciones efectivas.  
-- **Midjourney** → crea una imagen de portada.  
-- **Bolt** → crea aplicativo (powerbi, python ,etc.).  
-
-
+-   **ChatGPT / Gemini** → genera un guion narrativo.\
+-   **Napkin AI** → propone visualizaciones efectivas.\
+-   **Midjourney** → crea una imagen de portada.\
+-   **Bolt** → crea aplicativo (powerbi, python ,etc.).
 :::
 
 ::: {.column width="35%"}
 ![](https://static.vecteezy.com/system/resources/previews/020/687/909/non_2x/mix-icon-for-problem-dilemma-complication-trouble-issue-obstacle-depression-mental-antidepressant-logo-symbol-shape-sign-logotype-icon-illustration-vector.jpg){fig-align="center"}
 :::
 :::
-
-
-
 
 ------------------------------------------------------------------------
 
@@ -573,8 +532,6 @@ Simple rules to tell better stories with data.
 :::
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
-
-
 
 ```{=html}
 <style>
