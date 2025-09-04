@@ -25,13 +25,15 @@ filters:
 
 [<https://sethnut.com/talks>]{.custom-url}
 
-------------------------------------------------------------------------
 
-## Sobre Nosotros {.fragment background-image="images/background.jpg" background-opacity="0.25"}
 
+## Sobre Nosotros { background-image="images/background.jpg" background-opacity="0.25"}
+
+:::{.fragment}
 ![](images/about.svg){fig-align="center"} 
+:::
 
-------------------------------------------------------------------------
+
 
 ## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
 
