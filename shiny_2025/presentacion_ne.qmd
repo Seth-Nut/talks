@@ -1,0 +1,458 @@
+---
+title: "Crea, Innova y Presenta"
+subtitle: "Datastorytelling + A.I."
+author: 
+  - Francisco Alfaro
+  - Valeska Canales
+date: 13 nov 2025
+format: 
+  revealjs:
+    theme: style.scss
+    transition: fade
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    logo: images/ne.png
+filters:
+  - quarto-ext/shinylive
+---
+
+## Sobre Nosotros {background-image="images/background.jpg" background-opacity="0.25" .fragment}
+
+![](images/about.svg){fig-align="center"}
+
+
+------------------------------------------------------------------------
+
+## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .incremental width="30%"}
+-   
+
+-   No
+
+-   Nope
+
+-   No chance
+:::
+
+::: {.column .fragment width="70%"}
+<img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"/>
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #1
+
+Nunca revelar el final antes de tiempo.\
+[Siempre eleva la tensión y el drama]{.fragment}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: incremental
+1.  Nunca reveles [el final]{style="background-color:black;"}\
+2.  Los detalles son importantes, pero [no **todos** los detalles.]{style="background-color:black;"}\
+3.  Explicar menos, [Mostrar más]{style="background-color:black;"}
+4.  Tu primera versión será [horrible.]{style="background-color:black;"}\
+:::
+
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[¿Por qué Data Storytelling?]{style="font-size: 1.5em"}
+:::
+
+::: notes
+OK, so, why data storytelling?
+:::
+
+------------------------------------------------------------------------
+
+## Qué es Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+![](images/cave.jpg){fig-align="center" width="90%"}
+:::
+
+::: {.column .fragment width="50%"}
+![](images/fire.jpg){fig-align="center" width="100%"}
+:::
+:::
+
+. . .
+
+::: {style="text-align: center; "}
+🔥 Las **historias** son la primera tecnología humana.
+:::
+
+::: notes
+Stories are how humans share knowledge.\
+It’s our oldest learning tool — built for memory, connection, and meaning.\
+Use it well.
+:::
+
+
+-----------------------------------------------
+
+## Qué es Data Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: r-stack
+![](images/storytelling/dst_02.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/storytelling/ds.png){.fragment fig-align="center" width="100%"}
+:::
+
+. . . 
+
+<br>
+
+::: {style="text-align: center; "}
+📊 **Data Storytelling** es una forma de comunicar con datos.
+:::
+
+------------------------------------------------------------------------
+
+
+
+## Cuando las estadísticas confunden ... {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="50%" style="text-align: center;"}
+![](images/viz/canscombe_01.png){fig-align="center" width="80%"}
+:::
+
+::: {.column .fragment width="50%" style="text-align: center;"}
+<br><br>  ![](images/viz/canscombe_02.png){fig-align="center" width="100%"}
+
+:::
+:::
+
+::: {.fragment style="text-align: center; "}
+*Cuarteto de Anscombe*: Mismos números, patrones distintos
+:::
+
+------------------------------------------------------------------------
+
+## El poder de elegir qué y cómo visualizar {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: { .fragment align="center"}
+![](https://miro.medium.com/v2/1*-j-oZhikJxzNiiHNsWo69g.gif)
+:::
+
+--------------------------------------------------------------------------
+
+## Ohh, nuestros cerebos son hackables... {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+![](images/storytelling/sketplanation2.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
+
+![](images/storytelling/got.jpg){.fragment fig-align="center" width="100%"}
+:::
+
+------------------------------------------------------------------------
+
+## Atención y memoria {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="70%" .fragment}
+<br><br>
+
+* ¿PIB del país el año pasado?
+* ¿marcador del último clásico?
+* ¿número de transistores del primer iPhone?  
+:::
+
+::: {.column  width="30%"}
+![](images/storytelling/brain.png){fig-align="center"}
+:::
+:::
+
+
+. . . 
+
+::: {style="text-align: center;"}
+🧠 La gente no recuerda el número exacto, pero sí la historia detrás.
+:::
+
+
+
+------------------------------------------------------------------------
+
+## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: r-stack
+![](images/storytelling/pi.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
+
+![](images/storytelling/pi2.jpg){.fragment fig-align="center" width="100%"}
+:::
+
+
+------------------------------------------------------------------------
+
+## Narrativa {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="60%"}
+<br><br>
+
+Usa **trucos** de Storytelling (narrativa) para crear presentaciones que serán **recordadas** y que causarán **impacto**
+:::
+
+::: {.column .fragment width="40%"}
+![](images/emotions.png){fig-align="center"}
+:::
+:::
+
+. . .
+
+::: {style="text-align: center;"}
+🎭 Emociones inspiran acción
+:::
+
+::: notes
+Great ideas need great communication.\
+Storytelling is your toolkit to move people.\
+Facts inform — emotions inspire action.
+:::
+
+
+------------------------------------------------------------------------
+
+## Los 4 pilares del Storytelling {background-image="images/background.jpg" background-opacity="0.25" }
+
+<br><br>
+
+::: { .fragment align="center"}
+![](images/storytelling/4i4.png){width="100%" fig-align="center"}
+:::
+
+
+------------------------------------------------------------------------
+
+
+## Contexto, Conflicto y Resolución {background-image="images/background.jpg" background-opacity="0.25" }
+
+::: r-stack
+![](images/storytelling/ccr_01.webp){.fragment .fade-in-then-out fig-align="center" width="90%"}
+
+![](images/storytelling/ccr_04.png){.fragment fig-align="center" width="85%"}
+:::
+
+
+----------------------------------------------
+
+### 🎭 Actividad: Construyendo una narrativa  {background-image="images/background.jpg" background-opacity="0.2"}
+
+::: panel-tabset
+### Dataset
+| Mes        | Ventas (M$) | Reclamos | Seguidores en RRSS |
+|------------|-------------|----------|---------------------|
+| Ene 2024   | 100         | 15       | 1000                |
+| Feb 2024   | 110         | 18       | 1200                |
+| Mar 2024   | 120         | 20       | 1400                |
+| Abr 2024   | 125         | 25       | 1600                |
+| May 2024   | 90          | 35       | 1700                |
+| Jun 2024   | 80          | 40       | 1900                |
+| Jul 2024   | 85          | 38       | 2100                |
+| Ago 2024   | 95          | 30       | 2500                |
+
+
+### Instrucción
+
+<br>
+
+1. Formen grupos  
+2. Revisen el dataset  
+3. Escriban **3 frases**: Contexto → Conflicto → Resolución  
+4. Tiempo: 10 min  
+5. Presentación: 1 min por grupo  
+
+### Ejemplo (Ventas)
+
+<br>
+
+- **Contexto:** “En el primer trimestre, las ventas crecieron un 25% respecto a enero.”  
+- **Conflicto:** “Sin embargo, desde mayo vemos una caída sostenida, llegando a un mínimo de 80M en junio.”  
+- **Resolución:** “Necesitamos revisar nuestra estrategia comercial para recuperar el nivel de ventas.”  
+:::
+
+
+
+------------------------------------------------------------------------
+
+
+
+## Más que gráficos bonitos {background-image="images/background.jpg" background-opacity="0.25" }
+
+::: r-stack
+![](images/storytelling/dst_03.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/storytelling/dst2.png){.fragment fig-align="center" width="60%"}
+:::
+
+
+------------------------------------------------------------------------
+
+
+## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+![](images/dst_before.png){fig-align="center"} *🔢 No compartas números*
+:::
+
+::: {.column .fragment width="50%"}
+![](images/dst_after.png){fig-align="center"} *🪶Comparte una historia*
+:::
+:::
+
+. . .
+
+<br><br> [(C) Storytelling with Data, por Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
+
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+::: callout-note
+## Storytelling principle #2
+
+Los detalles son importantes, [pero no **todos** los detalles son importantes.]{.fragment}
+:::
+:::
+
+::: notes
+Details guide attention.\
+Show less — but better.\
+Focus only on what moves the story forward.
+:::
+
+
+
+------------------------------------------------------------------------
+
+## Ejemplo: StackOverflow Survey {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+![](images/storytelling/stack.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/storytelling/stack2.png){.fragment fig-align="center" width="90%"}
+:::
+
+------------------------------------------------------------------------
+
+## Ejemplo: Spotify Wrapped {background-image="images/background.jpg" background-opacity="0.25" }
+
+::: columns
+::: {.column .fragment width="30%" fragment-index="1"}
+![](images/storytelling/spotify1.png){fig-align="center"}
+:::
+
+::: {.column .center width="40%"}
+<br><br> Cómo hacer millones de personas compartir estadísticas en redes sociales?
+:::
+
+::: {.column .fragment width="30%" fragment-index="1"}
+![](images/storytelling/spotify2.png){fig-align="center"}
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Conclusiones]{style="font-size: 2.5em"}
+:::
+
+
+-------------
+
+## 📝 Conclusiones {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+<br>
+
+:::{.incremental}
+- Contexto → Conflicto → Resolución  
+- Selecciona lo esencial  
+- Visualiza para contar, no adornar   
+- Los datos sin narrativa se olvidan  
+- Diferentes enfoques generan distintas historias  
+- La práctica es clave para mejorar  
+:::
+
+-------------
+
+##  {background-image="images/continue.webp" data-state="no-logo" }
+
+
+
+
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+
+}
+
+.reveal .slide-logo {
+   max-height: 1.5em !important;
+}
+
+.no-logo .slide-logo {
+  display: none !important;
+}
+
+
+</style>
+```
