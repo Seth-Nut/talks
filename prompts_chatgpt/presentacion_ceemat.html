@@ -11,8 +11,9 @@
   <meta name="generator" content="quarto-1.7.34">
 
   <meta name="author" content="Francisco Alfaro">
-  <meta name="dcterms.date" content="2024-11-29">
-  <title>Seth&amp;Nut – Innovación en MAT281: Colab y Evaluaciones Dinámicas</title>
+  <meta name="author" content="Valeska Canales">
+  <meta name="dcterms.date" content="2025-09-25">
+  <title>Seth&amp;Nut – No es Magia, es Ciencia</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,6 +31,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -285,7 +352,7 @@
   }
 
   // Store cell data
-  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\ncategorias = ['Sí', 'No']\nvalores = [20, 10]\nplt.figure(figsize=(5, 3))\nplt.bar(categorias, valores, color=['lightblue', 'salmon'])\nplt.title('😊 ¿Te gusta la presentación hasta ahora? 😊')\nplt.show()","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+  globalThis.qpyodideCellDetails = [{"code":"def mostrar_codificacion(texto):\n    print(f\"{'Char':<5} {'ASCII':<6} {'ASCII Bin':<10} {'UTF-32 Bin'}\")\n    for c in texto:\n        val = ord(c)\n        ascii_bin = bin(val)[2:].zfill(8)\n        utf32 = ' '.join(bin(val)[2:].zfill(32)[i:i+8] for i in range(0, 32, 8))\n        print(f\"{c:<5} {val:<6} {ascii_bin:<10} {utf32}\")\n# Prueba\nmostrar_codificacion(\"emma 25\")","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
   </script>
@@ -491,7 +558,8 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="images/background.jpg" class="quarto-title-block center">
-  <h1 class="title">Innovación en MAT281: Colab y Evaluaciones Dinámicas</h1>
+  <h1 class="title">No es Magia, es Ciencia</h1>
+  <p class="subtitle">Cómo conversar mejor con asistentes de IA</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -499,398 +567,432 @@
 Francisco Alfaro 
 </div>
 </div>
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Valeska Canales 
+</div>
+</div>
 </div>
 
-  <p class="date">2024-11-29</p>
+  <p class="date">2025-09-25</p>
 </section>
-<section id="aprender-adaptar-innovar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🔄 Aprender, Adaptar, Innovar</h2>
+<section id="a.i.-en-el-día-a-día" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🤖 A.I. en el día a día</h2>
 <div class="r-stack">
 <p><br></p>
 <div class="quarto-figure quarto-figure-left">
 <figure>
-<p><img data-src="images/online.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-left"></p>
+<p><img data-src="images/intro_02.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-left"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/techs.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center"></p>
+<p><img data-src="images/intro_03.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-right">
 <figure>
-<p><img data-src="images/activa2.jpg" class="fragment quarto-figure quarto-figure-right"></p>
+<p><img data-src="images/intro_01.png" class="fragment quarto-figure quarto-figure-right"></p>
 </figure>
 </div>
 </div>
+</section>
+<section id="objetivos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🎯 Objetivos</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/intro_04.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br><br></p>
+<ul>
+<li class="fragment"><strong>Comprender los LLM</strong>: Definición, funcionamiento y aplicaciones.<br>
+</li>
+<li class="fragment"><strong>Asistentes Virtuales</strong>: Uso, prompts y desafíos comunes.<br>
+</li>
+<li class="fragment"><strong>Ética</strong>: Consideraciones y buenas prácticas.</li>
+</ul>
+</div></div>
 </section>
 <section id="section" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Curso MAT281</span></p>
-<p><span style="font-size: 2em">Aplicaciones de la matemática en la ingeniería</span></p>
+<p><span style="font-size: 1em">No es Magia, es Ciencia</span></p>
+<p><span style="font-size: 2em">¿ Qué son los LLM ?</span></p>
 </div>
 </section>
-<section id="malla-curricular---icmat" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Malla Curricular - ICMAT</h2>
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-left">
-<figure>
-<p><img data-src="images/malla_01.png" class="fragment fade-in-then-out quarto-figure quarto-figure-left" style="width:100.0%"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/mat281_2.png" class="fragment quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
-<div class="fragment" style="text-align: right; font-size: 0.8em; color: gray; margin-top: 30px;">
-<p><a href="https://github.com/fralfaro/portfolio/blob/main/docs/files/teaching/mat281.pdf">🌐 Más detalles del curso MAT281</a></p>
-</div>
-</div>
-</section>
-<section id="mat281---matemáticas-aplicadas" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>MAT281 - Matemáticas Aplicadas</h2>
+<section id="large-language-model" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>📖 Large language Model</h2>
 <div class="columns">
-<div class="column" style="width:40%;">
-<div style="text-align: center;">
-<p><img src="images/paper2.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
-</div>
-</div><div class="column" style="width:60%;">
-<ul>
-<li class="fragment">🎯 <strong>Objetivo</strong>: Desarrollar competencias como Data Scientist</li>
-<li class="fragment">📚 <strong>Requisitos</strong>: Python y cursos básicos de matemáticas</li>
-<li class="fragment">📝 <strong>Contenidos</strong>: Toolkit, Data Manipulation, Machine Learning</li>
-<li class="fragment">📊 <strong>Evaluaciones</strong>: Laboratorios, Tareas, Proyecto</li>
-</ul>
-</div></div>
-<div class="fragment">
-<p><a href="https://github.com/fralfaro/MAT281_2024" style="font-size: 0.75em; color: gray align: center;">🌐 Repositorio: github.com/fralfaro/MAT281_2024</a></p>
-</div>
-</section>
-<section id="historia-del-curso" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>📅 Historia del curso</h2>
-
-<img src="images/historia3.png" style="margin-left: 120px;" class="r-stretch"></section>
-<section id="section-1" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Conceptos Claves</span></p>
-<p><span style="font-size: 2em">Tecnologías y Aprendizajes</span></p>
-</div>
-</section>
-<section id="google-colab" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Google Colab</h2>
-<div class="columns">
-<div class="column" style="width:65%;">
-<p><br></p>
-<ul>
-<li class="fragment">🖥️ Entorno en la nube (Python)</li>
-<li class="fragment">📊 Ejecución de código interactivo</li>
-<li class="fragment">🌐 Acceso desde internet</li>
-</ul>
-</div><div class="column" style="width:35%;">
-<p><img src="images/colab.png" alt="Tachado" style="width: 100%; align: center;"></p>
-</div></div>
-</section>
-<section id="google-colab-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Google Colab</h2>
-<p><br></p>
-
-<img src="images/colab2.png" class="r-stretch"><div class="fragment">
-<p><a href="https://colab.research.google.com" style="font-size: 0.75em; align: center;">🌐 Link: colab.research.google.com</a></p>
-</div>
-</section>
-<section id="ejemplo-python" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>📊 Ejemplo Python</h2>
-<div id="qpyodide-insertion-location-1"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="más-herramientas" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🎓 Más Herramientas</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/github.png" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<em>Github versionar código</em></p>
-</div><div class="column fragment" style="width:50%;">
-<p><img data-src="images/mkdocks.png" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<em>Mkdocs publicar sitios</em></p>
-</div></div>
-<div class="fragment">
-<p><a href="https://www.youtube.com/watch?v=1a-3qqlMcQA" style="font-size: 0.75em; color: gray align: center;">🌐 PyLatam 2022: Clases Interactivas con Google Colab, Mkdocs y Github Actions</a></p>
-</div>
-</section>
-<section id="aprendizajes-claves" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>Aprendizajes Claves</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><img src="images/learning.png" alt="Tachado" style="width: 100%; align: center;"></p>
-</div><div class="column fragment" style="width:60%;">
+<div class="column" style="width:60%;">
 <p><br><br></p>
 <ul>
-<li><strong>Motivación</strong>: Fomentar interés.</li>
-<li><strong>Activo</strong>: Involucra a los estudiantes.</li>
-<li><strong>Proyectos</strong>: Problemas reales.</li>
-<li><strong>Constructivismo</strong>: Experiencia.</li>
+<li class="fragment">🧠 Los LLMs generan lenguaje natural tras entrenarse con grandes volúmenes de texto.</li>
+<li class="fragment">🤖 Se usan en chatbots, asistentes virtuales y tareas de procesamiento de lenguaje.</li>
 </ul>
+</div><div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/llm_01.png" alt="Tachado" style="width: 80%; border-radius: 10px;"></p>
+</div>
 </div></div>
-<div class="fragment">
-<p><a href="https://firstliteracy.org/wp-content/uploads/2015/07/How-Learning-Works.pdf" style="font-size: 0.75em; color: gray align: center;">📄 (C) How Learning Works (Ambrose, 2010)</a></p>
+</section>
+<section id="historia-de-los-llm" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>⏳ Historia de los LLM</h2>
+<div class="r-stack">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/llm_04.png" class="fragment quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
 </div>
 </section>
-<section id="section-2" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<section id="cómo-representar-una-palabra" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>¿Cómo representar una palabra?</h2>
+<div class="fragment" style="text-align: center;">
+<p><img src="images/representacion.png" alt="Tachado" style="width: 75%; border-radius: 10px;"></p>
+</div>
+</section>
+<section id="representación-textual" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>📝 Representación textual</h2>
+<p>Transcribir texto es guardar letras como bits.</p>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Teoría</a></li><li><a href="#tabset-1-2">Ejemplo</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p><br></p>
+<div class="columns">
+<div class="column center" style="font-size: 24px;">
+<p>ASCII</p>
+<ul>
+<li>1 byte (8 bits): 128 carácteres posibles</li>
+<li>0 (48) … 9 (57)</li>
+<li>A (65) … Z (90)</li>
+<li>a (97) … z (122)</li>
+<li>Problema: Faltan muchos carácteres: Ñ, ñ, á, é, í, ó, ú, u</li>
+</ul>
+</div><div class="column fragment center" style="font-size: 24px;">
+<p>UTF-8</p>
+<ul>
+<li>1 a 4 bytes (8 a 32 bits)</li>
+<li>Mantiene ASCII sin cambios</li>
+<li>Permite representar alfabetos latinos, griego, árabe, … además de caracteres chinos, japoneses y coreanos</li>
+<li>Incluye emojis 😁, simbolos ✅ y mil cosas más 🗿</li>
+</ul>
+</div></div>
+</div>
+<div id="tabset-1-2">
+<div id="qpyodide-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
+</div>
+</div>
+</section>
+<section id="representación-semántica" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🧠 Representación semántica</h2>
+<div class="columns">
+<div class="column fragment" style="width:60%;">
+<p><br><br></p>
+<ul>
+<li><strong>Semántica</strong> significa <strong>el sentido o significado</strong> de las palabras.</li>
+<li>Necesitamos guardarla como un <strong>todo</strong> o dividirla en <strong>partes con sentido</strong> (tokens).</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><br> <img data-src="images/semantica.jpg" class="quarto-figure quarto-figure-center"></p>
+</div></div>
+</section>
+<section id="section-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Innovación Educativa</span></p>
-<p><span style="font-size: 2em">Innovación en la Enseñanza y Evaluación en MAT281</span></p>
+<div style="text-align: center;">
+<iframe src="https://agents-course-the-tokenizer-playground.static.hf.space" frameborder="0" width="950" height="650">
+</iframe>
 </div>
 </section>
-<section id="p1-google-colab" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P1: Google Colab</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><br></p>
-<p><img src="images/p1.png" alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;"></p>
-</div><div class="column fragment" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Acceso sin instalación</li>
-<li>Interactivo y colaborativo</li>
-<li>Aprendizaje activo</li>
-</ul>
-</div></div>
-</section>
-<section id="p1-google-colab-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P1: Google Colab</h2>
+<section id="diagrama-técnico-de-un-llm" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>⚙️ Diagrama técnico de un LLM</h2>
 <div class="r-stack">
+<p><br></p>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/numpy2.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/colab_011.png" class="fragment quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-</div>
-</section>
-<section id="p2-github" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P2: Github</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><br></p>
-<p><img src="images/p22.jpg" alt="Tachado" style="width: 100%; height: 300px; object-fit: cover; display: block; margin: 0 auto;"></p>
-</div><div class="column fragment" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Control de versiones</li>
-<li>Facilita Seguimiento</li>
-<li>Plantilla inicial</li>
-<li>Primer portafolio</li>
-</ul>
-</div></div>
-</section>
-<section id="p2-github-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P2: Github</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/repos_02.png" class="quarto-figure quarto-figure-center" style="width:93.0%"><br>
-<a href="https://github.com/fralfaro/MAT281_2024">Repositorio del Curso</a></p>
-</div><div class="column fragment" style="width:50%;">
-<p><img data-src="images/repos_03.png" class="quarto-figure quarto-figure-center" style="width:80.0%"><br>
-<a href="https://github.com/fralfaro/MAT281-Portfolio">Portafolio Estudiantes</a></p>
-</div></div>
-</section>
-<section id="p3-evaluaciones-innovadoras" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P3: Evaluaciones Innovadoras</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><img src="images/p4.png" alt="Tachado" style="width: 100%; align: center;"></p>
-</div><div class="column fragment" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Evaluaciones prácticas</li>
-<li>Enfoque en colaboración</li>
-<li>Preparación mercado laboral</li>
-</ul>
-</div></div>
-</section>
-<section id="p3-evaluaciones-innovadoras-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P3: Evaluaciones Innovadoras</h2>
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-left">
-<figure>
-<p><img data-src="images/eval_01.png" class="fragment fade-in-then-out quarto-figure quarto-figure-left" style="width:100.0%"></p>
+<p><img data-src="images/gif1.gif" class="fragment fade-in-then-out quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/evaluacion_01.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="images/repos_01.png" class="fragment quarto-figure quarto-figure-right"></p>
+<p><img data-src="images/gif2.gif" class="fragment quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 </div>
 </section>
-<section id="p4evaluación-externa" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P4:Evaluación Externa</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><img src="images/p3.png" alt="Tachado" style="width: 100%; align: center;"></p>
-</div><div class="column fragment" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Feedback por pares</li>
-<li>Evaluación de proyectos</li>
-<li>Desarrolla habilidades blandas</li>
-</ul>
-</div></div>
-</section>
-<section id="p4evaluación-externa-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P4:Evaluación Externa</h2>
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/proyectos_01.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/proyectos_02.png" class="fragment quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
+<section id="section-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div style="text-align: center;">
+<iframe src="https://agents-course-decoding-visualizer.hf.space" frameborder="0" width="950" height="650">
+</iframe>
 </div>
 </section>
-<section id="p5-impacto-formación-profesional" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P5: Impacto Formación Profesional</h2>
-<div class="columns">
-<div class="column" style="width:40%;">
-<p><img src="images/p5.png" alt="Tachado" style="width: 100%; align: center;"></p>
-</div><div class="column fragment" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Motivación por la programación</li>
-<li>Preparación para prácticas</li>
-<li>Memorías Innovadoras</li>
-</ul>
-</div></div>
+<section id="aprendizajes" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>💡 Aprendizajes</h2>
+<p><br><br></p>
+<div class="fragment">
+<p>✅ El texto se convierte en bits con ASCII o UTF-8.<br> ✅ Las palabras se representan con <em>tokens</em>.<br> ✅ Los LLM aprenden patrones del lenguaje.<br> ✅ Predicen palabras una por una, sin entender.<br> ✅ Se usan en asistentes y chatbots.</p>
+</div>
 </section>
-<section id="p5-impacto-formación-profesional-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="fade-in slide-out">
-<h2>P5: Impacto Formación Profesional</h2>
-
-<img data-src="images/memoria.png" class="quarto-figure quarto-figure-center r-stretch" style="width:90.0%"></section>
 <section id="section-3" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Retroalimentación</span></p>
-<p><span style="font-size: 2em">Perspectiva de los Estudiantes del Curso MAT281</span></p>
+<p><span style="font-size: 1em">No es Magia, es Ciencia</span></p>
+<p><span style="font-size: 1.5em">¿Qué son los Prompts?</span></p>
 </div>
 </section>
-<section id="comentarios-negativos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>👎 Comentarios Negativos</h2>
+<section id="qué-son-los-prompts" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>📝 Qué son los Prompts?</h2>
 <div class="fragment">
+<p>Los <strong>prompts</strong> son las <strong>instrucciones</strong> que se le dan a un modelo de lenguaje, como <strong>ChatGPT</strong>, para generar una <strong>respuesta</strong> o realizar una <strong>tarea específica</strong>. Pueden ser preguntas, frases o directrices que guían el modelo hacia el resultado deseado.</p>
+</div>
+<div style="text-align: center;">
+<p><img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"></p>
+</div>
+</section>
+<section id="ejemplos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>📝 Ejemplos</h2>
+<div class="fragment">
+<p><strong>Pregunta directa</strong>: “¿Qué es la inteligencia artificial?”</p>
+<p><strong>Instrucción</strong>: “Escribe una historia corta sobre un viaje al espacio.”</p>
+<p><strong>Comando</strong>: “Genera un código Python para calcular el promedio de una lista.”</p>
+</div>
+<div style="text-align: center;">
+<p><img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"></p>
+</div>
+</section>
+<section id="section-4" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div style="text-align: center;">
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
+</iframe>
+</div>
+</section>
+<section id="asistentes-virtuales-inteligentes" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🤖 Asistentes Virtuales Inteligentes</h2>
+<p><br></p>
+<div class="fragment">
+<p>Los <strong>asistentes virtuales</strong> impulsados por <strong>IA</strong> suelen usar <strong>LLMs</strong> para comprender y generar lenguaje natural, lo que mejora su capacidad de comunicación, automatización y soporte en distintas industrias.</p>
+</div>
+<div style="text-align: center;">
+<p><img src="images/chat_013.png" alt="Tachado" style="width: 30%; border-radius: 10px;"></p>
+</div>
+</section>
+<section id="asistentes-virtuales-inteligentes-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🤖 Asistentes Virtuales Inteligentes</h2>
+<div class="columns">
+<div class="column fragment" style="width:60%;">
+<p><br><br></p>
+<p><strong>Asistentes más destacados</strong>:</p>
 <ul>
-<li>❌ “El profesor jamás respondió los correos cuando se le hacían dudas, lo que considero una enorme falta de respeto hacia los estudiantes.”</li>
-<li>📉 “Nunca se entregaron calificaciones ni retroalimentación, así que nunca supe si estaba haciendo bien las cosas o no.”</li>
-<li>❓ “El curso fue confuso en la manera de evaluar, me costó entender qué había que hacer en las evaluaciones y cuáles iban a ser las pruebas o tareas.”</li>
+<li><a href="https://openai.com/chatgpt/">ChatGPT (OpenAI)</a></li>
+<li><a href="https://deepmind.google/gemini/">Gemini (Google DeepMind)</a></li>
+<li><a href="https://ai.meta.com/">Meta AI (Meta)</a></li>
+<li><a href="https://chat.deepseek.com/">DeepSeek (DeepSeek)</a></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><br> <img src="images/chat_013.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"></p>
+</div>
+</div></div>
+</section>
+<section id="qué-podemos-hacer" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>📱¿Qué podemos hacer?</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/chat_02.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment">🎓 <strong>Educación</strong>: Tutor virtual.</li>
+<li class="fragment">🩺 <strong>Salud</strong>: Asistencia en consultas.<br>
+</li>
+<li class="fragment">📝 <strong>Contenido</strong>: Redacción y resumen.<br>
+</li>
+<li class="fragment">💻 <strong>Software</strong>: Generación/corrección código.<br>
+</li>
+<li class="fragment">💬 <strong>Cliente</strong>: Respuestas automáticas.</li>
+</ul>
+</div></div>
+</section>
+<section id="actividad-probemos-algunos-prompts" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2><span style="font-size:0.8em;">🎯 Actividad: ¡Probemos algunos Prompts!</span></h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/activity.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment">👩‍💻 <strong>Paso 1:</strong> Elige un asistente ( <a href="https://openai.com/chatgpt/">ChatGPT</a>, <a href="https://deepmind.google/gemini/">Gemini</a>, <a href="https://ai.meta.com/">Meta AI</a>, <a href="https://chat.deepseek.com/">DeepSeek</a> )</li>
+<li class="fragment">📝 <strong>Paso 2:</strong> Escribe o copia un prompt</li>
+<li class="fragment">🔍 <strong>Paso 3:</strong> Observa la respuesta</li>
+<li class="fragment">🤔 <strong>Paso 4:</strong> Compara con otros asistentes</li>
+</ul>
+</div></div>
+</section>
+<section id="estructura-de-un-buen-prompts" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Estructura de un Buen Prompts</h2>
+<div style="text-align: center;">
+<p><img src="images/pro_031.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
+</section>
+<section id="estructura-de-un-buen-prompt" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🧠 Estructura de un Buen Prompt</h2>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">❌ Prompt simple</a></li><li><a href="#tabset-2-2">✅ Prompt estructurado</a></li><li><a href="#tabset-2-3">✨ ¿Qué lo hace mejor?</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<blockquote>
+<p><strong>Prompt:</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>Haz un código en Python para ordenar una lista.</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</blockquote>
+<p><br></p>
+<p>👎 Resultado muy genérico, sin explicación ni opciones personalizadas.</p>
+</div>
+<div id="tabset-2-2">
+<blockquote>
+<p><strong>Prompt:</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>Eres un profesor de programación enseñando a estudiantes principiantes.  </span>
+<span id="cb2-2"><a></a>Tu tarea es crear un ejemplo en Python para ordenar una lista de números.  </span>
+<span id="cb2-3"><a></a>Explica paso a paso el código, usando comentarios.  </span>
+<span id="cb2-4"><a></a>Usa dos métodos: el método `.sort()` y el algoritmo de burbuja.  </span>
+<span id="cb2-5"><a></a>Incluye ejemplos de entrada y salida.  </span>
+<span id="cb2-6"><a></a>El objetivo es ayudar a comprender el funcionamiento de ambos métodos.</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</blockquote>
+<p><br></p>
+<p>👍 El resultado incluye: código claro, explicaciones y enfoque didáctico.</p>
+</div>
+<div id="tabset-2-3">
+<p><br></p>
+<ul>
+<li>👨‍🏫 <strong>Rol</strong>: Define que el modelo actúe como <em>profesor</em></li>
+<li>📌 <strong>Tarea</strong>: Especifica <em>crear un ejemplo y explicar</em></li>
+<li>🧩 <strong>Detalles</strong>: Métodos <code>.sort()</code> y burbuja</li>
+<li>🎓 <strong>Contexto</strong>: Enseñanza a estudiantes</li>
+<li>📝 <strong>Extras</strong>: Comentarios y ejemplos de uso</li>
 </ul>
 </div>
-</section>
-<section id="comentarios-positivos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>👍 Comentarios Positivos</h2>
-<div class="fragment">
-<ul>
-<li>✅ “Buen profesor, con buena disposición para consultas. Es ordenado, presenta bien el contenido y llega bien al alumno.”</li>
-<li>🌟 “El profesor explica muy bien, de una forma clara. Tiene muy buena disposición y transmite confianza.”</li>
-<li>📚 “Es un curso muy bueno, ayuda a aprender mucho sobre el área de Data Science, las aplicaciones que tiene y las diferentes herramientas disponibles en Python.”</li>
-</ul>
+</div>
 </div>
 </section>
-<section id="encuesta-docente" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Encuesta Docente</h2>
-<div id="d79f4e1b" class="cell" data-execution_count="1">
-<div class="cell-output cell-output-display">
-<div>
+<section id="técnicas-para-mejorar-los-prompts" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>♟️Técnicas para Mejorar los Prompts</h2>
+<p><br></p>
+<div style="text-align: center;">
+<p><img src="images/pro_04.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
+</section>
+<section id="section-5" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div style="text-align: center;">
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
+</iframe>
+</div>
+</section>
+<section id="section-6" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">No es Magia, es Ciencia</span></p>
+<p><span style="font-size: 1.5em">Una mirada crítica a los LLMs</span></p>
+</div>
+</section>
+<section id="problemas-comunes-con-los-llm" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>⚠️ Problemas comunes con los LLM</h2>
+<div style="text-align: center;">
+<p><img src="images/pro_22.png" alt="Tachado" style="width: 90%; border-radius: 10px;"></p>
+</div>
+</section>
+<section id="section-7" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div style="text-align: center;">
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
+</iframe>
+</div>
+</section>
+<section id="ética-en-el-uso-de-la-a.i." class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>⚖️ Ética en el Uso de la A.I.</h2>
+<div class="r-stack">
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="presentacion_files/figure-revealjs/cell-2-output-1.png" width="887" height="450"></p>
+<p><img data-src="images/pro_07.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" width="900"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/pro_061.png" class="fragment quarto-figure quarto-figure-center" width="800"></p>
 </figure>
 </div>
 </div>
-</div>
-<div class="fragment">
-<p><span style="font-size: 0.7em; color: gray">(C) La evaluó: contenidos, cercanía, y fomarlidades del curso.</span></p>
+</section>
+<section id="section-8" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div style="text-align: center;">
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
+</iframe>
 </div>
 </section>
-<section id="section-4" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<section id="section-9" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Conclusiones</span></p>
-<p><span style="font-size: 2em">Resultados y Reflexiones del Curso MAT281</span></p>
+<p><span style="font-size: 1em">No es Magia, es Ciencia</span></p>
+<p><span style="font-size: 1.5em">Actividad</span></p>
+</div>
+</section>
+<section id="actividad-matemáticas-python" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2>🤖 Actividad: Matemáticas + Python</h2>
+<div title="Objetivo">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Objetivo</strong></p>
+</div>
+<div class="callout-content">
+<p>Usar un chatbot como ChatGPT para resolver problemas de matemáticas programados en Python.</p>
+</div>
+</div>
+</div>
+</div>
+<ul>
+<li>Lee el enunciado y trata de resolverlo en código.</li>
+<li>Pregunta a una IA como ChatGPT:
+<ul>
+<li><em>“¿Cómo puedo resolver este problema en Python?”</em></li>
+</ul></li>
+<li>Compara tu solución con la de la IA y analiza posibles mejoras.</li>
+</ul>
+<blockquote>
+<p>👉 <a href="./taller.html">Ver actividad completa</a></p>
+</blockquote>
+</section>
+<section id="section-10" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">No es Magia, es Ciencia</span></p>
+<p><span style="font-size: 1.5em">Conclusiones</span></p>
 </div>
 </section>
 <section id="conclusiones" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🎓 Conclusiones</h2>
+<h2>💡Conclusiones</h2>
 <p><br></p>
 <div class="fragment">
-<p>✅ Google Colab tiene un impacto positivo</p>
-<p>✅ Aumenta motivación y participación</p>
-<p>✅ Mejora la comprensión práctica</p>
-<p>✅ Flexibilidad en la enseñanza y aprendizaje remoto</p>
-</div>
-</section>
-<section id="trabajos-futuros" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🎓 Trabajos Futuros</h2>
-<p><br></p>
-<div class="fragment">
-<p>💡 Integrar tecnologías nuevas (IA)</p>
-<p>💡 Fomentar proyectos con la industria</p>
-<p>💡 Expandir la metodología a otros cursos</p>
-<p>💡 Implementar evaluaciones automatizadas</p>
-</div>
-</section>
-<section id="agradecimientos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🎉 Agradecimientos</h2>
-<div class="columns">
-<div class="column" style="width:33%;">
-<p><img data-src="images/seba_flores.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<strong>Sebastián Flores</strong></p>
-</div><div class="column" style="width:33%;">
-<p><img data-src="images/alonso_ogueda.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<strong>Alonso Ogueda</strong></p>
-</div><div class="column" style="width:33%;">
-<p><img data-src="images/alberto_rubio.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<strong>Alberto Rubio</strong></p>
-</div></div>
-<div class="columns">
-<div class="column" style="width:33%;">
-<p><img data-src="images/eric_zepeda.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<strong>Eric Zepeda</strong></p>
-</div><div class="column" style="width:33%;">
-<p><img data-src="images/sebastian_torres.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<strong>Sebastián Torres</strong></p>
-</div><div class="column" style="width:33%;">
-<p><img data-src="images/lecaros3.jpg" class="quarto-figure quarto-figure-center" style="width:60.0%"><br>
-<strong>Rodrigo Lecaros</strong></p>
-</div></div>
-</section>
-<section id="agradecimientos-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>🎉 Agradecimientos</h2>
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/dmat.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/proyectos_03.jpg" class="fragment quarto-figure quarto-figure-center" style="width:65.0%"></p>
-</figure>
-</div>
+<ul>
+<li><p>✅ <strong>Entender la importancia de los prompts</strong>: Un buen diseño de prompts es clave para obtener respuestas más precisas y útiles al interactuar con modelos de lenguaje como ChatGPT.</p></li>
+<li><p>✅ <strong>Aplicaciones y uso responsable</strong>: Los modelos de lenguaje tienen un gran potencial, pero es crucial utilizarlos de manera ética y responsable.</p></li>
+<li><p>✅ <strong>Evolución y futuro de los LLM</strong>: La IA conversacional sigue mejorando, y los avances esperados tendrán un gran impacto en cómo interactuamos con la tecnología en el futuro.</p></li>
+</ul>
 </div>
 </section>
 <section id="gracias-por-participar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
@@ -899,13 +1001,13 @@ Francisco Alfaro
 <div class="column" style="width:50%;">
 <p><br></p>
 <p>❓¿Preguntas?</p>
-<p>👏 Responder <a href="https://docs.google.com/forms/d/e/1FAIpQLScS7eVbBPaKw6XhVonosCL_4nP4t9AbJAM03bdSfbsoSDFntg/viewform?usp=sf_link">encuesta</a></p>
-<p>🥳 Gracias de Nuevo</p>
+<p>👏 Responder <a href="https://forms.gle/cmvFgv2fiseizrC39">encuesta</a></p>
+<p>🥳 Disfrutar del Evento!</p>
 </div><div class="column" data-align="center" style="width:50%;">
-<p><img data-src="images/qr_uc.png" width="400"></p>
+<p><img data-src="images/qr_sj.png" width="400"></p>
 </div></div>
 <blockquote>
-<p>🔗 Nuestro Sitio Web: <a href="https://seth-nut.github.io/resources/">seth-nut.github.io/resources</a>.</p>
+<p>🔗 Nuestro Sitio Web: <a href="https://seth-nut.github.io/resources/">seth-nut.github.io/resources</a></p>
 </blockquote>
 <style>
 /* Ajusta el tamaño del título y subtítulo */
@@ -932,21 +1034,18 @@ Francisco Alfaro
 /* Ajusta el tamaño de los bullets */
 .reveal .slides ul {
   font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
-
 }
 
 .reveal .slide-logo {
-   max-height: 2em !important;
+   max-height: 2.5em !important;
 }
-
-
 </style>
 
 
 </section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="images/uc.png" class="slide-logo"></p>
+<p><img src="images/usm.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>
