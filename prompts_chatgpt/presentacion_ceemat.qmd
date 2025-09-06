@@ -1,0 +1,573 @@
+---
+title: "No es Magia, es Ciencia"
+subtitle: "Cómo conversar mejor con asistentes de IA"
+author: 
+  - Francisco Alfaro
+  - Valeska Canales
+date: 25 sep 2025
+format: 
+  revealjs:
+    transition: slide
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    logo: images/usm.png
+---
+
+## 🤖 A.I. en el día a día {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/intro_02.jpg){.fragment .fade-in-then-out fig-align="left"}
+
+![](images/intro_03.jpg){.fragment .fade-in-then-out fig-align="center"}
+
+![](images/intro_01.png){.fragment fig-align="right"}
+:::
+
+------------------------------------------------------------------------
+
+## 🎯 Objetivos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/intro_04.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br><br>
+
+-   **Comprender los LLM**: Definición, funcionamiento y aplicaciones.\
+-   **Asistentes Virtuales**: Uso, prompts y desafíos comunes.\
+-   **Ética**: Consideraciones y buenas prácticas.
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[No es Magia, es Ciencia]{style="font-size: 1em"}
+
+[¿ Qué son los LLM ?]{style="font-size: 2em"}
+:::
+
+------------------------------------------------------------------------
+
+## 📖 Large language Model {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .incremental width="60%"}
+<br><br>
+
+-   🧠 Los LLMs generan lenguaje natural tras entrenarse con grandes volúmenes de texto.
+-   🤖 Se usan en chatbots, asistentes virtuales y tareas de procesamiento de lenguaje.
+:::
+
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/llm_01.png" alt="Tachado" style="width: 80%; border-radius: 10px;"/>
+:::
+:::
+:::
+
+
+
+------------------------------------------------------------------------
+
+## ⏳ Historia de los LLM {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+![](images/llm_04.png){.fragment fig-align="center"}
+:::
+
+
+
+------------------------------------------------------------------------
+
+## ¿Cómo representar una palabra? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.fragment style="text-align: center;"}
+<img src="images/representacion.png" alt="Tachado" style="width: 75%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+## 📝 Representación textual {background-image="images/background.jpg" background-opacity="0.25"}
+
+Transcribir texto es guardar letras como bits.
+
+::: panel-tabset
+## Teoría
+
+<br>
+
+::: columns
+::: {.column .center style="font-size: 24px;"}
+ASCII
+
+-   1 byte (8 bits): 128 carácteres posibles
+-   0 (48) ... 9 (57)
+-   A (65) ... Z (90)
+-   a (97) ... z (122)
+-   Problema: Faltan muchos carácteres: Ñ, ñ, á, é, í, ó, ú, u
+:::
+
+::: {.column .fragment .center style="font-size: 24px;"}
+UTF-8
+
+-   1 a 4 bytes (8 a 32 bits)
+-   Mantiene ASCII sin cambios
+-   Permite representar alfabetos latinos, griego, árabe, ... además de caracteres chinos, japoneses y coreanos
+-   Incluye emojis 😁, simbolos ✅ y mil cosas más 🗿
+:::
+:::
+
+## Ejemplo
+
+```{pyodide-python}
+def mostrar_codificacion(texto):
+    print(f"{'Char':<5} {'ASCII':<6} {'ASCII Bin':<10} {'UTF-32 Bin'}")
+    for c in texto:
+        val = ord(c)
+        ascii_bin = bin(val)[2:].zfill(8)
+        utf32 = ' '.join(bin(val)[2:].zfill(32)[i:i+8] for i in range(0, 32, 8))
+        print(f"{c:<5} {val:<6} {ascii_bin:<10} {utf32}")
+# Prueba
+mostrar_codificacion("emma 25")
+```
+:::
+
+------------------------------------------------------------------------
+
+## 🧠 Representación semántica {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+-   **Semántica** significa **el sentido o significado** de las palabras.
+-   Necesitamos guardarla como un **todo** o dividirla en **partes con sentido** (tokens).
+:::
+
+::: {.column width="40%"}
+<br> ![](images/semantica.jpg){fig-align="center"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="text-align: center;"}
+<iframe src="https://agents-course-the-tokenizer-playground.static.hf.space" frameborder="0" width="950" height="650">
+
+</iframe>
+:::
+
+
+------------------------------------------------------------------------
+
+
+## ⚙️ Diagrama técnico de un LLM {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/gif1.gif){.fragment .fade-in-then-out fig-align="center"}
+
+![](images/gif2.gif){.fragment fig-align="center"}
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="text-align: center;"}
+<iframe src="https://agents-course-decoding-visualizer.hf.space" frameborder="0" width="950" height="650">
+
+</iframe>
+:::
+
+------------------------------------------------------------------------
+
+
+## 💡 Aprendizajes {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br><br>
+
+::: {.fragment }
+✅ El texto se convierte en bits con ASCII o UTF-8.<br>
+✅ Las palabras se representan con *tokens*.<br>
+✅ Los LLM aprenden patrones del lenguaje.<br>
+✅ Predicen palabras una por una, sin entender.<br>
+✅ Se usan en asistentes y chatbots.
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[No es Magia, es Ciencia]{style="font-size: 1em"}
+
+[¿Qué son los Prompts?]{style="font-size: 1.5em"}
+:::
+
+
+------------------------------------------------------------------------
+
+## 📝 Qué son los Prompts? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.fragment }
+Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje, como **ChatGPT**, para generar una **respuesta** o realizar una **tarea específica**. Pueden ser preguntas, frases o directrices que guían el modelo hacia el resultado deseado.
+:::
+
+
+::: {style="text-align: center;"}
+<img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+## 📝 Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.fragment }
+**Pregunta directa**: "¿Qué es la inteligencia artificial?"
+
+**Instrucción**: "Escribe una historia corta sobre un viaje al espacio."
+
+**Comando**: "Genera un código Python para calcular el promedio de una lista."
+:::
+
+::: {style="text-align: center;"}
+<img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"/>
+:::
+
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: {style="text-align: center;"}
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
+
+</iframe>
+:::
+
+
+------------------------------------------------------------------------
+
+## 🤖 Asistentes Virtuales Inteligentes {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: {.fragment }
+Los **asistentes virtuales** impulsados por **IA** suelen usar **LLMs** para comprender y generar lenguaje natural, lo que mejora su capacidad de comunicación, automatización y soporte en distintas industrias.
+::: 
+
+::: {style="text-align: center;"}
+<img src="images/chat_013.png" alt="Tachado" style="width: 30%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+## 🤖 Asistentes Virtuales Inteligentes {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .fragment width="60%"}
+<br><br>
+
+**Asistentes más destacados**:
+
+-   [ChatGPT (OpenAI)](https://openai.com/chatgpt/)
+-   [Gemini (Google DeepMind)](https://deepmind.google/gemini/)
+-   [Meta AI (Meta)](https://ai.meta.com/)
+-   [DeepSeek (DeepSeek)](https://chat.deepseek.com/)
+:::
+
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<br> <img src="images/chat_013.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 📱¿Qué podemos hacer? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/chat_02.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+-   🎓 **Educación**: Tutor virtual.
+-   🩺 **Salud**: Asistencia en consultas.\
+-   📝 **Contenido**: Redacción y resumen.\
+-   💻 **Software**: Generación/corrección código.\
+-   💬 **Cliente**: Respuestas automáticas.
+
+
+:::
+:::
+
+------------------------------------------------------------------------
+
+## [🎯 Actividad: ¡Probemos algunos Prompts!]{style="font-size:0.8em;"} {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/activity.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+-   👩‍💻 **Paso 1:** Elige un asistente ( [ChatGPT](https://openai.com/chatgpt/), [Gemini](https://deepmind.google/gemini/), [Meta AI](https://ai.meta.com/), [DeepSeek](https://chat.deepseek.com/) )
+-   📝 **Paso 2:** Escribe o copia un prompt
+-   🔍 **Paso 3:** Observa la respuesta
+-   🤔 **Paso 4:** Compara con otros asistentes
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Estructura de un Buen Prompts {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="text-align: center;"}
+<img src="images/pro_031.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+## 🧠 Estructura de un Buen Prompt {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: panel-tabset
+## ❌ Prompt simple
+
+> **Prompt:**
+>
+> ``` text
+> Haz un código en Python para ordenar una lista.
+> ```
+
+<br>
+
+👎 Resultado muy genérico, sin explicación ni opciones personalizadas.
+
+## ✅ Prompt estructurado
+
+> **Prompt:**
+>
+> ``` text
+> Eres un profesor de programación enseñando a estudiantes principiantes.  
+> Tu tarea es crear un ejemplo en Python para ordenar una lista de números.  
+> Explica paso a paso el código, usando comentarios.  
+> Usa dos métodos: el método `.sort()` y el algoritmo de burbuja.  
+> Incluye ejemplos de entrada y salida.  
+> El objetivo es ayudar a comprender el funcionamiento de ambos métodos.
+> ```
+
+<br>
+
+👍 El resultado incluye: código claro, explicaciones y enfoque didáctico.
+
+## ✨ ¿Qué lo hace mejor?
+
+<br>
+
+-   👨‍🏫 **Rol**: Define que el modelo actúe como *profesor*
+-   📌 **Tarea**: Especifica *crear un ejemplo y explicar*
+-   🧩 **Detalles**: Métodos `.sort()` y burbuja
+-   🎓 **Contexto**: Enseñanza a estudiantes
+-   📝 **Extras**: Comentarios y ejemplos de uso
+:::
+
+------------------------------------------------------------------------
+
+## ♟️Técnicas para Mejorar los Prompts {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: {style="text-align: center;"}
+<img src="images/pro_04.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="text-align: center;"}
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
+
+</iframe>
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[No es Magia, es Ciencia]{style="font-size: 1em"}
+
+[Una mirada crítica a los LLMs]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
+## ⚠️ Problemas comunes con los LLM {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="text-align: center;"}
+<img src="images/pro_22.png" alt="Tachado" style="width: 90%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="text-align: center;"}
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
+
+</iframe>
+:::
+
+------------------------------------------------------------------------
+
+## ⚖️ Ética en el Uso de la A.I. {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/pro_07.png){.fragment .fade-in-then-out fig-align="center" width="900"}
+
+![](images/pro_061.png){.fragment fig-align="center" width="800"}
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="text-align: center;"}
+<iframe src="https://emma2025-prompts.streamlit.app/?embed=true" frameborder="0" width="1500" height="700">
+
+</iframe>
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[No es Magia, es Ciencia]{style="font-size: 1em"}
+
+[Actividad]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
+## 🤖 Actividad: Matemáticas + Python {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {.callout-tip title="Objetivo"}
+Usar un chatbot como ChatGPT para resolver problemas de matemáticas programados en Python.
+:::
+
+* Lee el enunciado y trata de resolverlo en código.
+* Pregunta a una IA como ChatGPT:  
+   * *"¿Cómo puedo resolver este problema en Python?"*
+* Compara tu solución con la de la IA y analiza posibles mejoras.
+
+> 👉 [Ver actividad completa](./taller.html)
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[No es Magia, es Ciencia]{style="font-size: 1em"}
+
+[Conclusiones]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
+## 💡Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: {.fragment }
+-   ✅  **Entender la importancia de los prompts**: Un buen diseño de prompts es clave para obtener respuestas más precisas y útiles al interactuar con modelos de lenguaje como ChatGPT.
+
+-   ✅ **Aplicaciones y uso responsable**: Los modelos de lenguaje tienen un gran potencial, pero es crucial utilizarlos de manera ética y responsable.
+
+-   ✅  **Evolución y futuro de los LLM**: La IA conversacional sigue mejorando, y los avances esperados tendrán un gran impacto en cómo interactuamos con la tecnología en el futuro.
+:::
+
+------------------------------------------------------------------------
+
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓¿Preguntas?
+
+👏 Responder [encuesta](https://forms.gle/cmvFgv2fiseizrC39)
+
+🥳 Disfrutar del Evento!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr_sj.png){width="400"}
+:::
+:::
+
+> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+}
+
+.reveal .slide-logo {
+   max-height: 2.5em !important;
+}
+</style>
+```
