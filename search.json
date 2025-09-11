@@ -1173,28 +1173,14 @@
     "href": "shiny_2025/presentacion_fa2.html#gráfico-de-dispersión",
     "title": "Narrativas con Datos",
     "section": "Gráfico de Dispersión",
-    "text": "Gráfico de Dispersión\n\n\n\n\nRelación entre dos variables numéricas.\n\nDetecta patrones, correlaciones o outliers.\n\nAgregar línea de tendencia ayuda a interpretar."
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa2.html#úsalo-cuando-quieras-mostrar-relaciones-entre-variables.",
-    "href": "shiny_2025/presentacion_fa2.html#úsalo-cuando-quieras-mostrar-relaciones-entre-variables.",
-    "title": "Narrativas con Datos",
-    "section": "> 📌 Úsalo cuando quieras mostrar relaciones entre variables.",
-    "text": "&gt; 📌 Úsalo cuando quieras mostrar relaciones entre variables."
+    "text": "Gráfico de Dispersión\n\n\n\n\nRelación entre dos variables numéricas.\n\nDetecta patrones, correlaciones u outliers.\n\nAgregar línea de tendencia ayuda a interpretar.\n\n\n\n\n\n\n\n\n\n\n📌 Úsalo cuando quieras mostrar relaciones entre variables."
   },
   {
     "objectID": "shiny_2025/presentacion_fa2.html#gráfico-de-líneas",
     "href": "shiny_2025/presentacion_fa2.html#gráfico-de-líneas",
     "title": "Narrativas con Datos",
     "section": "Gráfico de Líneas",
-    "text": "Gráfico de Líneas\n\n\n\n\nMuestra tendencias en el tiempo.\n\nEvita usar demasiadas líneas juntas.\nÚtil para ver aumentos, caídas y estacionalidad."
-  },
-  {
-    "objectID": "shiny_2025/presentacion_fa2.html#úsalo-para-mostrar-evolución-temporal.",
-    "href": "shiny_2025/presentacion_fa2.html#úsalo-para-mostrar-evolución-temporal.",
-    "title": "Narrativas con Datos",
-    "section": "> 📌 Úsalo para mostrar evolución temporal.",
-    "text": "&gt; 📌 Úsalo para mostrar evolución temporal."
+    "text": "Gráfico de Líneas\n\n\n\n\nMuestra tendencias en el tiempo.\n\nEvita usar demasiadas líneas juntas.\nÚtil para ver aumentos, caídas y estacionalidad.\n\n\n\n\n\n\n\n\n\n\n📌 Úsalo para mostrar evolución temporal."
   },
   {
     "objectID": "shiny_2025/presentacion_fa2.html#heatmap-mapa-de-calor",
@@ -1657,6 +1643,48 @@
     "title": "Creating, innovating and presenting",
     "section": "🎉 Thank You for Participating!",
     "text": "🎉 Thank You for Participating!\n\n\n\n❓ Questions?\n👏 Fill out the survey\n🥳 Thank You Again!\n\n\n\n\n🔗 Visit our official site: seth-nut.github.io/resources\n\n\nThank you so much for being here!\nFeel free to ask questions — and please fill out the survey.\nLet’s keep learning and creating great stories with data.\nSee you next time!"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_ext2.html#section",
+    "href": "shiny_2025/presentacion_ext2.html#section",
+    "title": "Tu Primer Dashboard",
+    "section": "",
+    "text": "Actividad\nCreando nuestro primer Dashboard"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_ext2.html#herramientas-de-bi",
+    "href": "shiny_2025/presentacion_ext2.html#herramientas-de-bi",
+    "title": "Tu Primer Dashboard",
+    "section": "Herramientas de BI",
+    "text": "Herramientas de BI\n\n\n\n\nPrincipales herramientas:\n\nPower BI, Tableau\nLooker Studio\n\nFortalezas:\n\nPaneles interactivos\nConectividad con datos\nInformación en tiempo real"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_ext2.html#herramientas-de-bi-1",
+    "href": "shiny_2025/presentacion_ext2.html#herramientas-de-bi-1",
+    "title": "Tu Primer Dashboard",
+    "section": "Herramientas de BI",
+    "text": "Herramientas de BI"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_ext2.html#actividad-looker-studio-ga4",
+    "href": "shiny_2025/presentacion_ext2.html#actividad-looker-studio-ga4",
+    "title": "Tu Primer Dashboard",
+    "section": "🧪 Actividad: Looker Studio + GA4",
+    "text": "🧪 Actividad: Looker Studio + GA4\n\n🎯 Objetivo📊 Datos🧩 Prototipo🛠️ Paso a Paso📎 Links\n\n\nDiseña un dashboard en Looker Studio con datos reales de GA4 - Google Merchandise Store para ayudar al equipo de marketing a analizar el rendimiento digital.\nDebe responder preguntas clave como:\n\n¿El tráfico está creciendo?\n¿Qué canales traen más usuarios?\n¿Qué páginas convierten mejor?\n¿Cuál es la tasa de conversión por canal?\n\n\n\n\nUsaremos la cuenta demo de Google Analytics:\n👉 https://analytics.google.com/analytics/index/demoaccount?appstate=/p213025502\nSelecciona la propiedad:\n\n[GA4] Google Merchandise Store\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbre Looker Studio: https://lookerstudio.google.com\nCrea un nuevo informe y conecta la propiedad [GA4] Google Merchandise Store desde la cuenta demo de Google Analytics.\nAgrega visualizaciones con las siguientes métricas:\n\nTotal de usuarios\nUsuarios nuevos\nConversiones\nCanales y páginas más relevantes\n\n\n\n\n\n\n\n\n\n\n\nEjemplo de Dashboard\n\n\nhttps://lookerstudio.google.com/reporting/7508205d-9aec-4ecd-a1c2-afd775fafabb\n\n\n\n\n\n\n\n\n\nVideo explicativo\n\n\nhttps://youtu.be/_VxYaOn98-s?si=w_FoL3BZ3sAGRSzr"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_ext2.html#conclusiones",
+    "href": "shiny_2025/presentacion_ext2.html#conclusiones",
+    "title": "Tu Primer Dashboard",
+    "section": "🧠 Conclusiones",
+    "text": "🧠 Conclusiones\n\n\n\n📊 Looker Studio ayuda a entender datos fácilmente.\n\n🔗 GA4 entrega información real y útil.\n\n🎯 Mejora tus decisiones con métricas claras.\n\n🧰 Aprendes haciendo, con herramientas reales."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_ext2.html#gracias-por-participar",
+    "href": "shiny_2025/presentacion_ext2.html#gracias-por-participar",
+    "title": "Tu Primer Dashboard",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Completa la encuesta\n🥳 ¡Gracias nuevamente!\n\n\n\n\n🔗 Visita nuestro sitio oficial: seth-nut.github.io/resources\n\n\nThank you so much for being here!\nFeel free to ask questions — and please fill out the survey.\nLet’s keep learning and creating great stories with data.\nSee you next time!"
   },
   {
     "objectID": "shiny_2025/presentacion.html#about-me",
@@ -2910,6 +2938,342 @@
     "title": "Seth&Nut",
     "section": "Annotated Notes: Reimagine",
     "text": "Annotated Notes: Reimagine\nAll We Can Save: https://www.allwecansave.earth\nHow to answer the Q of “What should I do to fight climate change?”  A: “What are you good at? Do that. Do that in the service of climate” - (ayanaeliza)\nFayLab Manual\n\nLearning by doing: migrating to Quarto from Bookdown\nRe: Tara Robertson on psychological safety A Chat with Tara Robertson\nRe: Gavin Fay on psychological safety: Openscapes is Awesome! Building lab resources to sustain future us with tools from open data science\n\nQuarto Mosaic\nSee also: 3 takeaways for planning for the year of open science\n\nhttps://openscapes.github.io/approach-guide\nhttps://nmfs-openscapes.github.io\n\nNASA images\n\nhttps://twitter.com/nasaearth\nhttps://twitter.com/UNOOSA/status/803692453358424064/photo/1\nhttps://www.doi.gov/blog/earth-art-stunning-landsat-images"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#hello-quarto-title",
+    "href": "comunidad_2025/presentacion_andes.html#hello-quarto-title",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Crea, Innova y Presenta\nData Storytelling + A.I.\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://sethnut.com/talks"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#sobre-nosotros",
+    "href": "comunidad_2025/presentacion_andes.html#sobre-nosotros",
+    "title": "Seth&Nut",
+    "section": "Sobre Nosotros",
+    "text": "Sobre Nosotros"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#agenda",
+    "href": "comunidad_2025/presentacion_andes.html#agenda",
+    "title": "Seth&Nut",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n\nNo\nNope\nNo chance"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#section",
+    "href": "comunidad_2025/presentacion_andes.html#section",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #1\n\n\nNunca revelar el final antes de tiempo.\nSiempre eleva la tensión y el drama"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#agenda-v2",
+    "href": "comunidad_2025/presentacion_andes.html#agenda-v2",
+    "title": "Seth&Nut",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\nNunca reveles el final\n\nLos detalles son importantes, pero no todos los detalles.\n\nExplicar menos, Mostrar más\nTu primera versión será horrible."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#qué-es-storytelling",
+    "href": "comunidad_2025/presentacion_andes.html#qué-es-storytelling",
+    "title": "Seth&Nut",
+    "section": "Qué es Storytelling?",
+    "text": "Qué es Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana.\n\n\nStories are how humans share knowledge.\nIt’s our oldest learning tool — built for memory, connection, and meaning.\nUse it well."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#qué-es-data-storytelling",
+    "href": "comunidad_2025/presentacion_andes.html#qué-es-data-storytelling",
+    "title": "Seth&Nut",
+    "section": "Qué es Data Storytelling?",
+    "text": "Qué es Data Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n📊 Data Storytelling es una forma de comunicar con datos."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#el-poder-del-qué-y-cómo-visualizar",
+    "href": "comunidad_2025/presentacion_andes.html#el-poder-del-qué-y-cómo-visualizar",
+    "title": "Seth&Nut",
+    "section": "El poder del qué y cómo visualizar",
+    "text": "El poder del qué y cómo visualizar"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#ohh-nuestros-cerebos-son-hackables",
+    "href": "comunidad_2025/presentacion_andes.html#ohh-nuestros-cerebos-son-hackables",
+    "title": "Seth&Nut",
+    "section": "Ohh, nuestros cerebos son hackables…",
+    "text": "Ohh, nuestros cerebos son hackables…"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#atención-y-memoria",
+    "href": "comunidad_2025/presentacion_andes.html#atención-y-memoria",
+    "title": "Seth&Nut",
+    "section": "Atención y memoria",
+    "text": "Atención y memoria"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#narrativa",
+    "href": "comunidad_2025/presentacion_andes.html#narrativa",
+    "title": "Seth&Nut",
+    "section": "Narrativa",
+    "text": "Narrativa\n\n\n\nUsa trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n🎭 Emociones inspiran acción\n\n\nGreat ideas need great communication.\nStorytelling is your toolkit to move people.\nFacts inform — emotions inspire action."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#más-que-gráficos-bonitos",
+    "href": "comunidad_2025/presentacion_andes.html#más-que-gráficos-bonitos",
+    "title": "Seth&Nut",
+    "section": "Más que gráficos bonitos",
+    "text": "Más que gráficos bonitos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#section-1",
+    "href": "comunidad_2025/presentacion_andes.html#section-1",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes.\n\n\n\n\n\nDetails guide attention.\nShow less — but better.\nFocus only on what moves the story forward."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#ejemplo-spotify-wrapped",
+    "href": "comunidad_2025/presentacion_andes.html#ejemplo-spotify-wrapped",
+    "title": "Seth&Nut",
+    "section": "Ejemplo: Spotify Wrapped",
+    "text": "Ejemplo: Spotify Wrapped\n\n\n\n\n\n\n\n\n Cómo hacer millones de personas compartir estadísticas en redes sociales?"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#visualización-1",
+    "href": "comunidad_2025/presentacion_andes.html#visualización-1",
+    "title": "Seth&Nut",
+    "section": "Visualización …",
+    "text": "Visualización …\n\n\n\n\nConvierte datos en gráficos claros y legibles.\n\nResalta patrones, tendencias y outliers.\n\nElige el gráfico correcto para tu idea.\n\n\n\n\n\n\n\n\n\n\n⌛ Si no se entiende en 5-7 segundos, simplifica o cambia el título."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#ejemplos",
+    "href": "comunidad_2025/presentacion_andes.html#ejemplos",
+    "title": "Seth&Nut",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n\n ❌ Chartjunk\n\n\n\n\n\n\n✅ Good Chart"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#section-3",
+    "href": "comunidad_2025/presentacion_andes.html#section-3",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #3\n\n\nExplicar Menos, Mostrar Más"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#mejores-gráficos-para-tus-datos",
+    "href": "comunidad_2025/presentacion_andes.html#mejores-gráficos-para-tus-datos",
+    "title": "Seth&Nut",
+    "section": "Mejores Gráficos para tus Datos",
+    "text": "Mejores Gráficos para tus Datos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C) Essential chart types for data visualization, by Atlassian.\n\nYou don’t need fancy charts.\nBar, scatter, box, heatmap, big text — that’s 90% of data storytelling.\nSimple wins."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#section-4",
+    "href": "comunidad_2025/presentacion_andes.html#section-4",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "🥱 1° version \\(&lt;\\) … \\(&lt;\\) 😊 última version\n\n\nFirst versions are never perfect.\nDraft → feedback → improve.\nStorytelling is an iterative process."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#section-5",
+    "href": "comunidad_2025/presentacion_andes.html#section-5",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #4\n\n\nTu primera versión será siempre horrible.\n\n\n\n\n\nBad first drafts are normal.\nDon’t aim for perfect — aim to start.\nRefining comes later."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#de-las-ideas-al-impacto-con-ia",
+    "href": "comunidad_2025/presentacion_andes.html#de-las-ideas-al-impacto-con-ia",
+    "title": "Seth&Nut",
+    "section": "De las Ideas al Impacto … con IA",
+    "text": "De las Ideas al Impacto … con IA\n\n\n\n\nEstructura más rápida, menos esfuerzo\n\nHistorias más claras, mayor impacto\n\nVisuales en segundos\n\nMás tiempo para la creatividad\n\n\n\n\n\n\n\n\n\n\n🤖 Tools: ChatGPT, Gemini, Napkin AI, Midjourney, Bolt\n\n\nFirst drafts are messy — that’s normal.\nAI helps you go from idea → clarity → impact much faster.\nLess time stuck, more time creating."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#caso-de-estudio",
+    "href": "comunidad_2025/presentacion_andes.html#caso-de-estudio",
+    "title": "Seth&Nut",
+    "section": "🤖 Caso de Estudio",
+    "text": "🤖 Caso de Estudio\n\n\n\n\n\n\n\nProblemática\n\n\nDebes preparar un pitch rápido para gerencia a partir de un dataset de ventas por región y trimestre.\nEl reto es extraer la historia clave y comunicarla de manera clara y convincente.\n\n\n\n\n\n\n\n\nChatGPT / Gemini → genera un guion narrativo.\n\nNapkin AI → propone visualizaciones efectivas.\n\nMidjourney → crea una imagen de portada.\n\nBolt → crea aplicativo (powerbi, python ,etc.)."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#agenda-v2-1",
+    "href": "comunidad_2025/presentacion_andes.html#agenda-v2-1",
+    "title": "Seth&Nut",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\nNunca reveles el final\n\nLos detalles son importantes, pero no todos los detalles\n\nExplica menos, muestra más\n\nTu primer borrador será horrible\n\n\n\nA mysterious agenda — like a good story.\nNow you’ve seen how each point connects.\nSimple rules to tell better stories with data."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_andes.html#gracias-por-participar",
+    "href": "comunidad_2025/presentacion_andes.html#gracias-por-participar",
+    "title": "Seth&Nut",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Curso!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#hello-quarto-title",
+    "href": "comunidad_2025/presentacion_uc.html#hello-quarto-title",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Crea, Innova y Presenta\nData Storytelling + A.I.\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://sethnut.com/talks"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#sobre-nosotros",
+    "href": "comunidad_2025/presentacion_uc.html#sobre-nosotros",
+    "title": "Seth&Nut",
+    "section": "Sobre Nosotros",
+    "text": "Sobre Nosotros"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#agenda",
+    "href": "comunidad_2025/presentacion_uc.html#agenda",
+    "title": "Seth&Nut",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n\nNo\nNope\nNo chance"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#section",
+    "href": "comunidad_2025/presentacion_uc.html#section",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #1\n\n\nNunca revelar el final antes de tiempo.\nSiempre eleva la tensión y el drama"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#agenda-v2",
+    "href": "comunidad_2025/presentacion_uc.html#agenda-v2",
+    "title": "Seth&Nut",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\nNunca reveles el final\n\nLos detalles son importantes, pero no todos los detalles.\n\nExplicar menos, Mostrar más\nTu primera versión será horrible."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#qué-es-storytelling",
+    "href": "comunidad_2025/presentacion_uc.html#qué-es-storytelling",
+    "title": "Seth&Nut",
+    "section": "Qué es Storytelling?",
+    "text": "Qué es Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana.\n\n\nStories are how humans share knowledge.\nIt’s our oldest learning tool — built for memory, connection, and meaning.\nUse it well."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#qué-es-data-storytelling",
+    "href": "comunidad_2025/presentacion_uc.html#qué-es-data-storytelling",
+    "title": "Seth&Nut",
+    "section": "Qué es Data Storytelling?",
+    "text": "Qué es Data Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n📊 Data Storytelling es una forma de comunicar con datos."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#el-poder-del-qué-y-cómo-visualizar",
+    "href": "comunidad_2025/presentacion_uc.html#el-poder-del-qué-y-cómo-visualizar",
+    "title": "Seth&Nut",
+    "section": "El poder del qué y cómo visualizar",
+    "text": "El poder del qué y cómo visualizar"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#ohh-nuestros-cerebos-son-hackables",
+    "href": "comunidad_2025/presentacion_uc.html#ohh-nuestros-cerebos-son-hackables",
+    "title": "Seth&Nut",
+    "section": "Ohh, nuestros cerebos son hackables…",
+    "text": "Ohh, nuestros cerebos son hackables…"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#atención-y-memoria",
+    "href": "comunidad_2025/presentacion_uc.html#atención-y-memoria",
+    "title": "Seth&Nut",
+    "section": "Atención y memoria",
+    "text": "Atención y memoria"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#narrativa",
+    "href": "comunidad_2025/presentacion_uc.html#narrativa",
+    "title": "Seth&Nut",
+    "section": "Narrativa",
+    "text": "Narrativa\n\n\n\nUsa trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n🎭 Emociones inspiran acción\n\n\nGreat ideas need great communication.\nStorytelling is your toolkit to move people.\nFacts inform — emotions inspire action."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#más-que-gráficos-bonitos",
+    "href": "comunidad_2025/presentacion_uc.html#más-que-gráficos-bonitos",
+    "title": "Seth&Nut",
+    "section": "Más que gráficos bonitos",
+    "text": "Más que gráficos bonitos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#section-1",
+    "href": "comunidad_2025/presentacion_uc.html#section-1",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes.\n\n\n\n\n\nDetails guide attention.\nShow less — but better.\nFocus only on what moves the story forward."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#ejemplo-spotify-wrapped",
+    "href": "comunidad_2025/presentacion_uc.html#ejemplo-spotify-wrapped",
+    "title": "Seth&Nut",
+    "section": "Ejemplo: Spotify Wrapped",
+    "text": "Ejemplo: Spotify Wrapped\n\n\n\n\n\n\n\n\n Cómo hacer millones de personas compartir estadísticas en redes sociales?"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#visualización-1",
+    "href": "comunidad_2025/presentacion_uc.html#visualización-1",
+    "title": "Seth&Nut",
+    "section": "Visualización …",
+    "text": "Visualización …\n\n\n\n\nConvierte datos en gráficos claros y legibles.\n\nResalta patrones, tendencias y outliers.\n\nElige el gráfico correcto para tu idea.\n\n\n\n\n\n\n\n\n\n\n⌛ Si no se entiende en 5-7 segundos, simplifica o cambia el título."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#ejemplos",
+    "href": "comunidad_2025/presentacion_uc.html#ejemplos",
+    "title": "Seth&Nut",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n\n ❌ Chartjunk\n\n\n\n\n\n\n✅ Good Chart"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#section-3",
+    "href": "comunidad_2025/presentacion_uc.html#section-3",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #3\n\n\nExplicar Menos, Mostrar Más"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#mejores-gráficos-para-tus-datos",
+    "href": "comunidad_2025/presentacion_uc.html#mejores-gráficos-para-tus-datos",
+    "title": "Seth&Nut",
+    "section": "Mejores Gráficos para tus Datos",
+    "text": "Mejores Gráficos para tus Datos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C) Essential chart types for data visualization, by Atlassian.\n\nYou don’t need fancy charts.\nBar, scatter, box, heatmap, big text — that’s 90% of data storytelling.\nSimple wins."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#section-4",
+    "href": "comunidad_2025/presentacion_uc.html#section-4",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "🥱 1° version \\(&lt;\\) … \\(&lt;\\) 😊 última version\n\n\nFirst versions are never perfect.\nDraft → feedback → improve.\nStorytelling is an iterative process."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#section-5",
+    "href": "comunidad_2025/presentacion_uc.html#section-5",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #4\n\n\nTu primera versión será siempre horrible.\n\n\n\n\n\nBad first drafts are normal.\nDon’t aim for perfect — aim to start.\nRefining comes later."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#de-las-ideas-al-impacto-con-ia",
+    "href": "comunidad_2025/presentacion_uc.html#de-las-ideas-al-impacto-con-ia",
+    "title": "Seth&Nut",
+    "section": "De las Ideas al Impacto … con IA",
+    "text": "De las Ideas al Impacto … con IA\n\n\n\n\nEstructura más rápida, menos esfuerzo\n\nHistorias más claras, mayor impacto\n\nVisuales en segundos\n\nMás tiempo para la creatividad\n\n\n\n\n\n\n\n\n\n\n🤖 Tools: ChatGPT, Gemini, Napkin AI, Midjourney, Bolt\n\n\nFirst drafts are messy — that’s normal.\nAI helps you go from idea → clarity → impact much faster.\nLess time stuck, more time creating."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#caso-de-estudio",
+    "href": "comunidad_2025/presentacion_uc.html#caso-de-estudio",
+    "title": "Seth&Nut",
+    "section": "🤖 Caso de Estudio",
+    "text": "🤖 Caso de Estudio\n\n\n\n\n\n\n\nProblemática\n\n\nDebes preparar un pitch rápido para gerencia a partir de un dataset de ventas por región y trimestre.\nEl reto es extraer la historia clave y comunicarla de manera clara y convincente.\n\n\n\n\n\n\n\n\nChatGPT / Gemini → genera un guion narrativo.\n\nNapkin AI → propone visualizaciones efectivas.\n\nMidjourney → crea una imagen de portada.\n\nBolt → crea aplicativo (powerbi, python ,etc.)."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#agenda-v2-1",
+    "href": "comunidad_2025/presentacion_uc.html#agenda-v2-1",
+    "title": "Seth&Nut",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\nNunca reveles el final\n\nLos detalles son importantes, pero no todos los detalles\n\nExplica menos, muestra más\n\nTu primer borrador será horrible\n\n\n\nA mysterious agenda — like a good story.\nNow you’ve seen how each point connects.\nSimple rules to tell better stories with data."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#gracias-por-participar",
+    "href": "comunidad_2025/presentacion_uc.html#gracias-por-participar",
+    "title": "Seth&Nut",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Curso!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
   },
   {
     "objectID": "comunidad_2025/presentacion.html#por-qué-enseñar-python",
@@ -4487,46 +4851,354 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
-    "objectID": "shiny_2025/presentacion_ext2.html#section",
-    "href": "shiny_2025/presentacion_ext2.html#section",
-    "title": "Tu Primer Dashboard",
+    "objectID": "shiny_2025/presentacion_datasaturday.html#hello-quarto-title",
+    "href": "shiny_2025/presentacion_datasaturday.html#hello-quarto-title",
+    "title": "Seth&Nut",
     "section": "",
-    "text": "Actividad\nCreando nuestro primer Dashboard"
+    "text": "Crea, Innova y Presenta\nData Storytelling + A.I.\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://sethnut.com/talks"
   },
   {
-    "objectID": "shiny_2025/presentacion_ext2.html#herramientas-de-bi",
-    "href": "shiny_2025/presentacion_ext2.html#herramientas-de-bi",
-    "title": "Tu Primer Dashboard",
-    "section": "Herramientas de BI",
-    "text": "Herramientas de BI\n\n\n\n\nPrincipales herramientas:\n\nPower BI, Tableau\nLooker Studio\n\nFortalezas:\n\nPaneles interactivos\nConectividad con datos\nInformación en tiempo real"
+    "objectID": "shiny_2025/presentacion_datasaturday.html#sobre-nosotros",
+    "href": "shiny_2025/presentacion_datasaturday.html#sobre-nosotros",
+    "title": "Seth&Nut",
+    "section": "Sobre Nosotros",
+    "text": "Sobre Nosotros"
   },
   {
-    "objectID": "shiny_2025/presentacion_ext2.html#herramientas-de-bi-1",
-    "href": "shiny_2025/presentacion_ext2.html#herramientas-de-bi-1",
-    "title": "Tu Primer Dashboard",
-    "section": "Herramientas de BI",
-    "text": "Herramientas de BI"
+    "objectID": "shiny_2025/presentacion_datasaturday.html#agenda",
+    "href": "shiny_2025/presentacion_datasaturday.html#agenda",
+    "title": "Seth&Nut",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n\nNo\nNope\nNo chance"
   },
   {
-    "objectID": "shiny_2025/presentacion_ext2.html#actividad-looker-studio-ga4",
-    "href": "shiny_2025/presentacion_ext2.html#actividad-looker-studio-ga4",
-    "title": "Tu Primer Dashboard",
-    "section": "🧪 Actividad: Looker Studio + GA4",
-    "text": "🧪 Actividad: Looker Studio + GA4\n\n🎯 Objetivo📊 Datos🧩 Prototipo🛠️ Paso a Paso📎 Links\n\n\nDiseña un dashboard en Looker Studio con datos reales de GA4 - Google Merchandise Store para ayudar al equipo de marketing a analizar el rendimiento digital.\nDebe responder preguntas clave como:\n\n¿El tráfico está creciendo?\n¿Qué canales traen más usuarios?\n¿Qué páginas convierten mejor?\n¿Cuál es la tasa de conversión por canal?\n\n\n\n\nUsaremos la cuenta demo de Google Analytics:\n👉 https://analytics.google.com/analytics/index/demoaccount?appstate=/p213025502\nSelecciona la propiedad:\n\n[GA4] Google Merchandise Store\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbre Looker Studio: https://lookerstudio.google.com\nCrea un nuevo informe y conecta la propiedad [GA4] Google Merchandise Store desde la cuenta demo de Google Analytics.\nAgrega visualizaciones con las siguientes métricas:\n\nTotal de usuarios\nUsuarios nuevos\nConversiones\nCanales y páginas más relevantes\n\n\n\n\n\n\n\n\n\n\n\nEjemplo de Dashboard\n\n\nhttps://lookerstudio.google.com/reporting/7508205d-9aec-4ecd-a1c2-afd775fafabb\n\n\n\n\n\n\n\n\n\nVideo explicativo\n\n\nhttps://youtu.be/_VxYaOn98-s?si=w_FoL3BZ3sAGRSzr"
+    "objectID": "shiny_2025/presentacion_datasaturday.html#section",
+    "href": "shiny_2025/presentacion_datasaturday.html#section",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #1\n\n\nNunca revelar el final antes de tiempo.\nSiempre eleva la tensión y el drama"
   },
   {
-    "objectID": "shiny_2025/presentacion_ext2.html#conclusiones",
-    "href": "shiny_2025/presentacion_ext2.html#conclusiones",
-    "title": "Tu Primer Dashboard",
-    "section": "🧠 Conclusiones",
-    "text": "🧠 Conclusiones\n\n\n\n📊 Looker Studio ayuda a entender datos fácilmente.\n\n🔗 GA4 entrega información real y útil.\n\n🎯 Mejora tus decisiones con métricas claras.\n\n🧰 Aprendes haciendo, con herramientas reales."
+    "objectID": "shiny_2025/presentacion_datasaturday.html#agenda-v2",
+    "href": "shiny_2025/presentacion_datasaturday.html#agenda-v2",
+    "title": "Seth&Nut",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\nNunca reveles el final\n\nLos detalles son importantes, pero no todos los detalles.\n\nExplicar menos, Mostrar más\nTu primera versión será horrible."
   },
   {
-    "objectID": "shiny_2025/presentacion_ext2.html#gracias-por-participar",
-    "href": "shiny_2025/presentacion_ext2.html#gracias-por-participar",
-    "title": "Tu Primer Dashboard",
+    "objectID": "shiny_2025/presentacion_datasaturday.html#qué-es-storytelling",
+    "href": "shiny_2025/presentacion_datasaturday.html#qué-es-storytelling",
+    "title": "Seth&Nut",
+    "section": "Qué es Storytelling?",
+    "text": "Qué es Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana.\n\n\nStories are how humans share knowledge.\nIt’s our oldest learning tool — built for memory, connection, and meaning.\nUse it well."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#qué-es-data-storytelling",
+    "href": "shiny_2025/presentacion_datasaturday.html#qué-es-data-storytelling",
+    "title": "Seth&Nut",
+    "section": "Qué es Data Storytelling?",
+    "text": "Qué es Data Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n📊 Data Storytelling es una forma de comunicar con datos."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#el-poder-del-qué-y-cómo-visualizar",
+    "href": "shiny_2025/presentacion_datasaturday.html#el-poder-del-qué-y-cómo-visualizar",
+    "title": "Seth&Nut",
+    "section": "El poder del qué y cómo visualizar",
+    "text": "El poder del qué y cómo visualizar"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#ohh-nuestros-cerebos-son-hackables",
+    "href": "shiny_2025/presentacion_datasaturday.html#ohh-nuestros-cerebos-son-hackables",
+    "title": "Seth&Nut",
+    "section": "Ohh, nuestros cerebos son hackables…",
+    "text": "Ohh, nuestros cerebos son hackables…"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#atención-y-memoria",
+    "href": "shiny_2025/presentacion_datasaturday.html#atención-y-memoria",
+    "title": "Seth&Nut",
+    "section": "Atención y memoria",
+    "text": "Atención y memoria"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#narrativa",
+    "href": "shiny_2025/presentacion_datasaturday.html#narrativa",
+    "title": "Seth&Nut",
+    "section": "Narrativa",
+    "text": "Narrativa\n\n\n\nUsa trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n🎭 Emociones inspiran acción\n\n\nGreat ideas need great communication.\nStorytelling is your toolkit to move people.\nFacts inform — emotions inspire action."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#más-que-gráficos-bonitos",
+    "href": "shiny_2025/presentacion_datasaturday.html#más-que-gráficos-bonitos",
+    "title": "Seth&Nut",
+    "section": "Más que gráficos bonitos",
+    "text": "Más que gráficos bonitos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#section-1",
+    "href": "shiny_2025/presentacion_datasaturday.html#section-1",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes.\n\n\n\n\n\nDetails guide attention.\nShow less — but better.\nFocus only on what moves the story forward."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#ejemplo-spotify-wrapped",
+    "href": "shiny_2025/presentacion_datasaturday.html#ejemplo-spotify-wrapped",
+    "title": "Seth&Nut",
+    "section": "Ejemplo: Spotify Wrapped",
+    "text": "Ejemplo: Spotify Wrapped\n\n\n\n\n\n\n\n\n Cómo hacer millones de personas compartir estadísticas en redes sociales?"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#visualización-1",
+    "href": "shiny_2025/presentacion_datasaturday.html#visualización-1",
+    "title": "Seth&Nut",
+    "section": "Visualización …",
+    "text": "Visualización …\n\n\n\n\nConvierte datos en gráficos claros y legibles.\n\nResalta patrones, tendencias y outliers.\n\nElige el gráfico correcto para tu idea.\n\n\n\n\n\n\n\n\n\n\n⌛ Si no se entiende en 5-7 segundos, simplifica o cambia el título."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#section-2",
+    "href": "shiny_2025/presentacion_datasaturday.html#section-2",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Más fácil de distinguir ⟵────────────────────────────⟶ Más difícil de distinguir"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#ejemplos",
+    "href": "shiny_2025/presentacion_datasaturday.html#ejemplos",
+    "title": "Seth&Nut",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n\n ❌ Chartjunk\n\n\n\n\n\n\n✅ Good Chart"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#section-3",
+    "href": "shiny_2025/presentacion_datasaturday.html#section-3",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #3\n\n\nExplicar Menos, Mostrar Más"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#mejores-gráficos-para-tus-datos",
+    "href": "shiny_2025/presentacion_datasaturday.html#mejores-gráficos-para-tus-datos",
+    "title": "Seth&Nut",
+    "section": "Mejores Gráficos para tus Datos",
+    "text": "Mejores Gráficos para tus Datos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C) Essential chart types for data visualization, by Atlassian.\n\nYou don’t need fancy charts.\nBar, scatter, box, heatmap, big text — that’s 90% of data storytelling.\nSimple wins."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#section-4",
+    "href": "shiny_2025/presentacion_datasaturday.html#section-4",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "🥱 1° version \\(&lt;\\) … \\(&lt;\\) 😊 última version\n\n\nFirst versions are never perfect.\nDraft → feedback → improve.\nStorytelling is an iterative process."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#section-5",
+    "href": "shiny_2025/presentacion_datasaturday.html#section-5",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #4\n\n\nTu primera versión será siempre horrible.\n\n\n\n\n\nBad first drafts are normal.\nDon’t aim for perfect — aim to start.\nRefining comes later."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#de-las-ideas-al-impacto-con-ia",
+    "href": "shiny_2025/presentacion_datasaturday.html#de-las-ideas-al-impacto-con-ia",
+    "title": "Seth&Nut",
+    "section": "De las Ideas al Impacto … con IA",
+    "text": "De las Ideas al Impacto … con IA\n\n\n\n\nEstructura más rápida, menos esfuerzo\n\nHistorias más claras, mayor impacto\n\nVisuales en segundos\n\nMás tiempo para la creatividad\n\n\n\n\n\n\n\n\n\n\n🤖 Tools: ChatGPT, Gemini, Napkin AI, Midjourney, Bolt\n\n\nFirst drafts are messy — that’s normal.\nAI helps you go from idea → clarity → impact much faster.\nLess time stuck, more time creating."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#caso-de-estudio",
+    "href": "shiny_2025/presentacion_datasaturday.html#caso-de-estudio",
+    "title": "Seth&Nut",
+    "section": "🤖 Caso de Estudio",
+    "text": "🤖 Caso de Estudio\n\n\n\n\n\n\n\nProblemática\n\n\nDebes preparar un pitch rápido para gerencia a partir de un dataset de ventas por región y trimestre.\nEl reto es extraer la historia clave y comunicarla de manera clara y convincente.\n\n\n\n\n\n\n\n\nChatGPT / Gemini → genera un guion narrativo.\n\nNapkin AI → propone visualizaciones efectivas.\n\nMidjourney → crea una imagen de portada.\n\nBolt → crea aplicativo (powerbi, python ,etc.)."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#agenda-v2-1",
+    "href": "shiny_2025/presentacion_datasaturday.html#agenda-v2-1",
+    "title": "Seth&Nut",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\nNunca reveles el final\n\nLos detalles son importantes, pero no todos los detalles\n\nExplica menos, muestra más\n\nTu primer borrador será horrible\n\n\n\nA mysterious agenda — like a good story.\nNow you’ve seen how each point connects.\nSimple rules to tell better stories with data."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_datasaturday.html#gracias-por-participar",
+    "href": "shiny_2025/presentacion_datasaturday.html#gracias-por-participar",
+    "title": "Seth&Nut",
     "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Completa la encuesta\n🥳 ¡Gracias nuevamente!\n\n\n\n\n🔗 Visita nuestro sitio oficial: seth-nut.github.io/resources\n\n\nThank you so much for being here!\nFeel free to ask questions — and please fill out the survey.\nLet’s keep learning and creating great stories with data.\nSee you next time!"
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Curso!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#hello-quarto-title",
+    "href": "shiny_2025/presentacion_openday.html#hello-quarto-title",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Crea, Innova y Presenta\nData Storytelling + A.I.\nFrancisco Alfaro Medina  Juan Etchebarne Arias\nhttps://sethnut.com/talks"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#sobre-nosotros",
+    "href": "shiny_2025/presentacion_openday.html#sobre-nosotros",
+    "title": "Seth&Nut",
+    "section": "Sobre Nosotros",
+    "text": "Sobre Nosotros"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#agenda",
+    "href": "shiny_2025/presentacion_openday.html#agenda",
+    "title": "Seth&Nut",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n\nNo\nNope\nNo chance"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#section",
+    "href": "shiny_2025/presentacion_openday.html#section",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #1\n\n\nNunca revelar el final antes de tiempo.\nSiempre eleva la tensión y el drama"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#agenda-v2",
+    "href": "shiny_2025/presentacion_openday.html#agenda-v2",
+    "title": "Seth&Nut",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\nNunca reveles el final\n\nLos detalles son importantes, pero no todos los detalles.\n\nExplicar menos, Mostrar más\nTu primera versión será horrible."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#qué-es-storytelling",
+    "href": "shiny_2025/presentacion_openday.html#qué-es-storytelling",
+    "title": "Seth&Nut",
+    "section": "Qué es Storytelling?",
+    "text": "Qué es Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana.\n\n\nStories are how humans share knowledge.\nIt’s our oldest learning tool — built for memory, connection, and meaning.\nUse it well."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#qué-es-data-storytelling",
+    "href": "shiny_2025/presentacion_openday.html#qué-es-data-storytelling",
+    "title": "Seth&Nut",
+    "section": "Qué es Data Storytelling?",
+    "text": "Qué es Data Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n📊 Data Storytelling es una forma de comunicar con datos."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#el-poder-del-qué-y-cómo-visualizar",
+    "href": "shiny_2025/presentacion_openday.html#el-poder-del-qué-y-cómo-visualizar",
+    "title": "Seth&Nut",
+    "section": "El poder del qué y cómo visualizar",
+    "text": "El poder del qué y cómo visualizar"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#ohh-nuestros-cerebos-son-hackables",
+    "href": "shiny_2025/presentacion_openday.html#ohh-nuestros-cerebos-son-hackables",
+    "title": "Seth&Nut",
+    "section": "Ohh, nuestros cerebos son hackables…",
+    "text": "Ohh, nuestros cerebos son hackables…"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#atención-y-memoria",
+    "href": "shiny_2025/presentacion_openday.html#atención-y-memoria",
+    "title": "Seth&Nut",
+    "section": "Atención y memoria",
+    "text": "Atención y memoria"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#narrativa",
+    "href": "shiny_2025/presentacion_openday.html#narrativa",
+    "title": "Seth&Nut",
+    "section": "Narrativa",
+    "text": "Narrativa\n\n\n\nUsa trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n🎭 Emociones inspiran acción\n\n\nGreat ideas need great communication.\nStorytelling is your toolkit to move people.\nFacts inform — emotions inspire action."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#más-que-gráficos-bonitos",
+    "href": "shiny_2025/presentacion_openday.html#más-que-gráficos-bonitos",
+    "title": "Seth&Nut",
+    "section": "Más que gráficos bonitos",
+    "text": "Más que gráficos bonitos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#section-1",
+    "href": "shiny_2025/presentacion_openday.html#section-1",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes.\n\n\n\n\n\nDetails guide attention.\nShow less — but better.\nFocus only on what moves the story forward."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#ejemplo-spotify-wrapped",
+    "href": "shiny_2025/presentacion_openday.html#ejemplo-spotify-wrapped",
+    "title": "Seth&Nut",
+    "section": "Ejemplo: Spotify Wrapped",
+    "text": "Ejemplo: Spotify Wrapped\n\n\n\n\n\n\n\n\n Cómo hacer millones de personas compartir estadísticas en redes sociales?"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#visualización-1",
+    "href": "shiny_2025/presentacion_openday.html#visualización-1",
+    "title": "Seth&Nut",
+    "section": "Visualización …",
+    "text": "Visualización …\n\n\n\n\nConvierte datos en gráficos claros y legibles.\n\nResalta patrones, tendencias y outliers.\n\nElige el gráfico correcto para tu idea.\n\n\n\n\n\n\n\n\n\n\n⌛ Si no se entiende en 5-7 segundos, simplifica o cambia el título."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#section-2",
+    "href": "shiny_2025/presentacion_openday.html#section-2",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Más fácil de distinguir  ⟵────────────────────────────⟶  Más difícil de distinguir"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#ejemplos",
+    "href": "shiny_2025/presentacion_openday.html#ejemplos",
+    "title": "Seth&Nut",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n\n ❌ Chartjunk\n\n\n\n\n\n\n✅ Good Chart"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#section-3",
+    "href": "shiny_2025/presentacion_openday.html#section-3",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #3\n\n\nExplicar Menos, Mostrar Más"
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#mejores-gráficos-para-tus-datos",
+    "href": "shiny_2025/presentacion_openday.html#mejores-gráficos-para-tus-datos",
+    "title": "Seth&Nut",
+    "section": "Mejores Gráficos para tus Datos",
+    "text": "Mejores Gráficos para tus Datos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C) Essential chart types for data visualization, by Atlassian.\n\nYou don’t need fancy charts.\nBar, scatter, box, heatmap, big text — that’s 90% of data storytelling.\nSimple wins."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#section-4",
+    "href": "shiny_2025/presentacion_openday.html#section-4",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "🥱 1° version \\(&lt;\\) … \\(&lt;\\) 😊 última version\n\n\nFirst versions are never perfect.\nDraft → feedback → improve.\nStorytelling is an iterative process."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#section-5",
+    "href": "shiny_2025/presentacion_openday.html#section-5",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Storytelling principle #4\n\n\nTu primera versión será siempre horrible.\n\n\n\n\n\nBad first drafts are normal.\nDon’t aim for perfect — aim to start.\nRefining comes later."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#de-las-ideas-al-impacto-con-ia",
+    "href": "shiny_2025/presentacion_openday.html#de-las-ideas-al-impacto-con-ia",
+    "title": "Seth&Nut",
+    "section": "De las Ideas al Impacto … con IA",
+    "text": "De las Ideas al Impacto … con IA\n\n\n\n\nEstructura más rápida, menos esfuerzo\n\nHistorias más claras, mayor impacto\n\nVisuales en segundos\n\nMás tiempo para la creatividad\n\n\n\n\n\n\n\n\n\n\n🤖 Tools: ChatGPT, Gemini, Napkin AI, Midjourney, Bolt\n\n\nFirst drafts are messy — that’s normal.\nAI helps you go from idea → clarity → impact much faster.\nLess time stuck, more time creating."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#caso-de-estudio",
+    "href": "shiny_2025/presentacion_openday.html#caso-de-estudio",
+    "title": "Seth&Nut",
+    "section": "🤖 Caso de Estudio",
+    "text": "🤖 Caso de Estudio\n\n\n\n\n\n\n\nProblemática\n\n\nDebes preparar un pitch rápido para gerencia a partir de un dataset de ventas por región y trimestre.\nEl reto es extraer la historia clave y comunicarla de manera clara y convincente.\n\n\n\n\n\n\n\n\nChatGPT / Gemini → genera un guion narrativo.\n\nNapkin AI → propone visualizaciones efectivas.\n\nMidjourney → crea una imagen de portada.\n\nBolt → crea aplicativo (powerbi, python ,etc.)."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#agenda-v2-1",
+    "href": "shiny_2025/presentacion_openday.html#agenda-v2-1",
+    "title": "Seth&Nut",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\nNunca reveles el final\n\nLos detalles son importantes, pero no todos los detalles\n\nExplica menos, muestra más\n\nTu primer borrador será horrible\n\n\n\nA mysterious agenda — like a good story.\nNow you’ve seen how each point connects.\nSimple rules to tell better stories with data."
+  },
+  {
+    "objectID": "shiny_2025/presentacion_openday.html#gracias-por-participar",
+    "href": "shiny_2025/presentacion_openday.html#gracias-por-participar",
+    "title": "Seth&Nut",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Curso!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
   },
   {
     "objectID": "shiny_2025/presentacion_ext.html#about-me",
@@ -5394,7 +6066,7 @@
     "href": "index.html",
     "title": "🎉 Presentaciones",
     "section": "",
-    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n\n\n\nTítulo\nDescripción\nPresentaciones\n\n\n\n\nCrea, Innova y Presenta: Data Storytelling con A.I.\nTransforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.\nNerdearla (ES) 2025, Pycon (COL) 2025,  PyLadiesCon 2025\n\n\nNarrativas con Datos - BDO\nCrear presentaciones persuasivas con datos que capten, mantengan y movilicen a la audiencia.\nÑuble Alimentos,  Fondo Esperanza I,  Fondo Esperanza II\n\n\nCharlas CEMMAT\nMini curso para aprender sobre temas relacionados a IA y Data Storytelling.\nCharla I.A.,  Charla Storytelling\n\n\nDel Dato a la Narrativa: Visualización Interactiva con Shiny\nAprende a crear paneles interactivos y visualizaciones narrativas con Shiny.\nShinyConf 2025,  UserR 2025\n\n\nNo es Magia, es Ciencia\nAprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.\nTechSchool 2025, EMMA Agosto 2025\n\n\nHola Quarto - compartir • colaborar • enseñar • reimaginar\nTaller introductorio a Quarto, una herramienta para crear documentos, presentaciones y sitios web interactivos.\nSumemos Ideas: Seminarios USM, Pycon Chile 2025\n\n\n¡Adiós Word, Hola LaTeX!\nTaller práctico para descubrir LaTeX como alternativa profesional a Word.\nEMMA Agosto 2025\n\n\nPyday 2025 - Educación Abierta y Comunidad\nCrea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.\nPresetación\n\n\nLatinR 2024 - Uso de Quarto para crear clases interactivas\nQuarto permite diseñar contenidos interactivos en R y Python.\nPresetación\n\n\nMADS USM 2024 - Inteligencia Artificial en la Educación\nAplicaciones prácticas de la IA en la enseñanza para experiencias personalizadas.\nPresetación\n\n\nDMAT USM 2024 - Más allá del Infinito\nExplora los conceptos del infinito en matemáticas con ejemplos interactivos.\nPresetación\n\n\nII Encuentro Docencia Matemática Universitaria - Innovación en el curso MAT281\nCómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso.\nPresetación\n\n\nNarrativas con Datos\nAprende a contar historias persuasivas con datos usando Python y visualización.\nPresetación\n\n\nConéctate al Mundo Digital: Computación para Personas Mayores desde Cero\nIntroducción accesible al uso de la tecnología para personas mayores.\nPresetación\n\n\n¿Y Ahora Qué? Del Aula al Trabajo\nHabilidades clave y herramientas para la transición al mundo laboral.\nPresetación\n\n\nEducación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub\nAutomatiza y comparte materiales educativos con GitHub y Quarto.\nPresetación"
+    "text": "Lista de Presentaciones\n¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n\n\n\nTítulo\nDescripción\nPresentaciones\n\n\n\n\nCrea, Innova y Presenta: Data Storytelling con A.I.\nTransforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.\nNerdearla (ES) 2025,  Data Saturday Latam,  Open Tech Day,  Pycon (COL) 2025,  PyLadiesCon 2025\n\n\nNarrativas con Datos - BDO\nCrear presentaciones persuasivas con datos que capten, mantengan y movilicen a la audiencia.\nÑuble Alimentos,  Fondo Esperanza I,  Fondo Esperanza II\n\n\nCharlas CEMMAT\nMini curso para aprender sobre temas relacionados a IA y Data Storytelling.\nCharla I.A.,  Charla Storytelling\n\n\nDel Dato a la Narrativa: Visualización Interactiva con Shiny\nAprende a crear paneles interactivos y visualizaciones narrativas con Shiny.\nShinyConf 2025,  UserR 2025\n\n\nNo es Magia, es Ciencia\nAprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.\nTechSchool 2025, EMMA Agosto 2025\n\n\nHola Quarto - compartir • colaborar • enseñar • reimaginar\nTaller introductorio a Quarto, una herramienta para crear documentos, presentaciones y sitios web interactivos.\nSumemos Ideas: Seminarios USM, Pycon Chile 2025\n\n\n¡Adiós Word, Hola LaTeX!\nTaller práctico para descubrir LaTeX como alternativa profesional a Word.\nEMMA Agosto 2025\n\n\nPyday 2025 - Educación Abierta y Comunidad\nCrea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.\nPresetación\n\n\nLatinR 2024 - Uso de Quarto para crear clases interactivas\nQuarto permite diseñar contenidos interactivos en R y Python.\nPresetación\n\n\nMADS USM 2024 - Inteligencia Artificial en la Educación\nAplicaciones prácticas de la IA en la enseñanza para experiencias personalizadas.\nPresetación\n\n\nDMAT USM 2024 - Más allá del Infinito\nExplora los conceptos del infinito en matemáticas con ejemplos interactivos.\nPresetación\n\n\nII Encuentro Docencia Matemática Universitaria - Innovación en el curso MAT281\nCómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso.\nPresetación\n\n\nNarrativas con Datos\nAprende a contar historias persuasivas con datos usando Python y visualización.\nPresetación\n\n\nConéctate al Mundo Digital: Computación para Personas Mayores desde Cero\nIntroducción accesible al uso de la tecnología para personas mayores.\nPresetación\n\n\n¿Y Ahora Qué? Del Aula al Trabajo\nHabilidades clave y herramientas para la transición al mundo laboral.\nPresetación\n\n\nEducación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub\nAutomatiza y comparte materiales educativos con GitHub y Quarto.\nPresetación"
   },
   {
     "objectID": "mads_2024/presentacion.html#aprender-adaptar-innovar",
