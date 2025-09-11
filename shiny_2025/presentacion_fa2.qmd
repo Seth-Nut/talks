@@ -205,7 +205,7 @@ Simple wins.
 <br><br>
 
 -   Relación entre **dos variables numéricas**.\
--   Detecta patrones, correlaciones o outliers.\
+-   Detecta patrones, correlaciones u outliers.\
 -   Agregar línea de tendencia ayuda a interpretar.
 :::
 
@@ -216,7 +216,9 @@ Simple wins.
 
 . . .
 
-## \> 📌 Úsalo cuando quieras mostrar relaciones entre variables.
+> 📌 Úsalo cuando quieras mostrar relaciones entre variables.
+
+------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -244,7 +246,9 @@ Simple wins.
 
 . . .
 
-## \> 📌 Úsalo para mostrar evolución temporal.
+> 📌 Úsalo para mostrar evolución temporal.
+
+------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -333,12 +337,11 @@ Simple wins.
 
 <br>
 
-1.  Formen grupos\
-2.  Elijan **un gráfico** para contar la historia
-3.  Escriban **3 frases**: Contexto → Conflicto → Resolución\
-4.  Integren la visualización en el pitch\
-5.  Tiempo: 15 min\
-6.  Presentación: 2 min por grupo
+1.  Elijan **un gráfico** para contar la historia
+2.  Escriban **3 frases**: Contexto → Conflicto → Resolución\
+3.  Integren la visualización en el pitch\
+4.  Tiempo: 15 min\
+5.  Presentación: 1-2 min 
 
 ### Ejemplo
 
