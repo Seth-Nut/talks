@@ -25,15 +25,11 @@ filters:
 
 [<https://sethnut.com/talks>]{.custom-url}
 
+## Sobre Nosotros {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-## Sobre Nosotros { background-image="images/background.jpg" background-opacity="0.25"}
-
-:::{.fragment}
-![](images/about.svg){fig-align="center"} 
+::: fragment
+![](images/about.svg){fig-align="center"}
 :::
-
-
 
 ## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -129,10 +125,11 @@ Use it well.
 
 ## El poder del qué y cómo visualizar {background-image="images/background.jpg" background-opacity="0.25"}
 
-<br>
 
-::: {.fragment align="center"}
-![](https://miro.medium.com/v2/1*-j-oZhikJxzNiiHNsWo69g.gif)
+::: {align="center" .fragment}
+<iframe src="images/demo.html" width="1400" height="550" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;">
+
+</iframe>
 :::
 
 ------------------------------------------------------------------------
@@ -219,7 +216,7 @@ Los detalles son importantes, [pero no **todos** los detalles son importantes.]{
 Details guide attention.\
 Show less — but better.\
 Focus only on what moves the story forward.
-::: 
+:::
 
 ------------------------------------------------------------------------
 
@@ -267,7 +264,21 @@ Focus only on what moves the story forward.
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-![](images/viz/tasks2.png){fig-align="center" width="65%"}
+<br>
+
+![](images/viz/tasks3.png){fig-align="center" width="80%"}
+
+. . .
+
+<br>
+ 
+<div style="text-align:center; font-size:25px; font-family:sans-serif;">
+  <span style="color:green; font-weight:bold;">Más fácil de distinguir</span>
+  <span style="margin: 0 15px; font-size:18px; background: linear-gradient(to right, green, orange, red); -webkit-background-clip: text; color: transparent;">
+    ⟵────────────────────────────⟶
+  </span>
+  <span style="color:red; font-weight:bold;">Más difícil de distinguir</span>
+</div>
 
 ------------------------------------------------------------------------
 
@@ -323,7 +334,7 @@ Bar, scatter, box, heatmap, big text — that's 90% of data storytelling.\
 Simple wins.
 :::
 
-# Inteligencia Artificial {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"} 
+# Inteligencia Artificial {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
 ------------------------------------------------------------------------
 
