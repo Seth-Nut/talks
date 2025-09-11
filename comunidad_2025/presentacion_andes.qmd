@@ -1,5 +1,5 @@
 ---
-pagetitle: "Datastorytelling + A.I."
+pagetitle: "Educación Abierta y Comunidad"
 author: 
   - Francisco Alfaro
   - Valeska Canales
@@ -17,447 +17,200 @@ filters:
 
 ##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
 
-[Crea, Innova y Presenta]{.custom-title}
+[Educación Abierta y Comunidad]{.custom-title}
 
-[Data Storytelling + A.I.]{.custom-subtitle}
+[Democratizando el Aprendizaje en Python]{.custom-subtitle}
 
 [Francisco Alfaro Medina <br> Valeska Canales Pozo]{.custom-author}
 
 [<https://sethnut.com/talks>]{.custom-url}
 
-## Sobre Nosotros {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: fragment
-![](images/about.svg){fig-align="center"}
-:::
-
-## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column .incremental width="30%"}
--   
-
--   No
-
--   Nope
-
--   No chance
-:::
-
-::: {.column .fragment width="70%"}
-<img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"/>
-:::
-:::
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Storytelling principle #1
-
-Nunca revelar el final antes de tiempo.\
-[Siempre eleva la tensión y el drama]{.fragment}
-:::
-:::
-
-<br>
-
-------------------------------------------------------------------------
-
-## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: incremental
-1.  Nunca reveles [el final]{style="background-color:black;"}\
-2.  Los detalles son importantes, pero [no **todos** los detalles.]{style="background-color:black;"}\
-3.  Explicar menos, [Mostrar más]{style="background-color:black;"}
-4.  Tu primera versión será [horrible.]{style="background-color:black;"}\
-:::
-
-# Storytelling {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
-
-------------------------------------------------------------------------
-
-## Qué es Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="50%"}
-![](images/cave.jpg){fig-align="center" width="90%"}
-:::
-
-::: {.column .fragment width="50%"}
-![](images/fire.jpg){fig-align="center" width="100%"}
-:::
-:::
-
-. . .
-
-::: {style="text-align: center; "}
-🔥 Las **historias** son la primera tecnología humana.
-:::
-
-::: notes
-Stories are how humans share knowledge.\
-It’s our oldest learning tool — built for memory, connection, and meaning.\
-Use it well.
-:::
-
-------------------------------------------------------------------------
-
-## Qué es Data Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
-
-<br>
+## Brecha digital {background-image="images/background.jpg" background-opacity="0.25"} 
 
 ::: r-stack
-![](images/storytelling/dst2.png){.fragment fig-align="center" width="70%"}
-:::
 
-. . .
-
-<br>
-
-::: {style="text-align: center; "}
-📊 **Data Storytelling** es una forma de comunicar con datos.
-:::
-
-------------------------------------------------------------------------
-
-## El poder del qué y cómo visualizar {background-image="images/background.jpg" background-opacity="0.25"}
-
-<br>
-
-::: {.fragment align="center"}
-![](https://miro.medium.com/v2/1*-j-oZhikJxzNiiHNsWo69g.gif)
-:::
-
-------------------------------------------------------------------------
-
-## Ohh, nuestros cerebos son hackables... {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: r-stack
-![](images/storytelling/sketplanation2.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
-
-![](images/storytelling/got.jpg){.fragment fig-align="center" width="100%"}
-:::
-
-------------------------------------------------------------------------
-
-## Atención y memoria {background-image="images/background.jpg" background-opacity="0.25"}
-
-<br>
-
-::: r-stack
-![](images/storytelling/pi.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
-
-![](images/storytelling/pi2.jpg){.fragment fig-align="center" width="100%"}
-:::
-
-------------------------------------------------------------------------
-
-## Narrativa {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="60%"}
 <br><br>
 
-Usa **trucos** de Storytelling (narrativa) para crear presentaciones que serán **recordadas** y que causarán **impacto**
+![](images/logo-long.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/logo-long.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/logo-long.png){.fragment fig-align="center" width="100%"}
 :::
 
-::: {.column .fragment width="40%"}
-![](images/emotions.png){fig-align="center"}
-:::
-:::
+------------------------------------------------------------------------
 
-. . .
+## Objetivos {background-image="images/background.jpg" background-opacity="0.25"}
 
+::: columns
+::: {.column width="40%"}
 ::: {style="text-align: center;"}
-🎭 Emociones inspiran acción
+<br>
+<img src="images/logo-vertical.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
 :::
 
-::: notes
-Great ideas need great communication.\
-Storytelling is your toolkit to move people.\
-Facts inform — emotions inspire action.
+::: {.column .incremental width="60%"}
+<br>
+
+
+* **Metodologías abiertas**: Uso de Quarto, Colab, Streamlit y GitHub para co-crear.
+* **Aprendizaje comunitario**: Talleres prácticos y espacios participativos.
+* **Hallazgos clave**: Resultados, retroalimentación y desafíos.
+* **Impacto social**: Educación abierta para reducir brechas de inequidad.
+
+
+:::
 :::
 
 ------------------------------------------------------------------------
 
-## Más que gráficos bonitos {background-image="images/background.jpg" background-opacity="0.25"}
+## Metodologías abiertas {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="50%"}
-![](images/dst_before.png){fig-align="center"} *🔢 No compartas números*
-:::
 
-::: {.column .fragment width="50%"}
-![](images/dst_after.png){fig-align="center"} *🪶Comparte una historia*
-:::
-:::
 
-. . .
+::: {.column .incremental width="60%"}
+<br>
 
-<br><br> [(C) Storytelling with Data, por Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
 
-------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+* **Herramientas abiertas**: Quarto, Colab, Streamlit y GitHub.
+* **Enfoque participativo**: Trabajo conjunto entre docentes y estudiantes.
+* **Aprender haciendo**: Ejercicios prácticos con Python.
+* **Retroalimentación**: Encuestas y diálogo tras cada taller.
 
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Storytelling principle #2
 
-Los detalles son importantes, [pero no **todos** los detalles son importantes.]{.fragment}
-:::
-:::
-
-::: notes
-Details guide attention.\
-Show less — but better.\
-Focus only on what moves the story forward.
-:::
-
-------------------------------------------------------------------------
-
-## Ejemplo: Spotify Wrapped {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column .fragment width="30%" fragment-index="1"}
-![](images/storytelling/spotify1.png){fig-align="center"}
-:::
-
-::: {.column .center width="40%"}
-<br><br> Cómo hacer millones de personas compartir estadísticas en redes sociales?
-:::
-
-::: {.column .fragment width="30%" fragment-index="1"}
-![](images/storytelling/spotify2.png){fig-align="center"}
-:::
-:::
-
-# Visualización {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
-
-------------------------------------------------------------------------
-
-## Visualización ... {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column .fragment width="60%"}
-<br><br>
-
--   Convierte datos en gráficos claros y legibles.\
--   Resalta patrones, tendencias y outliers.\
--   Elige el gráfico correcto para tu idea.
 :::
 
 ::: {.column width="40%"}
-![](images/viz/ojo.png){fig-align="center"}
+::: {style="text-align: center;"}
+<img src="images/logo-wide.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
-. . .
-
-> ⌛ Si no se entiende en 5-7 segundos, simplifica o cambia el título.
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-![](images/viz/tasks2.png){fig-align="center" width="65%"}
-
-------------------------------------------------------------------------
-
-## Ejemplos {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
-
-<br>
-
-::: columns
-::: {.column width="50%" style="text-align: center;"}
-![](images/viz/monster.jpg){fig-align="center" width="82%"}
-
-<br> *❌ Chartjunk*
 :::
 
-::: {.column .fragment width="50%" style="text-align: center;"}
-![](images/viz/viz_03.png){fig-align="center" width="100%"}
+---------------------
 
-*✅ Good Chart*
-:::
-:::
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Storytelling principle #3
-
-[Explicar Menos]{style="color: red"}, [Mostrar Más]{.fragment style="color: green"}
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Mejores Gráficos para tus Datos {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
-<br>
+::: {.fragment .fade-in-then-out}
+<iframe src="https://sethnut.com/ws-usm_uchile-2025/" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
-![](images/storytelling/plot1.png){.fragment .fade-in-then-out fig-align="left"}
-
-![](images/storytelling/plot2.png){.fragment fig-align="right"}
+</iframe>
 :::
 
-. . .
+::: {.fragment .fade-in-then-out}
+<iframe src="https://sethnut.com/talks/latex_2025/presentacion_emma.html#/title-slide" width="1200" height="700" frameborder="0" scrolling="no" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
-[(C) Essential chart types for data visualization, by Atlassian.]{style="font-size: 0.75em; color: gray"}
-
-::: notes
-You don’t need fancy charts.\
-Bar, scatter, box, heatmap, big text — that's 90% of data storytelling.\
-Simple wins.
+</iframe>
 :::
 
-# Inteligencia Artificial {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
+::: {.fragment }
+<iframe src="https://sethnut.com/resources/talks/es/2025-pyschool/index.html" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+:::
+
+----------------------------
+
+
+## Comentarios de los Participantes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+::: r-stack
+
+<br><br>
+
+![](images/logo-long.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/logo-long.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/logo-long.png){.fragment fig-align="center" width="100%"}
+:::
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+## Comentarios de los Participantes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
 <br><br>
 
 ::: columns
-::: {.column width="35%"}
-![](images/gh_before.png){.fragment fig-align="center"}
-:::
-
-::: {.column width="30%"}
-![](images/proceso.svg){.fragment fig-align="center" width="100%"}
-:::
-
-::: {.column width="35%"}
-![](images/gh_after.png){.fragment fig-align="center"}
+::: {.column .fragment width="50%"}
+::: {.callout-note title="Positivos"}
+-   Las actividades prácticas\
+-   La claridad de los temas\
+-   La dinámica del instructor\
+-   Los ejemplos planteados\
+-   Buen ambiente de aprendizaje
 :::
 :::
 
-. . .
-
-::: {style="text-align: center;"}
-🥱 1° version $<$ ... $<$ 😊 última version
+::: {.column .fragment width="50%"}
+::: {.callout-important title="Negativos"}
+-   El ritmo fue muy rápido\
+-   El contenido teórico extenso\
+-   Poco tiempo para preguntas\
+-   Necesidad de mayor profundidad\
+-   Instrucciones algo confusas
 :::
-
-::: notes
-First versions are never perfect.\
-Draft → feedback → improve.\
-Storytelling is an iterative process.
-:::
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Storytelling principle #4
-
-Tu primera versión será [**siempre** horrible.]{.fragment}
 :::
 :::
 
-::: notes
-Bad first drafts are normal.\
-Don’t aim for perfect — aim to start.\
-Refining comes later.
-:::
+-------------------------------------------------------
 
-------------------------------------------------------------------------
-
-## De las Ideas al Impacto ... con IA {background-image="images/background.jpg" background-opacity="0.25"}
+## Discusión {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column .fragment width="60%"}
+
+
+::: {.column .incremental width="60%"}
 <br>
 
--   Estructura más rápida, menos esfuerzo\
--   Historias más claras, mayor impacto\
--   Visuales en segundos\
--   Más tiempo para la creatividad
-:::
 
-::: {.column .fragment width="40%"}
-![](images/ai/choice.jpeg){fig-align="center"}
-:::
-:::
 
-. . .
+* **Educación abierta**: Fortalece el aprendizaje con herramientas libres.  
+* **Más que código**: Potencia confianza, creatividad y colaboración.  
+* **Reducción de brechas**: Acerca la programación a más comunidades.  
+* **Proyección**: Escalar experiencias a distintos contextos educativos.  
 
-> 🤖 **Tools**: [ChatGPT](https://openai.com/chatgpt/), [Gemini](https://deepmind.google/gemini/), [Napkin AI](https://www.napkin.one/), [Midjourney](https://www.midjourney.com/), [Bolt](https://bolt.new/)
 
-::: notes
-First drafts are messy — that’s normal.\
-AI helps you go from idea → clarity → impact much faster.\
-Less time stuck, more time creating.
-:::
 
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: r-stack
-![](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*_3AM0Yhc7qgCvZ_X1L8mhw.gif){.fragment .fade-in-then-out fig-align="center" width="80%"}
-
-![](https://aijourney.so/_next/image?url=https%3A%2F%2Faijourney-stores-prod.s3.ap-southeast-1.amazonaws.com%2Ftool-105%2F1726140585723-napkin-ai-review.gif&w=640&q=75){.fragment .fade-in-then-out fig-align="center" width="70%"}
-
-![](https://freight.cargo.site/w/1024/q/94/i/ade715581e7533554249adf217361ca30f527701ec402edd68c612055818f20a/infinite_text_v3.gif){.fragment .fade-in-then-out fig-align="center" width="60%"}
-
-![](https://miro.medium.com/v2/resize:fit:2000/1*1QYJswFs8FWN9zLcX3vIYg.gif){.fragment fig-align="center" width="95%"}
-:::
-
-------------------------------------------------------------------------
-
-## 🤖 Caso de Estudio {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {.callout-note title="Problemática"}
-Debes preparar un pitch rápido para gerencia a partir de un dataset de **ventas por región y trimestre**.\
-El reto es extraer la historia clave y comunicarla de manera clara y convincente.
-:::
-
-::: columns
-::: {.column .fragment .small width="60%"}
-<br>
-
--   **ChatGPT / Gemini** → genera un guion narrativo.\
--   **Napkin AI** → propone visualizaciones efectivas.\
--   **Midjourney** → crea una imagen de portada.\
--   **Bolt** → crea aplicativo (powerbi, python ,etc.).
 :::
 
 ::: {.column width="40%"}
-![](https://static.vecteezy.com/system/resources/previews/020/687/909/non_2x/mix-icon-for-problem-dilemma-complication-trouble-issue-obstacle-depression-mental-antidepressant-logo-symbol-shape-sign-logotype-icon-illustration-vector.jpg){fig-align="center"}
+::: {style="text-align: center;"}
+<img src="images/logo-wide.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
+
+:::
+
+
+
+
 
 # Conclusiones {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
 ------------------------------------------------------------------------
 
-## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
+## Conclusiones y Trabajos Futuros {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+<br>
 
 ::: incremental
-1.  Nunca reveles el [**final**]{.fragment style="color:grey;"}\
-2.  Los detalles son importantes, pero [no **todos** los detalles]{.fragment style="color:grey;"}\
-3.  Explica menos, [**muestra más**]{.fragment style="color:grey;"}\
-4.  Tu primer borrador será [**horrible**]{.fragment style="color:grey;"}\
+
+* **Más que técnica**: La educación abierta potencia confianza, creatividad y colaboración.
+* **Participación activa**: Metodologías abiertas generan motivación y sentido de comunidad.
+* **Brechas reducidas**: Facilitan el acceso a la programación en contextos escolares y universitarios.
+* **Camino a futuro**: Escalar estas experiencias fortalece la democratización del aprendizaje.
+
+
 :::
 
-::: notes
-A mysterious agenda — like a good story.
 
-Now you’ve seen how each point connects.
-
-Simple rules to tell better stories with data.
-:::
 
 ------------------------------------------------------------------------
 
@@ -475,7 +228,7 @@ Simple rules to tell better stories with data.
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_ne.png){width="400"}
+![](images/qr.png){width="400"}
 :::
 :::
 
