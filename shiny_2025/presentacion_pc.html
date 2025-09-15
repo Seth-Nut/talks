@@ -7,8 +7,8 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="Francisco Alfaro">
   <meta name="dcterms.date" content="2025-07-05">
@@ -97,7 +97,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -1177,7 +1177,7 @@ Design it with care — it’s part of the story.</p>
 “Do you like this presentation?”</p>
 <p>It may seem like a small question, but turning that into code requires defining categories, assigning values, choosing colors, and setting plot parameters.<br>
 And that’s just to get a basic bar chart.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-2"><a></a>categories <span class="op">=</span> [<span class="st">"Yes"</span>, <span class="st">"No"</span>]</span>
 <span id="cb1-3"><a></a>values <span class="op">=</span> [<span class="dv">75</span>, <span class="dv">25</span>]</span>
 <span id="cb1-4"><a></a>colors <span class="op">=</span> [<span class="st">"lightblue"</span>, <span class="st">"salmon"</span>]</span>
@@ -1185,7 +1185,7 @@ And that’s just to get a basic bar chart.</p>
 <span id="cb1-6"><a></a>plt.subplots_adjust(bottom<span class="op">=</span><span class="fl">0.25</span>, left<span class="op">=</span><span class="fl">0.2</span>)</span>
 <span id="cb1-7"><a></a>plt.bar(categories, values, color<span class="op">=</span>colors)</span>
 <span id="cb1-8"><a></a>plt.title(<span class="st">"😊 Do you like the presentation so far? 😊"</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
-<span id="cb1-9"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-9"><a></a>plt.show()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <div id="tabset-1-2">
 <div class="cell">
@@ -1321,11 +1321,11 @@ Focus on content, let Quarto handle the rest.</p>
 <p><br></p>
 <ol type="1">
 <li><p><a href="https://docs.r-wasm.org/webr/latest/">WebR</a>: Run R code in the browser, no installation required.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a></a><span class="co"># To install WebR in your environment</span></span>
-<span id="cb3-2"><a></a><span class="ex">remotes::install_github</span><span class="er">(</span><span class="st">"attiyap/WebR"</span><span class="kw">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a></a><span class="co"># To install WebR in your environment</span></span>
+<span id="cb3-2"><a></a><span class="ex">remotes::install_github</span><span class="er">(</span><span class="st">"attiyap/WebR"</span><span class="kw">)</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div></li>
 <li><p><a href="https://quarto.thecoatlessprofessor.com/pyodide/">Pyodide</a>: Same, but for Python.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a></a><span class="co"># To install Pyodide</span></span>
-<span id="cb4-2"><a></a><span class="ex">pip</span> install pyodide</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a></a><span class="co"># To install Pyodide</span></span>
+<span id="cb4-2"><a></a><span class="ex">pip</span> install pyodide</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div></li>
 </ol>
 </div><div class="column" style="width:41%;">
 <p><img data-src="images/quarto/pyodide.png"></p>
@@ -1781,7 +1781,7 @@ See you next time!</p>
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -1893,13 +1893,14 @@ See you next time!</p>
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
