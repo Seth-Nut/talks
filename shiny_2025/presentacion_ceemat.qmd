@@ -245,9 +245,13 @@ Focus only on what moves the story forward.
 ::: {.column .fragment width="60%"}
 <br><br>
 
--   Convierte datos en gráficos claros y legibles.\
--   Resalta patrones, tendencias y outliers.\
--   Elige el gráfico correcto para tu idea.
+
+* Gráficos claros y comprensibles.
+* Elección correcta del gráfico.
+* Patrones y anomalías visibles.
+* Datos complejos → ideas simples.
+
+
 :::
 
 ::: {.column width="40%"}

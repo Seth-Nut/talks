@@ -125,8 +125,7 @@ Use it well.
 
 ## El poder del qué y cómo visualizar {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-::: {align="center" .fragment}
+::: {.fragment align="center"}
 <iframe src="images/demo.html" width="1400" height="550" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;">
 
 </iframe>
@@ -246,9 +245,11 @@ Focus only on what moves the story forward.
 ::: {.column .fragment width="60%"}
 <br><br>
 
--   Convierte datos en gráficos claros y legibles.\
--   Resalta patrones, tendencias y outliers.\
--   Elige el gráfico correcto para tu idea.
+* Gráficos claros y comprensibles
+* Elección correcta del gráfico
+* Patrones y anomalías visibles
+* Datos complejos → ideas simples
+
 :::
 
 ::: {.column width="40%"}
@@ -258,7 +259,7 @@ Focus only on what moves the story forward.
 
 . . .
 
-> ⌛ Si no se entiende en 5-7 segundos, simplifica o cambia el título.
+> ⌛ Si no se entiende en 5-7 segundos, redefine el mensaje
 
 ------------------------------------------------------------------------
 
@@ -271,14 +272,10 @@ Focus only on what moves the story forward.
 . . .
 
 <br>
- 
-<div style="text-align:center; font-size:25px; font-family:sans-serif;">
-  <span style="color:green; font-weight:bold;">Más fácil de distinguir</span>
-  <span style="margin: 0 15px; font-size:18px; background: linear-gradient(to right, green, orange, red); -webkit-background-clip: text; color: transparent;">
-    ⟵────────────────────────────⟶
-  </span>
-  <span style="color:red; font-weight:bold;">Más difícil de distinguir</span>
-</div>
+
+::: {style="text-align:center; font-size:25px; font-family:sans-serif;"}
+[Más fácil de distinguir]{style="color:green; font-weight:bold;"} [ ⟵────────────────────────────⟶ ]{style="margin: 0 15px; font-size:18px; background: linear-gradient(to right, green, orange, red); -webkit-background-clip: text; color: transparent;"} [Más difícil de distinguir]{style="color:red; font-weight:bold;"}
+:::
 
 ------------------------------------------------------------------------
 

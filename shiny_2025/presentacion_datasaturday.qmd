@@ -125,7 +125,7 @@ Use it well.
 
 ## El poder del qué y cómo visualizar {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {align="center" .fragment}
+::: {align="center" .fragment>}
 <iframe src="images/demo.html" width="1400" height="550" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;">
 
 </iframe>
