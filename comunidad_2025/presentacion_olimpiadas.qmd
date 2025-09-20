@@ -23,7 +23,6 @@ filters:
 
 [<https://sethnut.com/talks>]{.custom-url}
 
-
 ## Belleza en matemáticas {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
@@ -39,29 +38,21 @@ filters:
 ## Objetivos {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.fragment style="text-align: center;"}
-![](images/objetivos2.svg){ width="100%"}
+![](images/objetivos2.svg){width="100%"}
 :::
 
-
-# <span style="font-size:65px">Demostraciones</span>   {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
-
+# [Demostraciones]{style="font-size:65px"} {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
 
 ## De lo imposible a lo evidente {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
-
 ::: {.column .incremental width="55%"}
 <br><br><br><br><br>
 
-
-
-* **Asombro** → *“¿Cómo puede ser cierto?”*
-* **Método** → *Aplicamos reglas simples y lógica.*
-* **Claridad** → *Lo que parecía magia se vuelve obvio.*
-* **Belleza** → *Descubrimos el placer de comprender.*
-
-
+-   **Asombro** → *“¿Cómo puede ser cierto?”*
+-   **Método** → *Aplicamos reglas simples y lógica.*
+-   **Claridad** → *Lo que parecía magia se vuelve obvio.*
+-   **Belleza** → *Descubrimos el placer de comprender.*
 :::
 
 ::: {.column width="45%"}
@@ -69,41 +60,24 @@ filters:
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Visual_proof_of_the_Pythagorean_theorem_by_area-preserving_shearing.gif" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 :::
 
 ------------------------------------------------------------------------
 
-##  Suma de Gauss  {background-image="images/background.jpg" background-opacity="0.25"}
-
-
+## Suma de Gauss {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
-
 ::: {.column .incremental width="55%"}
-
-<br>
-**Problema:** 
-$$
+<br> **Problema:** $$
 1 + 2 + 3 + \cdots + n
 $$
 
-
-- Escribe la suma dos vecesde la forma:
-  $$
-  S = 1+2+\cdots+(n-1)+n
-  $$
-  $$
-  S = n+(n-1)+\cdots+2+1
-  $$
-- Suma término a término: 
-  $$\Rightarrow 2S = n(n+1)$$
-  $$\Rightarrow  S = \frac{n(n+1)}{2}$$
-
-
-
-
+-   Escribe la suma dos vecesde la forma: $$
+    S = 1+2+\cdots+(n-1)+n
+    $$ $$
+    S = n+(n-1)+\cdots+2+1
+    $$
+-   Suma término a término: $$\Rightarrow 2S = n(n+1)$$ $$\Rightarrow  S = \frac{n(n+1)}{2}$$
 :::
 
 ::: {.column width="45%"}
@@ -113,73 +87,62 @@ $$
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzc1dWJwZ2EwaGJ5N3hhMTQwMm8ya29xN2VreWQ0cWg3emd5ejcybyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cRHgphdnVZMtRLZlT1/giphy.gif" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 :::
 
-## Suma de Gauss {background-image="images/background.jpg" background-opacity="0.25" }
+## Suma de Gauss {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br><br>
 
 ::: {.fragment style="text-align: center;"}
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Animated_proof_for_the_formula_giving_the_sum_of_the_first_integers_1%2B2%2B...%2Bn.gif/1200px-Animated_proof_for_the_formula_giving_the_sum_of_the_first_integers_1%2B2%2B...%2Bn.gif){ width="100%"}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Animated_proof_for_the_formula_giving_the_sum_of_the_first_integers_1%2B2%2B...%2Bn.gif/1200px-Animated_proof_for_the_formula_giving_the_sum_of_the_first_integers_1%2B2%2B...%2Bn.gif){width="100%"}
 :::
 
----------------------
+------------------------------------------------------------------------
 
-
-## ¿ números impares y los cuadrados? {background-image="images/background.jpg" background-opacity="0.25" }
+## ¿ números impares y los cuadrados? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.center .fragment}
-![](https://raw.githubusercontent.com/notesofdabbler/learn_gganimate/master/proof_without_words/figures/sum_of_odds.gif){ width="70%"}
+![](https://raw.githubusercontent.com/notesofdabbler/learn_gganimate/master/proof_without_words/figures/sum_of_odds.gif){width="70%"}
 :::
 
-## ¿ números impares y los cuadrados? {background-image="images/background.jpg" background-opacity="0.25" }
-
-
-
+## ¿ números impares y los cuadrados? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
-
 ::: {.column .incremental width="50%"}
-
 <br>
 
-:::{ style="text-align: center;" } 
+::: {style="text-align: center;"}
 $$
 1 + 3 + 5 + \dots + (2n-1) = n^2
 $$
 :::
 
-* **Ejemplos**: $1=1$, $1+3=4$, $1+3+5=9$, ...
-* Para $n$ se cumple, .... se cumplirá para $n+1$?
+-   **Ejemplos**: $1=1$, $1+3=4$, $1+3+5=9$, ...
+-   Para $n$ se cumple, .... se cumplirá para $n+1$?
 
-
-::: {.fragment}
+::: fragment
 $$
 1 + 3 + 5 + \cdots + (2n-1) + (2n+1)
 $$
-::: 
+:::
 
-::: {.fragment}
+::: fragment
 $$
 = n^2 + (2n+1) 
 $$
 :::
 
-::: {.fragment}
+::: fragment
 $$
 = n^2 + 2n + 1 
 $$
 :::
 
-::: {.fragment}
+::: fragment
 $$
 = (n+1)^2 
 $$
 :::
-
-
 :::
 
 ::: {.column width="50%"}
@@ -189,32 +152,22 @@ $$
 <img src="https://raw.githubusercontent.com/notesofdabbler/learn_gganimate/master/proof_without_words/figures/sum_of_odds.gif" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 :::
-
-
-
-
 
 # Olimpiadas {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
 
 ## Qué son las Olimpiadas {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
-
 ::: {.column .incremental width="60%"}
-
 <br>
 
-* Competencias de ingenio y creatividad.  
-* Problemas simples en apariencia, profundos en ideas.  
-* A nivel local, nacional e internacional (**IMO**).  
-  * Inició en 1959 en Rumanía (7 países).  
-  * Hoy reúne a más de 100 países.  
-  * Competencia más prestigiosa en el mundo.
-
-
+-   Competencias de ingenio y creatividad.\
+-   Problemas simples en apariencia, profundos en ideas.\
+-   A nivel local, nacional e internacional (**IMO**).
+    -   Inició en 1959 en Rumanía (7 países).\
+    -   Hoy reúne a más de 100 países.\
+    -   Competencia más prestigiosa en el mundo.
 :::
 
 ::: {.column width="40%"}
@@ -222,78 +175,58 @@ $$
 <img src="https://i.namu.wiki/i/9dCt14B_nBjEwvMutAI-OlDi7oNjKz9PUjcfqYWDrEZLPgdKP7qMiA7uvZI7bzUE86L3lG3Ky3Jy0JR-smFX6Q.gif" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 :::
 
-. . . 
+. . .
 
 > El profesor **Pawel Kröger** de la USM fue medallista en la IMO: **oro en 1972** y **plata en 1973**.
 
 ------------------------------------------------------------------------
 
-##  Ejemplos de Olimpiadas {background-image="images/background.jpg" background-opacity="0.25"}
-
+## Ejemplos de Olimpiadas {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 <br><br>
 
 ![](images/olimpiadas2.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
-
 ![](https://cemutfsm.wordpress.com/wp-content/uploads/2009/10/olimpiadas-matematicas.jpg){.fragment fig-align="center" width="70%"}
 :::
 
-
-
 ------------------------------------------------------------------------
 
-##  Pruebas de Ejemplos  {background-image="images/background.jpg" background-opacity="0.25"}
-
+## Pruebas de Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 ::: {.fragment .fade-in-then-out}
-
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/EmJoCxBww6aW1B?startSlide=1" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
 </iframe>
-
-
 :::
 
-
-
 ::: fragment
-
-
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/ccKVMGqsLxnKID?startSlide=1" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
 </iframe>
-
-
-
 :::
 :::
 
 ------------------------------------------------------------------------
 
-##  Trayectorias albas en un tablero 8×8  {background-image="images/background.jpg" background-opacity="0.25"}
+## Trayectorias albas en un tablero 8×8 {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
 ::: columns
-
-
 ::: {.column .fragment width="60%"}
 <br>
 
-En un tablero de ajedrez 8×8 (32 casillas blancas y 32 negras) llamaremos
-**trayectoria alba** a una secuencia de **8 casillas blancas**, una por fila,
-de modo que casillas consecutivas **se toquen en un vértice** (es decir, pasan
-de una fila a la siguiente en diagonal).  
+En un tablero de ajedrez 8×8 (32 casillas blancas y 32 negras) llamaremos **trayectoria alba** a una secuencia de **8 casillas blancas**, una por fila, de modo que casillas consecutivas **se toquen en un vértice** (es decir, pasan de una fila a la siguiente en diagonal).
 
-* **Ejemplo**: 
-  * la diagonal de casillas blancas es una trayectoria alba.  
+-   **Ejemplo**:
+    -   la diagonal de casillas blancas es una trayectoria alba.
 
 Determine cuántas trayectorias albas hay en total.
-
 :::
 
 ::: {.column width="40%"}
@@ -301,27 +234,23 @@ Determine cuántas trayectorias albas hay en total.
 <img src="images/chess.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 :::
 
 ------------------------------------------------------------------------
 
-##  Trayectorias albas en un tablero 8×8  {background-image="images/background.jpg" background-opacity="0.25"}
+## Trayectorias albas en un tablero 8×8 {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
 ::: columns
-
-
 ::: {.column .incremental width="40%"}
-
 <br> <br>
 
-* El problema pide poner una ficha en cada fila, tocando siempre a la de arriba en un vértice.
+-   El problema pide poner una ficha en cada fila, tocando siempre a la de arriba en un vértice.
 
-* Esto es como un **rey de ajedrez** que empieza en la fila 1 y baja hasta la fila 8, moviéndose solo **en diagonal** (↙ o ↘) por casillas blancas.
+-   Esto es como un **rey de ajedrez** que empieza en la fila 1 y baja hasta la fila 8, moviéndose solo **en diagonal** (↙ o ↘) por casillas blancas.
 
-* Para contar los caminos posibles usamos **programación dinámica**, sumando paso a paso cuántas formas hay de llegar a cada casilla.
+-   Para contar los caminos posibles usamos **programación dinámica**, sumando paso a paso cuántas formas hay de llegar a cada casilla.
 :::
 
 ::: {.column width="60%"}
@@ -329,111 +258,87 @@ Determine cuántas trayectorias albas hay en total.
 <img src="images/tablero.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 :::
+
 ------------------------------------------------------------------------
 
-
-##  Pirámide de Naranjas {background-image="images/background.jpg" background-opacity="0.25"}
+## Pirámide de Naranjas {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
-
 ::: {.column .fragment width="65%"}
 <br>
 
-Se tienen **680 naranjas** apiladas en una **pirámide triangular**.
-¿Cuántas naranjas hay en la **base** de la pirámide?
+Se tienen **680 naranjas** apiladas en una **pirámide triangular**. ¿Cuántas naranjas hay en la **base** de la pirámide?
 
-* **Hints**
+-   **Hints**
 
-  * Una **pirámide triangular** se forma apilando triángulos: el nivel de abajo tiene $n$ naranjas por lado, el siguiente $n-1$, y así hasta llegar a la punta.
-  * La **suma de los primeros $n$ números** es:
+    -   Una **pirámide triangular** se forma apilando triángulos: el nivel de abajo tiene $n$ naranjas por lado, el siguiente $n-1$, y así hasta llegar a la punta.
+    -   La **suma de los primeros** $n$ números es:
 
-   $$
-    1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}
     $$
-  * La **suma de los primeros $n$ cuadrados** es:
+      1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}
+      $$
 
-   $$
-    1^2 + 2^2 + 3^2 + \cdots + n^2 = \frac{n(n+1)(2n+1)}{6}
+    -   La **suma de los primeros** $n$ cuadrados es:
+
     $$
-
-
-
+      1^2 + 2^2 + 3^2 + \cdots + n^2 = \frac{n(n+1)(2n+1)}{6}
+      $$
 :::
 
 ::: {.column width="35%"}
-
 <br>
 
 ::: {style="text-align: center;"}
 <img src="images/oranges.png" style="width:100%; height:550px; border-radius:10px;"/>
 :::
 :::
-
 :::
 
 ------------------------------------------------------------------------
 
-##  Pirámide de Naranjas {background-image="images/background.jpg" background-opacity="0.25"}
+## Pirámide de Naranjas {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column .fragment width="55%"}
-
 <br>
 
-* En la base hay un **triángulo de lado $n$** con $\displaystyle \frac{n(n+1)}{2}$ naranjas.
+-   En la base hay un **triángulo de lado** $n$ con $\displaystyle \frac{n(n+1)}{2}$ naranjas.
 
-* Una **pirámide triangular** es la suma de todos esos triángulos desde $1$ hasta $n$. Eso equivale a:
-  $$
-  \sum_{i=1}^n \frac{i(i+1)}{2} = \frac{1}{2} \sum_{i=1}^n (i+i^2) = \frac{n(n+1)(n+2)}{6}
-  $$
-
+-   Una **pirámide triangular** es la suma de todos esos triángulos desde $1$ hasta $n$. Eso equivale a: $$
+    \sum_{i=1}^n \frac{i(i+1)}{2} = \frac{1}{2} \sum_{i=1}^n (i+i^2) = \frac{n(n+1)(n+2)}{6}
+    $$
 :::
 
 ::: {.column .fragment width="45%"}
-
 <br>
 
-* Planteamos la ecuación:
+-   Planteamos la ecuación:
 
-  $$
-  \frac{n(n+1)(n+2)}{6} = 680 \rightarrow n = 15
-  $$
+    $$
+    \frac{n(n+1)(n+2)}{6} = 680 \rightarrow n = 15
+    $$
 
-* Entonces, en la base hay: $\displaystyle  \frac{15 \times 16}{2} = 120$ naranjas.
-
+-   Entonces, en la base hay: $\displaystyle  \frac{15 \times 16}{2} = 120$ naranjas.
 :::
-
 :::
 
 ::: {style="text-align: center;"}
 <img src="images/piramide2.png" style="width:70%; border-radius:10px;"/>
 :::
 
+# Problemas Sin Resolver {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
-
-
-# Problemas Sin Resolver  {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
-
-## Problemas sin resolver en matemáticas  {background-image="images/background.jpg" background-opacity="0.25"}
+## Problemas sin resolver en matemáticas {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
-
 ::: {.column .incremental width="60%"}
 <br>
 
-
-- La matemática no tiene todas las respuestas.  Existen **preguntas abiertas** desde hace siglos. 
-- Ejemplos famosos:  
-  - Hipótesis de Riemann,Conjetura de Poincaré 
-  - P vs NP, Navier–Stokes, Conjetura de Hodge, Birch y Swinnerton–Dyer, Yang–Mills  
-
-
-
-
+-   La matemática no tiene todas las respuestas. Existen **preguntas abiertas** desde hace siglos.
+-   Ejemplos famosos:
+    -   Hipótesis de Riemann,Conjetura de Poincaré
+    -   P vs NP, Navier–Stokes, Conjetura de Hodge, Birch y Swinnerton–Dyer, Yang–Mills
 :::
 
 ::: {.column width="40%"}
@@ -441,7 +346,6 @@ Se tienen **680 naranjas** apiladas en una **pirámide triangular**.
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/RiemannZeta_Zeros.svg/2349px-RiemannZeta_Zeros.svg.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 :::
 
 . . .
@@ -450,25 +354,20 @@ Se tienen **680 naranjas** apiladas en una **pirámide triangular**.
 
 ------------------------------------------------------------------------
 
-## Conceptos Claves  {background-image="images/background.jpg" background-opacity="0.25"}
+## Conceptos Claves {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
-
 ::: {.column .incremental width="60%"}
 <br>
 
+-   **Conjetura** → Creemos que es verdad, falta probar.\
+    Ej: Goldbach (*todo par \> 2 es suma de dos primos*).
 
-- **Conjetura** → Creemos que es verdad, falta probar.  
-  Ej: Goldbach (*todo par > 2 es suma de dos primos*).  
+-   **Problema abierto** → Una gran pregunta sin respuesta.\
+    Ej: P vs NP (*¿resolver rápido = verificar rápido?*).
 
-- **Problema abierto** → Una gran pregunta sin respuesta.  
-  Ej: P vs NP (*¿resolver rápido = verificar rápido?*).  
-
-- **Hipótesis de trabajo** → Supuesto útil, sin rigor formal aún.  
-  Ej: Yang–Mills (*existe un “gap de masa”*).
-
-
+-   **Hipótesis de trabajo** → Supuesto útil, sin rigor formal aún.\
+    Ej: Yang–Mills (*existe un “gap de masa”*).
 :::
 
 ::: {.column width="40%"}
@@ -476,35 +375,27 @@ Se tienen **680 naranjas** apiladas en una **pirámide triangular**.
 <img src="https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/2/26/Mug_and_Torus_morph.gif" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 :::
 
-. . . 
+. . .
 
->  existen *miles* de problemas abiertos en diversas ramas, algunos muy conocidos y otros más especializados en nichos de investigación.
+> existen *miles* de problemas abiertos en diversas ramas, algunos muy conocidos y otros más especializados en nichos de investigación.
 
 ## ¿Cómo nos apoya la computación? {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-
 ::: columns
-
-
 ::: {.column .incremental width="60%"}
 <br>
 
+-   **Explora masivamente** millones de casos rápido.
 
-- **Explora masivamente** millones de casos rápido.
-  
-- **Detecta patrones** en tablas, gráficos y relaciones.
-  
-- **Encuentra contraejemplos** con facilidad.
-  
-- **Prototipa ideas**: del código a la evidencia en minutos.
+-   **Detecta patrones** en tablas, gráficos y relaciones.
 
+-   **Encuentra contraejemplos** con facilidad.
 
-
+-   **Prototipa ideas**: del código a la evidencia en minutos.
 :::
 
 ::: {.column width="40%"}
@@ -512,20 +403,16 @@ Se tienen **680 naranjas** apiladas en una **pirámide triangular**.
 <img src="https://cdn.dribbble.com/userupload/21936723/file/original-4601804b8045ce5ed211624f5092eee8.gif" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 :::
 
-. . . 
+. . .
 
 > Veamos algunos ejemplos de problemas abiertos en diversas ramas!
 
 ## Primos de Mersenne {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-
 ::: columns
 ::: {.column width="40%"}
-
 ```{pyodide-python}
 # numeros primos
 def es_primo(n: int) -> bool:
@@ -546,7 +433,6 @@ def es_primo(n: int) -> bool:
 def mersenne(p: int) -> int:
     return 2**p - 1
 ```
-
 :::
 
 ::: {.column width="60%"}
@@ -557,7 +443,6 @@ for p in exponentes:
     M = 2**p - 1
     print(f"p={p:2d} → M_p={M} → {'PRIMO' if es_primo(M) else 'compuesto'}")
 ```
-
 :::
 :::
 
@@ -583,13 +468,11 @@ seq = collatz_trayectoria(n)
 print(f"{n} → {seq}\nlongitud: {len(seq)}")
 ```
 
-
 # Conclusiones {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
 ------------------------------------------------------------------------
 
-## Aprendizajes  {background-image="images/background.jpg" background-opacity="0.25"}
-
+## Aprendizajes {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
@@ -600,7 +483,7 @@ print(f"{n} → {seq}\nlongitud: {len(seq)}")
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-1_4.png){width="50px" fig-alt="Un cuadrante del logo de Quarto."}  <br> **La matemática es arte**<br> sus demostraciones muestran belleza y patrones ocultos.  
+![](images/horst_quarto_ball-1_4.png){width="50px" fig-alt="Un cuadrante del logo de Quarto."} <br> **La matemática es arte**<br> sus demostraciones muestran belleza y patrones ocultos.
 :::
 :::
 :::
@@ -611,7 +494,7 @@ print(f"{n} → {seq}\nlongitud: {len(seq)}")
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Dos cuadrantes del logo de Quarto."}  <br> **Los problemas nos entrenan**<br> retos de olimpiadas enseñan ingenio y razonamiento creativo.
+![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Dos cuadrantes del logo de Quarto."} <br> **Los problemas nos entrenan**<br> retos de olimpiadas enseñan ingenio y razonamiento creativo.
 :::
 :::
 :::
@@ -627,8 +510,7 @@ print(f"{n} → {seq}\nlongitud: {len(seq)}")
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-3_4.png){width="50px" fig-alt="Tres cuadrantes del logo de Quarto."} <br> **Las conjeturas nos inspiran**<br> misterios como Collatz recuerdan preguntas siempre abiertas.   
-
+![](images/horst_quarto_ball-3_4.png){width="50px" fig-alt="Tres cuadrantes del logo de Quarto."} <br> **Las conjeturas nos inspiran**<br> misterios como Collatz recuerdan preguntas siempre abiertas.
 :::
 :::
 :::
@@ -639,8 +521,7 @@ print(f"{n} → {seq}\nlongitud: {len(seq)}")
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-4_4.png){width="50px" fig-alt="Cuatro cuadrantes del logo de Quarto."}  <br> **Disfrutar el proceso**<br> explorar, equivocarse y maravillarse da sentido a pensar.  
-
+![](images/horst_quarto_ball-4_4.png){width="50px" fig-alt="Cuatro cuadrantes del logo de Quarto."} <br> **Disfrutar el proceso**<br> explorar, equivocarse y maravillarse da sentido a pensar.
 :::
 :::
 :::
@@ -649,12 +530,11 @@ print(f"{n} → {seq}\nlongitud: {len(seq)}")
 :::
 :::
 
-
 ------------------------------------------------------------------------
 
 ## 🎉 ¡Que Comiencen las Olimpiadas! {background-image="images/background.jpg" background-opacity="0.25" data-state="no-logo"}
 
-:::{style="text-align: center;"}
+::: {style="text-align: center;"}
 ![](https://upload.wikimedia.org/wikipedia/commons/2/2e/Antorcha_Ol%C3%ADmpica.svg){width="400"}
 :::
 

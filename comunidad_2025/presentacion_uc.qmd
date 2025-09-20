@@ -28,13 +28,12 @@ editor: visual
 
 [<https://sethnut.com/talks>]{.custom-url}
 
-## <span style="font-size:50px">Integridad académica y educación superior</span>  {background-image="images/background.jpg" background-opacity="0.25"}  
+## [Integridad académica y educación superior]{style="font-size:50px"} {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
-
 <br><br>
 
-![](images/logo-long.png){.fragment .fade-in-then-out fig-align="center" width="100%"} 
+![](images/logo-long.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
 ![](images/logo-long.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
@@ -48,50 +47,32 @@ editor: visual
 ::: columns
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<br>
-<img src="images/logo-vertical.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+<br> <img src="images/logo-vertical.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
 ::: {.column .incremental width="60%"}
 <br>
 
-
-
-
-* **Metodologías abiertas**: Integrar Quarto, Colab, GitHub y Streamlit.
-* **IA ética**: Fomentar pensamiento crítico y un uso responsable de la IA.
-* **Práctica aplicada**: Talleres, evaluaciones dinámicas y retroalimentación constante.
-* **Propósito educativo**: Promover integridad académica y reducir inequidades.
-
-
-
-
-
-
+-   **Metodologías abiertas**: Integrar Quarto, Colab, GitHub y Streamlit.
+-   **IA ética**: Fomentar pensamiento crítico y un uso responsable de la IA.
+-   **Práctica aplicada**: Talleres, evaluaciones dinámicas y retroalimentación constante.
+-   **Propósito educativo**: Promover integridad académica y reducir inequidades.
 :::
 :::
-
 
 # OpenSource {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
-
 
 ## Herramientas abiertas como aliadas {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
-
 ::: {.column .incremental width="60%"}
 <br>
 
-
-
-* **Herramientas abiertas**: Quarto, Colab, Streamlit y GitHub.
-* **Enfoque participativo**: Trabajo conjunto entre docentes y estudiantes.
-* **Aprender haciendo**: Ejercicios prácticos con Python.
-* **Retroalimentación**: Encuestas y diálogo tras cada taller.
-
-
+-   **Herramientas abiertas**: Quarto, Colab, Streamlit y GitHub.
+-   **Enfoque participativo**: Trabajo conjunto entre docentes y estudiantes.
+-   **Aprender haciendo**: Ejercicios prácticos con Python.
+-   **Retroalimentación**: Encuestas y diálogo tras cada taller.
 :::
 
 ::: {.column width="40%"}
@@ -99,11 +80,9 @@ editor: visual
 <img src="images/logo-wide.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 :::
 
----------------------
-
+------------------------------------------------------------------------
 
 ::: r-stack
 ::: {.fragment .fade-in-then-out}
@@ -118,18 +97,16 @@ editor: visual
 </iframe>
 :::
 
-::: {.fragment }
+::: fragment
 <iframe src="https://sethnut.com/resources/talks/es/2025-pyschool/index.html" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 :::
 :::
 
---------
+------------------------------------------------------------------------
 
-
-
-# <span style="font-size:60px">Inteligencia Artificial</span>  {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
+# [Inteligencia Artificial]{style="font-size:60px"} {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -187,11 +164,10 @@ Refining comes later.
 ::: {.column .fragment width="60%"}
 <br>
 
-- **Riesgos**: plagio, falta de reflexión  
-- **Oportunidades**: pensamiento crítico, ética   
-- **Usos**: apoyo al estudio, punto de partida  
-- **Docencia**: reglas claras y uso legítimo  
-  
+-   **Riesgos**: plagio, falta de reflexión\
+-   **Oportunidades**: pensamiento crítico, ética\
+-   **Usos**: apoyo al estudio, punto de partida\
+-   **Docencia**: reglas claras y uso legítimo
 :::
 
 ::: {.column .fragment width="40%"}
@@ -202,9 +178,6 @@ Refining comes later.
 . . .
 
 > 🤖 **Tools**: [ChatGPT](https://openai.com/chatgpt/), [Gemini](https://deepmind.google/gemini/), [Napkin AI](https://www.napkin.one/), [Midjourney](https://www.midjourney.com/), [Bolt](https://bolt.new/)
-
-
-
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -218,19 +191,15 @@ Refining comes later.
 ![](https://miro.medium.com/v2/resize:fit:2000/1*1QYJswFs8FWN9zLcX3vIYg.gif){.fragment fig-align="center" width="95%"}
 :::
 
-
 ## IA: Desafío y oportunidad {background-image="images/background.jpg" background-opacity="0.25"}
 
-:::{.fragment .center}
-<div style="margin-top:-20px;">
+::: {.fragment .center}
+::: {style="margin-top:-20px;"}
 ![](images/nk_01.svg){fig-align="center" width="100%"}
-</div>
+:::
 :::
 
-
-
-# Metodología  {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
-
+# Metodología {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
 ## Quiz {.quiz-question}
 
@@ -243,8 +212,7 @@ Refining comes later.
 -   Tal vez podría mejorar 🙂\
 -   No me gustó mucho 😕
 
-
--------------------------
+------------------------------------------------------------------------
 
 ## Códigos
 
@@ -259,9 +227,7 @@ plt.title("¿Te ha gustado la presentación?", fontsize=11)
 plt.show()
 ```
 
-
 ## Interactividad
-
 
 ```{shinylive-python}
 #| standalone: true
@@ -313,13 +279,11 @@ app = App(app_ui, server)
 
 ```
 
-
 ------------------------------------------------------------------------
 
 ## Comentarios de los Participantes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
 ::: r-stack
-
 <br><br>
 
 ![](images/logo-long.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
@@ -357,25 +321,18 @@ app = App(app_ui, server)
 :::
 :::
 
--------------------------------------------------------
+------------------------------------------------------------------------
 
 ## Discusión {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-
-
 ::: {.column .incremental width="60%"}
 <br>
 
-
-
-* **Integridad**: Más que evitar trampas, es construir confianza académica.
-* **IA**: Usarla como apoyo crítico y responsable, no como reemplazo.
-* **Herramientas abiertas**: Transparencia y colaboración en la enseñanza.
-* **Proyección**: Llevar estas prácticas a más universidades y comunidades.
-
-
-
+-   **Integridad**: Más que evitar trampas, es construir confianza académica.
+-   **IA**: Usarla como apoyo crítico y responsable, no como reemplazo.
+-   **Herramientas abiertas**: Transparencia y colaboración en la enseñanza.
+-   **Proyección**: Llevar estas prácticas a más universidades y comunidades.
 :::
 
 ::: {.column width="40%"}
@@ -383,12 +340,7 @@ app = App(app_ui, server)
 <img src="images/logo-wide.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 :::
-
-
-
-
 
 # Conclusiones {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
@@ -396,18 +348,14 @@ app = App(app_ui, server)
 
 ## Conclusiones y Trabajos Futuros {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 <br>
 
 ::: incremental
-
-* **Más que técnica**: La integridad académica se vive en la práctica.  
-* **Participación activa**: Metodologías abiertas fortalecen motivación.  
-* **Brechas reducidas**: Herramientas libres amplían acceso y equidad.  
-* **Camino a futuro**: Escalar estas experiencias en educación superior. 
+-   **Más que técnica**: La integridad académica se vive en la práctica.\
+-   **Participación activa**: Metodologías abiertas fortalecen motivación.\
+-   **Brechas reducidas**: Herramientas libres amplían acceso y equidad.\
+-   **Camino a futuro**: Escalar estas experiencias en educación superior.
 :::
-
-
 
 ------------------------------------------------------------------------
 

@@ -1,0 +1,299 @@
+---
+pagetitle: "Datastorytelling + A.I."
+author: 
+  - Francisco Alfaro
+  - Valeska Canales
+date: 08 oct 2025
+format: 
+  revealjs:
+    theme: style3.scss
+    transition: fade
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    logo: images/sochedi.png
+filters:
+  - quarto-ext/shinylive
+revealjs-plugins:
+  - quiz
+editor: visual
+---
+
+##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/portada3.svg" data-state="no-logo"}
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: r-stack
+![](images/lye-datos.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](https://www.tonybates.ca/wp-content/uploads/Innovation-in-education-Harvard.png){.fragment .fade-in-then-out fig-align="center" width="85%"}
+
+![](images/horst-quarto-meteor-transparent.png){.fragment fig-align="center" width="100%"}
+:::
+
+------------------------------------------------------------------------
+
+## Objetivos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="35%"}
+::: {style="text-align: center;"}
+<br> <img src="images/logo-vertical.png" alt="Tachado" style="width: 100%; height: 350px; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="65%"}
+<br><br>
+
+-   **Metodología**: IA y tecnologías abiertas.
+-   **Escalabilidad**: Replicable en otras normativas.
+-   **Experiencia**: Transferible a distintos talleres.
+-   **Reproducibilidad**: Gracias al opensource.
+:::
+:::
+
+# Metodología {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br><br>
+
+::: {style="text-align: center;"}
+<img src="images/tools.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+
+<br>
+
+::: columns
+::: {.column .fragment width="50%"}
+-   **Herramientas abiertas**: Quarto, Colab, Streamlit y GitHub.
+-   **Enfoque participativo**: Trabajo entre docentes y estudiantes.
+:::
+
+::: {.fragment .column width="50%"}
+-   **Aprender haciendo**: Ejercicios prácticos con Python.
+-   **Retroalimentación**: Encuestas y diálogo tras cada taller.
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+<br><br>
+
+::: {style="text-align: center;"}
+<img src="images/metodologia2.png" alt="Tachado" style="width: 1200px; height: 500px; border-radius: 10px;"/>
+:::
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: r-stack
+::: fade-in-then-out
+<iframe src="https://sethnut.com/st_proteccion_datos/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fragment
+<iframe src="https://ley-datos-personales.streamlit.app/?embed=true" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+:::
+
+# [Experiencia Similares]{style="font-size:60px"} {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+::: {style="text-align: center;"}
+<img src="images/experiencias.svg" alt="Tachado" style="width: 1300px; height: 700px; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+<br>
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+<iframe src="https://sethnut.com/talks/latex_2025/presentacion_emma.html#/title-slide" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fade-in-then-out
+<iframe src="https://sethnut.com/ws-usm_uchile-2025/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fragment
+<iframe src="https://sebastiandres.github.io/pyschool_2025/space_station/rooms/sala_00.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+<br>
+
+<iframe src="images/mystory3.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+
+------------------------------------------------------------------------
+
+## Comentarios de los Participantes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+<br><br>
+
+::: columns
+::: {.column .fragment width="50%"}
+::: {.callout-note title="Positivos"}
+-   Las actividades prácticas\
+-   La claridad de los temas\
+-   La dinámica del instructor\
+-   Los ejemplos planteados\
+-   Buen ambiente de aprendizaje
+:::
+:::
+
+::: {.column .fragment width="50%"}
+::: {.callout-important title="Negativos"}
+-   El ritmo fue muy rápido\
+-   El contenido teórico extenso\
+-   Poco tiempo para preguntas\
+-   Necesidad de mayor profundidad\
+-   Instrucciones algo confusas
+:::
+:::
+:::
+
+# Conclusiones {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
+
+------------------------------------------------------------------------
+
+## [Conclusiones e impacto en la educación]{style="font-size:50px"} {background-image="images/background.jpg" background-size="cover" background-position="center" background-opacity="0.25" transition="zoom"}
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-1_4.png){width="50px" fig-alt="Un cuadrante del logo de Quarto."} <br> **Metodología**: IA + tecnologías abiertas.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Dos cuadrantes del logo de Quarto."} <br> **Escalabilidad**: Replicable en otras leyes.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-3_4.png){width="50px" fig-alt="Tres cuadrantes del logo de Quarto."} <br> **Experincia**: Replicable en otros talleres.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-4_4.png){width="50px" fig-alt="Cuatro cuadrantes del logo de Quarto."} <br> **Reproducibilidad**: gracias al opensource.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓ ¿Preguntas?
+
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSeE5DCVB9ibIVj_v7y6Kh_57tJ257bgBX6WN8HI1o_4Gy9C1w/viewform?usp=dialog)
+
+🥳 Disfrutar del Evento!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr.png){width="400"}
+:::
+:::
+
+> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+
+}
+
+.reveal .slide-logo {
+   max-height: 2.5sem !important;
+
+}
+
+</style>
+```
