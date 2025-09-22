@@ -252,10 +252,27 @@ Determine cuántas trayectorias albas hay en total.
 
 ## Trayectorias albas en un tablero 8×8 {background-image="images/background.jpg" background-opacity="0.25"}
 
+<br><br>
+
+::: r-stack
+![](images/t1.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/t2.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/t3.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/t4.png){.fragment fig-align="center" width="100%"}
+:::
+
+
+--------------------------------------------------
+
+## Trayectorias albas en un tablero 8×8 {background-image="images/background.jpg" background-opacity="0.25"}
+
 <br>
 
 ::: columns
-::: {.column .incremental width="40%"}
+::: {.column .fragment width="40%"}
 <br> <br>
 
 -   El problema pide poner una ficha en cada fila, tocando siempre a la de arriba en un vértice.
@@ -265,12 +282,26 @@ Determine cuántas trayectorias albas hay en total.
 -   Para contar los caminos posibles usamos **programación dinámica**, sumando paso a paso cuántas formas hay de llegar a cada casilla.
 :::
 
-::: {.column width="60%"}
-::: {style="text-align: center;"}
-<img src="images/tablero.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+::: {.column .incremental width="60%"}
+
+::: r-stack
+![](images/t1.png){.fragment .fade-in-then-out fig-align="center" width="930px" height="540px"}
+
+![](images/t11.png){.fragment .fade-in-then-out fig-align="center" width="930px" height="540px"}
+
+![](images/t12.png){.fragment .fade-in-then-out fig-align="center" width="930px" height="540px"}
+
+![](images/t13.png){.fragment .fade-in-then-out fig-align="center" width="930px" height="540px"}
+
+![](images/t14.png){.fragment fig-align="center" width="930px" height="540px"}
+::: 
+
 :::
 :::
-:::
+
+. . .
+
+> ✅ **Solución:** 296 trayectorias albas
 
 ------------------------------------------------------------------------
 
@@ -417,13 +448,10 @@ Gran pregunta sin respuesta aún.<br>
 ::: {.column .incremental width="60%"}
 <br>
 
--   **Explora masivamente** millones de casos rápido.
-
--   **Detecta patrones** en tablas, gráficos y relaciones.
-
--   **Encuentra contraejemplos** con facilidad.
-
--   **Prototipa ideas**: del código a la evidencia en minutos.
+* **Explora masivamente** millones de casos rápido.
+* **Detecta patrones** en tablas, gráficos y relaciones.
+* **Encuentra contraejemplos** con facilidad.
+* **Prototipa ideas**: del código a la evidencia en minutos.
 :::
 
 ::: {.column width="40%"}
@@ -491,7 +519,6 @@ Toma cualquier número entero positivo $n$:
 
 - Si es **par**, divide entre 2
 - Si es **impar**, multiplica por 3 y suma 1
-
 
 ::: fragment
 ```{pyodide-python}
