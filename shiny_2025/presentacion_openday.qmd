@@ -10,7 +10,7 @@ format:
     transition: fade
     title-slide-attributes: 
       data-background-image: images/background.jpg
-    logo: images/openday.png
+    logo: images/openday2.png
 filters:
   - quarto-ext/shinylive
 ---
@@ -82,7 +82,7 @@ Nunca revelar el final antes de tiempo.\
 ## Qué es Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="50%"}
+::: {.column .fragment width="50%"}
 ![](images/cave.jpg){fig-align="center" width="90%"}
 :::
 
@@ -125,8 +125,7 @@ Use it well.
 
 ## El poder del qué y cómo visualizar {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-::: {align="center" .fragment}
+::: {.fragment align="center"}
 <iframe src="images/demo.html" width="1400" height="550" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;">
 
 </iframe>
@@ -218,23 +217,7 @@ Show less — but better.\
 Focus only on what moves the story forward.
 :::
 
-------------------------------------------------------------------------
 
-## Ejemplo: Spotify Wrapped {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column .fragment width="30%" fragment-index="1"}
-![](images/storytelling/spotify1.png){fig-align="center"}
-:::
-
-::: {.column .center width="40%"}
-<br><br> Cómo hacer millones de personas compartir estadísticas en redes sociales?
-:::
-
-::: {.column .fragment width="30%" fragment-index="1"}
-![](images/storytelling/spotify2.png){fig-align="center"}
-:::
-:::
 
 # Visualización {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
 
@@ -246,9 +229,11 @@ Focus only on what moves the story forward.
 ::: {.column .fragment width="60%"}
 <br><br>
 
--   Convierte datos en gráficos claros y legibles.\
--   Resalta patrones, tendencias y outliers.\
--   Elige el gráfico correcto para tu idea.
+* Gráficos claros y comprensibles
+* Elección correcta del gráfico
+* Patrones y anomalías visibles
+* Datos complejos → ideas simples
+
 :::
 
 ::: {.column width="40%"}
@@ -258,7 +243,7 @@ Focus only on what moves the story forward.
 
 . . .
 
-> ⌛ Si no se entiende en 5-7 segundos, simplifica o cambia el título.
+> ⌛ Si no se entiende en 5-7 segundos, redefine el mensaje
 
 ------------------------------------------------------------------------
 
@@ -271,14 +256,10 @@ Focus only on what moves the story forward.
 . . .
 
 <br>
- 
-<div style="text-align:center; font-size:25px; font-family:sans-serif;">
-  <span style="color:green; font-weight:bold;">Más fácil de distinguir</span>
-  <span style="margin: 0 15px; font-size:18px; background: linear-gradient(to right, green, orange, red); -webkit-background-clip: text; color: transparent;">
-    ⟵────────────────────────────⟶
-  </span>
-  <span style="color:red; font-weight:bold;">Más difícil de distinguir</span>
-</div>
+
+::: {style="text-align:center; font-size:25px; font-family:sans-serif;"}
+[Más fácil de distinguir]{style="color:green; font-weight:bold;"} [ ⟵────────────────────────────⟶ ]{style="margin: 0 15px; font-size:18px; background: linear-gradient(to right, green, orange, red); -webkit-background-clip: text; color: transparent;"} [Más difícil de distinguir]{style="color:red; font-weight:bold;"}
+:::
 
 ------------------------------------------------------------------------
 
@@ -484,13 +465,13 @@ Simple rules to tell better stories with data.
 
 ❓ ¿Preguntas?
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSeE5DCVB9ibIVj_v7y6Kh_57tJ257bgBX6WN8HI1o_4Gy9C1w/viewform?usp=dialog)
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSf6Tj07r8sKbnK54TccNoTCe0BWaSWaXX0EA1u5qCNuWnJtwA/viewform?usp=dialog)
 
 🥳 Disfrutar del Curso!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_ne.png){width="400"}
+![](images/qr-openday.png){width="400"}
 :::
 :::
 
@@ -526,7 +507,7 @@ Simple rules to tell better stories with data.
 }
 
 .reveal .slide-logo {
-   max-height: 2.5em !important;
+   max-height: 3em !important;
 
 }
 

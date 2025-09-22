@@ -1,5 +1,5 @@
 ---
-pagetitle: "La belleza de las demostraciones"
+pagetitle: "La belleza de las demostracdiones"
 format: 
   revealjs:
     theme: style2.scss
@@ -77,7 +77,15 @@ $$
     $$ $$
     S = n+(n-1)+\cdots+2+1
     $$
--   Suma término a término: $$\Rightarrow 2S = n(n+1)$$ $$\Rightarrow  S = \frac{n(n+1)}{2}$$
+
+-   $$\Rightarrow 2S = (n+1) + (n+1) + \cdots + (n+1)$$
+-   $\Rightarrow 2S = n(n+1)$
+  
+
+::: {.fragment}
+$$ \displaystyle S = \frac{n(n+1)}{2}$$
+:::
+
 :::
 
 ::: {.column width="45%"}
@@ -195,21 +203,25 @@ $$
 
 ------------------------------------------------------------------------
 
-## Pruebas de Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 ::: {.fragment .fade-in-then-out}
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/EmJoCxBww6aW1B?startSlide=1" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/ccKVMGqsLxnKID?startSlide=1" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 :::
 
 ::: fragment
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/ccKVMGqsLxnKID?startSlide=1" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/EmJoCxBww6aW1B?startSlide=1" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 :::
 :::
+
+. . . 
+
+> 👉 En la IMO 1988, el famoso problema 6 dio a Terence Tao solo 1/7 puntos.
 
 ------------------------------------------------------------------------
 
@@ -329,57 +341,73 @@ Se tienen **680 naranjas** apiladas en una **pirámide triangular**. ¿Cuántas 
 
 # Problemas Sin Resolver {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
-## Problemas sin resolver en matemáticas {background-image="images/background.jpg" background-opacity="0.25"}
+## Misterios de las matemáticas {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column .incremental width="60%"}
-<br>
+<br><br>
 
--   La matemática no tiene todas las respuestas. Existen **preguntas abiertas** desde hace siglos.
--   Ejemplos famosos:
-    -   Hipótesis de Riemann,Conjetura de Poincaré
-    -   P vs NP, Navier–Stokes, Conjetura de Hodge, Birch y Swinnerton–Dyer, Yang–Mills
+
+- Aún hay **preguntas sin respuesta** en matemáticas.  
+- Son tan difíciles que llevan siglos esperando solución.  
+- Algunos ejemplos:  
+  - **Hipótesis de Riemann** → sobre los números primos  
+  - **P vs NP** → qué tan rápido podemos resolver problemas  
+  - **Navier–Stokes** → cómo se mueven los fluidos  
+  - **Conjetura de Hodge** → formas en geometría  
+  - **Conjetura de Poincaré** → formas de los espacios en 3D
+
 :::
 
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/RiemannZeta_Zeros.svg/2349px-RiemannZeta_Zeros.svg.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+<img src="images/pregunta.gif" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 :::
 
 . . .
 
-> 👉 Son los llamados **Problemas del Milenio**.
+> ✅ La **Conjetura de Poincaré** fue resuelta en **2003** por el matemático ruso **Grigori Perelman**.
+
 
 ------------------------------------------------------------------------
 
 ## Conceptos Claves {background-image="images/background.jpg" background-opacity="0.25"}
 
+<br><br>
+
 ::: columns
-::: {.column .incremental width="60%"}
-<br>
-
--   **Conjetura** → Creemos que es verdad, falta probar.\
-    Ej: Goldbach (*todo par \> 2 es suma de dos primos*).
-
--   **Problema abierto** → Una gran pregunta sin respuesta.\
-    Ej: P vs NP (*¿resolver rápido = verificar rápido?*).
-
--   **Hipótesis de trabajo** → Supuesto útil, sin rigor formal aún.\
-    Ej: Yang–Mills (*existe un “gap de masa”*).
+::: {.column width="33%"}
+<div style="text-align:center;">
+<img src="https://media.istockphoto.com/id/1408214780/es/vector/conjetura-de-hip%C3%B3tesis.jpg?s=170667a&w=0&k=20&c=N4IcTI3g1Npl1zlVEoaJ4ldh_Rt2ajQLKksmnlBmcw8="  width="300px" height="300px"/><br>
+**Conjetura**  
+Afirmación que parece cierta, falta demostrar.<br>
+*Ej: Goldbach (todo par > 2 es suma de dos primos)*
+</div>
 :::
 
-::: {.column width="40%"}
-::: {style="text-align: center;"}
-<img src="https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/2/26/Mug_and_Torus_morph.gif" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+::: {.column .fragment width="34%"}
+<div style="text-align:center;">
+<img src="https://www.researchgate.net/profile/Alessandro-Rizzo-19/publication/378129655/figure/fig3/AS:11431281223267094@1707640770674/Figura-5-This-diagram-illustrates-the-polar-graph-of-the-Riemann-zeta-function-z-1-2.ppm" width="300px" height="300px"/> <br>
+**Hipótesis**  
+Suposición precisa pero sin prueba.<br>
+*Ej: Hipótesis de Riemann (sobre los números primos)*
+</div>
 :::
+
+::: {.column .fragment width="33%"}
+<div style="text-align:center;">
+<img src="https://hideoushumpbackfreak.com/algorithms/images/p_np.png"  width="300px" height="300px"/><br>
+**Problema abierto**  
+Gran pregunta sin respuesta aún.<br>
+*Ej: P vs NP (resolver rápido = verificar rápido?)*
+</div>
 :::
 :::
 
-. . .
 
-> existen *miles* de problemas abiertos en diversas ramas, algunos muy conocidos y otros más especializados en nichos de investigación.
+
 
 ## ¿Cómo nos apoya la computación? {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -407,9 +435,15 @@ Se tienen **680 naranjas** apiladas en una **pirámide triangular**. ¿Cuántas 
 
 . . .
 
-> Veamos algunos ejemplos de problemas abiertos en diversas ramas!
+> Veamos ejemplos en problemas abiertos (y casi abiertos).
 
 ## Primos de Mersenne {background-image="images/background.jpg" background-opacity="0.25"}
+
+Un **primo de Mersenne** es un número que tiene la forma: $M_p = 2^p - 1$, donde $p$ primo.
+
+<br>
+
+::: fragment
 
 ::: columns
 ::: {.column width="40%"}
@@ -446,13 +480,23 @@ for p in exponentes:
 :::
 :::
 
+:::
+
 ------------------------------------------------------------------------
 
 ## Conjetura de Collatz {background-image="images/background.jpg" background-opacity="0.25"}
 
+
+Toma cualquier número entero positivo $n$:
+
+- Si es **par**, divide entre 2
+- Si es **impar**, multiplica por 3 y suma 1
+
+
+::: fragment
 ```{pyodide-python}
+# Secuencia de Collatz desde n hasta 1
 def collatz_trayectoria(n: int):
-    """Devuelve la secuencia de Collatz desde n hasta 1."""
     seq = [n]
     while n != 1:
         if n % 2 == 0:
@@ -467,6 +511,7 @@ n = 6
 seq = collatz_trayectoria(n)
 print(f"{n} → {seq}\nlongitud: {len(seq)}")
 ```
+:::
 
 # Conclusiones {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
@@ -483,7 +528,7 @@ print(f"{n} → {seq}\nlongitud: {len(seq)}")
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-1_4.png){width="50px" fig-alt="Un cuadrante del logo de Quarto."} <br> **La matemática es arte**<br> sus demostraciones muestran belleza y patrones ocultos.
+![](images/horst_quarto_ball-1_4.png){width="50px" fig-alt="Un cuadrante del logo de Quarto."} <br> **La matemática es arte**<br> Cada demostración descubre la belleza escondida en los números.
 :::
 :::
 :::
@@ -494,7 +539,7 @@ print(f"{n} → {seq}\nlongitud: {len(seq)}")
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Dos cuadrantes del logo de Quarto."} <br> **Los problemas nos entrenan**<br> retos de olimpiadas enseñan ingenio y razonamiento creativo.
+![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Dos cuadrantes del logo de Quarto."} <br> **Olimpiadas de matemáticas **<br> Despiertan ingenio y fortalecen el razonamiento creativo.
 :::
 :::
 :::
@@ -510,7 +555,7 @@ print(f"{n} → {seq}\nlongitud: {len(seq)}")
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-3_4.png){width="50px" fig-alt="Tres cuadrantes del logo de Quarto."} <br> **Las conjeturas nos inspiran**<br> misterios como Collatz recuerdan preguntas siempre abiertas.
+![](images/horst_quarto_ball-3_4.png){width="50px" fig-alt="Tres cuadrantes del logo de Quarto."} <br> **Problemas Abiertos**<br> Las matemáticas guardan misterios sin resolver.
 :::
 :::
 :::
@@ -521,7 +566,7 @@ print(f"{n} → {seq}\nlongitud: {len(seq)}")
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-4_4.png){width="50px" fig-alt="Cuatro cuadrantes del logo de Quarto."} <br> **Disfrutar el proceso**<br> explorar, equivocarse y maravillarse da sentido a pensar.
+![](images/horst_quarto_ball-4_4.png){width="50px" fig-alt="Cuatro cuadrantes del logo de Quarto."} <br> **Disfrutar el proceso**<br> Explorar, equivocarse y asombrarse es parte de aprender a pensar.
 :::
 :::
 :::
@@ -532,10 +577,10 @@ print(f"{n} → {seq}\nlongitud: {len(seq)}")
 
 ------------------------------------------------------------------------
 
-## 🎉 ¡Que Comiencen las Olimpiadas! {background-image="images/background.jpg" background-opacity="0.25" data-state="no-logo"}
+## ¡Que Comiencen los Juegos! {background-image="images/background.jpg" background-opacity="0.25" data-state="no-logo"}
 
 ::: {style="text-align: center;"}
-![](https://upload.wikimedia.org/wikipedia/commons/2/2e/Antorcha_Ol%C3%ADmpica.svg){width="400"}
+![](images/antorcha.gif){width="800"}
 :::
 
 ```{=html}
