@@ -3588,7 +3588,14 @@
     "href": "comunidad_2025/presentacion_olimpiadas.html#trayectorias-albas-en-un-tablero-88-1",
     "title": "Seth&Nut",
     "section": "Trayectorias albas en un tablero 8×8",
-    "text": "Trayectorias albas en un tablero 8×8\n\n\n\n \n\nEl problema pide poner una ficha en cada fila, tocando siempre a la de arriba en un vértice.\nEsto es como un rey de ajedrez que empieza en la fila 1 y baja hasta la fila 8, moviéndose solo en diagonal (↙ o ↘) por casillas blancas.\nPara contar los caminos posibles usamos programación dinámica, sumando paso a paso cuántas formas hay de llegar a cada casilla."
+    "text": "Trayectorias albas en un tablero 8×8"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_olimpiadas.html#trayectorias-albas-en-un-tablero-88-2",
+    "href": "comunidad_2025/presentacion_olimpiadas.html#trayectorias-albas-en-un-tablero-88-2",
+    "title": "Seth&Nut",
+    "section": "Trayectorias albas en un tablero 8×8",
+    "text": "Trayectorias albas en un tablero 8×8\n\n\n\n \n\nEl problema pide poner una ficha en cada fila, tocando siempre a la de arriba en un vértice.\nEsto es como un rey de ajedrez que empieza en la fila 1 y baja hasta la fila 8, moviéndose solo en diagonal (↙ o ↘) por casillas blancas.\nPara contar los caminos posibles usamos programación dinámica, sumando paso a paso cuántas formas hay de llegar a cada casilla.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n✅ Solución: 296 trayectorias albas"
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#pirámide-de-naranjas",
