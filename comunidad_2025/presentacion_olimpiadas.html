@@ -10,7 +10,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.24">
 
-  <title>Seth&amp;Nut – La belleza de las demostraciones</title>
+  <title>Seth&amp;Nut – La belleza de las demostracdiones</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -283,7 +283,7 @@
   }
 
   // Store cell data
-  globalThis.qpyodideCellDetails = [{"code":"# numeros primos\ndef es_primo(n: int) -> bool:\n    if n < 2:\n        return False\n    if n in (2, 3):\n        return True\n    if n % 2 == 0:\n        return False\n    i = 3\n    while i * i <= n:\n        if n % i == 0:\n            return False\n        i += 2\n    return True\n\n# primos de mersenne\ndef mersenne(p: int) -> int:\n    return 2**p - 1","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Mostrar solo los resultados\nexponentes = [2, 3, 5, 7, 11, 13, 17, 19]\nfor p in exponentes:\n    M = 2**p - 1\n    print(f\"p={p:2d} → M_p={M} → {'PRIMO' if es_primo(M) else 'compuesto'}\")","id":2,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"def collatz_trayectoria(n: int):\n    \"\"\"Devuelve la secuencia de Collatz desde n hasta 1.\"\"\"\n    seq = [n]\n    while n != 1:\n        if n % 2 == 0:\n            n = n // 2\n        else:\n            n = 3*n + 1\n        seq.append(n)\n    return seq\n\n# Mostrar solo los resultados\nn = 6\nseq = collatz_trayectoria(n)\nprint(f\"{n} → {seq}\\nlongitud: {len(seq)}\")","id":3,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+  globalThis.qpyodideCellDetails = [{"code":"# numeros primos\ndef es_primo(n: int) -> bool:\n    if n < 2:\n        return False\n    if n in (2, 3):\n        return True\n    if n % 2 == 0:\n        return False\n    i = 3\n    while i * i <= n:\n        if n % i == 0:\n            return False\n        i += 2\n    return True\n\n# primos de mersenne\ndef mersenne(p: int) -> int:\n    return 2**p - 1","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Mostrar solo los resultados\nexponentes = [2, 3, 5, 7, 11, 13, 17, 19]\nfor p in exponentes:\n    M = 2**p - 1\n    print(f\"p={p:2d} → M_p={M} → {'PRIMO' if es_primo(M) else 'compuesto'}\")","id":2,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"# Secuencia de Collatz desde n hasta 1\ndef collatz_trayectoria(n: int):\n    seq = [n]\n    while n != 1:\n        if n % 2 == 0:\n            n = n // 2\n        else:\n            n = 3*n + 1\n        seq.append(n)\n    return seq\n\n# Mostrar solo los resultados\nn = 6\nseq = collatz_trayectoria(n)\nprint(f\"{n} → {seq}\\nlongitud: {len(seq)}\")","id":3,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
   </script>
@@ -552,13 +552,17 @@
 1 + 2 + 3 + \cdots + n
 \]</span></p>
 <ul>
-<li class="fragment">Escribe la suma dos vecesde la forma: <span class="math display">\[
+<li class="fragment"><p>Escribe la suma dos vecesde la forma: <span class="math display">\[
 S = 1+2+\cdots+(n-1)+n
 \]</span> <span class="math display">\[
 S = n+(n-1)+\cdots+2+1
-\]</span></li>
-<li class="fragment">Suma término a término: <span class="math display">\[\Rightarrow 2S = n(n+1)\]</span> <span class="math display">\[\Rightarrow  S = \frac{n(n+1)}{2}\]</span></li>
+\]</span></p></li>
+<li class="fragment"><p><span class="math display">\[\Rightarrow 2S = (n+1) + (n+1) + \cdots + (n+1)\]</span></p></li>
+<li class="fragment"><p><span class="math inline">\(\Rightarrow 2S = n(n+1)\)</span></p></li>
 </ul>
+<div class="fragment">
+<p><span class="math display">\[ \displaystyle S = \frac{n(n+1)}{2}\]</span></p>
+</div>
 </div><div class="column" style="width:45%;">
 <p><br><br></p>
 <div style="text-align: center;">
@@ -671,17 +675,22 @@ S = n+(n-1)+\cdots+2+1
 </div>
 </div>
 </section>
-<section id="pruebas-de-ejemplos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Pruebas de Ejemplos</h2>
+<section id="section" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
 <div class="r-stack">
 <div class="fragment fade-in-then-out">
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/EmJoCxBww6aW1B?startSlide=1" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen="">
-</iframe>
-</div>
-<div class="fragment">
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/ccKVMGqsLxnKID?startSlide=1" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen="">
 </iframe>
 </div>
+<div class="fragment">
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/EmJoCxBww6aW1B?startSlide=1" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen="">
+</iframe>
+</div>
+</div>
+<div class="fragment">
+<blockquote>
+<p>👉 En la IMO 1988, el famoso problema 6 dio a Terence Tao solo 1/7 puntos.</p>
+</blockquote>
 </div>
 </section>
 <section id="trayectorias-albas-en-un-tablero-88" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
@@ -780,53 +789,60 @@ S = n+(n-1)+\cdots+2+1
 <h1>Problemas Sin Resolver</h1>
 
 </section>
-<section id="problemas-sin-resolver-en-matemáticas" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Problemas sin resolver en matemáticas</h2>
+<section id="misterios-de-las-matemáticas" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Misterios de las matemáticas</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p><br></p>
+<p><br><br></p>
 <ul>
-<li class="fragment">La matemática no tiene todas las respuestas. Existen <strong>preguntas abiertas</strong> desde hace siglos.</li>
-<li class="fragment">Ejemplos famosos:
+<li class="fragment">Aún hay <strong>preguntas sin respuesta</strong> en matemáticas.<br>
+</li>
+<li class="fragment">Son tan difíciles que llevan siglos esperando solución.<br>
+</li>
+<li class="fragment">Algunos ejemplos:
 <ul>
-<li class="fragment">Hipótesis de Riemann,Conjetura de Poincaré</li>
-<li class="fragment">P vs NP, Navier–Stokes, Conjetura de Hodge, Birch y Swinnerton–Dyer, Yang–Mills</li>
+<li class="fragment"><strong>Hipótesis de Riemann</strong> → sobre los números primos<br>
+</li>
+<li class="fragment"><strong>P vs NP</strong> → qué tan rápido podemos resolver problemas<br>
+</li>
+<li class="fragment"><strong>Navier–Stokes</strong> → cómo se mueven los fluidos<br>
+</li>
+<li class="fragment"><strong>Conjetura de Hodge</strong> → formas en geometría<br>
+</li>
+<li class="fragment"><strong>Conjetura de Poincaré</strong> → formas de los espacios en 3D</li>
 </ul></li>
 </ul>
 </div><div class="column" style="width:40%;">
 <div style="text-align: center;">
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/RiemannZeta_Zeros.svg/2349px-RiemannZeta_Zeros.svg.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+<p><img src="images/pregunta.gif" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
 </div>
 </div></div>
 <div class="fragment">
 <blockquote>
-<p>👉 Son los llamados <strong>Problemas del Milenio</strong>.</p>
+<p>✅ La <strong>Conjetura de Poincaré</strong> fue resuelta en <strong>2003</strong> por el matemático ruso <strong>Grigori Perelman</strong>.</p>
 </blockquote>
 </div>
 </section>
 <section id="conceptos-claves" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>Conceptos Claves</h2>
+<p><br><br></p>
 <div class="columns">
-<div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li class="fragment"><p><strong>Conjetura</strong> → Creemos que es verdad, falta probar.<br>
-Ej: Goldbach (<em>todo par &gt; 2 es suma de dos primos</em>).</p></li>
-<li class="fragment"><p><strong>Problema abierto</strong> → Una gran pregunta sin respuesta.<br>
-Ej: P vs NP (<em>¿resolver rápido = verificar rápido?</em>).</p></li>
-<li class="fragment"><p><strong>Hipótesis de trabajo</strong> → Supuesto útil, sin rigor formal aún.<br>
-Ej: Yang–Mills (<em>existe un “gap de masa”</em>).</p></li>
-</ul>
-</div><div class="column" style="width:40%;">
-<div style="text-align: center;">
-<p><img src="https://i0.wp.com/upload.wikimedia.org/wikipedia/commons/2/26/Mug_and_Torus_morph.gif" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+<div class="column" style="width:33%;">
+<div style="text-align:center;">
+<p><img src="https://media.istockphoto.com/id/1408214780/es/vector/conjetura-de-hip%C3%B3tesis.jpg?s=170667a&amp;w=0&amp;k=20&amp;c=N4IcTI3g1Npl1zlVEoaJ4ldh_Rt2ajQLKksmnlBmcw8=" width="300px" height="300px"><br> <strong>Conjetura</strong><br>
+Afirmación que parece cierta, falta demostrar.<br> <em>Ej: Goldbach (todo par &gt; 2 es suma de dos primos)</em></p>
+</div>
+</div><div class="column fragment" style="width:34%;">
+<div style="text-align:center;">
+<p><img src="https://www.researchgate.net/profile/Alessandro-Rizzo-19/publication/378129655/figure/fig3/AS:11431281223267094@1707640770674/Figura-5-This-diagram-illustrates-the-polar-graph-of-the-Riemann-zeta-function-z-1-2.ppm" width="300px" height="300px"> <br> <strong>Hipótesis</strong><br>
+Suposición precisa pero sin prueba.<br> <em>Ej: Hipótesis de Riemann (sobre los números primos)</em></p>
+</div>
+</div><div class="column fragment" style="width:33%;">
+<div style="text-align:center;">
+<p><img src="https://hideoushumpbackfreak.com/algorithms/images/p_np.png" width="300px" height="300px"><br> <strong>Problema abierto</strong><br>
+Gran pregunta sin respuesta aún.<br> <em>Ej: P vs NP (resolver rápido = verificar rápido?)</em></p>
 </div>
 </div></div>
-<div class="fragment">
-<blockquote>
-<p>existen <em>miles</em> de problemas abiertos en diversas ramas, algunos muy conocidos y otros más especializados en nichos de investigación.</p>
-</blockquote>
-</div>
 </section>
 <section id="cómo-nos-apoya-la-computación" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>¿Cómo nos apoya la computación?</h2>
@@ -847,12 +863,15 @@ Ej: Yang–Mills (<em>existe un “gap de masa”</em>).</p></li>
 </div></div>
 <div class="fragment">
 <blockquote>
-<p>Veamos algunos ejemplos de problemas abiertos en diversas ramas!</p>
+<p>Veamos ejemplos en problemas abiertos (y casi abiertos).</p>
 </blockquote>
 </div>
 </section>
 <section id="primos-de-mersenne" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>Primos de Mersenne</h2>
+<p>Un <strong>primo de Mersenne</strong> es un número que tiene la forma: <span class="math inline">\(M_p = 2^p - 1\)</span>, donde <span class="math inline">\(p\)</span> primo.</p>
+<p><br></p>
+<div class="fragment">
 <div class="columns">
 <div class="column" style="width:40%;">
 <div id="qpyodide-insertion-location-1"></div>
@@ -861,11 +880,19 @@ Ej: Yang–Mills (<em>existe un “gap de masa”</em>).</p></li>
 <div id="qpyodide-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 </div></div>
+</div>
 </section>
 <section id="conjetura-de-collatz" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>Conjetura de Collatz</h2>
+<p>Toma cualquier número entero positivo <span class="math inline">\(n\)</span>:</p>
+<ul>
+<li>Si es <strong>par</strong>, divide entre 2</li>
+<li>Si es <strong>impar</strong>, multiplica por 3 y suma 1</li>
+</ul>
+<div class="fragment">
 <div id="qpyodide-insertion-location-3"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</div>
 </section></section>
 <section>
 <section id="conclusiones" class="title-slide slide level1 title-top-dark center" data-background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo">
@@ -881,7 +908,7 @@ Ej: Yang–Mills (<em>existe un “gap de masa”</em>).</p></li>
 </div><div class="column" style="width:40%;">
 <div class="bulletbox">
 <div class="fragment fade-in-then-semi-out">
-<p><img data-src="images/horst_quarto_ball-1_4.png" alt="Un cuadrante del logo de Quarto." width="50"> <br> <strong>La matemática es arte</strong><br> sus demostraciones muestran belleza y patrones ocultos.</p>
+<p><img data-src="images/horst_quarto_ball-1_4.png" alt="Un cuadrante del logo de Quarto." width="50"> <br> <strong>La matemática es arte</strong><br> Cada demostración descubre la belleza escondida en los números.</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
@@ -889,7 +916,7 @@ Ej: Yang–Mills (<em>existe un “gap de masa”</em>).</p></li>
 </div><div class="column" style="width:40%;">
 <div class="bulletbox">
 <div class="fragment fade-in-then-semi-out">
-<p><img data-src="images/horst_quarto_ball-2_4.png" alt="Dos cuadrantes del logo de Quarto." width="50"> <br> <strong>Los problemas nos entrenan</strong><br> retos de olimpiadas enseñan ingenio y razonamiento creativo.</p>
+<p><img data-src="images/horst_quarto_ball-2_4.png" alt="Dos cuadrantes del logo de Quarto." width="50"> <br> <strong>Olimpiadas de matemáticas </strong><br> Despiertan ingenio y fortalecen el razonamiento creativo.</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
@@ -901,7 +928,7 @@ Ej: Yang–Mills (<em>existe un “gap de masa”</em>).</p></li>
 </div><div class="column" style="width:40%;">
 <div class="bulletbox">
 <div class="fragment fade-in-then-semi-out">
-<p><img data-src="images/horst_quarto_ball-3_4.png" alt="Tres cuadrantes del logo de Quarto." width="50"> <br> <strong>Las conjeturas nos inspiran</strong><br> misterios como Collatz recuerdan preguntas siempre abiertas.</p>
+<p><img data-src="images/horst_quarto_ball-3_4.png" alt="Tres cuadrantes del logo de Quarto." width="50"> <br> <strong>Problemas Abiertos</strong><br> Las matemáticas guardan misterios sin resolver.</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
@@ -909,17 +936,17 @@ Ej: Yang–Mills (<em>existe un “gap de masa”</em>).</p></li>
 </div><div class="column" style="width:40%;">
 <div class="bulletbox">
 <div class="fragment fade-in-then-semi-out">
-<p><img data-src="images/horst_quarto_ball-4_4.png" alt="Cuatro cuadrantes del logo de Quarto." width="50"> <br> <strong>Disfrutar el proceso</strong><br> explorar, equivocarse y maravillarse da sentido a pensar.</p>
+<p><img data-src="images/horst_quarto_ball-4_4.png" alt="Cuatro cuadrantes del logo de Quarto." width="50"> <br> <strong>Disfrutar el proceso</strong><br> Explorar, equivocarse y asombrarse es parte de aprender a pensar.</p>
 </div>
 </div>
 </div><div class="column" style="width:5%;">
 
 </div></div>
 </section>
-<section id="que-comiencen-las-olimpiadas" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-state="no-logo">
-<h2>🎉 ¡Que Comiencen las Olimpiadas!</h2>
+<section id="que-comiencen-los-juegos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25" data-state="no-logo">
+<h2>¡Que Comiencen los Juegos!</h2>
 <div style="text-align: center;">
-<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Antorcha_Ol%C3%ADmpica.svg" width="400"></p>
+<p><img data-src="images/antorcha.gif" width="800"></p>
 </div>
 <style>
 /* Ajusta el tamaño del título y subtítulo */

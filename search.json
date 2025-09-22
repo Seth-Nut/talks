@@ -1673,25 +1673,18 @@
     "text": "Storytelling principle #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes.\n\n\n\n\n\nDetails guide attention.\nShow less — but better.\nFocus only on what moves the story forward."
   },
   {
-    "objectID": "shiny_2025/presentacion_openday.html#ejemplo-spotify-wrapped",
-    "href": "shiny_2025/presentacion_openday.html#ejemplo-spotify-wrapped",
-    "title": "Seth&Nut",
-    "section": "Ejemplo: Spotify Wrapped",
-    "text": "Ejemplo: Spotify Wrapped\n\n\n\n\n\n\n\n\n Cómo hacer millones de personas compartir estadísticas en redes sociales?"
-  },
-  {
     "objectID": "shiny_2025/presentacion_openday.html#visualización-1",
     "href": "shiny_2025/presentacion_openday.html#visualización-1",
     "title": "Seth&Nut",
     "section": "Visualización …",
-    "text": "Visualización …\n\n\n\n\nConvierte datos en gráficos claros y legibles.\n\nResalta patrones, tendencias y outliers.\n\nElige el gráfico correcto para tu idea.\n\n\n\n\n\n\n\n\n\n\n⌛ Si no se entiende en 5-7 segundos, simplifica o cambia el título."
+    "text": "Visualización …\n\n\n\n\nGráficos claros y comprensibles\nElección correcta del gráfico\nPatrones y anomalías visibles\nDatos complejos → ideas simples\n\n\n\n\n\n\n\n\n\n\n⌛ Si no se entiende en 5-7 segundos, redefine el mensaje"
   },
   {
     "objectID": "shiny_2025/presentacion_openday.html#section-2",
     "href": "shiny_2025/presentacion_openday.html#section-2",
     "title": "Seth&Nut",
     "section": "",
-    "text": "Más fácil de distinguir  ⟵────────────────────────────⟶  Más difícil de distinguir"
+    "text": "Más fácil de distinguir ⟵────────────────────────────⟶ Más difícil de distinguir"
   },
   {
     "objectID": "shiny_2025/presentacion_openday.html#ejemplos",
@@ -3539,7 +3532,7 @@
     "href": "comunidad_2025/presentacion_olimpiadas.html#suma-de-gauss",
     "title": "Seth&Nut",
     "section": "Suma de Gauss",
-    "text": "Suma de Gauss\n\n\n Problema: \\[\n1 + 2 + 3 + \\cdots + n\n\\]\n\nEscribe la suma dos vecesde la forma: \\[\nS = 1+2+\\cdots+(n-1)+n\n\\] \\[\nS = n+(n-1)+\\cdots+2+1\n\\]\nSuma término a término: \\[\\Rightarrow 2S = n(n+1)\\] \\[\\Rightarrow  S = \\frac{n(n+1)}{2}\\]"
+    "text": "Suma de Gauss\n\n\n Problema: \\[\n1 + 2 + 3 + \\cdots + n\n\\]\n\nEscribe la suma dos vecesde la forma: \\[\nS = 1+2+\\cdots+(n-1)+n\n\\] \\[\nS = n+(n-1)+\\cdots+2+1\n\\]\n\\[\\Rightarrow 2S = (n+1) + (n+1) + \\cdots + (n+1)\\]\n\\(\\Rightarrow 2S = n(n+1)\\)\n\n\n\\[ \\displaystyle S = \\frac{n(n+1)}{2}\\]"
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#suma-de-gauss-1",
@@ -3577,11 +3570,11 @@
     "text": "Ejemplos de Olimpiadas"
   },
   {
-    "objectID": "comunidad_2025/presentacion_olimpiadas.html#pruebas-de-ejemplos",
-    "href": "comunidad_2025/presentacion_olimpiadas.html#pruebas-de-ejemplos",
+    "objectID": "comunidad_2025/presentacion_olimpiadas.html#section",
+    "href": "comunidad_2025/presentacion_olimpiadas.html#section",
     "title": "Seth&Nut",
-    "section": "Pruebas de Ejemplos",
-    "text": "Pruebas de Ejemplos"
+    "section": "",
+    "text": "👉 En la IMO 1988, el famoso problema 6 dio a Terence Tao solo 1/7 puntos."
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#trayectorias-albas-en-un-tablero-88",
@@ -3612,53 +3605,53 @@
     "text": "Pirámide de Naranjas\n\n\n\n\nEn la base hay un triángulo de lado \\(n\\) con \\(\\displaystyle \\frac{n(n+1)}{2}\\) naranjas.\nUna pirámide triangular es la suma de todos esos triángulos desde \\(1\\) hasta \\(n\\). Eso equivale a: \\[\n\\sum_{i=1}^n \\frac{i(i+1)}{2} = \\frac{1}{2} \\sum_{i=1}^n (i+i^2) = \\frac{n(n+1)(n+2)}{6}\n\\]\n\n\n\n\nPlanteamos la ecuación:\n\\[\n\\frac{n(n+1)(n+2)}{6} = 680 \\rightarrow n = 15\n\\]\nEntonces, en la base hay: \\(\\displaystyle  \\frac{15 \\times 16}{2} = 120\\) naranjas."
   },
   {
-    "objectID": "comunidad_2025/presentacion_olimpiadas.html#problemas-sin-resolver-en-matemáticas",
-    "href": "comunidad_2025/presentacion_olimpiadas.html#problemas-sin-resolver-en-matemáticas",
+    "objectID": "comunidad_2025/presentacion_olimpiadas.html#misterios-de-las-matemáticas",
+    "href": "comunidad_2025/presentacion_olimpiadas.html#misterios-de-las-matemáticas",
     "title": "Seth&Nut",
-    "section": "Problemas sin resolver en matemáticas",
-    "text": "Problemas sin resolver en matemáticas\n\n\n\n\nLa matemática no tiene todas las respuestas. Existen preguntas abiertas desde hace siglos.\nEjemplos famosos:\n\nHipótesis de Riemann,Conjetura de Poincaré\nP vs NP, Navier–Stokes, Conjetura de Hodge, Birch y Swinnerton–Dyer, Yang–Mills\n\n\n\n\n\n\n\n\n\n👉 Son los llamados Problemas del Milenio."
+    "section": "Misterios de las matemáticas",
+    "text": "Misterios de las matemáticas\n\n\n\n\nAún hay preguntas sin respuesta en matemáticas.\n\nSon tan difíciles que llevan siglos esperando solución.\n\nAlgunos ejemplos:\n\nHipótesis de Riemann → sobre los números primos\n\nP vs NP → qué tan rápido podemos resolver problemas\n\nNavier–Stokes → cómo se mueven los fluidos\n\nConjetura de Hodge → formas en geometría\n\nConjetura de Poincaré → formas de los espacios en 3D\n\n\n\n\n\n\n\n\n\n✅ La Conjetura de Poincaré fue resuelta en 2003 por el matemático ruso Grigori Perelman."
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#conceptos-claves",
     "href": "comunidad_2025/presentacion_olimpiadas.html#conceptos-claves",
     "title": "Seth&Nut",
     "section": "Conceptos Claves",
-    "text": "Conceptos Claves\n\n\n\n\nConjetura → Creemos que es verdad, falta probar.\nEj: Goldbach (todo par &gt; 2 es suma de dos primos).\nProblema abierto → Una gran pregunta sin respuesta.\nEj: P vs NP (¿resolver rápido = verificar rápido?).\nHipótesis de trabajo → Supuesto útil, sin rigor formal aún.\nEj: Yang–Mills (existe un “gap de masa”).\n\n\n\n\n\n\n\n\nexisten miles de problemas abiertos en diversas ramas, algunos muy conocidos y otros más especializados en nichos de investigación."
+    "text": "Conceptos Claves\n\n\n\n\n Conjetura\nAfirmación que parece cierta, falta demostrar. Ej: Goldbach (todo par &gt; 2 es suma de dos primos)\n\n\n\n  Hipótesis\nSuposición precisa pero sin prueba. Ej: Hipótesis de Riemann (sobre los números primos)\n\n\n\n Problema abierto\nGran pregunta sin respuesta aún. Ej: P vs NP (resolver rápido = verificar rápido?)"
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#cómo-nos-apoya-la-computación",
     "href": "comunidad_2025/presentacion_olimpiadas.html#cómo-nos-apoya-la-computación",
     "title": "Seth&Nut",
     "section": "¿Cómo nos apoya la computación?",
-    "text": "¿Cómo nos apoya la computación?\n\n\n\n\n\nExplora masivamente millones de casos rápido.\nDetecta patrones en tablas, gráficos y relaciones.\nEncuentra contraejemplos con facilidad.\nPrototipa ideas: del código a la evidencia en minutos.\n\n\n\n\n\n\n\n\nVeamos algunos ejemplos de problemas abiertos en diversas ramas!"
+    "text": "¿Cómo nos apoya la computación?\n\n\n\n\n\nExplora masivamente millones de casos rápido.\nDetecta patrones en tablas, gráficos y relaciones.\nEncuentra contraejemplos con facilidad.\nPrototipa ideas: del código a la evidencia en minutos.\n\n\n\n\n\n\n\n\nVeamos ejemplos en problemas abiertos (y casi abiertos)."
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#primos-de-mersenne",
     "href": "comunidad_2025/presentacion_olimpiadas.html#primos-de-mersenne",
     "title": "Seth&Nut",
     "section": "Primos de Mersenne",
-    "text": "Primos de Mersenne\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "text": "Primos de Mersenne\nUn primo de Mersenne es un número que tiene la forma: \\(M_p = 2^p - 1\\), donde \\(p\\) primo.\n\n\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#conjetura-de-collatz",
     "href": "comunidad_2025/presentacion_olimpiadas.html#conjetura-de-collatz",
     "title": "Seth&Nut",
     "section": "Conjetura de Collatz",
-    "text": "Conjetura de Collatz\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "text": "Conjetura de Collatz\nToma cualquier número entero positivo \\(n\\):\n\nSi es par, divide entre 2\nSi es impar, multiplica por 3 y suma 1\n\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#aprendizajes",
     "href": "comunidad_2025/presentacion_olimpiadas.html#aprendizajes",
     "title": "Seth&Nut",
     "section": "Aprendizajes",
-    "text": "Aprendizajes\n\n\n\n\n\n\n\n  La matemática es arte sus demostraciones muestran belleza y patrones ocultos.\n\n\n\n\n\n\n\n  Los problemas nos entrenan retos de olimpiadas enseñan ingenio y razonamiento creativo.\n\n\n\n\n\n\n\n\n\n\n\n  Las conjeturas nos inspiran misterios como Collatz recuerdan preguntas siempre abiertas.\n\n\n\n\n\n\n\n  Disfrutar el proceso explorar, equivocarse y maravillarse da sentido a pensar."
+    "text": "Aprendizajes\n\n\n\n\n\n\n\n  La matemática es arte Cada demostración descubre la belleza escondida en los números.\n\n\n\n\n\n\n\n  Olimpiadas de matemáticas  Despiertan ingenio y fortalecen el razonamiento creativo.\n\n\n\n\n\n\n\n\n\n\n\n  Problemas Abiertos Las matemáticas guardan misterios sin resolver.\n\n\n\n\n\n\n\n  Disfrutar el proceso Explorar, equivocarse y asombrarse es parte de aprender a pensar."
   },
   {
-    "objectID": "comunidad_2025/presentacion_olimpiadas.html#que-comiencen-las-olimpiadas",
-    "href": "comunidad_2025/presentacion_olimpiadas.html#que-comiencen-las-olimpiadas",
+    "objectID": "comunidad_2025/presentacion_olimpiadas.html#que-comiencen-los-juegos",
+    "href": "comunidad_2025/presentacion_olimpiadas.html#que-comiencen-los-juegos",
     "title": "Seth&Nut",
-    "section": "🎉 ¡Que Comiencen las Olimpiadas!",
-    "text": "🎉 ¡Que Comiencen las Olimpiadas!"
+    "section": "¡Que Comiencen los Juegos!",
+    "text": "¡Que Comiencen los Juegos!"
   },
   {
     "objectID": "comunidad_2025/presentacion_sochedi.html#objetivos",
