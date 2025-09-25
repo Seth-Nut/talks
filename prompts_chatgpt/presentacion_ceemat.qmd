@@ -479,18 +479,18 @@ Los **asistentes virtuales** impulsados por **IA** suelen usar **LLMs** para com
 
 ------------------------------------------------------------------------
 
-## 🤖 Actividad: Matemáticas + Python {background-image="images/background_slides3.png" background-opacity="0.3"}
+## 🤖 Actividad: Matemáticas + Python {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {.callout-tip title="Objetivo"}
 Usar un chatbot como ChatGPT para resolver problemas de matemáticas programados en Python.
 :::
 
-* Lee el enunciado y trata de resolverlo en código.
+* Lee el enunciado y trata de resolverlo e código.
 * Pregunta a una IA como ChatGPT:  
    * *"¿Cómo puedo resolver este problema en Python?"*
 * Compara tu solución con la de la IA y analiza posibles mejoras.
 
-> 👉 [Ver actividad completa](./taller.html)
+> 👉 [Ver actividad completa](https://colab.research.google.com/drive/1ODwmEIyX_1fQsI08pWiILYC_OvrOv8FZ?usp=drive_link)
 
 ------------------------------------------------------------------------
 
