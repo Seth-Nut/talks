@@ -25,17 +25,16 @@ filters:
 
 [<https://sethnut.com/talks>]{.custom-url}
 
-## Brecha digital {background-image="images/background.jpg" background-opacity="0.25"} 
+## {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
-
 <br><br>
 
-![](images/logo-long.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+![](images/brecha_01.png){.fragment .fade-in-then-out fig-align="center" width="70%"}
 
-![](images/logo-long.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+![](images/brecha_02.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
 
-![](images/logo-long.png){.fragment fig-align="center" width="100%"}
+![](images/horst-quarto-meteor-transparent.png){.fragment fig-align="center" width="100%"}
 :::
 
 ------------------------------------------------------------------------
@@ -45,90 +44,102 @@ filters:
 ::: columns
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<br>
-<img src="images/logo-vertical.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+<br> <img src="images/logo-vertical.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
 ::: {.column .incremental width="60%"}
+<br><br>
+
+
+
+- **Metodología**: Quarto, Colab, GitHub.
+- **Comunidad**: Talleres y co-creación.
+- **Resultados**: logros, feedback, desafíos.
+- **Impacto**: reducir brechas educativas.
+
+:::
+:::
+
+# Metodología {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br><br>
+
+::: {style="text-align: center;"}
+<img src="images/tools.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+
 <br>
 
+::: columns
+::: {.column .fragment width="50%"}
+-   **Herramientas abiertas**: Quarto, Colab, Streamlit y GitHub.
+-   **Enfoque participativo**: Trabajo entre docentes y estudiantes.
+:::
 
-* **Metodologías abiertas**: Uso de Quarto, Colab, Streamlit y GitHub para co-crear.
-* **Aprendizaje comunitario**: Talleres prácticos y espacios participativos.
-* **Hallazgos clave**: Resultados, retroalimentación y desafíos.
-* **Impacto social**: Educación abierta para reducir brechas de inequidad.
-
-
+::: {.fragment .column width="50%"}
+-   **Aprender haciendo**: Ejercicios prácticos con Python.
+-   **Retroalimentación**: Encuestas y diálogo tras cada taller.
 :::
 :::
 
 ------------------------------------------------------------------------
 
-## Metodologías abiertas {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-
-
-::: {.column .incremental width="60%"}
-<br>
-
-
-
-* **Herramientas abiertas**: Quarto, Colab, Streamlit y GitHub.
-* **Enfoque participativo**: Trabajo conjunto entre docentes y estudiantes.
-* **Aprender haciendo**: Ejercicios prácticos con Python.
-* **Retroalimentación**: Encuestas y diálogo tras cada taller.
-
-
-:::
-
-::: {.column width="40%"}
-::: {style="text-align: center;"}
-<img src="images/logo-wide.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
-:::
-:::
-
-:::
-
----------------------
-
-
-::: r-stack
-::: {.fragment .fade-in-then-out}
-<iframe src="https://sethnut.com/ws-usm_uchile-2025/" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
-
-</iframe>
-:::
-
-::: {.fragment .fade-in-then-out}
-<iframe src="https://sethnut.com/talks/latex_2025/presentacion_emma.html#/title-slide" width="1200" height="700" frameborder="0" scrolling="no" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
-
-</iframe>
-:::
-
-::: {.fragment }
-<iframe src="https://sethnut.com/resources/talks/es/2025-pyschool/index.html" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
-
-</iframe>
-:::
-:::
-
-----------------------------
-
-
-## Comentarios de los Participantes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
-
-::: r-stack
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
 <br><br>
 
-![](images/logo-long.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
-
-![](images/logo-long.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
-
-![](images/logo-long.png){.fragment fig-align="center" width="100%"}
+::: {style="text-align: center;"}
+<img src="images/metodologia4.png" alt="Tachado" style="width: 1200px; height: 500px; border-radius: 10px;"/>
 :::
+
+# Comunidad {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+::: {style="text-align: center;"}
+<img src="images/experiencias.svg" alt="Tachado" style="width: 1300px; height: 700px; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+<br>
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+<iframe src="https://sethnut.com/talks/latex_2025/presentacion_emma.html#/title-slide" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fade-in-then-out
+<iframe src="https://sethnut.com/ws-usm_uchile-2025/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fragment
+<iframe src="https://sebastiandres.github.io/pyschool_2025/space_station/rooms/sala_00.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+<br>
+
+<iframe src="images/mystory3.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
 
 ------------------------------------------------------------------------
 
@@ -158,59 +169,65 @@ filters:
 :::
 :::
 
--------------------------------------------------------
-
-## Discusión {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-
-
-::: {.column .incremental width="60%"}
-<br>
-
-
-
-* **Educación abierta**: Fortalece el aprendizaje con herramientas libres.  
-* **Más que código**: Potencia confianza, creatividad y colaboración.  
-* **Reducción de brechas**: Acerca la programación a más comunidades.  
-* **Proyección**: Escalar experiencias a distintos contextos educativos.  
-
-
-
-:::
-
-::: {.column width="40%"}
-::: {style="text-align: center;"}
-<img src="images/logo-wide.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
-:::
-:::
-
-:::
-
-
-
-
-
 # Conclusiones {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
 ------------------------------------------------------------------------
 
-## Conclusiones y Trabajos Futuros {background-image="images/background.jpg" background-opacity="0.25"}
+## [Conclusiones e impacto en la educación]{style="font-size:50px"} {background-image="images/background.jpg" background-size="cover" background-position="center" background-opacity="0.25" transition="zoom"}
 
-
-<br>
-
-::: incremental
-
-* **Más que técnica**: La educación abierta potencia confianza, creatividad y colaboración.
-* **Participación activa**: Metodologías abiertas generan motivación y sentido de comunidad.
-* **Brechas reducidas**: Facilitan el acceso a la programación en contextos escolares y universitarios.
-* **Camino a futuro**: Escalar estas experiencias fortalece la democratización del aprendizaje.
-
-
+::: columns
+::: {.column width="5%"}
 :::
 
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-1_4.png){width="50px" fig-alt="Un cuadrante del logo de Quarto."} <br> **Metodología**: Uso de tecnologías abiertas.
+:::
+:::
+:::
 
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Dos cuadrantes del logo de Quarto."} <br> **Comunidad**: Motivación y colaboración.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-3_4.png){width="50px" fig-alt="Tres cuadrantes del logo de Quarto."} <br> **Resultados**: Alta receptividad y feedback.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-4_4.png){width="50px" fig-alt="Cuatro cuadrantes del logo de Quarto."} <br> **Impacto**: reducir brechas educativas.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
 
 ------------------------------------------------------------------------
 
@@ -222,13 +239,13 @@ filters:
 
 ❓ ¿Preguntas?
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSeE5DCVB9ibIVj_v7y6Kh_57tJ257bgBX6WN8HI1o_4Gy9C1w/viewform?usp=dialog)
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSebgHHjvaWvfbVsoCD4UfaVEtygej7Y-BvFWOtWaHCpXE3Cpg/viewform?usp=dialog)
 
 🥳 Disfrutar del Curso!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr.png){width="400"}
+![](images/qr_andes.png){width="400"}
 :::
 :::
 
