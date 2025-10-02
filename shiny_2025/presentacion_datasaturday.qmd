@@ -125,10 +125,10 @@ Use it well.
 
 ## El poder del qué y cómo visualizar {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {align="center" .fragment>}
-<iframe src="images/demo.html" width="1400" height="550" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;">
+::: {align="center" .fragment\>} <iframe src="images/demo.html" width="1400" height="550" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;">
 
 </iframe>
+
 :::
 
 ------------------------------------------------------------------------
@@ -272,7 +272,7 @@ Focus only on what moves the story forward.
 <br>
 
 ::: {style="text-align:center; font-size:25px; font-family:sans-serif;"}
-[Más fácil de distinguir]{style="color:green; font-weight:bold;"} [ ⟵────────────────────────────⟶ ]{style="margin: 0 15px; font-size:18px; background: linear-gradient(to right, green, orange, red); -webkit-background-clip: text; color: transparent;"} [Más difícil de distinguir]{style="color:red; font-weight:bold;"}
+[Más fácil de distinguir]{style="color:green; font-weight:bold;"} [⟵────────────────────────────⟶]{style="margin: 0 15px; font-size:18px; background: linear-gradient(to right, green, orange, red); -webkit-background-clip: text; color: transparent;"} [Más difícil de distinguir]{style="color:red; font-weight:bold;"}
 :::
 
 ------------------------------------------------------------------------
@@ -481,7 +481,7 @@ Simple rules to tell better stories with data.
 
 👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSeE5DCVB9ibIVj_v7y6Kh_57tJ257bgBX6WN8HI1o_4Gy9C1w/viewform?usp=dialog)
 
-🥳 Disfrutar del Curso!
+🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}

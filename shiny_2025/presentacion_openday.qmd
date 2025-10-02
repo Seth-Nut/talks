@@ -217,8 +217,6 @@ Show less — but better.\
 Focus only on what moves the story forward.
 :::
 
-
-
 # Visualización {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
 
 ------------------------------------------------------------------------
@@ -229,11 +227,10 @@ Focus only on what moves the story forward.
 ::: {.column .fragment width="60%"}
 <br><br>
 
-* Gráficos claros y comprensibles
-* Elección correcta del gráfico
-* Patrones y anomalías visibles
-* Datos complejos → ideas simples
-
+-   Gráficos claros y comprensibles
+-   Elección correcta del gráfico
+-   Patrones y anomalías visibles
+-   Datos complejos → ideas simples
 :::
 
 ::: {.column width="40%"}
@@ -258,7 +255,7 @@ Focus only on what moves the story forward.
 <br>
 
 ::: {style="text-align:center; font-size:25px; font-family:sans-serif;"}
-[Más fácil de distinguir]{style="color:green; font-weight:bold;"} [ ⟵────────────────────────────⟶ ]{style="margin: 0 15px; font-size:18px; background: linear-gradient(to right, green, orange, red); -webkit-background-clip: text; color: transparent;"} [Más difícil de distinguir]{style="color:red; font-weight:bold;"}
+[Más fácil de distinguir]{style="color:green; font-weight:bold;"} [⟵────────────────────────────⟶]{style="margin: 0 15px; font-size:18px; background: linear-gradient(to right, green, orange, red); -webkit-background-clip: text; color: transparent;"} [Más difícil de distinguir]{style="color:red; font-weight:bold;"}
 :::
 
 ------------------------------------------------------------------------
@@ -467,7 +464,7 @@ Simple rules to tell better stories with data.
 
 👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSf6Tj07r8sKbnK54TccNoTCe0BWaSWaXX0EA1u5qCNuWnJtwA/viewform?usp=dialog)
 
-🥳 Disfrutar del Curso!
+🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}

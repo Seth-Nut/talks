@@ -60,20 +60,22 @@ editor: visual
 <br><br>
 
 ::: {style="text-align: center;"}
-<img src="images/tools.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+<img src="images/tools3.png" alt="Tachado" style="width: 90%; border-radius: 10px;"/>
 :::
 
 <br>
 
 ::: columns
 ::: {.column .fragment width="50%"}
--   **Herramientas abiertas**: Quarto, Colab, Streamlit y GitHub.
--   **Enfoque participativo**: Trabajo entre docentes y estudiantes.
+- **Herramientas**: ChatGPT, Python, Quarto y Streamlit.
+- **Fuentes**: Ley 19.628 y la nueva reforma 21.719.
+
+
 :::
 
 ::: {.fragment .column width="50%"}
--   **Aprender haciendo**: Ejercicios prácticos con Python.
--   **Retroalimentación**: Encuestas y diálogo tras cada taller.
+- **Integración**: IA + Python para unificar, marcar cambios y validar.
+- **Aplicativo**: App en Streamlit y libro en Quarto (web).
 :::
 :::
 
@@ -92,7 +94,15 @@ editor: visual
 <br>
 
 ::: r-stack
-::: fade-in-then-out
+
+::: {.fragment .fade-in-then-out}
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/jftOHJhRDrtiVT?hostedIn=slideshare&page=upload" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+
+::: {.fragment .fade-in-then-out}
 <iframe src="https://sethnut.com/st_proteccion_datos/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
@@ -129,7 +139,7 @@ editor: visual
 :::
 
 ::: fade-in-then-out
-<iframe src="https://sethnut.com/ws-usm_uchile-2025/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://sethnut.com/ws-usm_uchile-2025/material/talleres/intro.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 :::
