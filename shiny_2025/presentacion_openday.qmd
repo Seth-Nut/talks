@@ -133,7 +133,7 @@ Use it well.
 
 ------------------------------------------------------------------------
 
-## Ohh, nuestros cerebos son hackables... {background-image="images/background.jpg" background-opacity="0.25"}
+## Ohh, nuestros cerebros son hackables... {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 ![](images/storytelling/sketplanation2.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
