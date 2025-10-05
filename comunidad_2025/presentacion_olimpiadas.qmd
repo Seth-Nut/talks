@@ -69,21 +69,21 @@ filters:
 ::: columns
 ::: {.column .incremental width="55%"}
 <br> **Problema:** $$
-1 + 2 + 3 + \cdots + n
+1 + 2 + 3 + \cdots + 100
 $$
 
 -   Escribe la suma dos vecesde la forma: $$
-    S = 1+2+\cdots+(n-1)+n
+    S = 001+ 002+\cdots+099+100
     $$ $$
-    S = n+(n-1)+\cdots+2+1
+    S = 100+099+\cdots+002+001
     $$
 
--   $$\Rightarrow 2S = (n+1) + (n+1) + \cdots + (n+1)$$
--   $\Rightarrow 2S = n(n+1)$
+-   $\Rightarrow 2S = 101 + 101 + \cdots +101$
+-   $\Rightarrow  2S = 100(101)$
   
 
 ::: {.fragment}
-$$ \displaystyle S = \frac{n(n+1)}{2}$$
+$$ \displaystyle S = \frac{100(101)}{2} = 5050$$
 :::
 
 :::
@@ -109,9 +109,15 @@ $$ \displaystyle S = \frac{n(n+1)}{2}$$
 
 ## ¿ números impares y los cuadrados? {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.center .fragment}
-![](https://raw.githubusercontent.com/notesofdabbler/learn_gganimate/master/proof_without_words/figures/sum_of_odds.gif){width="70%"}
+
+<br>
+
+::: r-stack
+![](images/piramide.png){.fragment .fade-in-then-out fig-align="center" width="1000px" }
+
+![](images/piramide.gif){.fragment fig-align="center" width="1000px"}
 :::
+
 
 ## ¿ números impares y los cuadrados? {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -380,10 +386,9 @@ Se tienen **680 naranjas** apiladas en una **pirámide triangular**. ¿Cuántas 
 
 
 - Aún hay **preguntas sin respuesta** en matemáticas.  
-- Son tan difíciles que llevan siglos esperando solución.  
+- Son tan difíciles que llevan décadas esperando solución.  
 - Algunos ejemplos:  
   - **Hipótesis de Riemann** → sobre los números primos  
-  - **P vs NP** → qué tan rápido podemos resolver problemas  
   - **Navier–Stokes** → cómo se mueven los fluidos  
   - **Conjetura de Hodge** → formas en geometría  
   - **Conjetura de Poincaré** → formas de los espacios en 3D
@@ -448,7 +453,7 @@ Gran pregunta sin respuesta aún.<br>
 ::: {.column .incremental width="60%"}
 <br>
 
-* **Explora masivamente** millones de casos rápido.
+* **Analiza masivamente** muchos casos en poco tiempo.
 * **Detecta patrones** en tablas, gráficos y relaciones.
 * **Encuentra contraejemplos** con facilidad.
 * **Prototipa ideas**: del código a la evidencia en minutos.
