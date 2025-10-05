@@ -549,19 +549,19 @@
 <div class="columns">
 <div class="column" style="width:55%;">
 <p><br> <strong>Problema:</strong> <span class="math display">\[
-1 + 2 + 3 + \cdots + n
+1 + 2 + 3 + \cdots + 100
 \]</span></p>
 <ul>
 <li class="fragment"><p>Escribe la suma dos vecesde la forma: <span class="math display">\[
-S = 1+2+\cdots+(n-1)+n
+S = 001+ 002+\cdots+099+100
 \]</span> <span class="math display">\[
-S = n+(n-1)+\cdots+2+1
+S = 100+099+\cdots+002+001
 \]</span></p></li>
-<li class="fragment"><p><span class="math display">\[\Rightarrow 2S = (n+1) + (n+1) + \cdots + (n+1)\]</span></p></li>
-<li class="fragment"><p><span class="math inline">\(\Rightarrow 2S = n(n+1)\)</span></p></li>
+<li class="fragment"><p><span class="math inline">\(\Rightarrow 2S = 101 + 101 + \cdots +101\)</span></p></li>
+<li class="fragment"><p><span class="math inline">\(\Rightarrow  2S = 100(101)\)</span></p></li>
 </ul>
 <div class="fragment">
-<p><span class="math display">\[ \displaystyle S = \frac{n(n+1)}{2}\]</span></p>
+<p><span class="math display">\[ \displaystyle S = \frac{100(101)}{2} = 5050\]</span></p>
 </div>
 </div><div class="column" style="width:45%;">
 <p><br><br></p>
@@ -579,8 +579,18 @@ S = n+(n-1)+\cdots+2+1
 </section>
 <section id="números-impares-y-los-cuadrados" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>¿ números impares y los cuadrados?</h2>
-<div class="center fragment">
-<p><img data-src="https://raw.githubusercontent.com/notesofdabbler/learn_gganimate/master/proof_without_words/figures/sum_of_odds.gif" style="width:70.0%"></p>
+<p><br></p>
+<div class="r-stack">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/piramide.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" width="1000"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/piramide.gif" class="fragment quarto-figure quarto-figure-center" width="1000"></p>
+</figure>
+</div>
 </div>
 </section>
 <section id="números-impares-y-los-cuadrados-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
@@ -852,13 +862,11 @@ S = n+(n-1)+\cdots+2+1
 <ul>
 <li class="fragment">Aún hay <strong>preguntas sin respuesta</strong> en matemáticas.<br>
 </li>
-<li class="fragment">Son tan difíciles que llevan siglos esperando solución.<br>
+<li class="fragment">Son tan difíciles que llevan décadas esperando solución.<br>
 </li>
 <li class="fragment">Algunos ejemplos:
 <ul>
 <li class="fragment"><strong>Hipótesis de Riemann</strong> → sobre los números primos<br>
-</li>
-<li class="fragment"><strong>P vs NP</strong> → qué tan rápido podemos resolver problemas<br>
 </li>
 <li class="fragment"><strong>Navier–Stokes</strong> → cómo se mueven los fluidos<br>
 </li>
@@ -906,7 +914,7 @@ Gran pregunta sin respuesta aún.<br> <em>Ej: P vs NP (resolver rápido = verifi
 <div class="column" style="width:60%;">
 <p><br></p>
 <ul>
-<li class="fragment"><strong>Explora masivamente</strong> millones de casos rápido.</li>
+<li class="fragment"><strong>Analiza masivamente</strong> muchos casos en poco tiempo.</li>
 <li class="fragment"><strong>Detecta patrones</strong> en tablas, gráficos y relaciones.</li>
 <li class="fragment"><strong>Encuentra contraejemplos</strong> con facilidad.</li>
 <li class="fragment"><strong>Prototipa ideas</strong>: del código a la evidencia en minutos.</li>

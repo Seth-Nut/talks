@@ -2090,7 +2090,7 @@
     "href": "comunidad_2025/presentacion_olimpiadas.html#suma-de-gauss",
     "title": "Seth&Nut",
     "section": "Suma de Gauss",
-    "text": "Suma de Gauss\n\n\n Problema: \\[\n1 + 2 + 3 + \\cdots + n\n\\]\n\nEscribe la suma dos vecesde la forma: \\[\nS = 1+2+\\cdots+(n-1)+n\n\\] \\[\nS = n+(n-1)+\\cdots+2+1\n\\]\n\\[\\Rightarrow 2S = (n+1) + (n+1) + \\cdots + (n+1)\\]\n\\(\\Rightarrow 2S = n(n+1)\\)\n\n\n\\[ \\displaystyle S = \\frac{n(n+1)}{2}\\]"
+    "text": "Suma de Gauss\n\n\n Problema: \\[\n1 + 2 + 3 + \\cdots + 100\n\\]\n\nEscribe la suma dos vecesde la forma: \\[\nS = 001+ 002+\\cdots+099+100\n\\] \\[\nS = 100+099+\\cdots+002+001\n\\]\n\\(\\Rightarrow 2S = 101 + 101 + \\cdots +101\\)\n\\(\\Rightarrow  2S = 100(101)\\)\n\n\n\\[ \\displaystyle S = \\frac{100(101)}{2} = 5050\\]"
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#suma-de-gauss-1",
@@ -2174,7 +2174,7 @@
     "href": "comunidad_2025/presentacion_olimpiadas.html#misterios-de-las-matemáticas",
     "title": "Seth&Nut",
     "section": "Misterios de las matemáticas",
-    "text": "Misterios de las matemáticas\n\n\n\n\nAún hay preguntas sin respuesta en matemáticas.\n\nSon tan difíciles que llevan siglos esperando solución.\n\nAlgunos ejemplos:\n\nHipótesis de Riemann → sobre los números primos\n\nP vs NP → qué tan rápido podemos resolver problemas\n\nNavier–Stokes → cómo se mueven los fluidos\n\nConjetura de Hodge → formas en geometría\n\nConjetura de Poincaré → formas de los espacios en 3D\n\n\n\n\n\n\n\n\n\n✅ La Conjetura de Poincaré fue resuelta en 2003 por el matemático ruso Grigori Perelman."
+    "text": "Misterios de las matemáticas\n\n\n\n\nAún hay preguntas sin respuesta en matemáticas.\n\nSon tan difíciles que llevan décadas esperando solución.\n\nAlgunos ejemplos:\n\nHipótesis de Riemann → sobre los números primos\n\nNavier–Stokes → cómo se mueven los fluidos\n\nConjetura de Hodge → formas en geometría\n\nConjetura de Poincaré → formas de los espacios en 3D\n\n\n\n\n\n\n\n\n\n✅ La Conjetura de Poincaré fue resuelta en 2003 por el matemático ruso Grigori Perelman."
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#conceptos-claves",
@@ -2188,7 +2188,7 @@
     "href": "comunidad_2025/presentacion_olimpiadas.html#cómo-nos-apoya-la-computación",
     "title": "Seth&Nut",
     "section": "¿Cómo nos apoya la computación?",
-    "text": "¿Cómo nos apoya la computación?\n\n\n\n\n\nExplora masivamente millones de casos rápido.\nDetecta patrones en tablas, gráficos y relaciones.\nEncuentra contraejemplos con facilidad.\nPrototipa ideas: del código a la evidencia en minutos.\n\n\n\n\n\n\n\n\nVeamos ejemplos en problemas abiertos (y casi abiertos)."
+    "text": "¿Cómo nos apoya la computación?\n\n\n\n\n\nAnaliza masivamente muchos casos en poco tiempo.\nDetecta patrones en tablas, gráficos y relaciones.\nEncuentra contraejemplos con facilidad.\nPrototipa ideas: del código a la evidencia en minutos.\n\n\n\n\n\n\n\n\nVeamos ejemplos en problemas abiertos (y casi abiertos)."
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#primos-de-mersenne",
