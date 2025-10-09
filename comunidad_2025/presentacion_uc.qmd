@@ -47,17 +47,19 @@ editor: visual
 ::: columns
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<br> <img src="images/logo-vertical.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+<br> <img src="images/integrin.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
 ::: {.column .incremental width="60%"}
-<br>
+<br><br>
 
--   **Metodologías abiertas**: Integrar Quarto, Colab, GitHub y Streamlit.
--   **IA ética**: Fomentar pensamiento crítico y un uso responsable de la IA.
--   **Práctica aplicada**: Talleres, evaluaciones dinámicas y retroalimentación constante.
--   **Propósito educativo**: Promover integridad académica y reducir inequidades.
+
+* **Métodologías:** Quarto, Colab, GitHub.
+* **IA ética:** Uso responsable.
+* **Aplicada:** Talleres y retroalimentación.
+* **Educativa:** Integridad e inclusión.
+
 :::
 :::
 

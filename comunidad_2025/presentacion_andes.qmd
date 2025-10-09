@@ -247,7 +247,7 @@ filters:
 ::: {.column width="50%" align="center"}
 ![](images/qr_andes.png){width="400"}
 :::
-:::
+::: 
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
 
@@ -287,3 +287,5 @@ filters:
 
 </style>
 ```
+
+
