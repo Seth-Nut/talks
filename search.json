@@ -2090,7 +2090,7 @@
     "href": "comunidad_2025/presentacion_olimpiadas.html#suma-de-gauss",
     "title": "Seth&Nut",
     "section": "Suma de Gauss",
-    "text": "Suma de Gauss\n\n\n Problema: \\[\n1 + 2 + 3 + \\cdots + 100\n\\]\n\nEscribe la suma dos vecesde la forma: \\[\nS = 001+ 002+\\cdots+099+100\n\\] \\[\nS = 100+099+\\cdots+002+001\n\\]\n\\(\\Rightarrow 2S = 101 + 101 + \\cdots +101\\)\n\\(\\Rightarrow  2S = 100(101)\\)\n\n\n\\[ \\displaystyle S = \\frac{100(101)}{2} = 5050\\]"
+    "text": "Suma de Gauss\n\n\n Problema: \\[\n1 + 2 + 3 + \\cdots + 100\n\\]\n\nEscribe la suma dos vecesde la forma: \\[S = 001+ 002+\\cdots+099+100\\] \\[S = 100+099+\\cdots+002+001\\]\n\n\n\\(\\Rightarrow 2S = 101 + 101 + \\cdots +101\\)\n\n\n\\(\\Rightarrow  2S = 100(101)\\)\n\n\n\\[ \\displaystyle S = \\frac{100(101)}{2} = 5050\\]"
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#suma-de-gauss-1",
@@ -2111,7 +2111,7 @@
     "href": "comunidad_2025/presentacion_olimpiadas.html#números-impares-y-los-cuadrados-1",
     "title": "Seth&Nut",
     "section": "¿ números impares y los cuadrados?",
-    "text": "¿ números impares y los cuadrados?\n\n\n\n\n\\[\n1 + 3 + 5 + \\dots + (2n-1) = n^2\n\\]\n\n\nEjemplos: \\(1=1\\), \\(1+3=4\\), \\(1+3+5=9\\), …\nPara \\(n\\) se cumple, …. se cumplirá para \\(n+1\\)?\n\n\n\\[\n1 + 3 + 5 + \\cdots + (2n-1) + (2n+1)\n\\]\n\n\n\\[\n= n^2 + (2n+1)\n\\]\n\n\n\\[\n= n^2 + 2n + 1\n\\]\n\n\n\\[\n= (n+1)^2\n\\]"
+    "text": "¿ números impares y los cuadrados?\n\n\n\n\n\\[\n1 + 3 + 5 + \\dots + (2n-1) = n^2\n\\]\n\n\nEjemplos: \\(1=1\\), \\(1+3=4\\), \\(1+3+5=9\\), …\nAsumiendo \\(n\\) verdadero, …. se cumplirá para \\(n+1\\)?\n\n\n\\[\n1 + 3 + 5 + \\cdots + (2n-1) + (2n+1)\n\\]\n\n\n\\[\n= n^2 + (2n+1)\n\\]\n\n\n\\[\n= n^2 + 2n + 1\n\\]\n\n\n\\[\n= (n+1)^2\n\\]"
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#qué-son-las-olimpiadas",
@@ -2153,21 +2153,21 @@
     "href": "comunidad_2025/presentacion_olimpiadas.html#trayectorias-albas-en-un-tablero-88-2",
     "title": "Seth&Nut",
     "section": "Trayectorias albas en un tablero 8×8",
-    "text": "Trayectorias albas en un tablero 8×8\n\n\n\n \n\nEl problema pide poner una ficha en cada fila, tocando siempre a la de arriba en un vértice.\nEsto es como un rey de ajedrez que empieza en la fila 1 y baja hasta la fila 8, moviéndose solo en diagonal (↙ o ↘) por casillas blancas.\nPara contar los caminos posibles usamos programación dinámica, sumando paso a paso cuántas formas hay de llegar a cada casilla.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n✅ Solución: 296 trayectorias albas"
+    "text": "Trayectorias albas en un tablero 8×8\n\n\n\n \n\nEl problema pide poner una ficha en cada fila, tocando siempre a la de arriba en un vértice.\nUna ficha que empieza en la fila 1 y baja hasta la fila 8, moviéndose solo en diagonal (↙ o ↘) por casillas blancas.\nPara contar los caminos posibles usamos programación dinámica, sumando paso a paso cuántas formas hay de llegar a cada casilla.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n✅ Solución: 296 trayectorias albas"
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#pirámide-de-naranjas",
     "href": "comunidad_2025/presentacion_olimpiadas.html#pirámide-de-naranjas",
     "title": "Seth&Nut",
     "section": "Pirámide de Naranjas",
-    "text": "Pirámide de Naranjas\n\n\n\nSe tienen 680 naranjas apiladas en una pirámide triangular. ¿Cuántas naranjas hay en la base de la pirámide?\n\nHints\n\nUna pirámide triangular se forma apilando triángulos: el nivel de abajo tiene \\(n\\) naranjas por lado, el siguiente \\(n-1\\), y así hasta llegar a la punta.\nLa suma de los primeros \\(n\\) números es:\n\n\\[\n  1 + 2 + 3 + \\cdots + n = \\frac{n(n+1)}{2}\n  \\]\n\nLa suma de los primeros \\(n\\) cuadrados es:\n\n\\[\n  1^2 + 2^2 + 3^2 + \\cdots + n^2 = \\frac{n(n+1)(2n+1)}{6}\n  \\]"
+    "text": "Pirámide de Naranjas\n\n\n\nSe tienen 680 naranjas apiladas en una pirámide triangular. ¿Cuántas naranjas hay en la base de la pirámide?\n\nHints:\n\nUna pirámide triangular se forma apilando triángulos: el nivel de abajo tiene \\(n\\) naranjas por lado, el siguiente \\(n-1\\), y así hasta llegar a la punta.\nLa suma de los primeros \\(n\\) números es:\n\n\\[\n  1 + 2 + 3 + \\cdots + n = \\frac{n(n+1)}{2}\n  \\]\n\nLa suma de los primeros \\(n\\) cuadrados es:\n\n\\[\n  1^2 + 2^2 + 3^2 + \\cdots + n^2 = \\frac{n(n+1)(2n+1)}{6}\n  \\]"
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#pirámide-de-naranjas-1",
     "href": "comunidad_2025/presentacion_olimpiadas.html#pirámide-de-naranjas-1",
     "title": "Seth&Nut",
     "section": "Pirámide de Naranjas",
-    "text": "Pirámide de Naranjas\n\n\n\n\nEn la base hay un triángulo de lado \\(n\\) con \\(\\displaystyle \\frac{n(n+1)}{2}\\) naranjas.\nUna pirámide triangular es la suma de todos esos triángulos desde \\(1\\) hasta \\(n\\). Eso equivale a: \\[\n\\sum_{i=1}^n \\frac{i(i+1)}{2} = \\frac{1}{2} \\sum_{i=1}^n (i+i^2) = \\frac{n(n+1)(n+2)}{6}\n\\]\n\n\n\n\nPlanteamos la ecuación:\n\\[\n\\frac{n(n+1)(n+2)}{6} = 680 \\rightarrow n = 15\n\\]\nEntonces, en la base hay: \\(\\displaystyle  \\frac{15 \\times 16}{2} = 120\\) naranjas."
+    "text": "Pirámide de Naranjas\n\n\n\n\nEn la base hay un triángulo de lado \\(n\\) con \\(\\displaystyle \\frac{n(n+1)}{2}\\) naranjas.\nUna pirámide triangular es la suma de todos esos triángulos desde \\(1\\) hasta \\(n\\). Eso equivale a: \\[\n\\sum_{i=1}^n \\frac{i(i+1)}{2} = \\frac{1}{2} (\\sum_{i=1}^n i +  \\sum_{i=1}^n i^2) = \\frac{n(n+1)(n+2)}{6}\n\\]\n\n\n\n\nPlanteamos la ecuación:\n\\[\n\\frac{n(n+1)(n+2)}{6} = 680 \\rightarrow n = 15\n\\]\nEntonces, en la base hay: \\(\\displaystyle  \\frac{15 \\times 16}{2} = 120\\) naranjas."
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#misterios-de-las-matemáticas",
@@ -5282,7 +5282,7 @@
     "href": "comunidad_2025/presentacion_uc.html#objetivos",
     "title": "Seth&Nut",
     "section": "Objetivos",
-    "text": "Objetivos\n\n\n\n \n\n\n\n\nMetodologías abiertas: Integrar Quarto, Colab, GitHub y Streamlit.\nIA ética: Fomentar pensamiento crítico y un uso responsable de la IA.\nPráctica aplicada: Talleres, evaluaciones dinámicas y retroalimentación constante.\nPropósito educativo: Promover integridad académica y reducir inequidades."
+    "text": "Objetivos\n\n\n\n \n\n\n\n\nMétodologías: Quarto, Colab, GitHub.\nIA ética: Uso responsable.\nAplicada: Talleres y retroalimentación.\nEducativa: Integridad e inclusión."
   },
   {
     "objectID": "comunidad_2025/presentacion_uc.html#herramientas-abiertas-como-aliadas",
