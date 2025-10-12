@@ -67,15 +67,13 @@ editor: visual
 
 ::: columns
 ::: {.column .fragment width="50%"}
-- **Herramientas**: ChatGPT, Python, Quarto y Streamlit.
-- **Fuentes**: Ley 19.628 y la nueva reforma 21.719.
-
-
+-   **Herramientas**: ChatGPT, Python, Quarto y Streamlit.
+-   **Fuentes**: Ley 19.628 y la nueva reforma 21.719.
 :::
 
 ::: {.fragment .column width="50%"}
-- **Integración**: IA + Python para unificar, marcar cambios y validar.
-- **Aplicativo**: App en Streamlit y libro en Quarto (web).
+-   **Integración**: IA + Python para unificar, marcar cambios y validar.
+-   **Aplicativo**: App en Streamlit y libro en Quarto (web).
 :::
 :::
 
@@ -83,7 +81,7 @@ editor: visual
 
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
-<br><br>
+<br>
 
 ::: {style="text-align: center;"}
 <img src="images/metodologia2.png" alt="Tachado" style="width: 1200px; height: 500px; border-radius: 10px;"/>
@@ -94,13 +92,11 @@ editor: visual
 <br>
 
 ::: r-stack
-
 ::: {.fragment .fade-in-then-out}
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/jftOHJhRDrtiVT?hostedIn=slideshare&page=upload" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/jftOHJhRDrtiVT?hostedIn=slideshare&amp;page=upload" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 :::
-
 
 ::: {.fragment .fade-in-then-out}
 <iframe src="https://sethnut.com/st_proteccion_datos/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
@@ -109,11 +105,24 @@ editor: visual
 :::
 
 ::: fragment
-<iframe src="https://ley-datos-personales.streamlit.app/?embed=true" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="images/st_ley.png" width="1200" height="520" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
+
+<p style="text-align:center; font-size:0.9em; margin-top:10px;">
+  👉 Ver aplicación: 
+  <a href="https://ley-datos-personales.streamlit.app/" target="_blank">
+    ley-datos-personales.streamlit.app
+  </a>
+</p>
+
 :::
 :::
+
+
+
+
+
 
 # [Experiencia Similares]{style="font-size:60px"} {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
 
@@ -157,9 +166,12 @@ editor: visual
 
 <br>
 
-<iframe src="images/mystory3.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+::: r-stack
+![](images/c1.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
-</iframe>
+
+![](images/c2.png){.fragment fig-align="center" width="100%"}
+:::
 
 ------------------------------------------------------------------------
 
@@ -259,13 +271,13 @@ editor: visual
 
 ❓ ¿Preguntas?
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSeE5DCVB9ibIVj_v7y6Kh_57tJ257bgBX6WN8HI1o_4Gy9C1w/viewform?usp=dialog)
+👏 Responder [encuesta](https://forms.gle/ssyUS3CbaAeoAfQM8)
 
 🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr.png){width="400"}
+![](images/qr_sochedi.png){width="400"}
 :::
 :::
 
