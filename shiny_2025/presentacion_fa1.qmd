@@ -52,7 +52,6 @@ filters:
 :::
 :::
 
-
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
@@ -76,7 +75,6 @@ Nunca revelar el final antes de tiempo.\
 3.  Explicar menos, [Mostrar más]{style="background-color:black;"}
 4.  Tu primera versión será [horrible.]{style="background-color:black;"}\
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -118,8 +116,7 @@ It’s our oldest learning tool — built for memory, connection, and meaning.\
 Use it well.
 :::
 
-
------------------------------------------------
+------------------------------------------------------------------------
 
 ## Qué es Data Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -131,7 +128,7 @@ Use it well.
 ![](images/storytelling/ds.png){.fragment fig-align="center" width="100%"}
 :::
 
-. . . 
+. . .
 
 <br>
 
@@ -141,8 +138,6 @@ Use it well.
 
 ------------------------------------------------------------------------
 
-
-
 ## Cuando las estadísticas confunden ... {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
@@ -151,8 +146,7 @@ Use it well.
 :::
 
 ::: {.column .fragment width="50%" style="text-align: center;"}
-<br><br>  ![](images/viz/canscombe_02.png){fig-align="center" width="100%"}
-
+<br><br> ![](images/viz/canscombe_02.png){fig-align="center" width="100%"}
 :::
 :::
 
@@ -166,11 +160,11 @@ Use it well.
 
 <br>
 
-::: { .fragment align="center"}
+::: {.fragment align="center"}
 ![](https://miro.medium.com/v2/1*-j-oZhikJxzNiiHNsWo69g.gif)
 :::
 
---------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 ## Ohh, nuestros cerebos son hackables... {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -185,27 +179,24 @@ Use it well.
 ## Atención y memoria {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="70%" .fragment}
+::: {.column .fragment width="70%"}
 <br><br>
 
-* ¿PIB del país el año pasado?
-* ¿marcador del último clásico?
-* ¿número de transistores del primer iPhone?  
+-   ¿PIB del país el año pasado?
+-   ¿marcador del último clásico?
+-   ¿número de transistores del primer iPhone?\
 :::
 
-::: {.column  width="30%"}
+::: {.column width="30%"}
 ![](images/storytelling/brain.png){fig-align="center"}
 :::
 :::
 
-
-. . . 
+. . .
 
 ::: {style="text-align: center;"}
 🧠 La gente no recuerda el número exacto, pero sí la historia detrás.
 :::
-
-
 
 ------------------------------------------------------------------------
 
@@ -218,7 +209,6 @@ Use it well.
 
 ![](images/storytelling/pi2.jpg){.fragment fig-align="center" width="100%"}
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -248,22 +238,19 @@ Storytelling is your toolkit to move people.\
 Facts inform — emotions inspire action.
 :::
 
-
 ------------------------------------------------------------------------
 
-## Los 4 pilares del Storytelling {background-image="images/background.jpg" background-opacity="0.25" }
+## Los 4 pilares del Storytelling {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br><br>
 
-::: { .fragment align="center"}
+::: {.fragment align="center"}
 ![](images/storytelling/4i4.png){width="100%" fig-align="center"}
 :::
 
-
 ------------------------------------------------------------------------
 
-
-## Contexto, Conflicto y Resolución {background-image="images/background.jpg" background-opacity="0.25" }
+## Contexto, Conflicto y Resolución {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 ![](images/storytelling/ccr_01.webp){.fragment .fade-in-then-out fig-align="center" width="90%"}
@@ -271,51 +258,46 @@ Facts inform — emotions inspire action.
 ![](images/storytelling/ccr_04.png){.fragment fig-align="center" width="85%"}
 :::
 
+------------------------------------------------------------------------
 
-----------------------------------------------
-
-### 🎭 Actividad: Construyendo una narrativa  {background-image="images/background.jpg" background-opacity="0.2"}
+### 🎭 Actividad: Construyendo una narrativa {background-image="images/background.jpg" background-opacity="0.2"}
 
 ::: panel-tabset
 ### Dataset
-| Mes        | Ventas (M$) | Reclamos | Seguidores en RRSS |
-|------------|-------------|----------|---------------------|
-| Ene 2024   | 100         | 15       | 1000                |
-| Feb 2024   | 110         | 18       | 1200                |
-| Mar 2024   | 120         | 20       | 1400                |
-| Abr 2024   | 125         | 25       | 1600                |
-| May 2024   | 90          | 35       | 1700                |
-| Jun 2024   | 80          | 40       | 1900                |
-| Jul 2024   | 85          | 38       | 2100                |
-| Ago 2024   | 95          | 30       | 2500                |
 
+| Mes      | Ventas (M\$) | Reclamos | Seguidores en RRSS |
+|----------|--------------|----------|--------------------|
+| Ene 2024 | 100          | 15       | 1000               |
+| Feb 2024 | 110          | 18       | 1200               |
+| Mar 2024 | 120          | 20       | 1400               |
+| Abr 2024 | 125          | 25       | 1600               |
+| May 2024 | 90           | 35       | 1700               |
+| Jun 2024 | 80           | 40       | 1900               |
+| Jul 2024 | 85           | 38       | 2100               |
+| Ago 2024 | 95           | 30       | 2500               |
 
 ### Instrucción
 
 <br>
 
-1. Formen grupos  
-2. Revisen el dataset  
-3. Escriban **3 frases**: Contexto → Conflicto → Resolución  
-4. Tiempo: 10 min  
-5. Presentación: 1 min por grupo  
+1.  Formen grupos\
+2.  Revisen el dataset\
+3.  Escriban **3 frases**: Contexto → Conflicto → Resolución\
+4.  Tiempo: 10 min\
+5.  Presentación: 1 min por grupo
 
 ### Ejemplo (Ventas)
 
 <br>
 
-- **Contexto:** “En el primer trimestre, las ventas crecieron un 25% respecto a enero.”  
-- **Conflicto:** “Sin embargo, desde mayo vemos una caída sostenida, llegando a un mínimo de 80M en junio.”  
-- **Resolución:** “Necesitamos revisar nuestra estrategia comercial para recuperar el nivel de ventas.”  
+-   **Contexto:** “En el primer trimestre, las ventas crecieron un 25% respecto a enero.”\
+-   **Conflicto:** “Sin embargo, desde mayo vemos una caída sostenida, llegando a un mínimo de 80M en junio.”\
+-   **Resolución:** “Necesitamos revisar nuestra estrategia comercial para recuperar el nivel de ventas.”\
 :::
-
-
 
 ------------------------------------------------------------------------
 
-
-
-## Más que gráficos bonitos {background-image="images/background.jpg" background-opacity="0.25" }
+## Más que gráficos bonitos {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
@@ -325,9 +307,7 @@ Facts inform — emotions inspire action.
 ![](images/storytelling/dst2.png){.fragment fig-align="center" width="70%"}
 :::
 
-
 ------------------------------------------------------------------------
-
 
 ## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -344,7 +324,6 @@ Facts inform — emotions inspire action.
 . . .
 
 <br><br> [(C) Storytelling with Data, por Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
-
 
 ------------------------------------------------------------------------
 
@@ -364,8 +343,6 @@ Show less — but better.\
 Focus only on what moves the story forward.
 :::
 
-
-
 ------------------------------------------------------------------------
 
 ## Ejemplo: StackOverflow Survey {background-image="images/background.jpg" background-opacity="0.25"}
@@ -378,7 +355,7 @@ Focus only on what moves the story forward.
 
 ------------------------------------------------------------------------
 
-## Ejemplo: Spotify Wrapped {background-image="images/background.jpg" background-opacity="0.25" }
+## Ejemplo: Spotify Wrapped {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column .fragment width="30%" fragment-index="1"}
@@ -394,7 +371,6 @@ Focus only on what moves the story forward.
 :::
 :::
 
-
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
@@ -405,29 +381,24 @@ Focus only on what moves the story forward.
 [Conclusiones]{style="font-size: 2.5em"}
 :::
 
-
--------------
+------------------------------------------------------------------------
 
 ## 📝 Conclusiones {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
 <br>
 
-:::{.incremental}
-- Contexto → Conflicto → Resolución  
-- Selecciona lo esencial  
-- Visualiza para contar, no adornar   
-- Los datos sin narrativa se olvidan  
-- Diferentes enfoques generan distintas historias  
-- La práctica es clave para mejorar  
+::: incremental
+-   Contexto → Conflicto → Resolución\
+-   Selecciona lo esencial\
+-   Visualiza para contar, no adornar\
+-   Los datos sin narrativa se olvidan\
+-   Diferentes enfoques generan distintas historias\
+-   La práctica es clave para mejorar\
 :::
 
--------------
+------------------------------------------------------------------------
 
-##  {background-image="images/continue.webp" data-state="no-logo" }
-
-
-
-
+##  {background-image="images/continue.webp" data-state="no-logo"}
 
 ```{=html}
 <style>

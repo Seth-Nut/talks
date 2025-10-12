@@ -25,7 +25,7 @@ filters:
 
 [<https://sethnut.com/talks>]{.custom-url}
 
-## {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 <br><br>
@@ -51,13 +51,10 @@ filters:
 ::: {.column .incremental width="60%"}
 <br><br>
 
-
-
-- **Metodología**: Quarto, Colab, GitHub.
-- **Comunidad**: Talleres y co-creación.
-- **Resultados**: logros, feedback, desafíos.
-- **Impacto**: reducir brechas educativas.
-
+-   **Metodología**: Quarto, Colab, GitHub.
+-   **Comunidad**: Talleres y co-creación.
+-   **Resultados**: logros, feedback, desafíos.
+-   **Impacto**: reducir brechas educativas.
 :::
 :::
 
@@ -247,7 +244,7 @@ filters:
 ::: {.column width="50%" align="center"}
 ![](images/qr_andes.png){width="400"}
 :::
-::: 
+:::
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
 
@@ -287,5 +284,3 @@ filters:
 
 </style>
 ```
-
-

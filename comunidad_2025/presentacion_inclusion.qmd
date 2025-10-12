@@ -47,120 +47,31 @@ editor: visual
 ::: columns
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<br> <img src="images/integrin.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+<br> <img src="images/logo-vertical.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
 ::: {.column .incremental width="60%"}
 <br><br>
 
-
-* **Métodologías:** Quarto, Colab, GitHub.
-* **IA ética:** Uso responsable.
-* **Aplicada:** Talleres y retroalimentación.
-* **Educativa:** Integridad e inclusión.
-
+-   **Metodología**: Quarto, Colab, GitHub.
+-   **Comunidad**: Talleres y co-creación.
+-   **Resultados**: logros, feedback, desafíos.
+-   **Impacto**: reducir brechas educativas.
 :::
 :::
 
-# [Inteligencia Artificial]{style="font-size:60px"} {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
+# Metodología {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br><br>
 
-::: columns
-::: {.column width="35%"}
-![](images/gh_before.png){.fragment fig-align="center"}
-:::
-
-::: {.column width="30%"}
-![](images/proceso.svg){.fragment fig-align="center" width="100%"}
-:::
-
-::: {.column width="35%"}
-![](images/gh_after.png){.fragment fig-align="center"}
-:::
-:::
-
-. . .
-
 ::: {style="text-align: center;"}
-🥱 1° version $<$ ... $<$ 😊 última version
+<img src="images/tools4.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
-
-::: notes
-First versions are never perfect.\
-Draft → feedback → improve.\
-Storytelling is an iterative process.
-:::
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Aprendizajes 
-
-Tu primera versión será [**siempre** horrible.]{.fragment}
-:::
-:::
-
-::: notes
-Bad first drafts are normal.\
-Don’t aim for perfect — aim to start.\
-Refining comes later.
-:::
-
-------------------------------------------------------------------------
-
-## De las Ideas al Impacto ... con IA {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column .fragment width="60%"}
-<br>
-
--   **Riesgos**: plagio, falta de reflexión\
--   **Oportunidades**: pensamiento crítico, ética\
--   **Usos**: apoyo al estudio, punto de partida\
--   **Docencia**: reglas claras y uso legítimo
-:::
-
-::: {.column .fragment width="40%"}
-![](images/choice.jpeg){fig-align="center"}
-:::
-:::
-
-. . .
-
-> 🤖 **Tools**: [ChatGPT](https://openai.com/chatgpt/), [Gemini](https://deepmind.google/gemini/), [Napkin AI](https://www.napkin.one/), [Midjourney](https://www.midjourney.com/), [Bolt](https://bolt.new/)
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
-
-::: r-stack
-![](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*_3AM0Yhc7qgCvZ_X1L8mhw.gif){.fragment .fade-in-then-out fig-align="center" width="90%"}
-
-![](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/image2_YgWhA7u.gif){.fragment .fade-in-then-out fig-align="center" width="90%"}
-
-![](https://miro.medium.com/v2/resize:fit:2000/1*1QYJswFs8FWN9zLcX3vIYg.gif){.fragment fig-align="center" width="95%"}
-:::
-
-
-# Integridad Académica {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
-
-## Herramientas abiertas como aliadas {background-image="images/background.jpg" background-opacity="0.25"}
-
-
-<br>
-
-::: {style="text-align: center;"}
-<img src="images/tools4.png" alt="Tachado" style="width: 90%; border-radius: 10px;"/>
-:::
-
-
 
 ::: columns
 ::: {.column .fragment width="50%"}
@@ -176,58 +87,96 @@ Refining comes later.
 
 ------------------------------------------------------------------------
 
-
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
-
-
-
-::: {style="text-align: center;"}
-<img src="images/metodologia6.png" alt="Tachado" style="width: 1300px; height: 600px; border-radius: 10px;"/>
-:::
-
-## IA: Desafío y oportunidad {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {.fragment .center}
-<img src="images/nk_01.png" alt="Tachado" style="width: 1300px; height: 600px; border-radius: 10px;"/>
-:::
-
-
-
-## Aprendizajes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
 <br><br>
 
+::: {style="text-align: center;"}
+<img src="images/metodologia4.png" alt="Tachado" style="width: 1200px; height: 500px; border-radius: 10px;"/>
+:::
+
+# Comunidad {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+::: {style="text-align: center;"}
+<img src="images/experiencias.svg" alt="Tachado" style="width: 1300px; height: 700px; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+<br>
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+<iframe src="https://sethnut.com/talks/latex_2025/presentacion_emma.html#/title-slide" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fade-in-then-out
+<iframe src="https://sethnut.com/ws-usm_uchile-2025/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fragment
+<iframe src="https://sebastiandres.github.io/pyschool_2025/space_station/rooms/sala_00.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+<br>
+
+::: r-stack
+![](images/c1.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+
+![](images/c2.png){.fragment fig-align="center" width="100%"}
+:::
+
+------------------------------------------------------------------------
+
+## Comentarios de los Participantes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+<br><br>
 
 ::: columns
 ::: {.column .fragment width="50%"}
-::: {.callout-note title="Fortalezas"}
-- Uso de recursos abiertos y colaborativos.  
-- Claridad y aplicación práctica.  
-- Buen clima de participación.  
-- Interés en la IA ética.  
-- Enfoque docente cercano y dinámico.
+::: {.callout-note title="Positivos"}
+-   Las actividades prácticas\
+-   La claridad de los temas\
+-   La dinámica del instructor\
+-   Los ejemplos planteados\
+-   Buen ambiente de aprendizaje
 :::
 :::
 
 ::: {.column .fragment width="50%"}
-::: {.callout-important title="Oportunidades"}
-- Mayor tiempo para diálogo y reflexión.  
-- Ajustar ritmo entre teoría y práctica.  
-- Profundizar en ética e integridad digital.  
-- Entregar orientaciones más precisas.  
-- Ampliar ejemplos y casos aplicados.
+::: {.callout-important title="Negativos"}
+-   El ritmo fue muy rápido\
+-   El contenido teórico extenso\
+-   Poco tiempo para preguntas\
+-   Necesidad de mayor profundidad\
+-   Instrucciones algo confusas
 :::
 :::
 :::
-
-
 
 # Conclusiones {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
 ------------------------------------------------------------------------
 
-## Conclusiones y Trabajos Futuros {background-image="images/background.jpg" background-opacity="0.25"}
-
+## [Conclusiones e impacto en la educación]{style="font-size:50px"} {background-image="images/background.jpg" background-size="cover" background-position="center" background-opacity="0.25" transition="zoom"}
 
 ::: columns
 ::: {.column width="5%"}
@@ -282,6 +231,8 @@ Refining comes later.
 ::: {.column width="5%"}
 :::
 :::
+
+
 
 ------------------------------------------------------------------------
 

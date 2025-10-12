@@ -123,17 +123,35 @@ Use it well.
 
 ------------------------------------------------------------------------
 
-## El poder del qué y cómo visualizar {background-image="images/background.jpg" background-opacity="0.25"}
+## Cuando las estadísticas confunden ... {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {align="center" .fragment\>} <iframe src="images/demo.html" width="1400" height="550" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;">
+::: columns
+::: {.column .fragment width="50%" style="text-align: center;"}
+![](images/viz/canscombe_01.png){fig-align="center" width="80%"}
+:::
 
-</iframe>
+::: {.column .fragment width="50%" style="text-align: center;"}
+<br><br> ![](images/viz/canscombe_02.png){fig-align="center" width="100%"}
+:::
+:::
 
+::: {.fragment style="text-align: center; "}
+*Cuarteto de Anscombe*: Mismos números, patrones distintos
 :::
 
 ------------------------------------------------------------------------
 
-## Ohh, nuestros cerebos son hackables... {background-image="images/background.jpg" background-opacity="0.25"}
+## El poder del qué y cómo visualizar {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {.fragment align="center"}
+<iframe src="images/demo.html" width="1400" height="550" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;">
+
+</iframe>
+:::
+
+------------------------------------------------------------------------
+
+## Ohh, nuestros cerebros son hackables... {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 ![](images/storytelling/sketplanation2.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
@@ -245,9 +263,10 @@ Focus only on what moves the story forward.
 ::: {.column .fragment width="60%"}
 <br><br>
 
--   Convierte datos en gráficos claros y legibles.\
--   Resalta patrones, tendencias y outliers.\
--   Elige el gráfico correcto para tu idea.
+-   Gráficos claros y comprensibles
+-   Elección correcta del gráfico
+-   Patrones y anomalías visibles
+-   Datos complejos → ideas simples
 :::
 
 ::: {.column width="40%"}
@@ -402,7 +421,7 @@ Refining comes later.
 
 . . .
 
-> 🤖 **Tools**: [ChatGPT](https://openai.com/chatgpt/), [Gemini](https://deepmind.google/gemini/), [Napkin AI](https://www.napkin.one/), [Midjourney](https://www.midjourney.com/), [Bolt](https://bolt.new/)
+> 🤖 **Tools**: [ChatGPT](https://openai.com/chatgpt/), [Gemini](https://deepmind.google/gemini/), [Napkin AI](https://www.napkin.one/), [Midjourney](https://www.midjourney.com/), [Copilot](https://github.com/features/copilot)
 
 ::: notes
 First drafts are messy — that’s normal.\
@@ -421,7 +440,7 @@ Less time stuck, more time creating.
 
 ![](https://freight.cargo.site/w/1024/q/94/i/ade715581e7533554249adf217361ca30f527701ec402edd68c612055818f20a/infinite_text_v3.gif){.fragment .fade-in-then-out fig-align="center" width="60%"}
 
-![](https://miro.medium.com/v2/resize:fit:2000/1*1QYJswFs8FWN9zLcX3vIYg.gif){.fragment fig-align="center" width="95%"}
+![](https://sourcelatam.thesourcemediaassets.com/2024/01/Copilot-Narrative.gif){.fragment fig-align="center" width="95%"}
 :::
 
 ------------------------------------------------------------------------
@@ -440,7 +459,7 @@ El reto es extraer la historia clave y comunicarla de manera clara y convincente
 -   **ChatGPT / Gemini** → genera un guion narrativo.\
 -   **Napkin AI** → propone visualizaciones efectivas.\
 -   **Midjourney** → crea una imagen de portada.\
--   **Bolt** → crea aplicativo (powerbi, python ,etc.).
+-   **PowerBI** → crea aplicativo con *Copilot*.
 :::
 
 ::: {.column width="40%"}
@@ -479,13 +498,13 @@ Simple rules to tell better stories with data.
 
 ❓ ¿Preguntas?
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSeE5DCVB9ibIVj_v7y6Kh_57tJ257bgBX6WN8HI1o_4Gy9C1w/viewform?usp=dialog)
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLScrKncFmj2n8vLUOhEd9GrY_zfWBwGFEtLJFKj2lsBQ0ERxSg/viewform?usp=dialog)
 
 🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_ne.png){width="400"}
+![](images/qr_data.png){width="400"}
 :::
 :::
 
