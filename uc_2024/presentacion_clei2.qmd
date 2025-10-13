@@ -48,19 +48,7 @@ editor: visual
 [Aplicaciones de la matemática en la ingeniería]{style="font-size: 2em"}
 :::
 
-------------------------------------------------------------------------
 
-## Malla Curricular - ICMAT {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: r-stack
-![](images/malla_01.png){.fragment .fade-in-then-out width="100%" fig-align="left"}
-
-![](images/mat281_2.png){.fragment width="90%" fig-align="center"}
-
-::: {.fragment style="text-align: right; font-size: 0.8em; color: gray; margin-top: 30px;"}
-[🌐 Más detalles del curso MAT281](https://github.com/fralfaro/portfolio/blob/main/docs/files/teaching/mat281.pdf)
-:::
-:::
 
 ------------------------------------------------------------------------
 
@@ -69,31 +57,29 @@ editor: visual
 <br>
 
 ::: columns
-::: {.column width="40%"}
+::: {.column width="35%"}
 ::: {style="text-align: center;"}
-<img src="images/paper2.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+<img src="images/usm.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
-::: {.column .incremental width="60%" style="font-size: 0.85em"}
+::: {.column .incremental width="65%" style="font-size: 0.8em"}
+
 <br>
 
--   **Objetivo**: Desarrollar competencias como Data Scientist
--   **Requisitos**: Python y cursos básicos de matemáticas
--   **Contenidos**: Toolkit, Data Manipulation, Machine Learning
+-   **Carrera**: Ingeniería Civil Matemática 
+-   **Objetivo**: Competencias como DS
+-   **Contenidos**: Estadística, Visualización, ML
 -   **Evaluaciones**: Laboratorios, Tareas, Proyecto
+
 :::
 :::
 
 . . .
 
-[🌐 Repositorio: github.com/fralfaro/MAT281](https://github.com/fralfaro/MAT281){style="font-size: 0.75em; color: gray align: center;"}
+🌐 Repositorio: [github.com/fralfaro/MAT281](https://github.com/fralfaro/MAT281){style="font-size: 0.95em; color: gray align: center;"}
 
-------------------------------------------------------------------------
 
-## Historia del curso {background-image="images/background.jpg" background-opacity="0.25"}
-
-<img src="images/historia3.png" style="margin-left: 120px;"/>
 
 ------------------------------------------------------------------------
 
@@ -152,42 +138,6 @@ Crea documentos con código.
 ![](https://docs.github.com/assets/cb-198931/images/help/stars/lists-overview-on-stars-page.png){.fragment fig-align="right"}
 :::
 
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-```{pyodide-python}
-import matplotlib.pyplot as plt
-categorias = ['Sí', 'No']
-valores = [20, 10]
-plt.figure(figsize=(8, 4))
-plt.bar(categorias, valores, color=['lightblue', 'salmon'])
-plt.title('¿Te gusta la presentación hasta ahora?')
-plt.show()
-```
-
-------------------------------------------------------------------------
-
-## Aprendizajes Claves {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
-
-::: columns
-::: {.column width="40%"}
-<img src="images/learning.png" alt="Tachado" style="width: 100%; align: center;"/>
-:::
-
-::: {.column .fragment width="60%"}
-<br><br>
-
--   **Motivación**: Fomentar interés.
--   **Activo**: Involucra a los estudiantes.
--   **Proyectos**: Problemas reales.
--   **Constructivismo**: Experiencia.
-:::
-:::
-
-. . .
-
-[📄 (C) How Learning Works (Ambrose, 2010)](https://firstliteracy.org/wp-content/uploads/2015/07/How-Learning-Works.pdf){style="font-size: 0.75em; color: gray align: center;"}
 
 ------------------------------------------------------------------------
 
@@ -289,29 +239,8 @@ Proyectos y feedback que fortalecen habilidades
 
 ------------------------------------------------------------------------
 
-## P3: Impacto Formación Profesional {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-::: columns
-::: {.column width="40%"}
-<img src="images/p5.png" alt="Tachado" style="width: 100%; align: center;"/>
-:::
 
-::: {.column .fragment width="60%"}
-<br><br>
-
--   Motivación por la programación
--   Preparación para prácticas
--   Memorías Innovadoras
-:::
-:::
-
-------------------------------------------------------------------------
-
-## P3: Impacto Formación Profesional {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
-
-![](images/memoria.png){width="90%" fig-align="center"}
-
-------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 

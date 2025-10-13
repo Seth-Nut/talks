@@ -37,6 +37,15 @@ editor: visual
 ![](images/horst-quarto-meteor-transparent.png){.fragment fig-align="center" width="90%"}
 :::
 
+
+##  {.centered auto-animate="true"}
+
+![](images/toc.svg){fig-alt="Logo de Quarto con los cuatro cuadrantes etiquetados como Compartir, Colaborar, Enseñar y Reimaginar."}
+
+
+
+# <br> Compartir +  <br>  Colaborar  {.title-top-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
+
 ## ¿Qué es Quarto ? {.title-top-light background-image="images/horst-quarto-meteor-transparent.png"}
 
 ##  {#publishing-system-1 .centered data-menu-title="Sistema de publicación 1" background-color="#0F1620" auto-animate="true"}
@@ -59,73 +68,6 @@ Quarto es un sistema abierto de<br> publicación científica y técnica
 ![](images/horst_quarto_schematic.png){fig-align="center" width="1100px" fig-alt="Un esquema que representa la versatilidad de Quarto para entrada multilenguaje (por ejemplo, Python, R, Observable, Julia) y salida multi-formato (por ejemplo, PDF, HTML, documentos Word y más)."}
 :::
 
-##  {.centered auto-animate="true"}
-
-![](images/toc.svg){fig-alt="Logo de Quarto con los cuatro cuadrantes etiquetados como Compartir, Colaborar, Enseñar y Reimaginar."}
-
-# Compartir {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
-
-## ¿Por qué Quarto? {transition="zoom"}
-
-![](images/horst_quarto_ball_straight.png){fig-align="center" width="50%" fig-alt="Quarto logo."}
-
-## ¿Por qué Quarto? {transition="zoom"}
-
-<br>
-
-::: columns
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-1_4.png){width="50px" fig-alt="Un cuadrante del logo de Quarto."} Un solo documento, múltiples formatos: HTML, PDF, presentaciones o sitios web.
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Dos cuadrantes del logo de Quarto."} Materiales más accesibles y fáciles de usar, con soporte para la enseñanza y la inclusión.
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-:::
-
-::: columns
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-3_4.png){width="50px" fig-alt="Tres cuadrantes del logo de Quarto."} Fácil de aprender: usa Markdown simple y cuenta con ayudas para empezar rápido.
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-4_4.png){width="50px" fig-alt="Cuatro cuadrantes del logo de Quarto."} Flexibilidad total: integra texto, imágenes y código en R, Python, Julia u otros lenguajes.
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-:::
 
 ## Ejemplos
 
@@ -211,15 +153,11 @@ website:
 :::
 :::
 
-# Colaborar {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
 
-## Primeros Pasos con Quarto {transition="zoom"}
-
-![](images/horst_quarto_ball_straight.png){fig-align="center" width="50%" fig-alt="Quarto logo."}
 
 ## Instalar y configurar Quarto {transition="zoom"}
 
-<br>
+<br> 
 
 ::: columns
 ::: {.column width="40%"}
@@ -320,14 +258,14 @@ format:
 :::
 :::
 
-# Enseñar {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
+# Enseñar + <br> Reimaginar {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo"}
 
 ## ¿ Qué podemos hacer con Quarto? {transition="zoom"}
 
-<br><br>
+
 
 ::: fragment
-![](images/3-teach/many-lang-qmd-to-output.png){width="90%" fig-align="center"}
+![](images/3-teach/many-qmd-to-output.svg){width="85%" fig-align="center"}
 :::
 
 ## Código con Estilo {auto-animate="true"}
@@ -366,6 +304,7 @@ function(input, output) {
 }
 ```
 
+
 ## Enfoque en Líneas
 
 -   Señala las líneas clave para mayor claridad\
@@ -398,95 +337,7 @@ sns.scatterplot(data=mpg, x="horsepower", y="mpg")
 plt.show()
 ```
 
-------------------------------------------------------------------------
 
-## Ecuaciones en LaTeX
-
-Renderizado de ecuaciones a HTML con [MathJax](https://www.mathjax.org/).
-
-::: columns
-::: {.column width="40%"}
-``` tex
-\begin{gather*}
-a_1=b_1+c_1\\
-a_2=b_2+c_2-d_2+e_2
-\end{gather*}
-
-\begin{align}
-a_{11}& =b_{11}&
-  a_{12}& =b_{12}\\
-a_{21}& =b_{21}&
-  a_{22}& =b_{22}+c_{22}
-\end{align}
-```
-:::
-
-::: {.column width="60%"}
-```{=tex}
-\begin{gather*}
-a_1=b_1+c_1\\
-a_2=b_2+c_2-d_2+e_2
-\end{gather*}
-```
-```{=tex}
-\begin{align}
-a_{11}& =b_{11}&
-  a_{12}& =b_{12}\\
-a_{21}& =b_{21}&
-  a_{22}& =b_{22}+c_{22}
-\end{align}
-```
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Columnas Flexibles
-
-Acomoda texto, imágenes o código en columnas de varios tamaños.
-
-<br>
-
-::: columns
-::: {.column width="35%"}
-#### Motor Trend Car Road Tests
-
-The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.
-:::
-
-::: {.column width="3%"}
-:::
-
-::: {.column width="62%"}
-```{python}
-#| echo: false
-import pandas as pd
-
-# Intento 1: usar seaborn.mpg para simular columnas de 'mtcars'
-try:
-    import seaborn as sns
-    mpg = sns.load_dataset("mpg").dropna(subset=["mpg","cylinders","displacement","horsepower","weight"])
-    df = mpg.rename(columns={
-        "cylinders":"cyl",
-        "displacement":"disp",
-        "horsepower":"hp",
-        "weight":"wt"
-    })[["mpg","cyl","disp","hp","wt"]].head()
-except Exception:
-    # Respaldo sin internet/paquetes: mini tabla embebida
-    df = pd.DataFrame({
-        "mpg":[21.0,21.0,22.8,21.4,18.7,18.1],
-        "cyl":[6,6,4,6,8,6],
-        "disp":[160.0,160.0,108.0,258.0,360.0,225.0],
-        "hp":[110,110,93,110,175,105],
-        "wt":[2.62,2.875,2.32,3.215,3.44,3.46]
-    }).head()
-
-# Mostrar sin índice (HTML bonito en Quarto)
-df.style.hide(axis="index")
-```
-:::
-:::
 
 ## Tabsets
 
@@ -537,13 +388,8 @@ df.head(5)  # primeras 10 filas
 </iframe>
 :::
 
-# Reimaginar {.title-top-ice background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo"}
 
-## El poder de las extensiones en Quarto
 
-::: fragment
-![](images/3-teach/many-qmd-to-output.svg){width="85%" fig-align="center"}
-:::
 
 ## Extensiones de Quarto
 
@@ -563,29 +409,11 @@ Las **extensiones** de Quarto permiten añadir nuevas características y potenci
 :::
 :::
 
-------------------------------------------------------------------------
 
-## Quarto Quiz
-
-::: columns
-::: {.column .fragment width="60%"}
-<br><br>
-
-La extensión **Quarto Quiz** permite crear preguntas directamente en tus presentaciones.
-
-<br>
-
-> 📚 Más info: [Quarto Quiz Extension](https://github.com/quarto-ext/quiz)
-:::
-
-::: {.column width="40%"}
-![](images/quiz.png)
-:::
-:::
 
 ------------------------------------------------------------------------
 
-## Ejemplo {.quiz-question}
+## Quarto Quiz {.quiz-question}
 
 <br>
 
@@ -599,41 +427,6 @@ La extensión **Quarto Quiz** permite crear preguntas directamente en tus presen
 ------------------------------------------------------------------------
 
 ## Quarto WebR + Pyodide
-
-::: columns
-::: {.column width="60%"}
-<br>
-
-1.  [WebR](https://docs.r-wasm.org/webr/latest/): Ejecuta código R en el navegador, sin necesidad de instalación.
-
-    ``` bash
-    # To install WebR in your environment
-    remotes::install_github("attiyap/WebR")
-    ```
-
-2.  [Pyodide](https://quarto.thecoatlessprofessor.com/pyodide/): Lo mismo, pero para Python.
-
-    ``` bash
-    # To install Pyodide
-    pip install pyodide
-    ```
-:::
-
-::: {.column width="40%"}
-<br>
-![](images/pyodide.png)
-:::
-:::
-
-::: notes
-WebR and Pyodide run code directly in the browser.\
-No setup, no installs — just share and run.\
-Perfect for teaching, demos, and interactive content.
-:::
-
-------------------------------------------------------------------------
-
-## Ejemplo
 
 ```{pyodide-python}
 import matplotlib.pyplot as plt
@@ -658,66 +451,9 @@ That’s the power of WebR.
 
 ------------------------------------------------------------------------
 
-## Shiny
-
-::: columns
-::: {.column .fragment width="60%"}
-<br>
-
-**Shiny** es un paquete de R que permite crear de manera sencilla aplicaciones interactivas usando R\
-(también disponible para Python).
-
-<br>
-
-> 📚 Más info: [Shiny - Posit](https://shiny.posit.co/)
-:::
-
-::: {.column width="40%"}
-![](images/shiny.png)
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Ejemplo
-
-<br>
-
-![](https://shiny.posit.co/r/articles/improve/debugging/kmeans-showcase.gif){width="80%"}
-
-::: notes
-Shiny apps let people interact with your data.\
-Change inputs — see results instantly.\
-Perfect for exploring and communicating insights.
-:::
-
-------------------------------------------------------------------------
 
 ## Quarto Shinylive
 
-::: columns
-::: {.column .fragment width="60%"}
-<br>
-
--   Despliega aplicaciones **Shiny** que se ejecutan 100% en el navegador — con **Python** y **R**.\
--   Sin servidores. Sin configuraciones. Solo escribe código y ejecútalo.\
-:::
-
-::: {.column width="40%"}
-![](images/shinylive.png)
-:::
-:::
-
-. . .
-
-<br>
-
-::: {style="text-align: center; font-size: 1.2em;"}
-Sigue en tu presentación.\
-No pierdas el ritmo 🎯
-:::
-
-## Ejemplo
 
 ```{shinylive-python}
 #| standalone: true
