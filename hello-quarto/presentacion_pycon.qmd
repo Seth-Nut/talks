@@ -337,7 +337,7 @@ sns.scatterplot(data=mpg, x="horsepower", y="mpg")
 plt.show()
 ```
 
-
+------------------------------------------------------------------------
 
 ## Tabsets
 
@@ -380,6 +380,8 @@ df.head(5)  # primeras 10 filas
 ```
 :::
 
+------------------------------------------------------------------------
+
 ## Gráficos Interactivos
 
 ::: {align="center"}
@@ -388,7 +390,7 @@ df.head(5)  # primeras 10 filas
 </iframe>
 :::
 
-
+------------------------------------------------------------------------
 
 
 ## Extensiones de Quarto
