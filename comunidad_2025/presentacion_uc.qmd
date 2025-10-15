@@ -97,7 +97,7 @@ Storytelling is an iterative process.
 
 ------------------------------------------------------------------------
 
-## ¿Puedo usar IA ? {background-image="images/background.jpg" background-opacity="0.25"}
+## ¿Puedo usar IA? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column .incremental width="60%"}
