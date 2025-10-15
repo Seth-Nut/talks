@@ -4750,7 +4750,7 @@
     "href": "comunidad_2025/presentacion_uc.html#objetivos",
     "title": "Seth&Nut",
     "section": "Objetivos",
-    "text": "Objetivos\n\n\n\n \n\n\n\n\nMétodologías: Quarto, Colab, GitHub.\nIA ética: Uso responsable.\nAplicada: Talleres y retroalimentación.\nEducativa: Integridad e inclusión."
+    "text": "Objetivos\n\n\n\n \n\n\n\n\nIA ética: Uso responsable.\nMétodologías: Quarto, Colab, GitHub.\nAplicación: Cursos y retroalimentación."
   },
   {
     "objectID": "comunidad_2025/presentacion_uc.html#section",
@@ -4760,53 +4760,46 @@
     "text": "🥱 1° version \\(&lt;\\) … \\(&lt;\\) 😊 última version\n\n\nFirst versions are never perfect.\nDraft → feedback → improve.\nStorytelling is an iterative process."
   },
   {
-    "objectID": "comunidad_2025/presentacion_uc.html#section-1",
-    "href": "comunidad_2025/presentacion_uc.html#section-1",
+    "objectID": "comunidad_2025/presentacion_uc.html#puedo-usar-ia",
+    "href": "comunidad_2025/presentacion_uc.html#puedo-usar-ia",
+    "title": "Seth&Nut",
+    "section": "¿Puedo usar IA ?",
+    "text": "¿Puedo usar IA ?\n\n\n\n\nUsos: apoyo al estudio, punto de partida\n\nRiesgos: plagio, falta de reflexión\n\nOportunidades: pensamiento crítico, ética\n\n\n\n\n\n\n\n\n\n\n\n👿 Tools: ChatGPT, Gemini, Napkin AI, Midjourney, Bolt"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_uc.html#section-6",
+    "href": "comunidad_2025/presentacion_uc.html#section-6",
     "title": "Seth&Nut",
     "section": "",
-    "text": "Aprendizajes\n\n\nTu primera versión será siempre horrible.\n\n\n\n\n\nBad first drafts are normal.\nDon’t aim for perfect — aim to start.\nRefining comes later."
+    "text": "Repositorio del Curso\n\n\nPortafolio Estudiantes"
   },
   {
-    "objectID": "comunidad_2025/presentacion_uc.html#de-las-ideas-al-impacto-con-ia",
-    "href": "comunidad_2025/presentacion_uc.html#de-las-ideas-al-impacto-con-ia",
+    "objectID": "comunidad_2025/presentacion_uc.html#tipos-de-respuestas",
+    "href": "comunidad_2025/presentacion_uc.html#tipos-de-respuestas",
     "title": "Seth&Nut",
-    "section": "De las Ideas al Impacto … con IA",
-    "text": "De las Ideas al Impacto … con IA\n\n\n\n\nRiesgos: plagio, falta de reflexión\n\nOportunidades: pensamiento crítico, ética\n\nUsos: apoyo al estudio, punto de partida\n\nDocencia: reglas claras y uso legítimo\n\n\n\n\n\n\n\n\n\n\n🤖 Tools: ChatGPT, Gemini, Napkin AI, Midjourney, Bolt"
+    "section": "Tipos de Respuestas",
+    "text": "Tipos de Respuestas\n\n🧩 Pregunta✅ Uso correcto❌ Uso incorrecto\n\n\n\nEscribe una función promedio(lista) que reciba una lista de números y devuelva su promedio.\ndef promedio(lista):\n    # FIXME\n\n\nDeclaración de uso:\nUsé IA para revisar la sintaxis y añadir una validación; verifiqué el código antes de entregarlo.\ndef promedio(lista):\n    if not lista:\n        return 0\n    return sum(lista) / len(lista)\n\n\n\nProblema:\nCopiar el resultado sin entenderlo ni revisarlo.\n“¡claro! aquí tienes el código correcto”\ndef promedio(lista):\n    return sum(lista) / len(lista)"
   },
   {
-    "objectID": "comunidad_2025/presentacion_uc.html#herramientas-abiertas-como-aliadas",
-    "href": "comunidad_2025/presentacion_uc.html#herramientas-abiertas-como-aliadas",
+    "objectID": "comunidad_2025/presentacion_uc.html#recomendarías-el-curso",
+    "href": "comunidad_2025/presentacion_uc.html#recomendarías-el-curso",
     "title": "Seth&Nut",
-    "section": "Herramientas abiertas como aliadas",
-    "text": "Herramientas abiertas como aliadas\n\n\n\n\n\n\n\nHerramientas abiertas: Quarto, Colab, Streamlit y GitHub.\nEnfoque participativo: Trabajo entre docentes y estudiantes.\n\n\n\nAprender haciendo: Ejercicios prácticos con Python.\nRetroalimentación: Encuestas y diálogo tras cada taller."
+    "section": "Recomendarías el curso ?",
+    "text": "Recomendarías el curso ?"
   },
   {
-    "objectID": "comunidad_2025/presentacion_uc.html#ia-desafío-y-oportunidad",
-    "href": "comunidad_2025/presentacion_uc.html#ia-desafío-y-oportunidad",
-    "title": "Seth&Nut",
-    "section": "IA: Desafío y oportunidad",
-    "text": "IA: Desafío y oportunidad"
-  },
-  {
-    "objectID": "comunidad_2025/presentacion_uc.html#aprendizajes-1",
-    "href": "comunidad_2025/presentacion_uc.html#aprendizajes-1",
+    "objectID": "comunidad_2025/presentacion_uc.html#aprendizajes",
+    "href": "comunidad_2025/presentacion_uc.html#aprendizajes",
     "title": "Seth&Nut",
     "section": "Aprendizajes",
-    "text": "Aprendizajes\n\n\n\n\n\n\n\n\n\n\nFortalezas\n\n\n\nUso de recursos abiertos y colaborativos.\n\nClaridad y aplicación práctica.\n\nBuen clima de participación.\n\nInterés en la IA ética.\n\nEnfoque docente cercano y dinámico.\n\n\n\n\n\n\n\n\n\n\n\n\n\nOportunidades\n\n\n\nMayor tiempo para diálogo y reflexión.\n\nAjustar ritmo entre teoría y práctica.\n\nProfundizar en ética e integridad digital.\n\nEntregar orientaciones más precisas.\n\nAmpliar ejemplos y casos aplicados."
-  },
-  {
-    "objectID": "comunidad_2025/presentacion_uc.html#conclusiones-y-trabajos-futuros",
-    "href": "comunidad_2025/presentacion_uc.html#conclusiones-y-trabajos-futuros",
-    "title": "Seth&Nut",
-    "section": "Conclusiones y Trabajos Futuros",
-    "text": "Conclusiones y Trabajos Futuros\n\n\n\n\n\n\n  Metodología: Uso de tecnologías abiertas.\n\n\n\n\n\n\n\n  Comunidad: Motivación y colaboración.\n\n\n\n\n\n\n\n\n\n\n\n  Resultados: Alta receptividad y feedback.\n\n\n\n\n\n\n\n  Impacto: reducir brechas educativas."
+    "text": "Aprendizajes\n\n\n\n\n\n\n\n\n\n\nFortalezas\n\n\n\nUso de recursos abiertos.\n\nAplicación práctica y clara.\n\nParticipación activa.\n\nInterés en IA ética.\n\nDocencia cercana y motivadora.\n\n\n\n\n\n\n\n\n\n\n\n\n\nOportunidades\n\n\n\nBaja asistencia.\n\nConfusión con herramientas.\n\nPersisten malas prácticas.\n\nReforzar reflexión ética.\n\nFomentar aprendizaje autónomo."
   },
   {
     "objectID": "comunidad_2025/presentacion_uc.html#gracias-por-participar",
     "href": "comunidad_2025/presentacion_uc.html#gracias-por-participar",
     "title": "Seth&Nut",
     "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Curso!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
   },
   {
     "objectID": "comunidad_2025/presentacion_olimpiadas.html#hello-quarto-title",
