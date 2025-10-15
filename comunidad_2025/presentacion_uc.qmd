@@ -52,13 +52,11 @@ editor: visual
 :::
 
 ::: {.column .incremental width="60%"}
-<br><br>
+<br><br><br>
 
-
-* **Métodologías:** Quarto, Colab, GitHub.
 * **IA ética:** Uso responsable.
-* **Aplicada:** Talleres y retroalimentación.
-* **Educativa:** Integridad e inclusión.
+* **Métodologías:** Quarto, Colab, GitHub.
+* **Aplicación:** Cursos y retroalimentación.
 
 :::
 :::
@@ -95,36 +93,19 @@ Draft → feedback → improve.\
 Storytelling is an iterative process.
 :::
 
-------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Aprendizajes 
-
-Tu primera versión será [**siempre** horrible.]{.fragment}
-:::
-:::
-
-::: notes
-Bad first drafts are normal.\
-Don’t aim for perfect — aim to start.\
-Refining comes later.
-:::
 
 ------------------------------------------------------------------------
 
-## De las Ideas al Impacto ... con IA {background-image="images/background.jpg" background-opacity="0.25"}
+## ¿Puedo usar IA ? {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column .fragment width="60%"}
-<br>
+::: {.column .incremental width="60%"}
+<br><br>
 
+-   **Usos**: apoyo al estudio, punto de partida\
 -   **Riesgos**: plagio, falta de reflexión\
 -   **Oportunidades**: pensamiento crítico, ética\
--   **Usos**: apoyo al estudio, punto de partida\
--   **Docencia**: reglas claras y uso legítimo
 :::
 
 ::: {.column .fragment width="40%"}
@@ -134,7 +115,7 @@ Refining comes later.
 
 . . .
 
-> 🤖 **Tools**: [ChatGPT](https://openai.com/chatgpt/), [Gemini](https://deepmind.google/gemini/), [Napkin AI](https://www.napkin.one/), [Midjourney](https://www.midjourney.com/), [Bolt](https://bolt.new/)
+> 👿 **Tools**: [ChatGPT](https://openai.com/chatgpt/), [Gemini](https://deepmind.google/gemini/), [Napkin AI](https://www.napkin.one/), [Midjourney](https://www.midjourney.com/), [Bolt](https://bolt.new/)
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -149,48 +130,127 @@ Refining comes later.
 :::
 
 
+## {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: { .center}
+<img src="images/nk_01.png" alt="Tachado" style="width: 1300px; height: 600px; border-radius: 10px;"/>
+:::
+
+
+
 # Integridad Académica {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
 
-## Herramientas abiertas como aliadas {background-image="images/background.jpg" background-opacity="0.25"}
 
-
-<br>
-
-::: {style="text-align: center;"}
-<img src="images/tools4.png" alt="Tachado" style="width: 90%; border-radius: 10px;"/>
-:::
-
-
-
-::: columns
-::: {.column .fragment width="50%"}
--   **Herramientas abiertas**: Quarto, Colab, Streamlit y GitHub.
--   **Enfoque participativo**: Trabajo entre docentes y estudiantes.
-:::
-
-::: {.fragment .column width="50%"}
--   **Aprender haciendo**: Ejercicios prácticos con Python.
--   **Retroalimentación**: Encuestas y diálogo tras cada taller.
-:::
-:::
-
-------------------------------------------------------------------------
 
 
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
-
 
 
 ::: {style="text-align: center;"}
 <img src="images/metodologia6.png" alt="Tachado" style="width: 1300px; height: 600px; border-radius: 10px;"/>
 :::
 
-## IA: Desafío y oportunidad {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {.fragment .center}
-<img src="images/nk_01.png" alt="Tachado" style="width: 1300px; height: 600px; border-radius: 10px;"/>
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+<br>
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+<iframe src="https://falfaro.xyz/python_intro2/contenidos/03_nomenclatura.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
 :::
 
+
+:::  {.fragment}
+<iframe src="https://falfaro.xyz/MAT281/lectures/machine_learning/basic_01/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+:::
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+<br>
+
+::: {style="text-align: center;"}
+<img src="images/metodologia7.png" alt="Tachado" style="width: 1300px; height: 600px; border-radius: 10px;"/>
+:::
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
+
+<br><br>
+
+::: columns
+::: {.column width="50%"}
+![](images/repos_02.png){fig-align="center" width="93%"}\
+[Repositorio del Curso](https://github.com/fralfaro/MAT281)
+:::
+
+::: {.column .fragment width="50%"}
+![](images/repos_03.png){fig-align="center" width="80%"}\
+[Portafolio Estudiantes](https://github.com/fralfaro/MAT281-Portfolio)
+:::
+:::
+
+## Tipos de Respuestas  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
+
+
+
+::: {.panel-tabset}
+
+### 🧩 Pregunta
+<br>
+
+Escribe una función `promedio(lista)` que reciba una lista de números y devuelva su promedio.
+
+```python
+def promedio(lista):
+    # FIXME
+```
+
+### ✅ Uso correcto
+
+**Declaración de uso:**  
+
+Usé IA para revisar la sintaxis y añadir una validación; verifiqué el código antes de entregarlo.
+
+```python
+def promedio(lista):
+    if not lista:
+        return 0
+    return sum(lista) / len(lista)
+```
+
+
+---
+
+### ❌ Uso incorrecto 
+
+**Problema:** 
+
+*Copiar el resultado sin entenderlo ni revisarlo*.
+
+
+"¡claro! aquí tienes el código correcto"
+
+```python
+def promedio(lista):
+    return sum(lista) / len(lista)
+```
+
+
+
+:::
+
+##  Recomendarías el curso ? {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+<br>
+
+::: r-stack
+![](images/c3.png){.fragment fig-align="center" width="100%"}
+:::
 
 
 ## Aprendizajes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
@@ -201,87 +261,30 @@ Refining comes later.
 ::: columns
 ::: {.column .fragment width="50%"}
 ::: {.callout-note title="Fortalezas"}
-- Uso de recursos abiertos y colaborativos.  
-- Claridad y aplicación práctica.  
-- Buen clima de participación.  
-- Interés en la IA ética.  
-- Enfoque docente cercano y dinámico.
+- Uso de recursos abiertos.  
+- Aplicación práctica y clara.  
+- Participación activa.  
+- Interés en IA ética.  
+- Docencia cercana y motivadora.
 :::
 :::
 
 ::: {.column .fragment width="50%"}
 ::: {.callout-important title="Oportunidades"}
-- Mayor tiempo para diálogo y reflexión.  
-- Ajustar ritmo entre teoría y práctica.  
-- Profundizar en ética e integridad digital.  
-- Entregar orientaciones más precisas.  
-- Ampliar ejemplos y casos aplicados.
+- Baja asistencia.  
+- Confusión con herramientas.  
+- Persisten malas prácticas.  
+- Reforzar reflexión ética.  
+- Fomentar aprendizaje autónomo.
 :::
 :::
 :::
 
 
 
-# Conclusiones {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
-
-------------------------------------------------------------------------
-
-## Conclusiones y Trabajos Futuros {background-image="images/background.jpg" background-opacity="0.25"}
+# Hora del "adiós" {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
 
-::: columns
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-1_4.png){width="50px" fig-alt="Un cuadrante del logo de Quarto."} <br> **Metodología**: Uso de tecnologías abiertas.
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Dos cuadrantes del logo de Quarto."} <br> **Comunidad**: Motivación y colaboración.
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-:::
-
-::: columns
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-3_4.png){width="50px" fig-alt="Tres cuadrantes del logo de Quarto."} <br> **Resultados**: Alta receptividad y feedback.
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-4_4.png){width="50px" fig-alt="Cuatro cuadrantes del logo de Quarto."} <br> **Impacto**: reducir brechas educativas.
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-:::
 
 ------------------------------------------------------------------------
 
@@ -295,7 +298,7 @@ Refining comes later.
 
 👏 Responder [encuesta](https://forms.gle/yPxyXGbPFmSEDXrY8)
 
-🥳 Disfrutar del Curso!
+🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}

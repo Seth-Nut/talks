@@ -140,7 +140,6 @@ editor: visual
 ::: r-stack
 ![](images/c1.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
-
 ![](images/c2.png){.fragment fig-align="center" width="100%"}
 :::
 
@@ -232,8 +231,6 @@ editor: visual
 :::
 :::
 
-
-
 ------------------------------------------------------------------------
 
 ## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
@@ -250,7 +247,7 @@ editor: visual
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_inclusion.png){width="400"} 
+![](images/qr_inclusion.png){width="400"}
 :::
 :::
 
