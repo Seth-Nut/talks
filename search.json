@@ -1754,35 +1754,28 @@
     "href": "comunidad_2025/presentacion_andes.html#objetivos",
     "title": "Seth&Nut",
     "section": "Objetivos",
-    "text": "Objetivos\n\n\n\n \n\n\n\n\nMetodología: Quarto, Colab, GitHub.\nComunidad: Talleres y co-creación.\nResultados: logros, feedback, desafíos.\nImpacto: reducir brechas educativas."
+    "text": "Objetivos\n\n\n\n \n\n\n\n\nMetodología: Quarto, Colab y GitHub.\nComunidad: talleres y co-creación.\nImpacto: logros, desafíos y feedback."
   },
   {
-    "objectID": "comunidad_2025/presentacion_andes.html#section-1",
-    "href": "comunidad_2025/presentacion_andes.html#section-1",
+    "objectID": "comunidad_2025/presentacion_andes.html#aprendizajes",
+    "href": "comunidad_2025/presentacion_andes.html#aprendizajes",
     "title": "Seth&Nut",
-    "section": "",
-    "text": "Herramientas abiertas: Quarto, Colab, Streamlit y GitHub.\nEnfoque participativo: Trabajo entre docentes y estudiantes.\n\n\n\nAprender haciendo: Ejercicios prácticos con Python.\nRetroalimentación: Encuestas y diálogo tras cada taller."
+    "section": "Aprendizajes",
+    "text": "Aprendizajes\n\n\n\n\n\n\n\n\n\n\nPositivos\n\n\n\nLas actividades prácticas\n\nLa claridad de los temas\n\nLa dinámica del instructor\n\nLos ejemplos planteados\n\nBuen ambiente de aprendizaje\n\n\n\n\n\n\n\n\n\n\n\n\n\nNegativos\n\n\n\nEl ritmo fue muy rápido\n\nEl contenido teórico extenso\n\nPoco tiempo para preguntas\n\nNecesidad de mayor profundidad\n\nInstrucciones algo confusas"
   },
   {
-    "objectID": "comunidad_2025/presentacion_andes.html#comentarios-de-los-participantes",
-    "href": "comunidad_2025/presentacion_andes.html#comentarios-de-los-participantes",
+    "objectID": "comunidad_2025/presentacion_andes.html#hora-del-adiós",
+    "href": "comunidad_2025/presentacion_andes.html#hora-del-adiós",
     "title": "Seth&Nut",
-    "section": "Comentarios de los Participantes",
-    "text": "Comentarios de los Participantes\n\n\n\n\n\n\n\n\n\n\nPositivos\n\n\n\nLas actividades prácticas\n\nLa claridad de los temas\n\nLa dinámica del instructor\n\nLos ejemplos planteados\n\nBuen ambiente de aprendizaje\n\n\n\n\n\n\n\n\n\n\n\n\n\nNegativos\n\n\n\nEl ritmo fue muy rápido\n\nEl contenido teórico extenso\n\nPoco tiempo para preguntas\n\nNecesidad de mayor profundidad\n\nInstrucciones algo confusas"
-  },
-  {
-    "objectID": "comunidad_2025/presentacion_andes.html#conclusiones-e-impacto-en-la-educación",
-    "href": "comunidad_2025/presentacion_andes.html#conclusiones-e-impacto-en-la-educación",
-    "title": "Seth&Nut",
-    "section": "Conclusiones e impacto en la educación",
-    "text": "Conclusiones e impacto en la educación\n\n\n\n\n\n\n  Metodología: Uso de tecnologías abiertas.\n\n\n\n\n\n\n\n  Comunidad: Motivación y colaboración.\n\n\n\n\n\n\n\n\n\n\n\n  Resultados: Alta receptividad y feedback.\n\n\n\n\n\n\n\n  Impacto: reducir brechas educativas."
+    "section": "# Hora del “adiós”",
+    "text": "# Hora del “adiós”"
   },
   {
     "objectID": "comunidad_2025/presentacion_andes.html#gracias-por-participar",
     "href": "comunidad_2025/presentacion_andes.html#gracias-por-participar",
     "title": "Seth&Nut",
     "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Curso!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓ ¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
   },
   {
     "objectID": "latex_2025/presentacion_emma.html#te-ha-pasado-esto",
@@ -4718,13 +4711,6 @@
     "text": "Integridad académica en acción\ninnovación con open source e IA ética\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://sethnut.com/talks"
   },
   {
-    "objectID": "comunidad_2025/presentacion_uc.html#integridad-académica-y-educación-superior",
-    "href": "comunidad_2025/presentacion_uc.html#integridad-académica-y-educación-superior",
-    "title": "Seth&Nut",
-    "section": "Integridad académica y educación superior",
-    "text": "Integridad académica y educación superior"
-  },
-  {
     "objectID": "comunidad_2025/presentacion_uc.html#objetivos",
     "href": "comunidad_2025/presentacion_uc.html#objetivos",
     "title": "Seth&Nut",
@@ -4732,8 +4718,8 @@
     "text": "Objetivos\n\n\n\n \n\n\n\n\nIA ética: Uso responsable.\nMétodologías: Quarto, Colab, GitHub.\nAplicación: Cursos y retroalimentación."
   },
   {
-    "objectID": "comunidad_2025/presentacion_uc.html#section",
-    "href": "comunidad_2025/presentacion_uc.html#section",
+    "objectID": "comunidad_2025/presentacion_uc.html#section-1",
+    "href": "comunidad_2025/presentacion_uc.html#section-1",
     "title": "Seth&Nut",
     "section": "",
     "text": "🥱 1° version \\(&lt;\\) … \\(&lt;\\) 😊 última version\n\n\nFirst versions are never perfect.\nDraft → feedback → improve.\nStorytelling is an iterative process."
@@ -4746,8 +4732,8 @@
     "text": "¿Puedo usar IA?\n\n\n\n\nUsos: apoyo al estudio, punto de partida\n\nRiesgos: plagio, falta de reflexión\n\nOportunidades: pensamiento crítico, ética\n\n\n\n\n\n\n\n\n\n\n\n👿 Tools: ChatGPT, Gemini, Napkin AI, Midjourney, Bolt"
   },
   {
-    "objectID": "comunidad_2025/presentacion_uc.html#section-6",
-    "href": "comunidad_2025/presentacion_uc.html#section-6",
+    "objectID": "comunidad_2025/presentacion_uc.html#section-7",
+    "href": "comunidad_2025/presentacion_uc.html#section-7",
     "title": "Seth&Nut",
     "section": "",
     "text": "Repositorio del Curso\n\n\nPortafolio Estudiantes"
