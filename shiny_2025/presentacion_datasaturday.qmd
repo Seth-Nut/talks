@@ -10,7 +10,7 @@ format:
     transition: fade
     title-slide-attributes: 
       data-background-image: images/background.jpg
-    logo: images/datasaturday.png
+    logo: images/datasaturday2.png
 filters:
   - quarto-ext/shinylive
 ---
