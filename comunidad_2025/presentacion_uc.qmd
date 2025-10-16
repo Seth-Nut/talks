@@ -28,7 +28,7 @@ editor: visual
 
 [<https://sethnut.com/talks>]{.custom-url}
 
-## [Integridad académica y educación superior]{style="font-size:50px"} {background-image="images/background.jpg" background-opacity="0.25"}
+## {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
 ::: r-stack
 <br><br>
@@ -54,10 +54,9 @@ editor: visual
 ::: {.column .incremental width="60%"}
 <br><br><br>
 
-* **IA ética:** Uso responsable.
-* **Métodologías:** Quarto, Colab, GitHub.
-* **Aplicación:** Cursos y retroalimentación.
-
+-   **IA ética:** Uso responsable.
+-   **Métodologías:** Quarto, Colab, GitHub.
+-   **Aplicación:** Cursos y retroalimentación.
 :::
 :::
 
@@ -93,8 +92,6 @@ Draft → feedback → improve.\
 Storytelling is an iterative process.
 :::
 
-
-
 ------------------------------------------------------------------------
 
 ## ¿Puedo usar IA? {background-image="images/background.jpg" background-opacity="0.25"}
@@ -129,27 +126,19 @@ Storytelling is an iterative process.
 ![](https://miro.medium.com/v2/resize:fit:2000/1*1QYJswFs8FWN9zLcX3vIYg.gif){.fragment fig-align="center" width="95%"}
 :::
 
+##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-## {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: { .center}
+::: center
 <img src="images/nk_01.png" alt="Tachado" style="width: 1300px; height: 600px; border-radius: 10px;"/>
 :::
 
-
-
 # Integridad Académica {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
 
-
-
-
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
-
 
 ::: {style="text-align: center;"}
 <img src="images/metodologia6.png" alt="Tachado" style="width: 1300px; height: 600px; border-radius: 10px;"/>
 :::
-
 
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
@@ -162,8 +151,7 @@ Storytelling is an iterative process.
 </iframe>
 :::
 
-
-:::  {.fragment}
+::: fragment
 <iframe src="https://falfaro.xyz/MAT281/lectures/machine_learning/basic_01/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
@@ -194,57 +182,50 @@ Storytelling is an iterative process.
 :::
 :::
 
-## Tipos de Respuestas  {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
+## Tipos de Respuestas {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
-
-
-::: {.panel-tabset}
-
+::: panel-tabset
 ### 🧩 Pregunta
+
 <br>
 
 Escribe una función `promedio(lista)` que reciba una lista de números y devuelva su promedio.
 
-```python
+``` python
 def promedio(lista):
     # FIXME
 ```
 
 ### ✅ Uso correcto
 
-**Declaración de uso:**  
+**Declaración de uso:**
 
 Usé IA para revisar la sintaxis y añadir una validación; verifiqué el código antes de entregarlo.
 
-```python
+``` python
 def promedio(lista):
     if not lista:
         return 0
     return sum(lista) / len(lista)
 ```
 
+------------------------------------------------------------------------
 
----
+### ❌ Uso incorrecto
 
-### ❌ Uso incorrecto 
-
-**Problema:** 
+**Problema:**
 
 *Copiar el resultado sin entenderlo ni revisarlo*.
 
-
 "¡claro! aquí tienes el código correcto"
 
-```python
+``` python
 def promedio(lista):
     return sum(lista) / len(lista)
 ```
-
-
-
 :::
 
-##  Recomendarías el curso ? {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+## Recomendarías el curso ? {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
 <br>
 
@@ -252,39 +233,33 @@ def promedio(lista):
 ![](images/c3.png){.fragment fig-align="center" width="100%"}
 :::
 
-
 ## Aprendizajes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
 <br><br>
 
-
 ::: columns
 ::: {.column .fragment width="50%"}
 ::: {.callout-note title="Fortalezas"}
-- Uso de recursos abiertos.  
-- Aplicación práctica y clara.  
-- Participación activa.  
-- Interés en IA ética.  
-- Docencia cercana y motivadora.
+-   Uso de recursos abiertos.\
+-   Aplicación práctica y clara.\
+-   Participación activa.\
+-   Interés en IA ética.\
+-   Docencia cercana y motivadora.
 :::
 :::
 
 ::: {.column .fragment width="50%"}
 ::: {.callout-important title="Oportunidades"}
-- Baja asistencia.  
-- Confusión con herramientas.  
-- Persisten malas prácticas.  
-- Reforzar reflexión ética.  
-- Fomentar aprendizaje autónomo.
+-   Baja asistencia.\
+-   Confusión con herramientas.\
+-   Persisten malas prácticas.\
+-   Reforzar reflexión ética.\
+-   Fomentar aprendizaje autónomo.
 :::
 :::
 :::
-
-
 
 # Hora del "adiós" {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
-
-
 
 ------------------------------------------------------------------------
 

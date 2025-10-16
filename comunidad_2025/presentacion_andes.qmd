@@ -25,7 +25,7 @@ filters:
 
 [<https://sethnut.com/talks>]{.custom-url}
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
 ::: r-stack
 <br><br>
@@ -49,40 +49,16 @@ filters:
 :::
 
 ::: {.column .incremental width="60%"}
-<br><br>
+<br><br><br>
 
--   **Metodología**: Quarto, Colab, GitHub.
--   **Comunidad**: Talleres y co-creación.
--   **Resultados**: logros, feedback, desafíos.
--   **Impacto**: reducir brechas educativas.
+* **Metodología**: Quarto, Colab y GitHub.
+* **Comunidad**: talleres y co-creación.
+- **Impacto**: logros, desafíos y feedback.
+
 :::
 :::
 
-# Metodología {.title-middle-dark background-image="images/horst_quarto_penguins_share.png" data-state="no-logo"}
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-<br><br>
-
-::: {style="text-align: center;"}
-<img src="images/tools.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
-:::
-
-<br>
-
-::: columns
-::: {.column .fragment width="50%"}
--   **Herramientas abiertas**: Quarto, Colab, Streamlit y GitHub.
--   **Enfoque participativo**: Trabajo entre docentes y estudiantes.
-:::
-
-::: {.fragment .column width="50%"}
--   **Aprender haciendo**: Ejercicios prácticos con Python.
--   **Retroalimentación**: Encuestas y diálogo tras cada taller.
-:::
-:::
-
-------------------------------------------------------------------------
+# <br> Comencemos! {.title-top-light background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
@@ -91,10 +67,6 @@ filters:
 ::: {style="text-align: center;"}
 <img src="images/metodologia4.png" alt="Tachado" style="width: 1200px; height: 500px; border-radius: 10px;"/>
 :::
-
-# Comunidad {.title-top-ice background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
-
-------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
@@ -116,7 +88,7 @@ filters:
 :::
 
 ::: fade-in-then-out
-<iframe src="https://sethnut.com/ws-usm_uchile-2025/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://sethnut.com/ws-usm_uchile-2025/material/talleres/intro.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 :::
@@ -134,13 +106,15 @@ filters:
 
 <br>
 
-<iframe src="images/mystory3.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+::: r-stack
+![](images/c1.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
-</iframe>
+![](images/c2.png){.fragment fig-align="center" width="100%"}
+:::
 
 ------------------------------------------------------------------------
 
-## Comentarios de los Participantes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+## Aprendizajes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
 
 <br><br>
 
@@ -166,66 +140,7 @@ filters:
 :::
 :::
 
-# Conclusiones {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
-
-------------------------------------------------------------------------
-
-## [Conclusiones e impacto en la educación]{style="font-size:50px"} {background-image="images/background.jpg" background-size="cover" background-position="center" background-opacity="0.25" transition="zoom"}
-
-::: columns
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-1_4.png){width="50px" fig-alt="Un cuadrante del logo de Quarto."} <br> **Metodología**: Uso de tecnologías abiertas.
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Dos cuadrantes del logo de Quarto."} <br> **Comunidad**: Motivación y colaboración.
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-:::
-
-::: columns
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-3_4.png){width="50px" fig-alt="Tres cuadrantes del logo de Quarto."} <br> **Resultados**: Alta receptividad y feedback.
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-
-::: {.column width="40%"}
-::: bulletbox
-::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-4_4.png){width="50px" fig-alt="Cuatro cuadrantes del logo de Quarto."} <br> **Impacto**: reducir brechas educativas.
-:::
-:::
-:::
-
-::: {.column width="5%"}
-:::
-:::
-
+# Hora del "adiós" {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 ------------------------------------------------------------------------
 
 ## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
@@ -238,7 +153,7 @@ filters:
 
 👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSebgHHjvaWvfbVsoCD4UfaVEtygej7Y-BvFWOtWaHCpXE3Cpg/viewform?usp=dialog)
 
-🥳 Disfrutar del Curso!
+🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}

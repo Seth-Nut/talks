@@ -23,7 +23,7 @@ editor: visual
 ## [Desigualdad, inclusión y sostenibilidad]{style="font-size:50px"} {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
 ::: r-stack
-<br><br> 
+<br><br>
 
 ![](images/inc_02.jpg){.fragment .fade-in-then-out fig-align="center" width="90%"}
 
@@ -52,7 +52,6 @@ editor: visual
 
 # <br> Comencemos! {.title-top-light background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
-
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
 <br><br>
@@ -60,7 +59,6 @@ editor: visual
 ::: {style="text-align: center;"}
 <img src="images/metodologia4.png" alt="Tachado" style="width: 1200px; height: 500px; border-radius: 10px;"/>
 :::
-
 
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
@@ -112,31 +110,27 @@ editor: visual
 
 <br><br>
 
-
 ::: columns
 ::: {.column .fragment width="50%"}
 ::: {.callout-note title="Fortalezas"}
-- Uso de tecnologías abiertas.  
-- Inclusión y sostenibilidad educativa.  
-- Experiencias replicables.  
-- Docencia ética y colaborativa.
+-   Uso de tecnologías abiertas.\
+-   Inclusión y sostenibilidad educativa.\
+-   Experiencias replicables.\
+-   Docencia ética y colaborativa.
 :::
 :::
 
 ::: {.column .fragment width="50%"}
 ::: {.callout-important title="Oportunidades"}
-- Ampliar formación docente.  
-- Difundir buenas prácticas.  
-- Evaluar impacto en participación.  
-- Fortalecer redes interuniversitarias.
+-   Ampliar formación docente.\
+-   Difundir buenas prácticas.\
+-   Evaluar impacto en participación.\
+-   Fortalecer redes interuniversitarias.
 :::
 :::
 :::
-
 
 # Hora del "adiós" {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
-
-
 
 ------------------------------------------------------------------------
 
