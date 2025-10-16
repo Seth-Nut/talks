@@ -15,15 +15,13 @@ filters:
   - quarto-ext/shinylive
 ---
 
-##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
+#  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/Slide1.jpg" data-state="no-logo"}
 
-[Crea, Innova y Presenta]{.custom-title}
+##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/Slide2.jpg" data-state="no-logo"}
 
-[Data Storytelling + A.I.]{.custom-subtitle}
+##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/Slide3.jpg" data-state="no-logo"}
 
-[Francisco Alfaro Medina <br> Valeska Canales Pozo]{.custom-author}
-
-[<https://sethnut.com/talks>]{.custom-url}
+##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/Slide4.jpg" data-state="no-logo"}
 
 ## Sobre Nosotros {background-image="images/background.jpg" background-opacity="0.25"}
 
