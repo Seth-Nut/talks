@@ -19,7 +19,7 @@ filters:
 
 ##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/Slide2.jpg" data-state="no-logo"}
 
-##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/Slide3.jpg" data-state="no-logo"}
+##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/Slide33.jpg" data-state="no-logo"}
 
 ##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/Slide4.jpg" data-state="no-logo"}
 
