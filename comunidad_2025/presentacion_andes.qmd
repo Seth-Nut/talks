@@ -51,10 +51,9 @@ filters:
 ::: {.column .incremental width="60%"}
 <br><br><br>
 
-* **Metodología**: Quarto, Colab y GitHub.
-* **Comunidad**: talleres y co-creación.
-- **Impacto**: logros, desafíos y feedback.
-
+-   **Metodología**: Quarto, Colab y GitHub.
+-   **Comunidad**: talleres y co-creación.
+-   **Impacto**: logros, desafíos y feedback.
 :::
 :::
 
@@ -141,7 +140,6 @@ filters:
 :::
 
 # Hora del "adiós" {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
-------------------------------------------------------------------------
 
 ## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
 
