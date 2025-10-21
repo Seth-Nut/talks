@@ -9,8 +9,7 @@ format:
     theme: style2.scss
     transition: fade
     title-slide-attributes: 
-      data-background-image: images/background.jpg
-    logo: images/datasaturday2.png
+      data-background-image: images/slide-normal.jpg
 filters:
   - quarto-ext/shinylive
 ---
@@ -23,13 +22,13 @@ filters:
 
 ##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/Slide4.jpg" data-state="no-logo"}
 
-## Sobre Nosotros {background-image="images/background.jpg" background-opacity="0.25"}
+## Sobre Nosotros {background-image="images/slide-normal.jpg" }
 
 ::: fragment
 ![](images/about.svg){fig-align="center"}
 :::
 
-## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
+## Agenda {background-image="images/slide-normal.jpg" }
 
 ::: columns
 ::: {.column .incremental width="30%"}
@@ -49,7 +48,7 @@ filters:
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/slide-normal.jpg"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 ::: callout-note
@@ -64,7 +63,7 @@ Nunca revelar el final antes de tiempo.\
 
 ------------------------------------------------------------------------
 
-## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
+## Agenda (v2) {background-image="images/slide-normal.jpg"}
 
 ::: incremental
 1.  Nunca reveles [el final]{style="background-color:black;"}\
@@ -77,7 +76,7 @@ Nunca revelar el final antes de tiempo.\
 
 ------------------------------------------------------------------------
 
-## Qué es Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
+## Qué es Storytelling? {background-image="images/slide-normal.jpg"}
 
 ::: columns
 ::: {.column width="50%"}
@@ -103,7 +102,7 @@ Use it well.
 
 ------------------------------------------------------------------------
 
-## Qué es Data Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
+## Qué es Data Storytelling? {background-image="images/slide-normal.jpg"}
 
 <br>
 
@@ -121,7 +120,7 @@ Use it well.
 
 ------------------------------------------------------------------------
 
-## Cuando las estadísticas confunden ... {background-image="images/background.jpg" background-opacity="0.25"}
+## Cuando las estadísticas confunden ... {background-image="images/slide-normal.jpg"}
 
 ::: columns
 ::: {.column .fragment width="50%" style="text-align: center;"}
@@ -139,7 +138,7 @@ Use it well.
 
 ------------------------------------------------------------------------
 
-## El poder del qué y cómo visualizar {background-image="images/background.jpg" background-opacity="0.25"}
+## El poder del qué y cómo visualizar {background-image="images/slide-normal.jpg"}
 
 ::: {.fragment align="center"}
 <iframe src="images/demo.html" width="1400" height="550" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;">
@@ -149,7 +148,7 @@ Use it well.
 
 ------------------------------------------------------------------------
 
-## Ohh, nuestros cerebros son hackables... {background-image="images/background.jpg" background-opacity="0.25"}
+## Ohh, nuestros cerebros son hackables... {background-image="images/slide-normal.jpg"}
 
 ::: r-stack
 ![](images/storytelling/sketplanation2.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
@@ -159,7 +158,7 @@ Use it well.
 
 ------------------------------------------------------------------------
 
-## Atención y memoria {background-image="images/background.jpg" background-opacity="0.25"}
+## Atención y memoria {background-image="images/slide-normal.jpg"}
 
 <br>
 
@@ -171,7 +170,7 @@ Use it well.
 
 ------------------------------------------------------------------------
 
-## Narrativa {background-image="images/background.jpg" background-opacity="0.25"}
+## Narrativa {background-image="images/slide-normal.jpg"}
 
 ::: columns
 ::: {.column width="60%"}
@@ -199,7 +198,7 @@ Facts inform — emotions inspire action.
 
 ------------------------------------------------------------------------
 
-## Más que gráficos bonitos {background-image="images/background.jpg" background-opacity="0.25"}
+## Más que gráficos bonitos {background-image="images/slide-normal.jpg"}
 
 ::: columns
 ::: {.column width="50%"}
@@ -217,7 +216,7 @@ Facts inform — emotions inspire action.
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/slide-normal.jpg"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 ::: callout-note
@@ -235,7 +234,7 @@ Focus only on what moves the story forward.
 
 ------------------------------------------------------------------------
 
-## Ejemplo: Spotify Wrapped {background-image="images/background.jpg" background-opacity="0.25"}
+## Ejemplo: Spotify Wrapped {background-image="images/slide-normal.jpg"}
 
 ::: columns
 ::: {.column .fragment width="30%" fragment-index="1"}
@@ -255,7 +254,7 @@ Focus only on what moves the story forward.
 
 ------------------------------------------------------------------------
 
-## Visualización ... {background-image="images/background.jpg" background-opacity="0.25"}
+## Visualización ... {background-image="images/slide-normal.jpg"}
 
 ::: columns
 ::: {.column .fragment width="60%"}
@@ -278,7 +277,7 @@ Focus only on what moves the story forward.
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/slide-normal.jpg"}
 
 <br>
 
@@ -294,7 +293,7 @@ Focus only on what moves the story forward.
 
 ------------------------------------------------------------------------
 
-## Ejemplos {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+## Ejemplos {background-image="images/slide-normal.jpg" transition="zoom"}
 
 <br>
 
@@ -314,7 +313,7 @@ Focus only on what moves the story forward.
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/slide-normal.jpg"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 ::: callout-note
@@ -326,7 +325,7 @@ Focus only on what moves the story forward.
 
 ------------------------------------------------------------------------
 
-## Mejores Gráficos para tus Datos {background-image="images/background.jpg" background-opacity="0.25"}
+## Mejores Gráficos para tus Datos {background-image="images/slide-normal.jpg"}
 
 ::: r-stack
 <br>
@@ -350,7 +349,7 @@ Simple wins.
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/slide-normal.jpg"}
 
 <br><br>
 
@@ -382,7 +381,7 @@ Storytelling is an iterative process.
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/slide-normal.jpg"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 ::: callout-note
@@ -400,7 +399,7 @@ Refining comes later.
 
 ------------------------------------------------------------------------
 
-## De las Ideas al Impacto ... con IA {background-image="images/background.jpg" background-opacity="0.25"}
+## De las Ideas al Impacto ... con IA {background-image="images/slide-normal.jpg"}
 
 ::: columns
 ::: {.column .fragment width="60%"}
@@ -429,7 +428,7 @@ Less time stuck, more time creating.
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+##  {background-image="images/slide-normal.jpg"}
 
 ::: r-stack
 ![](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*_3AM0Yhc7qgCvZ_X1L8mhw.gif){.fragment .fade-in-then-out fig-align="center" width="80%"}
@@ -443,7 +442,7 @@ Less time stuck, more time creating.
 
 ------------------------------------------------------------------------
 
-## 🤖 Caso de Estudio {background-image="images/background.jpg" background-opacity="0.25"}
+## 🤖 Caso de Estudio {background-image="images/slide-normal.jpg"}
 
 ::: {.callout-note title="Problemática"}
 Debes preparar un pitch rápido para gerencia a partir de un dataset de **ventas por región y trimestre**.\
@@ -469,7 +468,7 @@ El reto es extraer la historia clave y comunicarla de manera clara y convincente
 
 ------------------------------------------------------------------------
 
-## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
+## Agenda (v2) {background-image="images/slide-normal.jpg"}
 
 ::: incremental
 1.  Nunca reveles el [**final**]{.fragment style="color:grey;"}\
@@ -488,7 +487,7 @@ Simple rules to tell better stories with data.
 
 ------------------------------------------------------------------------
 
-## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+## 🎉 ¡Gracias por Participar! {background-image="images/slide-normal.jpg"}
 
 ::: columns
 ::: {.column width="50%"}
