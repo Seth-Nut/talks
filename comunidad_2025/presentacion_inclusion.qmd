@@ -154,6 +154,10 @@ editor: visual
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
 
+
+##  { background-image="images/slide-final.svg" data-state="no-logo"}
+
+
 ```{=html}
 <style>
 /* Ajusta el tamaño del título y subtítulo */
