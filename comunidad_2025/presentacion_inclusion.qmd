@@ -62,9 +62,21 @@ editor: visual
 
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
-::: {style="text-align: center;"}
-<img src="images/experiencias.svg" alt="Tachado" style="width: 1300px; height: 700px; border-radius: 10px;"/>
+
+<br><br>
+
+::: columns
+::: {.column width="50%"}
+![](images/r1.png){fig-align="center" width="600px" height="400px"}\
+[Repositorio Github](https://github.com/Seth-Nut/ws-usm_uchile-2025)
 :::
+
+::: {.column .fragment width="50%"}
+![](images/r3.png){fig-align="center" width="600px" height="400px"}\
+[Repositorio Interactivo](https://sethnut.com/ws-usm_uchile-2025/)
+:::
+:::
+
 
 ------------------------------------------------------------------------
 
@@ -72,25 +84,17 @@ editor: visual
 
 <br>
 
-::: r-stack
-::: {.fragment .fade-in-then-out}
-<iframe src="https://sethnut.com/talks/latex_2025/presentacion_emma.html#/title-slide" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://sethnut.com/ws-usm_uchile-2025/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
+
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+::: {style="text-align: center;"}
+<img src="images/experiencias.svg" alt="Tachado" style="width: 1300px; height: 700px; border-radius: 10px;"/>
 :::
 
-::: fade-in-then-out
-<iframe src="https://sethnut.com/ws-usm_uchile-2025/material/talleres/intro.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
-
-</iframe>
-:::
-
-::: fragment
-<iframe src="https://sebastiandres.github.io/pyschool_2025/space_station/rooms/sala_00.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
-
-</iframe>
-:::
-:::
 
 ------------------------------------------------------------------------
 
