@@ -345,6 +345,42 @@ Bar, scatter, box, heatmap, big text — that's 90% of data storytelling.\
 Simple wins.
 :::
 
+## 4 Pilares Visualización - Noah Iliinsky {background-image="images/slide-normal.jpg"}
+
+::: columns
+::: {.column .fragment .incremental width="60%"}
+<br>
+
+1.  **Propósito**: Define la meta.
+2.  **Contenido**: Datos relevantes.
+3.  **Estructura**: Organización clara.
+4.  **Formato**: Gráfico adecuado.
+:::
+
+::: {.column width="40%"}
+![](images/viz/pilar2.png){fig-align="center"}
+:::
+:::
+
+. . .
+
+[(C) Noah Iliinsky: "Four Pillars of Visualization" - YouTube.]{style="font-size: 0.75em; color: gray"}
+
+## Herramientas {background-image="images/slide-normal.jpg"}
+
+::: r-stack
+![](images/toolsbi.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](https://web.mat.upc.edu/joaquim.puig/posts/quarto-ojs/quarto-ojs.gif){.fragment .fade-in-then-out fig-align="center" width="80%"}
+
+![](https://blog.streamlit.io/content/images/2022/04/Live-Data-Science-Dashboard-GIF-1.gif){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](https://images.ctfassets.net/2vbtnveccz5s/2iorjhUm2wp4EEHv4kDKiV/4cb6e193184f1fc88547f25272e8f976/specialized1.gif){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFs16F08eDlXUPU4No8uxpRTbdCnj94I1epbMgtf-dTvNjIyI6UudYp1xBlOi6oNRTFle59JMyZYKg0Sv9K4Fb1KAZRmcyvsg84wkEl9nnL0fgnBl8OGVbZfBIllHznyzTr8DtGo4sqXVSCGvWLHl0L-J5ZdHV_UCSMq1ytpr8StJstxoqOzEVgn98LQ/s16000/1%20Zoom%20In%20on%20Desktop%20Windows.gif){.fragment fig-align="center" width="80%"}
+:::
+
 # Inteligencia Artificial {.title-middle-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
 ------------------------------------------------------------------------
