@@ -617,17 +617,17 @@ Simple rules to tell better stories with data.
 ::: columns
 ::: {.column width="33%"}
 ![](https://cdn-icons-png.flaticon.com/512/2601/2601987.png){fig-align="center" width="600px" height="300px"}\
-[Questionario](https://github.com/fralfaro/MAT306/blob/main/docs/projects/FORMULACION-ANID%20(EJEMPLO).pdf)
+[Questionario](https://drive.google.com/drive/u/0/folders/1ZcyDQghMfQDJlgVhqKz3Zcwq1TLRsSdZ)
 :::
 
 ::: {.column .fragment width="34%"}
 ![](https://cdn-icons-png.freepik.com/512/836/836193.png){fig-align="center" width="600px" height="300px"}\
-[Carta Gantt](https://github.com/fralfaro/MAT306/blob/main/docs/projects/Carta-Gantt-ANID%20(EJEMPLO).xlsx)
+[Carta Gantt](https://drive.google.com/drive/u/0/folders/1ZcyDQghMfQDJlgVhqKz3Zcwq1TLRsSdZ)
 :::
 
 ::: {.column .fragment width="33%"}
 ![](https://cdn-icons-png.flaticon.com/512/2942/2942269.png){fig-align="center" width="600px" height="300px"}\
-[Presupuesto](https://github.com/fralfaro/MAT306/blob/main/docs/projects/PLANILLA-DE-COSTOS-ID-ANID%20(EJEMPLO).xlsx)
+[Presupuesto](https://drive.google.com/drive/u/0/folders/1ZcyDQghMfQDJlgVhqKz3Zcwq1TLRsSdZ)
 
 
 :::
