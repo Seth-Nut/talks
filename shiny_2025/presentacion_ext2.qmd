@@ -155,7 +155,7 @@ Selecciona la propiedad:
 :::
 :::
 
-> 🔗 Visita nuestro sitio oficial: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+> 🔗 Visita nuestro sitio oficial: [sethnut.com/talks](https://sethnut.com/talks/)
 
 ::: notes
 Thank you so much for being here!

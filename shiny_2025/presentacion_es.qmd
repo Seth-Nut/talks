@@ -633,7 +633,7 @@ Opción 2: Una agenda misteriosa.
 :::
 :::
 
-> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
+> 🔗 Nuestro Sitio Web: [sethnut.com/talks](https://sethnut.com/talks/).
 
 ```{=html}
 <style>

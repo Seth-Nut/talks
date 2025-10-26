@@ -76,3 +76,55 @@ body {
   background-position: center; /* Centra la imagen en el fondo */
 }
 
+/* === Estilo general de las tarjetas === */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 1.2em 1.5em;
+  margin-bottom: 1.2em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover elegante */
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Títulos de las presentaciones */
+.card h3, .card h4 {
+  margin-top: 0;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Enlaces principales */
+.card a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card a:hover {
+  text-decoration: underline;
+  color: #023e8a;
+}
+
+/* Texto */
+.card p {
+  margin-bottom: 0.4em;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Sección de presentaciones */
+.card strong {
+  color: #1d3557;
+}
+
+.card em {
+  color: #6c757d;
+}
+

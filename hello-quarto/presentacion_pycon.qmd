@@ -37,14 +37,11 @@ editor: visual
 ![](images/horst-quarto-meteor-transparent.png){.fragment fig-align="center" width="90%"}
 :::
 
-
 ##  {.centered auto-animate="true"}
 
 ![](images/toc.svg){fig-alt="Logo de Quarto con los cuatro cuadrantes etiquetados como Compartir, Colaborar, Enseñar y Reimaginar."}
 
-
-
-# <br> Compartir +  <br>  Colaborar  {.title-top-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
+# <br> Compartir + <br> Colaborar {.title-top-ice background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
 ## ¿Qué es Quarto ? {.title-top-light background-image="images/horst-quarto-meteor-transparent.png"}
 
@@ -67,7 +64,6 @@ Quarto es un sistema abierto de<br> publicación científica y técnica
 ::: {.fragment .fade-up}
 ![](images/horst_quarto_schematic.png){fig-align="center" width="1100px" fig-alt="Un esquema que representa la versatilidad de Quarto para entrada multilenguaje (por ejemplo, Python, R, Observable, Julia) y salida multi-formato (por ejemplo, PDF, HTML, documentos Word y más)."}
 :::
-
 
 ## Ejemplos
 
@@ -153,11 +149,9 @@ website:
 :::
 :::
 
-
-
 ## Instalar y configurar Quarto {transition="zoom"}
 
-<br> 
+<br>
 
 ::: columns
 ::: {.column width="40%"}
@@ -212,8 +206,6 @@ website:
 🌐 Asegúrate de tener instalado [R](https://cran.r-project.org/) ([RStudio](https://posit.co/download/rstudio-desktop/)) y/o [Python](https://www.python.org/) ([Jupyter](https://jupyter.org/))
 :::
 
-
-
 ##  {.takeaway .center}
 
 ::: columns
@@ -262,8 +254,6 @@ format:
 
 ## ¿ Qué podemos hacer con Quarto? {transition="zoom"}
 
-
-
 ::: fragment
 ![](images/3-teach/many-qmd-to-output.svg){width="85%" fig-align="center"}
 :::
@@ -303,7 +293,6 @@ function(input, output) {
   })
 }
 ```
-
 
 ## Enfoque en Líneas
 
@@ -392,7 +381,6 @@ df.head(5)  # primeras 10 filas
 
 ------------------------------------------------------------------------
 
-
 ## Extensiones de Quarto
 
 ::: columns
@@ -410,8 +398,6 @@ Las **extensiones** de Quarto permiten añadir nuevas características y potenci
 ![](images/quarto-ext.png)
 :::
 :::
-
-
 
 ------------------------------------------------------------------------
 
@@ -453,9 +439,7 @@ That’s the power of WebR.
 
 ------------------------------------------------------------------------
 
-
 ## Quarto Shinylive
-
 
 ```{shinylive-python}
 #| standalone: true
@@ -655,4 +639,4 @@ Olimpiada Matemática, Verano Matemático, EMMA y más!
 :::
 :::
 
-> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+> 🔗 Nuestro Sitio Web: [sethnut.com/talks](https://sethnut.com/talks/)

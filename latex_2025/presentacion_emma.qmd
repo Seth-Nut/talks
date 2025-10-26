@@ -463,11 +463,7 @@ f(x) = \int_0^\infty e^-x^2 dx
 <br> <br>
 
 ::: fragment
-✅ **LaTeX** permite redactar textos con calidad profesional. <br> 
-✅ Ofrece **control total** en diseño y estructura. <br> 
-✅ Existen varias **herramientas** que simplifican su uso. <br> 
-✅ Con **IA**, trabajar en LaTeX resulta más eficiente. <br> 
-✅ **Overleaf** facilita empezar sin instalar programas. <br>
+✅ **LaTeX** permite redactar textos con calidad profesional. <br> ✅ Ofrece **control total** en diseño y estructura. <br> ✅ Existen varias **herramientas** que simplifican su uso. <br> ✅ Con **IA**, trabajar en LaTeX resulta más eficiente. <br> ✅ **Overleaf** facilita empezar sin instalar programas. <br>
 :::
 
 ------------------------------------------------------------------------
@@ -490,7 +486,7 @@ f(x) = \int_0^\infty e^-x^2 dx
 :::
 :::
 
-> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+> 🔗 Nuestro Sitio Web: [sethnut.com/talks](https://sethnut.com/talks/)
 
 ```{=html}
 <style>

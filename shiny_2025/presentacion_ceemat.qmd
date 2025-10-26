@@ -245,13 +245,10 @@ Focus only on what moves the story forward.
 ::: {.column .fragment width="60%"}
 <br><br>
 
-
-* Gráficos claros y comprensibles.
-* Elección correcta del gráfico.
-* Patrones y anomalías visibles.
-* Datos complejos → ideas simples.
-
-
+-   Gráficos claros y comprensibles.
+-   Elección correcta del gráfico.
+-   Patrones y anomalías visibles.
+-   Datos complejos → ideas simples.
 :::
 
 ::: {.column width="40%"}
@@ -483,7 +480,7 @@ Simple rules to tell better stories with data.
 :::
 :::
 
-> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+> 🔗 Nuestro Sitio Web: [sethnut.com/talks](https://sethnut.com/talks/)
 
 ```{=html}
 <style>

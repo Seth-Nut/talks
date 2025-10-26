@@ -1,30 +1,159 @@
 ---
 title: "🎉 Presentaciones"
-output: html_document
+format:
+  html:
+    toc: false
 ---
 
 # Lista de Presentaciones
 
 ¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con [Quarto](https://quarto.org/), una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.
 
-| Título                                                                                                                | Descripción                                                                                                                          | Presentaciones                                                                                                                                                                                                                                                                                                              |
-|------------------|---------------------------|---------------------------|
-| [Crea, Innova y Presenta: Data Storytelling con A.I.](visualization_2024/presentacion.html)                           | Transforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.                                            | [Nerdearla (ES) 2025](shiny_2025/presentacion_ne.html), <br> [Data Saturday Latam](shiny_2025/presentacion_datasaturday.html), <br> [Open Tech Day](shiny_2025/presentacion_openday.html), <br> [Pycon (COL) 2025](shiny_2025/presentacion_pc.html), <br> [PyLadiesCon 2025](visualization_2024/presentacion_pyladies.html) |
-| [Narrativas con Datos - BDO](https://drive.google.com/file/d/1w_r7FETzNNh4Y_HHt1Gj-D-6T-2Us47U/view?usp=sharing)      | Crear presentaciones persuasivas con datos que capten, mantengan y movilicen a la audiencia.                                         | [Ñuble Alimentos](shiny_2025/presentacion_ext.html), <br> [Fondo Esperanza I](shiny_2025/presentacion_fa1.html), <br> [Fondo Esperanza II](shiny_2025/presentacion_fa2.html)                                                                                                                                                |
-| [Olimpiadas Escolares USM](comunidad_2025\presentacion_olimpiadas.html)                                               | El evento invita a estudiantes de 3° y 4° medio a vivir las matemáticas con pruebas, talleres y charlas en un entorno universitario. | [Charla 2025](comunidad_2025\presentacion_olimpiadas.html), <br> [Charla 2024](https://falfaro.xyz/DMAT-SJ-Olimpiadas/)                                                                                                                                                                                                     |
-| [Plataformas Interactivas para la Enseñanza Legal](comunidad_2025\presentacion_sochedi.html)                                               | Convierte leyes complejas en contenido accesible mediante IA, visualizaciones y recursos dinámicos en Streamlit y Quarto. | [SOCHEDI 2025](comunidad_2025\presentacion_sochedi.html), <br> [Summit Ciberseguridad](https://docs.google.com/presentation/d/1RK-oxmVm949aoF4HZ2ThXmdXl6tqX6nE5MQtb_RoyUA/edit?usp=sharing)                                                                                                                                                                                                     |
-| [Charlas CEMMAT](https://sethnut.com/ceemat_2025/)                                                                    | Mini curso para aprender sobre temas relacionados a IA y Data Storytelling.                                                          | [Charla I.A.](prompts_chatgpt/presentacion_ceemat.html), <br> [Charla Storytelling](shiny_2025/presentacion_ceemat.html)                                                                                                                                                                                                    |
-| [Charlas Proyectos](https://github.com/fralfaro/MAT281)                                                                    | Charlas centradas en presentar y explicar los objetivos del proyecto.                                                         | [Charla MAT281](shiny_2025/presentacion_mat281.html), <br> [Charla MAT306](shiny_2025/presentacion_mat306.html)                                                                                                                                                                                                    |
-| [Del Dato a la Narrativa: Visualización Interactiva con Shiny](shiny_2025/presentacion_es.html)                       | Aprende a crear paneles interactivos y visualizaciones narrativas con Shiny.                                                         | [ShinyConf 2025](shiny_2025/presentacion.html), <br> [UserR 2025](shiny_2025/presentacion_user.html)                                                                                                                                                                                                                        |
-| [No es Magia, es Ciencia](prompts_chatgpt/presentacion.html)                                                          | Aprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.                                     | [TechSchool 2025](prompts_chatgpt/presentacion.html),<br> [EMMA Agosto 2025](prompts_chatgpt/presentacion_emma.html)                                                                                                                                                                                                        |
-| [Hola Quarto - compartir • colaborar • enseñar • reimaginar](hello-quarto/presentacion.html)                          | Taller introductorio a Quarto, una herramienta para crear documentos, presentaciones y sitios web interactivos.                      | [Sumemos Ideas: Seminarios USM](hello-quarto/presentacion.html),<br> [Pycon Chile 2025](hello-quarto/presentacion_pycon.html)                                                                                                                                                                                               |
-| [¡Adiós Word, Hola LaTeX!](latex_2025/presentacion.html)                                                              | Taller práctico para descubrir LaTeX como alternativa profesional a Word.                                                            | [EMMA Agosto 2025](latex_2025/presentacion_emma.html)                                                                                                                                                                                                                                                                       |
-| [Educación Abierta y Comunidad](comunidad_2025/presentacion.html)                                                     | Crea y comparte contenidos educativos colaborando con profesionales usando <br> GitHub y Quarto.                                     | [Pyday 2025](comunidad_2025/presentacion.html), <br> [Compromiso Universidad](comunidad_2025/presentacion_andes.html), <br> [Integridad Universitaria](comunidad_2025/presentacion_uc.html), <br> [Inclusión Universitaria](comunidad_2025/presentacion_inclusion.html),                                                                                                                                                  |
-| [Innovación en MAT281: Herramientas Abiertas y Evaluaciones Dinámicas](uc_2024/presentacion.html)           | Cómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso.                                      |  [CLEI 2025](uc_2024/presentacion_clei2.html), <br> [II E.D.M.U.](uc_2024/presentacion.html)                                                                                                                                                                                                                                                                          |
-| [LatinR 2024 - Uso de Quarto para crear clases interactivas](latinr_2024/presentacion.html)                           | Quarto permite diseñar contenidos interactivos en R y Python.                                                                        | [Presetación](latinr_2024/presentacion.html)                                                                                                                                                                                                                                                                                |
-| [MADS USM 2024 - Inteligencia Artificial en la Educación](mads_2024/presentacion.html)                                | Aplicaciones prácticas de la IA en la enseñanza para experiencias personalizadas.                                                    | [Presetación](mads_2024/presentacion.html)                                                                                                                                                                                                                                                                                  |
-| [DMAT USM 2024 - Más allá del Infinito](infinity_2024/presentacion.html)                                              | Explora los conceptos del infinito en matemáticas con ejemplos interactivos.                                                         | [Presetación](infinity_2024/presentacion.html)                                                                                                                                                                                                                                                                              |
-| [Narrativas con Datos](narrativas_2024/presentacion.html)                                                             | Aprende a contar historias persuasivas con datos usando Python y visualización.                                                      | [Presetación](narrativas_2024/presentacion.html)                                                                                                                                                                                                                                                                            |
-| [Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero](computacion_2024/presentacion.html)        | Introducción accesible al uso de la tecnología para personas mayores.                                                                | [Presetación](computacion_2024/presentacion.html)                                                                                                                                                                                                                                                                           |
-| [¿Y Ahora Qué? Del Aula al Trabajo](profesional_2024/presentacion.html)                                               | Habilidades clave y herramientas para la transición al mundo laboral.                                                                | [Presetación](profesional_2024/presentacion.html)                                                                                                                                                                                                                                                                           |
-| [Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub](pycon_usa_2025/presentacion.html) | Automatiza y comparte materiales educativos con GitHub y Quarto.                                                                     | [Presetación](pycon_usa_2025/presentacion.html)                                                                                                                                                                                                                                                                             |
+
+## 🤖  Data Storytelling + A.I.
+
+::: {.card}
+### Crea, Innova y Presenta: Data Storytelling con A.I.
+Transforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.  
+**Presentaciones:**  
+[Nerdearla (ES) 2025](shiny_2025/presentacion_ne.html) · [Data Saturday Latam 2025](shiny_2025/presentacion_datasaturday.html) · [Open Tech Community Day 2025](shiny_2025/presentacion_openday.html) ·<br> [Pycon (COL) 2025](shiny_2025/presentacion_pc.html) · [PyLadiesCon 2025](visualization_2024/presentacion_pyladies.html)
+:::
+
+::: {.card}
+### Del Dato a la Narrativa: Visualización Interactiva con Shiny
+Aprende a crear paneles interactivos y visualizaciones narrativas con Shiny.  
+**Presentaciones:**  
+[ShinyConf 2025](shiny_2025/presentacion.html) · [UserR 2025](shiny_2025/presentacion_user.html)
+:::
+
+::: {.card}
+### Narrativas con Datos - BDO
+Crear presentaciones persuasivas con datos que capten, mantengan y movilicen a la audiencia.  
+**Presentaciones:**  
+[Ñuble Alimentos](shiny_2025/presentacion_ext.html) · [Fondo Esperanza (Parte I)](shiny_2025/presentacion_fa1.html) · [Fondo Esperanza (Parte II)](shiny_2025/presentacion_fa2.html)
+:::
+
+::: {.card}
+### No es Magia, es Ciencia
+Aprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.  
+**Presentaciones:**  
+[TechSchool 2025](prompts_chatgpt/presentacion.html) · [EMMA Agosto 2025](prompts_chatgpt/presentacion_emma.html)
+:::
+
+## 🎓 Innovación Educativa + Comunidad Académica
+
+::: {.card}
+### Educación Abierta y Comunidad
+Crea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.  
+**Presentaciones:**  
+ [Congreso Compromiso Universidad y Comunidad](comunidad_2025/presentacion_andes.html) · [II Congreso Internacional en Educación Superior Inclusiva](comunidad_2025/presentacion_inclusion.html) · [Congreso Chileno de Integridad Académica](comunidad_2025/presentacion_uc.html) · [Pyday Valparaíso 2025](comunidad_2025/presentacion.html)
+:::
+
+::: {.card}
+### Innovación en MAT281: Herramientas Abiertas y Evaluaciones Dinámicas
+Cómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso.  
+**Presentaciones:**  
+[CLEI 2025](uc_2024/presentacion_clei2.html) · [II E.D.M.U.](uc_2024/presentacion.html)
+:::
+
+::: {.card}
+### Hola Quarto - compartir • colaborar • enseñar • reimaginar
+Taller introductorio a Quarto, una herramienta para crear documentos, presentaciones y sitios web interactivos.  
+**Presentaciones:**  
+[Sumemos Ideas: Seminarios USM](hello-quarto/presentacion.html) · [Pycon Chile 2025](hello-quarto/presentacion_pycon.html)
+:::
+
+::: {.card}
+### Plataformas Interactivas para la Enseñanza Legal
+Convierte leyes complejas en contenido accesible mediante IA, visualizaciones y recursos dinámicos en Streamlit y Quarto.  
+**Presentaciones:**  
+[SOCHEDI 2025](comunidad_2025/presentacion_sochedi.html) · [SummIT CiberSeguridad 2024](https://docs.google.com/presentation/d/1RK-oxmVm949aoF4HZ2ThXmdXl6tqX6nE5MQtb_RoyUA/edit?usp=sharing)
+:::
+
+::: {.card}
+### ¡Adiós Word, Hola LaTeX!
+Taller práctico para descubrir LaTeX como alternativa profesional a Word.  
+**Presentaciones:**  
+[EMMA Agosto 2025](latex_2025/presentacion_emma.html)
+:::
+
+::: {.card}
+### Uso de Quarto para crear clases interactivas
+Quarto permite diseñar contenidos interactivos en R y Python.  
+**Presentaciones:**  
+[LatinR 2024](latinr_2024/presentacion.html)
+:::
+
+
+## ♾️ Matemáticas, Ciencia y Divulgación
+
+::: {.card}
+### Olimpiadas Escolares USM
+El evento invita a estudiantes de 3° y 4° medio a vivir las matemáticas con pruebas, talleres y charlas en un entorno universitario.  
+**Presentaciones:**  
+[Charla 2025](comunidad_2025/presentacion_olimpiadas.html) · [Charla 2024](https://falfaro.xyz/DMAT-SJ-Olimpiadas/)
+:::
+
+::: {.card}
+### Charlas CEMMAT
+Mini curso para aprender sobre temas relacionados a IA y Data Storytelling.  
+**Presentaciones:**  
+[Charla I.A.](prompts_chatgpt/presentacion_ceemat.html) · [Charla Storytelling](shiny_2025/presentacion_ceemat.html)
+:::
+
+::: {.card}
+### Charlas Proyectos
+Charlas centradas en presentar y explicar los objetivos del proyecto.  
+**Presentaciones:**  
+[Charla MAT281](shiny_2025/presentacion_mat281.html) · [Charla MAT306](shiny_2025/presentacion_mat306.html)
+:::
+
+::: {.card}
+### Más allá del Infinito
+Explora los conceptos del infinito en matemáticas con ejemplos interactivos.  
+**Presentaciones:**  
+[DMAT USM 2024](infinity_2024/presentacion.html)
+:::
+
+::: {.card}
+### Inteligencia Artificial en la Educación
+Aplicaciones prácticas de la IA en la enseñanza para experiencias personalizadas.  
+**Presentaciones:**  
+[MADS USM 2024](mads_2024/presentacion.html)
+:::
+
+
+
+
+
+## 🌐 Más charlas
+
+
+::: {.card}
+### Conéctate al Mundo Digital: Computación para Personas Mayores desde Cero
+Introducción accesible al uso de la tecnología para personas mayores.  
+**Presentaciones:**  
+[Presentación](computacion_2024/presentacion.html)
+:::
+
+::: {.card}
+### ¿Y Ahora Qué? Del Aula al Trabajo
+Habilidades clave y herramientas para la transición al mundo laboral.  
+**Presentaciones:**  
+[Presentación](profesional_2024/presentacion.html)
+:::
+
+
+::: {.card}
+### Narrativas con Datos
+Aprende a contar historias persuasivas con datos usando Python y visualización.  
+**Presentaciones:**  
+[Presentación](narrativas_2024/presentacion.html)
+:::
+
+::: {.card}
+### Educación sin Límites: Automatiza tus Contenidos Interactivos con Quarto y GitHub
+Automatiza y comparte materiales educativos con GitHub y Quarto.  
+**Presentaciones:**  
+[Presentación](pycon_usa_2025/presentacion.html)
+:::

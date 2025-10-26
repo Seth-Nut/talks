@@ -62,7 +62,6 @@ editor: visual
 
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
-
 <br><br>
 
 ::: columns
@@ -77,7 +76,6 @@ editor: visual
 :::
 :::
 
-
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
@@ -88,13 +86,11 @@ editor: visual
 
 </iframe>
 
-
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
 ::: {style="text-align: center;"}
 <img src="images/experiencias.svg" alt="Tachado" style="width: 1300px; height: 700px; border-radius: 10px;"/>
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -156,11 +152,9 @@ editor: visual
 :::
 :::
 
-> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+> 🔗 Nuestro Sitio Web: [sethnut.com/talks](https://sethnut.com/talks/)
 
-
-##  { background-image="images/slide-final.svg" data-state="no-logo"}
-
+##  {background-image="images/slide-final.svg" data-state="no-logo"}
 
 ```{=html}
 <style>

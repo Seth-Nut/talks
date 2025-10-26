@@ -73,9 +73,7 @@ filters:
 $$
 
 ::: fragment
-Escribe la suma dos vecesde la forma: 
-$$S = 001+ 002+\cdots+099+100$$ 
-$$S = 100+099+\cdots+002+001$$
+Escribe la suma dos vecesde la forma: $$S = 001+ 002+\cdots+099+100$$ $$S = 100+099+\cdots+002+001$$
 :::
 
 ::: fragment
@@ -86,12 +84,9 @@ $\Rightarrow 2S = 101 + 101 + \cdots +101$
 $\Rightarrow  2S = 100(101)$
 :::
 
-  
-
-::: {.fragment}
+::: fragment
 $$ \displaystyle S = \frac{100(101)}{2} = 5050$$
 :::
-
 :::
 
 ::: {.column width="45%"}
@@ -115,15 +110,13 @@ $$ \displaystyle S = \frac{100(101)}{2} = 5050$$
 
 ## ¿ números impares y los cuadrados? {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 <br>
 
 ::: r-stack
-![](images/piramide.png){.fragment .fade-in-then-out fig-align="center" width="1000px" }
+![](images/piramide.png){.fragment .fade-in-then-out fig-align="center" width="1000px"}
 
 ![](images/piramide.gif){.fragment fig-align="center" width="1000px"}
 :::
-
 
 ## ¿ números impares y los cuadrados? {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -231,7 +224,7 @@ $$
 :::
 :::
 
-. . . 
+. . .
 
 > 👉 En la IMO 1988, el famoso problema 6 dio a Terence Tao solo 1/7 puntos.
 
@@ -274,10 +267,9 @@ Determine cuántas trayectorias albas hay en total.
 ![](images/t3.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
 
 ![](images/t4.png){.fragment fig-align="center" width="100%"}
-::: 
+:::
 
-
---------------------------------------------------
+------------------------------------------------------------------------
 
 ## Trayectorias albas en un tablero 8×8 {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -295,7 +287,6 @@ Determine cuántas trayectorias albas hay en total.
 :::
 
 ::: {.column .incremental width="60%"}
-
 ::: r-stack
 ![](images/t1.png){.fragment .fade-in-then-out fig-align="center" width="930px" height="540px"}
 
@@ -306,8 +297,7 @@ Determine cuántas trayectorias albas hay en total.
 ![](images/t13.png){.fragment .fade-in-then-out fig-align="center" width="930px" height="540px"}
 
 ![](images/t14.png){.fragment fig-align="center" width="930px" height="540px"}
-::: 
-
+:::
 :::
 :::
 
@@ -390,15 +380,13 @@ Se tienen **680 naranjas** apiladas en una **pirámide triangular**. ¿Cuántas 
 ::: {.column .incremental width="60%"}
 <br><br>
 
-
-- Aún hay **preguntas sin respuesta** en matemáticas.  
-- Son tan difíciles que llevan décadas esperando solución.  
-- Algunos ejemplos:  
-  - **Hipótesis de Riemann** → sobre los números primos  
-  - **Navier–Stokes** → cómo se mueven los fluidos  
-  - **Conjetura de Hodge** → formas en geometría  
-  - **Conjetura de Poincaré** → formas de los espacios en 3D
-
+-   Aún hay **preguntas sin respuesta** en matemáticas.\
+-   Son tan difíciles que llevan décadas esperando solución.\
+-   Algunos ejemplos:
+    -   **Hipótesis de Riemann** → sobre los números primos\
+    -   **Navier–Stokes** → cómo se mueven los fluidos\
+    -   **Conjetura de Hodge** → formas en geometría\
+    -   **Conjetura de Poincaré** → formas de los espacios en 3D
 :::
 
 ::: {.column width="40%"}
@@ -412,7 +400,6 @@ Se tienen **680 naranjas** apiladas en una **pirámide triangular**. ¿Cuántas 
 
 > ✅ La **Conjetura de Poincaré** fue resuelta en **2003** por el matemático ruso **Grigori Perelman**.
 
-
 ------------------------------------------------------------------------
 
 ## Conceptos Claves {background-image="images/background.jpg" background-opacity="0.25"}
@@ -421,35 +408,26 @@ Se tienen **680 naranjas** apiladas en una **pirámide triangular**. ¿Cuántas 
 
 ::: columns
 ::: {.column width="33%"}
-<div style="text-align:center;">
-<img src="images/preguntas.jpg"  width="300px" height="300px"/><br>
-**Conjetura**  
-Afirmación que parece cierta, falta demostrar.<br>
-*Ej: Goldbach (todo par > 2 es suma de dos primos)*
-</div>
+::: {style="text-align:center;"}
+<img src="images/preguntas.jpg" width="300px" height="300px"/><br> **Conjetura**\
+Afirmación que parece cierta, falta demostrar.<br> *Ej: Goldbach (todo par \> 2 es suma de dos primos)*
+:::
 :::
 
 ::: {.column .fragment width="34%"}
-<div style="text-align:center;">
-<img src="images/riemann.ppm" width="300px" height="300px"/> <br>
-**Hipótesis**  
-Suposición precisa pero sin prueba.<br>
-*Ej: Hipótesis de Riemann (sobre los números primos)*
-</div>
+::: {style="text-align:center;"}
+<img src="images/riemann.ppm" width="300px" height="300px"/> <br> **Hipótesis**\
+Suposición precisa pero sin prueba.<br> *Ej: Hipótesis de Riemann (sobre los números primos)*
+:::
 :::
 
 ::: {.column .fragment width="33%"}
-<div style="text-align:center;">
-<img src="images/np.png"  width="300px" height="300px"/><br>
-**Problema abierto**  
-Gran pregunta sin respuesta aún.<br>
-*Ej: P vs NP (resolver rápido = verificar rápido?)*
-</div>
+::: {style="text-align:center;"}
+<img src="images/np.png" width="300px" height="300px"/><br> **Problema abierto**\
+Gran pregunta sin respuesta aún.<br> *Ej: P vs NP (resolver rápido = verificar rápido?)*
 :::
 :::
-
-
-
+:::
 
 ## ¿Cómo nos apoya la computación? {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -459,10 +437,10 @@ Gran pregunta sin respuesta aún.<br>
 ::: {.column .incremental width="60%"}
 <br>
 
-* **Analiza masivamente** muchos casos en poco tiempo.
-* **Detecta patrones** en tablas, gráficos y relaciones.
-* **Encuentra contraejemplos** con facilidad.
-* **Prototipa ideas**: del código a la evidencia en minutos.
+-   **Analiza masivamente** muchos casos en poco tiempo.
+-   **Detecta patrones** en tablas, gráficos y relaciones.
+-   **Encuentra contraejemplos** con facilidad.
+-   **Prototipa ideas**: del código a la evidencia en minutos.
 :::
 
 ::: {.column width="40%"}
@@ -483,7 +461,6 @@ Un **primo de Mersenne** es un número que tiene la forma: $M_p = 2^p - 1$, dond
 <br>
 
 ::: fragment
-
 ::: columns
 ::: {.column width="40%"}
 ```{pyodide-python}
@@ -518,18 +495,16 @@ for p in exponentes:
 ```
 :::
 :::
-
 :::
 
 ------------------------------------------------------------------------
 
 ## Conjetura de Collatz {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 Toma cualquier número entero positivo $n$:
 
-- Si es **par**, divide entre 2
-- Si es **impar**, multiplica por 3 y suma 1
+-   Si es **par**, divide entre 2
+-   Si es **impar**, multiplica por 3 y suma 1
 
 ::: fragment
 ```{pyodide-python}
@@ -577,7 +552,7 @@ print(f"{n} → {seq}\nlongitud: {len(seq)}")
 ::: {.column width="40%"}
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
-![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Dos cuadrantes del logo de Quarto."} <br> **Olimpiadas de matemáticas **<br> Despiertan ingenio y fortalecen el razonamiento creativo.
+![](images/horst_quarto_ball-2_4.png){width="50px" fig-alt="Dos cuadrantes del logo de Quarto."} <br> **Olimpiadas de matemáticas** <br> Despiertan ingenio y fortalecen el razonamiento creativo.
 :::
 :::
 :::
@@ -664,4 +639,3 @@ print(f"{n} → {seq}\nlongitud: {len(seq)}")
 
 </style>
 ```
-

@@ -298,8 +298,6 @@ Your first draft will **always** be horrible.
 
 <br>
 
-
-
 ```{ojs}
 Plot.plot({
   marks: [
@@ -622,7 +620,7 @@ Opción 2: Una agenda misteriosa.
 :::
 :::
 
-> 🔗 Our Website: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
+> 🔗 Our Website: [sethnut.com/talks](https://sethnut.com/talks/).
 
 ```{=html}
 <style>

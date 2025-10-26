@@ -48,8 +48,6 @@ editor: visual
 [Aplicaciones de la matemática en la ingeniería]{style="font-size: 2em"}
 :::
 
-
-
 ------------------------------------------------------------------------
 
 ## MAT281 - Matemáticas Aplicadas {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
@@ -64,22 +62,18 @@ editor: visual
 :::
 
 ::: {.column .incremental width="65%" style="font-size: 0.8em"}
-
 <br>
 
--   **Carrera**: Ingeniería Civil Matemática 
+-   **Carrera**: Ingeniería Civil Matemática
 -   **Objetivo**: Competencias como DS
 -   **Contenidos**: Estadística, Visualización, ML
 -   **Evaluaciones**: Laboratorios, Tareas, Proyecto
-
 :::
 :::
 
 . . .
 
 🌐 Repositorio: [github.com/fralfaro/MAT281](https://github.com/fralfaro/MAT281){style="font-size: 0.95em; color: gray align: center;"}
-
-
 
 ------------------------------------------------------------------------
 
@@ -137,7 +131,6 @@ Crea documentos con código.
 
 ![](https://docs.github.com/assets/cb-198931/images/help/stars/lists-overview-on-stars-page.png){.fragment fig-align="right"}
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -238,9 +231,6 @@ Proyectos y feedback que fortalecen habilidades
 :::
 
 ------------------------------------------------------------------------
-
-
-
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -396,7 +386,7 @@ y automatizar evaluaciones
 :::
 :::
 
-> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
+> 🔗 Nuestro Sitio Web: [sethnut.com/talks](https://sethnut.com/talks/).
 
 ```{=html}
 <style>

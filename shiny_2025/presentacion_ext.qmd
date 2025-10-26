@@ -953,7 +953,7 @@ Simple rules to tell better stories with data.
 :::
 :::
 
-> 🔗 Visit our official site: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/)
+> 🔗 Visit our official site: [sethnut.com/talks](https://sethnut.com/talks/)
 
 ::: notes
 Thank you so much for being here!

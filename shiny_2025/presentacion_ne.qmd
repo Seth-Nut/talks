@@ -491,7 +491,7 @@ Simple rules to tell better stories with data.
 :::
 :::
 
-> 🔗 Nuestro Sitio Web: [https://sethnut.com/resources/](https://sethnut.com/resources/)
+> 🔗 Nuestro Sitio Web: [https://sethnut.com/talks](https://sethnut.com/talks)
 
 ```{=html}
 <style>
