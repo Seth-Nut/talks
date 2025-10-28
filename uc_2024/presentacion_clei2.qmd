@@ -33,11 +33,11 @@ editor: visual
 <br>
 
 ::: r-stack
-![](https://www.c3itxperts.com/hubfs/Blog%20Images/hero2.png){.fragment .fade-in-then-out fig-align="left"}
+![](https://www.c3itxperts.com/hubfs/Blog%20Images/hero2.png){.fragment .fade-in-then-out fig-align="center"}
 
 ![](https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2023/04/040823_chatgpt_feat.gif){.fragment .fade-in-then-out fig-align="center"}
 
-![](images/activa2.jpg){.fragment fig-align="right"}
+![](images/activa2.jpg){.fragment fig-align="center"}
 :::
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
@@ -79,15 +79,17 @@ editor: visual
 
 
 
-## {background-image="images/background.jpg" background-opacity="0.25"}
+## {background-image="images/background.jpg" background-opacity="0.25" }
+
+<br>
 
 ::: r-stack
-![](images/malla_01.png){.fragment .fade-in-then-out width="100%" fig-align="left"}
+![](images/malla_01.png){.fragment .fade-in-then-out width="100%" fig-align="center"}
 
-![](images/mat281_2.png){.fragment .fade-in-then-out width="100%" fig-align="left"}
+![](images/mat281_2.png){.fragment .fade-in-then-out width="100%" fig-align="center"}
 
 
-![](images/historia3.png){.fragment width="90%" fig-align="center"}
+![](images/historia3.png){.fragment width="100%" fig-align="center"}
 :::
 
 
@@ -334,43 +336,7 @@ y automatizar evaluaciones
 :::
 :::
 
-------------------------------------------------------------------------
 
-## 🎉 Agradecimientos {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="33%"}
-![](images/seba_flores.jpg){fig-align="center" width="60%"}\
-**Sebastián Flores**
-:::
-
-::: {.column width="33%"}
-![](images/alonso_ogueda.jpg){fig-align="center" width="60%"}\
-**Alonso Ogueda**
-:::
-
-::: {.column width="33%"}
-![](images/alberto_rubio.jpg){fig-align="center" width="60%"}\
-**Alberto Rubio**
-:::
-:::
-
-::: columns
-::: {.column width="33%"}
-![](images/eric_zepeda.jpg){fig-align="center" width="60%"}\
-**Eric Zepeda**
-:::
-
-::: {.column width="33%"}
-![](images/sebastian_torres.jpg){fig-align="center" width="60%"}\
-**Sebastián Torres**
-:::
-
-::: {.column width="33%"}
-![](images/lecaros3.jpg){fig-align="center" width="60%"}\
-**Rodrigo Lecaros**
-:::
-:::
 
 ------------------------------------------------------------------------
 
@@ -386,6 +352,8 @@ y automatizar evaluaciones
 
 ## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
 
+
+
 ::: columns
 ::: {.column width="50%"}
 <br>
@@ -394,6 +362,8 @@ y automatizar evaluaciones
 * 👏 Responder [encuesta](https://forms.gle/VtGgygzii2dhHUrs8)
     * Ayudanos a mejorar
     * Links de la presentación
+
+
 :::
 
 ::: {.column width="50%" align="center"}
@@ -401,7 +371,10 @@ y automatizar evaluaciones
 :::
 :::
 
-> 🎓 ¡Sigue disfrutando del CLEI!
+> 🎓 *¡Sigue disfrutando del CLEI!*
+
+
+
 
 ```{=html}
 <style>
