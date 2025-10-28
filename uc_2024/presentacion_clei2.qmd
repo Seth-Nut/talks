@@ -50,6 +50,8 @@ editor: visual
 
 ------------------------------------------------------------------------
 
+
+
 ## MAT281 - Matemáticas Aplicadas {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
 
 <br>
@@ -74,6 +76,20 @@ editor: visual
 . . .
 
 🌐 Repositorio: [github.com/fralfaro/MAT281](https://github.com/fralfaro/MAT281){style="font-size: 0.95em; color: gray align: center;"}
+
+
+
+## {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+![](images/malla_01.png){.fragment .fade-in-then-out width="100%" fig-align="left"}
+
+![](images/mat281_2.png){.fragment .fade-in-then-out width="100%" fig-align="left"}
+
+
+![](images/historia3.png){.fragment width="90%" fig-align="center"}
+:::
+
 
 ------------------------------------------------------------------------
 
