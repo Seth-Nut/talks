@@ -20,9 +20,9 @@ editor: visual
 
 ##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="../comunidad_2025/images/horst_penguins_telescope.png" data-state="no-logo"}
 
-[Educational Transformation in Applied Mathematics with Google Colab]{.custom-title}
+[Transformación Educativa en Matemáticas Aplicadas con Google Colab]{.custom-title}
 
-[Experience in the MAT281 Course]{.custom-subtitle}
+[Experiencia en el Curso MAT281]{.custom-subtitle}
 
 [Francisco Alfaro Medina <br> Valeska Canales Pozo]{.custom-author}
 
@@ -374,19 +374,18 @@ y automatizar evaluaciones
 ::: {.column width="50%"}
 <br>
 
-❓¿Preguntas?
-
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLScS7eVbBPaKw6XhVonosCL_4nP4t9AbJAM03bdSfbsoSDFntg/viewform?usp=sf_link)
-
-🥳 Gracias de Nuevo
+* ❓¿Preguntas?
+* 👏 Responder [encuesta](https://forms.gle/VtGgygzii2dhHUrs8)
+    * Ayudanos a mejorar
+    * Links de la presentación
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_uc.png){width="400"}
+![](images/qr_clei.png){width="400"}
 :::
 :::
 
-> 🔗 Nuestro Sitio Web: [sethnut.com/talks](https://sethnut.com/talks/).
+> 🎓 ¡Sigue disfrutando del CLEI!
 
 ```{=html}
 <style>
