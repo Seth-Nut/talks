@@ -1,0 +1,199 @@
+---
+pagetitle: "Educación Abierta y Comunidad"
+author: 
+  - Francisco Alfaro
+  - Valeska Canales
+date: 16 oct 2025
+format: 
+  revealjs:
+    theme: style2.scss
+    transition: fade
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    logo: images/sochiem.jpg
+filters:
+  - quarto-ext/shinylive
+---
+
+##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/horst_penguins_telescope.png" data-state="no-logo"}
+
+[Talleres de LaTeX e IA<br>con Quarto para promover]{.custom-title}
+
+[<br>la participación de mujeres en matemática]{.custom-subtitle}
+
+[Francisco Alfaro Medina <br> Valeska Canales Pozo]{.custom-author}
+
+[<https://sethnut.com/talks>]{.custom-url}
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+::: r-stack
+<br><br>
+
+![](images/brecha_01.png){.fragment .fade-in-then-out fig-align="center" width="70%"}
+
+![](images/brecha_02.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
+
+![](images/horst-quarto-meteor-transparent.png){.fragment fig-align="center" width="100%"}
+:::
+
+------------------------------------------------------------------------
+
+## Objetivos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<br> <img src="images/logo-vertical.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br><br><br>
+
+-   **Metodología**: Quarto, Colab y GitHub.
+-   **Comunidad**: talleres y co-creación.
+-   **Impacto**: logros, desafíos y feedback.
+:::
+:::
+
+# <br> Comencemos! {.title-top-light background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+<br><br>
+
+::: {style="text-align: center;"}
+<img src="images/metodologia4.png" alt="Tachado" style="width: 1200px; height: 500px; border-radius: 10px;"/>
+:::
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+::: {style="text-align: center;"}
+<img src="images/experiencias.svg" alt="Tachado" style="width: 1300px; height: 700px; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+<br>
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+<iframe src="https://sethnut.com/talks/latex_2025/presentacion_emma.html#/title-slide" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fade-in-then-out
+<iframe src="https://sethnut.com/ws-usm_uchile-2025/material/talleres/intro.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fragment
+<iframe src="https://sebastiandres.github.io/pyschool_2025/space_station/rooms/sala_00.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+<br>
+
+::: r-stack
+![](images/c1.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/c2.png){.fragment fig-align="center" width="100%"}
+:::
+
+------------------------------------------------------------------------
+
+## Aprendizajes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+<br><br>
+
+::: columns
+::: {.column .fragment width="50%"}
+::: {.callout-note title="Positivos"}
+-   Las actividades prácticas\
+-   La claridad de los temas\
+-   La dinámica del instructor\
+-   Los ejemplos planteados\
+-   Buen ambiente de aprendizaje
+:::
+:::
+
+::: {.column .fragment width="50%"}
+::: {.callout-important title="Negativos"}
+-   El ritmo fue muy rápido\
+-   El contenido teórico extenso\
+-   Poco tiempo para preguntas\
+-   Necesidad de mayor profundidad\
+-   Instrucciones algo confusas
+:::
+:::
+:::
+
+# Hora del "adiós" {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
+
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓ ¿Preguntas?
+
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSebgHHjvaWvfbVsoCD4UfaVEtygej7Y-BvFWOtWaHCpXE3Cpg/viewform?usp=dialog)
+
+🥳 Disfrutar del Evento!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr_andes.png){width="400"}
+:::
+:::
+
+> 🔗 Nuestro Sitio Web: [sethnut.com/talks](https://sethnut.com/talks/)
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+
+}
+
+.reveal .slide-logo {
+   max-height: 2.5em !important;
+
+}
+
+</style>
+```
