@@ -566,6 +566,8 @@ Simple rules to tell better stories with data.
 :::
 :::
 
+
+
 ##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
 <br>
@@ -590,29 +592,115 @@ Simple rules to tell better stories with data.
 :::
 :::
 
-# Mucho éxito! {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
-------------------------------------------------------------------------
+## Información {background-image="images/background.jpg" background-opacity="0.25"}
 
-## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+::: {.panel-tabset}
 
-::: columns
-::: {.column width="50%"}
+##  📅 Día, hora y lugar
+
+<br> 
+
+- **Día:** Viernes 28 de Noviembre  
+- **Hora:** Bloque 1-4 (08:05am - 10:50am)
+- **Lugar:** F411, San Joaquín
+
+> Presentación de 15 a 20 minutos por grupo.
+
+## 👥 Grupos (1° bloque)
+
+::: {.columns}
+::: {.column width="33%"}
+ 
 <br>
 
-❓ ¿Preguntas?
+**Grupo 1** 
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLScrKncFmj2n8vLUOhEd9GrY_zfWBwGFEtLJFKj2lsBQ0ERxSg/viewform?usp=dialog)
-
-🥳 Disfrutar del Evento!
+- Ahmed Darwiche
+- Marcelo Valdivia
+- Nicolas Muraro
+- Tomás Moreno 
 :::
 
-::: {.column width="50%" align="center"}
-![](images/qr_data.png){width="400"}
+::: {.column width="33%"}
+
+<br>
+
+**Grupo 2** 
+
+- Antonio Aguilar 
+- Nicolás Lara 
+- Cristopher Martínez 
+- Rodrigo Montecinos 
+- Diego Sandoval 
+:::
+
+::: {.column width="33%"}
+
+<br>
+
+**Grupo 3** 
+
+- Diego Maldonado
+- Benjamin Benimelis
+- Marcelo Lector
+- Marcelo Ramírez
+- Tomas Garrido 
+- Joel Figueroa 
+  
 :::
 :::
 
-> 🔗 Nuestro Sitio Web: [sethnut.com/talks](https://sethnut.com/talks/)
+## 👥 Grupos (2° bloque)
+
+::: {.columns}
+::: {.column width="33%"}
+ 
+<br>
+
+**Grupo 4** 
+
+- Emilia Pardo
+- Felipe Pérez
+- Juan Bustos
+- Diego Mallea 
+- Martina Blanco
+
+:::
+
+::: {.column width="33%"}
+
+<br>
+
+**Grupo 5** 
+
+- Joaquín Inzunza 
+- Pablo  Farías 
+- Pablo  Leiva 
+- William  Núñez 
+- Benjamín  Tondreau 
+:::
+
+::: {.column width="33%"}
+
+<br>
+
+**Grupo 6** 
+
+- Arantza Ormeño
+- Oscar Alcántara
+- Aranxa Veloz
+- Diego Wielandt
+- Baitiare Corvalán
+- Carlos Flores
+
+:::
+:::
+
+:::
+
+# Mucho éxito! {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
+
 
 ```{=html}
 <style>

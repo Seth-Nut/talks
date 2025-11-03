@@ -513,6 +513,7 @@ Simple rules to tell better stories with data.
 
 > 💡 Más detalles y ejemplos en Kaggle: [M5 Forecasting - Accuracy](https://www.kaggle.com/competitions/m5-forecasting-accuracy/)
 
+
 ## Parte Técnica {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br><br>
@@ -647,29 +648,66 @@ Simple rules to tell better stories with data.
 :::
 
 
-# Mucho éxito! {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
+## Información {background-image="images/background.jpg" background-opacity="0.25"}
 
-------------------------------------------------------------------------
+::: {.panel-tabset}
 
-## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+##  📅 Día, hora y lugar
 
-::: columns
-::: {.column width="50%"}
+<br> 
+
+- **Día:** Martes 02 de Diciembre  
+- **Hora:** Bloque 5-8 (11:05am - 13:40pm)
+- **Lugar:** Sala DMAT, Casa Central  
+
+> Presentación de 15 a 20 minutos por grupo.
+
+## 👥 Grupos
+
+::: {.columns}
+::: {.column width="33%"}
+ 
 <br>
 
-❓ ¿Preguntas?
+**Grupo 1** 
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLScrKncFmj2n8vLUOhEd9GrY_zfWBwGFEtLJFKj2lsBQ0ERxSg/viewform?usp=dialog)
-
-🥳 Disfrutar del Evento!
+- Yunis Vidal  
+- Vicente Moreno  
+- Joaquín Ramírez  
+- Nicolas Rodríguez  
 :::
 
-::: {.column width="50%" align="center"}
-![](images/qr_data.png){width="400"}
+::: {.column width="33%"}
+
+<br>
+
+**Grupo 2** 
+
+- Helena Bahamondes  
+- Brian Valenzuela  
+- Mateo Hidalgo  
+- Carlos Tapia  
+:::
+
+::: {.column width="33%"}
+
+<br>
+
+**Grupo 3** 
+
+- Camilo Mesías  
+- Nolberto Rivera  
+- Carlos Crisosto  
+- Diego Melián  
+- Mauricio Pizarro  
 :::
 :::
 
-> 🔗 Nuestro Sitio Web: [sethnut.com/talks](https://sethnut.com/talks/)
+:::
+
+
+# Mucho éxito! {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
+
 
 ```{=html}
 <style>
