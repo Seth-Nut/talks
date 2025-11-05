@@ -1,0 +1,401 @@
+---
+pagetitle: "Innovación en MAT281: Colab y Evaluaciones Dinámicas"
+author: 
+  - Francisco Alfaro
+  - Valeska Canales
+date: 15 Diciembre 2025
+format: 
+  revealjs:
+    theme: style2.scss
+    transition: fade
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    logo: images/jnedes.png
+filters:
+  - quarto-ext/shinylive 
+revealjs-plugins:
+  - quiz
+editor: visual
+---
+
+##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="../comunidad_2025/images/horst_penguins_telescope.png" data-state="no-logo"}
+
+[Transformación Educativa en Matemáticas Aplicadas con Google Colab]{.custom-title}
+
+[Experiencia en el Curso MAT281]{.custom-subtitle}
+
+[Francisco Alfaro Medina <br> Valeska Canales Pozo]{.custom-author}
+
+[<https://sethnut.com/talks>]{.custom-url}
+
+##  {background-image="../comunidad_2025/images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: r-stack
+![](https://www.c3itxperts.com/hubfs/Blog%20Images/hero2.png){.fragment .fade-in-then-out fig-align="center"}
+
+![](https://i0.wp.com/www.sciencenews.org/wp-content/uploads/2023/04/040823_chatgpt_feat.gif){.fragment .fade-in-then-out fig-align="center"}
+
+![](images/activa2.jpg){.fragment fig-align="center"}
+:::
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Curso MAT281]{style="font-size: 1em"}
+
+[Aplicaciones de la matemática en la ingeniería]{style="font-size: 2em"}
+:::
+
+------------------------------------------------------------------------
+
+## MAT281 - Matemáticas Aplicadas {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
+
+<br>
+
+::: columns
+::: {.column width="35%"}
+::: {style="text-align: center;"}
+<img src="images/usm.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="65%" style="font-size: 0.8em"}
+<br>
+
+-   **Carrera**: Ingeniería Civil Matemática
+-   **Objetivo**: Competencias como DS
+-   **Contenidos**: Estadística, Visualización, ML
+-   **Evaluaciones**: Laboratorios, Tareas, Proyecto
+:::
+:::
+
+. . .
+
+🌐 Repositorio: [github.com/fralfaro/MAT281](https://github.com/fralfaro/MAT281){style="font-size: 0.95em; color: gray align: center;"}
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: r-stack
+![](images/malla_01.png){.fragment .fade-in-then-out width="100%" fig-align="center"}
+
+![](images/mat281_2.png){.fragment .fade-in-then-out width="100%" fig-align="center"}
+
+![](images/historia3.png){.fragment width="100%" fig-align="center"}
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Conceptos Claves]{style="font-size: 1em"}
+
+[Tecnologías y Aprendizajes]{style="font-size: 2em"}
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br><br>
+
+::: columns
+::: {.column width="33%"}
+::: {style="text-align:center;"}
+<img src="images/colab.png" width="60%"/><br> **Google Colab**\
+Ejecuta Python gratis en la nube.
+:::
+:::
+
+::: {.column .fragment width="34%"}
+::: {style="text-align:center;"}
+<img src="images/github.png" width="60%"/><br> **GitHub**\
+Gestiona proyectos de código.
+:::
+:::
+
+::: {.column .fragment width="33%"}
+::: {style="text-align:center;"}
+<img src="images/quarto.png" width="60%"/><br> **Quarto**\
+Crea documentos con código.
+:::
+:::
+:::
+
+<br>
+
+. . .
+
+[🌐 PyLatam 2022: Clases Interactivas con Google Colab, Mkdocs y Github Actions](https://www.youtube.com/watch?v=1a-3qqlMcQA){style="font-size: 0.75em; color: gray align: center"}
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+![](https://miro.medium.com/v2/1*nLjcqvMkvZ5TRHF4pZjbHg.gif){.fragment .fade-in-then-out fig-align="left"}
+
+![](https://webflow-prod-assets.s3.amazonaws.com/6525256482c9e9a06c7a9d3c%2F65b01d9cc1b48d7cae121a20_quarto_jupyter-reduced.gif){.fragment .fade-in-then-out fig-align="center"}
+
+![](https://docs.github.com/assets/cb-198931/images/help/stars/lists-overview-on-stars-page.png){.fragment fig-align="right"}
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Innovación Educativa]{style="font-size: 1em"}
+
+[Innovación en la Enseñanza y Evaluación en MAT281]{style="font-size: 2em"}
+:::
+
+------------------------------------------------------------------------
+
+## P1: Herramientas OpenSource {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+::: {style="text-align:center;"}
+<img src="images/p1.png" width="60%"/><br> **Google Colab**\
+Aprendizaje colaborativo sin instalación
+:::
+:::
+
+::: {.column .fragment width="50%"}
+::: {style="text-align:center;"}
+<img src="images/p22.jpg" width="73%"/><br> **GitHub**\
+Portafolio inicial con control y seguimiento.
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## P1: Herramientas OpenSource {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+
+<br>
+
+::: {align="center"}
+<img src="images/p1_colab.png" width="100%"/>
+:::
+
+------------------------------------------------------------------------
+
+## P1: Herramientas OpenSource {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/repos_02.png){fig-align="center" width="93%"}\
+[Repositorio del Curso](https://github.com/fralfaro/MAT281)
+:::
+
+::: {.column .fragment width="50%"}
+![](images/repos_03.png){fig-align="center" width="80%"}\
+[Portafolio Estudiantes](https://github.com/fralfaro/MAT281-Portfolio)
+:::
+:::
+
+------------------------------------------------------------------------
+
+## P2: Evaluaciones Innovadoras {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+::: {style="text-align:center;"}
+<img src="images/p4.png" width="60%"/><br> **Evaluaciones**\
+Evaluaciones prácticas y colaborativas para el trabajo
+:::
+:::
+
+::: {.column .fragment width="50%"}
+::: {style="text-align:center;"}
+<img src="images/p3.png" width="61%"/><br> **Feedback**\
+Proyectos y feedback que fortalecen habilidades
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## P2: Evaluaciones Innovadoras {background-image="images/background.jpg" background-opacity="0.25" transition="fade-in slide-out"}
+
+<br>
+
+::: r-stack
+![](images/eval_01.png){.fragment .fade-in-then-out width="100%" fig-align="center"}
+
+![](images/repos_01.png){.fragment .fade-in-then-out width="100%" fig-align="center"}
+
+![](images/proyectos_01.png){.fragment .fade-in-then-out width="100%" fig-align="center"}
+
+![](images/proyectos_02.png){.fragment width="100%" fig-align="center"}
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Retroalimentación]{style="font-size: 1em"}
+
+[Perspectiva de los Estudiantes del Curso MAT281]{style="font-size: 2em"}
+:::
+
+------------------------------------------------------------------------
+
+## Comentarios de los Participantes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+
+<br><br>
+
+::: columns
+::: {.column .fragment width="50%"}
+::: {.callout-important title="Negativos"}
+-   Poca respuesta a dudas por correo\
+-   Falta de retroalimentación y notas\
+-   Evaluaciones poco claras\
+-   Contenido teórico algo extenso\
+-   Tiempo insuficiente para preguntas\
+:::
+:::
+
+::: {.column .fragment width="50%"}
+::: {.callout-note title="Positivos"}
+-   Profesor claro y con buena disposición\
+-   Explicaciones ordenadas y confiables\
+-   Contenido práctico y aplicable\
+-   Curso bien estructurado en Data Science\
+-   Ambiente positivo de aprendizaje\
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Evaluaciones {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: r-stack
+![](images/plot_notas.png){.fragment .fade-in-then-out width="100%" fig-align="center"}
+
+![](images/plot_docentes.png){.fragment width="100%" fig-align="center"}
+:::
+
+. . .
+
+[(C) La evaluó: contenidos, cercanía, y fomarlidades del curso.]{style="font-size: 0.7em; color: gray"}
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Conclusiones]{style="font-size: 1em"}
+
+[Resultados y Reflexiones del Curso MAT281]{style="font-size: 2em"}
+:::
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: columns
+::: {.column .fragment width="50%"}
+::: {style="text-align:center;"}
+<img src="images/check.png" width="60%"/><br> **Conclusiones**\
+Herramientas abiertas motivan, mejora la comprensión práctica\
+y ofrece flexibilidad en el aprendizaje
+:::
+:::
+
+::: {.column .fragment .fragment width="50%"}
+::: {style="text-align:center;"}
+<img src="images/idea.png" width="60%"/><br> **Trabajos Futuros**\
+Integrar Inteligencia Artificial, expandir la metodología, proyectos con la industria\
+y automatizar evaluaciones
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 🎉 Agradecimientos {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+![](images/dmat.jpg){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/proyectos_03.jpg){.fragment width="65%" fig-align="center"}
+:::
+
+------------------------------------------------------------------------
+
+## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+-   ❓¿Preguntas?
+-   👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSd6IlfCeHHHm6Wr33qh3Xxjmatok8-GIyIfOjxJ1UUm1SvJqQ/viewform?usp=dialog)
+    -   Ayudanos a mejorar
+    -   Links de la presentación
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr_jnedes.png){width="400"}
+:::
+:::
+
+> 🎓 *¡Sigue disfrutando del JNEDES1!*
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+
+}
+
+.reveal .slide-logo {
+   max-height: 2.3em !important;
+
+}
+
+
+
+</style>
+```
