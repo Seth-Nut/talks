@@ -1,0 +1,292 @@
+---
+pagetitle: "Datastorytelling + A.I."
+author: 
+  - Francisco Alfaro
+  - Valeska Canales
+date: 22 oct 2025
+format: 
+  revealjs:
+    theme: style2.scss
+    transition: fade
+    title-slide-attributes: 
+      data-background-image: images/background.jpg
+    logo: images/pucv.png
+filters:
+  - quarto-ext/shinylive
+revealjs-plugins:
+  - quiz
+editor: visual
+---
+
+##  {#hello-quarto-title data-menu-title="Hola Quarto" background-image="images/pucv4.svg" data-state="no-logo"}
+
+##  { background-opacity="0.25" transition="zoom"}
+
+<br>
+
+::: r-stack
+![](images/intro1.png){.fragment .fade-in-then-out fig-align="center"}
+
+![](images/intro2.webp){.fragment .fade-in-then-out fig-align="center"}
+
+![](images/intro3.jpg){.fragment fig-align="center"}
+:::
+
+
+------------------------------------------------------------------------
+
+## Objetivos { background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<br> <img src="images/logo-vertical.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br><br><br>
+
+-   **Metodología**: Quarto, Colab, GitHub.
+-   **Comunidad**: Talleres y co-creación.
+-   **Resultados**: logros, feedback, desafíos.
+:::
+:::
+
+# <br> Comencemos! {.title-top-light background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
+
+
+
+##  { background-opacity="0.25" transition="zoom"}
+
+<br>
+
+::: {style="text-align: center;"}
+<img src="images/m1.png" alt="Tachado" style="width: 1400px; height: 600px; border-radius: 10px;"/>
+:::
+
+##  { background-opacity="0.25" transition="zoom"}
+
+<br><br>
+
+::: {style="text-align: center;"}
+<img src="images/metodologia4.png" alt="Tachado" style="width: 1200px; height: 500px; border-radius: 10px;"/>
+:::
+
+##  { background-opacity="0.25" transition="zoom"}
+
+<br><br>
+
+::: columns
+::: {.column width="50%"}
+![](images/r1.png){fig-align="center" width="600px" height="400px"}\
+[Repositorio Github](https://github.com/Seth-Nut/ws-usm_uchile-2025)
+:::
+
+::: {.column .fragment width="50%"}
+![](images/r3.png){fig-align="center" width="600px" height="400px"}\
+[Repositorio Interactivo](https://sethnut.com/ws-usm_uchile-2025/)
+:::
+:::
+
+------------------------------------------------------------------------
+
+##  { background-opacity="0.25" transition="zoom"}
+
+
+<br>
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+<iframe src="https://falfaro.xyz/DMAT-SJ-Olimpiadas/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fragment
+<iframe src="https://sethnut.com/ws-usm_uchile-2025/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+:::
+
+
+## Resultados {background-opacity="0.25" transition="fade-in slide-out"}
+
+::: r-stack
+![](images/rr1.png){.fragment .fade-in-then-out fig-align="center" width="70%"}
+
+![](images/rr2.png){.fragment fig-align="center" width="90%"}
+:::
+
+
+## Aprendizajes { background-opacity="0.25" size="50%"}
+
+<br><br>
+
+::: columns
+::: {.column .fragment width="50%"}
+::: {.callout-note title="Fortalezas"}
+-   Uso de tecnologías abiertas.\
+-   Inclusión y sostenibilidad educativa.\
+-   Experiencias replicables.\
+-   Docencia ética y colaborativa.
+:::
+:::
+
+::: {.column .fragment width="50%"}
+::: {.callout-important title="Oportunidades"}
+-   Ampliar formación docente.\
+-   Difundir buenas prácticas.\
+-   Evaluar impacto en participación.\
+-   Fortalecer redes interuniversitarias.
+:::
+:::
+:::
+
+##  Experiencias Similares{background-opacity="0.25" transition="fade-in slide-out"}
+
+
+::: {style="text-align: center;" .fragment}
+<img src="images/experiencias.svg" alt="Tachado" style="width: 1200px; height: 600px; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+##  { background-opacity="0.25" size="50%"}
+
+<br>
+
+::: r-stack
+![](images/c1.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+
+![](images/c2.png){.fragment fig-align="center" width="100%"}
+:::
+
+
+
+
+
+
+
+# Hora del "adiós" {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
+
+------------------------------------------------------------------------
+
+## Conclusiones
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-1_4.png){width="50px"}\
+**Compartir**: Un mismo `.qmd` genera HTML, PDF, slides o sitios web,
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-2_4.png){width="50px"}\
+**Colaborar**: Con un archivo sencillo ya se puede crear y publicar material 
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-3_4.png){width="50px"}\
+**Enseñar**: Sus features integran texto, código y visualizaciones, 
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-4_4.png){width="50px"}\
+**Reimaginar**: Tecnologías como WebR, Pyodide o Shiny abren nuev
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+## 🎉 ¡Gracias por Participar! { background-opacity="0.25"}
+
+::: columns
+::: {.column width="50%"}
+<br>
+
+❓ ¿Preguntas?
+
+👏 Responder [encuesta](https://forms.gle/d6QBRZKwL6wttbUz6)
+
+🥳 Disfrutar del Evento!
+:::
+
+::: {.column width="50%" align="center"}
+![](images/qr_inclusion.png){width="400"}
+:::
+:::
+
+> 🔗 Nuestro Sitio Web: [sethnut.com/talks](https://sethnut.com/talks/)
+
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+
+}
+
+.reveal .slide-logo {
+   max-height: 1.5em !important;
+
+}
+
+</style>
+```
