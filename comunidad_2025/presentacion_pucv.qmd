@@ -120,26 +120,26 @@ editor: visual
 :::
 
 
-## Aprendizajes { background-opacity="0.25" size="50%"}
+## Opiniones { background-opacity="0.25" size="50%"}
 
 <br><br>
 
 ::: columns
 ::: {.column .fragment width="50%"}
 ::: {.callout-note title="Fortalezas"}
--   Uso de tecnologías abiertas.\
--   Inclusión y sostenibilidad educativa.\
--   Experiencias replicables.\
--   Docencia ética y colaborativa.
+- Poco tiempo para dudas
+- Faltaron ejemplos
+- Ritmo rápido
+- Poca práctica guiada
 :::
 :::
 
 ::: {.column .fragment width="50%"}
 ::: {.callout-important title="Oportunidades"}
--   Ampliar formación docente.\
--   Difundir buenas prácticas.\
--   Evaluar impacto en participación.\
--   Fortalecer redes interuniversitarias.
+- Profesor claro y motivador
+- Actividades útiles
+- Buen uso de herramientas
+- Taller dinámico y entretenido
 :::
 :::
 :::
@@ -150,6 +150,29 @@ editor: visual
 ::: {style="text-align: center;" .fragment}
 <img src="images/experiencias.svg" alt="Tachado" style="width: 1200px; height: 600px; border-radius: 10px;"/>
 :::
+
+
+------------------------------------------------------------------------
+
+##  { background-opacity="0.25" transition="zoom"}
+
+
+<br>
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+<iframe src="https://falfaro.xyz/pyschool_content/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+
+::: fragment
+<iframe src="https://sebastiandres.github.io/pyschool_2025/space_station/rooms/sala_00.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+:::
+
 
 ------------------------------------------------------------------------
 
@@ -162,8 +185,6 @@ editor: visual
 
 ![](images/c2.png){.fragment fig-align="center" width="100%"}
 :::
-
-
 
 
 
@@ -183,7 +204,7 @@ editor: visual
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
 ![](images/horst_quarto_ball-1_4.png){width="50px"}\
-**Compartir**: Un mismo `.qmd` genera HTML, PDF, slides o sitios web,
+**Motivación**: Los talleres aumentaron el interés por aprender.
 :::
 :::
 :::
@@ -195,7 +216,7 @@ editor: visual
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
 ![](images/horst_quarto_ball-2_4.png){width="50px"}\
-**Colaborar**: Con un archivo sencillo ya se puede crear y publicar material 
+**Claridad**: La docencia fueron aspectos altamente valorados.
 :::
 :::
 :::
@@ -212,7 +233,7 @@ editor: visual
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
 ![](images/horst_quarto_ball-3_4.png){width="50px"}\
-**Enseñar**: Sus features integran texto, código y visualizaciones, 
+**Interactividad**: Las actividades prácticas facilitaron el aprendizaje.
 :::
 :::
 :::
@@ -224,7 +245,7 @@ editor: visual
 ::: bulletbox
 ::: {.fragment .fade-in-then-semi-out}
 ![](images/horst_quarto_ball-4_4.png){width="50px"}\
-**Reimaginar**: Tecnologías como WebR, Pyodide o Shiny abren nuev
+**Mejoras**: Se requiere más tiempo para dudas y ejemplos.
 :::
 :::
 :::
@@ -241,13 +262,13 @@ editor: visual
 
 ❓ ¿Preguntas?
 
-👏 Responder [encuesta](https://forms.gle/d6QBRZKwL6wttbUz6)
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSfFpUl5T-Tz9Dh5V8d-wPjp684_vIRxM8cgKSufTY3tjtHe0Q/viewform?usp=publish-editor)
 
 🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_inclusion.png){width="400"}
+![](images/qr_iv.png){width="400"}
 :::
 :::
 

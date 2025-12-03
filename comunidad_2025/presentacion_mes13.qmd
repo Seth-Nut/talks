@@ -149,13 +149,13 @@ filters:
 
 ❓ ¿Preguntas?
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSebgHHjvaWvfbVsoCD4UfaVEtygej7Y-BvFWOtWaHCpXE3Cpg/viewform?usp=dialog)
+👏 Responder [encuesta](https://forms.gle/Ep3rVgmTbpTMXL9p8)
 
 🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_andes.png){width="400"}
+![](images/qr_mes13.png){width="400"}
 :::
 :::
 

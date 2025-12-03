@@ -50,7 +50,7 @@ Aprende a estructurar prompts efectivos para herramientas como ChatGPT de forma 
 
 Fortalece la comunidad docente a través del uso de recursos abiertos, prácticas reproducibles y colaboración entre pares.\
 **Presentaciones:**\
-[XCIII SOMACHI](comunidad_2025/presentacion_somachi.html) · [XXIX SOCHIEM](comunidad_2025/presentacion_sochiem.html) · [XIII MES Conference](comunidad_2025/presentacion_mes13.html) · [JNEDES1](uc_2024/presentacion_jnedes.html) · [IV JMTEM](comunidad_2025/presentacion_pucv.html)
+[XCIII SOMACHI](comunidad_2025/presentacion_somachi.html) · [XXIX SOCHIEM](comunidad_2025/presentacion_sochiem.html) · [XIII MES Conference](comunidad_2025/presentacion_mes13.html) · [JNEDES1](uc_2024/presentacion_jnedes.html) · [IVJMTEM](comunidad_2025/presentacion_pucv.html)
 :::
 
 ::: card
