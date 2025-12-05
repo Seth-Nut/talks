@@ -186,7 +186,7 @@ en estudiantes escolares de 13 a 17 años?
 
 ::: columns
 ::: {.column .fragment width="50%"}
-::: {.callout-note title="Fortalezas"}
+::: {.callout-important title="Negativos"}
 - Poco tiempo para dudas
 - Faltaron ejemplos
 - Ritmo rápido
@@ -195,7 +195,7 @@ en estudiantes escolares de 13 a 17 años?
 :::
 
 ::: {.column .fragment width="50%"}
-::: {.callout-important title="Oportunidades"}
+::: {.callout-note title="Positivos"}
 - Profesor claro y motivador
 - Actividades útiles
 - Buen uso de herramientas
