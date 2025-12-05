@@ -2408,11 +2408,32 @@
     "text": "🎉 Thank You for Participating!\n\n\n\n❓ Questions?\n👏 Fill out the survey\n🥳 Thank You Again!\n\n\n\n\n✨ Shine On with Shiny! (www.shinyconf.com)\n\n\nThank you so much for being here!\nFeel free to ask questions — and please fill out the survey.\nLet’s keep learning and creating great stories with data.\nSee you next time!"
   },
   {
-    "objectID": "comunidad_2025/presentacion_pucv.html#objetivos",
-    "href": "comunidad_2025/presentacion_pucv.html#objetivos",
+    "objectID": "comunidad_2025/presentacion_pucv.html#objetivos-del-estudio",
+    "href": "comunidad_2025/presentacion_pucv.html#objetivos-del-estudio",
     "title": "Seth&Nut",
-    "section": "Objetivos",
-    "text": "Objetivos\n\n\n\n \n\n\n\n\nMetodología: Quarto, Colab, GitHub.\nComunidad: Talleres y co-creación.\nResultados: logros, feedback, desafíos."
+    "section": "Objetivos del Estudio",
+    "text": "Objetivos del Estudio\n\n\n\n\n\n\n\nAnalizar el impacto del uso de Python, Quarto y Streamlit en el aprendizaje matemático.\nDiseñar y aplicar talleres interactivos basados en modelación y visualización.\nEvaluar satisfacción, motivación y aprendizajes de estudiantes de 13–17 años."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_pucv.html#pregunta-de-investigación",
+    "href": "comunidad_2025/presentacion_pucv.html#pregunta-de-investigación",
+    "title": "Seth&Nut",
+    "section": "Pregunta de Investigación",
+    "text": "Pregunta de Investigación\n\n\n¿Cómo el uso de herramientas digitales abiertas —Python, Quarto y Streamlit— favorece la modelación matemática y el pensamiento computacional en estudiantes escolares de 13 a 17 años?"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_pucv.html#marco-teórico",
+    "href": "comunidad_2025/presentacion_pucv.html#marco-teórico",
+    "title": "Seth&Nut",
+    "section": "Marco Teórico",
+    "text": "Marco Teórico"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_pucv.html#contexto-y-participantes",
+    "href": "comunidad_2025/presentacion_pucv.html#contexto-y-participantes",
+    "title": "Seth&Nut",
+    "section": "Contexto y Participantes",
+    "text": "Contexto y Participantes\n\n\nPúblico: estudiantes de 13–17 años. Contextos: Olimpiadas de Matemática USM y talleres colaborativos USM–UChile. Duración: sesiones de 60–90 minutos por taller. Enfoque pedagógico: aprendizaje activo con modelación y visualización. Herramientas: Python, Quarto, Streamlit y Google Colab."
   },
   {
     "objectID": "comunidad_2025/presentacion_pucv.html#section-3",
@@ -2441,6 +2462,13 @@
     "title": "Seth&Nut",
     "section": "Experiencias Similares",
     "text": "Experiencias Similares"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_pucv.html#discusión",
+    "href": "comunidad_2025/presentacion_pucv.html#discusión",
+    "title": "Seth&Nut",
+    "section": "Discusión",
+    "text": "Discusión\n\n\nLa integración de Python, Quarto y Streamlit permitió a los estudiantes visualizar ideas matemáticas, construir soluciones propias y conectar problemas reales con conceptos formales. Además, las herramientas abiertas favorecieron un aprendizaje más transparente, activo y reproducible."
   },
   {
     "objectID": "comunidad_2025/presentacion_pucv.html#conclusiones",
