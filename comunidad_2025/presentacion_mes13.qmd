@@ -25,41 +25,136 @@ filters:
 
 [<https://sethnut.com/talks>]{.custom-url}
 
-##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+##  { background-opacity="0.25" transition="zoom"}
+
+<br>
 
 ::: r-stack
-<br><br>
+![](images/intro1.png){.fragment .fade-in-then-out fig-align="center"}
 
-![](images/brecha_01.png){.fragment .fade-in-then-out fig-align="center" width="70%"}
+![](images/intro2.webp){.fragment .fade-in-then-out fig-align="center"}
 
-![](images/brecha_02.png){.fragment .fade-in-then-out fig-align="center" width="90%"}
-
-![](images/horst-quarto-meteor-transparent.png){.fragment fig-align="center" width="100%"}
+![](images/intro3.jpg){.fragment fig-align="center"}
 :::
+
 
 ------------------------------------------------------------------------
 
-## Objetivos {background-image="images/background.jpg" background-opacity="0.25"}
+## Objetivos del Estudio { background-opacity="0.25"}
+
+<br>
 
 ::: columns
-::: {.column width="40%"}
-::: {style="text-align: center;"}
-<br> <img src="images/logo-vertical.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+::: {.column width="35%"}
+<img src="images/logo-vertical.png" style="width:600px; height:400px; border-radius: 10px;"/>
+:::
+
+::: {.column width="65%" .incremental}
+
+<br>
+
+- Incorporar **contextos sociales reales** en actividades de modelación matemática.
+- Explorar el uso de **narrativas digitales con Python** en talleres interactivos.
+- Evaluar **satisfacción y motivación estudiantil** en jóvenes de 13–17 años.
+
+
 :::
 :::
 
-::: {.column .incremental width="60%"}
-<br><br><br>
 
--   **Metodología**: Quarto, Colab y GitHub.
--   **Comunidad**: talleres y co-creación.
--   **Impacto**: logros, desafíos y feedback.
-:::
-:::
+
 
 # <br> Comencemos! {.title-top-light background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo"}
 
-##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+## Pregunta de Investigación {background-opacity="0.25" transition="fade" }
+
+<br><br>
+
+
+<div class="fragment fade-in" style="
+  background: rgba(255,255,255,0.75);
+  padding: 2rem;
+  border-radius: 18px;
+  border-left: 10px solid #2E86C1;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.4;
+">
+¿Cómo el uso de herramientas digitales abiertas —<b>Python, Quarto y Streamlit</b>—<br>
+favorece la <b>modelación matemática</b> y el <b>pensamiento computacional</b><br>
+en estudiantes escolares de 13 a 17 años?
+</div>
+
+
+## Marco Teórico {background-opacity="0.25" transition="fade"}
+
+<br><br>
+
+::: columns
+::: {.column width="33%"}
+::: {style="text-align:center;"}
+<img src="images/valpo.png" width="200px" height="200px"/><br>
+**Modelación y sociedad**\
+La matemática para comprender contextos reales.
+:::
+:::
+
+::: {.column .fragment width="34%"}
+::: {style="text-align:center;"}
+<img src="images/mt2.png" width="200px" height="200px"/><br>
+**Tecnologías digitales**\
+LaTeX, IA y Quarto como herramientas educativas.
+:::
+:::
+
+::: {.column .fragment width="33%"}
+::: {style="text-align:center;"}
+<img src="images/mt3.png" width="200px" height="200px"/><br>
+**Pensamiento lógico**\
+Integración de matemática y computación.
+:::
+:::
+:::
+
+
+
+
+## Contexto y Participantes {background-opacity="0.25" transition="fade"}
+
+<br><br><br>
+
+<div class="fragment fade-in" style="
+  background: rgba(255,255,255,0.80);
+  padding: 2.2rem;
+  border-radius: 18px;
+  border-left: 10px solid #2E86C1;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  font-size: 1.8rem;
+  text-align: left;
+  line-height: 1.55;
+  max-width: 85%;
+  margin: 0 auto;
+">
+
+<b>Público:</b> estudiantes de 13–17 años.<br>
+<b>Contextos:</b> Olimpiadas de Matemática USM y talleres colaborativos USM–UChile.<br>
+<b>Duración:</b> sesiones de 60–90 minutos por taller.<br>
+<b>Enfoque pedagógico:</b> aprendizaje activo con modelación y visualización.<br>
+<b>Herramientas:</b> Python, Quarto, Streamlit y Google Colab.
+
+</div>
+
+
+##  { background-opacity="0.25" transition="zoom"}
+
+<br>
+
+::: {style="text-align: center;"}
+<img src="images/m1.png" alt="Tachado" style="width: 1400px; height: 600px; border-radius: 10px;"/>
+:::
+
+##  { background-opacity="0.25" transition="zoom"}
 
 <br><br>
 
@@ -67,27 +162,81 @@ filters:
 <img src="images/metodologia4.png" alt="Tachado" style="width: 1200px; height: 500px; border-radius: 10px;"/>
 :::
 
-##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
 
-::: {style="text-align: center;"}
-<img src="images/experiencias.svg" alt="Tachado" style="width: 1300px; height: 700px; border-radius: 10px;"/>
-:::
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25" transition="zoom"}
+##  { background-opacity="0.25" transition="zoom"}
+
 
 <br>
 
 ::: r-stack
 ::: {.fragment .fade-in-then-out}
-<iframe src="https://sethnut.com/talks/latex_2025/presentacion_emma.html#/title-slide" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+<iframe src="https://falfaro.xyz/DMAT-SJ-Olimpiadas/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 :::
 
-::: fade-in-then-out
-<iframe src="https://sethnut.com/ws-usm_uchile-2025/material/talleres/intro.html" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+::: fragment
+<iframe src="https://sethnut.com/ws-usm_uchile-2025/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
+
+</iframe>
+:::
+:::
+
+
+## Resultados {background-opacity="0.25" transition="fade-in slide-out"}
+
+::: r-stack
+![](images/rr1.png){.fragment .fade-in-then-out fig-align="center" width="70%"}
+
+![](images/rr2.png){.fragment fig-align="center" width="90%"}
+:::
+
+
+## Opiniones { background-opacity="0.25" size="50%"}
+
+<br><br>
+
+::: columns
+::: {.column .fragment width="50%"}
+::: {.callout-important title="Negativos"}
+- Poco tiempo para dudas
+- Faltaron ejemplos
+- Ritmo rápido
+- Poca práctica guiada
+:::
+:::
+
+::: {.column .fragment width="50%"}
+::: {.callout-note title="Positivos"}
+- Profesor claro y motivador
+- Actividades útiles
+- Buen uso de herramientas
+- Taller dinámico y entretenido
+:::
+:::
+:::
+
+##  Experiencias Similares{background-opacity="0.25" transition="fade-in slide-out"}
+
+
+::: {style="text-align: center;" .fragment}
+<img src="images/experiencias.svg" alt="Tachado" style="width: 1200px; height: 600px; border-radius: 10px;"/>
+:::
+
+
+------------------------------------------------------------------------
+
+##  { background-opacity="0.25" transition="zoom"}
+
+
+<br>
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+<iframe src="https://falfaro.xyz/pyschool_content/" width="1200" height="600" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen>
 
 </iframe>
 :::
@@ -99,49 +248,124 @@ filters:
 :::
 :::
 
-------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
+## Discusión {background-opacity="0.25" transition="fade"}
 
-<br>
+<br><br><br>
 
-::: r-stack
-![](images/c1.png){.fragment .fade-in-then-out fig-align="center" width="100%"}
+<div class="fragment fade-in" style="
+  background: rgba(255,255,255,0.80);
+  padding: 2rem;
+  border-radius: 18px;
+  border-left: 10px solid #2E86C1;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  font-size: 1.7rem;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 85%;
+  margin: 0 auto;
+">
+<b>La integración de herramientas digitales abiertas</b> permitió que la matemática<br>
+dejara de percibirse como un conjunto de procedimientos aislados,<br>
+transformándose en un <b>lenguaje para interpretar y comunicar fenómenos reales</b>.<br><br>
+La programación y la visualización favorecieron la participación activa<br>
+y la construcción de narrativas matemáticas con sentido social.
+</div>
 
-![](images/c2.png){.fragment fig-align="center" width="100%"}
-:::
 
-------------------------------------------------------------------------
 
-## Aprendizajes {background-image="images/background.jpg" background-opacity="0.25" size="50%"}
-
-<br><br>
-
-::: columns
-::: {.column .fragment width="50%"}
-::: {.callout-note title="Positivos"}
--   Las actividades prácticas\
--   La claridad de los temas\
--   La dinámica del instructor\
--   Los ejemplos planteados\
--   Buen ambiente de aprendizaje
-:::
-:::
-
-::: {.column .fragment width="50%"}
-::: {.callout-important title="Negativos"}
--   El ritmo fue muy rápido\
--   El contenido teórico extenso\
--   Poco tiempo para preguntas\
--   Necesidad de mayor profundidad\
--   Instrucciones algo confusas
-:::
-:::
-:::
 
 # Hora del "adiós" {.title-top-dark background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo"}
 
-## 🎉 ¡Gracias por Participar! {background-image="images/background.jpg" background-opacity="0.25"}
+------------------------------------------------------------------------
+
+
+
+
+
+## Conclusiones
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-1_4.png){width="50px"}\
+**Motivación**: Los talleres aumentaron el interés por aprender.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-2_4.png){width="50px"}\
+**Claridad**: La docencia fueron aspectos altamente valorados.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+::: columns
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-3_4.png){width="50px"}\
+**Interactividad**: Las actividades prácticas facilitaron el aprendizaje.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+::: bulletbox
+::: {.fragment .fade-in-then-semi-out}
+![](images/horst_quarto_ball-4_4.png){width="50px"}\
+**Mejoras**: Se requiere más tiempo para dudas y ejemplos.
+:::
+:::
+:::
+
+::: {.column width="5%"}
+:::
+:::
+
+
+------------------------------------------------------------------------
+
+## 🎉 Agradecimientos {background-opacity="0.25" transition="fade"}
+
+
+::: r-stack
+![](https://sethnut.com/resources/talks/es/2024-olimpiadas/images/img_03.jpeg){.fragment .fade-in-then-out fig-align="center" width="850px" height="600px"}
+
+![](https://sethnut.com/resources/talks/es/2025-escuela/images/img_07.jpeg){.fragment .fade-in-then-out fig-align="center" width="850px" height="600px"}
+
+![](https://sethnut.com/resources/talks/es/2025-escuela/images/img_02.jpeg){.fragment .fade-in-then-out fig-align="center" width="850px" height="600px"}
+
+![](https://sethnut.com/resources/talks/es/2024-olimpiadas/images/img_01.jpeg){.fragment fig-align="center" width="850px" height="600px"}
+:::
+
+
+
+
+------------------------------------------------------------------------
+
+
+## 🎉 ¡Gracias por Participar! { background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="50%"}
@@ -149,7 +373,7 @@ filters:
 
 ❓ ¿Preguntas?
 
-👏 Responder [encuesta](https://forms.gle/Ep3rVgmTbpTMXL9p8)
+👏 Responder [encuesta](https://forms.gle/SHNh4LEJpfWSvZRk7)
 
 🥳 Disfrutar del Evento!
 :::
@@ -160,6 +384,7 @@ filters:
 :::
 
 > 🔗 Nuestro Sitio Web: [sethnut.com/talks](https://sethnut.com/talks/)
+
 
 ```{=html}
 <style>

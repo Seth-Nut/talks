@@ -351,13 +351,13 @@ Integración de matemática y computación.
 
 ❓ ¿Preguntas?
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSfFpUl5T-Tz9Dh5V8d-wPjp684_vIRxM8cgKSufTY3tjtHe0Q/viewform?usp=publish-editor)
+👏 Responder [encuesta](https://forms.gle/PvqvhaD9dvqqdzBh9)
 
 🥳 Disfrutar del Evento!
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_iv.png){width="400"}
+![](images/qr_sochiem.png){width="400"}
 :::
 :::
 
