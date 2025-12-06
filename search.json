@@ -2688,18 +2688,74 @@
     "text": "Innovación en la enseñanza de la matemática escolar\ncon Python y herramientas opensource\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://sethnut.com/talks"
   },
   {
-    "objectID": "comunidad_2025/presentacion_mes13.html#objetivos",
-    "href": "comunidad_2025/presentacion_mes13.html#objetivos",
+    "objectID": "comunidad_2025/presentacion_mes13.html#objetivos-del-estudio",
+    "href": "comunidad_2025/presentacion_mes13.html#objetivos-del-estudio",
     "title": "Seth&Nut",
-    "section": "Objetivos",
-    "text": "Objetivos\n\n\n\n \n\n\n\n\nMetodología: Quarto, Colab y GitHub.\nComunidad: talleres y co-creación.\nImpacto: logros, desafíos y feedback."
+    "section": "Objetivos del Estudio",
+    "text": "Objetivos del Estudio\n\n\n\n\n\n\n\nIncorporar contextos sociales reales en actividades de modelación matemática.\nExplorar el uso de narrativas digitales con Python en talleres interactivos.\nEvaluar satisfacción y motivación estudiantil en jóvenes de 13–17 años."
   },
   {
-    "objectID": "comunidad_2025/presentacion_mes13.html#aprendizajes",
-    "href": "comunidad_2025/presentacion_mes13.html#aprendizajes",
+    "objectID": "comunidad_2025/presentacion_mes13.html#pregunta-de-investigación",
+    "href": "comunidad_2025/presentacion_mes13.html#pregunta-de-investigación",
     "title": "Seth&Nut",
-    "section": "Aprendizajes",
-    "text": "Aprendizajes\n\n\n\n\n\n\n\n\n\n\nPositivos\n\n\n\nLas actividades prácticas\n\nLa claridad de los temas\n\nLa dinámica del instructor\n\nLos ejemplos planteados\n\nBuen ambiente de aprendizaje\n\n\n\n\n\n\n\n\n\n\n\n\n\nNegativos\n\n\n\nEl ritmo fue muy rápido\n\nEl contenido teórico extenso\n\nPoco tiempo para preguntas\n\nNecesidad de mayor profundidad\n\nInstrucciones algo confusas"
+    "section": "Pregunta de Investigación",
+    "text": "Pregunta de Investigación\n\n\n¿Cómo el uso de herramientas digitales abiertas —Python, Quarto y Streamlit— favorece la modelación matemática y el pensamiento computacional en estudiantes escolares de 13 a 17 años?"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_mes13.html#marco-teórico",
+    "href": "comunidad_2025/presentacion_mes13.html#marco-teórico",
+    "title": "Seth&Nut",
+    "section": "Marco Teórico",
+    "text": "Marco Teórico\n\n\n\n\n Modelación y sociedad\nLa matemática para comprender contextos reales.\n\n\n\n Tecnologías digitales\nLaTeX, IA y Quarto como herramientas educativas.\n\n\n\n Pensamiento lógico\nIntegración de matemática y computación."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_mes13.html#contexto-y-participantes",
+    "href": "comunidad_2025/presentacion_mes13.html#contexto-y-participantes",
+    "title": "Seth&Nut",
+    "section": "Contexto y Participantes",
+    "text": "Contexto y Participantes\n\n\nPúblico: estudiantes de 13–17 años. Contextos: Olimpiadas de Matemática USM y talleres colaborativos USM–UChile. Duración: sesiones de 60–90 minutos por taller. Enfoque pedagógico: aprendizaje activo con modelación y visualización. Herramientas: Python, Quarto, Streamlit y Google Colab."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_mes13.html#resultados",
+    "href": "comunidad_2025/presentacion_mes13.html#resultados",
+    "title": "Seth&Nut",
+    "section": "Resultados",
+    "text": "Resultados"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_mes13.html#opiniones",
+    "href": "comunidad_2025/presentacion_mes13.html#opiniones",
+    "title": "Seth&Nut",
+    "section": "Opiniones",
+    "text": "Opiniones\n\n\n\n\n\n\n\n\n\n\nNegativos\n\n\n\nPoco tiempo para dudas\nFaltaron ejemplos\nRitmo rápido\nPoca práctica guiada\n\n\n\n\n\n\n\n\n\n\n\n\n\nPositivos\n\n\n\nProfesor claro y motivador\nActividades útiles\nBuen uso de herramientas\nTaller dinámico y entretenido"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_mes13.html#experiencias-similares",
+    "href": "comunidad_2025/presentacion_mes13.html#experiencias-similares",
+    "title": "Seth&Nut",
+    "section": "Experiencias Similares",
+    "text": "Experiencias Similares"
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_mes13.html#discusión",
+    "href": "comunidad_2025/presentacion_mes13.html#discusión",
+    "title": "Seth&Nut",
+    "section": "Discusión",
+    "text": "Discusión\n\n\nLa integración de herramientas digitales abiertas permitió que la matemática dejara de percibirse como un conjunto de procedimientos aislados, transformándose en un lenguaje para interpretar y comunicar fenómenos reales. La programación y la visualización favorecieron la participación activa y la construcción de narrativas matemáticas con sentido social."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_mes13.html#conclusiones",
+    "href": "comunidad_2025/presentacion_mes13.html#conclusiones",
+    "title": "Seth&Nut",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\n\n\n\n\n\n\nMotivación: Los talleres aumentaron el interés por aprender.\n\n\n\n\n\n\n\n\nClaridad: La docencia fueron aspectos altamente valorados.\n\n\n\n\n\n\n\n\n\n\n\n\nInteractividad: Las actividades prácticas facilitaron el aprendizaje.\n\n\n\n\n\n\n\n\nMejoras: Se requiere más tiempo para dudas y ejemplos."
+  },
+  {
+    "objectID": "comunidad_2025/presentacion_mes13.html#agradecimientos",
+    "href": "comunidad_2025/presentacion_mes13.html#agradecimientos",
+    "title": "Seth&Nut",
+    "section": "🎉 Agradecimientos",
+    "text": "🎉 Agradecimientos"
   },
   {
     "objectID": "comunidad_2025/presentacion_mes13.html#gracias-por-participar",
