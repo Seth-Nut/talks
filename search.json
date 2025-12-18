@@ -2685,7 +2685,7 @@
     "href": "comunidad_2025/presentacion_mes13.html#hello-quarto-title",
     "title": "Seth&Nut",
     "section": "",
-    "text": "Innovación en la enseñanza de la matemática escolar\ncon Python y herramientas opensource\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://sethnut.com/talks"
+    "text": "Innovación en la enseñanza de la matemática escolar\ncon Python y herramientas opensource\nFrancisco Alfaro Medina  Valeska Canales Pozo  Dorian Villegas Rojas\nhttps://sethnut.com/talks"
   },
   {
     "objectID": "comunidad_2025/presentacion_mes13.html#objetivos-del-estudio",
@@ -3850,6 +3850,734 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Difrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources"
   },
   {
+    "objectID": "hello-quarto/presentacion_uah.html#hello-quarto-title",
+    "href": "hello-quarto/presentacion_uah.html#hello-quarto-title",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Hola Quarto\ncompartir • colaborar • enseñar • reimaginar\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://sethnut.com/talks"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#qué-es-quarto",
+    "href": "hello-quarto/presentacion_uah.html#qué-es-quarto",
+    "title": "Seth&Nut",
+    "section": "¿Qué es Quarto ?",
+    "text": "¿Qué es Quarto ?"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#publishing-system-1",
+    "href": "hello-quarto/presentacion_uah.html#publishing-system-1",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Quarto es un sistema abierto de publicación científica y técnica"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#publishing-system-2",
+    "href": "hello-quarto/presentacion_uah.html#publishing-system-2",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Quarto es un sistema abierto de publicación científica y técnica\n\n\nel objetivo es hacer que el proceso de creación y colaboración sea drásticamente mejor"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#por-qué-quarto",
+    "href": "hello-quarto/presentacion_uah.html#por-qué-quarto",
+    "title": "Seth&Nut",
+    "section": "¿Por qué Quarto?",
+    "text": "¿Por qué Quarto?"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#por-qué-quarto-1",
+    "href": "hello-quarto/presentacion_uah.html#por-qué-quarto-1",
+    "title": "Seth&Nut",
+    "section": "¿Por qué Quarto?",
+    "text": "¿Por qué Quarto?\n\n\n\n\n\n\n\n Un solo documento, múltiples formatos: HTML, PDF, presentaciones o sitios web.\n\n\n\n\n\n\n\n Materiales más accesibles y fáciles de usar, con soporte para la enseñanza y la inclusión.\n\n\n\n\n\n\n\n\n\n\n\n Fácil de aprender: usa Markdown simple y cuenta con ayudas para empezar rápido.\n\n\n\n\n\n\n\n Flexibilidad total: integra texto, imágenes y código en R, Python, Julia u otros lenguajes."
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#ejemplos",
+    "href": "hello-quarto/presentacion_uah.html#ejemplos",
+    "title": "Seth&Nut",
+    "section": "Ejemplos",
+    "text": "Ejemplos"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#quarto-organiza-cada-paso-del-renderizado",
+    "href": "hello-quarto/presentacion_uah.html#quarto-organiza-cada-paso-del-renderizado",
+    "title": "Seth&Nut",
+    "section": "Quarto organizacada paso del renderizado",
+    "text": "Quarto organizacada paso del renderizado"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#quarto-facilita-el-cambio-entre-formatos",
+    "href": "hello-quarto/presentacion_uah.html#quarto-facilita-el-cambio-entre-formatos",
+    "title": "Seth&Nut",
+    "section": "Quarto facilita el cambio entre formatos",
+    "text": "Quarto facilita el cambio entre formatos\n\n\n\nDocument\n\n lesson-1.qmd\n\ntitle: \"Lesson 1\"\nformat: html\n\n\n\nPresentation\n\n lesson-1.qmd\n\ntitle: \"Lesson 1\"\nformat: revealjs\n\n\n\nWebsite\n\n _quarto.yml\n\nproject:\n  type: website\n\nwebsite: \n  navbar: \n    left:\n      - lesson-1.qmd"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#primeros-pasos-con-quarto",
+    "href": "hello-quarto/presentacion_uah.html#primeros-pasos-con-quarto",
+    "title": "Seth&Nut",
+    "section": "Primeros Pasos con Quarto",
+    "text": "Primeros Pasos con Quarto"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#instalar-y-configurar-quarto",
+    "href": "hello-quarto/presentacion_uah.html#instalar-y-configurar-quarto",
+    "title": "Seth&Nut",
+    "section": "Instalar y configurar Quarto",
+    "text": "Instalar y configurar Quarto\n\n\n\n\n\n\n\n\n\nDescarga e instalación:\n\nQuarto.org (Windows, macOS y Linux)\n\nVerificación:\n\nEjecutar quarto check en la terminal\n\nEditores recomendados:\n\nRStudio , VSCode + Quarto Extension"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#instalar-y-configurar-quarto-1",
+    "href": "hello-quarto/presentacion_uah.html#instalar-y-configurar-quarto-1",
+    "title": "Seth&Nut",
+    "section": "Instalar y configurar Quarto",
+    "text": "Instalar y configurar Quarto"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#section-1",
+    "href": "hello-quarto/presentacion_uah.html#section-1",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "🌐 Asegúrate de tener instalado R (RStudio) y/o Python (Jupyter)"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#section-2",
+    "href": "hello-quarto/presentacion_uah.html#section-2",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Código: hello.qmd\n---\ntitle: \"Hello, Quarto\"\nformat: html\neditor: visual\n---\n\n## Meet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see &lt;https://quarto.org&gt;.\n\n## Meet the penguins\n\n![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png){style=\"float:right;\" fig-alt=\"Illustration of three species of Palmer Archipelago penguins: Chinstrap, Gentoo, and Adelie. Artwork by @allison_horst.\" width=\"401\"}\n\nThe `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins \"palmerpenguins R package\") package contains size measurements for `{r} nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.\n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\nHTML: hello.html"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#section-3",
+    "href": "hello-quarto/presentacion_uah.html#section-3",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#qué-podemos-hacer-con-quarto",
+    "href": "hello-quarto/presentacion_uah.html#qué-podemos-hacer-con-quarto",
+    "title": "Seth&Nut",
+    "section": "¿ Qué podemos hacer con Quarto?",
+    "text": "¿ Qué podemos hacer con Quarto?"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#código-con-estilo",
+    "href": "hello-quarto/presentacion_uah.html#código-con-estilo",
+    "title": "Seth&Nut",
+    "section": "Código con Estilo",
+    "text": "Código con Estilo\n\nMás de 20 temas para resaltar tu código\n\nEl tema por defecto está optimizado para accesibilidad\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n  })\n}"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#código-en-movimiento",
+    "href": "hello-quarto/presentacion_uah.html#código-en-movimiento",
+    "title": "Seth&Nut",
+    "section": "Código en Movimiento",
+    "text": "Código en Movimiento\n\nMás de 20 estilos de resaltado listos para usar\n\nTema por defecto diseñado para máxima accesibilidad\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n    barplot(WorldPhones[,input$region]*1000, \n            main=input$region,\n            ylab=\"Number of Telephones\",\n            xlab=\"Year\")\n  })\n}"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#enfoque-en-líneas",
+    "href": "hello-quarto/presentacion_uah.html#enfoque-en-líneas",
+    "title": "Seth&Nut",
+    "section": "Enfoque en Líneas",
+    "text": "Enfoque en Líneas\n\nSeñala las líneas clave para mayor claridad\n\nAgrega resaltados paso a paso\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#código-ejecutable",
+    "href": "hello-quarto/presentacion_uah.html#código-ejecutable",
+    "title": "Seth&Nut",
+    "section": "Código Ejecutable",
+    "text": "Código Ejecutable\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nmpg = sns.load_dataset(\"mpg\")\nsns.scatterplot(data=mpg, x=\"horsepower\", y=\"mpg\")\nplt.show()"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#ecuaciones-en-latex",
+    "href": "hello-quarto/presentacion_uah.html#ecuaciones-en-latex",
+    "title": "Seth&Nut",
+    "section": "Ecuaciones en LaTeX",
+    "text": "Ecuaciones en LaTeX\nRenderizado de ecuaciones a HTML con MathJax.\n\n\n\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\n\n\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\n\n\\[\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\\]\n\\[\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\\]"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#columnas-flexibles",
+    "href": "hello-quarto/presentacion_uah.html#columnas-flexibles",
+    "title": "Seth&Nut",
+    "section": "Columnas Flexibles",
+    "text": "Columnas Flexibles\nAcomoda texto, imágenes o código en columnas de varios tamaños.\n\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\nwt\n\n\n\n\n18.000000\n8\n307.000000\n130.000000\n3504\n\n\n15.000000\n8\n350.000000\n165.000000\n3693\n\n\n18.000000\n8\n318.000000\n150.000000\n3436\n\n\n16.000000\n8\n304.000000\n150.000000\n3433\n\n\n17.000000\n8\n302.000000\n140.000000\n3449"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#tabsets",
+    "href": "hello-quarto/presentacion_uah.html#tabsets",
+    "title": "Seth&Nut",
+    "section": "Tabsets",
+    "text": "Tabsets\nCrea bloques con pestañas que permiten alternar entre distintos contenidos.\n\nPlotData\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n-2.000000\n12.000000\n\n\n1\n-1.929293\n11.510050\n\n\n2\n-1.858586\n11.030099\n\n\n3\n-1.787879\n10.560147\n\n\n4\n-1.717172\n10.100194"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#gráficos-interactivos",
+    "href": "hello-quarto/presentacion_uah.html#gráficos-interactivos",
+    "title": "Seth&Nut",
+    "section": "Gráficos Interactivos",
+    "text": "Gráficos Interactivos"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#el-poder-de-las-extensiones-en-quarto",
+    "href": "hello-quarto/presentacion_uah.html#el-poder-de-las-extensiones-en-quarto",
+    "title": "Seth&Nut",
+    "section": "El poder de las extensiones en Quarto",
+    "text": "El poder de las extensiones en Quarto"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#extensiones-de-quarto",
+    "href": "hello-quarto/presentacion_uah.html#extensiones-de-quarto",
+    "title": "Seth&Nut",
+    "section": "Extensiones de Quarto",
+    "text": "Extensiones de Quarto\n\n\n\nLas extensiones de Quarto permiten añadir nuevas características y potenciar su uso.\n\n\n🔧Necesitas más poder? Usa Extensions"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#quarto-quiz",
+    "href": "hello-quarto/presentacion_uah.html#quarto-quiz",
+    "title": "Seth&Nut",
+    "section": "Quarto Quiz",
+    "text": "Quarto Quiz\n\n\n\nLa extensión Quarto Quiz permite crear preguntas directamente en tus presentaciones.\n\n\n📚 Más info: Quarto Quiz Extension"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#ejemplo",
+    "href": "hello-quarto/presentacion_uah.html#ejemplo",
+    "title": "Seth&Nut",
+    "section": "Ejemplo",
+    "text": "Ejemplo\n\n¿Cómo te ha parecido la presentación hasta ahora?\n\nMe encantó 😍\nMás o menos 🤔\n\nTal vez podría mejorar 🙂\n\nNo me gustó mucho 😕"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#quarto-webr-pyodide",
+    "href": "hello-quarto/presentacion_uah.html#quarto-webr-pyodide",
+    "title": "Seth&Nut",
+    "section": "Quarto WebR + Pyodide",
+    "text": "Quarto WebR + Pyodide\n\n\n\n\nWebR: Ejecuta código R en el navegador, sin necesidad de instalación.\n# To install WebR in your environment\nremotes::install_github(\"attiyap/WebR\")\nPyodide: Lo mismo, pero para Python.\n# To install Pyodide\npip install pyodide\n\n\n\n\n\nWebR and Pyodide run code directly in the browser.\nNo setup, no installs — just share and run.\nPerfect for teaching, demos, and interactive content."
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#ejemplo-1",
+    "href": "hello-quarto/presentacion_uah.html#ejemplo-1",
+    "title": "Seth&Nut",
+    "section": "Ejemplo",
+    "text": "Ejemplo\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThis is a live R example.\nWhy run it live?\nBecause people learn better when they see and try.\nNo setup, no install — just code and results.\nThat’s the power of WebR."
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#shiny",
+    "href": "hello-quarto/presentacion_uah.html#shiny",
+    "title": "Seth&Nut",
+    "section": "Shiny",
+    "text": "Shiny\n\n\n\nShiny es un paquete de R que permite crear de manera sencilla aplicaciones interactivas usando R\n(también disponible para Python).\n\n\n📚 Más info: Shiny - Posit"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#ejemplo-2",
+    "href": "hello-quarto/presentacion_uah.html#ejemplo-2",
+    "title": "Seth&Nut",
+    "section": "Ejemplo",
+    "text": "Ejemplo\n\n\n\nShiny apps let people interact with your data.\nChange inputs — see results instantly.\nPerfect for exploring and communicating insights."
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#quarto-shinylive",
+    "href": "hello-quarto/presentacion_uah.html#quarto-shinylive",
+    "title": "Seth&Nut",
+    "section": "Quarto Shinylive",
+    "text": "Quarto Shinylive\n\n\n\n\nDespliega aplicaciones Shiny que se ejecutan 100% en el navegador — con Python y R.\n\nSin servidores. Sin configuraciones. Solo escribe código y ejecútalo.\n\n\n\n\n\n\n\n\nSigue en tu presentación.\nNo pierdas el ritmo 🎯"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#ejemplo-3",
+    "href": "hello-quarto/presentacion_uah.html#ejemplo-3",
+    "title": "Seth&Nut",
+    "section": "Ejemplo",
+    "text": "Ejemplo\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 800\n\nfrom shiny import App, ui, render, reactive\nimport matplotlib.pyplot as plt\nimport io\nimport base64\n\n# Function to generate the plot dynamically based on input values\ndef create_plot(yes_value, no_value):\n    categories = ['Sí', 'No']\n    values = [yes_value, no_value]\n\n    fig, ax = plt.subplots(figsize=(14, 5))\n    ax.bar(categories, values, color=['lightblue', 'salmon'])\n    ax.set_title('¿Te ha gustado la presentación?')\n\n    # Convert the image to base64 for display in Shiny\n    buf = io.BytesIO()\n    plt.savefig(buf, format=\"png\")\n    plt.close(fig)\n    buf.seek(0)\n    encoded_image = base64.b64encode(buf.getvalue()).decode()\n    return f'&lt;img src=\"data:image/png;base64,{encoded_image}\" style=\"max-width:100%;\"&gt;'\n\n# UI definition\napp_ui = ui.page_fluid(\n    ui.h2(\"Encuesta Interactiva\"),\n    \n    # Sliders to change values dynamically\n    ui.input_slider(\"yes_value\", \"Respuestas 'Sí':\", min=0, max=50, value=20),\n    ui.input_slider(\"no_value\", \"Respuestas 'No'\", min=0, max=50, value=10),\n    \n    # Output area for the plot\n    ui.output_ui(\"plot_output\")\n)\n\n# Server function\ndef server(input, output, session):\n    @output\n    @render.ui\n    def plot_output():\n        return ui.HTML(create_plot(input.yes_value(), input.no_value()))\n\n# Create the Shiny app\napp = App(app_ui, server)"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#conclusiones",
+    "href": "hello-quarto/presentacion_uah.html#conclusiones",
+    "title": "Seth&Nut",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\n\n\n\n\n\n\nCompartir: Un mismo .qmd genera HTML, PDF, slides o sitios web, pasando de lo estático a lo interactivo.\n\n\n\n\n\n\n\n\nColaborar: Con un archivo sencillo ya se puede crear y publicar material reproducible, iniciando el trabajo en equipo.\n\n\n\n\n\n\n\n\n\n\n\n\nEnseñar: Sus features integran texto, código y visualizaciones, mejorando la enseñanza con recursos dinámicos.\n\n\n\n\n\n\n\n\nReimaginar: Tecnologías como WebR, Pyodide o Shiny abren nuevas formas de aprender e innovar en educación."
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#referencias-y-recursos",
+    "href": "hello-quarto/presentacion_uah.html#referencias-y-recursos",
+    "title": "Seth&Nut",
+    "section": "Referencias y Recursos",
+    "text": "Referencias y Recursos\n\n\n\n\n\n\n\nDocumentación oficial\n🔗 quarto.org\nGuías y ejemplos prácticos para comenzar de inmediato.\n\n\n\n\n\n\n\n\nAprendizaje en video\n🔗 Crash Course en YouTube\nIntroducción práctica a Quarto y sus distintos usos.\n\n\n\n\n\n\n\n\n\n\n\n\nRecursos de la comunidad\n🔗 Mine Cetinkaya-Rundel\nCursos, libros y presentaciones en Quarto en GitHub.\n\n\n\n\n\n\n\n\nAplicaciones en educación\n🔗 sethnut.com/resources\nOlimpiada Matemática, Verano Matemático, EMMA y más!"
+  },
+  {
+    "objectID": "hello-quarto/presentacion_uah.html#gracias-por-participar",
+    "href": "hello-quarto/presentacion_uah.html#gracias-por-participar",
+    "title": "Seth&Nut",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: sethnut.com/talks"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#hello-quarto-title",
+    "href": "hello-quarto/presentacion.html#hello-quarto-title",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Hola Quarto\ncompartir • colaborar • enseñar • reimaginar\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://sethnut.com/talks"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#qué-es-quarto",
+    "href": "hello-quarto/presentacion.html#qué-es-quarto",
+    "title": "Seth&Nut",
+    "section": "¿Qué es Quarto ?",
+    "text": "¿Qué es Quarto ?"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#publishing-system-1",
+    "href": "hello-quarto/presentacion.html#publishing-system-1",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Quarto es un sistema abierto de publicación científica y técnica"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#publishing-system-2",
+    "href": "hello-quarto/presentacion.html#publishing-system-2",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Quarto es un sistema abierto de publicación científica y técnica\n\n\nel objetivo es hacer que el proceso de creación y colaboración sea drásticamente mejor"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#por-qué-quarto",
+    "href": "hello-quarto/presentacion.html#por-qué-quarto",
+    "title": "Seth&Nut",
+    "section": "¿Por qué Quarto?",
+    "text": "¿Por qué Quarto?"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#por-qué-quarto-1",
+    "href": "hello-quarto/presentacion.html#por-qué-quarto-1",
+    "title": "Seth&Nut",
+    "section": "¿Por qué Quarto?",
+    "text": "¿Por qué Quarto?\n\n\n\n\n\n\n\n Un solo documento, múltiples formatos: HTML, PDF, presentaciones o sitios web.\n\n\n\n\n\n\n\n Materiales más accesibles y fáciles de usar, con soporte para la enseñanza y la inclusión.\n\n\n\n\n\n\n\n\n\n\n\n Fácil de aprender: usa Markdown simple y cuenta con ayudas para empezar rápido.\n\n\n\n\n\n\n\n Flexibilidad total: integra texto, imágenes y código en R, Python, Julia u otros lenguajes."
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#ejemplos",
+    "href": "hello-quarto/presentacion.html#ejemplos",
+    "title": "Seth&Nut",
+    "section": "Ejemplos",
+    "text": "Ejemplos"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#quarto-organiza-cada-paso-del-renderizado",
+    "href": "hello-quarto/presentacion.html#quarto-organiza-cada-paso-del-renderizado",
+    "title": "Seth&Nut",
+    "section": "Quarto organizacada paso del renderizado",
+    "text": "Quarto organizacada paso del renderizado"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#quarto-facilita-el-cambio-entre-formatos",
+    "href": "hello-quarto/presentacion.html#quarto-facilita-el-cambio-entre-formatos",
+    "title": "Seth&Nut",
+    "section": "Quarto facilita el cambio entre formatos",
+    "text": "Quarto facilita el cambio entre formatos\n\n\n\nDocument\n\n lesson-1.qmd\n\ntitle: \"Lesson 1\"\nformat: html\n\n\n\nPresentation\n\n lesson-1.qmd\n\ntitle: \"Lesson 1\"\nformat: revealjs\n\n\n\nWebsite\n\n _quarto.yml\n\nproject:\n  type: website\n\nwebsite: \n  navbar: \n    left:\n      - lesson-1.qmd"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#primeros-pasos-con-quarto",
+    "href": "hello-quarto/presentacion.html#primeros-pasos-con-quarto",
+    "title": "Seth&Nut",
+    "section": "Primeros Pasos con Quarto",
+    "text": "Primeros Pasos con Quarto"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#instalar-y-configurar-quarto",
+    "href": "hello-quarto/presentacion.html#instalar-y-configurar-quarto",
+    "title": "Seth&Nut",
+    "section": "Instalar y configurar Quarto",
+    "text": "Instalar y configurar Quarto\n\n\n\n\n\n\n\n\n\nDescarga e instalación:\n\nQuarto.org (Windows, macOS y Linux)\n\nVerificación:\n\nEjecutar quarto check en la terminal\n\nEditores recomendados:\n\nRStudio , VSCode + Quarto Extension"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-1",
+    "href": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-1",
+    "title": "Seth&Nut",
+    "section": "Instalar y configurar Quarto",
+    "text": "Instalar y configurar Quarto"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#section-1",
+    "href": "hello-quarto/presentacion.html#section-1",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "🌐 Asegúrate de tener instalado R (RStudio) y/o Python (Jupyter)"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#section-2",
+    "href": "hello-quarto/presentacion.html#section-2",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Código: hello.qmd\n---\ntitle: \"Hello, Quarto\"\nformat: html\neditor: visual\n---\n\n## Meet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see &lt;https://quarto.org&gt;.\n\n## Meet the penguins\n\n![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png){style=\"float:right;\" fig-alt=\"Illustration of three species of Palmer Archipelago penguins: Chinstrap, Gentoo, and Adelie. Artwork by @allison_horst.\" width=\"401\"}\n\nThe `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins \"palmerpenguins R package\") package contains size measurements for `{r} nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.\n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\nHTML: hello.html"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#section-3",
+    "href": "hello-quarto/presentacion.html#section-3",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#qué-podemos-hacer-con-quarto",
+    "href": "hello-quarto/presentacion.html#qué-podemos-hacer-con-quarto",
+    "title": "Seth&Nut",
+    "section": "¿ Qué podemos hacer con Quarto?",
+    "text": "¿ Qué podemos hacer con Quarto?"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#código-con-estilo",
+    "href": "hello-quarto/presentacion.html#código-con-estilo",
+    "title": "Seth&Nut",
+    "section": "Código con Estilo",
+    "text": "Código con Estilo\n\nMás de 20 temas para resaltar tu código\n\nEl tema por defecto está optimizado para accesibilidad\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n  })\n}"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#código-en-movimiento",
+    "href": "hello-quarto/presentacion.html#código-en-movimiento",
+    "title": "Seth&Nut",
+    "section": "Código en Movimiento",
+    "text": "Código en Movimiento\n\nMás de 20 estilos de resaltado listos para usar\n\nTema por defecto diseñado para máxima accesibilidad\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n    barplot(WorldPhones[,input$region]*1000, \n            main=input$region,\n            ylab=\"Number of Telephones\",\n            xlab=\"Year\")\n  })\n}"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#enfoque-en-líneas",
+    "href": "hello-quarto/presentacion.html#enfoque-en-líneas",
+    "title": "Seth&Nut",
+    "section": "Enfoque en Líneas",
+    "text": "Enfoque en Líneas\n\nSeñala las líneas clave para mayor claridad\n\nAgrega resaltados paso a paso\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#código-ejecutable",
+    "href": "hello-quarto/presentacion.html#código-ejecutable",
+    "title": "Seth&Nut",
+    "section": "Código Ejecutable",
+    "text": "Código Ejecutable\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nmpg = sns.load_dataset(\"mpg\")\nsns.scatterplot(data=mpg, x=\"horsepower\", y=\"mpg\")\nplt.show()"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#ecuaciones-en-latex",
+    "href": "hello-quarto/presentacion.html#ecuaciones-en-latex",
+    "title": "Seth&Nut",
+    "section": "Ecuaciones en LaTeX",
+    "text": "Ecuaciones en LaTeX\nRenderizado de ecuaciones a HTML con MathJax.\n\n\n\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\n\n\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\n\n\\[\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\\]\n\\[\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\\]"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#columnas-flexibles",
+    "href": "hello-quarto/presentacion.html#columnas-flexibles",
+    "title": "Seth&Nut",
+    "section": "Columnas Flexibles",
+    "text": "Columnas Flexibles\nAcomoda texto, imágenes o código en columnas de varios tamaños.\n\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\nwt\n\n\n\n\n18.000000\n8\n307.000000\n130.000000\n3504\n\n\n15.000000\n8\n350.000000\n165.000000\n3693\n\n\n18.000000\n8\n318.000000\n150.000000\n3436\n\n\n16.000000\n8\n304.000000\n150.000000\n3433\n\n\n17.000000\n8\n302.000000\n140.000000\n3449"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#tabsets",
+    "href": "hello-quarto/presentacion.html#tabsets",
+    "title": "Seth&Nut",
+    "section": "Tabsets",
+    "text": "Tabsets\nCrea bloques con pestañas que permiten alternar entre distintos contenidos.\n\nPlotData\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n-2.000000\n12.000000\n\n\n1\n-1.929293\n11.510050\n\n\n2\n-1.858586\n11.030099\n\n\n3\n-1.787879\n10.560147\n\n\n4\n-1.717172\n10.100194"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#gráficos-interactivos",
+    "href": "hello-quarto/presentacion.html#gráficos-interactivos",
+    "title": "Seth&Nut",
+    "section": "Gráficos Interactivos",
+    "text": "Gráficos Interactivos"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#el-poder-de-las-extensiones-en-quarto",
+    "href": "hello-quarto/presentacion.html#el-poder-de-las-extensiones-en-quarto",
+    "title": "Seth&Nut",
+    "section": "El poder de las extensiones en Quarto",
+    "text": "El poder de las extensiones en Quarto"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#extensiones-de-quarto",
+    "href": "hello-quarto/presentacion.html#extensiones-de-quarto",
+    "title": "Seth&Nut",
+    "section": "Extensiones de Quarto",
+    "text": "Extensiones de Quarto\n\n\n\nLas extensiones de Quarto permiten añadir nuevas características y potenciar su uso.\n\n\n🔧Necesitas más poder? Usa Extensions"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#quarto-quiz",
+    "href": "hello-quarto/presentacion.html#quarto-quiz",
+    "title": "Seth&Nut",
+    "section": "Quarto Quiz",
+    "text": "Quarto Quiz\n\n\n\nLa extensión Quarto Quiz permite crear preguntas directamente en tus presentaciones.\n\n\n📚 Más info: Quarto Quiz Extension"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#ejemplo",
+    "href": "hello-quarto/presentacion.html#ejemplo",
+    "title": "Seth&Nut",
+    "section": "Ejemplo",
+    "text": "Ejemplo\n\n¿Cómo te ha parecido la presentación hasta ahora?\n\nMe encantó 😍\nMás o menos 🤔\n\nTal vez podría mejorar 🙂\n\nNo me gustó mucho 😕"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#quarto-webr-pyodide",
+    "href": "hello-quarto/presentacion.html#quarto-webr-pyodide",
+    "title": "Seth&Nut",
+    "section": "Quarto WebR + Pyodide",
+    "text": "Quarto WebR + Pyodide\n\n\n\n\nWebR: Ejecuta código R en el navegador, sin necesidad de instalación.\n# To install WebR in your environment\nremotes::install_github(\"attiyap/WebR\")\nPyodide: Lo mismo, pero para Python.\n# To install Pyodide\npip install pyodide\n\n\n\n\n\nWebR and Pyodide run code directly in the browser.\nNo setup, no installs — just share and run.\nPerfect for teaching, demos, and interactive content."
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#ejemplo-1",
+    "href": "hello-quarto/presentacion.html#ejemplo-1",
+    "title": "Seth&Nut",
+    "section": "Ejemplo",
+    "text": "Ejemplo\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThis is a live R example.\nWhy run it live?\nBecause people learn better when they see and try.\nNo setup, no install — just code and results.\nThat’s the power of WebR."
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#shiny",
+    "href": "hello-quarto/presentacion.html#shiny",
+    "title": "Seth&Nut",
+    "section": "Shiny",
+    "text": "Shiny\n\n\n\nShiny es un paquete de R que permite crear de manera sencilla aplicaciones interactivas usando R\n(también disponible para Python).\n\n\n📚 Más info: Shiny - Posit"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#ejemplo-2",
+    "href": "hello-quarto/presentacion.html#ejemplo-2",
+    "title": "Seth&Nut",
+    "section": "Ejemplo",
+    "text": "Ejemplo\n\n\n\nShiny apps let people interact with your data.\nChange inputs — see results instantly.\nPerfect for exploring and communicating insights."
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#quarto-shinylive",
+    "href": "hello-quarto/presentacion.html#quarto-shinylive",
+    "title": "Seth&Nut",
+    "section": "Quarto Shinylive",
+    "text": "Quarto Shinylive\n\n\n\n\nDespliega aplicaciones Shiny que se ejecutan 100% en el navegador — con Python y R.\n\nSin servidores. Sin configuraciones. Solo escribe código y ejecútalo.\n\n\n\n\n\n\n\n\nSigue en tu presentación.\nNo pierdas el ritmo 🎯"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#ejemplo-3",
+    "href": "hello-quarto/presentacion.html#ejemplo-3",
+    "title": "Seth&Nut",
+    "section": "Ejemplo",
+    "text": "Ejemplo\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 800\n\nfrom shiny import App, ui, render, reactive\nimport matplotlib.pyplot as plt\nimport io\nimport base64\n\n# Function to generate the plot dynamically based on input values\ndef create_plot(yes_value, no_value):\n    categories = ['Sí', 'No']\n    values = [yes_value, no_value]\n\n    fig, ax = plt.subplots(figsize=(14, 5))\n    ax.bar(categories, values, color=['lightblue', 'salmon'])\n    ax.set_title('¿Te ha gustado la presentación?')\n\n    # Convert the image to base64 for display in Shiny\n    buf = io.BytesIO()\n    plt.savefig(buf, format=\"png\")\n    plt.close(fig)\n    buf.seek(0)\n    encoded_image = base64.b64encode(buf.getvalue()).decode()\n    return f'&lt;img src=\"data:image/png;base64,{encoded_image}\" style=\"max-width:100%;\"&gt;'\n\n# UI definition\napp_ui = ui.page_fluid(\n    ui.h2(\"Encuesta Interactiva\"),\n    \n    # Sliders to change values dynamically\n    ui.input_slider(\"yes_value\", \"Respuestas 'Sí':\", min=0, max=50, value=20),\n    ui.input_slider(\"no_value\", \"Respuestas 'No'\", min=0, max=50, value=10),\n    \n    # Output area for the plot\n    ui.output_ui(\"plot_output\")\n)\n\n# Server function\ndef server(input, output, session):\n    @output\n    @render.ui\n    def plot_output():\n        return ui.HTML(create_plot(input.yes_value(), input.no_value()))\n\n# Create the Shiny app\napp = App(app_ui, server)"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#conclusiones",
+    "href": "hello-quarto/presentacion.html#conclusiones",
+    "title": "Seth&Nut",
+    "section": "Conclusiones",
+    "text": "Conclusiones\n\n\n\n\n\n\n\nCompartir: Un mismo .qmd genera HTML, PDF, slides o sitios web, pasando de lo estático a lo interactivo.\n\n\n\n\n\n\n\n\nColaborar: Con un archivo sencillo ya se puede crear y publicar material reproducible, iniciando el trabajo en equipo.\n\n\n\n\n\n\n\n\n\n\n\n\nEnseñar: Sus features integran texto, código y visualizaciones, mejorando la enseñanza con recursos dinámicos.\n\n\n\n\n\n\n\n\nReimaginar: Tecnologías como WebR, Pyodide o Shiny abren nuevas formas de aprender e innovar en educación."
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#referencias-y-recursos",
+    "href": "hello-quarto/presentacion.html#referencias-y-recursos",
+    "title": "Seth&Nut",
+    "section": "Referencias y Recursos",
+    "text": "Referencias y Recursos\n\n\n\n\n\n\n\nDocumentación oficial\n🔗 quarto.org\nGuías y ejemplos prácticos para comenzar de inmediato.\n\n\n\n\n\n\n\n\nAprendizaje en video\n🔗 Crash Course en YouTube\nIntroducción práctica a Quarto y sus distintos usos.\n\n\n\n\n\n\n\n\n\n\n\n\nRecursos de la comunidad\n🔗 Mine Cetinkaya-Rundel\nCursos, libros y presentaciones en Quarto en GitHub.\n\n\n\n\n\n\n\n\nAplicaciones en educación\n🔗 sethnut.com/resources\nOlimpiada Matemática, Verano Matemático, EMMA y más!"
+  },
+  {
+    "objectID": "hello-quarto/presentacion.html#gracias-por-participar",
+    "href": "hello-quarto/presentacion.html#gracias-por-participar",
+    "title": "Seth&Nut",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: sethnut.com/talks"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "🎉 Presentaciones",
+    "section": "",
+    "text": "¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n\n\n\n\nTransforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.\nPresentaciones:\nNerdearla (ES) 2025 · Data Saturday Latam 2025 · Open Tech Community Day 2025 · Pycon (COL) 2025 · PyLadiesCon 2025\n\n\n\nAprende a crear paneles interactivos y visualizaciones narrativas con Shiny.\nPresentaciones:\nShinyConf 2025 · UserR 2025\n\n\n\nCrear presentaciones persuasivas con datos que capten, mantengan y movilicen a la audiencia.\nPresentaciones:\nÑuble Alimentos · Fondo Esperanza (Parte I) · Fondo Esperanza (Parte II)\n\n\n\nAprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.\nPresentaciones:\nTechSchool 2025 · EMMA Agosto 2025\n\n\n\n\n\n\nFortalece la comunidad docente a través del uso de recursos abiertos, prácticas reproducibles y colaboración entre pares.\nPresentaciones:\nXCIII SOMACHI · XXIX SOCHIEM · XIII MES Conference · JNEDES1 · IVJMTEM\n\n\n\nCrea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.\nPresentaciones:\nCongreso Compromiso Universidad y Comunidad · II Congreso Internacional en Educación Superior Inclusiva · Congreso Chileno de Integridad Académica · Pyday Valparaíso 2025\n\n\n\nCómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso.\nPresentaciones:\nCLEI 2025 · II E.D.M.U.\n\n\n\nTaller introductorio a Quarto, una herramienta para crear documentos, presentaciones y sitios web interactivos.\nPresentaciones:\nTercer ciclo de formación docente UAH · Sumemos Ideas USM · Pycon Chile 2025\n\n\n\nConvierte leyes complejas en contenido accesible mediante IA, visualizaciones y recursos dinámicos en Streamlit y Quarto.\nPresentaciones:\nSOCHEDI 2025 · SummIT CiberSeguridad 2024\n\n\n\nTaller práctico para descubrir LaTeX como alternativa profesional a Word.\nPresentaciones:\nEMMA Agosto 2025\n\n\n\nQuarto permite diseñar contenidos interactivos en R y Python.\nPresentaciones:\nLatinR 2024\n\n\n\n\n\n\nEl evento invita a estudiantes de 3° y 4° medio a vivir las matemáticas con pruebas, talleres y charlas en un entorno universitario.\nPresentaciones:\nCharla 2025 · Charla 2024\n\n\n\nMini curso para aprender sobre temas relacionados a IA y Data Storytelling.\nPresentaciones:\nCharla I.A. · Charla Storytelling\n\n\n\nCharlas centradas en presentar y explicar los objetivos del proyecto.\nPresentaciones:\nCharla MAT281 · Charla MAT306\n\n\n\nExplora los conceptos del infinito en matemáticas con ejemplos interactivos.\nPresentaciones:\nDMAT USM 2024\n\n\n\nAplicaciones prácticas de la IA en la enseñanza para experiencias personalizadas.\nPresentaciones:\nMADS USM 2024\n\n\n\n\n\n\nIntroducción accesible al uso de la tecnología para personas mayores.\nPresentaciones:\nPresentación\n\n\n\nHabilidades clave y herramientas para la transición al mundo laboral.\nPresentaciones:\nPresentación\n\n\n\nAprende a contar historias persuasivas con datos usando Python y visualización.\nPresentaciones:\nPresentación\n\n\n\nAutomatiza y comparte materiales educativos con GitHub y Quarto.\nPresentaciones:\nPresentación"
+  },
+  {
+    "objectID": "index.html#data-storytelling-a.i.",
+    "href": "index.html#data-storytelling-a.i.",
+    "title": "🎉 Presentaciones",
+    "section": "",
+    "text": "Transforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.\nPresentaciones:\nNerdearla (ES) 2025 · Data Saturday Latam 2025 · Open Tech Community Day 2025 · Pycon (COL) 2025 · PyLadiesCon 2025\n\n\n\nAprende a crear paneles interactivos y visualizaciones narrativas con Shiny.\nPresentaciones:\nShinyConf 2025 · UserR 2025\n\n\n\nCrear presentaciones persuasivas con datos que capten, mantengan y movilicen a la audiencia.\nPresentaciones:\nÑuble Alimentos · Fondo Esperanza (Parte I) · Fondo Esperanza (Parte II)\n\n\n\nAprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.\nPresentaciones:\nTechSchool 2025 · EMMA Agosto 2025"
+  },
+  {
+    "objectID": "index.html#innovación-educativa-comunidad-académica",
+    "href": "index.html#innovación-educativa-comunidad-académica",
+    "title": "🎉 Presentaciones",
+    "section": "",
+    "text": "Fortalece la comunidad docente a través del uso de recursos abiertos, prácticas reproducibles y colaboración entre pares.\nPresentaciones:\nXCIII SOMACHI · XXIX SOCHIEM · XIII MES Conference · JNEDES1 · IVJMTEM\n\n\n\nCrea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.\nPresentaciones:\nCongreso Compromiso Universidad y Comunidad · II Congreso Internacional en Educación Superior Inclusiva · Congreso Chileno de Integridad Académica · Pyday Valparaíso 2025\n\n\n\nCómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso.\nPresentaciones:\nCLEI 2025 · II E.D.M.U.\n\n\n\nTaller introductorio a Quarto, una herramienta para crear documentos, presentaciones y sitios web interactivos.\nPresentaciones:\nTercer ciclo de formación docente UAH · Sumemos Ideas USM · Pycon Chile 2025\n\n\n\nConvierte leyes complejas en contenido accesible mediante IA, visualizaciones y recursos dinámicos en Streamlit y Quarto.\nPresentaciones:\nSOCHEDI 2025 · SummIT CiberSeguridad 2024\n\n\n\nTaller práctico para descubrir LaTeX como alternativa profesional a Word.\nPresentaciones:\nEMMA Agosto 2025\n\n\n\nQuarto permite diseñar contenidos interactivos en R y Python.\nPresentaciones:\nLatinR 2024"
+  },
+  {
+    "objectID": "index.html#matemáticas-ciencia-y-divulgación",
+    "href": "index.html#matemáticas-ciencia-y-divulgación",
+    "title": "🎉 Presentaciones",
+    "section": "",
+    "text": "El evento invita a estudiantes de 3° y 4° medio a vivir las matemáticas con pruebas, talleres y charlas en un entorno universitario.\nPresentaciones:\nCharla 2025 · Charla 2024\n\n\n\nMini curso para aprender sobre temas relacionados a IA y Data Storytelling.\nPresentaciones:\nCharla I.A. · Charla Storytelling\n\n\n\nCharlas centradas en presentar y explicar los objetivos del proyecto.\nPresentaciones:\nCharla MAT281 · Charla MAT306\n\n\n\nExplora los conceptos del infinito en matemáticas con ejemplos interactivos.\nPresentaciones:\nDMAT USM 2024\n\n\n\nAplicaciones prácticas de la IA en la enseñanza para experiencias personalizadas.\nPresentaciones:\nMADS USM 2024"
+  },
+  {
+    "objectID": "index.html#más-charlas",
+    "href": "index.html#más-charlas",
+    "title": "🎉 Presentaciones",
+    "section": "",
+    "text": "Introducción accesible al uso de la tecnología para personas mayores.\nPresentaciones:\nPresentación\n\n\n\nHabilidades clave y herramientas para la transición al mundo laboral.\nPresentaciones:\nPresentación\n\n\n\nAprende a contar historias persuasivas con datos usando Python y visualización.\nPresentaciones:\nPresentación\n\n\n\nAutomatiza y comparte materiales educativos con GitHub y Quarto.\nPresentaciones:\nPresentación"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
+    "href": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
+    "title": "De los Números a la Narrativa",
+    "section": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?",
+    "text": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#objetivos-del-taller",
+    "href": "narrativas_2024/presentacion.html#objetivos-del-taller",
+    "title": "De los Números a la Narrativa",
+    "section": "🎯 Objetivos del Taller",
+    "text": "🎯 Objetivos del Taller\n\n📊 Aprender sobre visualización de datos.\n🧑‍🎨 Aprender a crear visualizaciones.\n🌐 Entender cómo construir una app interactiva.\n💻 Integrar visualizaciones en una aplicación web simple."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
+    "href": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
+    "title": "De los Números a la Narrativa",
+    "section": "🤔 ¿Qué es la Visualización de Datos?",
+    "text": "🤔 ¿Qué es la Visualización de Datos?\n\n\n La visualización de datos transforma información en gráficos para facilitar su comprensión."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
+    "href": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
+    "title": "De los Números a la Narrativa",
+    "section": "Cuarteto de ANSCOMBE",
+    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n📋 Tablas vs 📊 Gráficos"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#teoría-de-visualización",
+    "href": "narrativas_2024/presentacion.html#teoría-de-visualización",
+    "title": "De los Números a la Narrativa",
+    "section": "Teoría de visualización",
+    "text": "Teoría de visualización"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#pilares-visualización---noah-iliinsky",
+    "href": "narrativas_2024/presentacion.html#pilares-visualización---noah-iliinsky",
+    "title": "De los Números a la Narrativa",
+    "section": "4 Pilares Visualización - Noah Iliinsky",
+    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#herramientas-de-visualización-en-python",
+    "href": "narrativas_2024/presentacion.html#herramientas-de-visualización-en-python",
+    "title": "De los Números a la Narrativa",
+    "section": "Herramientas de Visualización en Python",
+    "text": "Herramientas de Visualización en Python"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#exploración-de-datos",
+    "href": "narrativas_2024/presentacion.html#exploración-de-datos",
+    "title": "De los Números a la Narrativa",
+    "section": "Exploración de Datos",
+    "text": "Exploración de Datos\n\n\n\n\n\n\n\n\n\n\n¡Demasiadas opciones!  El usuario no puede ser responsable de encontrar lo valioso."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#tipos-de-gráficos-esenciales",
+    "href": "narrativas_2024/presentacion.html#tipos-de-gráficos-esenciales",
+    "title": "De los Números a la Narrativa",
+    "section": "Tipos de Gráficos Esenciales",
+    "text": "Tipos de Gráficos Esenciales\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#section",
+    "href": "narrativas_2024/presentacion.html#section",
+    "title": "De los Números a la Narrativa",
+    "section": "",
+    "text": "Matplotlib es una biblioteca para crear gráficos estáticos.\nTipos de gráficos más comunes:\n\nLíneas, Barras, Dispersión, Histograma."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-líneas",
+    "href": "narrativas_2024/presentacion.html#ejemplo-líneas",
+    "title": "De los Números a la Narrativa",
+    "section": "〽️ Ejemplo: líneas",
+    "text": "〽️ Ejemplo: líneas\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión",
+    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión",
+    "title": "De los Números a la Narrativa",
+    "section": "〽️ Ejemplo: dispersión",
+    "text": "〽️ Ejemplo: dispersión\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras",
+    "href": "narrativas_2024/presentacion.html#ejemplo-barras",
+    "title": "De los Números a la Narrativa",
+    "section": "〽️ Ejemplo: barras",
+    "text": "〽️ Ejemplo: barras\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
+    "href": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
+    "title": "De los Números a la Narrativa",
+    "section": "〽️ Ejemplo: barras horizontales",
+    "text": "〽️ Ejemplo: barras horizontales\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#section-2",
+    "href": "narrativas_2024/presentacion.html#section-2",
+    "title": "De los Números a la Narrativa",
+    "section": "",
+    "text": "Seaborn extiende Matplotlib con gráficos más estilizados.\nEspecialmente útil para:\n\nGráficos estadísticos.\nAnálisis exploratorio de datos."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-penguins",
+    "href": "narrativas_2024/presentacion.html#ejemplo-penguins",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Ejemplo: penguins",
+    "text": "📊 Ejemplo: penguins\n\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nMale\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nFemale\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nFemale\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nFemale\n\n\n5\nAdelie\nTorgersen\n39.3\n20.6\n190.0\n3650.0\nMale"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
+    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Ejemplo: dispersión",
+    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='bill_length_mm', y='bill_depth_mm', data=penguins, \n                color='salmon')\n\n# Mostrar el gráfico\nplt.show()"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
+    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Ejemplo: dispersión",
+    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='flipper_length_mm', y='body_mass_g', data=penguins, \n                color='salmon', hue= \"sex\")\n\n# Mostrar el gráfico\nplt.show()"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
+    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Matplotlib vs Seaborn",
+    "text": "📊 Matplotlib vs Seaborn\nimport matplotlib.pyplot as plt\n\n# Contar la cantidad de Pingüinos por tipo\npenguins_type = penguins[\"species\"].value_counts()\n\n# Crear un gráfico de barras\nplt.figure(figsize=(6, 3))\npenguins_type.plot(kind=\"bar\", color=\"salmon\")\n\n# Mostrar gráfico\nplt.show()"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
+    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
+    "title": "De los Números a la Narrativa",
+    "section": "📊 Matplotlib vs Seaborn",
+    "text": "📊 Matplotlib vs Seaborn\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear el gráfico de barras con seaborn\nplt.figure(figsize=(6, 3))\nsns.countplot(data=penguins, x=\"species\", color=\"salmon\")\n\n# Mostrar el gráfico\nplt.show()"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
+    "href": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
+    "title": "De los Números a la Narrativa",
+    "section": "🧑🏻‍💻 Aplicaciones Web Interactivas",
+    "text": "🧑🏻‍💻 Aplicaciones Web Interactivas\n\nStreamlit permite crear aplicaciones web rápidamente.\nPuedes integrar gráficos creados con Matplotlib y Seaborn.\nIdeal para compartir resultados de análisis de datos."
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
+    "href": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
+    "title": "De los Números a la Narrativa",
+    "section": "Ejemplo de Streamlit",
+    "text": "Ejemplo de Streamlit"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#section-3",
+    "href": "narrativas_2024/presentacion.html#section-3",
+    "title": "De los Números a la Narrativa",
+    "section": "",
+    "text": "¡Ahora te toca a ti!🫵"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#section-4",
+    "href": "narrativas_2024/presentacion.html#section-4",
+    "title": "De los Números a la Narrativa",
+    "section": "",
+    "text": "¡Ahora te toca a ti!🫵"
+  },
+  {
+    "objectID": "narrativas_2024/presentacion.html#conclusión",
+    "href": "narrativas_2024/presentacion.html#conclusión",
+    "title": "De los Números a la Narrativa",
+    "section": "🎓 Conclusión",
+    "text": "🎓 Conclusión\n\nMatplotlib para gráficos básicos.\nSeaborn para gráficos avanzados.\nStreamlit para aplicaciones interactivas."
+  },
+  {
     "objectID": "hello-quarto/index.html#hello-quarto-title",
     "href": "hello-quarto/index.html#hello-quarto-title",
     "title": "Seth&Nut",
@@ -4205,475 +4933,6 @@
     "title": "Seth&Nut",
     "section": "Annotated Notes: Reimagine",
     "text": "Annotated Notes: Reimagine\nAll We Can Save: https://www.allwecansave.earth\nHow to answer the Q of “What should I do to fight climate change?”  A: “What are you good at? Do that. Do that in the service of climate” - (ayanaeliza)\nFayLab Manual\n\nLearning by doing: migrating to Quarto from Bookdown\nRe: Tara Robertson on psychological safety A Chat with Tara Robertson\nRe: Gavin Fay on psychological safety: Openscapes is Awesome! Building lab resources to sustain future us with tools from open data science\n\nQuarto Mosaic\nSee also: 3 takeaways for planning for the year of open science\n\nhttps://openscapes.github.io/approach-guide\nhttps://nmfs-openscapes.github.io\n\nNASA images\n\nhttps://twitter.com/nasaearth\nhttps://twitter.com/UNOOSA/status/803692453358424064/photo/1\nhttps://www.doi.gov/blog/earth-art-stunning-landsat-images"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
-    "href": "narrativas_2024/presentacion.html#alguna-vez-has-sentido-que-los-datos-que-analizas-no-comunican-todo-su-potencial",
-    "title": "De los Números a la Narrativa",
-    "section": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?",
-    "text": "🤔 ¿Alguna vez has sentido que los datos que analizas no comunican todo su potencial?"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#objetivos-del-taller",
-    "href": "narrativas_2024/presentacion.html#objetivos-del-taller",
-    "title": "De los Números a la Narrativa",
-    "section": "🎯 Objetivos del Taller",
-    "text": "🎯 Objetivos del Taller\n\n📊 Aprender sobre visualización de datos.\n🧑‍🎨 Aprender a crear visualizaciones.\n🌐 Entender cómo construir una app interactiva.\n💻 Integrar visualizaciones en una aplicación web simple."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
-    "href": "narrativas_2024/presentacion.html#qué-es-la-visualización-de-datos",
-    "title": "De los Números a la Narrativa",
-    "section": "🤔 ¿Qué es la Visualización de Datos?",
-    "text": "🤔 ¿Qué es la Visualización de Datos?\n\n\n La visualización de datos transforma información en gráficos para facilitar su comprensión."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
-    "href": "narrativas_2024/presentacion.html#cuarteto-de-anscombe",
-    "title": "De los Números a la Narrativa",
-    "section": "Cuarteto de ANSCOMBE",
-    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n📋 Tablas vs 📊 Gráficos"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#teoría-de-visualización",
-    "href": "narrativas_2024/presentacion.html#teoría-de-visualización",
-    "title": "De los Números a la Narrativa",
-    "section": "Teoría de visualización",
-    "text": "Teoría de visualización"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#pilares-visualización---noah-iliinsky",
-    "href": "narrativas_2024/presentacion.html#pilares-visualización---noah-iliinsky",
-    "title": "De los Números a la Narrativa",
-    "section": "4 Pilares Visualización - Noah Iliinsky",
-    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#herramientas-de-visualización-en-python",
-    "href": "narrativas_2024/presentacion.html#herramientas-de-visualización-en-python",
-    "title": "De los Números a la Narrativa",
-    "section": "Herramientas de Visualización en Python",
-    "text": "Herramientas de Visualización en Python"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#exploración-de-datos",
-    "href": "narrativas_2024/presentacion.html#exploración-de-datos",
-    "title": "De los Números a la Narrativa",
-    "section": "Exploración de Datos",
-    "text": "Exploración de Datos\n\n\n\n\n\n\n\n\n\n\n¡Demasiadas opciones!  El usuario no puede ser responsable de encontrar lo valioso."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#tipos-de-gráficos-esenciales",
-    "href": "narrativas_2024/presentacion.html#tipos-de-gráficos-esenciales",
-    "title": "De los Números a la Narrativa",
-    "section": "Tipos de Gráficos Esenciales",
-    "text": "Tipos de Gráficos Esenciales\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#section",
-    "href": "narrativas_2024/presentacion.html#section",
-    "title": "De los Números a la Narrativa",
-    "section": "",
-    "text": "Matplotlib es una biblioteca para crear gráficos estáticos.\nTipos de gráficos más comunes:\n\nLíneas, Barras, Dispersión, Histograma."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-líneas",
-    "href": "narrativas_2024/presentacion.html#ejemplo-líneas",
-    "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo: líneas",
-    "text": "〽️ Ejemplo: líneas\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión",
-    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión",
-    "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo: dispersión",
-    "text": "〽️ Ejemplo: dispersión\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras",
-    "href": "narrativas_2024/presentacion.html#ejemplo-barras",
-    "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo: barras",
-    "text": "〽️ Ejemplo: barras\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
-    "href": "narrativas_2024/presentacion.html#ejemplo-barras-horizontales",
-    "title": "De los Números a la Narrativa",
-    "section": "〽️ Ejemplo: barras horizontales",
-    "text": "〽️ Ejemplo: barras horizontales\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#section-2",
-    "href": "narrativas_2024/presentacion.html#section-2",
-    "title": "De los Números a la Narrativa",
-    "section": "",
-    "text": "Seaborn extiende Matplotlib con gráficos más estilizados.\nEspecialmente útil para:\n\nGráficos estadísticos.\nAnálisis exploratorio de datos."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-penguins",
-    "href": "narrativas_2024/presentacion.html#ejemplo-penguins",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Ejemplo: penguins",
-    "text": "📊 Ejemplo: penguins\n\n\n\n\n\n\n\n\n\nspecies\nisland\nbill_length_mm\nbill_depth_mm\nflipper_length_mm\nbody_mass_g\nsex\n\n\n\n\n0\nAdelie\nTorgersen\n39.1\n18.7\n181.0\n3750.0\nMale\n\n\n1\nAdelie\nTorgersen\n39.5\n17.4\n186.0\n3800.0\nFemale\n\n\n2\nAdelie\nTorgersen\n40.3\n18.0\n195.0\n3250.0\nFemale\n\n\n4\nAdelie\nTorgersen\n36.7\n19.3\n193.0\n3450.0\nFemale\n\n\n5\nAdelie\nTorgersen\n39.3\n20.6\n190.0\n3650.0\nMale"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
-    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-1",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Ejemplo: dispersión",
-    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='bill_length_mm', y='bill_depth_mm', data=penguins, \n                color='salmon')\n\n# Mostrar el gráfico\nplt.show()"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
-    "href": "narrativas_2024/presentacion.html#ejemplo-dispersión-2",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Ejemplo: dispersión",
-    "text": "📊 Ejemplo: dispersión\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear un gráfico de dispersión con seaborn\nplt.figure(figsize=(6, 3))\nsns.scatterplot(x='flipper_length_mm', y='body_mass_g', data=penguins, \n                color='salmon', hue= \"sex\")\n\n# Mostrar el gráfico\nplt.show()"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
-    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Matplotlib vs Seaborn",
-    "text": "📊 Matplotlib vs Seaborn\nimport matplotlib.pyplot as plt\n\n# Contar la cantidad de Pingüinos por tipo\npenguins_type = penguins[\"species\"].value_counts()\n\n# Crear un gráfico de barras\nplt.figure(figsize=(6, 3))\npenguins_type.plot(kind=\"bar\", color=\"salmon\")\n\n# Mostrar gráfico\nplt.show()"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
-    "href": "narrativas_2024/presentacion.html#matplotlib-vs-seaborn-1",
-    "title": "De los Números a la Narrativa",
-    "section": "📊 Matplotlib vs Seaborn",
-    "text": "📊 Matplotlib vs Seaborn\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Crear el gráfico de barras con seaborn\nplt.figure(figsize=(6, 3))\nsns.countplot(data=penguins, x=\"species\", color=\"salmon\")\n\n# Mostrar el gráfico\nplt.show()"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
-    "href": "narrativas_2024/presentacion.html#aplicaciones-web-interactivas",
-    "title": "De los Números a la Narrativa",
-    "section": "🧑🏻‍💻 Aplicaciones Web Interactivas",
-    "text": "🧑🏻‍💻 Aplicaciones Web Interactivas\n\nStreamlit permite crear aplicaciones web rápidamente.\nPuedes integrar gráficos creados con Matplotlib y Seaborn.\nIdeal para compartir resultados de análisis de datos."
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
-    "href": "narrativas_2024/presentacion.html#ejemplo-de-streamlit",
-    "title": "De los Números a la Narrativa",
-    "section": "Ejemplo de Streamlit",
-    "text": "Ejemplo de Streamlit"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#section-3",
-    "href": "narrativas_2024/presentacion.html#section-3",
-    "title": "De los Números a la Narrativa",
-    "section": "",
-    "text": "¡Ahora te toca a ti!🫵"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#section-4",
-    "href": "narrativas_2024/presentacion.html#section-4",
-    "title": "De los Números a la Narrativa",
-    "section": "",
-    "text": "¡Ahora te toca a ti!🫵"
-  },
-  {
-    "objectID": "narrativas_2024/presentacion.html#conclusión",
-    "href": "narrativas_2024/presentacion.html#conclusión",
-    "title": "De los Números a la Narrativa",
-    "section": "🎓 Conclusión",
-    "text": "🎓 Conclusión\n\nMatplotlib para gráficos básicos.\nSeaborn para gráficos avanzados.\nStreamlit para aplicaciones interactivas."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "🎉 Presentaciones",
-    "section": "",
-    "text": "¡Hola! Aquí tienes una lista de nuestras presentaciones, realizadas con Quarto, una herramienta poderosa para crear documentos y presentaciones dinámicas en diferentes formatos.\n\n\n\n\nTransforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.\nPresentaciones:\nNerdearla (ES) 2025 · Data Saturday Latam 2025 · Open Tech Community Day 2025 · Pycon (COL) 2025 · PyLadiesCon 2025\n\n\n\nAprende a crear paneles interactivos y visualizaciones narrativas con Shiny.\nPresentaciones:\nShinyConf 2025 · UserR 2025\n\n\n\nCrear presentaciones persuasivas con datos que capten, mantengan y movilicen a la audiencia.\nPresentaciones:\nÑuble Alimentos · Fondo Esperanza (Parte I) · Fondo Esperanza (Parte II)\n\n\n\nAprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.\nPresentaciones:\nTechSchool 2025 · EMMA Agosto 2025\n\n\n\n\n\n\nFortalece la comunidad docente a través del uso de recursos abiertos, prácticas reproducibles y colaboración entre pares.\nPresentaciones:\nXCIII SOMACHI · XXIX SOCHIEM · XIII MES Conference · JNEDES1 · IVJMTEM\n\n\n\nCrea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.\nPresentaciones:\nCongreso Compromiso Universidad y Comunidad · II Congreso Internacional en Educación Superior Inclusiva · Congreso Chileno de Integridad Académica · Pyday Valparaíso 2025\n\n\n\nCómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso.\nPresentaciones:\nCLEI 2025 · II E.D.M.U.\n\n\n\nTaller introductorio a Quarto, una herramienta para crear documentos, presentaciones y sitios web interactivos.\nPresentaciones:\nSumemos Ideas: Seminarios USM · Pycon Chile 2025\n\n\n\nConvierte leyes complejas en contenido accesible mediante IA, visualizaciones y recursos dinámicos en Streamlit y Quarto.\nPresentaciones:\nSOCHEDI 2025 · SummIT CiberSeguridad 2024\n\n\n\nTaller práctico para descubrir LaTeX como alternativa profesional a Word.\nPresentaciones:\nEMMA Agosto 2025\n\n\n\nQuarto permite diseñar contenidos interactivos en R y Python.\nPresentaciones:\nLatinR 2024\n\n\n\n\n\n\nEl evento invita a estudiantes de 3° y 4° medio a vivir las matemáticas con pruebas, talleres y charlas en un entorno universitario.\nPresentaciones:\nCharla 2025 · Charla 2024\n\n\n\nMini curso para aprender sobre temas relacionados a IA y Data Storytelling.\nPresentaciones:\nCharla I.A. · Charla Storytelling\n\n\n\nCharlas centradas en presentar y explicar los objetivos del proyecto.\nPresentaciones:\nCharla MAT281 · Charla MAT306\n\n\n\nExplora los conceptos del infinito en matemáticas con ejemplos interactivos.\nPresentaciones:\nDMAT USM 2024\n\n\n\nAplicaciones prácticas de la IA en la enseñanza para experiencias personalizadas.\nPresentaciones:\nMADS USM 2024\n\n\n\n\n\n\nIntroducción accesible al uso de la tecnología para personas mayores.\nPresentaciones:\nPresentación\n\n\n\nHabilidades clave y herramientas para la transición al mundo laboral.\nPresentaciones:\nPresentación\n\n\n\nAprende a contar historias persuasivas con datos usando Python y visualización.\nPresentaciones:\nPresentación\n\n\n\nAutomatiza y comparte materiales educativos con GitHub y Quarto.\nPresentaciones:\nPresentación"
-  },
-  {
-    "objectID": "index.html#data-storytelling-a.i.",
-    "href": "index.html#data-storytelling-a.i.",
-    "title": "🎉 Presentaciones",
-    "section": "",
-    "text": "Transforma datos en historias visuales interactivas usando A.I. y herramientas dinámicas.\nPresentaciones:\nNerdearla (ES) 2025 · Data Saturday Latam 2025 · Open Tech Community Day 2025 · Pycon (COL) 2025 · PyLadiesCon 2025\n\n\n\nAprende a crear paneles interactivos y visualizaciones narrativas con Shiny.\nPresentaciones:\nShinyConf 2025 · UserR 2025\n\n\n\nCrear presentaciones persuasivas con datos que capten, mantengan y movilicen a la audiencia.\nPresentaciones:\nÑuble Alimentos · Fondo Esperanza (Parte I) · Fondo Esperanza (Parte II)\n\n\n\nAprende a estructurar prompts efectivos para herramientas como ChatGPT de forma precisa y ética.\nPresentaciones:\nTechSchool 2025 · EMMA Agosto 2025"
-  },
-  {
-    "objectID": "index.html#innovación-educativa-comunidad-académica",
-    "href": "index.html#innovación-educativa-comunidad-académica",
-    "title": "🎉 Presentaciones",
-    "section": "",
-    "text": "Fortalece la comunidad docente a través del uso de recursos abiertos, prácticas reproducibles y colaboración entre pares.\nPresentaciones:\nXCIII SOMACHI · XXIX SOCHIEM · XIII MES Conference · JNEDES1 · IVJMTEM\n\n\n\nCrea y comparte contenidos educativos colaborando con profesionales usando GitHub y Quarto.\nPresentaciones:\nCongreso Compromiso Universidad y Comunidad · II Congreso Internacional en Educación Superior Inclusiva · Congreso Chileno de Integridad Académica · Pyday Valparaíso 2025\n\n\n\nCómo Google Colab y evaluaciones interactivas transformaron la experiencia educativa del curso.\nPresentaciones:\nCLEI 2025 · II E.D.M.U.\n\n\n\nTaller introductorio a Quarto, una herramienta para crear documentos, presentaciones y sitios web interactivos.\nPresentaciones:\nSumemos Ideas: Seminarios USM · Pycon Chile 2025\n\n\n\nConvierte leyes complejas en contenido accesible mediante IA, visualizaciones y recursos dinámicos en Streamlit y Quarto.\nPresentaciones:\nSOCHEDI 2025 · SummIT CiberSeguridad 2024\n\n\n\nTaller práctico para descubrir LaTeX como alternativa profesional a Word.\nPresentaciones:\nEMMA Agosto 2025\n\n\n\nQuarto permite diseñar contenidos interactivos en R y Python.\nPresentaciones:\nLatinR 2024"
-  },
-  {
-    "objectID": "index.html#matemáticas-ciencia-y-divulgación",
-    "href": "index.html#matemáticas-ciencia-y-divulgación",
-    "title": "🎉 Presentaciones",
-    "section": "",
-    "text": "El evento invita a estudiantes de 3° y 4° medio a vivir las matemáticas con pruebas, talleres y charlas en un entorno universitario.\nPresentaciones:\nCharla 2025 · Charla 2024\n\n\n\nMini curso para aprender sobre temas relacionados a IA y Data Storytelling.\nPresentaciones:\nCharla I.A. · Charla Storytelling\n\n\n\nCharlas centradas en presentar y explicar los objetivos del proyecto.\nPresentaciones:\nCharla MAT281 · Charla MAT306\n\n\n\nExplora los conceptos del infinito en matemáticas con ejemplos interactivos.\nPresentaciones:\nDMAT USM 2024\n\n\n\nAplicaciones prácticas de la IA en la enseñanza para experiencias personalizadas.\nPresentaciones:\nMADS USM 2024"
-  },
-  {
-    "objectID": "index.html#más-charlas",
-    "href": "index.html#más-charlas",
-    "title": "🎉 Presentaciones",
-    "section": "",
-    "text": "Introducción accesible al uso de la tecnología para personas mayores.\nPresentaciones:\nPresentación\n\n\n\nHabilidades clave y herramientas para la transición al mundo laboral.\nPresentaciones:\nPresentación\n\n\n\nAprende a contar historias persuasivas con datos usando Python y visualización.\nPresentaciones:\nPresentación\n\n\n\nAutomatiza y comparte materiales educativos con GitHub y Quarto.\nPresentaciones:\nPresentación"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#hello-quarto-title",
-    "href": "hello-quarto/presentacion.html#hello-quarto-title",
-    "title": "Seth&Nut",
-    "section": "",
-    "text": "Hola Quarto\ncompartir • colaborar • enseñar • reimaginar\nFrancisco Alfaro Medina  Valeska Canales Pozo\nhttps://sethnut.com/talks"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#qué-es-quarto",
-    "href": "hello-quarto/presentacion.html#qué-es-quarto",
-    "title": "Seth&Nut",
-    "section": "¿Qué es Quarto ?",
-    "text": "¿Qué es Quarto ?"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#publishing-system-1",
-    "href": "hello-quarto/presentacion.html#publishing-system-1",
-    "title": "Seth&Nut",
-    "section": "",
-    "text": "Quarto es un sistema abierto de publicación científica y técnica"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#publishing-system-2",
-    "href": "hello-quarto/presentacion.html#publishing-system-2",
-    "title": "Seth&Nut",
-    "section": "",
-    "text": "Quarto es un sistema abierto de publicación científica y técnica\n\n\nel objetivo es hacer que el proceso de creación y colaboración sea drásticamente mejor"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#por-qué-quarto",
-    "href": "hello-quarto/presentacion.html#por-qué-quarto",
-    "title": "Seth&Nut",
-    "section": "¿Por qué Quarto?",
-    "text": "¿Por qué Quarto?"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#por-qué-quarto-1",
-    "href": "hello-quarto/presentacion.html#por-qué-quarto-1",
-    "title": "Seth&Nut",
-    "section": "¿Por qué Quarto?",
-    "text": "¿Por qué Quarto?\n\n\n\n\n\n\n\n Un solo documento, múltiples formatos: HTML, PDF, presentaciones o sitios web.\n\n\n\n\n\n\n\n Materiales más accesibles y fáciles de usar, con soporte para la enseñanza y la inclusión.\n\n\n\n\n\n\n\n\n\n\n\n Fácil de aprender: usa Markdown simple y cuenta con ayudas para empezar rápido.\n\n\n\n\n\n\n\n Flexibilidad total: integra texto, imágenes y código en R, Python, Julia u otros lenguajes."
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#ejemplos",
-    "href": "hello-quarto/presentacion.html#ejemplos",
-    "title": "Seth&Nut",
-    "section": "Ejemplos",
-    "text": "Ejemplos"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#quarto-organiza-cada-paso-del-renderizado",
-    "href": "hello-quarto/presentacion.html#quarto-organiza-cada-paso-del-renderizado",
-    "title": "Seth&Nut",
-    "section": "Quarto organizacada paso del renderizado",
-    "text": "Quarto organizacada paso del renderizado"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#quarto-facilita-el-cambio-entre-formatos",
-    "href": "hello-quarto/presentacion.html#quarto-facilita-el-cambio-entre-formatos",
-    "title": "Seth&Nut",
-    "section": "Quarto facilita el cambio entre formatos",
-    "text": "Quarto facilita el cambio entre formatos\n\n\n\nDocument\n\n lesson-1.qmd\n\ntitle: \"Lesson 1\"\nformat: html\n\n\n\nPresentation\n\n lesson-1.qmd\n\ntitle: \"Lesson 1\"\nformat: revealjs\n\n\n\nWebsite\n\n _quarto.yml\n\nproject:\n  type: website\n\nwebsite: \n  navbar: \n    left:\n      - lesson-1.qmd"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#primeros-pasos-con-quarto",
-    "href": "hello-quarto/presentacion.html#primeros-pasos-con-quarto",
-    "title": "Seth&Nut",
-    "section": "Primeros Pasos con Quarto",
-    "text": "Primeros Pasos con Quarto"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#instalar-y-configurar-quarto",
-    "href": "hello-quarto/presentacion.html#instalar-y-configurar-quarto",
-    "title": "Seth&Nut",
-    "section": "Instalar y configurar Quarto",
-    "text": "Instalar y configurar Quarto\n\n\n\n\n\n\n\n\n\nDescarga e instalación:\n\nQuarto.org (Windows, macOS y Linux)\n\nVerificación:\n\nEjecutar quarto check en la terminal\n\nEditores recomendados:\n\nRStudio , VSCode + Quarto Extension"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-1",
-    "href": "hello-quarto/presentacion.html#instalar-y-configurar-quarto-1",
-    "title": "Seth&Nut",
-    "section": "Instalar y configurar Quarto",
-    "text": "Instalar y configurar Quarto"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#section-1",
-    "href": "hello-quarto/presentacion.html#section-1",
-    "title": "Seth&Nut",
-    "section": "",
-    "text": "🌐 Asegúrate de tener instalado R (RStudio) y/o Python (Jupyter)"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#section-2",
-    "href": "hello-quarto/presentacion.html#section-2",
-    "title": "Seth&Nut",
-    "section": "",
-    "text": "Código: hello.qmd\n---\ntitle: \"Hello, Quarto\"\nformat: html\neditor: visual\n---\n\n## Meet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see &lt;https://quarto.org&gt;.\n\n## Meet the penguins\n\n![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png){style=\"float:right;\" fig-alt=\"Illustration of three species of Palmer Archipelago penguins: Chinstrap, Gentoo, and Adelie. Artwork by @allison_horst.\" width=\"401\"}\n\nThe `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins \"palmerpenguins R package\") package contains size measurements for `{r} nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.\n\nThe plot below shows the relationship between flipper and bill lengths of these penguins.\n\nHTML: hello.html"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#section-3",
-    "href": "hello-quarto/presentacion.html#section-3",
-    "title": "Seth&Nut",
-    "section": "",
-    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#qué-podemos-hacer-con-quarto",
-    "href": "hello-quarto/presentacion.html#qué-podemos-hacer-con-quarto",
-    "title": "Seth&Nut",
-    "section": "¿ Qué podemos hacer con Quarto?",
-    "text": "¿ Qué podemos hacer con Quarto?"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#código-con-estilo",
-    "href": "hello-quarto/presentacion.html#código-con-estilo",
-    "title": "Seth&Nut",
-    "section": "Código con Estilo",
-    "text": "Código con Estilo\n\nMás de 20 temas para resaltar tu código\n\nEl tema por defecto está optimizado para accesibilidad\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n  })\n}"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#código-en-movimiento",
-    "href": "hello-quarto/presentacion.html#código-en-movimiento",
-    "title": "Seth&Nut",
-    "section": "Código en Movimiento",
-    "text": "Código en Movimiento\n\nMás de 20 estilos de resaltado listos para usar\n\nTema por defecto diseñado para máxima accesibilidad\n\n# Define a server for the Shiny app\nfunction(input, output) {\n  \n  # Fill in the spot we created for a plot\n  output$phonePlot &lt;- renderPlot({\n    # Render a barplot\n    barplot(WorldPhones[,input$region]*1000, \n            main=input$region,\n            ylab=\"Number of Telephones\",\n            xlab=\"Year\")\n  })\n}"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#enfoque-en-líneas",
-    "href": "hello-quarto/presentacion.html#enfoque-en-líneas",
-    "title": "Seth&Nut",
-    "section": "Enfoque en Líneas",
-    "text": "Enfoque en Líneas\n\nSeñala las líneas clave para mayor claridad\n\nAgrega resaltados paso a paso\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#código-ejecutable",
-    "href": "hello-quarto/presentacion.html#código-ejecutable",
-    "title": "Seth&Nut",
-    "section": "Código Ejecutable",
-    "text": "Código Ejecutable\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\nmpg = sns.load_dataset(\"mpg\")\nsns.scatterplot(data=mpg, x=\"horsepower\", y=\"mpg\")\nplt.show()"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#ecuaciones-en-latex",
-    "href": "hello-quarto/presentacion.html#ecuaciones-en-latex",
-    "title": "Seth&Nut",
-    "section": "Ecuaciones en LaTeX",
-    "text": "Ecuaciones en LaTeX\nRenderizado de ecuaciones a HTML con MathJax.\n\n\n\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\n\n\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\n\n\\[\\begin{gather*}\na_1=b_1+c_1\\\\\na_2=b_2+c_2-d_2+e_2\n\\end{gather*}\\]\n\\[\\begin{align}\na_{11}& =b_{11}&\n  a_{12}& =b_{12}\\\\\na_{21}& =b_{21}&\n  a_{22}& =b_{22}+c_{22}\n\\end{align}\\]"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#columnas-flexibles",
-    "href": "hello-quarto/presentacion.html#columnas-flexibles",
-    "title": "Seth&Nut",
-    "section": "Columnas Flexibles",
-    "text": "Columnas Flexibles\nAcomoda texto, imágenes o código en columnas de varios tamaños.\n\n\n\nMotor Trend Car Road Tests\nThe data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\nwt\n\n\n\n\n18.000000\n8\n307.000000\n130.000000\n3504\n\n\n15.000000\n8\n350.000000\n165.000000\n3693\n\n\n18.000000\n8\n318.000000\n150.000000\n3436\n\n\n16.000000\n8\n304.000000\n150.000000\n3433\n\n\n17.000000\n8\n302.000000\n140.000000\n3449"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#tabsets",
-    "href": "hello-quarto/presentacion.html#tabsets",
-    "title": "Seth&Nut",
-    "section": "Tabsets",
-    "text": "Tabsets\nCrea bloques con pestañas que permiten alternar entre distintos contenidos.\n\nPlotData\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nx\ny\n\n\n\n\n0\n-2.000000\n12.000000\n\n\n1\n-1.929293\n11.510050\n\n\n2\n-1.858586\n11.030099\n\n\n3\n-1.787879\n10.560147\n\n\n4\n-1.717172\n10.100194"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#gráficos-interactivos",
-    "href": "hello-quarto/presentacion.html#gráficos-interactivos",
-    "title": "Seth&Nut",
-    "section": "Gráficos Interactivos",
-    "text": "Gráficos Interactivos"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#el-poder-de-las-extensiones-en-quarto",
-    "href": "hello-quarto/presentacion.html#el-poder-de-las-extensiones-en-quarto",
-    "title": "Seth&Nut",
-    "section": "El poder de las extensiones en Quarto",
-    "text": "El poder de las extensiones en Quarto"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#extensiones-de-quarto",
-    "href": "hello-quarto/presentacion.html#extensiones-de-quarto",
-    "title": "Seth&Nut",
-    "section": "Extensiones de Quarto",
-    "text": "Extensiones de Quarto\n\n\n\nLas extensiones de Quarto permiten añadir nuevas características y potenciar su uso.\n\n\n🔧Necesitas más poder? Usa Extensions"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#quarto-quiz",
-    "href": "hello-quarto/presentacion.html#quarto-quiz",
-    "title": "Seth&Nut",
-    "section": "Quarto Quiz",
-    "text": "Quarto Quiz\n\n\n\nLa extensión Quarto Quiz permite crear preguntas directamente en tus presentaciones.\n\n\n📚 Más info: Quarto Quiz Extension"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#ejemplo",
-    "href": "hello-quarto/presentacion.html#ejemplo",
-    "title": "Seth&Nut",
-    "section": "Ejemplo",
-    "text": "Ejemplo\n\n¿Cómo te ha parecido la presentación hasta ahora?\n\nMe encantó 😍\nMás o menos 🤔\n\nTal vez podría mejorar 🙂\n\nNo me gustó mucho 😕"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#quarto-webr-pyodide",
-    "href": "hello-quarto/presentacion.html#quarto-webr-pyodide",
-    "title": "Seth&Nut",
-    "section": "Quarto WebR + Pyodide",
-    "text": "Quarto WebR + Pyodide\n\n\n\n\nWebR: Ejecuta código R en el navegador, sin necesidad de instalación.\n# To install WebR in your environment\nremotes::install_github(\"attiyap/WebR\")\nPyodide: Lo mismo, pero para Python.\n# To install Pyodide\npip install pyodide\n\n\n\n\n\nWebR and Pyodide run code directly in the browser.\nNo setup, no installs — just share and run.\nPerfect for teaching, demos, and interactive content."
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#ejemplo-1",
-    "href": "hello-quarto/presentacion.html#ejemplo-1",
-    "title": "Seth&Nut",
-    "section": "Ejemplo",
-    "text": "Ejemplo\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nThis is a live R example.\nWhy run it live?\nBecause people learn better when they see and try.\nNo setup, no install — just code and results.\nThat’s the power of WebR."
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#shiny",
-    "href": "hello-quarto/presentacion.html#shiny",
-    "title": "Seth&Nut",
-    "section": "Shiny",
-    "text": "Shiny\n\n\n\nShiny es un paquete de R que permite crear de manera sencilla aplicaciones interactivas usando R\n(también disponible para Python).\n\n\n📚 Más info: Shiny - Posit"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#ejemplo-2",
-    "href": "hello-quarto/presentacion.html#ejemplo-2",
-    "title": "Seth&Nut",
-    "section": "Ejemplo",
-    "text": "Ejemplo\n\n\n\nShiny apps let people interact with your data.\nChange inputs — see results instantly.\nPerfect for exploring and communicating insights."
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#quarto-shinylive",
-    "href": "hello-quarto/presentacion.html#quarto-shinylive",
-    "title": "Seth&Nut",
-    "section": "Quarto Shinylive",
-    "text": "Quarto Shinylive\n\n\n\n\nDespliega aplicaciones Shiny que se ejecutan 100% en el navegador — con Python y R.\n\nSin servidores. Sin configuraciones. Solo escribe código y ejecútalo.\n\n\n\n\n\n\n\n\nSigue en tu presentación.\nNo pierdas el ritmo 🎯"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#ejemplo-3",
-    "href": "hello-quarto/presentacion.html#ejemplo-3",
-    "title": "Seth&Nut",
-    "section": "Ejemplo",
-    "text": "Ejemplo\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 800\n\nfrom shiny import App, ui, render, reactive\nimport matplotlib.pyplot as plt\nimport io\nimport base64\n\n# Function to generate the plot dynamically based on input values\ndef create_plot(yes_value, no_value):\n    categories = ['Sí', 'No']\n    values = [yes_value, no_value]\n\n    fig, ax = plt.subplots(figsize=(14, 5))\n    ax.bar(categories, values, color=['lightblue', 'salmon'])\n    ax.set_title('¿Te ha gustado la presentación?')\n\n    # Convert the image to base64 for display in Shiny\n    buf = io.BytesIO()\n    plt.savefig(buf, format=\"png\")\n    plt.close(fig)\n    buf.seek(0)\n    encoded_image = base64.b64encode(buf.getvalue()).decode()\n    return f'&lt;img src=\"data:image/png;base64,{encoded_image}\" style=\"max-width:100%;\"&gt;'\n\n# UI definition\napp_ui = ui.page_fluid(\n    ui.h2(\"Encuesta Interactiva\"),\n    \n    # Sliders to change values dynamically\n    ui.input_slider(\"yes_value\", \"Respuestas 'Sí':\", min=0, max=50, value=20),\n    ui.input_slider(\"no_value\", \"Respuestas 'No'\", min=0, max=50, value=10),\n    \n    # Output area for the plot\n    ui.output_ui(\"plot_output\")\n)\n\n# Server function\ndef server(input, output, session):\n    @output\n    @render.ui\n    def plot_output():\n        return ui.HTML(create_plot(input.yes_value(), input.no_value()))\n\n# Create the Shiny app\napp = App(app_ui, server)"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#conclusiones",
-    "href": "hello-quarto/presentacion.html#conclusiones",
-    "title": "Seth&Nut",
-    "section": "Conclusiones",
-    "text": "Conclusiones\n\n\n\n\n\n\n\nCompartir: Un mismo .qmd genera HTML, PDF, slides o sitios web, pasando de lo estático a lo interactivo.\n\n\n\n\n\n\n\n\nColaborar: Con un archivo sencillo ya se puede crear y publicar material reproducible, iniciando el trabajo en equipo.\n\n\n\n\n\n\n\n\n\n\n\n\nEnseñar: Sus features integran texto, código y visualizaciones, mejorando la enseñanza con recursos dinámicos.\n\n\n\n\n\n\n\n\nReimaginar: Tecnologías como WebR, Pyodide o Shiny abren nuevas formas de aprender e innovar en educación."
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#referencias-y-recursos",
-    "href": "hello-quarto/presentacion.html#referencias-y-recursos",
-    "title": "Seth&Nut",
-    "section": "Referencias y Recursos",
-    "text": "Referencias y Recursos\n\n\n\n\n\n\n\nDocumentación oficial\n🔗 quarto.org\nGuías y ejemplos prácticos para comenzar de inmediato.\n\n\n\n\n\n\n\n\nAprendizaje en video\n🔗 Crash Course en YouTube\nIntroducción práctica a Quarto y sus distintos usos.\n\n\n\n\n\n\n\n\n\n\n\n\nRecursos de la comunidad\n🔗 Mine Cetinkaya-Rundel\nCursos, libros y presentaciones en Quarto en GitHub.\n\n\n\n\n\n\n\n\nAplicaciones en educación\n🔗 sethnut.com/resources\nOlimpiada Matemática, Verano Matemático, EMMA y más!"
-  },
-  {
-    "objectID": "hello-quarto/presentacion.html#gracias-por-participar",
-    "href": "hello-quarto/presentacion.html#gracias-por-participar",
-    "title": "Seth&Nut",
-    "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Disfrutar del Evento!\n\n\n\n\n🔗 Nuestro Sitio Web: sethnut.com/talks"
   },
   {
     "objectID": "hello-quarto/presentacion_pycon.html#hello-quarto-title",

@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="es"><head>
 <link href="../images/logo_sn.png" rel="icon" type="image/png">
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script><script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d640c705e8c17715bca3574aa719063f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<meta name="shinylive:serviceworker_dir" content="..">
+<script src="../site_libs/quarto-contrib/shinylive-0.10.7/shinylive/load-shinylive-sw.js" type="module"></script>
+<script src="../site_libs/quarto-contrib/shinylive-0.10.7/shinylive/run-python-blocks.js" type="module"></script>
+<link href="../site_libs/quarto-contrib/shinylive-0.10.7/shinylive/shinylive.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.8.26">
 
-  <meta name="author" content="Valeska Canales">
-  <meta name="dcterms.date" content="2025-12-05">
-  <title>Seth&amp;Nut – Crea, Innova y Presenta Data Storytelling + A.I.</title>
+  <title>Seth&amp;Nut – Hola Quarto</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -58,49 +62,50 @@
         -khtml-user-select: none; -moz-user-select: none;
         -ms-user-select: none; user-select: none;
         padding: 0 4px; width: 4em;
-        color: #aaaaaa;
+        color: #767676;
       }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #767676;  padding-left: 4px; }
     div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
+      { color: #545454; background-color: #fefefe; }
     @media screen {
     pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
     }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
+    code span { color: #545454; } /* Normal */
+    code span.al { color: #7928a1; } /* Alert */
+    code span.an { color: #696969; } /* Annotation */
+    code span.at { color: #a55a00; } /* Attribute */
+    code span.bn { color: #7928a1; } /* BaseN */
     code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
+    code span.cf { color: #d91e18; } /* ControlFlow */
+    code span.ch { color: #008000; } /* Char */
+    code span.cn { color: #d91e18; } /* Constant */
+    code span.co { color: #696969; } /* Comment */
+    code span.cv { color: #696969; font-style: italic; } /* CommentVar */
+    code span.do { color: #696969; font-style: italic; } /* Documentation */
+    code span.dt { color: #7928a1; } /* DataType */
+    code span.dv { color: #7928a1; } /* DecVal */
+    code span.er { color: #7928a1; } /* Error */
     code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+    code span.fl { color: #a55a00; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #696969; } /* Information */
+    code span.kw { color: #d91e18; } /* Keyword */
+    code span.op { color: #00769e; } /* Operator */
+    code span.ot { color: #d91e18; } /* Other */
+    code span.pp { color: #7928a1; } /* Preprocessor */
+    code span.sc { color: #00769e; } /* SpecialChar */
+    code span.ss { color: #008000; } /* SpecialString */
+    code span.st { color: #008000; } /* String */
+    code span.va { color: #a55a00; } /* Variable */
+    code span.vs { color: #008000; } /* VerbatimString */
+    code span.wa { color: #696969; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-d1a3d4e4537a3f395f9227b0360778da.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-quiz/quiz.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -189,6 +194,9 @@
       margin-right: 0; 
     }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
+  
+  <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/editor/editor.main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     
@@ -351,7 +359,7 @@
   }
 
   // Store cell data
-  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\nplt.figure(figsize=(5, 3))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.grid(True)\nplt.show()","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\ncategorias = [\"Sí\", \"No\"]\nvalores = [75, 25]\ncolores = [\"lightblue\", \"salmon\"]\nplt.figure(figsize=(10, 6))\nplt.bar(categorias, valores, color=colores)\nplt.title(\"¿Te ha gustado la presentación?\", fontsize=11)\nplt.show()","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
   </script>
@@ -556,461 +564,281 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="images/background.jpg" class="quarto-title-block center">
-  <h1 class="title">Crea, Innova y Presenta Data Storytelling + A.I.</h1>
 
-<div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Valeska Canales 
+<section id="hello-quarto-title" class="slide level2" data-menu-title="Hola Quarto" data-background-image="images/horst_penguins_telescope.png" data-state="no-logo">
+<h2></h2>
+<p><span class="custom-title">Hola Quarto</span></p>
+<p><span class="custom-subtitle">compartir • colaborar • enseñar • reimaginar</span></p>
+<p><span class="custom-author">Francisco Alfaro Medina <br> Valeska Canales Pozo</span></p>
+<p><span class="custom-url"><a href="https://sethnut.com/talks" class="uri">https://sethnut.com/talks</a></span></p>
+</section>
+<section>
+<section id="motivación" class="title-slide slide level1 center" data-background-image="images/background.jpg" data-background-opacity="0.25" data-transition="zoom">
+<h1>Motivación</h1>
+<div class="r-stack">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/intro_01.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:75.0%"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/intro_022.gif" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/horst-quarto-meteor-transparent.png" class="fragment quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
 </div>
 </div>
+</section>
+<section id="qué-es-quarto" class="slide level2 title-top-light" data-background-image="images/horst-quarto-meteor-transparent.png">
+<h2>¿Qué es Quarto ?</h2>
+</section>
+<section id="publishing-system-1" class="slide level2 centered" data-menu-title="Sistema de publicación 1" data-background-color="#0F1620" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<div style="margin-top: 100px; font-size: 2.5em; color: #75AADB;">
+<p>Quarto es un sistema abierto de<br> publicación científica y técnica</p>
 </div>
+</section>
+<section id="publishing-system-2" class="slide level2 centered" data-menu-title="Sistema de publicación 2" data-background-color="#0F1620" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
+<div style="margin-top: 50px; font-size: 2em; color: #75AADB">
+<p>Quarto es un sistema abierto de<br> publicación científica y técnica</p>
+</div>
+<div class="midi">
+<p><strong>el objetivo es hacer que el proceso de creación</strong><br> y colaboración sea drásticamente mejor</p>
+</div>
+<div class="fragment fade-up">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/horst_quarto_schematic.png" class="quarto-figure quarto-figure-center" alt="Un esquema que representa la versatilidad de Quarto para entrada multilenguaje (por ejemplo, Python, R, Observable, Julia) y salida multi-formato (por ejemplo, PDF, HTML, documentos Word y más)." width="1100"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="section" class="slide level2 centered" data-auto-animate="true">
+<h2 data-id="quarto-animate-title"></h2>
 
-  <p class="date">2025-12-05</p>
+<img data-src="images/toc.svg" alt="Logo de Quarto con los cuatro cuadrantes etiquetados como Compartir, Colaborar, Enseñar y Reimaginar." class="r-stretch"></section></section>
+<section>
+<section id="compartir" class="title-slide slide level1 title-middle-dark center" data-background-image="images/horst_quarto_penguins_share.png" data-state="no-logo">
+<h1>Compartir</h1>
+
 </section>
-<section id="agenda" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Agenda</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li class="fragment"></li>
-<li class="fragment"><p>No</p></li>
-<li class="fragment"><p>Nope</p></li>
-<li class="fragment"><p>Jamás</p></li>
-</ul>
-</div><div class="column fragment" style="width:70%;">
-<p><img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"></p>
-</div></div>
-</section>
-<section id="section" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Regla de Storytelling #1</strong></p>
-</div>
-<div class="callout-content">
-<p>Nunca reveles el final antes de tiempo.<br>
-<span class="fragment">Siempre eleva la tensión y el dramatismo</span></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="agenda-v2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Agenda (v2)</h2>
-<ol type="1">
-<li class="fragment">Nunca reveles el <span style="background-color:black;">final</span></li>
-<li class="fragment">Los detalles son importantes, pero <span style="background-color:black;">no <strong>todos</strong> los detalles son importantes.</span></li>
-<li class="fragment">Tu primera versión será <span style="background-color:black;">horrible.</span></li>
-<li class="fragment">Muestra, no <span style="background-color:black;">cuentes.</span></li>
-</ol>
-</section>
-<section id="section-1" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Data Storytelling</span></p>
-<p><span style="font-size: 1.5em">¿Por qué Data Storytelling?</span></p>
-</div>
-</section>
-<section id="qué-es-el-storytelling" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>¿Qué es el Storytelling?</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/cave.jpg" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/fire.jpg" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-</div></div>
-<div class="fragment">
-<div style="text-align: center; ">
-<p>🔥 Las <strong>historias</strong> son la primera tecnología humana</p>
-</div>
-</div>
-</section>
-<section id="esos-cerebros-tan-hackables" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Esos cerebros tan hackables…</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/storytelling/sketplanation.png" class="quarto-figure quarto-figure-center" style="width:90.0%"><br>
-<em>Regla del máximo y final (Peak-End Rule)</em></p>
-</div><div class="column fragment" style="width:50%;">
-<p><img data-src="images/storytelling/got.jpg" class="quarto-figure quarto-figure-center" style="width:100.0%"><br>
-<em>Rating de Game of Thrones, por Kelvin Neo</em></p>
-</div></div>
-</section>
-<section id="narrativa" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Narrativa</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><br><br> Usar <strong>trucos</strong> de Storytelling (narrativa) para crear presentaciones que serán <strong>recordadas</strong> y que causarán <strong>impacto</strong></p>
-</div><div class="column fragment" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/emotions.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-<div class="fragment">
-<div style="text-align: center;">
-<p>🎭 Las <strong>emociones</strong> generan acciones</p>
-</div>
-</div>
-</section>
-<section id="el-mejor-ejemplo" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>El mejor ejemplo</h2>
-<div class="columns">
-<div class="column fragment" data-fragment-index="1" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/storytelling/spotify1.jpeg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div><div class="column center" style="width:40%;">
-<p><br><br> ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?</p>
-</div><div class="column fragment" data-fragment-index="1" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/storytelling/spotify2.jpeg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="section-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Regla de Storytelling #2</strong></p>
-</div>
-<div class="callout-content">
-<p>Los detalles son importantes, <span class="fragment">pero no <strong>todos</strong> los detalles son importantes.</span></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="ejemplos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Ejemplos</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/dst_before.png" class="quarto-figure quarto-figure-center"> <em>🔢 No compartas números</em></p>
-</div><div class="column fragment" style="width:50%;">
-<p><img data-src="images/dst_after.png" class="quarto-figure quarto-figure-center"> <em>🪶Comparte una historia</em></p>
-</div></div>
-<div class="fragment">
-<p><br><br> <span style="font-size: 0.75em; color: gray">(C) Storytelling with Data, por Cole Nussbaumer Knaflic.</span></p>
-</div>
-</section>
-<section id="section-3" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Regla de Storytelling #3</strong></p>
-</div>
-<div class="callout-content">
-<p>Tu primera versión <strong>siempre</strong> será horrible.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="ejemplos-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Ejemplos</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/gh_before.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/gh_after.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-<div class="fragment">
-<div style="text-align: center;">
-<p>🥱 1° versión <span class="math inline">\(&lt;\)</span> … <span class="math inline">\(&lt;\)</span> 😊 última versión</p>
-</div>
-</div>
-</section>
-<section id="usar-chatbots-de-ia-para" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Usar chatbots de IA para:</h2>
-<div class="columns">
-<div class="column" style="width:65%;">
+<section id="por-qué-quarto" class="slide level2" data-transition="zoom">
+<h2>¿Por qué Quarto?</h2>
+
+<img data-src="images/horst_quarto_ball_straight.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%" alt="Quarto logo."></section>
+<section id="por-qué-quarto-1" class="slide level2" data-transition="zoom">
+<h2>¿Por qué Quarto?</h2>
 <p><br></p>
-<ul>
-<li>Plantillas personalizadas a medida</li>
-<li>Automatizar estructura del contenido</li>
-<li>Ahorro de tiempo en diseño</li>
-<li>Adaptación al estilo y preferencias</li>
-</ul>
-</div><div class="column fragment" style="width:35%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/ai/template.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="usar-chatbots-de-ia-para-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Usar chatbots de IA para:</h2>
 <div class="columns">
-<div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Analogías y ejemplos</li>
-<li>Mejores traducciones</li>
-<li>Prompts para crear imágenes</li>
-<li>No busques imágenes, créalas!</li>
-</ul>
-</div><div class="column fragment" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/ai/choice.jpeg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="section-4" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Regla de Storytelling #4</strong></p>
-</div>
-<div class="callout-content">
-<p><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="explicar-menos-y-mostrar-más" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-2"><a></a></span>
-<span id="cb1-3"><a></a><span class="co"># Datos de ejemplo</span></span>
-<span id="cb1-4"><a></a>x <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
-<span id="cb1-5"><a></a>y <span class="op">=</span> [<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">7</span>]</span>
-<span id="cb1-6"><a></a></span>
-<span id="cb1-7"><a></a><span class="co"># Generamos el gráfico</span></span>
-<span id="cb1-8"><a></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
-<span id="cb1-9"><a></a>plt.plot(x, y, marker<span class="op">=</span><span class="st">'o'</span>)</span>
-<span id="cb1-10"><a></a>plt.title(<span class="st">"Gráfico de Ejemplo"</span>)</span>
-<span id="cb1-11"><a></a>plt.xlabel(<span class="st">"Eje X"</span>)</span>
-<span id="cb1-12"><a></a>plt.ylabel(<span class="st">"Eje Y"</span>)</span>
-<span id="cb1-13"><a></a>plt.grid(<span class="va">True</span>)</span>
-<span id="cb1-14"><a></a>plt.show()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
-</div><div class="column fragment" style="width:50%;">
-<div id="609cbd99" class="cell" data-execution_count="1">
-<div class="cell-output cell-output-display">
-<div>
-<figure>
-<p><img data-src="presentacion_pyladies_files/figure-revealjs/cell-2-output-1.png" width="502" height="377"></p>
-</figure>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section id="explicar-menos-y-mostrar-más-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
-<div id="qpyodide-insertion-location-1"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="agenda-v2-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Agenda (v2)</h2>
-<ol type="1">
-<li class="fragment">Nunca reveles el <span class="fragment" style="color:grey;"><strong>final</strong></span></li>
-<li class="fragment">Los detalles son importantes, pero <span class="fragment" style="color:grey;">no <strong>todos</strong> los detalles son importantes</span></li>
-<li class="fragment">Tu primera versión será <span class="fragment" style="color:grey;"><strong>horrible</strong></span></li>
-<li class="fragment">Muestra, no <span class="fragment" style="color:grey;"><strong>cuentes</strong></span></li>
-</ol>
-<aside class="notes">
-<p>Opción 2: Una agenda misteriosa.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="section-5" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Visualización</span></p>
-<p><span style="font-size: 2em">¿Qué es la Visualización?</span></p>
-</div>
-</section>
-<section id="visualización" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Visualización…</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Convierte datos en gráficos para facilitar su comprensión.</li>
-<li>Destaca patrones y tendencias de forma clara.</li>
-</ul>
-</div><div class="column fragment" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/ojo.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="ejemplos-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Ejemplos</h2>
-<div class="columns">
-<div class="column" style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/vis_01.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-<p><em>❌ Mal Gráfico</em></p>
-</div><div class="column fragment" style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/vis_02.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
-</figure>
-</div>
-<p><em>✅ Buen Gráfico</em></p>
-</div></div>
-</section>
-<section id="cuarteto-de-anscombe" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Cuarteto de ANSCOMBE</h2>
-<div class="columns">
-<div class="column" style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/canscombe_01.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="text-align: center;">
-<p><br> <img data-src="images/viz/canscombe_02.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</div></div>
-<div class="fragment" style="text-align:center">
-<p>📋 Tablas vs 📊 Gráficos</p>
-</div>
-</section>
-<section class="slide level2">
+<div class="column" style="width:5%;">
 
-<h3 data-background-image="images/background.jpg" data-background-size="cover" data-background-opacity="0.5" id="datasaurus">Datasaurus</h3>
-
-<img data-src="./images/viz/anscombe.gif" style="width:80.0%" class="r-stretch"></section>
-<section id="teoría-de-visualización" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Teoría de Visualización</h2>
-
-<img data-src="images/viz/teoria_vis2.webp" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%"></section>
-<section id="pilares-visualización---noah-iliinsky" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>4 Pilares Visualización - Noah Iliinsky</h2>
-<div class="columns">
-<div class="column fragment" style="width:60%;">
-<p><br></p>
-<ol type="1">
-<li><strong>Propósito</strong>: Define la meta.</li>
-<li><strong>Contenido</strong>: Datos relevantes.</li>
-<li><strong>Estructura</strong>: Organización clara.</li>
-<li><strong>Formato</strong>: Gráfico adecuado.</li>
-</ol>
 </div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-1_4.png" alt="Un cuadrante del logo de Quarto." width="50"> Un solo documento, múltiples formatos: HTML, PDF, presentaciones o sitios web.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-2_4.png" alt="Dos cuadrantes del logo de Quarto." width="50"> Materiales más accesibles y fáciles de usar, con soporte para la enseñanza y la inclusión.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div></div>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-3_4.png" alt="Tres cuadrantes del logo de Quarto." width="50"> Fácil de aprender: usa Markdown simple y cuenta con ayudas para empezar rápido.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-4_4.png" alt="Cuatro cuadrantes del logo de Quarto." width="50"> Flexibilidad total: integra texto, imágenes y código en R, Python, Julia u otros lenguajes.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div></div>
+</section>
+<section id="ejemplos" class="slide level2">
+<h2>Ejemplos</h2>
+<p><br></p>
+<div class="r-stack">
+<div class="fragment fade-in-then-out">
+<iframe src="https://sethnut.com/resources/talks/es/2025-emma-cc/index.html" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen="">
+</iframe>
+</div>
+<div class="fragment fade-in-then-out">
+<iframe src="https://sethnut.com/talks/latex_2025/presentacion_emma.html#/title-slide" width="1200" height="700" frameborder="0" scrolling="no" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen="">
+</iframe>
+</div>
+<div class="fragment">
+<iframe src="https://sethnut.com/ws-usm_uchile-2025/" width="1200" height="700" frameborder="0" scrolling="si" style="max-width:100%; border:1px solid #CCC; border-radius:10px;" allowfullscreen="">
+</iframe>
+</div>
+</div>
+</section>
+<section id="quarto-organiza-cada-paso-del-renderizado" class="slide level2 takeaway center">
+<h2>Quarto organiza<br>cada paso del renderizado</h2>
+<div class="fragment fade-up">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/viz/pilar2.png" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="images/horst_qmd_render_schema.png" class="quarto-figure quarto-figure-center" alt="Esquema que representa el proceso de renderizado de documentos Quarto: desde .qmd, pasando por knitr o jupyter, a Markdown en texto plano, y luego convertido con pandoc a múltiples formatos de salida como HTML, PDF o Word."></p>
 </figure>
 </div>
-</div></div>
-<div class="fragment">
-<p><span style="font-size: 0.75em; color: gray">(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube.</span></p>
 </div>
 </section>
-<section id="qué-gráficos-son-buenos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Qué Gráficos son buenos?</h2>
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-<p><img src="images/viz/chart_01.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_04.png" style="width: 75%; height: auto;"></p>
-<p><img src="images/viz/chart_03.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_05.png" style="width: 70%; height: auto;"></p>
-<p><img src="images/viz/chart_02.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_07.png" style="width: 85%; height: auto;"></p>
-</div>
-<div class="fragment">
-<p><span style="font-size: 0.75em; color: gray">(C) Essential chart types for data visualization, por Atlassian.</span></p>
-</div>
-</section>
-<section id="section-6" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Herramientas</span></p>
-<p><span style="font-size: 2em">Herramientas de Visualización</span></p>
-</div>
-</section>
-<section id="herramientas-para-presentación" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Herramientas para presentación</h2>
+<section id="quarto-facilita-el-cambio-entre-formatos" class="slide level2 takeaway center">
+<h2>Quarto facilita el cambio entre formatos</h2>
 <div class="columns">
-<div class="column" style="width:60%;">
+<div class="column" style="width:33%;">
+<div class="fragment">
+<p>Document</p>
+<div class="code-file sourceCode cell-code">
+<p><i class="fa-solid fa-file"></i> lesson-1.qmd</p>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Lesson 1"</span></span>
+<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> html</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p>Presentation</p>
+<div class="code-file sourceCode cell-code">
+<p><i class="fa-solid fa-file"></i> lesson-1.qmd</p>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Lesson 1"</span></span>
+<span id="cb2-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> revealjs</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div><div class="column" style="width:33%;">
+<div class="fragment">
+<p>Website</p>
+<div class="code-file sourceCode cell-code">
+<p><i class="fa-solid fa-file"></i> _quarto.yml</p>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span></span>
+<span id="cb3-2"><a aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">type</span><span class="kw">:</span><span class="at"> website</span></span>
+<span id="cb3-3"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a aria-hidden="true" tabindex="-1"></a><span class="fu">website</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb3-5"><a aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">navbar</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb3-6"><a aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">left</span><span class="kw">:</span></span>
+<span id="cb3-7"><a aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> lesson-1.qmd</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="colaborar" class="title-slide slide level1 title-top-ice center" data-background-image="images/horst_penguins_telescope.png" data-state="no-logo">
+<h1>Colaborar</h1>
+
+</section>
+<section id="primeros-pasos-con-quarto" class="slide level2" data-transition="zoom">
+<h2>Primeros Pasos con Quarto</h2>
+
+<img data-src="images/horst_quarto_ball_straight.png" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%" alt="Quarto logo."></section>
+<section id="instalar-y-configurar-quarto" class="slide level2" data-transition="zoom">
+<h2>Instalar y configurar Quarto</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/horst_quarto_ball_straight.png" alt="Overleaf" style="width: 90%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
+<p><br></p>
 <ul>
-<li><strong>Clásica</strong>: PowerPoint</li>
-<li><strong>“Show don’t tell”</strong>:
+<li class="fragment"><strong>Descarga e instalación:</strong>
 <ul>
-<li>Quarto</li>
-<li>Streamlit</li>
+<li class="fragment"><a href="https://quarto.org/docs/get-started/">Quarto.org</a> (Windows, macOS y Linux)</li>
 </ul></li>
-<li><strong>Otros</strong>: Canvas, Revealjs, Prezi</li>
+<li class="fragment"><strong>Verificación:</strong>
+<ul>
+<li class="fragment">Ejecutar <code>quarto check</code> en la terminal</li>
+</ul></li>
+<li class="fragment"><strong>Editores recomendados:</strong>
+<ul>
+<li class="fragment"><a href="https://posit.co/download/rstudio/">RStudio</a> , <a href="https://marketplace.visualstudio.com/items?itemName=quarto.quarto">VSCode + Quarto Extension</a></li>
+</ul></li>
 </ul>
-</div><div class="column" style="width:40%;">
+</div></div>
+</section>
+<section id="instalar-y-configurar-quarto-1" class="slide level2" data-transition="fade">
+<h2>Instalar y configurar Quarto</h2>
+<p><br></p>
+<div class="r-stack">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/presentacion2.png" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="images/inst1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" style="width:100.0%"></p>
 </figure>
 </div>
-</div></div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/inst4.png" class="fragment quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
 </section>
-<section id="quarto" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Quarto</h2>
+<section id="section-1" class="slide level2 center" data-transition="zoom">
+<h2></h2>
+<div class="centered">
 <div class="columns">
-<div class="column" style="width:60%;">
-<p><br></p>
-<p>Un sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R).</p>
-</div><div class="column" style="width:40%;">
-<p><img data-src="images/quarto/quarto2.png"></p>
+<div class="column" style="width:45%;">
+<div class="borderbox">
+<p><img data-src="images/2-collaborate/tools-rstudio-ide.png" style="width:100.0%" alt="Screenshot of RStudio IDE"></p>
+</div>
+</div><div class="column" style="width:45%;">
+<div class="borderbox">
+<p><img data-src="images/2-collaborate/tools-vscode-ide.png" style="width:100.0%" alt="Screenshot of VS Code IDE"></p>
+</div>
+</div></div>
+</div>
+<div class="fragment">
+<div style="text-align: center;">
+<p>🌐 Asegúrate de tener instalado <a href="https://cran.r-project.org/">R</a> (<a href="https://posit.co/download/rstudio-desktop/">RStudio</a>) y/o <a href="https://www.python.org/">Python</a> (<a href="https://jupyter.org/">Jupyter</a>)</p>
+</div>
+</div>
+</section>
+<section id="section-2" class="slide level2 takeaway center">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><span style="font-size: 0.5em; color: gray">Código: hello.qmd</span></p>
+<pre><code>---
+title: "Hello, Quarto"
+format: html
+editor: visual
+---
+
+## Meet Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see &lt;https://quarto.org&gt;.
+
+## Meet the penguins
+
+![](https://raw.githubusercontent.com/quarto-dev/quarto-web/main/docs/get-started/hello/rstudio/lter_penguins.png){style="float:right;" fig-alt="Illustration of three species of Palmer Archipelago penguins: Chinstrap, Gentoo, and Adelie. Artwork by @allison_horst." width="401"}
+
+The `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io/palmerpenguins "palmerpenguins R package") package contains size measurements for `{r} nrow(penguins)` penguins from three species observed on three islands in the Palmer Archipelago, Antarctica.
+
+The plot below shows the relationship between flipper and bill lengths of these penguins.</code></pre>
+</div><div class="column" style="width:60%;">
+<p><span style="font-size: 0.5em; color: gray">HTML: hello.html</span></p>
+<iframe width="900" height="750" src="images/hello2.png"></iframe>
 </div></div>
 </section>
-<section id="section-7" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<section id="section-3" class="slide level2 takeaway center">
 <h2></h2>
 <div class="columns">
 <div class="column" style="width:40%;">
@@ -1042,148 +870,636 @@ format:
 :::</code></pre>
 </div><div class="column" style="width:60%;">
 <p><span style="font-size: 0.5em; color: gray">Slides: example.html</span></p>
-<iframe width="600" height="400" src="images/quarto/quarto_min.html"></iframe>
+<iframe width="800" height="600" src="images/quarto_min.html"></iframe>
 </div></div>
+</section></section>
+<section>
+<section id="enseñar" class="title-slide slide level1 title-middle-ice center" data-background-image="images/horst_quarto_penguins_teach.png" data-state="no-logo">
+<h1>Enseñar</h1>
+
 </section>
-<section id="streamlit" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Streamlit</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><br><br> Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python.</p>
-</div><div class="column" style="width:40%;">
-<p><br> <img data-src="./images/streamlit/streamlit.png"></p>
-</div></div>
-</section>
-<section id="streamlit-ejemplo" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Streamlit: Ejemplo</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb3-2"><a></a></span>
-<span id="cb3-3"><a></a><span class="co"># Título principal de la aplicación</span></span>
-<span id="cb3-4"><a></a>st.title(<span class="st">"Hola Streamlit"</span>)</span>
-<span id="cb3-5"><a></a></span>
-<span id="cb3-6"><a></a><span class="co"># Mensaje principal con nombres y emoticón fijos</span></span>
-<span id="cb3-7"><a></a>mensaje <span class="op">=</span> <span class="st">"Darwin y Patricia son mejores amigos 😊"</span></span>
-<span id="cb3-8"><a></a>st.write(mensaje)</span>
-<span id="cb3-9"><a></a></span>
-<span id="cb3-10"><a></a><span class="co"># Imagen decorativa</span></span>
-<span id="cb3-11"><a></a>st.image(</span>
-<span id="cb3-12"><a></a>    <span class="st">"https://www.svgrepo.com/show/397758/people-hugging.svg"</span>,</span>
-<span id="cb3-13"><a></a>    caption<span class="op">=</span><span class="st">"Amigos"</span>,</span>
-<span id="cb3-14"><a></a>    width<span class="op">=</span><span class="dv">200</span>  <span class="co"># Ajuste del tamaño de la imagen</span></span>
-<span id="cb3-15"><a></a>)</span>
-<span id="cb3-16"><a></a></span>
-<span id="cb3-17"><a></a><span class="co"># Footer</span></span>
-<span id="cb3-18"><a></a>st.markdown(</span>
-<span id="cb3-19"><a></a>    <span class="st">"""</span></span>
-<span id="cb3-20"><a></a><span class="st">    ---</span></span>
-<span id="cb3-21"><a></a><span class="st">    Gracias por usar esta aplicación interactiva 🎈</span></span>
-<span id="cb3-22"><a></a><span class="st">    """</span></span>
-<span id="cb3-23"><a></a>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
-</div><div class="column fragment" style="width:50%;">
+<section id="qué-podemos-hacer-con-quarto" class="slide level2" data-transition="zoom">
+<h2>¿ Qué podemos hacer con Quarto?</h2>
+<p><br><br></p>
+<div class="fragment">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/streamlit_example.png" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+<p><img data-src="images/3-teach/many-lang-qmd-to-output.png" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
 </figure>
 </div>
+</div>
+</section>
+<section id="código-con-estilo" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Código con Estilo</h2>
+<ul>
+<li>Más de 20 temas para resaltar tu código<br>
+</li>
+<li>El tema por defecto está optimizado para accesibilidad</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb6-1" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Define a server for the Shiny app</span></span>
+<span id="cb6-2" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a><span class="cf">function</span>(input, output) {</span>
+<span id="cb6-3" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb6-4" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  <span class="co"># Fill in the spot we created for a plot</span></span>
+<span id="cb6-5" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  output<span class="sc">$</span>phonePlot <span class="ot">&lt;-</span> <span class="fu">renderPlot</span>({</span>
+<span id="cb6-6" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>    <span class="co"># Render a barplot</span></span>
+<span id="cb6-7" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb6-8" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="código-en-movimiento" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Código en Movimiento</h2>
+<ul>
+<li>Más de 20 estilos de resaltado listos para usar<br>
+</li>
+<li>Tema por defecto diseñado para máxima accesibilidad</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb7-1" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a><span class="co"># Define a server for the Shiny app</span></span>
+<span id="cb7-2" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a><span class="cf">function</span>(input, output) {</span>
+<span id="cb7-3" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb7-4" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  <span class="co"># Fill in the spot we created for a plot</span></span>
+<span id="cb7-5" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  output<span class="sc">$</span>phonePlot <span class="ot">&lt;-</span> <span class="fu">renderPlot</span>({</span>
+<span id="cb7-6" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>    <span class="co"># Render a barplot</span></span>
+<span id="cb7-7" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>    <span class="fu">barplot</span>(WorldPhones[,input<span class="sc">$</span>region]<span class="sc">*</span><span class="dv">1000</span>, </span>
+<span id="cb7-8" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>            <span class="at">main=</span>input<span class="sc">$</span>region,</span>
+<span id="cb7-9" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>            <span class="at">ylab=</span><span class="st">"Number of Telephones"</span>,</span>
+<span id="cb7-10" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>            <span class="at">xlab=</span><span class="st">"Year"</span>)</span>
+<span id="cb7-11" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb7-12" class="hljs-ln-code"><a aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="enfoque-en-líneas" class="slide level2">
+<h2>Enfoque en Líneas</h2>
+<ul>
+<li>Señala las líneas clave para mayor claridad<br>
+</li>
+<li>Agrega resaltados paso a paso</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" data-code-line-numbers="4-5|7|10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb8-2"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb8-3"><a></a></span>
+<span id="cb8-4"><a></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
+<span id="cb8-5"><a></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
+<span id="cb8-6"><a></a>fig, ax <span class="op">=</span> plt.subplots(subplot_kw<span class="op">=</span>{<span class="st">'projection'</span>: <span class="st">'polar'</span>})</span>
+<span id="cb8-7"><a></a>ax.plot(theta, r)</span>
+<span id="cb8-8"><a></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
+<span id="cb8-9"><a></a>ax.grid(<span class="va">True</span>)</span>
+<span id="cb8-10"><a></a>plt.show()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="código-ejecutable" class="slide level2">
+<h2>Código Ejecutable</h2>
+<div id="1be4a2b1" class="cell" data-fig-height="4.5" data-fig-width="10" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb9-2"><a aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb9-3"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a aria-hidden="true" tabindex="-1"></a>mpg <span class="op">=</span> sns.load_dataset(<span class="st">"mpg"</span>)</span>
+<span id="cb9-5"><a aria-hidden="true" tabindex="-1"></a>sns.scatterplot(data<span class="op">=</span>mpg, x<span class="op">=</span><span class="st">"horsepower"</span>, y<span class="op">=</span><span class="st">"mpg"</span>)</span>
+<span id="cb9-6"><a aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure>
+<p><img data-src="presentacion_uah_files/figure-revealjs/cell-2-output-1.png" width="808" height="429"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="ecuaciones-en-latex" class="slide level2">
+<h2>Ecuaciones en LaTeX</h2>
+<p>Renderizado de ecuaciones a HTML con <a href="https://www.mathjax.org/">MathJax</a>.</p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode tex code-with-copy"><code class="sourceCode latex"><span id="cb10-1"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">gather*</span>}</span>
+<span id="cb10-2"><a aria-hidden="true" tabindex="-1"></a><span class="ss">a_1=b_1+c_1</span><span class="sc">\\</span></span>
+<span id="cb10-3"><a aria-hidden="true" tabindex="-1"></a><span class="ss">a_2=b_2+c_2-d_2+e_2</span></span>
+<span id="cb10-4"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">gather*</span>}</span>
+<span id="cb10-5"><a aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\begin</span>{<span class="ex">align</span>}</span>
+<span id="cb10-7"><a aria-hidden="true" tabindex="-1"></a><span class="ss">a_{11}&amp; =b_{11}&amp;</span></span>
+<span id="cb10-8"><a aria-hidden="true" tabindex="-1"></a><span class="ss">  a_{12}&amp; =b_{12}</span><span class="sc">\\</span></span>
+<span id="cb10-9"><a aria-hidden="true" tabindex="-1"></a><span class="ss">a_{21}&amp; =b_{21}&amp;</span></span>
+<span id="cb10-10"><a aria-hidden="true" tabindex="-1"></a><span class="ss">  a_{22}&amp; =b_{22}+c_{22}</span></span>
+<span id="cb10-11"><a aria-hidden="true" tabindex="-1"></a><span class="kw">\end</span>{<span class="ex">align</span>}</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</div><div class="column" style="width:60%;">
+<span class="math display">\[\begin{gather*}
+a_1=b_1+c_1\\
+a_2=b_2+c_2-d_2+e_2
+\end{gather*}\]</span>
+<span class="math display">\[\begin{align}
+a_{11}&amp; =b_{11}&amp;
+  a_{12}&amp; =b_{12}\\
+a_{21}&amp; =b_{21}&amp;
+  a_{22}&amp; =b_{22}+c_{22}
+\end{align}\]</span>
+</div></div>
+</section>
+<section id="columnas-flexibles" class="slide level2">
+<h2>Columnas Flexibles</h2>
+<p>Acomoda texto, imágenes o código en columnas de varios tamaños.</p>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:35%;">
+<h4 id="motor-trend-car-road-tests">Motor Trend Car Road Tests</h4>
+<p>The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles.</p>
+</div><div class="column" style="width:3%;">
+
+</div><div class="column" style="width:62%;">
+<div id="5e8a1e5e" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display" data-execution_count="2">
+<style type="text/css">
+</style>
+
+<table id="T_273e9" class="caption-top">
+<thead>
+<tr class="header">
+<th id="T_273e9_level0_col0" class="col_heading level0 col0" data-quarto-table-cell-role="th">mpg</th>
+<th id="T_273e9_level0_col1" class="col_heading level0 col1" data-quarto-table-cell-role="th">cyl</th>
+<th id="T_273e9_level0_col2" class="col_heading level0 col2" data-quarto-table-cell-role="th">disp</th>
+<th id="T_273e9_level0_col3" class="col_heading level0 col3" data-quarto-table-cell-role="th">hp</th>
+<th id="T_273e9_level0_col4" class="col_heading level0 col4" data-quarto-table-cell-role="th">wt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td id="T_273e9_row0_col0" class="data row0 col0">18.000000</td>
+<td id="T_273e9_row0_col1" class="data row0 col1">8</td>
+<td id="T_273e9_row0_col2" class="data row0 col2">307.000000</td>
+<td id="T_273e9_row0_col3" class="data row0 col3">130.000000</td>
+<td id="T_273e9_row0_col4" class="data row0 col4">3504</td>
+</tr>
+<tr class="even">
+<td id="T_273e9_row1_col0" class="data row1 col0">15.000000</td>
+<td id="T_273e9_row1_col1" class="data row1 col1">8</td>
+<td id="T_273e9_row1_col2" class="data row1 col2">350.000000</td>
+<td id="T_273e9_row1_col3" class="data row1 col3">165.000000</td>
+<td id="T_273e9_row1_col4" class="data row1 col4">3693</td>
+</tr>
+<tr class="odd">
+<td id="T_273e9_row2_col0" class="data row2 col0">18.000000</td>
+<td id="T_273e9_row2_col1" class="data row2 col1">8</td>
+<td id="T_273e9_row2_col2" class="data row2 col2">318.000000</td>
+<td id="T_273e9_row2_col3" class="data row2 col3">150.000000</td>
+<td id="T_273e9_row2_col4" class="data row2 col4">3436</td>
+</tr>
+<tr class="even">
+<td id="T_273e9_row3_col0" class="data row3 col0">16.000000</td>
+<td id="T_273e9_row3_col1" class="data row3 col1">8</td>
+<td id="T_273e9_row3_col2" class="data row3 col2">304.000000</td>
+<td id="T_273e9_row3_col3" class="data row3 col3">150.000000</td>
+<td id="T_273e9_row3_col4" class="data row3 col4">3433</td>
+</tr>
+<tr class="odd">
+<td id="T_273e9_row4_col0" class="data row4 col0">17.000000</td>
+<td id="T_273e9_row4_col1" class="data row4 col1">8</td>
+<td id="T_273e9_row4_col2" class="data row4 col2">302.000000</td>
+<td id="T_273e9_row4_col3" class="data row4 col3">140.000000</td>
+<td id="T_273e9_row4_col4" class="data row4 col4">3449</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div></div>
+</section>
+<section id="tabsets" class="slide level2">
+<h2>Tabsets</h2>
+<p>Crea bloques con pestañas que permiten alternar entre distintos contenidos.</p>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Plot</a></li><li><a href="#tabset-1-2">Data</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<div id="af2b9f41" class="cell" data-execution_count="3">
+<div class="cell-output cell-output-display">
+<div>
+<figure>
+<p><img data-src="presentacion_uah_files/figure-revealjs/cell-4-output-1.png" width="957" height="523"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2">
+<div id="a43af7e9" class="cell" data-execution_count="4">
+<div class="cell-output cell-output-display" data-execution_count="4">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+
+<table class="dataframe caption-top" data-border="1">
+<thead>
+<tr class="header" style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">x</th>
+<th data-quarto-table-cell-role="th">y</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">0</th>
+<td>-2.000000</td>
+<td>12.000000</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">1</th>
+<td>-1.929293</td>
+<td>11.510050</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">2</th>
+<td>-1.858586</td>
+<td>11.030099</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th">3</th>
+<td>-1.787879</td>
+<td>10.560147</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th">4</th>
+<td>-1.717172</td>
+<td>10.100194</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="gráficos-interactivos" class="slide level2">
+<h2>Gráficos Interactivos</h2>
+<div data-align="center">
+<iframe src="images/demo.html" width="1400" height="750" style="border: none; box-shadow: 0px 4px 12px rgba(0,0,0,0.2); border-radius: 10px;">
+</iframe>
+</div>
+</section></section>
+<section>
+<section id="reimaginar" class="title-slide slide level1 title-top-ice center" data-background-image="images/horst_quarto_penguins_reimagine.png" data-state="no-logo">
+<h1>Reimaginar</h1>
+
+</section>
+<section id="el-poder-de-las-extensiones-en-quarto" class="slide level2">
+<h2>El poder de las extensiones en Quarto</h2>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/3-teach/many-qmd-to-output.svg" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="extensiones-de-quarto" class="slide level2">
+<h2>Extensiones de Quarto</h2>
+<div class="columns">
+<div class="column fragment" style="width:60%;">
+<p><br><br></p>
+<p>Las <strong>extensiones</strong> de Quarto permiten añadir nuevas características y potenciar su uso.</p>
+<p><br></p>
+<blockquote>
+<p>🔧Necesitas más poder? Usa <a href="https://quarto.org/docs/extensions/">Extensions</a></p>
+</blockquote>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/quarto-ext.png"></p>
+</div></div>
+</section>
+<section id="quarto-quiz" class="slide level2">
+<h2>Quarto Quiz</h2>
+<div class="columns">
+<div class="column fragment" style="width:60%;">
+<p><br><br></p>
+<p>La extensión <strong>Quarto Quiz</strong> permite crear preguntas directamente en tus presentaciones.</p>
+<p><br></p>
+<blockquote>
+<p>📚 Más info: <a href="https://github.com/quarto-ext/quiz">Quarto Quiz Extension</a></p>
+</blockquote>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/quiz.png"></p>
+</div></div>
+</section>
+<section id="ejemplo" class="slide level2 quiz-question">
+<h2>Ejemplo</h2>
+<p><br></p>
+<p>¿Cómo te ha parecido la presentación hasta ahora?</p>
+<ul>
+<li><span class="correct">Me encantó 😍</span></li>
+<li>Más o menos 🤔<br>
+</li>
+<li>Tal vez podría mejorar 🙂<br>
+</li>
+<li>No me gustó mucho 😕</li>
+</ul>
+</section>
+<section id="quarto-webr-pyodide" class="slide level2">
+<h2>Quarto WebR + Pyodide</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br></p>
+<ol type="1">
+<li><p><a href="https://docs.r-wasm.org/webr/latest/">WebR</a>: Ejecuta código R en el navegador, sin necesidad de instalación.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># To install WebR in your environment</span></span>
+<span id="cb11-2"><a aria-hidden="true" tabindex="-1"></a><span class="ex">remotes::install_github</span><span class="er">(</span><span class="st">"attiyap/WebR"</span><span class="kw">)</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><a href="https://quarto.thecoatlessprofessor.com/pyodide/">Pyodide</a>: Lo mismo, pero para Python.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a aria-hidden="true" tabindex="-1"></a><span class="co"># To install Pyodide</span></span>
+<span id="cb12-2"><a aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install pyodide</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div></li>
+</ol>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/webr.png"></p>
+</div></div>
+<aside class="notes">
+<p>WebR and Pyodide run code directly in the browser.<br>
+No setup, no installs — just share and run.<br>
+Perfect for teaching, demos, and interactive content.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ejemplo-1" class="slide level2">
+<h2>Ejemplo</h2>
+<div id="qpyodide-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<aside class="notes">
+<p>This is a live R example.</p>
+<p>Why run it live?</p>
+<p>Because people learn better when they see and try.<br>
+No setup, no install — just code and results.<br>
+That’s the power of WebR.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="shiny" class="slide level2">
+<h2>Shiny</h2>
+<div class="columns">
+<div class="column fragment" style="width:60%;">
+<p><br></p>
+<p><strong>Shiny</strong> es un paquete de R que permite crear de manera sencilla aplicaciones interactivas usando R<br>
+(también disponible para Python).</p>
+<p><br></p>
+<blockquote>
+<p>📚 Más info: <a href="https://shiny.posit.co/">Shiny - Posit</a></p>
+</blockquote>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/shiny.png"></p>
+</div></div>
+</section>
+<section id="ejemplo-2" class="slide level2">
+<h2>Ejemplo</h2>
+<p><br></p>
+
+<img data-src="https://shiny.posit.co/r/articles/improve/debugging/kmeans-showcase.gif" style="width:80.0%" class="r-stretch"><aside class="notes">
+<p>Shiny apps let people interact with your data.<br>
+Change inputs — see results instantly.<br>
+Perfect for exploring and communicating insights.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="quarto-shinylive" class="slide level2">
+<h2>Quarto Shinylive</h2>
+<div class="columns">
+<div class="column fragment" style="width:60%;">
+<p><br></p>
+<ul>
+<li>Despliega aplicaciones <strong>Shiny</strong> que se ejecutan 100% en el navegador — con <strong>Python</strong> y <strong>R</strong>.<br>
+</li>
+<li>Sin servidores. Sin configuraciones. Solo escribe código y ejecútalo.<br>
+</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/shinylive.png"></p>
 </div></div>
 <div class="fragment">
-<div style="text-align: center; margin-top: -30px;">
-<p><a href="https://streamlit.io/playground?example=geospatial&amp;code=H4sIAAAAAAAAA4VTPY8TMRDt91eMTJOTLsldEDpASnECHTR8SKFDKJo4cxsHr23Z3ts7TunRCfHR0aA0dIgCISH6_BP-APkJjHc3JCcKtpnZGb_n52ePKpz1EUL0hIVWETDwT5bdgGerr7HUFpxXRiqHGqYEGgGdVhKlWn03WYi9qKKmjnhouTXasIi9xDBSU5qgB2kNY4P0ytUwuADLmTUUEie3T1Ve-i1naIAb7iftYmbdaVZeRW7e26CBNBRkAs5pR_NFKlNho5JM3muEbQiBTGq3jOCQWRz5YA1q9YorW8rM2GLi6RCGsCuQzuNYGVfGjnhcL4BDsQ_iPvpKGd6sQQ3-ixok1FOMXkmFjGsUs2_XgIE0yTix5x0xSmk6BUJptgdkmudivfx4lfh-ffr8--e7lK2XH7408c2yie9_iBe1F4_-sYxNqa_ZZRs7h3AqLlsDFmxpmw8WwFaxQ3Pr2UwsVG4DXG60L0S6ruaaWqZ6x-PcU87mlqxdFZhTeh3SeozqDBOkLnYy4E_MYnThbr9fVVUvnDHS2Z60RT_MbNW_eefo6NbtviPrNHVnZZ4rk6dlYr9GS3SRLRqK41paWy0DjaXVZWHGlZrG2fAEdaCm1xQGBwcALHRehkgsTkPEAlffbDsCjeqsPs2JtZF8kl2gfzm1lWmVC1HHbrdbxwfpffNw8bixgvS2Qrw2TKAME6FMLsB6-fb1X5q97A_oi2bFpgMAAA" style="font-size: 0.75em; color: gray">(C) Ejemplo en Streamlit - Playground.</a></p>
+<p><br></p>
+<div style="text-align: center; font-size: 1.2em;">
+<p>Sigue en tu presentación.<br>
+No pierdas el ritmo 🎯</p>
 </div>
 </div>
 </section>
-<section class="slide level2">
+<section id="ejemplo-3" class="slide level2">
+<h2>Ejemplo</h2>
+<pre class="shinylive-python" data-engine="python"><code>#| '!! shinylive warning !!': |
+#|   shinylive does not work in self-contained HTML documents.
+#|   Please set `embed-resources: false` in your metadata.
+#| standalone: true
+#| viewerHeight: 800
 
-<h3 id="streamlit-ejemplo-1">Streamlit: Ejemplo</h3>
+from shiny import App, ui, render, reactive
+import matplotlib.pyplot as plt
+import io
+import base64
 
-<img src="./images/streamlit/Streamlit-Prophet.gif" style="width:50%;" class="r-stretch"></section>
-<section id="html-webapps" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>HTML &amp; webapps</h2>
+# Function to generate the plot dynamically based on input values
+def create_plot(yes_value, no_value):
+    categories = ['Sí', 'No']
+    values = [yes_value, no_value]
+
+    fig, ax = plt.subplots(figsize=(14, 5))
+    ax.bar(categories, values, color=['lightblue', 'salmon'])
+    ax.set_title('¿Te ha gustado la presentación?')
+
+    # Convert the image to base64 for display in Shiny
+    buf = io.BytesIO()
+    plt.savefig(buf, format="png")
+    plt.close(fig)
+    buf.seek(0)
+    encoded_image = base64.b64encode(buf.getvalue()).decode()
+    return f'&lt;img src="data:image/png;base64,{encoded_image}" style="max-width:100%;"&gt;'
+
+# UI definition
+app_ui = ui.page_fluid(
+    ui.h2("Encuesta Interactiva"),
+    
+    # Sliders to change values dynamically
+    ui.input_slider("yes_value", "Respuestas 'Sí':", min=0, max=50, value=20),
+    ui.input_slider("no_value", "Respuestas 'No'", min=0, max=50, value=10),
+    
+    # Output area for the plot
+    ui.output_ui("plot_output")
+)
+
+# Server function
+def server(input, output, session):
+    @output
+    @render.ui
+    def plot_output():
+        return ui.HTML(create_plot(input.yes_value(), input.no_value()))
+
+# Create the Shiny app
+app = App(app_ui, server)
+</code></pre>
+</section></section>
+<section>
+<section id="gracias" class="title-slide slide level1 title-top-dark center" data-background-image="images/horst_quarto_penguins_thankyou.png" data-state="no-logo">
+<h1>¡Gracias!</h1>
+
+</section>
+<section id="conclusiones" class="slide level2">
+<h2>Conclusiones</h2>
 <div class="columns">
-<div class="column fragment" style="width:50%;">
-<p>🛠️ Elige una herramienta</p>
-</div><div class="column fragment" style="width:50%;">
-<p>💡 La innovación destaca</p>
-</div></div>
+<div class="column" style="width:5%;">
 
-<img data-src="images/tools2.webp" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="flujo-de-decisión" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Flujo de decisión</h2>
-<p><br></p>
-<ul>
-<li class="fragment">🎤 <strong>PowerPoint</strong>: Presentación sin código de un solo uso</li>
-<li class="fragment">📚 <strong>Quarto</strong>: Charlas a partir de documentos relacionados</li>
-<li class="fragment">💻 <strong>Streamlit</strong>: Presentaciones interactivas (Python)</li>
-<li class="fragment">🎨 <strong>Más</strong>: Canvas, Revealjs, Prezi</li>
-</ul>
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-1_4.png" width="50"><br>
+<strong>Compartir</strong>: Un mismo <code>.qmd</code> genera HTML, PDF, slides o sitios web, pasando de lo estático a lo interactivo.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-2_4.png" width="50"><br>
+<strong>Colaborar</strong>: Con un archivo sencillo ya se puede crear y publicar material reproducible, iniciando el trabajo en equipo.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div></div>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-3_4.png" width="50"><br>
+<strong>Enseñar</strong>: Sus features integran texto, código y visualizaciones, mejorando la enseñanza con recursos dinámicos.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-4_4.png" width="50"><br>
+<strong>Reimaginar</strong>: Tecnologías como WebR, Pyodide o Shiny abren nuevas formas de aprender e innovar en educación.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div></div>
 </section>
-<section id="conclusión" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Conclusión</h2>
-<p><br></p>
-<ul>
-<li class="fragment"><strong>📖 Storytelling</strong>: Narrativas que cautivan a través de datos.<br>
-</li>
-<li class="fragment"><strong>📊 Visualización</strong>: Gráficos claros y atractivos.<br>
-</li>
-<li class="fragment"><strong>🛠️ Herramientas</strong>: Streamlit, Quarto, y más.</li>
-</ul>
+<section id="referencias-y-recursos" class="slide level2" data-transition="zoom">
+<h2>Referencias y Recursos</h2>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/horst_quarto_ball-4_4.png" width="50"><br>
+<strong>Documentación oficial</strong><br>
+🔗 <a href="https://quarto.org">quarto.org</a><br>
+Guías y ejemplos prácticos para comenzar de inmediato.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/youtube.png" width="50"><br>
+<strong>Aprendizaje en video</strong><br>
+🔗 <a href="https://www.youtube.com/watch?v=_VKxTPWDhA4&amp;t=3677s">Crash Course en YouTube</a><br>
+Introducción práctica a Quarto y sus distintos usos.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div></div>
+<div class="columns">
+<div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/github.png" width="50"><br>
+<strong>Recursos de la comunidad</strong><br>
+🔗 <a href="https://github.com/mine-cetinkaya-rundel">Mine Cetinkaya-Rundel</a><br>
+Cursos, libros y presentaciones en Quarto en GitHub.</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:40%;">
+<div class="bulletbox">
+<div class="fragment fade-in-then-semi-out">
+<p><img data-src="images/hat.png" width="50"><br>
+<strong>Aplicaciones en educación</strong><br>
+🔗 <a href="https://sethnut.com/resources/">sethnut.com/resources</a><br>
+Olimpiada Matemática, Verano Matemático, EMMA y más!</p>
+</div>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div></div>
 </section>
-<section id="gracias-por-participar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<section id="gracias-por-participar" class="slide level2">
 <h2>🎉 ¡Gracias por Participar!</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><br></p>
 <p>❓¿Preguntas?</p>
-<p>👏 Responder <a href="https://docs.google.com/forms/d/e/1FAIpQLScdkSSY40VsN_uEXsNK5LYP-qngUVvaO-c8qItr163zzvpzZA/viewform?usp=sf_link">encuesta</a></p>
-<p>🥳 Gracias de Nuevo</p>
+<p>👏 Responder <a href="https://docs.google.com/forms/d/e/1FAIpQLSe289NjaExiVGSzHlGxDQTYmkqff6N3WiOfNzhcKAtu6Vl7zw/viewform?usp=header">encuesta</a></p>
+<p>🥳 Disfrutar del Evento!</p>
 </div><div class="column" data-align="center" style="width:50%;">
-<p><img data-src="images/qr_visualizacion.png" width="400"></p>
+<p><img data-src="images/qr_uah.png" width="400"></p>
 </div></div>
 <blockquote>
-<p>🔗 Nuestro Sitio Web: <a href="https://sethnut.com/talks/">sethnut.com/talks</a>.</p>
+<p>🔗 Nuestro Sitio Web: <a href="https://sethnut.com/talks/">sethnut.com/talks</a></p>
 </blockquote>
 <style>
-/* Ajusta el tamaño del título y subtítulo */
-.reveal .slides h1 {
-  font-size: 2em; /* Tamaño más pequeño para el título */
-}
 
-.reveal .slides h2 {
-  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
-}
-
-/* Ajusta el tamaño del texto en los párrafos */
-.reveal .slides p {
-  font-size: 0.8em; /* Texto más pequeño */
-}
-
-/* Ajusta el tamaño de las tablas */
-.reveal .slides table {
-  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
-  width: 90%; /* Ajusta el ancho de la tabla */
-  margin: 0 auto; /* Centra la tabla */
-}
-
-/* Ajusta el tamaño de los bullets */
-.reveal .slides ul {
-  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
-
-}
 
 .reveal .slide-logo {
-   max-height: 3em !important;
-}
+   max-height: 2em !important;
 
+}
 
 </style>
 
 
-</section>
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
-<p><img src="images/pyladies.png" class="slide-logo"></p>
+<p><img src="images/uah2.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>
@@ -1196,6 +1512,7 @@ format:
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-quiz/quiz.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -1218,6 +1535,7 @@ format:
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'quiz': {"checkKey":"c","resetKey":"q","shuffleKey":"t","allowNumberKeys":true,"disableOnCheck":false,"shuffleOptions":true,"defaultCorrect":"","defaultIncorrect":"","includeScore":false,"disableReset":false},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -1343,7 +1661,7 @@ format:
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'slide',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -1363,9 +1681,9 @@ format:
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1050,
+        width: 1600,
 
-        height: 700,
+        height: 900,
 
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
@@ -1388,7 +1706,7 @@ format:
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealQuiz, QuartoSupport,
 
           RevealMath,
           RevealNotes,
