@@ -3,6 +3,7 @@ pagetitle: "Educación Abierta y Comunidad"
 author: 
   - Francisco Alfaro
   - Valeska Canales
+  - Dorian Villegas
 date: 16 oct 2025
 format: 
   revealjs:
@@ -21,7 +22,7 @@ filters:
 
 [<br>con Python y herramientas opensource]{.custom-subtitle}
 
-[Francisco Alfaro Medina <br> Valeska Canales Pozo]{.custom-author}
+[Francisco Alfaro Medina <br> Valeska Canales Pozo <br> Dorian Villegas Rojas]{.custom-author}
 
 [<https://sethnut.com/talks>]{.custom-url}
 

@@ -74,7 +74,7 @@ Cómo Google Colab y evaluaciones interactivas transformaron la experiencia educ
 
 Taller introductorio a Quarto, una herramienta para crear documentos, presentaciones y sitios web interactivos.\
 **Presentaciones:**\
-[Sumemos Ideas: Seminarios USM](hello-quarto/presentacion.html) · [Pycon Chile 2025](hello-quarto/presentacion_pycon.html)
+[Tercer ciclo de formación docente UAH](hello-quarto/presentacion_uah.html) · [Sumemos Ideas USM](hello-quarto/presentacion.html) · [Pycon Chile 2025](hello-quarto/presentacion_pycon.html)
 :::
 
 ::: card
