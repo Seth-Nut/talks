@@ -79,3 +79,4 @@ _others_
 _freeze
 *.ipynb
 site_libs/
+**/*.quarto_ipynb

@@ -16,7 +16,7 @@ filters:
 
 ## About me {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 ![](images/fralfaro.png){fig-align="center"}
 :::
@@ -29,7 +29,7 @@ filters:
 -   Lead Data Scientist at Grupo Security\
 -   Associate Lecturer at UTFSM
 :::
-:::
+:::::
 
 ::: notes
 My name is Francisco Alfaro Medina, also known as *fralfaro*.\
@@ -40,7 +40,7 @@ I'm a member of Python Chile, currently working as Lead Data Scientist at Grupo 
 
 ## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column .incremental width="30%"}
 -   
 
@@ -54,7 +54,7 @@ I'm a member of Python Chile, currently working as Lead Data Scientist at Grupo 
 ::: {.column .fragment width="70%"}
 <img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"/>
 :::
-:::
+:::::
 
 ::: notes
 Most talks start with a detailed agenda slide...\
@@ -68,14 +68,14 @@ I want this to feel more like a story we explore together, not a checklist.
 
 <br>
 
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center; font-size: 4rem;"}
+:::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center; font-size: 4rem;"}
 ::: callout-note
 ## Storytelling principle #1
 
 Never reveal the ending too soon.\
 [Always build up tension and drama]{.fragment}
 :::
-:::
+::::
 
 ::: notes
 Lesson #1 of Storytelling. NEVER kill the suspense. Storytelling Tip:\
@@ -121,7 +121,7 @@ OK, so, why data storytelling?
 
 ## What is Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/cave.jpg){fig-align="center" width="90%"}
 :::
@@ -129,7 +129,7 @@ OK, so, why data storytelling?
 ::: {.column .fragment width="50%"}
 ![](images/fire.jpg){fig-align="center" width="100%"}
 :::
-:::
+:::::
 
 . . .
 
@@ -149,7 +149,7 @@ Use it well.
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/storytelling/sketplanation.png){fig-align="center" width="90%"}\
 *Peak-End Rule*
@@ -159,7 +159,7 @@ Use it well.
 ![](images/storytelling/got.jpg){fig-align="center" width="100%"}\
 *Game of Thrones Rating, by Kelvin Neo*
 :::
-:::
+:::::
 
 ::: notes
 People remember peaks and endings.\
@@ -171,7 +171,7 @@ Plan your story with this in mind.
 
 ## Narrative {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 <br><br> Use **Storytelling tricks** (narrative) to create presentations that will be **remembered** and make an **impact**
 :::
@@ -179,7 +179,7 @@ Plan your story with this in mind.
 ::: {.column .fragment width="40%"}
 ![](images/emotions.png){fig-align="center"}
 :::
-:::
+:::::
 
 . . .
 
@@ -197,7 +197,7 @@ Facts inform — emotions inspire action.
 
 ## The best example {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+:::::: columns
 ::: {.column .fragment width="30%" fragment-index="1"}
 ![](images/storytelling/spotify1.png){fig-align="center"}
 :::
@@ -209,7 +209,7 @@ Facts inform — emotions inspire action.
 ::: {.column .fragment width="30%" fragment-index="1"}
 ![](images/storytelling/spotify2.png){fig-align="center"}
 :::
-:::
+::::::
 
 ::: notes
 Spotify Wrapped = storytelling with data.\
@@ -237,7 +237,7 @@ So, let me tell you about how visualization and storytelling are related.
 
 ## Examples {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column width="50%" style="text-align: center;"}
 ![](images/viz/vis_01.png){fig-align="center" width="90%"}
 
@@ -249,13 +249,13 @@ So, let me tell you about how visualization and storytelling are related.
 
 *✅ Good Chart*
 :::
-:::
+:::::
 
 ------------------------------------------------------------------------
 
 ## Examples {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/dst_before.png){fig-align="center"} *🔢 Don't share numbers*
 :::
@@ -263,7 +263,7 @@ So, let me tell you about how visualization and storytelling are related.
 ::: {.column .fragment width="50%"}
 ![](images/dst_after.png){fig-align="center"} *🪶 Share a story*
 :::
-:::
+:::::
 
 . . .
 
@@ -281,13 +281,13 @@ Show only what matters — everything else is noise.
 
 <br>
 
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center; font-size: 4rem;"}
+:::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center; font-size: 4rem;"}
 ::: callout-note
 ## Storytelling principle #2
 
 Details matter, [but not **all** details are important.]{.fragment}
 :::
-:::
+::::
 
 ::: notes
 Details guide attention.\
@@ -340,7 +340,7 @@ But it will help you tell it better — faster, clearer, and more creative.
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/gh_before.png){fig-align="center"}
 :::
@@ -348,7 +348,7 @@ But it will help you tell it better — faster, clearer, and more creative.
 ::: {.column .fragment width="50%"}
 ![](images/gh_after.png){fig-align="center"}
 :::
-:::
+:::::
 
 . . .
 
@@ -368,13 +368,13 @@ Storytelling is an iterative process.
 
 <br>
 
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center; font-size: 4rem;"}
+:::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center; font-size: 4rem;"}
 ::: callout-note
 ## Storytelling principle #3
 
 Your first draft will [**always** be horrible.]{.fragment}
 :::
-:::
+::::
 
 ::: notes
 Bad first drafts are normal.\
@@ -386,7 +386,7 @@ Refining comes later.
 
 ## From Ideas to Impact... Faster with AI {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column .fragment width="60%"}
 <br>
 
@@ -399,7 +399,7 @@ Refining comes later.
 ::: {.column .fragment width="40%"}
 ![](images/ai/choice.jpeg){fig-align="center"}
 :::
-:::
+:::::
 
 . . .
 
@@ -484,13 +484,13 @@ barplot(values, names.arg = categories, col = colors, main = "😊 Do you like t
 
 <br>
 
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center; font-size: 4rem;"}
+:::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center; font-size: 4rem;"}
 ::: callout-note
 ## Storytelling principle #4
 
 [Explain less]{style="color: red"}, [show more.]{.fragment style="color: green"}
 :::
-:::
+::::
 
 ::: notes
 Sometimes we write too much...\
@@ -502,7 +502,7 @@ Remember: Show, don’t tell.
 
 ## 📝 Quarto (+ Extensions) {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column .fragment width="60%"}
 <br><br>
 
@@ -516,7 +516,7 @@ Remember: Show, don’t tell.
 ::: {.column width="40%"}
 ![](images/quarto/quarto2.png)
 :::
-:::
+:::::
 
 ::: notes
 Quarto makes it easy to write, code, and share.\
@@ -528,7 +528,7 @@ One tool for writing, coding, and presenting.
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 [Código: example.qmd]{style="font-size: 0.5em; color: gray"}
 
@@ -568,7 +568,7 @@ format:
 <iframe width=600 height=400 src="images/quarto/quarto_min.html"></iframe>
 ```
 :::
-:::
+:::::
 
 ::: notes
 Write once in Quarto — export everywhere.\
@@ -580,7 +580,7 @@ Focus on content, let Quarto handle the rest.
 
 ## 🌐 Quarto WebR + Pyodide {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column width="59%"}
 <br>
 
@@ -602,7 +602,7 @@ Focus on content, let Quarto handle the rest.
 ::: {.column width="41%"}
 ![](images/quarto/pyodide.png)
 :::
-:::
+:::::
 
 ::: notes
 WebR and Pyodide run code directly in the browser.\
@@ -630,7 +630,7 @@ plt.show()
 
 ## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 <br><br>
 
@@ -640,7 +640,7 @@ plt.show()
 ::: {.column width="40%"}
 ![](images/streamlit/st.png)
 :::
-:::
+:::::
 
 ::: notes
 Streamlit lets you turn Python scripts into interactive apps.\
@@ -652,7 +652,7 @@ No HTML, CSS or JS needed.
 
 ## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
 
-![](https://blog.streamlit.io/content/images/2021/11/Streamlit-Prophet.gif){width="90%"}
+![](https://miro.medium.com/v2/resize:fit:1400/1*6BWaj0W5VZLXvvuygeJQhg.gif){width="90%"}
 
 ::: notes
 Shiny apps let people interact with your data.\
@@ -669,14 +669,14 @@ Perfect for exploring and communicating insights.
 
 ![](images/streamlit/st_cloud.png){.fragment .fade-in-then-out fig-align="center" width="60%"}
 
-![](https://blog.streamlit.io/content/images/2021/11/deploy_small.gif){.fragment fig-align="center" width="80%"}
+![](https://docs.streamlit.io/images/streamlit-community-cloud/workspace-view-only.png){.fragment fig-align="center" width="90%"}
 :::
 
 ------------------------------------------------------------------------
 
 ## 🌐 Quarto + Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column .fragment width="60%"}
 <br><br>
 
@@ -688,7 +688,7 @@ Perfect for exploring and communicating insights.
 ::: {.column width="40%"}
 ![](images/streamlit/st_quarto2.png)
 :::
-:::
+:::::
 
 . . .
 
@@ -719,7 +719,7 @@ Great for live demos without breaking the flow.
 
 ## 🔗 Useful Links {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column .incremental width="60%"}
 <br>
 
@@ -734,7 +734,7 @@ Great for live demos without breaking the flow.
 ::: {.column width="40%"}
 <br> ![](images/quarto/rwasm.png)
 :::
-:::
+:::::
 
 ::: notes
 If you want to go deeper — here are great resources.
@@ -779,7 +779,7 @@ Simple rules to tell better stories with data.
 
 ## 🎉 Thank You for Participating! {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br>
 
@@ -793,7 +793,7 @@ Simple rules to tell better stories with data.
 ::: {.column width="50%" align="center"}
 ![](images/qr_pycon.png){width="400"}
 :::
-:::
+:::::
 
 > 🔗 Visit our official site: [sethnut.com/talks](https://sethnut.com/talks/)
 
